@@ -4,6 +4,7 @@ import Typography from "@/shared/components/ui/Typography.astro"
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 import Section from "@/shared/components/Section.astro";
 import Button from "../Button.astro";
+import SectionGraphicProcess from "@/shared/components/sections/SectionGraphicProcess.astro"
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
 
 
@@ -53,6 +54,7 @@ bgClass="brightness-50"
             
             </div>
      </Section>
+<SectionGraphicProcess language={language} />
       <Section heading2={i18n.PAGES.OUR_COMPANY.SECTION_2.TITLE}
         className="flex flex-col max-w-none p-0 lg:mb-0"
         style="padding: 0; margin-left: 0; margin-right: 0;"
