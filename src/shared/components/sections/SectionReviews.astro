@@ -2,113 +2,188 @@
 import { type Review } from "@/types/types.ts";
 import Section from "@/shared/components/Section.astro";
 import { getI18N } from "@/shared/i18n";
+import Typography from "@/shared/components/ui/Typography.astro";
 
 interface Props {
   reviews: Review[];
   language: string;
 }
 
-const { language, reviews = [] } = Astro.props
+const { language, reviews = [] } = Astro.props;
 const i18n = getI18N({ language });
-
 ---
-<Section id={i18n.PAGES.HOME.REVIEWS_SECTION.ID} heading2={i18n.PAGES.HOME.REVIEWS_SECTION.TITLE}>
-<section class="reviews-section">
-  <div
-    id="reviews-container"
-    class="reviews-container"
-    data-reviews={JSON.stringify(reviews)}
-  >
-    {
-      reviews.slice(0, 3).map(({ autor, review }) => (
-        <div class="review-card">
-          <h4 >{review}</h4>
-          <p>📍 {autor}</p>
-          
-        </div>
-      ))
-    }
-  </div>
-</section>
-</Section>
-<style>
+
+<div class="bg-white cont text-black mb-12 rounded-lg max-w-[1200px] mx-auto">
+  <Section>
+    <Typography
+      tag="h2"
+      type="black"
+      className="font-bold text-center mb-12"
+      text={i18n.PAGES.HOME.REVIEWS_SECTION.TITLE}
+    />
+    <Typography
+      tag="h3"
+      type="black"
+      className="text-center mb-12"
+      text={i18n.PAGES.HOME.REVIEWS_SECTION.SUBTITLE}
+    />
+
+    <div class="reviews-wrapper">
+      <button id="prev-button" class="arrow-button">←</button>
+
+      <div
+        id="reviews-container"
+        class="reviews-container"
+        data-reviews={JSON.stringify(reviews)}
+      ></div>
+
+      <button id="next-button" class="arrow-button">→</button>
+    </div>
+  </Section>
+</div>
+
+<style is:global>
+  .reviews-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .arrow-button {
+
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: fit-content;
+  }
+
+  .arrow-button:hover {
+    background-color: #ddd;
+  }
+
   .reviews-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
-  opacity: 1;
-  transition: opacity 0.8s ease-in-out;
-  
-}
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    flex: 1;
+    opacity: 1;
+    transition: opacity 0.8s ease-in-out;
+  }
 
+  .reviews-container.fade-out {
+    opacity: 0;
+  }
 
-.reviews-container.fade-out {
-  opacity: 0;
-}
+  .review-card {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+  }
 
-.review-card {
-  flex: 1 1 calc(33.333% - 1rem);
-  box-sizing: border-box; 
-  min-width: 250px; 
-  border-radius: 0.5rem;
-  padding: 1rem;
-  overflow: hidden; 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; 
+  .review-card h4 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    word-break: break-word;
+  }
 
-}
+  .review-card p {
+    font-size: 0.9rem;
+    margin: 0;
+    color: #555;
+    font-style: italic;
+  }
 
-.review-card h4 {
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-  word-break: break-word; 
-}
+  @media (max-width: 840px) {
+    .reviews-container {
+      grid-template-columns: 1fr !important;
+    }
+    .review-card {
+    aspect-ratio: unset;
+    height: auto;
+    padding: 0.75rem;
+    font-size: 0.85rem;
+  }
 
-.review-card p {
-  font-size: 0.9rem;
-  margin: 0;
-  color: #555;
-  font-style: italic;
-}
+  .review-card h4 {
+    font-size: 0.95rem;
+  }
 
+  .review-card p {
+    font-size: 0.8rem;
+  }
+    .arrow-button {
+      padding: 0.5rem;
+    }
+  }
 </style>
 
 <script type="module">
-    document.addEventListener('DOMContentLoaded', () => {
-      const container = document.getElementById('reviews-container');
-      const reviewsData = container.getAttribute('data-reviews');
-      if (!reviewsData) return;
-  
-      const reviews = JSON.parse(reviewsData);
-      let currentIndex = 0;
-      const reviewsPerPage = 3;
-  
-      function updateReviews() {
-        
-        container.classList.add('fade-out');
-  
-       
-        setTimeout(() => {
-          currentIndex = (currentIndex + reviewsPerPage) % reviews.length;
-          const newReviews = reviews.slice(currentIndex, currentIndex + reviewsPerPage);
-          container.innerHTML = newReviews
-            .map(
-              (review) => `
-              <div class="review-card">
-                <h4>${review.review}</h4>
-                <p> 📍 ${review.autor}</p>
-                
-              </div>
-            `
-            )
-            .join('');
-  
-         
-          container.classList.remove('fade-out');
-        }, 800);
-      }
-  
-      setInterval(updateReviews, 20000); 
+  document.addEventListener('DOMContentLoaded', () => {
+    const container = document.getElementById('reviews-container');
+    const reviewsData = container.getAttribute('data-reviews');
+    if (!reviewsData) return;
+
+    const reviews = JSON.parse(reviewsData);
+    let currentIndex = 0;
+
+    function getReviewsPerPage() {
+      return window.innerWidth <= 640 ? 1 : 3;
+    }
+
+    function updateReviews() {
+      const reviewsPerPage = getReviewsPerPage();
+      container.classList.add('fade-out');
+
+      setTimeout(() => {
+        container.innerHTML = '';
+
+        for (let i = 0; i < reviewsPerPage; i++) {
+          const index = (currentIndex + i) % reviews.length;
+          const review = reviews[index];
+
+          const reviewCard = document.createElement('div');
+          reviewCard.classList.add('review-card');
+
+          const h4 = document.createElement('h4');
+          h4.textContent = review.review;
+
+          const p = document.createElement('p');
+          p.textContent = `📍 ${review.autor}`;
+
+          reviewCard.appendChild(h4);
+          reviewCard.appendChild(p);
+
+          container.appendChild(reviewCard);
+        }
+
+        container.classList.remove('fade-out');
+      }, 300);
+    }
+
+    document.getElementById('next-button').addEventListener('click', () => {
+      currentIndex = (currentIndex + getReviewsPerPage()) % reviews.length;
+      updateReviews();
     });
-  </script>
+
+    document.getElementById('prev-button').addEventListener('click', () => {
+      currentIndex =
+        (currentIndex - getReviewsPerPage() + reviews.length) % reviews.length;
+      updateReviews();
+    });
+
+    
+    window.addEventListener('resize', updateReviews);
+
+    updateReviews();
+  });
+</script>
