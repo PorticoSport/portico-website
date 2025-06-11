@@ -1851,6 +1851,55 @@
         }
       }
     },
+    "SECTION_FL_MI": {
+      "ID": "florida",
+      "TITLE": "Padel Courts Miami",
+      "SEO_TITLE":"Miami Padel Court Experts | Portico Sport",
+      "SEO_DESCRIPTION":"From floating courts to luxury indoor builds, Portico Sport leads padel court construction in Miami. Trusted partner of RacquetX and the padel boom in the U.S.",
+      "ROUTE": {
+        "LABEL": "Florida",
+        "URL": "/miami"
+      },
+      "SECTION_1": {
+        "TITLE": "Padel innovation meets Miami energy",
+        "DESCRIPTION": "<p>Miami is at the forefront of the padel boom in the U.S., and Portico Sport is proud to be part of that momentum. We’ve built standout projects here — from one of the first floating padel courts to indoor padel courts inside the largest outlet mall in the world.</p><p>We bring our European expertise and world-class engineering to one of America’s most exciting and fast-growing markets, where Miami padel courts are rapidly evolving to meet luxury and high-performance demands.</p><p>We're also a proud participant each year at <a href='https://theracquetx.com/' >RacquetX Miami</a>, showcasing our latest innovations in padel court construction.</p>"
+      },
+      "PROJECTS_SECTION": {
+        "ID": "projects",
+        "ID_GALLERY": "projects-gallery-mi",
+        "TITLE_GALLERY": "Padel courts projects in Miami",
+        "PATH": "florida/gallery"
+      },
+      "SECTION_2": {
+        "TITLE": "Building padel courts in Miami — From floating to indoor",
+        "SUBTITLE": "From South Beach to Doral, we help bring padel courts in Miami to life — faster, stronger, and smarter.",
+        "DESCRIPTION": "<p>Looking for <strong>padel courts in Miami</strong> that stand out? Whether you’re launching a rooftop project, developing a resort, or creating a private club, Portico Sport delivers solutions that blend design, performance, and climate resistance.</p><p>Our Miami-area expertise includes:</p>",
+        "ITEM_1": "Floating padel court expertise",
+        "DESCRIPTION_1": "pioneers in non-traditional court formats",
+        "ITEM_2": "Coastal durability",
+        "DESCRIPTION_2": "courts built to resist salt, humidity, and strong UV exposure",
+        "ITEM_3": "Premium aesthetics",
+        "DESCRIPTION_3": "custom finishes that align with Miami’s design culture",
+        "ITEM_4": "Efficient logistics",
+        "DESCRIPTION_4": "optimized shipping and delivery for reduced costs and faster builds"
+      },
+      "SECTION_3": {
+        "TITLE": "Why choose Portico Sport for your Miami padel court?",
+        "SUBTITLE": "<p>Whether you want to build an iconic floating court, a discreet rooftop setup, or a multi-court complex, Portico Sport is ready to deliver your vision.</p><p>Let’s bring padel to your next project.</p>",
+        "DESCRIPTION": "We don’t just build padel courts — we innovate and elevate them. With over 15 years of global experience and a growing local presence, we are your trusted partner for padel court construction in Miami.",
+       "BUTTON": {
+          "LABEL": "Contact Portico Sport today to get started",
+          "URL": "/client-contact",
+          "TITLE": "contact Portico Sport"
+        },
+         "LIST": [
+          "<p><strong>Experience that matters</strong> – 4,000+ courts installed worldwide, including Miami</p>",
+          "<p><strong>End-to-end service</strong> – from design to installation, handled by in-house experts</p>",
+          "<p><strong>Local + global teams</strong> – combining American logistics with European craftsmanship</p>",
+          "<p><strong>Future-ready designs</strong> – our courts are scalable, modular, and built to evolve</p>"
+        ]
+      }
+    },
     "COURTS": {
       "ID": "courts",
       "SEO_TITLE": "Padel Courts",
