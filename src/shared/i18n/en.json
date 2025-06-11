@@ -1784,6 +1784,71 @@
      }
     }
   },
+    "SECTION_FL": {
+      "ID": "florida",
+      "TITLE": "Padel Courts Florida",
+      "ROUTE": {
+        "LABEL": "Florida",
+        "URL": "/florida"
+      },
+      "SECTION_1": {
+        "TITLE": "Leading padel court development across Florida",
+        "DESCRIPTION": "<p>Florida is rapidly becoming a top destination for padel in the United States — and Portico Sport is proud to lead the way in padel court construction across the state. Whether you’re expanding a club, launching a private project, or building a full sports complex, our courts are built for Florida’s climate, lifestyle, and fast-growing demand.</p><p>From Miami and Orlando to Tampa, Jacksonville, and St. Petersburg, we deliver world-class infrastructure designed to perform and last.</p>"
+      },
+      "PROJECTS_SECTION": {
+        "ID": "projects",
+        "ID_GALLERY": "projects-gallery-fl",
+        "TITLE_GALLERY": "Padel courts projects in Florida",
+        "PATH": "florida/gallery"
+      },
+      "SECTION_2": {
+        "TITLE": "Benefits of padel court construction with Portico Sport",
+        "SUBTITLE": "With aesthetic excellence and robust engineering, Portico Sport is redefining padel court construction in Florida.",
+        "DESCRIPTION": "As one of the most experienced padel court builders globally, Portico Sport brings over 15 years of expertise to every project. Our mission is clear: high-performance courts, fast delivery, and exceptional design that elevates every player experience.",
+        "ITEM_1": "Tailored construction",
+        "DESCRIPTION_1": "Every court is adapted to your layout, budget, and location — no matter the challenge.",
+        "ITEM_2": "Built for Florida’s climate",
+        "DESCRIPTION_2": "UV-resistant, anti-corrosion, and weatherproof materials suited for heat, humidity, and coastal conditions.",
+        "ITEM_3": "Quick, scalable builds",
+        "DESCRIPTION_3": "Padel court solutions for efficient, large- or small-scale installations across Florida.",
+        "ITEM_4": "In-house manufacturing",
+        "DESCRIPTION_4": "Full control over design and production for unmatched quality and consistency.",
+        "ITEM_5": "Cutting-edge innovation",
+        "DESCRIPTION_5": "Full control over design and production for unmatched quality and consistency.",
+        "ITEM_6": "End-to-end client support",
+        "DESCRIPTION_6": "From planning to installation and beyond, our team is with you every step of the way."
+      },
+      "SECTION_3": {
+        "TITLE": "Find padel court builders in Florida",
+        "DESCRIPTION": "Looking for a trusted padel court supplier in Florida? Portico Sport provides wholesale and turnkey solutions for clubs, developers, and hospitality venues across the state. Whether you're based in Jacksonville, Tampa, or anywhere in between, we are your trusted partner for wholesale padel court construction. ",
+        "SUBTITLE": "<strong>Contact Portico Sport today</strong> to start your project — and build smarter, faster, and stronger with Florida’s leading padel court experts.",
+        "BUTTON_1": {
+          "TEXT": "Padel Court Builders Miami",
+          "URL": "/padel-court-usa/florida/miami",
+          "TITLE": "Portico Sport Miami"
+        },
+        "BUTTON_2": {
+          "TEXT": "Padel Court Builders Orlando",
+          "URL": "/padel-court-usa/florida/orlando",
+          "TITLE": "Portico Sport Miami"
+        },
+        "BUTTON_3": {
+          "TEXT": "Padel Court Builders South Tampa",
+          "URL": "/client-contact",
+          "TITLE": "Portico Sport Tampa"
+        },
+        "BUTTON_4": {
+          "TEXT": "Padel Court Builders Jacksonville",
+          "URL": "/client-contact",
+          "TITLE": "Portico Sport Jacksonville"
+        },
+        "BUTTON_5": {
+          "TEXT": "Padel Court Builders St.Petersburg",
+          "URL": "/client-contact",
+          "TITLE": "Portico Sport St.Petersburg"
+        }
+      }
+    },
     "COURTS": {
       "ID": "courts",
       "SEO_TITLE": "Padel Courts",
