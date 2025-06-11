@@ -20,8 +20,8 @@ const currentLocale = getCurrentLocale({ language });
 ---
 
 <Layout
-  title={i18n.PAGES.HOME.SEO_TITLE_CA}
-  description={i18n.PAGES.HOME.SEO_DESCRIPTION_CA}
+  title={i18n.PAGES.SECTION_FL.SEO_TITLE_CA}
+  description={i18n.PAGES.SECTION_FL.SEO_DESCRIPTION_CA}
   currentLocale={currentLocale}
   language={language}
   bgImage="/florida/Epic-Athletic-Club-3.webp"
@@ -59,7 +59,7 @@ const currentLocale = getCurrentLocale({ language });
       >
         <Typography
           tag="div"
-          className="mb-6"
+          className="mb-6 text-center"
           text={i18n.PAGES.SECTION_FL.SECTION_1.DESCRIPTION}
         />
       </Section>
@@ -164,8 +164,14 @@ const currentLocale = getCurrentLocale({ language });
 
       <Section
         heading2={i18n.PAGES.SECTION_FL.SECTION_3.TITLE}
-        subheading={i18n.PAGES.SECTION_FL.SECTION_3.SUBTITLE}
+        
       >
+        <Typography
+          tag="h3"
+          className="text-center mt-4"
+          text={i18n.PAGES.SECTION_FL.SECTION_3.SUBTITLE}
+        />
+
         <Typography
           tag="p"
           className="text-center mt-4"
