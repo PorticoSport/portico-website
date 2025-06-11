@@ -1,0 +1,196 @@
+---
+import { getI18N, getCurrentLocale } from "@/shared/i18n"
+import Section from '@/shared/components/Section.astro';
+import Typography from "@/shared/components/ui/Typography.astro";
+import Gallery from "../Gallery.astro"
+import Layout from "@/shared/layouts/Layout.astro";
+import "photoswipe/style.css";
+import Button from "src/shared/components/Button.astro";
+import ContactSectionEs from "@/shared/components/sections/ContactSectionIrl.astro";
+import { type Photo } from "@/types/types.ts";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import BentoItem from "@/shared/components/BentoItem.astro";
+import FeatureList from "@/shared/components/FeatureList.astro";
+
+interface Props {
+  language: string
+  gallery: Photo[]
+
+}
+
+const { language, gallery} = Astro.props
+const i18n = getI18N({ language })
+const currentLocale = getCurrentLocale({ language })
+
+---
+<Layout title={i18n.PAGES.HOME.SEO_TITLE_CA} 
+description={i18n.PAGES.HOME.SEO_DESCRIPTION_CA} 
+currentLocale={currentLocale} 
+language={language}
+bgImage="/florida/majakkapadel4.png"
+bgClass="brightness-50"
+>
+    
+<main class="flex flex-col gradient-bg relative">
+    <div class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4" >
+         <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.SECTION_FL_MI.TITLE} responsive />
+    </div>
+<div class="bg-main relative bg-background">
+        
+    <Breadcrumb
+        crumbs={[
+          { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
+          {label: i18n.PAGES.SECTION_FL_MI.ROUTE.LABEL, href: i18n.PAGES.SECTION_FL_MI.ROUTE.URL },
+        ]}
+    />
+
+    <Section 
+         id={i18n.PAGES.SECTION_FL_MI.ID} 
+         heading2={i18n.PAGES.SECTION_FL_MI.SECTION_1.TITLE}>
+         <Typography tag="div" className="mb-6" text={i18n.PAGES.SECTION_FL_MI.SECTION_1.DESCRIPTION}/>
+    </Section>
+
+    <Section heading2={i18n.PAGES.SECTION_FL_MI.PROJECTS_SECTION.TITLE_GALLERY}>
+        <Gallery
+        language={language}
+        photos={gallery}
+        offset={3}
+        path={i18n.PAGES.SECTION_FL_MI.PROJECTS_SECTION.PATH}
+        /> 
+   </Section>
+   <Section
+ id={i18n.PAGES.HOME.BENTO_SECTION.ID}
+ heading2={i18n.PAGES.SECTION_FL_MI.SECTION_2.TITLE}
+>
+ <div class="grid lg:grid-cols-10 auto-rows-[15rem] gap-4 mt-12">
+   <BentoItem
+     class="col-span-10 lg:col-span-4"
+     title={i18n.PAGES.SECTION_FL_MI.SECTION_2.ITEM_1}
+   >
+     <div
+       slot="image"
+       class="background transition-scale absolute bottom-0 left-0 top-0
+       -z-10 h-full w-full bg-white-30
+       bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+       data-src="/florida/majakkapadel7.webp"
+     >
+     </div>
+
+     <p
+       slot="content"
+       class="max-w-xl text-base md:text-lg"
+       set:html={i18n.PAGES.SECTION_FL_MI.SECTION_2.DESCRIPTION_1}
+     />
+   </BentoItem>
+   <BentoItem
+     class="col-span-10 lg:col-span-6"
+     title={i18n.PAGES.SECTION_FL_MI.SECTION_2.ITEM_2}
+   >
+     <div
+       slot="image"
+       class="background transition-scale absolute bottom-0 left-0 top-0
+   -z-10 h-full w-full bg-white-30
+   bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+       data-src="/innovation.webp"
+     >
+     </div>
+     <p
+       slot="content"
+       class="max-w-xl text-base md:text-lg"
+       set:html={i18n.PAGES.SECTION_FL_MI.SECTION_2.DESCRIPTION_2}
+     />
+   </BentoItem>
+   <BentoItem
+     class="col-span-10 lg:col-span-6"
+     title={i18n.PAGES.SECTION_FL_MI.SECTION_2.ITEM_3}
+   >
+     <div
+       slot="image"
+       class="background transition-scale absolute bottom-0 left-0 top-0
+       -z-10 h-full w-full bg-white-30
+       bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+       data-src="/florida/Epic-Athletic-Club-1.jpg"
+     >
+     </div>
+     <p
+       slot="content"
+       class="max-w-xl text-base md:text-lg"
+       set:html={i18n.PAGES.SECTION_FL_MI.SECTION_2.DESCRIPTION_3}
+     />
+   </BentoItem>
+   <BentoItem
+     class="col-span-10 lg:col-span-4"
+     title={i18n.PAGES.SECTION_FL_MI.SECTION_2.ITEM_4}
+   >
+     <div
+       slot="image"
+       class="background transition-scale absolute bottom-0 left-0 top-0
+       -z-10 h-full w-full bg-white-30
+       bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+       data-src="/florida/RacquetX-1.jpeg"
+     >
+     </div>
+     <p
+       slot="content"
+       class="max-w-xl text-base md:text-lg"
+       set:html={i18n.PAGES.SECTION_FL_MI.SECTION_2.DESCRIPTION_4}
+     />
+   </BentoItem>
+ </div>
+
+
+</Section>
+<Section>
+   <Typography tag="h2" className="text-center font-bold mt-16 mb-10" text={i18n.PAGES.SECTION_FL_MI.SECTION_3.TITLE} />
+   <Typography tag="div" className="text-center mb-12 m-auto w-[85%] " text={i18n.PAGES.SECTION_FL_MI.SECTION_3.SUBTITLE} />
+    <div class="ml-[20%]">
+   <FeatureList  list={i18n.PAGES.SECTION_FL_MI.SECTION_3.LIST} />
+</div>
+<Typography tag="div" className="text-center mb-12 mt-12 m-auto w-[85%] " text={i18n.PAGES.SECTION_FL_MI.SECTION_3.DESCRIPTION} />
+<div class="text-center" >
+<Button size="sm" url={i18n.PAGES.SECTION_FL_MI.SECTION_3.BUTTON.URL} title={i18n.PAGES.SECTION_FL_MI.SECTION_3.BUTTON.TITLE} target="_self">
+    {i18n.PAGES.SECTION_FL_MI.SECTION_3.BUTTON.LABEL}
+  </Button>
+</div>
+</Section>
+
+        
+</div>
+        
+</main>
+</Layout>
+
+<script>
+    document.addEventListener("astro:page-load", () => {
+      const backgrounds = document.querySelectorAll(
+        ".background"
+      ) as NodeListOf<HTMLElement>;
+  
+      if (window.IntersectionObserver == null) {
+        backgrounds.forEach((bkg) => {
+          bkg.style.backgroundImage = "url('" + bkg.dataset.src + "')";
+        });
+        return;
+      }
+  
+      function handleIntersection(entries: IntersectionObserverEntry[]) {
+        entries.map((entry) => {
+          if (entry.isIntersecting) {
+            const target = entry.target as HTMLElement;
+            const { style, dataset } = target;
+            // Item has crossed our observation
+            // threshold - load src from data-src
+            style.backgroundImage = "url('" + dataset.src + "')";
+            // Job done for this item - no need to watch it!
+            observer.unobserve(entry.target);
+          }
+        });
+      }
+  
+      const observer = new IntersectionObserver(handleIntersection, {
+        rootMargin: "100px",
+      });
+  
+      backgrounds.forEach((bkg) => observer.observe(bkg));
+    });
+  </script>
