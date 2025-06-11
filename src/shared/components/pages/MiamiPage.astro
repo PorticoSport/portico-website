@@ -6,7 +6,6 @@ import Gallery from "../Gallery.astro"
 import Layout from "@/shared/layouts/Layout.astro";
 import "photoswipe/style.css";
 import Button from "src/shared/components/Button.astro";
-import ContactSectionEs from "@/shared/components/sections/ContactSectionIrl.astro";
 import { type Photo } from "@/types/types.ts";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 import BentoItem from "@/shared/components/BentoItem.astro";
@@ -23,11 +22,11 @@ const i18n = getI18N({ language })
 const currentLocale = getCurrentLocale({ language })
 
 ---
-<Layout title={i18n.PAGES.HOME.SEO_TITLE_CA} 
-description={i18n.PAGES.HOME.SEO_DESCRIPTION_CA} 
+<Layout title={i18n.PAGES.SECTION_FL_MI.SEO_TITLE} 
+description={i18n.PAGES.SECTION_FL_MI.SEO_DESCRIPTION} 
 currentLocale={currentLocale} 
 language={language}
-bgImage="/florida/majakkapadel4.png"
+bgImage="/florida/majakkapadel4.webp"
 bgClass="brightness-50"
 >
     
@@ -109,7 +108,7 @@ bgClass="brightness-50"
        class="background transition-scale absolute bottom-0 left-0 top-0
        -z-10 h-full w-full bg-white-30
        bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
-       data-src="/florida/Epic-Athletic-Club-1.jpg"
+       data-src="/florida/Epic-Athletic-Club-1.webp"
      >
      </div>
      <p
