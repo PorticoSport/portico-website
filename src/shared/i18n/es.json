@@ -122,8 +122,8 @@
      "COMPLEMENTS_SECTION": {
   "ID": "complements",
   "TITLE": "Construcción de pistas de Pádel Premium: Personalización e innovación en cada pista.",
-  "DESCRIPTION": "En Portico Sport, somos líderes en la fabricación e instalación de pistas de pádel y cubiertas deportivas, fusionando diseño innovador y personalización completa. Nuestras pistas están construidas con estructuras de acero galvanizado y cristal templado de 10-12 mm, complementadas con césped artificial de alta calidad, asegurando un rendimiento excepcional en cada juego. Además, ofrecemos una amplia variedad de opciones de personalización para que tu pista de pádel se ajuste perfectamente a tu marca y estilo. Desde colores exclusivos en la estructura, logotipos grabados, redes serigrafiadas hasta bancos integrados, cada detalle está pensado para reflejar tu identidad. Con Portico Sport, la innovación y la personalización van de la mano, adaptándose a tus necesidades para que tu pista sea única.",
-   "BUTTON":{
+  "DESCRIPTION":"Portico Sport es un fabricante líder de pistas de pádel, que ofrece modelos indoor, outdoor y panorámicos totalmente personalizables—con opciones de personalización en branding, colores del césped, redes y bancos integrados—para adaptarse a tu espacio y estilo.",
+  "BUTTON":{
           "LABEL":"Descubre todas las opciones de personalización",
           "TITLE":"Fabricantes de pistas de pádel",
           "URL":"/personalizacion-pistas-de-padel"
