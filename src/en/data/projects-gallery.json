@@ -1,4 +1,10 @@
-[
+[ 
+  {
+    "src": "projects-1.webp",
+    "height": 767,
+    "width": 1152,Add commentMore actions
+    "alt": "Padelon Deuthschland in Germany"
+  },
   {
     "src": "projects-2.webp",
     "height": 767,
@@ -70,11 +76,5 @@
     "height": 767,
     "width": 1152,
     "alt": "Club de Padel Manchester in the UK"
-  },
-   {
-    "src": "projects-14.webp",
-    "height": 767,
-    "width": 1152,
-    "alt": "The Queens club in the UK"
   }
 ]
