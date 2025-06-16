@@ -19,30 +19,25 @@ const currentLocale = getCurrentLocale({ language });
 <Layout
   title={i18n.PAGES.PROJECTS.SEO_TITLE}
   description={i18n.PAGES.PROJECTS.SEO_DESCRIPTION}
-robots="index,follow"
+  robots="index,follow"
   currentLocale={currentLocale}
   language={language}
   ogImage={i18n.PAGES.PROJECTS.OG_IMG}
 >
   <main>
-    <!-- <div class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col lg:-mt-20 gap-4 px-4">
+    <div class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col lg:-mt-20 gap-4 px-4">
       <Typography tag="span" className="uppercase" type="primary" size="large" text={i18n.PAGES.PROJECTS.SUBTITLE} responsive />
       <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.PROJECTS.TITLE} responsive />
       <Typography tag="h2" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.PROJECTS.POSTTITLE} responsive />
-    </div> -->
+    </div>
     <div class="bg-main relative bg-background w-full">
-      <!-- <Breadcrumb
+       <Breadcrumb
         crumbs={[
           { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
           { label: i18n.PAGES.PROJECTS.ROUTE.LABEL, href: i18n.PAGES.PROJECTS.ROUTE.URL },
         ]}
-      /> -->
-      <ProjectsClubsSection
-        title={i18n.PAGES.PROJECTS.PROJECTS_CLUB_SECTION.TITLE}
-        subtitle={i18n.PAGES.PROJECTS.PROJECTS_CLUB_SECTION.SUBTITLE}
-        countries={countries}
-      />
-      <section 
+      /> 
+     <section 
         id={i18n.PAGES.PROJECTS.MAP_SECTION.ID}
       >
         <Typography tag="h2" text={i18n.PAGES.PROJECTS.MAP_SECTION.TITLE} className="mx-auto mb-8 text-center font-semibold uppercase" />
@@ -52,12 +47,18 @@ robots="index,follow"
           <ProjectsDetailed client:load />
           <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
         <!-- </div> -->
- {language === "en" && <CountriesSection showInfo language="en"
-title={i18n.PAGES.PROJECTS.COUNTRIES_SECTION.TITLE}
-description={i18n.PAGES.PROJECTS.COUNTRIES_SECTION.DESCRIPTION}
+       {language === "en" && <CountriesSection showInfo language="en"
+     title={i18n.PAGES.PROJECTS.COUNTRIES_SECTION.TITLE}
+     description={i18n.PAGES.PROJECTS.COUNTRIES_SECTION.DESCRIPTION}
  />
 }
       </section>
+      <ProjectsClubsSection
+        title={i18n.PAGES.PROJECTS.PROJECTS_CLUB_SECTION.TITLE}
+        subtitle={i18n.PAGES.PROJECTS.PROJECTS_CLUB_SECTION.SUBTITLE}
+        countries={countries}
+      />
+      
     </div>
   </main>
 </Layout>
