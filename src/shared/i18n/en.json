@@ -1941,6 +1941,62 @@
         }
       }
     },
+     "SECTION_NY": {
+      "ID": "new-york",
+      "TITLE": "Padel Courts in New York",
+       "SEO_TITLE:":"Premium Padel Courts in New York | Portico Sport",
+       "SEO_DESCRIPTION":"Portico Sport leads the padel boom in New York with top-quality court installations across NYC, Long Island, Westchester, Albany, and Buffalo. Custom-built, U.S.-compliant courts since 2021.",
+      "ROUTE": {
+        "LABEL": "Orlando",
+        "URL": "/new-york"
+      },
+      "SECTION_1": {
+        "TITLE": "Premium padel court construction across New York State",
+        "DESCRIPTION": "<p>New York is embracing the global padel boom — and Portico Sport is proud to lead its growth with premium padel court solutions across the state. Since shipping our first court to New York in 2021, we’ve continued to grow our U.S. footprint — with private padel court installations across the state, and more to come.</p><p>From New York City and Long Island to Westchester, Albany, and Buffalo, we build padel courts that adapt to each region’s unique urban density, architecture, and climate — always complying with U.S. building codes and sport regulations.</p>"
+      },
+      "PROJECTS_SECTION": {
+        "ID": "projects",
+        "ID_GALLERY": "projects-gallery-nyc",
+        "TITLE_GALLERY": "Padel courts projects in New York",
+        "PATH": "New York/gallery"
+      },
+      "SECTION_2": {
+        "TITLE": "Why choose Portico Sport to build your padel court in New York?",
+        "DESCRIPTION": "Our experience in global padel construction and knowledge of the U.S. market make us the go-to partner for padel court installation in New York — whether for private homes, rooftop installations, or indoor facilities.",
+        "ITEM_1": "Climate-adapted courts",
+        "DESCRIPTION_1": "engineered to resist snow, rain, temperature changes, and urban wear",
+        "ITEM_2": "Tailored designs",
+        "DESCRIPTION_2": "padel courts that fit New York’s architecture and space constraints",
+        "ITEM_3": "Efficient logistics",
+        "DESCRIPTION_3": "fast, cost-effective delivery from Europe to the U.S.",
+        "ITEM_4": "U.S.-compliant installations",
+        "DESCRIPTION_4": "we meet all American building codes and sport federation guidelines",
+        "ITEM_5": "Complete in-house control",
+        "DESCRIPTION_5": "from manufacturing to final install, we ensure consistent top-tier quality",
+        "ITEM_6": "Turnkey service",
+        "DESCRIPTION_6": "from design to manufacturing and installation, we handle everything"
+      },
+      "SECTION_3": {
+        "TITLE": "Build your padel court in New York with the experts",
+        "DESCRIPTION": "<p>Whether in residential estates or luxury developments, our courts are built to blend seamlessly with the local environment and deliver professional-level performance. Portico Sport helps you build smarter and faster. Our padel solutions and precision planning mean less disruption and faster completion — even in space-limited or high-demand areas.</p><p>We serve:</p>",
+        "SUBTITLE": "Let’s create something exceptional — a padel court that fits New York’s pace and prestige.",
+        "LIST": [
+            "<p><strong>Private estates</strong></p>",
+            "<p><strong>Residential developers</strong></p>",
+            "<p><strong>Boutique fitness and wellness clubs</strong></p>",
+            "<p><strong>Hospitality projects, events and indoor venues</strong></p>"
+]
+      },
+      "SECTION_4": {
+        "TITLE": "Contact New York’s trusted padel court builders",
+        "DESCRIPTION": "<p>With over 4,000 courts delivered globally — and a growing number right here in the United States — Portico Sport is the leading name in padel infrastructure.</p><p>Ready to build a padel court in New York? Let’s talk — we’ll bring world-class padel to your space. </p>",
+        "BUTTON": {
+          "LABEL": "Contact Portico Sport today to get started",
+          "URL": "/client-contact",
+          "TITLE": "contact Portico Sport"
+        }
+      }
+    },
     "COURTS": {
       "ID": "courts",
       "SEO_TITLE": "Padel Courts",
