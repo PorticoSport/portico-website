@@ -1,0 +1,8 @@
+---
+import Nyc from "@/shared/components/pages/NycPage.astro";
+import { LANGUAGES } from "@/shared/i18n/constants";
+
+import gallery from "@/en/data/newyork-gallery.json"
+---
+
+<Nyc language={LANGUAGES.EN} gallery={gallery}/>
