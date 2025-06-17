@@ -1,0 +1,213 @@
+---
+import { getI18N, getCurrentLocale } from "@/shared/i18n";
+import Section from "@/shared/components/Section.astro";
+import Typography from "@/shared/components/ui/Typography.astro";
+import Gallery from "../Gallery.astro";
+import Layout from "@/shared/layouts/Layout.astro";
+import "photoswipe/style.css";
+import Button from "src/shared/components/Button.astro";
+import { type Photo } from "@/types/types.ts";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import FeatureList from "@/shared/components/FeatureList.astro";
+
+interface Props {
+  language: string;
+  gallery: Photo[];
+}
+
+const { language, gallery } = Astro.props;
+const i18n = getI18N({ language });
+const currentLocale = getCurrentLocale({ language });
+---
+
+<Layout
+  title={i18n.PAGES.HOME.SEO_TITLE_CA}
+  description={i18n.PAGES.HOME.SEO_DESCRIPTION_CA}
+  currentLocale={currentLocale}
+  language={language}
+  bgImage="/New York/projectsUK-5.webp"
+  bgClass="brightness-50"
+>
+  <main class="flex flex-col gradient-bg relative">
+    <div
+      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
+    >
+      <Typography
+        tag="h1"
+        type="secondary"
+        className="uppercase mb-6 font-bold"
+        text={i18n.PAGES.SECTION_NY.TITLE}
+        responsive
+      />
+    </div>
+    <div class="bg-main relative bg-background">
+      <Breadcrumb
+        crumbs={[
+          {
+            label: i18n.PAGES.HOME.ROUTE.BREADCRUMB,
+            href: i18n.PAGES.HOME.ROUTE.URL,
+          },
+          {
+            label: i18n.PAGES.SECTION_NY.ROUTE.LABEL,
+            href: i18n.PAGES.SECTION_NY.ROUTE.URL,
+          },
+        ]}
+      />
+
+      <Section
+        id={i18n.PAGES.SECTION_NY.ID}
+        heading2={i18n.PAGES.SECTION_NY.SECTION_1.TITLE}
+      >
+        <Typography
+          tag="div"
+          className="mb-6 text-center"
+          text={i18n.PAGES.SECTION_NY.SECTION_1.DESCRIPTION}
+        />
+      </Section>
+
+      <Section heading2={i18n.PAGES.SECTION_NY.PROJECTS_SECTION.TITLE_GALLERY}>
+        <Gallery
+          language={language}
+          photos={gallery}
+          offset={3}
+          path={i18n.PAGES.SECTION_NY.PROJECTS_SECTION.PATH}
+        />
+      </Section>
+      <Typography
+        tag="h2"
+        className="text-center font-bold mt-16 mb-10"
+        text={i18n.PAGES.SECTION_NY.SECTION_2.TITLE}
+      />
+      <Typography
+        tag="div"
+        className="text-center mb-2 m-auto w-[85%] "
+        text={i18n.PAGES.SECTION_NY.SECTION_2.DESCRIPTION}
+      />
+
+      <div class="max-w-7xl mx-auto p-16">
+        <div class="grid grid-cols-1 md:grid-cols-2">
+          <div class="text-center bg-blue-400 opacity-90">
+            <p class="text-3xl font-bold mt-2">
+              {i18n.PAGES.SECTION_NY.SECTION_2.ITEM_1}
+            </p>
+
+            <Typography
+              tag="div"
+              className="text-center mb-10 m-auto w-[85%] "
+              text={i18n.PAGES.SECTION_NY.SECTION_2.DESCRIPTION_1}
+            />
+          </div>
+          <div class="text-center bg-blue-500 opacity-90">
+            <p class="text-3xl font-bold mt-2">
+              {i18n.PAGES.SECTION_NY.SECTION_2.ITEM_2}
+            </p>
+            <Typography
+              tag="div"
+              className="text-center mb-10 m-auto w-[85%] "
+              text={i18n.PAGES.SECTION_NY.SECTION_2.DESCRIPTION_2}
+            />
+          </div>
+          <div class="text-center bg-blue-600 opacity-90">
+            <p class="text-3xl font-bold mt-2">
+              {i18n.PAGES.SECTION_NY.SECTION_2.ITEM_3}
+            </p>
+            <Typography
+              tag="div"
+              className="text-center mb-10 m-auto w-[85%] "
+              text={i18n.PAGES.SECTION_NY.SECTION_2.DESCRIPTION_3}
+            />
+          </div>
+          <div class="text-center bg-blue-700 opacity-90">
+            <p class="text-3xl font-bold mt-2">
+              {i18n.PAGES.SECTION_NY.SECTION_2.ITEM_4}
+            </p>
+            <Typography
+              tag="div"
+              className="text-center mb-10 m-auto w-[85%] "
+              text={i18n.PAGES.SECTION_NY.SECTION_2.DESCRIPTION_4}
+            />
+          </div>
+          <div class="text-center bg-blue-800 opacity-90">
+            <p class="text-3xl font-bold mt-2">
+              {i18n.PAGES.SECTION_NY.SECTION_2.ITEM_5}
+            </p>
+            <Typography
+              tag="div"
+              className="text-center mb-10 m-auto w-[85%] "
+              text={i18n.PAGES.SECTION_NY.SECTION_2.DESCRIPTION_5}
+            />
+          </div>
+
+          <div class="text-center bg-blue-900 opacity-90">
+            <p class="text-3xl font-bold mt-2">
+              {i18n.PAGES.SECTION_NY.SECTION_2.ITEM_6}
+            </p>
+            <Typography
+              tag="div"
+              className="text-center mb-10 m-auto w-[85%] "
+              text={i18n.PAGES.SECTION_NY.SECTION_2.DESCRIPTION_6}
+            />
+          </div>
+        </div>
+      </div>
+
+      <Section>
+        <Typography
+          tag="h2"
+          className="text-center font-bold mt-16 mb-10"
+          text={i18n.PAGES.SECTION_NY.SECTION_3.TITLE}
+        />
+        <Typography
+          tag="div"
+          className="text-center mb-12 m-auto w-[85%] "
+          text={i18n.PAGES.SECTION_NY.SECTION_3.DESCRIPTION}
+        />
+        <div class="ml-[20%]">
+          <FeatureList list={i18n.PAGES.SECTION_NY.SECTION_3.LIST} />
+        </div>
+        <Typography
+          tag="div"
+          className="text-center mb-12 mt-12 m-auto w-[85%] "
+          text={i18n.PAGES.SECTION_NY.SECTION_3.SUBTITLE}
+        />
+      </Section>
+      <Section>
+        <div class="intro-section flex flex-wrap w-full h-auto">
+          <div class="w-full text-center xs:m-auto">
+            <Typography
+              tag="h2"
+              className="font-bold mb-10"
+              text={i18n.PAGES.SECTION_NY.SECTION_4.TITLE}
+            />
+            <Typography
+              tag="div"
+              text={i18n.PAGES.SECTION_NY.SECTION_4.DESCRIPTION}
+            />
+            <div class="text-center mx-auto">
+              <Button
+                size="sm"
+                class=""
+                url={i18n.PAGES.SECTION_NY.SECTION_4.BUTTON.URL}
+                title={i18n.PAGES.SECTION_NY.SECTION_4.BUTTON.TITLE}
+                target="_self"
+              >
+                {i18n.PAGES.SECTION_NY.SECTION_4.BUTTON.LABEL}
+              </Button>
+            </div>
+          </div>
+        </div>
+      </Section>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  .button {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+  }
+</style>
