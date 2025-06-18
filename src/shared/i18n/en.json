@@ -2052,6 +2052,44 @@
         }
       }
     },
+    "SECTION_CALI_LA": {
+      "ID": "los-angeles",
+      "TITLE": "Padel Courts Los Angeles",
+      "SEO_TITLE":"Padel Court Construction in Los Angeles | Portico Sport",
+      "SEO_DESCRIPTION":"Custom padel courts in Los Angeles, built for performance, style, and year-round play.",
+      "ROUTE": {
+        "LABEL": "Los Angeles",
+        "URL": "/los-angeles"
+      },
+      "SECTION_1": {
+        "TITLE": "Premium padel court installation in Los Angeles",
+        "DESCRIPTION": "From the hills of Hollywood to the coastline of Santa Monica, padel is making its mark in Los Angeles. At Portico Sport, we specialize in high-performance padel court construction that fits the city’s bold architecture, varied terrain, and year-round climate. With fully customizable options, our courts adapt seamlessly to LA’s landscape, style, and player demand — built for performance and designed to stand out. "
+      },
+      "SECTION_2": {
+        "TITLE": "Custom-built padel court projects in Los Angeles",
+        "DESCRIPTION": "<p>Planning to build a padel court in Los Angeles? Whether you're adding a private court in West Hollywood or developing a multi-court setup for a resort in Malibu, Portico Sport offers fully managed, end-to-end construction tailored to your vision.</p><p>We combine European engineering with U.S.-based project support to deliver fast installation, top-tier materials, and lasting performance.</p><p>Our elevated platform systems are ideal for uneven terrains, while custom finishes, canopies, and lighting options allow each court to reflect your brand or property's character — whether you're building in Beverly Hills, Venice Beach, or downtown LA.</p>"
+      },
+      "SECTION_3": {
+        "TITLE": "Padel built for LA’s climate and spaces",
+        "DESCRIPTION": "Whether you're planning a home installation or a professional facility, our courts are designed to meet LA’s high expectations — fast, durable, and visually striking.",
+        "LIST": [
+          "<p><strong>UV- and salt-resistant materials</strong></p>",
+          "<p><strong>Modular systems for complex sites</strong></p>",
+          "<p><strong>Indoor and outdoor court configurations</strong></p>",
+          "<p><strong>Fully customizable details</strong></p>",
+          "<p><strong>U.S.-compliant builds with international support</strong></p>"
+        ]
+      },
+      "SECTION_4": {
+        "TITLE": "Start your padel court project in Los Angeles",
+        "DESCRIPTION": "<p>With more than 4,000 courts installed worldwide, Portico Sport is ready to bring global padel quality to the heart of Los Angeles.</p><p>Contact our team today to explore options and start designing a padel court that fits LA’s energy, style, and ambition.</p>",
+        "BUTTON": {
+          "LABEL": "Let’s build your court in Los Angeles",
+          "URL": "/client-contact",
+          "TITLE": "contact Portico Sport"
+        }
+      }
+    },
     "COURTS": {
       "ID": "courts",
       "SEO_TITLE": "Padel Courts",
