@@ -1997,6 +1997,61 @@
         }
       }
     },
+    "SECTION_CALI": {
+      "ID": "california",
+      "TITLE": "Padel Courts California",
+      "SEO_TITLE":"Premium Padel Courts in California | Portico Sport",
+      "SEO_DESCRIPTION":"Discover high-end padel courts tailored for California’s diverse landscapes — from coastal cities to mountain retreats. Portico Sport brings European expertise to every court, built for performance and U.S. regulations.",
+      "ROUTE": {
+        "LABEL": "California",
+        "URL": "/california"
+      },
+      "SECTION_1": {
+        "TITLE": "Building world-class padel courts in California",
+        "DESCRIPTION": "<p>California’s blend of coastal towns, mountain retreats, desert resorts, and iconic cities makes it the perfect setting for padel’s expansion in the U.S. At Portico Sport, we build premium padel courts that adapt to the state’s diverse geography, high-end design expectations, and varied climates — from Los Angeles and San Diego to San Francisco, Sacramento, and Palm Springs.</p><p>With deep experience in coastal builds, natural settings, and complex urban spaces, we bring European excellence and technical know-how to California. Our courts are engineered to meet U.S. building regulations and deliver professional-level performance in both indoor and outdoor environments.</p>"
+      },
+      "SECTION_2": {
+        "TITLE": "Custom padel court solutions for California's coast and cities",
+        "DESCRIPTION": "From rooftop clubs in the city to courts integrated into nature-inspired resorts, we provide custom padel solutions for every setting:",
+        "ITEM_1": "Resilient construction",
+        "DESCRIPTION_1": "materials designed for salt air, strong sun, seismic activity, and wide temperature swings",
+        "ITEM_2": "Versatile layouts",
+        "DESCRIPTION_2": "adapted for natural terrain, private homes, compact spaces, and multi-court facilities",
+        "ITEM_3": "24/7 play readiness",
+        "DESCRIPTION_3": "weather-resistant features and optional canopies",
+        "ITEM_4": "Design-forward aesthetics",
+        "DESCRIPTION_4": "built to complement California’s modern, outdoor lifestyle",
+        "ITEM_5": "Optimized logistics",
+        "DESCRIPTION_5": "fast, efficient shipping from Europe to the West Coast with minimal cost impact",
+        "ITEM_6": "Full-service support",
+        "DESCRIPTION_6": "our U.S.-based team guides every step, from planning and permitting to final installation",
+        "ITEM_7": "Regulatory assurance",
+        "DESCRIPTION_7": "all courts comply with U.S. construction codes and international padel standards"
+      },
+      "SECTION_3": {
+        "TITLE": "Your partner for padel court construction in California",
+        "DESCRIPTION": "Whether you're developing a luxury resort, activating a wellness brand, or bringing padel to your private property, Portico Sport delivers end-to-end support with precision, speed, and design excellence. Backed by our U.S. and European teams, we ensure seamless execution — from idea to play — across California’s most exclusive locations."
+      },
+      "SECTION_4": {
+        "TITLE": "Find your trusted padel court builder in California",
+        "DESCRIPTION": "<p>With demand growing from Los Angeles to San Diego, San Francisco, and beyond, Portico Sport is your expert partner for padel court construction across the Golden State. Whether you're planning a private court or launching a large-scale facility, our U.S.-based team is ready to guide your project from start to finish — with smart logistics, top-tier quality, and full regulatory compliance.</p><p>Select your city below to connect with our team and start building your padel court in California.</p>",
+      "BUTTON_1": {
+          "TEXT": "Padel Court Builders Los Angeles",
+          "URL": "/padel-court-usa/california/los-angeles",
+          "TITLE": "Portico Sport Los Angeles"
+        },
+        "BUTTON_2": {
+          "TEXT": "Padel Court Builders San Diego",
+          "URL": "/padel-court-usa/california",
+          "TITLE": "Portico Sport California"
+        },
+        "BUTTON_3": {
+          "TEXT": "Padel Court Builders San Francisco",
+          "URL": "/padel-court-usa/california",
+          "TITLE": "Portico Sport San Francisco"
+        }
+      }
+    },
     "COURTS": {
       "ID": "courts",
       "SEO_TITLE": "Padel Courts",
