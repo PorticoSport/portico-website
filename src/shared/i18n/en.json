@@ -2090,6 +2090,43 @@
         }
       }
     },
+    "SECTION_CHICAGO": {
+  "ID": "chicago",
+  "TITLE": "Padel Courts Chicago",
+  "SEO_TITLE":"Padel Court Construction in Chicago | Portico Sport",
+  "SEO_DESCRIPTION":"We design and build custom padel courts in Chicago — from rooftops to backyards — tailored for the city’s tight urban spaces, harsh winters, and four-season climate. Engineered for durability and top-tier performance.",
+  "ROUTE": {
+    "LABEL": "Chicago",
+    "URL": "/chicago"
+  },
+  "SECTION_1": {
+    "TITLE": "Professional padel court construction in Chicago",
+    "DESCRIPTION": "<p>From the skyline of downtown to the lakefront neighborhoods, padel is gaining momentum in Chicago. At Portico Sport, we specialize in designing and building padel courts in Chicago that meet the city’s unique demands — from harsh winters and tight urban plots to premium indoor and outdoor environments.</p><p>Whether it’s a rooftop installation in The Loop, a private backyard court in Lincoln Park, or an indoor facility near Navy Pier, our solutions are engineered for performance, durability, and Chicago’s four-season climate.</p>"
+  },
+  "SECTION_2": {
+    "TITLE": "Tailored padel court solutions for Chicago’s spaces and climate",
+    "DESCRIPTION": "From boutique gyms and athletic clubs to private estates and residential communities, Portico Sport delivers turnkey padel courts in Chicago — built to last, designed to impress.",
+    "DESCRIPTION_2":"As leading padel court suppliers in Chicago, we also offer event padel court setups — ideal for activations, pop-ups, or seasonal tournaments. Every court is a statement piece, combining professional-grade performance with the style and efficiency that Chicago demands.",
+    "LIST": [
+      "<p><strong>Reinforced materials built for snow, ice, rain, and seasonal shifts</strong></p>",
+      "<p><strong>Elevated platform systems for uneven terrain or space-limited sites</strong></p>",
+      "<p><strong>Fully customizable court designs — fencing, lighting, branding, finishes, and more</strong></p>",
+      "<p><strong>Indoor and outdoor options that meet both private and commercial needs</strong></p>",
+      "<p><strong>End-to-end project support from our U.S.-based and European teams</strong></p>"
+    ]
+  }
+  
+  ,
+  "SECTION_3": {
+    "TITLE": "Ready to build your padel court in Chicago?",
+    "DESCRIPTION": "<p>With over 4,000 courts delivered worldwide — and growing momentum across the Midwest — Portico Sport is your trusted padel court builder in Chicago.</p><p>Whether you're planning a club expansion, launching a residential amenity, or looking for a padel court supplier for your next event, we’re ready to help you create something exceptional.</p><p>Contact our team today and bring world-class padel to the Windy City.</p>",
+    "BUTTON": {
+      "LABEL": "Let’s build your court in Chicago",
+      "URL": "/client-contact",
+      "TITLE": "contact Portico Sport"
+    }
+  }
+},
     "COURTS": {
       "ID": "courts",
       "SEO_TITLE": "Padel Courts",
