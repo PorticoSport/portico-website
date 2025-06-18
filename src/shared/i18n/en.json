@@ -2127,6 +2127,38 @@
     }
   }
 },
+    "SECTION_LV": {
+  "ID": "las-vegas",
+  "TITLE": "Padel Court Las Vegas",
+  "SEO_TITLE":"Padel Court Construction in Las Vegas | Portico Sport",
+  "SEO_DESCRIPTION":"Discover custom-built padel courts in Las Vegas with Portico Sport — engineered for desert heat and luxury venues. Ideal for resorts, rooftops, private estates, and high-impact environments.",
+  "ROUTE": {
+    "LABEL": "Las Vegas",
+    "URL": "/las-vegas"
+  },
+  "SECTION_1": {
+    "TITLE": "High-performance padel courts built for Las Vegas experience",
+    "DESCRIPTION": "<p>Las Vegas is synonymous with entertainment, luxury, and bold design — and padel is the perfect match. At Portico Sport, we specialize in padel court construction and installation in Las Vegas for luxury resorts, rooftop venues, hotels, and private estates.</p><p>Our courts are engineered for desert heat, heavy usage, and high-impact environments. Whether you're planning a tournament-grade court on the Strip or a rooftop installation with skyline views, we deliver fully customized padel courts that elevate the Las Vegas experience.</p>" 
+  },
+  "SECTION_2": {
+    "TITLE": "Custom padel solutions for events, hotels & resorts",
+    "DESCRIPTION": "We’ve delivered high-end courts for global resorts and competitive events, combining world-class design with reliable, durable construction. As an experienced padel court supplier, Portico Sport helps you stand out in Las Vegas’ competitive leisure and hospitality scene.",
+  "ITEM_1": "Heat-resistant, UV-stable materials built for the Las Vegas climate", 
+  "ITEM_2": "Elevated platforms for rooftops, parking decks, or uneven surfaces",
+  "ITEM_3": "Event-ready padel courts — ideal for pop-ups, tournaments, or exhibitions",
+  "ITEM_4": "Full customization: colors, logos, premium finishes, LED lighting, canopies",
+  "ITEM_5": "U.S.-based support team guiding every step, from planning to final build"
+  },
+  "SECTION_3": {
+    "TITLE": "Launch your padel court project in Las Vegas",
+    "DESCRIPTION": "<p>From iconic casinos and boutique hotels to luxury villas and entertainment venues, Portico Sport brings the expertise to build courts that perform, impress, and last. Whether you’re planning an event padel court or a long-term facility, we offer premium solutions tailored to Las Vegas.</p><p>Contact our team today to build your world-class padel court in Las Vegas.</p>",
+    "BUTTON": {
+      "LABEL": "Let’s build your padel court in Las Vegas",
+      "URL": "/client-contact",
+      "TITLE": "contact Portico Sport"
+    }
+  }
+},
     "COURTS": {
       "ID": "courts",
       "SEO_TITLE": "Padel Courts",
