@@ -1,0 +1,223 @@
+---
+import { getI18N, getCurrentLocale } from "@/shared/i18n";
+import Section from "@/shared/components/Section.astro";
+import Typography from "@/shared/components/ui/Typography.astro";
+import Gallery from "../Gallery.astro";
+import Layout from "@/shared/layouts/Layout.astro";
+import "photoswipe/style.css";
+import Button from "src/shared/components/Button.astro";
+import { type Photo } from "@/types/types.ts";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+
+interface Props {
+  language: string;
+
+}
+
+const { language} = Astro.props;
+const i18n = getI18N({ language });
+const currentLocale = getCurrentLocale({ language });
+---
+
+<Layout
+  title={i18n.PAGES.SECTION_CALI.SEO_TITLE}
+  description={i18n.PAGES.SECTION_CALI.SEO_DESCRIPTION}
+  currentLocale={currentLocale}
+  language={language}
+  bgImage="/projects/gallery/projects-3.webp"
+  bgClass="brightness-50"
+>
+  <main class="flex flex-col gradient-bg relative">
+    <div
+      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
+    >
+      <Typography
+        tag="h1"
+        type="secondary"
+        className="uppercase mb-6 font-bold"
+        text={i18n.PAGES.SECTION_CALI.TITLE}
+        responsive
+      />
+    </div>
+    <div class="bg-main relative bg-background">
+      <Breadcrumb
+        crumbs={[
+          {
+            label: i18n.PAGES.HOME.ROUTE.BREADCRUMB,
+            href: i18n.PAGES.HOME.ROUTE.URL,
+          },
+          {
+            label: i18n.PAGES.SECTION_CALI.ROUTE.LABEL,
+            href: i18n.PAGES.SECTION_CALI.ROUTE.URL,
+          },
+        ]}
+      />
+ <div class="intro-section flex flex-wrap w-full h-auto">
+        <div class="w-full md:w-1/2 p-4 text-center xs:m-auto">
+          <Typography
+            tag="h2"
+            className="font-bold mb-10"
+            text={i18n.PAGES.SECTION_CALI.SECTION_1.TITLE}
+          />
+          <Typography
+            tag="div"
+            text={i18n.PAGES.SECTION_CALI.SECTION_1.DESCRIPTION}
+          />
+        </div>
+        <div class="w-full md:w-1/2 md:m-auto">
+          <img
+            src="/projectsuk/gallery/projectsUK-11.webp"
+            alt="Padel Pro in Cyprus"
+            class="img-structure w-full object-cover scale-[75%]"
+          />
+        </div>
+      </div>
+     
+
+
+      <Typography
+        tag="h2"
+        className="text-center font-bold mt-16 mb-10"
+        text={i18n.PAGES.SECTION_CALI.SECTION_2.TITLE}
+      />
+      <Typography
+        tag="div"
+        className="text-center mb-2 m-auto w-[85%] "
+        text={i18n.PAGES.SECTION_CALI.SECTION_2.DESCRIPTION}
+      />
+
+      <div class="max-w-7xl mx-auto px-6 py-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-blue-200 rounded-2xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300">
+            <p class="text-xl font-semibold text-blue-900 mb-4">
+              {i18n.PAGES.SECTION_CALI.SECTION_2.ITEM_1}
+            </p>
+            <Typography
+              tag="div"
+              className="text-blue-800 text-sm"
+              text={i18n.PAGES.SECTION_CALI.SECTION_2.DESCRIPTION_1}
+            />
+          </div>
+      
+          <div class="bg-blue-300 rounded-2xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300">
+            <p class="text-xl font-semibold text-blue-900 mb-4">
+              {i18n.PAGES.SECTION_CALI.SECTION_2.ITEM_2}
+            </p>
+            <Typography
+              tag="div"
+              className="text-blue-900 text-sm"
+              text={i18n.PAGES.SECTION_CALI.SECTION_2.DESCRIPTION_2}
+            />
+          </div>
+      
+          <div class="bg-blue-400 rounded-2xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300">
+            <p class="text-xl font-semibold text-white mb-4">
+              {i18n.PAGES.SECTION_CALI.SECTION_2.ITEM_3}
+            </p>
+            <Typography
+              tag="div"
+              className="text-white text-sm"
+              text={i18n.PAGES.SECTION_CALI.SECTION_2.DESCRIPTION_3}
+            />
+          </div>
+      
+          <div class="bg-blue-500 rounded-2xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300">
+            <p class="text-xl font-semibold text-white mb-4">
+              {i18n.PAGES.SECTION_CALI.SECTION_2.ITEM_4}
+            </p>
+            <Typography
+              tag="div"
+              className="text-white text-sm"
+              text={i18n.PAGES.SECTION_CALI.SECTION_2.DESCRIPTION_4}
+            />
+          </div>
+      
+          <div class="bg-blue-600 rounded-2xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300">
+            <p class="text-xl font-semibold text-white mb-4">
+              {i18n.PAGES.SECTION_CALI.SECTION_2.ITEM_5}
+            </p>
+            <Typography
+              tag="div"
+              className="text-white text-sm"
+              text={i18n.PAGES.SECTION_CALI.SECTION_2.DESCRIPTION_5}
+            />
+          </div>
+      
+          <div class="bg-blue-700 rounded-2xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300">
+            <p class="text-xl font-semibold text-white mb-4">
+              {i18n.PAGES.SECTION_CALI.SECTION_2.ITEM_6}
+            </p>
+            <Typography
+              tag="div"
+              className="text-white text-sm"
+              text={i18n.PAGES.SECTION_CALI.SECTION_2.DESCRIPTION_6}
+            />
+          </div>
+      
+          <div class="bg-blue-800 rounded-2xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300">
+            <p class="text-xl font-semibold text-white mb-4">
+              {i18n.PAGES.SECTION_CALI.SECTION_2.ITEM_7}
+            </p>
+            <Typography
+              tag="div"
+              className="text-white text-sm"
+              text={i18n.PAGES.SECTION_CALI.SECTION_2.DESCRIPTION_7}
+            />
+          </div>
+        </div>
+      </div>
+      
+
+      <Section
+        heading2={i18n.PAGES.SECTION_CALI.SECTION_4.TITLE}
+      >
+        <Typography
+          tag="div"
+          className="text-center mt-4"
+          text={i18n.PAGES.SECTION_CALI.SECTION_4.DESCRIPTION}
+          responsive
+          />
+
+        <div
+          class="mt-0 grid grid-rows-3 gap-4 justify-center items-center sm:grid-cols-2 xs:grid-cols-1"
+        >
+          <Button
+            class="button"
+            url={i18n.PAGES.SECTION_CALI.SECTION_4.BUTTON_1.URL}
+            target="_self"
+            title={i18n.PAGES.SECTION_CALI.SECTION_4.BUTTON_1.TITLE}
+          >
+            {i18n.PAGES.SECTION_CALI.SECTION_4.BUTTON_1.TEXT}
+          </Button>
+          <Button
+            class="button"
+            url={i18n.PAGES.SECTION_CALI.SECTION_4.BUTTON_2.URL}
+            target="_self"
+            title={i18n.PAGES.SECTION_CALI.SECTION_4.BUTTON_2.TITLE}
+          >
+            {i18n.PAGES.SECTION_CALI.SECTION_4.BUTTON_2.TEXT}
+          </Button>
+          <Button
+            class="button"
+            url={i18n.PAGES.SECTION_CALI.SECTION_4.BUTTON_3.URL}
+            target="_self"
+            title={i18n.PAGES.SECTION_CALI.SECTION_4.BUTTON_3.TITLE}
+          >
+            {i18n.PAGES.SECTION_CALI.SECTION_4.BUTTON_3.TEXT}
+          </Button>
+          
+        </div>
+      </Section>
+    </div>
+  </main>
+</Layout>
+<style>
+  .button {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+  }
+</style>
