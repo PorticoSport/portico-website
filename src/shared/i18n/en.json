@@ -2159,6 +2159,46 @@
     }
   }
 },
+"SECTION_TX": {
+  "ID": "texas",
+   "TITLE":"Padel Court Construction Texas",
+  "ROUTE": {
+    "LABEL": "Texas",
+    "URL": "/texas"
+  },
+  "SECTION_1": {
+  "TITLE":"Building padel courts across Texas — performance, style, and flexibility",
+  "DESCRIPTION":"<p>Texas is big on sports, innovation, and lifestyle — and padel is quickly becoming part of that energy. At Portico Sport, we specialize in padel court construction in Texas, delivering high-performance courts tailored to the state’s diverse conditions, communities, and expectations.</p><p>From Houston to San Antonio, Dallas, Austin, and beyond, our padel courts are built to thrive in Texas’ unique climate — handling intense sun, humidity, and sudden weather changes. Whether you're developing a private estate, luxury resort, padel club, or event venue, we offer durable, fully customizable padel courts designed for Texas living.</p>"
+  
+  },
+  "PROJECTS_SECTION": {
+    "ID": "projects",
+    "ID_GALLERY": "projects-gallery-tx",
+    "TITLE_GALLERY": "Padel courts projects in Texas",
+    "DESCRIPTION":"With active installations already completed in the Lone Star State, Portico Sport is proud to support Texas’ growing padel movement — from urban builds to residential spaces.",  
+    "PATH": "texas/gallery"
+  },
+  "SECTION_2": {
+"TITLE":"Custom padel courts for Houston, San Antonio, Dallas & beyond",
+"ITEM_1":"Weather-resistant structures adapted for Texas sun, storms, and seasonal shifts",
+"ITEM_2":"Elevated platform systems for uneven or compact terrain",
+"ITEM_3":"Mobile padel court solutions — perfect for events, tournaments, or flexible locations",
+"ITEM_4":"Indoor & outdoor courts with optional canopies, lighting, and safety features",
+"ITEM_5":"Bespoke designs — from colors and logos to fencing and court glass specs",
+"ITEM_6":"U.S.-compliant construction with full project management by our local and European teams",
+"DESCRIPTION":"<p>Our courts are already featured in exclusive residential developments, and we continue to expand into new cities — offering both event-ready padel courts and permanent high-performance installations.</p><p>Whether it’s a private padel court in a Dallas estate, an outdoor club in Houston, or a resort project in San Antonio, we deliver courts that are built to perform, built to last, and built to stand out.</p>"
+  },
+  "SECTION_3": {
+ "TITLE":"Start your padel court project in Texas",
+"DESCRIPTION":"<p>Looking for padel court suppliers in Houston, Texas, planning a new club in San Antonio, or developing padel courts in Dallas? Portico Sport is your trusted partner.</p><p>With over 4,000 courts installed worldwide, we bring unmatched global experience with local knowledge and on-the-ground support.</p><p>Contact our team today and let’s bring world-class padel to Texas — tailored to your city, climate, and vision.</p>", 
+    "BUTTON": {
+      "LABEL": "Contact our padel experts in Texas now",
+      "URL": "/client-contact",
+      "TITLE": "contact Portico Sport"
+    }
+  }
+},
+
     "COURTS": {
       "ID": "courts",
       "SEO_TITLE": "Padel Courts",
