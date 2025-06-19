@@ -1,0 +1,201 @@
+---
+import { getI18N, getCurrentLocale } from "@/shared/i18n";
+import Section from "@/shared/components/Section.astro";
+import Typography from "@/shared/components/ui/Typography.astro";
+import Gallery from "../Gallery.astro";
+import Layout from "@/shared/layouts/Layout.astro";
+import "photoswipe/style.css";
+import Button from "src/shared/components/Button.astro";
+import { type Photo } from "@/types/types.ts";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import FeatureList from "@/shared/components/FeatureList.astro";
+
+interface Props {
+  language: string;
+  gallery: Photo[];
+}    
+
+const { language, gallery } = Astro.props;
+const i18n = getI18N({ language });
+const currentLocale = getCurrentLocale({ language });
+---
+
+<Layout
+  title={i18n.PAGES.HOME.SEO_TITLE_CA}
+  description={i18n.PAGES.HOME.SEO_DESCRIPTION_CA}
+  currentLocale={currentLocale}
+  language={language}
+  bgImage="/projectsza/gallery/ProjectsZA-1.webp"
+  bgClass="brightness-50"
+>
+  <main class="flex flex-col gradient-bg relative">
+    <div
+      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
+    >
+      <Typography
+        tag="h1"
+        type="secondary"
+        className="uppercase mb-6 font-bold"
+        text={i18n.PAGES.SECTION_LV.TITLE}
+        responsive
+      />
+    </div>
+    <div class="bg-main relative bg-background">
+      <Breadcrumb
+        crumbs={[
+          {
+            label: i18n.PAGES.HOME.ROUTE.BREADCRUMB,
+            href: i18n.PAGES.HOME.ROUTE.URL,
+          },
+          {    
+            label: i18n.PAGES.SECTION_LV.ROUTE.LABEL,
+            href: i18n.PAGES.SECTION_LV.ROUTE.URL,
+          },
+        ]}
+      />
+
+      
+      <div class="intro-section flex flex-wrap w-full h-auto">
+        <div class="w-full md:w-1/2 p-4 text-center xs:m-auto">
+          <Typography
+            tag="h2"
+            className="font-bold mb-10"
+            text={i18n.PAGES.SECTION_LV.SECTION_1.TITLE}
+          />
+          <Typography
+            tag="div"
+            text={i18n.PAGES.SECTION_LV.SECTION_1.DESCRIPTION}
+          />
+        </div>
+        <div class="w-full md:w-1/2 md:m-auto">
+          <img
+            src="/Emiratos Arabes/projects-ea3.webp"
+            alt="Padel Pro in Cyprus"
+            class="img-structure w-full object-cover scale-[75%]"
+          />
+        </div>
+      </div>
+
+      <Section>
+        <Typography
+          tag="h2"
+          className="text-center font-bold mt-16 mb-10"
+          text={i18n.PAGES.SECTION_LV.SECTION_2.TITLE}
+        />
+        <div class="max-w-5xl mx-auto px-6 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+              
+              <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-12 h-12 text-blue-600 mb-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                  </svg>
+                  
+                <Typography
+                  tag="div"
+                  className="text-base font-medium text-blue-900"
+                  text={i18n.PAGES.SECTION_LV.SECTION_2.ITEM_1}
+                />
+              </div>
+          
+              
+              <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300">
+                <svg class="w-12 h-12 text-blue-600 mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M3 14h18M9 6h6v12H9z" />
+                </svg>
+                <Typography
+                  tag="div"
+                  className="text-base font-medium text-blue-900"
+                  text={i18n.PAGES.SECTION_LV.SECTION_2.ITEM_2}
+                />
+              </div>
+          
+              
+              <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300">
+                <svg class="w-12 h-12 text-blue-600 mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 17l4-4 4 4m0-10l-4 4-4-4" />
+                </svg>
+                <Typography
+                  tag="div"
+                  className="text-base font-medium text-blue-900"
+                  text={i18n.PAGES.SECTION_LV.SECTION_2.ITEM_3}
+                />
+              </div>
+          
+              
+              <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-12 h-12 text-blue-600 mb-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 0 0-5.78 1.128 2.25 2.25 0 0 1-2.4 2.245 4.5 4.5 0 0 0 8.4-2.245c0-.399-.078-.78-.22-1.128Zm0 0a15.998 15.998 0 0 0 3.388-1.62m-5.043-.025a15.994 15.994 0 0 1 1.622-3.395m3.42 3.42a15.995 15.995 0 0 0 4.764-4.648l3.876-5.814a1.151 1.151 0 0 0-1.597-1.597L14.146 6.32a15.996 15.996 0 0 0-4.649 4.763m3.42 3.42a6.776 6.776 0 0 0-3.42-3.42" />
+                  </svg>
+                  
+                <Typography
+                  tag="div"
+                  className="text-base font-medium text-blue-900"
+                  text={i18n.PAGES.SECTION_LV.SECTION_2.ITEM_4}
+                />
+          </div>
+          
+              
+              <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-12 h-12 text-blue-600 mb-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0ZM3 19.235v-.11a6.375 6.375 0 0 1 12.75 0v.109A12.318 12.318 0 0 1 9.374 21c-2.331 0-4.512-.645-6.374-1.766Z" />
+                  </svg>
+                  
+                <Typography
+                  tag="div"
+                  className="text-base font-medium text-blue-900"
+                  text={i18n.PAGES.SECTION_LV.SECTION_2.ITEM_5}
+                />
+              </div>
+          
+            </div>
+          </div>
+          
+          
+          
+        <Typography
+          tag="div"
+          className="text-center mb-12 mt-12 m-auto w-[85%] "
+          text={i18n.PAGES.SECTION_LV.SECTION_2.DESCRIPTION}
+        />
+      </Section>
+      <Section>
+        <div class="intro-section flex flex-wrap w-full h-auto">
+          <div class="w-full text-center xs:m-auto">
+            <Typography
+              tag="h2"
+              className="font-bold mb-10"
+              text={i18n.PAGES.SECTION_LV.SECTION_3.TITLE}
+            />
+            <Typography
+              tag="div"
+              text={i18n.PAGES.SECTION_LV.SECTION_3.DESCRIPTION}
+            />
+            <div class="text-center mx-auto">
+              <Button
+                size="sm"
+                class=""
+                url={i18n.PAGES.SECTION_LV.SECTION_3.BUTTON.URL}
+                title={i18n.PAGES.SECTION_LV.SECTION_3.BUTTON.TITLE}
+                target="_self"
+              >
+                {i18n.PAGES.SECTION_LV.SECTION_3.BUTTON.LABEL}
+              </Button>
+            </div>
+          </div>
+        </div>
+      </Section>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  .button {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+  }
+</style>
