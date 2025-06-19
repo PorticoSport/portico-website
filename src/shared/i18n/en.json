@@ -2162,7 +2162,9 @@
 "SECTION_TX": {
   "ID": "texas",
    "TITLE":"Padel Court Construction Texas",
-  "ROUTE": {
+   "SEO_TITLE":"Padel Court Construction in Texas | Portico Sport",
+   "SEO_DESCRIPTION":"Discover top-tier padel court construction across Texas with Portico Sport. From Houston to Austin, we build durable, customizable courts built to handle Texas weather and elevate any space.",
+   "ROUTE": {
     "LABEL": "Texas",
     "URL": "/texas"
   },
