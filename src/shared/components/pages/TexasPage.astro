@@ -1,0 +1,169 @@
+---
+import { getI18N, getCurrentLocale } from "@/shared/i18n";
+import Section from "@/shared/components/Section.astro";
+import Typography from "@/shared/components/ui/Typography.astro";
+import Gallery from "../Gallery.astro";
+import Layout from "@/shared/layouts/Layout.astro";
+import "photoswipe/style.css";
+import Button from "src/shared/components/Button.astro";
+import { type Photo } from "@/types/types.ts";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+
+interface Props {
+  language: string;
+  gallery: Photo[];
+}
+
+const { language, gallery } = Astro.props;
+const i18n = getI18N({ language });
+const currentLocale = getCurrentLocale({ language });
+---
+
+<Layout
+  title={i18n.PAGES.HOME.SEO_TITLE_CA}
+  description={i18n.PAGES.HOME.SEO_DESCRIPTION_CA}
+  currentLocale={currentLocale}
+  language={language}
+  bgImage="/New Zealand/riverside8.webp"
+  bgClass="brightness-50"
+>
+  <main class="flex flex-col gradient-bg relative">
+    <div
+      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
+    >
+      <Typography
+        tag="h1"
+        type="secondary"
+        className="uppercase mb-6 font-bold"
+        text={i18n.PAGES.SECTION_TX.TITLE}
+        responsive
+      />
+    </div>
+    <div class="bg-main relative bg-background">
+      <Breadcrumb
+        crumbs={[
+          {
+            label: i18n.PAGES.HOME.ROUTE.BREADCRUMB,
+            href: i18n.PAGES.HOME.ROUTE.URL,
+          },
+          {
+            label: i18n.PAGES.SECTION_TX.ROUTE.LABEL,
+            href: i18n.PAGES.SECTION_TX.ROUTE.URL,
+          },
+        ]}
+      />
+
+      <Section
+        id={i18n.PAGES.SECTION_TX.ID}
+        heading2={i18n.PAGES.SECTION_TX.SECTION_1.TITLE}
+      >
+        <Typography
+          tag="div"
+          className="mb-6"
+          text={i18n.PAGES.SECTION_TX.SECTION_1.DESCRIPTION}
+        />
+      </Section>
+
+      <Section heading2={i18n.PAGES.SECTION_TX.PROJECTS_SECTION.TITLE_GALLERY}>
+        <Typography
+          tag="div"
+          className="text-center"
+          text={i18n.PAGES.SECTION_TX.PROJECTS_SECTION.DESCRIPTION}
+        />
+
+        <Gallery
+          language={language}
+          photos={gallery}
+          offset={3}
+          path={i18n.PAGES.SECTION_TX.PROJECTS_SECTION.PATH}
+        />
+      </Section>
+     
+      <Section heading2={i18n.PAGES.SECTION_TX.SECTION_2.TITLE}>
+    
+        <div class="max-w-7xl mx-auto px-6 py-16">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              
+              <div class="bg-white rounded-2xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 border border-blue-100">
+                <p class="text-xl font-semibold text-blue-400">
+                  {i18n.PAGES.SECTION_TX.SECTION_2.ITEM_1}
+                </p>
+              </div>
+          
+              <div class="bg-white rounded-2xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 border border-blue-100">
+                <p class="text-xl font-semibold text-blue-500">
+                  {i18n.PAGES.SECTION_TX.SECTION_2.ITEM_2}
+                </p>
+              </div>
+          
+              <div class="bg-white rounded-2xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 border border-blue-100">
+                <p class="text-xl font-semibold text-blue-600">
+                  {i18n.PAGES.SECTION_TX.SECTION_2.ITEM_3}
+                </p>
+              </div>
+          
+              <div class="bg-white rounded-2xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 border border-blue-100">
+                <p class="text-xl font-semibold text-blue-700">
+                  {i18n.PAGES.SECTION_TX.SECTION_2.ITEM_4}
+                </p>
+              </div>
+          
+              <div class="bg-white rounded-2xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 border border-blue-100">
+                <p class="text-xl font-semibold text-blue-800">
+                  {i18n.PAGES.SECTION_TX.SECTION_2.ITEM_5}
+                </p>
+              </div>
+          
+              <div class="bg-white rounded-2xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 border border-blue-100">
+                <p class="text-xl font-semibold text-blue-900">
+                  {i18n.PAGES.SECTION_TX.SECTION_2.ITEM_6}
+                </p>
+              </div>
+          
+            </div>
+          </div>
+          <Typography
+          tag="div"
+          className="mb-6 text-center"
+          text={i18n.PAGES.SECTION_TX.SECTION_2.DESCRIPTION}
+        /></Section>
+          
+        <Section>
+            <div class="intro-section flex flex-wrap w-full h-auto">
+              <div class="w-full text-center xs:m-auto">
+                <Typography
+                  tag="h2"
+                  className="font-bold mb-10"
+                  text={i18n.PAGES.SECTION_TX.SECTION_3.TITLE}
+                />
+                <Typography
+                  tag="div"
+                  text={i18n.PAGES.SECTION_TX.SECTION_3.DESCRIPTION}
+                />
+                <div class="text-center mx-auto">
+                  <Button
+                    size="sm"
+                    class=""
+                    url={i18n.PAGES.SECTION_TX.SECTION_3.BUTTON.URL}
+                    title={i18n.PAGES.SECTION_TX.SECTION_3.BUTTON.TITLE}
+                    target="_self"
+                  >
+                    {i18n.PAGES.SECTION_TX.SECTION_3.BUTTON.LABEL}
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </Section>
+    </div>
+  </main>
+</Layout>
+<style>
+  .button {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+  }
+</style>
