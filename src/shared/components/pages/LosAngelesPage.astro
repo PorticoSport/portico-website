@@ -21,8 +21,8 @@ const currentLocale = getCurrentLocale({ language });
 ---
 
 <Layout
-  title={i18n.PAGES.HOME.SEO_TITLE_CA}
-  description={i18n.PAGES.HOME.SEO_DESCRIPTION_CA}
+  title={i18n.PAGES.SECTION_CALI_LA.SEO_TITLE}
+  description={i18n.PAGES.SECTION_CALI_LA.SEO_DESCRIPTION}
   currentLocale={currentLocale}
   language={language}
   bgImage="/outdoor-court/gallery/Outdoor-Padel-Court-14.webp"
@@ -46,6 +46,12 @@ const currentLocale = getCurrentLocale({ language });
           {
             label: i18n.PAGES.HOME.ROUTE.BREADCRUMB,
             href: i18n.PAGES.HOME.ROUTE.URL,
+          }, 
+          { label: i18n.PAGES.HOME.USA_ROUTE.LABEL, 
+            href: i18n.PAGES.HOME.USA_ROUTE.URL },
+          {
+            label: i18n.PAGES.SECTION_CALI.ROUTE.LABEL,
+            href: i18n.PAGES.SECTION_CALI.ROUTE.URL,
           },
           {
             label: i18n.PAGES.SECTION_CALI_LA.ROUTE.LABEL,
