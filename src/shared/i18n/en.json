@@ -61,8 +61,12 @@
         "ID": "intro",
         "TITLE": "Padel Court Manufacturers and installers",
         "DESCRIPTION": "<p>Based in Spain, at Portico Sport, we stand for quality, innovation, and excellence in customer service. With strong engineering at our core, we offer a complete turnkey solution that combines padel courts and sports canopies—<strong>100% designed and manufactured in-house</strong> for total quality control.</p><p>In 2023, we inaugurated a new 110,000+ sqft manufacturing site, positioning Portico Sport as <strong>the largest and most technologically advanced padel court manufacturer</strong> in the industry. This facility enables us to deliver fast, high-quality production—whether you're looking for an indoor padel court supplier, an outdoor padel court supplier, or a fully customized project.</p>",
-         "TITLE_2":"<p><strong>Leading global</strong> builders and suppliers of premier Padel courts and canopy installations</p>"
-
+        "TITLE_2":"<p><strong>Leading global</strong> builders and suppliers of premier Padel courts and canopy installations</p>",
+        "BUTTON": {
+           "LABEL": "Ready to build? Let’s talk about your next project — contact our team today",
+           "URL": "/client-contact",
+           "TITLE": "contact Portico Sport"
+                  }
       },
       "INTRO_SECTION_UK": {
         "ID": "intro",
@@ -156,10 +160,10 @@
          "TITLE_UK":"Types of UK Portico Sport Padel Courts",
         "DESCRIPTION":"Discover all our Padel Courts",
         "BUTTON":{
-          "TEXT":"Get your padel court now!",
+          "TEXT":"Need help choosing the best model for your venue? Contact us today.",
           "TITLE":"Padel court builders",
           "URL":"/client-contact"
-        }      },
+        }},
       "CANOPIES_SECTION": {
         "ID": "canopies",
         "TITLE": "Canopies for Padel Courts",
@@ -1797,7 +1801,12 @@
       },
       "SECTION_1": {
         "TITLE": "Leading padel court development across Florida",
-        "DESCRIPTION": "<p>Florida is rapidly becoming a top destination for padel in the United States — and Portico Sport is proud to lead the way in padel court construction across the state. Whether you’re expanding a club, launching a private project, or building a full sports complex, our courts are built for Florida’s climate, lifestyle, and fast-growing demand.</p><p>From Miami and Orlando to Tampa, Jacksonville, and St. Petersburg, we deliver world-class infrastructure designed to perform and last.</p>"
+        "DESCRIPTION": "<p>Florida is rapidly becoming a top destination for padel in the United States — and Portico Sport is proud to lead the way in padel court construction across the state. Whether you’re expanding a club, launching a private project, or building a full sports complex, our courts are built for Florida’s climate, lifestyle, and fast-growing demand.</p><p>From Miami and Orlando to Tampa, Jacksonville, and St. Petersburg, we deliver world-class infrastructure designed to perform and last.</p>",
+        "BUTTON": {
+          "LABEL": "Start your Florida padel project",
+          "URL": "/client-contact",
+          "TITLE": "contact Portico Sport"
+        }
       },
       "PROJECTS_SECTION": {
         "ID": "projects",
@@ -1864,7 +1873,13 @@
       },
       "SECTION_1": {
         "TITLE": "Padel innovation meets Miami energy",
-        "DESCRIPTION": "<p>Miami is at the forefront of the padel boom in the U.S., and Portico Sport is proud to be part of that momentum. We’ve built standout projects here — from one of the first floating padel courts to indoor padel courts inside the largest outlet mall in the world.</p><p>We bring our European expertise and world-class engineering to one of America’s most exciting and fast-growing markets, where Miami padel courts are rapidly evolving to meet luxury and high-performance demands.</p><p>We're also a proud participant each year at <a href='https://theracquetx.com/' >RacquetX Miami</a>, showcasing our latest innovations in padel court construction.</p>"
+        "DESCRIPTION": "<p>Miami is at the forefront of the padel boom in the U.S., and Portico Sport is proud to be part of that momentum. We’ve built standout projects here — from one of the first floating padel courts to indoor padel courts inside the largest outlet mall in the world.</p><p>We bring our European expertise and world-class engineering to one of America’s most exciting and fast-growing markets, where Miami padel courts are rapidly evolving to meet luxury and high-performance demands.</p><p>We're also a proud participant each year at <a href='https://theracquetx.com/' >RacquetX Miami</a>, showcasing our latest innovations in padel court construction.</p>",
+        "BUTTON": {
+          "LABEL": "Elevate your Miami padel project with Portico Sport",
+          "URL": "/client-contact",
+          "TITLE": "contact Portico Sport"
+        }
+
       },
       "PROJECTS_SECTION": {
         "ID": "projects",
@@ -1913,8 +1928,13 @@
       },
       "SECTION_1": {
         "TITLE": "Why build padel courts in Orlando?",
-        "DESCRIPTION": "<p>Orlando is more than a tourist hotspot — it's becoming a growing hub for padel enthusiasts and sports development. With the rising popularity of racket sports, padel courts in Orlando are now a must-have for clubs, hotels, and real estate developments.</p><p>Portico Sport supports this growth with professional padel court construction tailored to Orlando’s climate, lifestyle, and demand.</p><p>We offer <strong>the most resilient padel court on the market — the <a href='https://www.porticosport.com/panoramic-force-80'>Panoramic Force 80</a> — specifically engineered to resist hurricane-level winds</strong> and Florida’s harshest conditions. Backed by our experienced U.S. team, we ensure a smooth installation process and high-end results every time.</p>"
-      },
+        "DESCRIPTION": "<p>Orlando is more than a tourist hotspot — it's becoming a growing hub for padel enthusiasts and sports development. With the rising popularity of racket sports, padel courts in Orlando are now a must-have for clubs, hotels, and real estate developments.</p><p>Portico Sport supports this growth with professional padel court construction tailored to Orlando’s climate, lifestyle, and demand.</p><p>We offer <strong>the most resilient padel court on the market — the <a href='https://www.porticosport.com/panoramic-force-80'>Panoramic Force 80</a> — specifically engineered to resist hurricane-level winds</strong> and Florida’s harshest conditions. Backed by our experienced U.S. team, we ensure a smooth installation process and high-end results every time.</p>",
+       "BUTTON": {
+          "LABEL": "Want to build padel courts in Orlando? Contact us today!",
+          "URL": "/client-contact",
+          "TITLE": "contact Portico Sport"
+        }
+        },
       "SECTION_2": {
         "TITLE": "Custom-built padel courts projects in Orlando",
         "DESCRIPTION": "<p>Planning to build a padel court in Orlando? Whether you're launching a private facility or expanding an existing venue, Portico Sport delivers fully managed, end-to-end construction services tailored to your goals.</p><p>From hotels and sports clubs to residential communities and resorts, we bring turnkey padel solutions to Central Florida — built fast, made to last, and designed for performance.</p><p>Every court is fully customizable, allowing you to create a standout experience for local players.</p>"
@@ -1954,7 +1974,13 @@
       },
       "SECTION_1": {
         "TITLE": "Premium padel court construction across New York State",
-        "DESCRIPTION": "<p>New York is embracing the global padel boom — and Portico Sport is proud to lead its growth with premium padel court solutions across the state. Since shipping our first court to New York in 2021, we’ve continued to grow our U.S. footprint — with private padel court installations across the state, and more to come.</p><p>From New York City and Long Island to Westchester, Albany, and Buffalo, we build padel courts that adapt to each region’s unique urban density, architecture, and climate — always complying with U.S. building codes and sport regulations.</p>"
+        "DESCRIPTION": "<p>New York is embracing the global padel boom — and Portico Sport is proud to lead its growth with premium padel court solutions across the state. Since shipping our first court to New York in 2021, we’ve continued to grow our U.S. footprint — with private padel court installations across the state, and more to come.</p><p>From New York City and Long Island to Westchester, Albany, and Buffalo, we build padel courts that adapt to each region’s unique urban density, architecture, and climate — always complying with U.S. building codes and sport regulations.</p>",
+        "BUTTON": {
+          "LABEL": "Bring premium padel courts to your New York project",
+          "URL": "/client-contact",
+          "TITLE": "contact Portico Sport"
+          }
+
       },
       "PROJECTS_SECTION": {
         "ID": "projects",
@@ -2010,7 +2036,13 @@
       },
       "SECTION_1": {
         "TITLE": "Building world-class padel courts in California",
-        "DESCRIPTION": "<p>California’s blend of coastal towns, mountain retreats, desert resorts, and iconic cities makes it the perfect setting for padel’s expansion in the U.S. At Portico Sport, we build premium padel courts that adapt to the state’s diverse geography, high-end design expectations, and varied climates — from Los Angeles and San Diego to San Francisco, Sacramento, and Palm Springs.</p><p>With deep experience in coastal builds, natural settings, and complex urban spaces, we bring European excellence and technical know-how to California. Our courts are engineered to meet U.S. building regulations and deliver professional-level performance in both indoor and outdoor environments.</p>"
+        "DESCRIPTION": "<p>California’s blend of coastal towns, mountain retreats, desert resorts, and iconic cities makes it the perfect setting for padel’s expansion in the U.S. At Portico Sport, we build premium padel courts that adapt to the state’s diverse geography, high-end design expectations, and varied climates — from Los Angeles and San Diego to San Francisco, Sacramento, and Palm Springs.</p><p>With deep experience in coastal builds, natural settings, and complex urban spaces, we bring European excellence and technical know-how to California. Our courts are engineered to meet U.S. building regulations and deliver professional-level performance in both indoor and outdoor environments.</p>",
+        "BUTTON": {
+          "LABEL": "Get your custom quote",
+          "URL": "/client-contact",
+          "TITLE": "contact Portico Sport"
+          }
+
       },
       "SECTION_2": {
         "TITLE": "Custom padel court solutions for California's coast and cities",
