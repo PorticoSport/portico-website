@@ -7,8 +7,8 @@ import { getI18N } from "../../i18n";
 const { language } = Astro.props;
 const i18n = getI18N({ language });
 ---
-<div class="flex flex-col md:flex-row bg-white">
-
+<div class="bg-white">
+<div class="flex flex-col md:flex-row ">
   <div class="w-full md:w-1/2">
     <Section id={i18n.PAGES.HOME.INTRO_SECTION.ID} className="text-center p-6 md:p-12">
       <Typography
@@ -57,7 +57,18 @@ const i18n = getI18N({ language });
     </Section>
   </div>
 </div>
-
+<div class="text-center w-full mt-10">
+  <Button
+    size="sm"
+    color="black"
+    url={i18n.PAGES.HOME.INTRO_SECTION.BUTTON.URL}
+    title={i18n.PAGES.HOME.INTRO_SECTION.BUTTON.TITLE}
+    target="_self"
+  >
+    {i18n.PAGES.HOME.INTRO_SECTION.BUTTON.LABEL}
+  </Button>
+</div>
+</div>
 <style>
   .strong {
     color: rgb(49, 175, 213);
