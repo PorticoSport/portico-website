@@ -21,7 +21,12 @@
         "ID": "intro",
         "TITLE": "Willkommen bei Portico Sport<br />Padelplatz-Hersteller und Padelplatz-Monteure",
         "DESCRIPTION": "<p>Mit Sitz in Spanien steht Portico Sport für Qualität, Innovation und exzellenten Kundenservice. Mit einem starken Ingenieurwesen als Fundament bieten wir eine umfassende schlüsselfertige Lösung, die Padelplätze und Sportüberdachungen kombiniert—<strong>100 % intern entworfen und gefertigt</strong> für vollständige Qualitätskontrolle.</p> <p>Im Jahr 2023 haben wir eine neue Produktionsstätte mit über 10.000 m² eingeweiht und positionieren Portico Sport damit als <strong>den größten und technologisch fortschrittlichsten Hersteller von Padelplätzen</strong> in der Branche. Diese Anlage ermöglicht uns eine schnelle und hochwertige Produktion—ganz gleich, ob Sie einen Anbieter für Indoor-Padelplätze, Outdoor-Padelplätze oder ein vollständig maßgeschneidertes Projekt suchen.</p>",
-        "TITLE_2":"<p><strong>Weltweit führender</strong> Anbieter und Hersteller von hochwertigen Padelplätzen und Sportüberdachungen</p>"
+        "TITLE_2":"<p><strong>Weltweit führender</strong> Anbieter und Hersteller von hochwertigen Padelplätzen und Sportüberdachungen</p>",
+        "BUTTON": {
+          "LABEL": "Bereit zu bauen? Sprechen wir über Ihr nächstes Projekt — kontaktieren Sie noch heute unser Team",
+          "URL": "/kundenkontakt",
+          "TITLE": "Portico Sport kontaktieren"
+        }
       },
       "GRAPHIC_PROCESS_SECTION": {
         "ID": "graphic-process",
