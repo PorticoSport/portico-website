@@ -21,7 +21,12 @@
         "ID": "intro",
         "TITLE": "Bienvenue chez Portico Sport<br />Avantages de notre construction de Terrains de Padel",
         "DESCRIPTION": "<p>Basé en Espagne, Portico Sport incarne la qualité, l’innovation et l’excellence du service client. Forts d’une solide expertise en ingénierie, nous proposons une solution clé en main complète, combinant terrains de padel et structures couvertes sportives—<strong>100 % conçues et fabriquées en interne</strong> pour un contrôle total de la qualité.</p> <p>En 2023, nous avons inauguré un nouveau site de production de plus de 10 000 m², faisant de Portico Sport <strong>le plus grand fabricant de terrains de padel et le plus avancé technologiquement</strong> du secteur. Cette installation nous permet de garantir une production rapide et de haute qualité—que vous recherchiez un fournisseur de terrains de padel indoor, outdoor ou un projet entièrement personnalisé.</p>",
-        "TITLE_2":"<p><strong>Leader mondial</strong> dans la construction et la fourniture de terrains de padel haut de gamme et de structures couvertes sportives</p>"
+        "TITLE_2":"<p><strong>Leader mondial</strong> dans la construction et la fourniture de terrains de padel haut de gamme et de structures couvertes sportives</p>",
+        "BUTTON": {
+          "LABEL": "Prêt à construire ? Parlons de votre prochain projet — contactez notre équipe dès aujourd’hui",
+          "URL": "/contact-client",
+          "TITLE": "contacter Portico Sport"
+          }
       },
       "GRAPHIC_PROCESS_SECTION": {
         "ID": "graphic-process",
