@@ -8,6 +8,7 @@ import SectionCountries from "@/shared/components/sections/CountriesSection.astr
 import SectionCanopies from "@/shared/components/sections/SectionCanopies.astro";
 import SectionComplements from "@/shared/components/sections/SectionComplements2.astro";
 import SectionPartnerLogos from "@/shared/components/sections/SectionPartnerLogos.astro";
+import SectionContact from "@/shared/components/sections/SectionContact.astro"
 import HexagonCupLogo from "@/shared/components/logos/LogoHexagonCup.astro";
 import PopupPartners from "@/shared/components/PopupPartners.astro";
 import {
@@ -154,6 +155,14 @@ const posts = await response.json();
         />
       )
     }
+   <SectionContact
+ id={i18n.PAGES.HOME.CONTACT_SECTION.ID}
+ hiddenSubject
+ subject={i18n.PAGES.HOME.CONTACT_SECTION.SUBJECT}
+ language={language}
+ bgImage={i18n.PAGES.HOME.CONTACT_SECTION.BG_IMAGE}
+ image={i18n.PAGES.HOME.CONTACT_SECTION.IMAGE}
+/>
 
     <SectionPartnerLogos />
   </main>
