@@ -69,12 +69,12 @@ const posts = await response.json();
       class="absolute bottom-[2.5%] w-40 md:bottom-1/4 md:w-[200px] left-1/2 -translate-x-1/2 md:translate-x-0 md:left-10 z-10"
     >
       <div class="flex flex-col gap-2">
-        <button id="logo-hexagon-cup">
+        <a href="/partners" id="logo-hexagon-cup">
           <HexagonCupLogo />
-        </button>
-        <button class="mt-12">
+        </a>
+        <a href="/partners" class="mt-12">
           <img src="/Head-logo.png" class="invert" />
-        </button>
+        </a>
       </div>
     </div>
   </Video>
@@ -169,12 +169,6 @@ const posts = await response.json();
 </Layout>
 
 <script>
-  const logoHexagonCup = document.getElementById("logo-hexagon-cup");
-
-  logoHexagonCup?.addEventListener("click", () => {
-    window.open("https://www.hexagoncup.com/", "_blank");
-  });
-
   document.addEventListener("DOMContentLoaded", () => {
     const lazyBgElements = document.querySelectorAll(".lazy-bg");
 
