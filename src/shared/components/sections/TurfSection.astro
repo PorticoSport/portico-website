@@ -23,15 +23,15 @@ const colors = {
   <div class="flex flex-col lg:flex-row gap-8 max-w-[1400px] mx-auto">
     <div class="flex-col gap-4 flex-1 text-center">
       <Typography tag="h2" text={title} type="secondary" className="uppercase text-center font-bold" />
-      <Typography tag="p" text={subtitle} type="primary" className="font-thin mb-12" />
-      <Typography tag="div" text={description} type="primary" className="text-center" />
+      <Typography tag="p" text={subtitle} type="secondary" className="font-thin mb-12" />
+      <Typography tag="div" text={description} type="secundary" className="text-center" />
       <img src={image.src} alt={image.alt} class="aspect-video object-cover turf-image" />
     </div>
     <div class="flex flex-col gap-4 flex-1">
       {
         i18n.TURF_SECTION.MODELS.map((model) => (
           <div class="flex items-center flex-col justify-center">
-            <Typography tag="h3" text={model.TITLE} type="primary" className="font-bold mb-4" />
+            <Typography tag="h3" text={model.TITLE} type="secondary" className="font-bold mb-4" />
             <Typography tag="p" text={model.DESCRIPTION} />
             <div class="flex gap-1 md:gap-4 justify-center items-center mb-4 max-w-[28rem] flex-wrap">
               {
