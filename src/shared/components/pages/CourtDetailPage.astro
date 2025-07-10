@@ -149,7 +149,8 @@ robots="index,follow"
         />
       ) : null
     }
-    {
+    <div class="bg-gradient-to-b from-blue-900 to-white h-screen text-black">
+      {
       isCourtsSizingSection ? <SizingSection
         id={isCourtsSizingSection.ID}
         description={isCourtsSizingSection.DESCRIPTION}
@@ -161,15 +162,16 @@ robots="index,follow"
         indoorTitle={isCourtsSizingSection.INDOOR_TITLE}
       /> : null
     }
+    </div>
     {
       isGlassSection ? <Section
         className="flex flex-col max-w-none p-0 lg:mb-0 border-b-4 border-white"
         style="padding: 0; margin-left: 0; margin-right: 0;"
       >
-        <div class="flex flex-col-reverse xl:flex-row max-w-none">
-          <div class="w-full py-8 px-4 flex-1 md:px-8">
+        <div class="flex flex-col-reverse xl:flex-row max-w-none bg-gradient-to-b text-black">
+          <div class="w-full py-8 px-4 flex-1 md:px-8 bg-slate-100">
             <Typography tag="h2" className="mb-6 font-bold uppercase" text={isGlassSection.TITLE} type="secondary" responsive />
-            <Typography tag="p" className="mb-4 font-thin" text={isGlassSection.SUBTITLE} type="primary" responsive />
+            <Typography tag="p" className="mb-4 font-thin" text={isGlassSection.SUBTITLE} type="secundary" responsive />
             <Typography tag="div" text={isGlassSection.DESCRIPTION} responsive />
           </div>
           <div class="relative w-full flex-1">
@@ -203,17 +205,19 @@ robots="index,follow"
                 ))
               }
             </div>
-            <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10">
+            <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10 bg-slate-100 text-black">
               <Typography tag="h2" className="mb-6 font-bold uppercase" text={isPaintSection.TITLE} type="secondary" responsive />
-              <Typography tag="p" className="mb-4 font-thin" text={isPaintSection.SUBTITLE} type="primary" responsive />
+              <Typography tag="p" className="mb-4 font-thin" text={isPaintSection.SUBTITLE} type="secondary" responsive />
               <Typography tag="div" className="mb-8" text={isPaintSection.DESCRIPTION} responsive />
               <FeatureList list={isPaintSection.LIST} />
+              <Typography tag="div" className="mt-4" text={isPaintSection.DESCRIPTION_DOS} responsive />
             </div>
           </div>
         </Section>
       ) : null
     }
-    {
+    <div class="bg-slate-100 text-black">
+      {
       isTurfSection ? <TurfSection
         language={language}
         image={isTurfSection.IMAGE}
@@ -221,6 +225,7 @@ robots="index,follow"
         title={isTurfSection.TITLE}
         description={isTurfSection.DESCRIPTION} /> : null
     }
+    </div>
     {
       isLightningSection ? <LightSection
         title={isLightningSection.TITLE}
@@ -229,19 +234,27 @@ robots="index,follow"
         language={language}
       /> : null
     }
-    {
-      isInstallationSection ?
-      <Section id={isInstallationSection.ID} heading2={isInstallationSection.TITLE}>
-        <Typography tag="p" className="text-center" text={isInstallationSection.DESCRIPTION} responsive />
-      </Section> : null
-    }
+    <div class="bg-slate-100 text-black">
+      {
+        isInstallationSection ?
+        <Section id={isInstallationSection.ID}>
+          <Typography tag="h2" className="text-center font-bold" type="secondary" text={isInstallationSection.TITLE} responsive />
+          <Typography tag="h3" className="text-center mt-8" type="secondary" text={isInstallationSection.SUBTITLE} responsive />
+          <Typography tag="p" className="text-center mt-4" text={isInstallationSection.DESCRIPTION} responsive />
+          <Typography tag="h3" className="text-center" type="secondary" text={isInstallationSection.SUBTITLE_2} responsive />
+          <Typography tag="p" className="text-center mt-4" text={isInstallationSection.DESCRIPTION_2} responsive />
+        </Section> : null
+      }
+    </div>
     {
       isCostSection ?
-      <Section id={isCostSection.ID} heading2={isCostSection.TITLE}>
-        <Typography tag="p" className="text-center" text={isCostSection.DESCRIPTION} responsive />
+      <Section id={isCostSection.ID}>
+        <Typography tag="h2" className="text-center font-bold" type="secondary" text={isCostSection.TITLE} responsive />
+        <Typography tag="p" className="text-center mt-8" text={isCostSection.DESCRIPTION} responsive />
       </Section> : null
     }
-    {
+    <div class="bg-slate-100">
+      {
       isGallerySection ? (<Gallery
         id={isGallerySection.ID}
         path={isGallerySection.PATH}
@@ -250,6 +263,7 @@ robots="index,follow"
         loadMoreText={isGallerySection.BUTTON_TEXT}
       />) : null
     }
+    </div>
     {
       isCourtsSection ? (<SectionCourtsGrid language={language} courts={compatibleCourts} heading={isCourtsSection.TITLE} subheading={isCourtsSection.DESCRIPTION} />) : null
     }
