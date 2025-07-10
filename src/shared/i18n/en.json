@@ -2349,7 +2349,7 @@
       "SUBTITLE": "Introducing the latest innovation in Padel court technology",
       "TITLE": "Mobile Padel Court",
       "DETAIL_TITLE": "<span class=\"block\">Mobile Padel Court</span><span class=\"text-white text-lg md:text-xl lg:text-2xl \">system patented by Portico Sport</span>",
-      "DESCRIPTION": "<p>The first of its kind, our patented Mobile Court system, is revolutionizing the market. Meticulously designed by our Engineering Department, this system can make the difference expanding the range of possibilities to install a court making it possible where previously wasn´t.</p><p>This groundbreaking court eliminates the need for costly ground preparation expenses and tedious permitting processes. With only a flat permeable surface required to be installed, our court offers unparalleled convenience and cost savings.</p>",
+      "DESCRIPTION": "<p>Our patented Mobile Court system is a true game-changer.</p><p> Carefully engineered by our expert team, it opens up new possibilities by enabling court installations in locations where traditional construction simply isn’t feasible.</p><p>No need for costly groundwork or lengthy permits — our mobile system only requires a flat, permeable surface, saving you time and money while offering unmatched flexibility.</p>",
       "LITTLE_DESCRIPTION": "<p>Enjoy Padel anywhere, temporarily or permanently, a Padel court that will save you time and money.</p>",
       "MORE_INFO_URL": "https://www.porticosport.com/en/mobile-courts",
       "CONTACT_TITLE_1": "Do you want a Mobile Padel Court?",
@@ -2363,7 +2363,7 @@
       "FIRST_SECTION": {
         "ID": "courts-views",
         "TITLE": "<span class=\"text-secondary\">Place our Mobile Padel Court solution anywhere!</span>",
-        "DESCRIPTION": "<p>In Portico Sport, we specialize in building high-quality Mobile Padel courts tailored to your specific needs. Our Mobile Padel court system is designed for both temporary and permanent installations, ensuring that you can set up your court wherever it’s needed. Whether you’re organizing a tournament or looking to add a Padel court to a specific location, our Mobile solutions provide the flexibility and durability you require.</p><p>Our team of expert Padel court builders ensures that every aspect of your Mobile Padel court meets the highest standards. From the foundation to the fencing, lighting, and playing surface, we offer a complete package designed for optimal performance.</p><p>What sets our court apart is its innovative counterweight box system, ensuring sturdy support without the need for ground anchoring.</p><p>This means you can install this court in a particular location for years to come, or effortlessly relocate it whenever needed without damaging the ground where it was installed.</p><p>But that’s not all – opposite to other “mobile” solutions, our system allows for the same play experience with traditional anchored courts, same robustness and wind resistance as our club court model, that why we offer the same 10-year structural warranty</p>",
+        "DESCRIPTION": "<p>At Portico Sport, we specialize in mobile padel courts tailored to your needs. Whether for temporary events or permanent setups, our system lets you install courts wherever you want. Organizing a tournament or adding a court to a new location? Our mobile courts deliver the durability and performance you expect.</p><p>What makes our courts unique is the patented counterweight box system. It provides rock-solid stability without ground anchoring, allowing easy relocation with no damage to the surface. Unlike other mobile solutions, our courts offer the same play quality, strength, and wind resistance as fixed club courts — backed by a 10-year structural warranty.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/mobile/mobile-front.webp",
@@ -2385,23 +2385,23 @@
         "BENEFITS": [{
           "header": "Saving with us",
           "icon": "SavingsAstro",
-          "footer": "Less bureaucratic issues and streamlined processes, you can enjoy quicker concessions, saving valuable time and expenses on ground works."
+          "footer": "LLess bureaucracy, no ground works."
         }, {
-          "header": "10 years warranty",
+          "header": "Durability",
           "icon": "WarrantyIcon",
-          "footer": "Rest assured with our 10-year warranty on the structural integrity of our mobile courts, designed to withstand wind speeds like our anchored club court."
+          "footer": "10-year warranty, withstands high wind speeds."
         }, {
-          "header": "Versatile and adaptable",
+          "header": "Versatility",
           "icon": "VersatileCourtIcon",
-          "footer": "Suitable for both indoor and outdoor installations, can be easily transported to various environments and locations, making it ideal for events or installations where drilling holes to anchor the court is not possible."
+          "footer": "Indoor/outdoor, relocatable without damage."
         }, {
-          "header": "Leasing opportunities",
+          "header": "Leasing friendly",
           "icon": "RentIcon",
-          "footer": "Our Mobile Court offers attractiveness for leasing opportunities, reducing risk and commitment."
+          "footer": "Lower risk & commitment."
         }, {
           "header": "Premium materials",
           "icon": "MaterialsIcon",
-          "footer": "Crafted with premium materials for maximum strength and durability, our mobile courts offer the same premium quality as a permanent court."
+          "footer": " Same quality as fixed courts."
         }]
       },
       "STRUCTURE_SECTION": {
@@ -2413,16 +2413,15 @@
         },
         "TITLE": "Mobile Padel Court Structures: Durable & Flexible",
         "SUBTITLE": "Experience the excellence of our premium quality court structure",
-        "TEXT": "<p>Crafted with galvanized steel structure, our court ensures maximum resistance to abrasion and oxidation.</p><p>The court structure consists of galvanized S275JR steel profiles, anchored securely to the ground using anchor plates. The side and top frames are complemented by electro-welded mesh in accordance with UNE-EN-10223-4 standards.</p><p>To prevent vibrations of the mesh, the structure includes intermediate scaffolding.</p><p>Fastening the structure to the pavement is achieved with countersunk metal anchors measuring M8X80 mm. Plus, its assembly process is seamless, thanks to self-locking safety screws and nuts made of galvanized steel.</p><p>The structure of Portico Sport padel courts undergoes manufacturing processes including cutting-edge industrial technologies such as:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laser cutting guarantees precise cuts and delivers high-quality finishing.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">A fully automated robotic welding assembly line guarantees the quality of welds, preventing potential oxidation in the future.</li></ul>"
+        "TEXT": "<p>Crafted from galvanized <strong>S275JR</strong> steel for abrasion and corrosion resistance.</p><p>Side and top frames include <strong>UNE-EN-10223-4</strong> compliant electro-welded mesh with vibration control.</p><p>Quick assembly with galvanized self-locking screws and nuts.</p><p>Manufacturing highlights:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laser-cut steel ensures precision and clean finishes.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Robotic welding guarantees quality and prevents oxidation.</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
         "TITLE": "Mobile Padel Court dimensions",
-        "DESCRIPTION": "The standard dimensions for a Mobile Padel court are 20 meters long by 10 meters wide. This is the official size for professional Padel courts, providing ample space for competitive play. We also offer customized sizes depending on the available space and intended use. Our Mobile Padel courts are built to meet the highest standards of quality and safety, ensuring a premium experience for all players.",
-        "INDOOR_TITLE": "Indoor",
-        "OUTDOOR_TITLE": "Outdoor",
-        "OUTDOOR": "<p><strong>12 steel counterweight boxes</strong> located on the sides.</p><p><strong>Length</strong>: 20 m (interior measurements) / 20,96 m (exterior measurements of the court).</p><p><strong>Width</strong>: 10 m (interior measurements) / 11,45 m (exterior measurements of the court).</p>",
-        "INDOOR": "<p><strong>4 steel counterweight boxes</strong> located on the sides.</p><p><strong>Length</strong>: 20 m (interior measurements) / 20,67 m (exterior measurements of the court).</p><p><strong>Width</strong>: 10 m (interior measurements) / 11,45 m (exterior measurements of the court).</p>",
+        "INDOOR_TITLE": "<strong>Indoor</strong>",
+        "OUTDOOR_TITLE": "<strong>Outdoor</strong>",
+        "OUTDOOR": "<p>12 steel counterweight boxes located on the sides.</p><p>Interior: 20 m x 10 m</p><p>Exterior: 20.96 m x 11.45 m</p>",
+        "INDOOR": "<p>4 steel counterweight boxes located on the sides.</p><p>Interior: 20 m x 10 m</p><p>Exterior: 20.67 m x 11.45 m</p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/mobile/sizing-mobile-court.webp",
@@ -2440,34 +2439,35 @@
         },
         "TITLE": "High-Quality Glass for Mobile Padel Courts",
         "SUBTITLE": "Tempered Safety Glass in Every Court!",
-        "DESCRIPTION": "<p>Discover unrivaled safety and durability in our padel courts. Each court features tempered safety glass, available in either 10 or 12 mm thickness, tailored to the specific requirements of your project. Rest assured, our glass meets all regulatory standards for installations of this kind. Partnering with esteemed Spanish manufacturers boasting CE marking, we guarantee top-notch quality in every aspect of our construction.</p><p><strong>GLAZING</strong> is done using clear tempered glass with polished edges, fixed to the metal structure using countersunk polyethylene bushings, galvanized screws and neoprene gaskets for perfect glass/metal support, with a total of 6 anchor holes. Our glass panels boast outstanding physical and mechanical properties, including impact resistance and optimal flatness.</p>"
-      },
-      "PAINT_SECTION": {
-        "ID": "paint-section",
+        "DESCRIPTION": "<p>Each court features tempered safety glass (10 or 12 mm), CE-marked and made in Spain.</p><p>With clear, polished edges, neoprene gaskets, and galvanized screws, our panels deliver excellent impact resistance and flatness — all compliant with European standards. </p>",
+        },
+        "PAINT_SECTION": {
+         "ID": "paint-section",
         "TITLE": "Custom Paint Solutions for Padel Court Structures",
         "SUBTITLE": "Did you know that now you can add a splash of color to your court?",
-        "DESCRIPTION": "<p>Discover the epitome of distinction in padel court construction with a range of lacquer types, providing endless options to paint your court's structures in vibrant hues. Our LACQUERED PAINT offers maximum resistance to abrasion and oxidation. Choose the RAL color that suits your preference and stand out on with our customizable color options.</p>",
-        "IMAGES": [{
-          "id": "slide-1",
-          "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
-          "alt": "Orange painted mobile court"
-        },{
-          "id": "slide-2",
-          "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
-          "alt": "Orange painted mobile court"
-        },{
-          "id": "slide-3",
-          "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
-          "alt": "Exterior of a yellow mobile court"
-        },{
-          "id": "slide-4",
-          "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
-          "alt": "Exterior of a yellow mobile court"
+        "DESCRIPTION": "<p>Add a splash of color to your court with our durable lacquer paint options:</p>",
+        "DESCRIPTION_DOS":"Choose your preferred RAL color and customize your court’s look!",
+          "IMAGES": [{
+            "id": "slide-1",
+            "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
+            "alt": "Orange painted mobile court"
+          },{
+            "id": "slide-2",
+            "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
+            "alt": "Orange painted mobile court"
+          },{
+            "id": "slide-3",
+            "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
+            "alt": "Exterior of a yellow mobile court"
+          },{
+            "id": "slide-4",
+            "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
+            "alt": "Exterior of a yellow mobile court"
         }],
         "LIST": [
-          "<strong>INDOOR:</strong> powder coating formulated with thermos-fusible resins.",
-          "<strong>OUTDOOR:</strong> thermo-fusible powder primer treatment with a high zinc content formulated to improve the corrosion protection of galvanized steel.",
-          "<strong>HOT DIP GALVANIZED:</strong> treatment of molten zinc at a temperature of 450 ºC in order to achieve high protection of parts against corrosion in marine environments. Includes powder coating formulated with thermo-fusible resins."
+         "<strong>INDOOR:</strong> Powder coating with thermos-fusible resins.",
+          "<strong>OUTDOOR:</strong> Zinc-rich thermo-fusible primer + powder coating for corrosion protection.",
+          "<strong>HOT DIP GALVANIZED:</strong> Zinc bath treatment + powder coating for coastal or marine environments."
         ]
       },
       "TURF_SECTION": {
@@ -2478,7 +2478,7 @@
         },
         "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">High-Performance Turf for Mobile Padel Courts</span>",
         "SUBTITLE": "Experience Unmatched Performance on our Turf!",
-        "DESCRIPTION": "<p>We partner with the top turf companies to ensure your court receives premium quality turf. Every court is equipped with the latest generation turf engineered with textured monofilaments, featuring different thickness and pile heights, very low abrasion, made of polyethylene (PE) and specific additives with high resistance to wear and anti-UV treatment, resistant to heat and extreme weather fluctuations.</p><p>Stabilization fill and ballast using rounded, washed and dried silica sand, with 97% silica, granulometry between 0,2 - 0,6 mm in an approximate quantity of 10-15 Kg/m2, depending on the lawn model.</p><p>Our cutting-edge turf guarantees padel players an optimized playing speed and improved ball bounce and offers the option of straight or curled fibers and is available in a wide variety of colors.</p>"
+        "DESCRIPTION": "<p>Experience Unmatched Performance on our Turf!</p><p>We partner with top turf suppliers to ensure elite performance.</p><p>Every court includes: <ul><li>Next-gen polyethylene turf with textured monofilaments.</li><li>UV-resistant, low-abrasion, stable under heat and weather.</li><li>Silica sand stabilization fill (10-15 kg/m²) for optimal ball bounce and speed.</li></ul></p><p>Our turf offers a professional playing experience in various colors and fiber types.</p>"
       },
       "LIGHTING_SECTION": {
         "ID": "lighting-section",
@@ -2488,17 +2488,20 @@
         },
         "TITLE": "Advanced Lighting for Mobile Padel Courts",
         "SUBTITLE": "Illuminate Your Game with Portico Sport's Padel Court Lighting!",
-        "DESCRIPTION": "<p>Enjoy the ultimate LED lighting solution for padel courts, exclusively offered by Portico Sport in partnership with leading specialists in the field.</p><p>Our padel court lighting ensures optimal illumination and uniformity across all playing areas. From the net to the access zones, background, sidelines, and high ball zones, our lighting solution eliminates glare and shadows, providing players with unparalleled visibility and performance.</p><p>The quality of our projectors, designed to withstand impacts up to IK10, with IP66-IP67 sealing degrees and resistance to voltage surges of 4kV - 6kV, combined with high heat dissipation capabilities of the housings, allows for an extended lifespan of our projectors, with a warranty of up to 5 years.</p><p>Our projectors are designed to cover all types of courts specified in the European standard for sports lighting (UNE-EN-12193:2020), ranging from recreational use (Class III) to professional competitions or televised broadcasts (Class I - NIDE standard).</p>"
+        "DESCRIPTION": "<p>Light up the court with our premium LED lighting systems, in partnership with top-tier specialists.</p><p><ul><li>Fully compliant with <span>UNE-EN-12193:2020</span></li>Uniform, glare-free light distribution<li><span>IK10</span> impact resistance, <span>IP66-IP67</span> waterproof rating</li>Voltage surge protection (4kV - 6kV), high heat dissipation<li>Suitable for recreational use (Class III) and professional events (Class I, NIDE standard)</li><li></li><li>Up to 5-year warranty</li></ul></p>"
       },
       "COST_SECTION": {
         "ID": "cost",
         "TITLE": "How Much Does It Cost to Build a Mobile Padel Court?",
-        "DESCRIPTION": "The cost to build a Mobile Padel court varies depending on several factors, such as the materials used, size of the court, and the location of installation. Typically, the price ranges from €18,000 (EXWORK). This includes not only the Padel court itself but also additional features like professional-grade glass panels, lighting systems, and anti-slip surfaces. Our team can provide a custom quote based on your specific requirements."
+        "DESCRIPTION": "Prices start at €18,000 (EXW). Final cost varies by size, features, and location. All courts include top-tier glass panels, turf, lighting, and anti-slip surfaces. Get in touch for a personalized quote."
       },
       "INSTALLATION_SECTION": {
         "ID": "installation",
-        "TITLE": "Why Choose Portico Sport for Your Mobile Padel Court?",
-        "DESCRIPTION": "At Portico Sport, we pride ourselves on delivering top-quality Padel courts that are both durable and easy to install. Our Mobile Padel courts are designed with flexibility in mind, allowing for quick assembly and disassembly without compromising on quality. Whether you need a Padel court for an event, a temporary installation, or even a semi-permanent structure, our Mobile solutions are the best in the market."
+        "TITLE": "Frequently Asked Questions About Our Mobile Padel Courts",
+        "SUBTITLE": "What is the standard size of a Mobile padel court?",
+        "SUBTITLE_2": "Why choose Portico Sport for your Mobile padel court?",
+        "DESCRIPTION": "The standard size is 20 x 10 meters, matching official pro court regulations. Custom dimensions are available upon request. All courts meet high safety and quality standards.",
+        "DESCRIPTION_2": "Because we combine flexibility, durability, and premium materials with unmatched installation ease. Ideal for events, temporary setups, or semi-permanent solutions — all backed by expertise and service."
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
