@@ -2418,8 +2418,8 @@
       "SIZING_SECTION": {
         "ID": "measure-section",
         "TITLE": "Mobile Padel Court dimensions",
-        "INDOOR_TITLE": "<strong>Indoor</strong>",
-        "OUTDOOR_TITLE": "<strong>Outdoor</strong>",
+        "INDOOR_TITLE": "Indoor",
+        "OUTDOOR_TITLE": "Outdoor",
         "OUTDOOR": "<p>12 steel counterweight boxes located on the sides.</p><p>Interior: 20 m x 10 m</p><p>Exterior: 20.96 m x 11.45 m</p>",
         "INDOOR": "<p>4 steel counterweight boxes located on the sides.</p><p>Interior: 20 m x 10 m</p><p>Exterior: 20.67 m x 11.45 m</p>",
         "IMAGE": {
