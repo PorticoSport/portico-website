@@ -2478,7 +2478,7 @@
         },
         "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold mb-8 uppercase\">High-Performance Turf for Mobile Padel Courts</span>",
         "SUBTITLE": "Experience Unmatched Performance on our Turf!",
-        "DESCRIPTION": "<p>We partner with top turf suppliers to ensure elite performance.</p><p>Every court includes: <ul><li> Next-gen polyethylene turf with textured monofilaments.</li><li>UV-resistant, low-abrasion, stable under heat and weather.</li><li>Silica sand stabilization fill (10-15 kg/m²) for optimal ball bounce and speed.</li></ul></p><p>Our turf offers a professional playing experience in various colors and fiber types.</p>"
+        "DESCRIPTION": "<p>We partner with top turf suppliers to ensure elite performance.</p><p>Every court includes: <ul class=\"list-disc\"><li> Next-gen polyethylene turf with textured monofilaments.</li><li>UV-resistant, low-abrasion, stable under heat and weather.</li><li>Silica sand stabilization fill (10-15 kg/m²) for optimal ball bounce and speed.</li></ul></p><p>Our turf offers a professional playing experience in various colors and fiber types.</p>"
       },
       "LIGHTING_SECTION": {
         "ID": "lighting-section",
@@ -5402,7 +5402,7 @@
   "LIGHTING_SECTION": {
     "TYPES_TITLE": "Lighting types",
     "MASTS_TITLE": "Lighting masts",
-    "MASTS_DESCRIPTION": "<p>Our masts, attached and anchored to the court structure, are crafted from galvanized and lacquered S275 JR steel profiles, ensuring durability and reliability. Standing at an impressive height of 6 meters, each mast provides support for 2 projectors, illuminating your court with precision and clarity.</p><p>Choose from our range of aesthetic options to complement your court design:</p>",
+    "MASTS_DESCRIPTION": "<p>Lighting masts are galvanized steel, 6 meters high, available in three designs:</p>",
     "LIGHTING_TYPES": [{
       "title": "PV: 8 X 180W",
       "description": "Proven technology endorsed by our experience and the vast majority of professional players.",
