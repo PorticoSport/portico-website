@@ -2478,8 +2478,7 @@
         },
         "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold mb-8 uppercase\">High-Performance Turf for Mobile Padel Courts</span>",
         "SUBTITLE": "Experience Unmatched Performance on our Turf!",
-        "DESCRIPTION": "<p>Experience Unmatched Performance on our Turf!</p><p>We partner with top turf suppliers to ensure elite performance.</p><p>Every court includes: <ul><li>Next-gen polyethylene turf with textured monofilaments.</li><li>UV-resistant, low-abrasion, stable under heat and weather.</li><li>Silica sand stabilization fill (10-15 kg/m²) for optimal ball bounce and speed.</li></ul></p><p>Our turf offers a professional playing experience in various colors and fiber types.</p>"
-      },
+        "DESCRIPTION": "<p>We partner with top turf suppliers to ensure elite performance.</p><p>Every court includes: <ul><li><span class=\"p-1\">-</span> Next-gen polyethylene turf with textured monofilaments.</li><li><span class=\"p-1\">-</span>UV-resistant, low-abrasion, stable under heat and weather.</li><li><span class=\"p-1\">-</span>Silica sand stabilization fill (10-15 kg/m²) for optimal ball bounce and speed.</li></ul></p><p>Our turf offers a professional playing experience in various colors and fiber types.</p>"
       "LIGHTING_SECTION": {
         "ID": "lighting-section",
         "IMAGE": {
