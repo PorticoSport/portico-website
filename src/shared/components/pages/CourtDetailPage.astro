@@ -18,6 +18,7 @@ import Gallery from "../Gallery.astro";
 import { type Photo, type FeatureCourt, type FirstSectionCourt, type BenefitsSectionCourt, type SizingSectionCourt, type InformationSection, type InstallationSection, type CostSection, type ContactSection, type GallerySection } from "@/types/types";
 import FeatureList from "@/shared/components/FeatureList.astro";
 import { courtsGrid } from "@/shared/i18n/constants";
+import SectionFaqs from "@/shared/components/sections/SectionFaqs.astro";
 
 interface Props {
   language: string;
@@ -45,6 +46,16 @@ const isCourtsSection = (locale as { COURTS_SECTION?: string }).COURTS_SECTION;
 const isContactSection = (locale as { CONTACT_SECTION?: ContactSection }).CONTACT_SECTION;
 const isInstallationSection = (locale as { INSTALLATION_SECTION?: InstallationSection }).INSTALLATION_SECTION;
 const isCostSection = (locale as { COST_SECTION?: CostSection }).COST_SECTION;
+const faqItems = isInstallationSection ? [
+  {
+    question: isInstallationSection.SUBTITLE,
+    answer: isInstallationSection.DESCRIPTION
+  },
+  {
+    question: isInstallationSection.SUBTITLE_2,
+    answer: isInstallationSection.DESCRIPTION_2
+  }
+] : [];
 
 if (isPaintSection) {
   isPaintSection.IMAGES.forEach((image: Photo) => {
@@ -261,16 +272,19 @@ robots="index,follow"
       /> : null
     }
     <div class="bg-slate-100 text-black">
-      {
-        isInstallationSection ?
-        <Section id={isInstallationSection.ID}>
-          <Typography tag="h2" className="text-center font-bold" type="secondary" text={isInstallationSection.TITLE} responsive />
-          <Typography tag="h3" className="text-center mt-8" type="secondary" text={isInstallationSection.SUBTITLE} responsive />
-          <Typography tag="p" className="text-center mt-4" text={isInstallationSection.DESCRIPTION} responsive />
-          <Typography tag="h3" className="text-center" type="secondary" text={isInstallationSection.SUBTITLE_2} responsive />
-          <Typography tag="p" className="text-center mt-4" text={isInstallationSection.DESCRIPTION_2} responsive />
-        </Section> : null
-      }
+    {
+      isInstallationSection ? (
+        <SectionFaqs
+          language={language}
+          title={isInstallationSection.TITLE}
+          subtitle={isInstallationSection.SUBTITLE}
+          items={faqItems}
+          className="text-black"
+          items={faqItems}
+          dark={true}
+        />
+      ) : null
+    }
     </div>
     {
       isCostSection ?
