@@ -434,6 +434,7 @@
         "TITLE": "Vidrio de Alta Calidad para pista de pádel Móvil",
         "SUBTITLE": "¡Vidrio de seguridad templado en cada pista!",
         "DESCRIPTION": "<p>Todas nuestras pistas móviles incluyen cristal templado, de 10 o 12 mm, con marcado CE y fabricación nacional.</p><p>✔️ Bordes pulidos</p><p>✔️ Juntas de neopreno</p><p>✔️ Tornillería galvanizada</p><p>Cumple con las normativas europeas y ofrece máxima resistencia al impacto y excelente visibilidad.</p>"
+      },
       "PAINT_SECTION": {
         "ID": "pintura",
         "TITLE": "Pintura Personalizada para Estructuras de pistas de pádel",
@@ -500,7 +501,7 @@
         "SUBTITLE_3": "<p class=\"text-black\">¿Cuánto cuesta construir una pista de pádel móvil?</p>",
         "DESCRIPTION": "<p class=\"text-black\">El tamaño estándar es de 20 x 10 metros, cumpliendo con las regulaciones oficiales de competición. También fabricamos pistas a medida bajo pedido, siempre cumpliendo con los estándares de calidad y seguridad más exigentes.</p>",
         "DESCRIPTION_2": "<p class=\"text-black\">Porque ofrecemos una solución única que combina flexibilidad, durabilidad, materiales premium y facilidad de instalación. Nuestras pistas móviles son ideales para eventos deportivos, instalaciones temporales o semipermanentes, con el respaldo de una marca experta en ingeniería y servicio.</p>",
-        "DESCRIPTION_3":"Los precios comienzan desde 18.000 € (EXW). El coste final varía según el tamaño, características y ubicación. Todas las pistas incluyen cristales de alta gama, césped, iluminación y superficies antideslizantes. Contáctanos para obtener un presupuesto personalizado."
+        "DESCRIPTION_3":"<p class=\"text-black\">Los precios comienzan desde 18.000 € (EXW). El coste final varía según el tamaño, características y ubicación. Todas las pistas incluyen cristales de alta gama, césped, iluminación y superficies antideslizantes. Contáctanos para obtener un presupuesto personalizado.</p>"
       },
       "GALLERY_SECTION": {
         "ID": "galeria",
