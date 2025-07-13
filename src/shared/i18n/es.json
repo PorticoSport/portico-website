@@ -336,7 +336,7 @@
       "SUBTITLE": "Presentando la última innovación en tecnología de pistas de pádel",
       "TITLE": "Pista de pádel móvil",
       "DETAIL_TITLE": "<span class=\"block\">Pista de pádel Móvil</span>",
-      "DESCRIPTION": "<p>La primera de su tipo, nuestra Pista Móvil patentada está revolucionando el mercado. Diseñada meticulosamente por nuestro Departamento de Ingeniería, este sistema puede marcar la diferencia ampliando el rango de posibilidades para instalar una pista haciéndolo posible donde antes no lo estaba.</p><p>Esta innovadora pista elimina la necesidad de costosos gastos de preparación del terreno y tediosos procesos de permisos. Con solo requerir una superficie permeable plana para instalarse, nuestra pista ofrece una conveniencia y ahorro de costos incomparables.</p>",
+      "DESCRIPTION": "<p>Nuestra sistema de pista móvil patentada revoluciona el mundo del pádel.</p><p>En Portico Sport, no solo fabricamos pistas: resolvemos desafíos estructurales. Diseñada meticulosamente por nuestro Departamento de Ingeniería, nuestra pista de pádel Móvil es un sistema patentado que abre nuevas posibilidades para instalar pistas en lugares donde la construcción tradicional no es viable.</p>",
       "LITTLE_DESCRIPTION": "<p>disfruta delpádel en cualquier lugar, temporal o permanentemente, una pista que te ahorrará tiempo y dinero.</p>",
       "MORE_INFO_URL": "https://www.porticosport.com/es/courts-detail/mobile",
       "CONTACT_TITLE_1": "¿Quieres una Pista Móvil?",
@@ -350,7 +350,7 @@
       "FIRST_SECTION": {
         "ID": "vistas-de-pistas",
         "TITLE": "<span class=\"text-secondary\">¡Coloca la pista de pádel Móvil en cualquier lugar!</span>",
-        "DESCRIPTION": "<p>En Portico Sport, nos especializamos en la construcción de pistas de pádel móviles de alta calidad, adaptadas a tus necesidades específicas. Nuestro sistema de pista de pádel Móvil está diseñado tanto para instalaciones temporales como permanentes, lo que te permite montar tu pista donde sea necesario. Ya sea que estés organizando un torneo o quieras añadir una pista de pádel en una ubicación específica, nuestras soluciones móviles te ofrecen la flexibilidad y durabilidad que necesitas.</p><p>Nuestro equipo de expertos en construcción de pistas de pádel se asegura de que cada aspecto de tu pista Móvil cumpla con los más altos estándares. Desde la base hasta el vallado, la iluminación y la superficie de juego, ofrecemos un paquete completo diseñado para un rendimiento óptimo.</p><p>Lo que diferencia nuestra pista es su innovador sistema de contrapeso, que garantiza un soporte resistente sin necesidad de anclaje al suelo.</p><p>Esto significa que puedes instalar esta pista en un lugar particular durante años, o trasladarla fácilmente cuando sea necesario sin dañar el suelo donde estaba instalada.</p><p>Pero eso no es todo: a diferencia de otras soluciones “móviles”, nuestro sistema permite la misma experiencia de juego que las pistas tradicionales ancladas, la misma robustez y resistencia al viento que nuestro modelo de pista de club, por eso ofrecemos la misma garantía estructural de 10 años</p>",
+        "DESCRIPTION": "<p>Nuestro sistema de pista Móvil está diseñado tanto para instalaciones temporales como permanentes, lo que te permite montar tu pista donde sea necesario. Ya sea que estés organizando un torneo o quieras añadir una pista en una ubicación específica, nuestra pista de pádel Móvil te ofrecen la flexibilidad y durabilidad que necesitas</p><p>La clave está en nuestro sistema patentado de cajas contrapeso, que garantiza una <span>estabilidad total sin anclajes al suelo</span>, lo que permite reubicar la pista fácilmente sin dañar la superficie. A diferencia de otras soluciones móviles, nuestras pistas ofrecen el mismo nivel de juego, resistencia al viento y solidez estructural que las pistas fijas de club — todo ello respaldado por una garantía estructural de 10 años.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/mobile/mobile-front.webp",
@@ -371,29 +371,29 @@
         "TITLE": "Experimenta los beneficios de nuestro innovador sistema de pista de pádel Móvil",
         "BENEFITS": [
           {
-            "header": "Ahorra con nosotros",
+            "header": "Ahorro de tiempo y costes",
             "icon": "SavingsAstro",
-            "footer": "Menos problemas burocráticos y procesos simplificados, puedes disfrutar de concesiones más rápidas, ahorrando tiempo y gastos valiosos en trabajos de suelo."
+            "footer": "Sin obras, menos burocracia."
           },
           {
-            "header": "Garantía de 10 años",
+            "header": "Alta durabilidad",
             "icon": "WarrantyIcon",
-            "footer": "Descanse tranquilo con nuestra garantía de 10 años sobre la integridad estructural de nuestras pistas móviles, diseñadas para soportar velocidades de viento como nuestra pista de pádel Club anclada."
+            "footer": "Resiste vientos fuertes, garantía de 10 años."
           },
           {
             "header": "Versátil y adaptable",
             "icon": "VersatileCourtIcon",
-            "footer": "Adecuada para instalaciones tanto en interiores como en exteriores, puede transportarse fácilmente a diversos entornos y ubicaciones, lo que lo hace ideal para eventos o instalaciones donde no es posible perforar agujeros para anclar la pista de pádel."
+            "footer": "Ya sea en interior o exterior, reubicable sin daños."
           },
           {
-            "header": "Oportunidades de arrendamiento",
+            "header": "Oportunidad de arrendamiento",
             "icon": "RentIcon",
-            "footer": "Nuestra pista Móvil ofrece atractivo para oportunidades de arrendamiento, reduciendo el riesgo y el compromiso."
+            "footer": "Menor riesgo y compromiso."
           },
           {
             "header": "Materiales premium",
             "icon": "MaterialsIcon",
-            "footer": "Elaboradas con materiales premium para una resistencia y durabilidad máximas, nuestras pistas móviles ofrecen la misma calidad premium que una pista permanente."
+            "footer": "Misma calidad que una pista anclada."
           }
         ]
       },
@@ -406,7 +406,7 @@
         },
         "TITLE": "Estructura de pista de pádel Móvil: Flexibilidad y Durabilidad",
         "SUBTITLE": "Experimenta la excelencia de nuestra estructura de pista de pádel de calidad premium",
-        "TEXT": "<p>Elaborada con estructura de acero galvanizado, nuestra pista garantiza una resistencia máxima a la abrasión y la oxidación.</p><p>La estructura de la pista consta de perfiles de acero galvanizado S275JR, anclados de forma segura al suelo mediante placas de anclaje. Los marcos laterales y superiores se complementan con malla electro soldada de acuerdo con las normas UNE-EN-10223-4.</p><p>Para evitar vibraciones de la malla, la estructura incluye andamios intermedios.</p><p>La fijación de la estructura al pavimento se logra con anclajes metálicos avellanados de medida M8X80 mm. Además, su proceso de montaje es impecable, gracias a los tornillos y tuercas de seguridad autoblocantes fabricados en acero galvanizado.</p><p>La estructura de las pistas de pádel de Portico Sport se somete a procesos de fabricación que incluyen tecnologías industriales de vanguardia como:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">El corte por láser garantiza cortes precisos y proporciona un acabado de alta calidad.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Una línea de montaje de soldadura robótica totalmente automatizada garantiza la calidad de las soldaduras, previniendo posibles oxidaciones en el futuro.</li></ul>"
+        "TEXT": "<p>Construidas con <span>acero galvanizado S275JR</span>, nuestras pistas resisten la abrasión y la corrosión.</p><p>Incluyen malla electro-soldada conforme a la norma <span>UNE-EN-10223-4</span>, con sistema anti-vibración.</p><p>Proceso de montaje es rápido, con tornillos y tuercas de seguridad autoblocantes de acero galvanizado.</p><p>Puntos clave del proceso de fabricación:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">✔️ Corte láser para acabados precisos</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">✔️ Soldadura robotizada para garantizar calidad y evitar oxidación</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "medidas",
@@ -414,8 +414,8 @@
         "DESCRIPTION": "<p>Las dimensiones estándar de una pista de pádel Móvil son de 20 metros de largo por 10 metros de ancho. Este es el tamaño oficial para las pistas de pádel profesionales, proporcionando un espacio adecuado para el juego competitivo. También ofrecemos tamaños personalizados según el espacio disponible y el uso previsto. Nuestras pistas de pádel móviles están construidas para cumplir con los más altos estándares de calidad y seguridad, garantizando una experiencia de primera para todos los jugadores.</p>",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
-        "OUTDOOR": "<p><strong>12 cajas de contrapeso de acero</strong> ubicadas en los lados.</p><p><strong>Longitud</strong>: 20 m (mediciones interiores) / 20,96 m (mediciones exteriores de la pista).</p><p><strong>Ancho</strong>: 10 m (mediciones interiores) / 11,45 m (mediciones exteriores de la pista).</p>",
-        "INDOOR": "<p><strong>4 cajas de contrapeso de acero</strong> ubicadas en los lados.</p><p><strong>Longitud</strong>: 20 m (mediciones interiores) / 20,67 m (mediciones exteriores de la pista).</p><p><strong>Ancho</strong>: 10 m (mediciones interiores) / 11,45 m (mediciones exteriores de la pista).</p>",
+        "OUTDOOR": "<p>12 cajas contrapeso de acero en los laterales.</p><p>Interior: 20 m x 10 m</p><p>Exterior: 20,96 m x 11,45 m</p>",
+        "INDOOR": "<p>4 cajas contrapeso de acero en los laterales</p><p>Interior: 20 m x 10 m</p><p>Exterior: 20,67 m x 11,45 m</p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/mobile/sizing-mobile-court.webp",
@@ -433,13 +433,12 @@
         },
         "TITLE": "Vidrio de Alta Calidad para pista de pádel Móvil",
         "SUBTITLE": "¡Vidrio de seguridad templado en cada pista!",
-        "DESCRIPTION": "<p>Descubre la seguridad y durabilidad incomparables en nuestras pistas de pádel. Cada pista cuenta con vidrio de seguridad templado, disponible en un grosor de 10 o 12 mm, adaptado a los requisitos específicos de tu proyecto. Ten la seguridad de que nuestro vidrio cumple con todas las normativas regulatorias para instalaciones de este tipo. En asociación con prestigiosos fabricantes españoles que cuentan con marcado CE, garantizamos una calidad excepcional en todos los aspectos de nuestra construcción.</p><p>El <strong>ENMARCADO</strong> se realiza utilizando vidrio templado transparente con bordes pulidos, fijado a la estructura metálica mediante casquillos de polietileno avellanados, tornillos galvanizados y juntas de neopreno para un perfecto soporte vidrio/metal, con un total de 6 orificios de anclaje. Nuestros paneles de vidrio cuentan con excelentes propiedades físicas y mecánicas, incluida la resistencia al impacto y la planitud óptima.</p>"
-      },
+        "DESCRIPTION": "<p>Todas nuestras pistas móviles incluyen cristal templado, de 10 o 12 mm, con marcado CE y fabricación nacional.</p><p>✔️ Bordes pulidos</p><p>✔️ Juntas de neopreno</p><p>✔️ Tornillería galvanizada</p><p>Cumple con las normativas europeas y ofrece máxima resistencia al impacto y excelente visibilidad.</p>"
       "PAINT_SECTION": {
         "ID": "pintura",
         "TITLE": "Pintura Personalizada para Estructuras de pistas de pádel",
         "SUBTITLE": "¿Sabías que ahora puedes agregar un toque de color a tu pista de pádel?",
-        "DESCRIPTION": "<p>Descubre el epítome de distinción en la personalización de pistas de pádel con una gama de tipos de pintura lacada, que ofrecen infinitas opciones para pintar las estructuras de tu pista en tonos vibrantes. Nuestra <strong>PINTURA LACADA</strong> ofrece una resistencia máxima a la abrasión y la oxidación. Elige el color RAL que se adapte a tus preferencias y destaca con nuestras opciones de color personalizables.</p>",
+        "DESCRIPTION": "<p>Personaliza tu pista con acabados personalizados y colores duraderos.</p><p>Elige tu color RAL preferido y elige entre estas opciones:</p>",
         "IMAGES": [
           {
             "id": "slide-1",
@@ -463,9 +462,9 @@
           }
         ],
         "LIST": [
-          "<strong>INTERIOR:</strong> recubrimiento en polvo formulado con resinas termofusibles.",
-          "<strong>EXTERIOR:</strong> tratamiento de imprimación en polvo termofusible con alto contenido de zinc formulado para mejorar la protección contra la corrosión del acero galvanizado.",
-          "<strong>GALVANIZADO POR INMERSIÓN EN CALIENTE:</strong> tratamiento de zinc fundido a una temperatura de 450 ºC para lograr una alta protección de las piezas contra la corrosión en ambientes marinos. Incluye recubrimiento en polvo formulado con resinas termofusibles."
+          "<strong>INTERIOR:</strong> Pintura en polvo con resinas termo-fundibles.",
+          "<strong>EXTERIOR:</strong> Tratamiento de imprimación rica en zinc + pintura termo-fundible anticorrosiv.",
+          "<strong>GALVANIZADO POR INMERSIÓN EN CALIENTE:</strong> Baño de zinc + pintura, ideal para zonas costeras o marinas."
         ]
       },
       "TURF_SECTION": {
@@ -476,7 +475,7 @@
         },
         "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped Artificial Resistente para pistas de pádel Móviles</span>",
         "SUBTITLE": "¡Experimenta un rendimiento incomparable en nuestro césped artificial!",
-        "DESCRIPTION": "<p>Nos asociamos con las principales empresas de césped artificial para garantizar que tu pista de pádel reciba césped de la mejor calidad. Cada pista está equipada con césped de última generación, diseñado con monofilamentos texturizados, con diferentes grosores y alturas de pelo, muy bajo en abrasión, fabricado de polietileno (PE) y aditivos específicos con alta resistencia al desgaste y tratamiento anti-UV, resistente al calor y a las fluctuaciones extremas del clima.</p><p>Estabilización y lastre con arena de sílice redondeada, lavada y seca, con un 97% de sílice, granulometría entre 0,2 - 0,6 mm en una cantidad aproximada de 10-15 Kg/m2, dependiendo del modelo de césped.</p><p>Nuestro césped de vanguardia garantiza a los jugadores de pádel una velocidad de juego optimizada y un mejor rebote de la pelota y ofrece la opción de fibras rectas o rizadas y está disponible en una amplia variedad de colores.</p>"
+        "DESCRIPTION": "<p>Colaboramos con los mejores proveedores de césped para asegurar un rendimiento de élite.</p><p>Nuestro césped artificial cuenta con:</p><p>✔️ Césped de polietileno texturizado de última generación</p><p>✔️ Alta resistencia UV, baja abrasión y estabilidad térmica</p><p>✔️ Relleno de arena de sílice (10-15 kg/m²) para mejorar el bote y la velocidad de la pelota</p><p>Disponible en varios colores y tipos de fibra para adaptarse a tus preferencias.</p>"
       },
       "LIGHTING_SECTION": {
         "ID": "luces",
@@ -486,7 +485,7 @@
         },
         "TITLE": "Iluminación Profesional para Pistas de pádel Móviles",
         "SUBTITLE": "¡Ilumina tu juego con la iluminación de pistas de pádel de Portico Sport!",
-        "DESCRIPTION": "<p>Disfruta de la mejor solución de iluminación LED para pistas de pádel, ofrecida exclusivamente por Portico Sport en colaboración con destacados especialistas en el campo.</p><p>Nuestra iluminación de pistas de pádel garantiza una iluminación óptima y uniformidad en todas las áreas de juego. Desde la red hasta las zonas de acceso, el fondo, las líneas laterales y las zonas de alto balón, nuestra solución de iluminación elimina el deslumbramiento y las sombras, proporcionando a los jugadores una visibilidad y rendimiento inigualables.</p><p>La calidad de nuestros proyectores, diseñados para soportar impactos de hasta IK10, con grados de sellado IP66-IP67 y resistencia a sobretensiones de 4kV - 6kV, combinada con las altas capacidades de disipación de calor de las carcasas, permite una vida útil prolongada de nuestros proyectores, con una garantía de hasta 5 años.</p><p>Nuestros proyectores están diseñados para cubrir todo tipo de pistas especificadas en la norma europea para iluminación deportiva (UNE-EN-12193:2020), desde el uso recreativo (Clase III) hasta competiciones profesionales o emisiones televisivas (Clase I - norma NIDE).</p>"
+        "DESCRIPTION": "<p>Ofrecemos sistemas de iluminación LED de alto rendimiento, cumpliendo con la normativa <span>UNE-EN-12193:2020</span>:<p><ul class=\"list-disc pl-4\"><li>Luz uniforme sin deslumbramiento</li><li>Resistencia al impacto <span>IK10</span> y protección <span>IP66-IP67</span></li><li>Protección contra sobre-tensiones (4kV - 6kV)</li><li>Disipación térmica eficiente</li><li>Apta para uso recreativo (Clase III) y competiciones profesionales (Clase I, estándar NIDE)</li><li>Garantía de hasta 5 años</li></ul></p>"
       },
       "COST_SECTION": {
         "ID": "cost",
@@ -495,8 +494,13 @@
       },
       "INSTALLATION_SECTION": {
         "ID": "installation",
-        "TITLE": "¿Por qué elegir Portico Sport para tu pista de pádel móvil?",
-        "DESCRIPTION": "En Portico Sport, nos enorgullecemos de ofrecer pistas de pádel de alta calidad que son duraderas y fáciles de instalar. Nuestras pistas de pádel móviles están diseñadas con flexibilidad en mente, lo que permite un montaje y desmontaje rápidos sin comprometer la calidad. Ya sea que necesites una pista de pádel para un evento, una instalación temporal o incluso una estructura semipermanente, nuestras soluciones móviles son las mejores del mercado."
+        "TITLE": "Preguntas Frecuentes sobre las Pistas de Pádel Móviles",
+        "SUBTITLE": "<p class=\"text-black\">¿Cuál es el tamaño estándar de una pista de pádel móvil</p>",
+        "SUBTITLE_2": "<p class=\"text-black\">¿Por qué elegir a Portico Sport para tu pista de pádel móvil?</p>",
+        "SUBTITLE_3": "<p class=\"text-black\">¿Cuánto cuesta construir una pista de pádel móvil?</p>",
+        "DESCRIPTION": "<p class=\"text-black\">El tamaño estándar es de 20 x 10 metros, cumpliendo con las regulaciones oficiales de competición. También fabricamos pistas a medida bajo pedido, siempre cumpliendo con los estándares de calidad y seguridad más exigentes.</p>",
+        "DESCRIPTION_2": "<p class=\"text-black\">Porque ofrecemos una solución única que combina flexibilidad, durabilidad, materiales premium y facilidad de instalación. Nuestras pistas móviles son ideales para eventos deportivos, instalaciones temporales o semipermanentes, con el respaldo de una marca experta en ingeniería y servicio.</p>",
+        "DESCRIPTION_3":"Los precios comienzan desde 18.000 € (EXW). El coste final varía según el tamaño, características y ubicación. Todas las pistas incluyen cristales de alta gama, césped, iluminación y superficies antideslizantes. Contáctanos para obtener un presupuesto personalizado."
       },
       "GALLERY_SECTION": {
         "ID": "galeria",
@@ -3462,7 +3466,7 @@
   "LIGHTING_SECTION": {
     "TYPES_TITLE": "Tipos de iluminación",
     "MASTS_TITLE": "Postes de iluminación",
-    "MASTS_DESCRIPTION": "<p>Nuestros postes de iluminación, sujetos y anclados a la estructura de la pista, están fabricados con perfiles de acero S275 JR galvanizado y lacado, garantizando durabilidad y fiabilidad. Con una impresionante altura de 6 metros, cada mástil proporciona soporte para 2 proyectores, iluminando tu pista con precisión y claridad.</p><p>Elige entre nuestra gama de opciones estéticas para complementar el diseño de tu pista:</p>",
+    "MASTS_DESCRIPTION": "<p>Postes de iluminación de acero galvanizado, de 6 metros de altura, con tres diseños:</p><p><ul class=\"list-disc pl-4\"><li><span>Poste recto:</span>Diseño clásico y minimalista</li><li><span>Poste en forma de V:</span></span> Toque dinámico y moderno</li><li><span>Poste curvado:</span>Estilo fluido y elegante</li></ul></p>",
     "LIGHTING_TYPES": [
       {
         "title": "PV: 8 X 180W",
