@@ -344,7 +344,7 @@
       "SUBTITLE": "Présentation de la dernière innovation en matière de technologie de terrain de padel",
       "TITLE": "Terrain mobile",
       "DETAIL_TITLE": "<span class=\"block\">Terrain mobile</span><span class=\"text-white text-lg md:text-xl lg:text-2xl \">système breveté par Portico Sport</span>",
-      "DESCRIPTION": "<p>Le premier du genre, notre Mobile Terrain breveté révolutionne le marché. Conçu avec minutie par notre département d'ingénierie, ce système peut faire la différence en élargissant la gamme de possibilités pour installer un terrain là où cela n'était pas possible auparavant.</p><p>Ce terrain révolutionnaire élimine la nécessité de coûteuses dépenses de préparation du sol et de fastidieux processus de permis. Avec seulement une surface perméable plane nécessaire à installer, notre terrain offre une commodité et des économies de coûts inégalées.</p>",
+      "DESCRIPTION": "<p>Notre système de court de padel mobile breveté révolutionne le monde du padel.</p><p>Chez Portico Sport, nous ne nous contentons pas de fabriquer des courts : nous résolvons des défis structurels. Conçu avec précision par notre département d’ingénierie, notre court de padel mobile est un système breveté qui ouvre de nouvelles possibilités d’installation dans des lieux où la construction traditionnelle n’est pas envisageable.</p>",
       "LITTLE_DESCRIPTION": "<p>profitez du padel n'importe où, temporairement ou définitivement, un terrain qui vous fera gagner du temps et de l'argent.</p>",
       "MORE_INFO_URL": "https://www.porticosport.com/en/mobile-courts",
       "CONTACT_TITLE_1": "Vous voulez un Mobile Terrain ?",
@@ -358,7 +358,7 @@
       "FIRST_SECTION": {
         "ID": "courts-views",
         "TITLE": "<span class=\"text-secondary\">Placez-le où vous voulez !</span>",
-        "DESCRIPTION": "<p>La particularité de notre terrain est son système de boîte de contrepoids innovant, garantissant un support solide sans besoin d'ancrage au sol.</p><p>Cela signifie que vous pouvez installer ce terrain à un endroit spécifique pour les années à venir, ou le déplacer sans effort lorsque cela est nécessaire sans endommager le sol où il a été installé.</p><p>Mais ce n'est pas tout - contrairement à d'autres solutions « mobiles », notre système permet la même expérience de jeu que les terrains traditionnels ancrés, la même robustesse et la même résistance au vent que notre modèle de terrain de club, c'est pourquoi nous offrons la même garantie structurelle de 10 ans.</p>",
+        "DESCRIPTION": "<p>Notre système de court de padel mobile est conçu aussi bien pour des installations temporaires que permanentes, ce qui vous permet d’installer votre court là où cela est nécessaire. Que vous organisiez un tournoi ou souhaitiez ajouter un court dans un lieu spécifique, notre court de padel mobile vous offre la flexibilité et la durabilité dont vous avez besoin.</p><p>La clé réside dans notre système breveté de caissons de contrepoids, qui garantit une stabilité totale sans ancrage au sol, permettant ainsi de déplacer facilement le court sans endommager la surface. Contrairement à d’autres solutions mobiles, nos courts offrent le même niveau de jeu, la même résistance au vent et la même solidité structurelle que les courts fixes de club — le tout couvert par une garantie structurelle de 10 ans.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/mobile/mobile-front.webp",
@@ -381,29 +381,29 @@
         "DESCRIPTION": "Les mini terrains de padel sont un excellent choix pour ceux qui ont un espace limité mais qui veulent tout de même pratiquer ce sport. Ces terrains sont particulièrement populaires dans les environnements urbains, où l'espace est précieux, ainsi que dans des lieux comme les écoles ou les centres communautaires, où les jeunes joueurs apprennent à jouer. Malgré leur plus petite taille, les mini terrains de padel conservent toutes les caractéristiques essentielles d'un terrain standard, garantissant un jeu amusant et compétitif.",
         "BENEFITS": [
           {
-            "header": "Économies avec nous",
+            "header": "Gain de temps et de coûts",
             "icon": "SavingsAstro",
-            "footer": "Moins de problèmes bureaucratiques et de processus simplifiés, vous pouvez profiter de concessions plus rapides, économisant ainsi un temps précieux et des dépenses sur les travaux de terrassement."
+            "footer": "Sans travaux, moins de bureaucratie."
           },
           {
-            "header": "Garantie de 10 ans",
+            "header": "Durabilité élevée",
             "icon": "WarrantyIcon",
-            "footer": "Rassurez-vous avec notre garantie de 10 ans sur l'intégrité structurelle de nos terrains mobiles, conçus pour résister aux vitesses de vent comme notre terrain de club ancré."
+            "footer": "Résiste aux vents forts, garantie de 10 ans."
           },
           {
-            "header": "Polyvalent et adaptable",
+            "header": "Polyvalente et adaptable",
             "icon": "VersatileCourtIcon",
-            "footer": "Convient aux installations intérieures et extérieures, peut être facilement transporté dans divers environnements et lieux, ce qui le rend idéal pour les événements ou les installations où percer des trous pour ancrer le terrain n'est pas possible."
+            "footer": "En intérieur comme en extérieur, relocalisable sans dommages."
           },
           {
-            "header": "Opportunités de location",
+            "header": "Opportunité de location",
             "icon": "RentIcon",
-            "footer": "Notre Mobile Terrain offre des opportunités attractives de location, réduisant ainsi les risques et les engagements."
+            "footer": "Risque et engagement réduits."
           },
           {
-            "header": "Matériaux de qualité supérieure",
+            "header": "Matériaux premium",
             "icon": "MaterialsIcon",
-            "footer": "Fabriqués avec des matériaux de qualité supérieure pour une résistance et une durabilité maximales, nos terrains mobiles offrent la même qualité premium qu'un terrain permanent."
+            "footer": "Même qualité qu’un court fixé au sol."
           }
         ]
       },
@@ -416,15 +416,15 @@
         },
         "TITLE": "Structures de Terrains de Padel mobiles : Durables et flexibles",
         "SUBTITLE": "Découvrez l'excellence de la structure de qualité premium de notre terrain de padel",
-        "TEXT": "<p>Conçue avec une structure en acier galvanisé, notre terrain assure une résistance maximale à l'abrasion et à l'oxydation.</p><p>La structure du terrain se compose de profilés en acier S275JR galvanisés, ancrés solidement au sol à l'aide de plaques d'ancrage. Les cadres latéraux et supérieurs sont complétés par une grille électrosoudée conforme aux normes UNE-EN-10223-4.</p><p>Pour éviter les vibrations de la grille, la structure comprend un échafaudage intermédiaire.</p><p>La fixation de la structure au pavé est réalisée à l'aide d'ancrages métalliques fraisés mesurant M8X80 mm. De plus, son processus d'assemblage est sans soudure, grâce à des vis de sécurité autofreinantes et des écrous en acier galvanisé.</p><p>La structure des terrains de padel Portico Sport subit des processus de fabrication incluant des technologies industrielles de pointe telles que :</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">La découpe laser garantit des coupes précises et offre une finition de haute qualité.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Une ligne d'assemblage robotique entièrement automatisée garantit la qualité des soudures, évitant ainsi toute oxydation potentielle à l'avenir.</li></ul>"
+        "TEXT": "<p>Fabriqués en<span>acier galvanisé S275JR</span>, nos courts résistent à l’abrasion et à la corrosion.</p><p>Ils intègrent un treillis électrosoudé conforme à la norme <span>UNE-EN-10223-4</span>, avec un système anti-vibrations.</p><p>Le processus de montage est rapide, grâce à des vis et écrous autobloquants en acier galvanisé.</p><p>Points clés du processus de fabrication:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">✔️ Découpe laser pour des finitions précises</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">✔️ Soudure robotisée pour garantir la qualité et éviter l’oxydation/li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
         "TITLE": "Mesures du Mobile Terrain",
         "INDOOR_TITLE": "Intérieur",
         "OUTDOOR_TITLE": "Extérieur",
-        "OUTDOOR": "<p><strong>12 boîtes de contrepoids en acier</strong> situées sur les côtés.</p><p><strong>Longueur</strong> : 20 m (mesures intérieures) / 20,96 m (mesures extérieures du terrain).</p><p><strong>Largeur</strong> : 10 m (mesures intérieures) / 11,45 m (mesures extérieures du terrain).</p>",
-        "INDOOR": "<p><strong>4 boîtes de contrepoids en acier</strong> situées sur les côtés.</p><p><strong>Longueur</strong> : 20 m (mesures intérieures) / 20,67 m (mesures extérieures du terrain).</p><p><strong>Largeur</strong> : 10 m (mesures intérieures) / 11,45 m (mesures extérieures du terrain).</p>",
+        "OUTDOOR": "<p>12 caissons de contrepoids en acier sur les côtés.</p><p>Dimensions Intérieures : 20 m x 10 m</p><p>Dimensions extérieures : 20,96 m x 11,45 m</p>",
+        "INDOOR": "<p>4 caissons de contrepoids en acier sur les côtés</p><p>Dimensions intérieures : 20 m x 10 m</p><p>Dimensions extérieures : 20,67 m x 11,45 m</p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/mobile/sizing-mobile-court.webp",
@@ -441,14 +441,14 @@
           "alt": "Terrain mobile breveté par Portico Sport"
         },
         "TITLE": "Verre de haute qualité pour Terrains de Padel mobiles",
-        "SUBTITLE": "Verre de sécurité trempé dans chaque terrain !",
-        "DESCRIPTION": "<p>Découvrez une sécurité et une durabilité inégalées dans nos terrains de padel. Chaque terrain est équipé de verre de sécurité trempé, disponible en épaisseur de 10 ou 12 mm, adapté aux exigences spécifiques de votre projet. Soyez assuré, notre verre répond à toutes les normes réglementaires pour les installations de ce type. En partenariat avec des fabricants espagnols réputés bénéficiant du marquage CE, nous garantissons une qualité de premier ordre dans tous les aspects de notre construction.</p><p>Le <strong>VITRAGE</strong> est réalisé avec du verre trempé clair aux bords polis, fixé à la structure métallique à l'aide de bagues de polyéthylène fraisées, de vis galvanisées et de joints en néoprène pour un support verre/métal parfait, avec un total de 6 trous d'ancrage. Nos panneaux en verre présentent d'excellentes propriétés physiques et mécaniques, notamment une résistance aux chocs et une planéité optimale.</p>"
+        "SUBTITLE": "Vitrage de sécurité trempé sur chaque court !",
+        "DESCRIPTION": "<p>Tous nos courts mobiles sont équipés de verre trempé de 10 ou 12 mm, avec marquage CE et fabrication nationale.</p><p>✔️ Bords polis</p><p>✔️ Joints en néoprène</p><p>✔️ Visserie galvanisée</p><p>Conforme aux normes européennes, il offre une résistance maximale aux impacts et une excellente visibilité.</p>"
       },
       "PAINT_SECTION": {
         "ID": "paint-section",
         "TITLE": "Solutions de peinture personnalisées pour structures de Terrains de Padel",
-        "SUBTITLE": "Saviez-vous que vous pouvez désormais ajouter une touche de couleur à votre terrain ?",
-        "DESCRIPTION": "<p>Découvrez l'épitome de la distinction dans la construction de terrain de padel avec une gamme de types de laques, offrant des options infinies pour peindre les structures de votre terrain dans des teintes vibrantes. Notre PEINTURE LAQUÉE offre une résistance maximale à l'abrasion et à l'oxydation. Choisissez la couleur RAL qui correspond à vos préférences et démarquez-vous avec nos options de couleur personnalisables.</p>",
+         "SUBTITLE": "Saviez-vous que vous pouvez désormais ajouter une touche de couleur à votre court de padel ?",
+        "DESCRIPTION": "<personnalisez votre court avec des finitions sur mesure et des couleurs durables.</p><p>Choisissez votre couleur RAL préférée parmi les options suivantes :</p>",
         "IMAGES": [
           {
             "id": "slide-1",
@@ -471,10 +471,10 @@
             "alt": "Extérieur d'un terrain mobile jaune"
           }
         ],
-        "LIST": [
-          "<strong>INTÉRIEUR :</strong> revêtement en poudre formulé avec des résines thermos-fusibles.",
-          "<strong>EXTÉRIEUR :</strong> traitement de primaire en poudre thermodurcissable avec une teneur élevée en zinc formulée pour améliorer la protection contre la corrosion de l'acier galvanisé.",
-          "<strong>GALVANISÉ À CHAUD :</strong> traitement du zinc fondu à une température de 450 ºC afin d'obtenir une protection élevée des pièces contre la corrosion dans les environnements marins. Comprend un revêtement en poudre formulé avec des résines thermos-fusibles."
+         "LIST": [
+          "<strong>INTÉRIEUR :</strong> Peinture en poudre avec résines thermodurcissables",
+          "<strong>EXTÉRIEUR :</strong> Traitement primaire riche en zinc + peinture thermodurcissable anticorrosion",
+          "<strong>GALVANISÉ À CHAUD :</strong> Bain de zinc + peinture, idéal pour les zones côtières ou maritimes"
         ]
       },
       "TURF_SECTION": {
@@ -484,8 +484,8 @@
           "alt": "Vue de dessus du terrain mobile"
         },
         "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Gazon haute performance pour Terrains de Padel mobiles</span>",
-        "SUBTITLE": "Découvrez des performances inégalées sur notre gazon!",
-        "DESCRIPTION": "<p>Nous nous associons aux meilleures entreprises de gazon pour garantir que votre terrain reçoive un gazon de qualité premium. Chaque terrain est équipé d'un gazon de dernière génération, conçu avec des monofilaments texturés, présentant différentes épaisseurs et hauteurs de pile, très faible abrasion, composé de polyéthylène (PE) et d'additifs spécifiques offrant une grande résistance à l'usure et un traitement anti-UV, résistant à la chaleur et aux fluctuations météorologiques extrêmes.</p><p>Le remplissage de stabilisation et le lestage se font avec du sable de silice arrondi, lavé et séché, avec 97 % de silice, granulométrie entre 0,2 - 0,6 mm en une quantité approximative de 10-15 kg/m2, selon le modèle de gazon.</p><p>Notre gazon de pointe garantit aux joueurs de padel une vitesse de jeu optimisée et un rebond de balle amélioré et offre la possibilité de fibres droites ou bouclées et est disponible dans une grande variété de couleurs.</p>"
+       "SUBTITLE": "Découvrez une performance inégalée avec notre gazon synthétique !",
+        "DESCRIPTION": "<p>Nous collaborons avec les meilleurs fournisseurs pour garantir une performance de haut niveau.</p><p>Notre gazon synthétique offre:</p><p>✔️ Gazon en polyéthylène texturé de dernière génération</p><p>✔️ Haute résistance aux UV, faible abrasion et stabilité thermique</p><p>✔️ Remplissage en sable de silice (10–15 kg/m²) pour améliorer le rebond et la vitesse de la balle</p><p>Disponible en plusieurs couleurs et types de fibres selon vos préférences.</p>"
       },
       "LIGHTING_SECTION": {
         "ID": "lighting-section",
@@ -496,6 +496,19 @@
         "TITLE": "Éclairage avancé pour Terrains de Padel mobiles",
         "SUBTITLE": "Illuminez votre jeu avec l'éclairage de terrain de padel de Portico Sport !",
         "DESCRIPTION": "<p>Profitez de la solution d'éclairage LED ultime pour les terrains de padel, exclusivement proposée par Portico Sport en partenariat avec des spécialistes de premier plan dans le domaine.</p><p>Notre éclairage de terrain de padel garantit une illumination optimale et une uniformité sur toutes les zones de jeu. Du filet aux zones d'accès, de fond, de lignes de touche et de zones de haut de balle, notre solution d'éclairage élimine les reflets et les ombres, offrant aux joueurs une visibilité et des performances inégalées.</p><p>La qualité de nos projecteurs, conçus pour résister à des chocs jusqu'à IK10, avec des degrés d'étanchéité IP66-IP67 et une résistance aux surtensions de 4kV - 6kV, combinée aux capacités élevées de dissipation de chaleur des boîtiers, permet une durée de vie prolongée de nos projecteurs, avec une garantie allant jusqu'à 5 ans.</p><p>Nos projecteurs sont conçus pour couvrir tous les types de terrains spécifiés dans la norme européenne sur l'éclairage des sports (UNE-EN-12193:2020), allant de l'utilisation récréative (Classe III) aux compétitions professionnelles ou aux diffusions télévisées (Classe I - norme NIDE).</p>"
+      },
+      "COST_SECTION": {
+        "ID": "cost",
+        "TITLE": "Combien coûte la construction d’un court de padel mobile?",
+        "DESCRIPTION": "Les prix commencent à partir de 18 000 € (EXW). Le coût final varie selon la taille, les caractéristiques et l’emplacement. Tous nos courts incluent des vitrages haut de gamme, du gazon, un éclairage et des surfaces antidérapantes. Contactez-nous pour un devis personnalisé."
+      },
+      "INSTALLATION_SECTION": {
+        "ID": "installation",
+        "TITLE": "Foire aux questions sur les courts de padel mobiles",
+        "SUBTITLE": "<p class=\"text-black\">Quelle est la taille standard d’un court de padel mobile?</p>",
+        "SUBTITLE_2": "<p class=\"text-black\">Pourquoi choisir Portico Sport pour votre court de padel mobile?</p>",
+        "DESCRIPTION": "<p class=\"text-black\">La taille standard est de 20 x 10 mètres, conformément aux réglementations officielles de compétition. Nous fabriquons également des courts sur mesure, toujours dans le respect des normes de qualité et de sécurité les plus strictes.</p>",
+        "DESCRIPTION_2": "<p class=\"text-black\">Parce que nous offrons une solution unique alliant flexibilité, durabilité, matériaux premium et facilité d’installation. Nos courts mobiles sont idéals pour les événements sportifs, les installations temporaires ou semi-permanentes, avec le soutien d’une marque experte en ingénierie et en service.</p>"
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
@@ -3436,8 +3449,8 @@
   },
   "LIGHTING_SECTION": {
     "TYPES_TITLE": "Types d'éclairage",
-    "MASTS_TITLE": "Mâts d'éclairage",
-    "MASTS_DESCRIPTION": "<p>Nos mâts, fixés et ancrés à la structure du terrain, sont fabriqués à partir de profils d'acier S275 JR galvanisé et laqué, garantissant durabilité et fiabilité. Avec une hauteur impressionnante de 6 mètres, chaque mât supporte 2 projecteurs, illuminant votre terrain avec précision et clarté.</p><p>Choisissez parmi notre gamme d'options esthétiques pour compléter le design de votre terrain :</p>",
+   "MASTS_TITLE": "Poteaux d’éclairage",
+    "MASTS_DESCRIPTION": "<p>Poteaux en acier galvanisé de 6 mètres de hauteur, disponibles en trois modèles:</p><p><ul class=\"list-disc pl-4\"><li><span>Poteau droit:</span>Design classique et minimaliste</li><li><span>Poteau en forme de V:</span></span> Style dynamique et moderne</li><li><span>Poteau courbé:</span>Ligne fluide et élégante</li></ul></p>",
     "LIGHTING_TYPES": [
       {
         "title": "PV : 8 X 180W",
