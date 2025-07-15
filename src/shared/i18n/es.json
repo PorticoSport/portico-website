@@ -411,7 +411,6 @@
       "SIZING_SECTION": {
         "ID": "medidas",
         "TITLE": "Medidas de la Pista de pádel Móvil",
-        "DESCRIPTION": "<p>Las dimensiones estándar de una pista de pádel Móvil son de 20 metros de largo por 10 metros de ancho. Este es el tamaño oficial para las pistas de pádel profesionales, proporcionando un espacio adecuado para el juego competitivo. También ofrecemos tamaños personalizados según el espacio disponible y el uso previsto. Nuestras pistas de pádel móviles están construidas para cumplir con los más altos estándares de calidad y seguridad, garantizando una experiencia de primera para todos los jugadores.</p>",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
         "OUTDOOR": "<p>12 cajas contrapeso de acero en los laterales.</p><p>Interior: 20 m x 10 m</p><p>Exterior: 20,96 m x 11,45 m</p>",
@@ -498,8 +497,10 @@
         "TITLE": "Preguntas Frecuentes sobre las Pistas de Pádel Móviles",
         "SUBTITLE": "<p class=\"text-black\">¿Cuál es el tamaño estándar de una pista de pádel móvil?</p>",
         "SUBTITLE_2": "<p class=\"text-black\">¿Por qué elegir a Portico Sport para tu pista de pádel móvil?</p>",
+        "SUBTITLE_3": "<p class=\"text-black\">¿Cuánto cuesta construir una pista de pádel móvil?</p>",
         "DESCRIPTION": "<p class=\"text-black\">El tamaño estándar es de 20 x 10 metros, cumpliendo con las regulaciones oficiales de competición. También fabricamos pistas a medida bajo pedido, siempre cumpliendo con los estándares de calidad y seguridad más exigentes.</p>",
-        "DESCRIPTION_2": "<p class=\"text-black\">Porque ofrecemos una solución única que combina flexibilidad, durabilidad, materiales premium y facilidad de instalación. Nuestras pistas móviles son ideales para eventos deportivos, instalaciones temporales o semipermanentes, con el respaldo de una marca experta en ingeniería y servicio.</p>"
+        "DESCRIPTION_2": "<p class=\"text-black\">Porque ofrecemos una solución única que combina flexibilidad, durabilidad, materiales premium y facilidad de instalación. Nuestras pistas móviles son ideales para eventos deportivos, instalaciones temporales o semipermanentes, con el respaldo de una marca experta en ingeniería y servicio.</p>",
+        "DESCRIPTION_3": "<p class=\"text-black\">Los precios comienzan desde 18.000 € (EXW). El coste final varía según el tamaño, características y ubicación. Todas las pistas incluyen cristales de alta gama, césped, iluminación y superficies antideslizantes. Contáctanos para obtener un presupuesto personalizado.</p>"
       },
       "GALLERY_SECTION": {
         "ID": "galeria",
@@ -3465,7 +3466,7 @@
   "LIGHTING_SECTION": {
     "TYPES_TITLE": "Tipos de iluminación",
     "MASTS_TITLE": "Postes de iluminación",
-    "MASTS_DESCRIPTION": "<p>Postes de iluminación de acero galvanizado, de 6 metros de altura, con tres diseños:</p><p><ul class=\"list-disc pl-4\"><li><span>Poste recto:</span>Diseño clásico y minimalista</li><li><span>Poste en forma de V:</span></span> Toque dinámico y moderno</li><li><span>Poste curvado:</span>Estilo fluido y elegante</li></ul></p>",
+    "MASTS_DESCRIPTION": "<p>Postes de iluminación de acero galvanizado, de 6 metros de altura, con tres diseños:</p>",
     "LIGHTING_TYPES": [
       {
         "title": "PV: 8 X 180W",
@@ -3481,17 +3482,17 @@
     "LIGHTING_MASTS": [
       {
         "title": "Poste Recto",
-        "description": "Para un aspecto elegante y lineal.",
+        "description": "Diseño clásico y minimalista",
         "image": "/courts-detail/mast-straight.webp"
       },
       {
         "title": "Poste en forma de V",
-        "description": "Agregando un toque de agresividad a tu pista.",
+        "description": "Toque dinámico y moderno",
         "image": "/courts-detail/mast-v.webp"
       },
       {
         "title": "Poste Curvado",
-        "description": "Ofreciendo una solución fluida y elegante.",
+        "description": "Estilo fluido y elegante",
         "image": "/courts-detail/mast-curved.webp"
       }
     ]
