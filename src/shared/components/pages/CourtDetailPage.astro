@@ -54,6 +54,10 @@ const faqItems = isInstallationSection ? [
   {
     question: isInstallationSection.SUBTITLE_2,
     answer: isInstallationSection.DESCRIPTION_2
+  },
+  {
+    question: isInstallationSection.SUBTITLE_3,
+    answer: isInstallationSection.DESCRIPTION_3
   }
 ] : [];
 
@@ -291,8 +295,7 @@ robots="index,follow"
         <Typography tag="p" className="text-center mt-8" text={isCostSection.DESCRIPTION} responsive />
       </Section> : null
     }
-    <div class="bg-slate-100">
-      {
+    {
       isGallerySection ? (<Gallery
         id={isGallerySection.ID}
         path={isGallerySection.PATH}
@@ -301,7 +304,6 @@ robots="index,follow"
         loadMoreText={isGallerySection.BUTTON_TEXT}
       />) : null
     }
-    </div>
     {
       isCourtsSection ? (<SectionCourtsGrid language={language} courts={compatibleCourts} heading={isCourtsSection.TITLE} subheading={isCourtsSection.DESCRIPTION} />) : null
     }
