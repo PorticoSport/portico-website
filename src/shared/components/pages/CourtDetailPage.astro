@@ -58,6 +58,10 @@ const faqItems = isInstallationSection ? [
   {
     question: isInstallationSection.SUBTITLE_3,
     answer: isInstallationSection.DESCRIPTION_3
+  },
+  {
+    question: isInstallationSection.SUBTITLE_4,
+    answer: isInstallationSection.DESCRIPTION_4
   }
 ] : [];
 
@@ -71,6 +75,7 @@ if (isPaintSection) {
   });
 }
 
+const faqItemsShort = faqItems.slice(0, 3);
 const title = i18n.PAGES[court].TITLE
 const isMobile = title === i18n.PAGES.MOBILE_COURT.TITLE
 const isPanoramic = title === i18n.PAGES.PANORAMIC_COURT.TITLE
@@ -79,6 +84,8 @@ const courts = courtsGrid(i18n);
 const compatibleCourts = isMobile 
   ? courts.filter((item) => item.title !== title && item.title !== force80)
   : courts.filter((item) => item.title !== title && item.title !== i18n.PAGES.MOBILE_COURT.TITLE);
+
+const faqToShow = isMobile ? faqItemsShort : faqItems;
 
 ---
 
@@ -281,7 +288,7 @@ robots="index,follow"
         <SectionFaqs
           language={language}
           title={isInstallationSection.TITLE}
-          items={faqItems}
+          items={faqToShow}
           className="text-black"
           dark={true}
         />
@@ -414,3 +421,4 @@ robots="index,follow"
 
   featureImages.length && updateFeatureImages(featureImages);
 </script>
+
