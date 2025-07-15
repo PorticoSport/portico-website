@@ -2348,8 +2348,8 @@
       "NAME": "Mobile",
       "SUBTITLE": "Introducing the latest innovation in Padel court technology",
       "TITLE": "Mobile Padel Court",
-      "DETAIL_TITLE": "<span class=\"block\">Mobile Padel Court</span><span class=\"text-white text-lg md:text-xl lg:text-2xl \">system patented by Portico Sport</span>",
-      "DESCRIPTION": "<p>Our patented Mobile Court system is a true game-changer.</p><p> Carefully engineered by our expert team, it opens up new possibilities by enabling court installations in locations where traditional construction simply isn’t feasible.</p><p>No need for costly groundwork or lengthy permits — our mobile system only requires a flat, permeable surface, saving you time and money while offering unmatched flexibility.</p>",
+      "DETAIL_TITLE": "<span class=\"block\">Mobile Padel Court</span><span class=\"text-white text-base md:text-xl lg:text-2xl \">system patented by Portico Sport</span>",
+      "DESCRIPTION": "<p class=\"px-1 text-sm\">Our patented Mobile Court system is a true game-changer.</p><p>Carefully engineered by our expert team, it opens up new possibilities by enabling court installations in locations where traditional construction simply isn’t feasible.</p><p>No need for costly groundwork or lengthy permits — our mobile system only requires a flat, permeable surface, saving you time and money while offering unmatched flexibility.</p>",
       "LITTLE_DESCRIPTION": "<p>Enjoy Padel anywhere, temporarily or permanently, a Padel court that will save you time and money.</p>",
       "MORE_INFO_URL": "https://www.porticosport.com/en/mobile-courts",
       "CONTACT_TITLE_1": "Do you want a Mobile Padel Court?",
@@ -2383,7 +2383,7 @@
         "ID": "benefits",
         "TITLE": "Experience the benefits of our innovative Mobile Padel court system",
         "BENEFITS": [{
-          "header": "Saving with us",
+          "header": "Save time & money",
           "icon": "SavingsAstro",
           "footer": "Less bureaucracy, no ground works."
         }, {
@@ -2418,8 +2418,8 @@
       "SIZING_SECTION": {
         "ID": "measure-section",
         "TITLE": "Mobile Padel Court dimensions",
-        "INDOOR_TITLE": "Indoor",
-        "OUTDOOR_TITLE": "Outdoor",
+        "INDOOR_TITLE": "<span>Indoor<span>",
+        "OUTDOOR_TITLE": "<span>Outdoor<span>",
         "OUTDOOR": "<p>12 steel counterweight boxes located on the sides.</p><p>Interior: 20 m x 10 m</p><p>Exterior: 20.96 m x 11.45 m</p>",
         "INDOOR": "<p>4 steel counterweight boxes located on the sides.</p><p>Interior: 20 m x 10 m</p><p>Exterior: 20.67 m x 11.45 m</p>",
         "IMAGE": {
@@ -2440,32 +2440,32 @@
         "TITLE": "High-Quality Glass for Mobile Padel Courts",
         "SUBTITLE": "Tempered Safety Glass in Every Court!",
         "DESCRIPTION": "<p>Each court features tempered safety glass (10 or 12 mm), CE-marked and made in Spain.</p><p>With clear, polished edges, neoprene gaskets, and galvanized screws, our panels deliver excellent impact resistance and flatness — all compliant with European standards. </p>"
-        },
-        "PAINT_SECTION": {
-         "ID": "paint-section",
+      },
+      "PAINT_SECTION": {
+        "ID": "paint-section",
         "TITLE": "Custom Paint Solutions for Padel Court Structures",
         "SUBTITLE": "Did you know that now you can add a splash of color to your court?",
         "DESCRIPTION": "<p>Add a splash of color to your court with our durable lacquer paint options:</p>",
         "DESCRIPTION_DOS":"Choose your preferred RAL color and customize your court’s look!",
-          "IMAGES": [{
-            "id": "slide-1",
-            "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
-            "alt": "Orange painted mobile court"
-          },{
-            "id": "slide-2",
-            "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
-            "alt": "Orange painted mobile court"
-          },{
-            "id": "slide-3",
-            "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
-            "alt": "Exterior of a yellow mobile court"
-          },{
-            "id": "slide-4",
-            "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
-            "alt": "Exterior of a yellow mobile court"
+        "IMAGES": [{
+          "id": "slide-1",
+          "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
+          "alt": "Orange painted mobile court"
+        },{
+          "id": "slide-2",
+          "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
+          "alt": "Orange painted mobile court"
+        },{
+          "id": "slide-3",
+          "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
+          "alt": "Exterior of a yellow mobile court"
+        },{
+          "id": "slide-4",
+          "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
+          "alt": "Exterior of a yellow mobile court"
         }],
         "LIST": [
-         "<strong>INDOOR:</strong> Powder coating with thermos-fusible resins.",
+          "<strong>INDOOR:</strong> Powder coating with thermos-fusible resins.",
           "<strong>OUTDOOR:</strong> Zinc-rich thermo-fusible primer + powder coating for corrosion protection.",
           "<strong>HOT DIP GALVANIZED:</strong> Zinc bath treatment + powder coating for coastal or marine environments."
         ]
@@ -2490,18 +2490,21 @@
         "SUBTITLE": "Illuminate Your Game with Portico Sport's Padel Court Lighting!",
         "DESCRIPTION": "<p>Light up the court with our premium LED lighting systems, in partnership with top-tier specialists.</p><p><ul class=\"list-disc pl-4\"><li>Fully compliant with <span>UNE-EN-12193:2020</span></li><li>Uniform, glare-free light distribution</li><li><span>IK10</span> impact resistance, <span>IP66-IP67</span> waterproof rating</li><li>Voltage surge protection (4kV - 6kV), high heat dissipation<li>Suitable for recreational use (Class III) and professional events (Class I, NIDE standard)</li><li>Up to 5-year warranty</li></ul></p>"
       },
-      "COST_SECTION": {
-        "ID": "cost",
-        "TITLE": "How Much Does It Cost to Build a Mobile Padel Court?",
-        "DESCRIPTION": "Prices start at €18,000 (EXW). Final cost varies by size, features, and location. All courts include top-tier glass panels, turf, lighting, and anti-slip surfaces. Get in touch for a personalized quote."
-      },
       "INSTALLATION_SECTION": {
         "ID": "installation",
         "TITLE": "Frequently Asked Questions About Our Mobile Padel Courts",
         "SUBTITLE": "<p class=\"text-black\">What is the standard size of a Mobile padel court?</p>",
         "SUBTITLE_2": "<p class=\"text-black\">Why choose Portico Sport for your Mobile padel court?</p>",
+        "SUBTITLE_3": "<p class=\"text-black\">How Much Does It Cost to Build a Mobile Padel Court? </P>",
         "DESCRIPTION": "<p class=\"text-black\">The standard size is 20 x 10 meters, matching official pro court regulations. Custom dimensions are available upon request. All courts meet high safety and quality standards.</p>",
-        "DESCRIPTION_2": "<p class=\"text-black\">Because we combine flexibility, durability, and premium materials with unmatched installation ease. Ideal for events, temporary setups, or semi-permanent solutions — all backed by expertise and service.</p>"
+        "DESCRIPTION_2": "<p class=\"text-black\">Because we combine flexibility, durability, and premium materials with unmatched installation ease. Ideal for events, temporary setups, or semi-permanent solutions — all backed by expertise and service.</p>",
+        "DESCRIPTION_3": "<p class=\"text-black\">Prices start at €18,000 (EXW). Final cost varies by size, features, and location. All courts include top-tier glass panels, turf, lighting, and anti-slip surfaces. Get in touch for a personalized quote.</P>"
+      },
+      "GALLERY_SECTION": {
+        "ID": "gallery",
+        "PATH": "courts-detail/mobile/gallery",
+        "OFFSET": 12,
+        "BUTTON_TEXT": "Discover more images"
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
