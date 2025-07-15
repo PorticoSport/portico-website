@@ -343,7 +343,7 @@
       "SUBTITLE": "Vorstellung der neuesten Innovation in der Padelplatztechnologie",
       "TITLE": "Mobile court",
       "DETAIL_TITLE": "<span class=\"block\">Mobile court</span><span class=\"text-white text-lg md:text-xl lg:text-2xl\">System patentiert von Portico Sport</span>",
-      "DESCRIPTION": "<p>Als erste ihrer Art revolutioniert unser patentierter Mobile Court den Markt. Sorgfältig von unserer Ingenieurabteilung entworfen, kann dieses System den Unterschied machen, indem es die Möglichkeiten erweitert, einen Platz zu installieren, wo dies zuvor nicht möglich war.</p><p>Dieser bahnbrechende Platz eliminiert die Notwendigkeit teurer Bodenvorbereitungskosten und mühsamer Genehmigungsverfahren. Mit nur einer flachen durchlässigen Oberfläche, die installiert werden muss, bietet unser Platz beispiellose Bequemlichkeit und Kosteneinsparungen.</p>",
+      "DESCRIPTION": "<p>Unser patentiertes mobiles Padelplatz-System revolutioniert die Welt des Padelsports.</p><pBei Portico Sport stellen wir nicht nur Plätze her – wir lösen strukturelle Herausforderungen.</p><p>Unser mobiler Padelplatz wurde präzise von unserer Technikabteilung entwickelt und ist ein patentiertes System, das neue Möglichkeiten für die Platzinstallation an Orten eröffnet, wo herkömmlicher Bau nicht möglich ist</p>",
       "LITTLE_DESCRIPTION": "<p>genießen Sie Padel überall, temporär oder dauerhaft, ein Platz, der Ihnen Zeit und Geld spart.</p>",
       "MORE_INFO_URL": "https://www.porticosport.com/en/mobile-courts",
       "CONTACT_TITLE_1": "Möchten Sie einen Mobile Court?",
@@ -357,7 +357,7 @@
       "FIRST_SECTION": {
         "ID": "courts-views",
         "TITLE": "<span class=\"text-secondary\">Platzieren Sie ihn überall!</span>",
-        "DESCRIPTION": "<p>Was unseren Platz auszeichnet, ist sein innovatives Gegengewichtssystem, das eine robuste Unterstützung ohne die Notwendigkeit von Bodenverankerung gewährleistet.</p><p>Dies bedeutet, dass Sie diesen Platz an einem bestimmten Ort für die kommenden Jahre installieren oder ihn bei Bedarf mühelos verschieben können, ohne den Boden zu beschädigen, auf dem er installiert wurde.</p><p>Aber das ist noch nicht alles – im Gegensatz zu anderen „mobilen“ Lösungen ermöglicht unser System das gleiche Spielerlebnis wie traditionell verankerte Plätze, dieselbe Robustheit und Windbeständigkeit wie unser Clubplatzmodell, deshalb bieten wir die gleiche 10-jährige strukturelle Garantie</p>",
+        "DESCRIPTION": "<p>Unser mobiles Padelplatz-System ist sowohl für temporäre als auch für permanente Installationen konzipiert – so können Sie Ihren Platz dort aufbauen, wo er benötigt wird.</p><p>Egal, ob Sie ein Turnier organisieren oder einen Platz an einem bestimmten Standort hinzufügen möchten – unser mobiler Padelplatz bietet Ihnen die Flexibilität und Langlebigkeit, die Sie brauchen.</p><p>Der Schlüssel liegt in unserem patentierten Gegengewichtskastensystem, das vollständige Stabilität ohne Bodenverankerung gewährleistet. Dadurch kann der Platz leicht umplatziert werden, ohne die Oberfläche zu beschädigen.</p><p>Im Gegensatz zu anderen mobilen Lösungen bieten unsere Plätze das gleiche Spielniveau, die gleiche Windbeständigkeit und strukturelle Stabilität wie fest installierte Clubplätze – unterstützt durch eine strukturelle Garantie von 10 Jahren.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/mobile/mobile-front.webp",
@@ -380,29 +380,29 @@
         "DESCRIPTION": "Mini-Padelplätze sind eine ausgezeichnete Wahl für diejenigen, die nur wenig Platz haben, aber dennoch den Sport ausüben möchten. Diese Plätze sind besonders in städtischen Umgebungen beliebt, wo Platz knapp ist, sowie in Einrichtungen wie Schulen oder Gemeindezentren, in denen junge Spieler das Spiel erlernen. Trotz ihrer kleineren Größe behalten Mini-Padelplätze alle wesentlichen Merkmale eines Standardplatzes bei und garantieren ein unterhaltsames und wettbewerbsfähiges Spiel.",
         "BENEFITS": [
           {
-            "header": "Einsparungen mit uns",
+            "header": "Zeit- und Kostenersparnis",
             "icon": "SavingsAstro",
-            "footer": "Weniger bürokratische Probleme und optimierte Prozesse, Sie können schnellere Genehmigungen genießen, wertvolle Zeit und Kosten für Bodenarbeiten sparen."
+            "footer": "Keine Bauarbeiten, weniger Bürokratie"
           },
           {
-            "header": "10 Jahre Garantie",
+            "header": "Hohe Langlebigkeit",
             "icon": "WarrantyIcon",
-            "footer": "Seien Sie versichert mit unserer 10-jährigen Garantie auf die strukturelle Integrität unserer mobilen Plätze, die entwickelt wurden, um Windgeschwindigkeiten wie unsere verankerten Clubplätze standzuhalten."
+            "footer": "Widersteht starkem Wind, 10 Jahre Garantie"
           },
           {
-            "header": "Vielseitig und anpassungsfähig",
+            "header": "Vielseitig und anpassbar",
             "icon": "VersatileCourtIcon",
-            "footer": "Geeignet für Innen- und Außeninstallationen, kann einfach in verschiedene Umgebungen und Standorte transportiert werden, ideal für Veranstaltungen oder Installationen, bei denen das Bohren von Löchern zur Verankerung des Platzes nicht möglich ist."
+            "footer": "Für Innen- und Außenbereiche, umplatzierbar ohne Schäden"
           },
           {
-            "header": "Leasingmöglichkeiten",
+            "header": "Mietoption möglich",
             "icon": "RentIcon",
-            "footer": "Unser Mobile Court bietet Attraktivität für Leasingmöglichkeiten, reduziert Risiken und Verpflichtungen."
+            "footer": "Geringeres Risiko und weniger Verpflichtung"
           },
           {
             "header": "Hochwertige Materialien",
             "icon": "MaterialsIcon",
-            "footer": "Hergestellt aus hochwertigen Materialien für maximale Festigkeit und Haltbarkeit bieten unsere mobilen Plätze die gleiche Premium-Qualität wie ein dauerhafter Platz."
+            "footer": "Gleiche Qualität wie ein fest verankerter Platz"
           }
         ]
       },
@@ -415,15 +415,15 @@
         },
         "TITLE": "Mobile Padelplatz-Strukturen: Langlebig & Flexibel",
         "SUBTITLE": "Erleben Sie die Exzellenz unserer hochwertigen Platzstruktur",
-        "TEXT": "<p>Hergestellt aus feuerverzinkter Stahlstruktur, gewährleistet unser Platz maximale Widerstandsfähigkeit gegen Abrieb und Oxidation.</p><p>Die Platzstruktur besteht aus feuerverzinkten S275JR-Stahlprofilen, die sicher am Boden verankert sind und mit Ankerplatten. Die Seiten- und Oberrahmen werden durch elektrogeschweißte Netze gemäß den Standards UNE-EN-10223-4 ergänzt.</p><p>Um Vibrationen des Netzes zu verhindern, umfasst die Struktur Zwischengerüste.</p><p>Die Befestigung der Struktur am Pflaster erfolgt mit Senkkopfmetallankern mit einer Größe von M8X80 mm. Der Montageprozess ist dank selbstsichernder Sicherheitsschrauben und Muttern aus feuerverzinktem Stahl nahtlos.</p><p>Die Struktur der Portico Sport Padelplätze durchläuft Herstellungsprozesse einschließlich modernster industrieller Technologien wie:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laserschneiden garantiert präzise Schnitte und liefert hochwertige Oberflächen.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Eine vollautomatische robotergeschweißte Montagelinie garantiert die Qualität der Schweißnähte und verhindert zukünftige Oxidationen.</li></ul>"
+        "TEXT": "<p>Unsere Plätze werden aus verzinktem Stahl <strong>S275JR</strong> gefertigt und sind beständig gegen Abrieb und Korrosion.</p><p>Sie beinhalten ein elektrogeschweißtes Gitter gemäß der Norm <strong>UNE-EN-10223-4</strong>  ausgestattet mit einem Antivibrationssystem.</p><p>Die Montage erfolgt schnell und einfach mit selbstsichernden Schrauben und Muttern aus verzinktem Stahl.</p><p>Wichtige Merkmale des Herstellungsprozesses:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">✔️ Laserschneiden für präzise Verarbeitung</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">✔️ Robotergeschweißte Verbindungen für gleichbleibende Qualität und zum Schutz vor Oxidation</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
         "TITLE": "Maße des mobilen Platzes",
-        "INDOOR_TITLE": "Innen",
-        "OUTDOOR_TITLE": "Außen",
-        "OUTDOOR": "<p><strong>12 Stahl-Gegengewichtskästen</strong> an den Seiten.</p><p><strong>Länge</strong>: 20 m (Innenmaße) / 20,96 m (Außenmaße des Platzes).</p><p><strong>Breite</strong>: 10 m (Innenmaße) / 11,45 m (Außenmaße des Platzes).</p>",
-        "INDOOR": "<p><strong>4 Stahl-Gegengewichtskästen</strong> an den Seiten.</p><p><strong>Länge</strong>: 20 m (Innenmaße) / 20,67 m (Außenmaße des Platzes).</p><p><strong>Breite</strong>: 10 m (Innenmaße) / 11,45 m (Außenmaße des Platzes).</p>",
+        "INDOOR_TITLE": "Innenbereich",
+        "OUTDOOR_TITLE": "Außenbereich",
+        "OUTDOOR": "<p>12 Gegengewichtskästen aus Stahl an den Seiten</p><p>Innenmaß: 20 m x 10 m</p><p>Außenmaß: 20,96 m x 11,45 m</p>",
+        "INDOOR": "<p>4 Gegengewichtskästen aus Stahl an den Seiten</p><p>Innenmaß: 20 m x 10 m</p><p>Außenmaß: 20,67 m x 11,45 m</p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/mobile/sizing-mobile-court.webp",
@@ -440,14 +440,14 @@
           "alt": "Mobile court patented by Portico Sport"
         },
         "TITLE": "Hochwertiges Glas für mobile Padelplätze",
-        "SUBTITLE": "Sicherheitsglas in jedem Platz!",
-        "DESCRIPTION": "<p>Entdecken Sie die unübertroffene Sicherheit und Haltbarkeit in unseren Padelplätzen. Jeder Platz verfügt über Sicherheitsglas, das in 10 oder 12 mm Dicke erhältlich ist und auf die spezifischen Anforderungen Ihres Projekts zugeschnitten ist. Seien Sie versichert, unser Glas erfüllt alle regulatorischen Standards für Installationen dieser Art. In Zusammenarbeit mit angesehenen spanischen Herstellern mit CE-Kennzeichnung garantieren wir Spitzenqualität in allen Bereichen unserer Konstruktion.</p><p><strong>VERGLASUNG</strong> erfolgt mit klarem Einscheibensicherheitsglas mit polierten Kanten, das mit Senkkopf-Polyethylenbuchsen, feuerverzinkten Schrauben und Neoprengummis zur perfekten Glas/Metall-Unterstützung am Metallrahmen befestigt ist, mit insgesamt 6 Ankerlöchern. Unsere Glasplatten zeichnen sich durch herausragende physikalische und mechanische Eigenschaften aus, einschließlich Schlagfestigkeit und optimaler Planheit.</p>"
+        "SUBTITLE": "Sicherheitsglas bei jedem Platz!",
+        "DESCRIPTION": "<p>Alle unsere mobilen Padelplätze sind mit gehärtetem Sicherheitsglas von 10 oder 12 mm ausgestattet – mit CE-Kennzeichnung und in nationaler Produktion hergestellt.</p><p>✔️ Polierte Kanten</p><p>✔️ Neoprendichtungen</p><p>✔️ Verzinkte Schrauben</p><p>Entspricht den europäischen Normen und bietet höchste Schlagfestigkeit sowie exzellente Sichtverhältnisse.</p>"
       },
       "PAINT_SECTION": {
         "ID": "paint-section",
         "TITLE": "Individuelle Lacklösungen für Padelplatz-Strukturen",
-        "SUBTITLE": "Wussten Sie, dass Sie jetzt Ihrem Platz eine Farbtupfer hinzufügen können?",
-        "DESCRIPTION": "<p>Entdecken Sie den Inbegriff der Unterscheidung in der Padelplatzkonstruktion mit einer Reihe von Lacktypen, die endlose Möglichkeiten bieten, die Strukturen Ihres Platzes in lebendigen Farben zu streichen. Unser LACKIERTER LACK bietet maximale Beständigkeit gegen Abrieb und Oxidation. Wählen Sie die RAL-Farbe, die Ihren Vorlieben entspricht, und heben Sie sich mit unseren anpassbaren Farboptionen hervor.</p>",
+        "SUBTITLE": "Wussten Sie, dass Sie jetzt Ihrem Padelplatz einen Hauch von Farbe verleihen können?",
+        "DESCRIPTION": "<p>Gestalten Sie Ihren Platz individuell mit maßgeschneiderten Beschichtungen und langlebigen Farben.</p><p>Wählen Sie Ihre bevorzugte RAL-Farbe und entscheiden Sie sich für eine der folgenden Optionen:</p>",
         "IMAGES": [
           {
             "id": "slide-1",
@@ -471,9 +471,9 @@
           }
         ],
         "LIST": [
-          "<strong>INNEN:</strong> Pulverbeschichtung formuliert mit thermofusiblen Harzen.",
-          "<strong>IM FREIEN:</strong> Grundierung mit thermofusibler Pulverbeschichtung mit einem hohen Zinkgehalt, formuliert zur Verbesserung des Korrosionsschutzes von feuerverzinktem Stahl.",
-          "<strong>FEUERVERZINKT:</strong> Behandlung von geschmolzenem Zink bei einer Temperatur von 450 ºC, um einen hohen Schutz der Teile gegen Korrosion in marinen Umgebungen zu erreichen. Enthält Pulverbeschichtung formuliert mit thermofusiblen Harzen."
+          "<strong>INNENBEREICH:</strong> Pulverbeschichtung mit thermoplastischen Harzen.",
+          "<strong>AUSSENBEREICH</strong> Grundierung mit hohem Zinkanteil + korrosionsbeständige Pulverbeschichtung",
+          "<strong>FEUERVERZINKT:</strong> Zinkbad + Farbbeschichtung – ideal für Küsten- oder Meeresregionen"
         ]
       },
       "TURF_SECTION": {
@@ -483,8 +483,8 @@
           "alt": "Mobile court top view"
         },
         "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Hochleistungsrasen für mobile Padelplätze</span>",
-        "SUBTITLE": "Erleben Sie unübertroffene Leistung auf unserem Rasen!",
-        "DESCRIPTION": "<p>Wir arbeiten mit den besten Kunstrasenherstellern zusammen, um sicherzustellen, dass Ihr Platz hochwertigen Kunstrasen erhält. Jeder Platz ist mit Kunstrasen der neuesten Generation ausgestattet, der mit strukturierten Monofilamenten hergestellt ist, unterschiedliche Dicke und Höhen aufweist, sehr geringe Abnutzung aufweist, aus Polyethylen (PE) und speziellen Additiven mit hoher Beständigkeit gegen Verschleiß und UV-Behandlung hergestellt wird, beständig gegen Hitze und extreme Wetterfluktuationen.</p><p>Stabilisierungsfüllung und Ballastierung mit gerundetem, gewaschenem und getrocknetem Quarzsand, mit 97% Silika, Granulometrie zwischen 0,2 - 0,6 mm in einer ungefähren Menge von 10-15 kg/m², je nach Rasenmodell.</p><p>Unser hochmoderner Kunstrasen garantiert Padel-Spielern eine optimierte Spielgeschwindigkeit und verbesserten Ballprall und bietet die Möglichkeit von geraden oder gewellten Fasern und ist in einer Vielzahl von Farben erhältlich.</p>"
+        "SUBTITLE": "Erleben Sie unvergleichliche Leistung mit unserem Kunstrasen!",
+        "DESCRIPTION": "<p>Wir arbeiten mit den besten Kunstrasenanbietern zusammen, um eine Leistung auf höchstem Niveau zu gewährleisten.</p><p>Unser Kunstrasen bietet: <ul class=\"list-disc\"><li> ✔️ Hochmoderne texturierte Polyethylen-Fasern</li><li>✔️ Hohe UV-Beständigkeit, geringe Abriebwerte und thermische Stabilität</li><li>✔️ Silica-Sandfüllung (10–15 kg/m²) zur Verbesserung des Ballsprungs und der Spielgeschwindigkeit</li></ul></p><p>Erhältlich in verschiedenen Farben und Faserarten – angepasst an Ihre individuellen Vorlieben.</p>"
       },
       "LIGHTING_SECTION": {
         "ID": "lighting-section",
@@ -494,7 +494,20 @@
         },
         "TITLE": "Fortschrittliche Beleuchtung für mobile Padelplätze",
         "SUBTITLE": "Beleuchten Sie Ihr Spiel mit der Padelplatzbeleuchtung von Portico Sport!",
-        "DESCRIPTION": "<p>Genießen Sie die ultimative LED-Beleuchtungslösung für Padelplätze, die exklusiv von Portico Sport in Zusammenarbeit mit führenden Spezialisten auf diesem Gebiet angeboten wird.</p><p>Unsere Padelplatzbeleuchtung sorgt für optimale Ausleuchtung und Gleichmäßigkeit in allen Spielbereichen. Vom Netz über die Zugangszonen, den Hintergrund, die Seitenlinien und die hohen Ballzonen eliminiert unsere Beleuchtungslösung Blendung und Schatten, bietet den Spielern eine beispiellose Sichtbarkeit und Leistung.</p><p>Die Qualität unserer Projektoren, die so konzipiert sind, dass sie Stöße bis zu IK10 aushalten, mit IP66-IP67-Dichtungsgraden und einer Widerstandsfähigkeit gegen Spannungsspitzen von 4 kV - 6 kV, kombiniert mit den hohen Wärmeableitungsfähigkeiten der Gehäuse, ermöglicht eine verlängerte Lebensdauer unserer Projektoren, mit einer Garantie von bis zu 5 Jahren.</p><p>Unsere Projektoren sind so konzipiert, dass sie alle Arten von Plätzen abdecken, die in der europäischen Norm für Sportbeleuchtung (UNE-EN-12193:2020) spezifiziert sind, von der Freizeitnutzung (Klasse III) bis hin zu professionellen Wettbewerben oder Fernsehsendungen (Klasse I - NIDE-Standard).</p>"
+        "DESCRIPTION": "<p>Wir bieten hochleistungsfähige LED-Beleuchtungssysteme, die der Norm <span>UNE-EN-12193:2020</span> entsprechen:<p><ul class=\"list-disc pl-4\"><li>Gleichmäßige Ausleuchtung ohne Blendung</li><li>Schlagfestigkeit IK10 und Schutzart IP66–IP67</li><li>Überspannungsschutz (4 kV – 6 kV)</li><li>Effiziente Wärmeableitung</li><li>Geeignet für Freizeitnutzung (Klasse III) und professionelle Wettkämpfe (Klasse I, NIDE-Standard)</li><li>Bis zu 5 Jahre Garantie</li></ul></p>"
+      },
+      "COST_SECTION": {
+        "ID": "cost",
+        "TITLE": "Wie viel kostet der Bau eines mobilen Padelplatzes?",
+        "DESCRIPTION": "<p>Die Preise beginnen ab 18.000 € (EXW).</p><p>Der Endpreis hängt von Größe, Ausstattung und Standort ab.</p><p>Alle Plätze beinhalten hochwertiges Sicherheitsglas, Kunstrasen, Beleuchtung und rutschfeste Oberflächen.</p><p>Kontaktieren Sie uns für ein individuelles Angebot.</p>"
+      },
+      "INSTALLATION_SECTION": {
+        "ID": "installation",
+        "TITLE": "Häufig gestellte Fragen zu mobilen Padelplätzen",
+        "SUBTITLE": "<p class=\"text-black\">Wie groß ist ein Standard-Mobilpadelplatz?</p>",
+        "SUBTITLE_2": "<p class=\"text-black\">Warum sollte man sich für Portico Sport entscheiden?</p>",
+        "DESCRIPTION": "<p class=\"text-black\">Die Standardgröße beträgt 20 x 10 Meter und entspricht den offiziellen Wettkampfbestimmungen. Wir fertigen auch maßgeschneiderte Plätze auf Anfrage, stets unter Einhaltung der höchsten Qualitäts- und Sicherheitsstandards.</p>",
+        "DESCRIPTION_2": "<p class=\"text-black\">Weil wir eine einzigartige Lösung bieten, die Flexibilität, Langlebigkeit, hochwertige Materialien und einfache Installation vereint. Unsere mobilen Padelplätze eignen sich ideal für Sportveranstaltungen, temporäre oder semipermanente Installationen – unterstützt durch eine Marke mit Expertise in Ingenieurwesen und Service.</p>"
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
