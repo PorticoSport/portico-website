@@ -497,18 +497,15 @@
         "SUBTITLE": "Illuminez votre jeu avec l'éclairage de terrain de padel de Portico Sport !",
         "DESCRIPTION": "<p>Profitez de la solution d'éclairage LED ultime pour les terrains de padel, exclusivement proposée par Portico Sport en partenariat avec des spécialistes de premier plan dans le domaine.</p><p>Notre éclairage de terrain de padel garantit une illumination optimale et une uniformité sur toutes les zones de jeu. Du filet aux zones d'accès, de fond, de lignes de touche et de zones de haut de balle, notre solution d'éclairage élimine les reflets et les ombres, offrant aux joueurs une visibilité et des performances inégalées.</p><p>La qualité de nos projecteurs, conçus pour résister à des chocs jusqu'à IK10, avec des degrés d'étanchéité IP66-IP67 et une résistance aux surtensions de 4kV - 6kV, combinée aux capacités élevées de dissipation de chaleur des boîtiers, permet une durée de vie prolongée de nos projecteurs, avec une garantie allant jusqu'à 5 ans.</p><p>Nos projecteurs sont conçus pour couvrir tous les types de terrains spécifiés dans la norme européenne sur l'éclairage des sports (UNE-EN-12193:2020), allant de l'utilisation récréative (Classe III) aux compétitions professionnelles ou aux diffusions télévisées (Classe I - norme NIDE).</p>"
       },
-      "COST_SECTION": {
-        "ID": "cost",
-        "TITLE": "Combien coûte la construction d’un court de padel mobile?",
-        "DESCRIPTION": "Les prix commencent à partir de 18 000 € (EXW). Le coût final varie selon la taille, les caractéristiques et l’emplacement. Tous nos courts incluent des vitrages haut de gamme, du gazon, un éclairage et des surfaces antidérapantes. Contactez-nous pour un devis personnalisé."
-      },
       "INSTALLATION_SECTION": {
         "ID": "installation",
         "TITLE": "Foire aux questions sur les courts de padel mobiles",
         "SUBTITLE": "<p class=\"text-black\">Quelle est la taille standard d’un court de padel mobile?</p>",
         "SUBTITLE_2": "<p class=\"text-black\">Pourquoi choisir Portico Sport pour votre court de padel mobile?</p>",
+        "SUBTITLE_3": "Combien coûte la construction d’un court de padel mobile?",
         "DESCRIPTION": "<p class=\"text-black\">La taille standard est de 20 x 10 mètres, conformément aux réglementations officielles de compétition. Nous fabriquons également des courts sur mesure, toujours dans le respect des normes de qualité et de sécurité les plus strictes.</p>",
-        "DESCRIPTION_2": "<p class=\"text-black\">Parce que nous offrons une solution unique alliant flexibilité, durabilité, matériaux premium et facilité d’installation. Nos courts mobiles sont idéals pour les événements sportifs, les installations temporaires ou semi-permanentes, avec le soutien d’une marque experte en ingénierie et en service.</p>"
+        "DESCRIPTION_2": "<p class=\"text-black\">Parce que nous offrons une solution unique alliant flexibilité, durabilité, matériaux premium et facilité d’installation. Nos courts mobiles sont idéals pour les événements sportifs, les installations temporaires ou semi-permanentes, avec le soutien d’une marque experte en ingénierie et en service.</p>",
+        "DESCRIPTION_3": "Les prix commencent à partir de 18 000 € (EXW). Le coût final varie selon la taille, les caractéristiques et l’emplacement. Tous nos courts incluent des vitrages haut de gamme, du gazon, un éclairage et des surfaces antidérapantes. Contactez-nous pour un devis personnalisé."
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
@@ -3450,7 +3447,7 @@
   "LIGHTING_SECTION": {
     "TYPES_TITLE": "Types d'éclairage",
    "MASTS_TITLE": "Poteaux d’éclairage",
-    "MASTS_DESCRIPTION": "<p>Poteaux en acier galvanisé de 6 mètres de hauteur, disponibles en trois modèles:</p><p><ul class=\"list-disc pl-4\"><li><span>Poteau droit:</span>Design classique et minimaliste</li><li><span>Poteau en forme de V:</span></span> Style dynamique et moderne</li><li><span>Poteau courbé:</span>Ligne fluide et élégante</li></ul></p>",
+    "MASTS_DESCRIPTION": "<p>Poteaux en acier galvanisé de 6 mètres de hauteur, disponibles en trois modèles:</p>",
     "LIGHTING_TYPES": [
       {
         "title": "PV : 8 X 180W",
@@ -3466,17 +3463,17 @@
     "LIGHTING_MASTS": [
       {
         "title": "Mât droit",
-        "description": "Pour un look élégant et linéaire.",
+        "description": "Design classique et minimaliste",
         "image": "/courts-detail/mast-straight.webp"
       },
       {
         "title": "Mât en forme de V",
-        "description": "Ajoutant une touche d'agressivité à votre terrain.",
+        "description": "Style dynamique et moderne",
         "image": "/courts-detail/mast-v.webp"
       },
       {
         "title": "Mât courbé",
-        "description": "Offrant une solution fluide et élégante.",
+        "description": "Ligne fluide et élégante",
         "image": "/courts-detail/mast-curved.webp"
       }
     ]
