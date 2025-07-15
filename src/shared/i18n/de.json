@@ -484,7 +484,7 @@
         },
         "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Hochleistungsrasen für mobile Padelplätze</span>",
         "SUBTITLE": "Erleben Sie unvergleichliche Leistung mit unserem Kunstrasen!",
-        "DESCRIPTION": "<p>Wir arbeiten mit den besten Kunstrasenanbietern zusammen, um eine Leistung auf höchstem Niveau zu gewährleisten.</p><p>Unser Kunstrasen bietet: <ul class=\"list-disc\"><li> ✔️ Hochmoderne texturierte Polyethylen-Fasern</li><li>✔️ Hohe UV-Beständigkeit, geringe Abriebwerte und thermische Stabilität</li><li>✔️ Silica-Sandfüllung (10–15 kg/m²) zur Verbesserung des Ballsprungs und der Spielgeschwindigkeit</li></ul></p><p>Erhältlich in verschiedenen Farben und Faserarten – angepasst an Ihre individuellen Vorlieben.</p>"
+        "DESCRIPTION": "<p>Wir arbeiten mit den besten Kunstrasenanbietern zusammen, um eine Leistung auf höchstem Niveau zu gewährleisten.</p><p>Unser Kunstrasen bietet: <ul class=\"list-disc\"><li> Hochmoderne texturierte Polyethylen-Fasern</li><li> Hohe UV-Beständigkeit, geringe Abriebwerte und thermische Stabilität</li><li> Silica-Sandfüllung (10–15 kg/m²) zur Verbesserung des Ballsprungs und der Spielgeschwindigkeit</li></ul></p><p>Erhältlich in verschiedenen Farben und Faserarten – angepasst an Ihre individuellen Vorlieben.</p>"
       },
       "LIGHTING_SECTION": {
         "ID": "lighting-section",
@@ -496,18 +496,15 @@
         "SUBTITLE": "Beleuchten Sie Ihr Spiel mit der Padelplatzbeleuchtung von Portico Sport!",
         "DESCRIPTION": "<p>Wir bieten hochleistungsfähige LED-Beleuchtungssysteme, die der Norm <span>UNE-EN-12193:2020</span> entsprechen:<p><ul class=\"list-disc pl-4\"><li>Gleichmäßige Ausleuchtung ohne Blendung</li><li>Schlagfestigkeit IK10 und Schutzart IP66–IP67</li><li>Überspannungsschutz (4 kV – 6 kV)</li><li>Effiziente Wärmeableitung</li><li>Geeignet für Freizeitnutzung (Klasse III) und professionelle Wettkämpfe (Klasse I, NIDE-Standard)</li><li>Bis zu 5 Jahre Garantie</li></ul></p>"
       },
-      "COST_SECTION": {
-        "ID": "cost",
-        "TITLE": "Wie viel kostet der Bau eines mobilen Padelplatzes?",
-        "DESCRIPTION": "<p>Die Preise beginnen ab 18.000 € (EXW).</p><p>Der Endpreis hängt von Größe, Ausstattung und Standort ab.</p><p>Alle Plätze beinhalten hochwertiges Sicherheitsglas, Kunstrasen, Beleuchtung und rutschfeste Oberflächen.</p><p>Kontaktieren Sie uns für ein individuelles Angebot.</p>"
-      },
       "INSTALLATION_SECTION": {
         "ID": "installation",
         "TITLE": "Häufig gestellte Fragen zu mobilen Padelplätzen",
         "SUBTITLE": "<p class=\"text-black\">Wie groß ist ein Standard-Mobilpadelplatz?</p>",
         "SUBTITLE_2": "<p class=\"text-black\">Warum sollte man sich für Portico Sport entscheiden?</p>",
+        "SUBTITLE_3": "<p class=\"text-black\">Wie viel kostet der Bau eines mobilen Padelplatzes?</p>",
         "DESCRIPTION": "<p class=\"text-black\">Die Standardgröße beträgt 20 x 10 Meter und entspricht den offiziellen Wettkampfbestimmungen. Wir fertigen auch maßgeschneiderte Plätze auf Anfrage, stets unter Einhaltung der höchsten Qualitäts- und Sicherheitsstandards.</p>",
-        "DESCRIPTION_2": "<p class=\"text-black\">Weil wir eine einzigartige Lösung bieten, die Flexibilität, Langlebigkeit, hochwertige Materialien und einfache Installation vereint. Unsere mobilen Padelplätze eignen sich ideal für Sportveranstaltungen, temporäre oder semipermanente Installationen – unterstützt durch eine Marke mit Expertise in Ingenieurwesen und Service.</p>"
+        "DESCRIPTION_2": "<p class=\"text-black\">Weil wir eine einzigartige Lösung bieten, die Flexibilität, Langlebigkeit, hochwertige Materialien und einfache Installation vereint. Unsere mobilen Padelplätze eignen sich ideal für Sportveranstaltungen, temporäre oder semipermanente Installationen – unterstützt durch eine Marke mit Expertise in Ingenieurwesen und Service.</p>",
+        "DESCRIPTION_3": "<p class=\"text-black\">Die Preise beginnen ab 18.000 € (EXW).</p><p>Der Endpreis hängt von Größe, Ausstattung und Standort ab.</p><p>Alle Plätze beinhalten hochwertiges Sicherheitsglas, Kunstrasen, Beleuchtung und rutschfeste Oberflächen.</p><p>Kontaktieren Sie uns für ein individuelles Angebot.</p>"
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
@@ -3498,7 +3495,7 @@
   "LIGHTING_SECTION": {
     "TYPES_TITLE": "Beleuchtungstypen",
     "MASTS_TITLE": "Beleuchtungsmasten",
-    "MASTS_DESCRIPTION": "<p>Unsere Masten, die an der Platzstruktur befestigt und verankert sind, bestehen aus feuerverzinkten und lackierten Stahlprofilen S275 JR und garantieren so Langlebigkeit und Zuverlässigkeit. Mit einer beeindruckenden Höhe von 6 Metern bietet jeder Mast Unterstützung für 2 Projektoren und beleuchtet Ihren Platz mit Präzision und Klarheit.</p><p>Wählen Sie aus unserem Sortiment an ästhetischen Optionen, um Ihr Platzdesign zu ergänzen:</p>",
+    "MASTS_DESCRIPTION": "<p>6 Meter hohe Pfähle aus verzinktem Stahl, erhältlich in drei Designs:</p>",
     "LIGHTING_TYPES": [
       {
         "title": "PV: 8 X 180W",
@@ -3514,17 +3511,17 @@
     "LIGHTING_MASTS": [
       {
         "title": "Gerader Mast",
-        "description": "Für ein schlankes und lineares Aussehen.",
+        "description": "Klassisches, minimalistisches Design",
         "image": "/courts-detail/mast-straight.webp"
       },
       {
         "title": "V-förmiger Mast",
-        "description": "Verleiht Ihrem Platz einen Hauch von Aggressivität.",
+        "description": "Dynamischer und moderner Look",
         "image": "/courts-detail/mast-v.webp"
       },
       {
         "title": "Gebogener Mast",
-        "description": "Bietet eine fließende und elegante Lösung.",
+        "description": "Fließender und eleganter Stil",
         "image": "/courts-detail/mast-curved.webp"
       }
     ]
