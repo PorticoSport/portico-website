@@ -570,7 +570,7 @@
       "FIRST_SECTION": {
         "ID": "vistas-de-pistas",
         "TITLE": "<span class=\"text-secondary\">¡Experimenta el Pádel como nunca antes!</span>",
-        "DESCRIPTION": "<p>The Tournament court offers a pro-level playing experience with a sleek, unobstructed design that enhances visibility—ideal for clubs hosting events or tournaments. Built to endure intensive use, it’s perfect for both indoor and outdoor settings, combining durability with standout aesthetics.</p>",
+        "DESCRIPTION": "<p>La pista de pádel Tournament ofrece un diseño limpio y sin obstáculos visuales, ideal para clubes que organizan torneos o eventos. Resistente al uso intensivo, es perfecta para instalaciones tanto interiores como exteriores, combinando durabilidad y estética de alto nivel.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/tournament/tournament-front.webp",
@@ -616,7 +616,7 @@
         },
         "TITLE": "Estructura de la pista Tournament: estética profesional",
         "SUBTITLE": "Experimenta la excelencia de la estructura de alta calidad de nuestras pistas de pádel",
-        "TEXT": "<p>Construidas con <span>acero galvanizado S275JR</span> , nuestras pistas resisten la abrasión y la corrosión.</p><p>Incluyen malla electro-soldada conforme a la norma <span>UNE-EN-10223-4</span>, con sistema anti-vibración.</p><p>Proceso de montaje es rápido, con tornillos y tuercas de seguridad autoblocantes de acero galvanizado.</p><p>MPuntos clave del proceso de fabricación:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">✔️ Corte láser para acabados precisos</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">✔️ Soldadura robotizada para garantizar calidad y evitar oxidación</li></ul>"
+        "TEXT": "<p>Construidas con <span>acero galvanizado S275JR</span> , nuestras pistas resisten la abrasión y la corrosión.</p><p>Incluyen malla electro-soldada conforme a la norma <span>UNE-EN-10223-4</span>, con sistema anti-vibración.</p><p>Proceso de montaje es rápido, con tornillos y tuercas de seguridad autoblocantes de acero galvanizado.</p><p>Puntos clave del proceso de fabricación:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">✔️ Corte láser para acabados precisos</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">✔️ Soldadura robotizada para garantizar calidad y evitar oxidación</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "medidas",
