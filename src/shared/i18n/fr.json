@@ -579,7 +579,7 @@
       "OG_IMG": "https://www.porticosport.com/og/og-tournament.jpg",
       "TITLE": "<span>Terrain Tournament</span>",
       "DETAIL_TITLE": "<span>Terrain Tournament</span>",
-      "DESCRIPTION": "<p>Inspiré par les terrains que vous voyez à la télévision lors d'événements professionnels, le Tournament Terrain est une évolution de notre modèle de Terrain panoramique.</p><p>Conçu par le département d'ingénierie de Portico Sport, ce modèle de Terrain élimine les coins de la structure en acier, permettant aux parois en verre haute résistance continues d'offrir une vue panoramique dégagée sur les environs.</p><p>Ce design magnifique, associé à une esthétique méticuleuse, fait de ce Terrain le plus attractif pour ceux qui veulent que leurs spectateurs profitent d'une expérience de padel inégalée.</p>",
+      "DESCRIPTION": "<p>Inspirée des événements professionnels. Conçue pour les clubs.</p><p>Notre modèle de terrain Tournament est la version la plus avancée de notre terrain Panoramique, avec des parois en verre complètes sur les côtés et les fonds, offrant une visibilité totale et une expérience de jeu professionnelle.</p>",
       "SUBTITLE": "Profitez du padel avec une vue panoramique dégagée sur les environs.",
       "NAME": "Tournament",
       "LITTLE_DESCRIPTION": "<p>Profitez du padel avec une vue panoramique dégagée sur les environs.</p>",
@@ -593,7 +593,7 @@
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Découvrez le padel comme jamais auparavant !</span>",
-        "DESCRIPTION": "<p>Esthétique inégalée, vues dégagées, sentez-vous comme un pro ! Conçu pour offrir aux joueurs une expérience de jeu de qualité professionnelle tout en résistant aux conditions d'utilisation intensives régulières d'un club de padel.</p><p>Parfaitement adapté à tout environnement, intérieur ou extérieur, le Tournament Terrain n'a aucun élément structurel obstruant la vue, ce qui en fait le Terrain parfait pour vos événements et tournois de club.</p><p>Le Tournament Terrain est la meilleure option pour les clubs qui veulent avoir les terrains les plus agréables à regarder.</p>",
+        "DESCRIPTION": "<p>Le terrain de padel Tournament offre un design épuré et sans obstacles visuels, idéal pour les clubs organisant des tournois ou des événements. Résistant à une utilisation intensive, il est parfait pour des installations intérieures comme extérieures, alliant durabilité et esthétique haut de gamme.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/tournament/tournament-front.webp",
@@ -614,19 +614,19 @@
         "TITLE": "Découvrez les avantages de notre Terrain Tournament",
         "BENEFITS": [
           {
-            "header": "Garantie de 10 ans",
+            "header": "Durabilité",
             "icon": "WarrantyIcon",
-            "footer": "Soyez tranquille avec notre garantie de 10 ans sur l'intégrité structurelle de nos terrains, assurant qu'ils résistent même aux vents forts. Profitez-en sans aucun souci !"
+            "footer": "Garantie structurelle de 10 ans"
           },
           {
-            "header": "Terrain polyvalent",
+            "header": "Polyvalence",
             "icon": "VersatileCourtIcon",
-            "footer": "Idéal pour les configurations intérieures et extérieures, nos terrains sont le premier choix des clubs à la recherche de surfaces de jeu esthétiquement agréables et polyvalentes."
+            "footer": "Adaptée pour l’intérieur et l’extérieur"
           },
           {
-            "header": "Matériaux de qualité premium",
+            "header": "Matériaux haut de gamme",
             "icon": "MaterialsIcon",
-            "footer": "Fabriqués avec des matériaux de qualité premium pour une résistance et une durabilité maximales, nos terrains offrent une qualité premium dans chaque détail."
+            "footer": "Résistance et qualité"
           }
         ]
       },
@@ -638,16 +638,14 @@
           "alt": "Rendu d'un Terrain mobile"
         },
         "TITLE": "Structures",
-        "SUBTITLE": "Découvrez l'excellence de notre structure de Terrain de qualité premium",
-        "TEXT": "<p>Fabriqué avec une structure en acier galvanisé, notre Terrain garantit une résistance maximale à l'abrasion et à l'oxydation.</p><p>La structure du Terrain se compose de profils en acier galvanisé S275JR, ancrés solidement au sol à l'aide de plaques d'ancrage. Les cadres latéraux et supérieurs sont complétés par une maille électro-soudée conformément aux normes UNE-EN-10223-4.</p><p>Pour éviter les vibrations de la maille, la structure comprend un échafaudage intermédiaire.</p><p>La fixation de la structure au sol est réalisée à l'aide d'ancrages métalliques à tête fraisée mesurant M8X80 mm. De plus, son processus d'assemblage est sans soudure, grâce à des vis de sécurité auto-bloquantes et des écrous en acier galvanisé.</p><p>La structure des Terrains de Padel Portico Sport subit des processus de fabrication comprenant des technologies industrielles de pointe telles que :</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">La découpe laser garantit des coupes précises et offre une finition de haute qualité.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Une ligne d'assemblage de soudage robotisé entièrement automatisée garantit la qualité des soudures, empêchant toute oxydation potentielle à l'avenir.</li></ul>"
+        "SUBTITLE": "Structures du terrain Tournament : Esthétique professionnelle",
+        "TEXT": "<p>Fabriquées en acier galvanisé <span>S275JR</span> pour une résistance à l’abrasion et à la corrosion.</p><p>Les cadres latéraux et supérieurs intègrent un treillis électrosoudé conforme à la norme <span>UNE-EN-10223-4</span> avec contrôle des vibrations.</p><p>Montage rapide grâce à des vis et écrous autobloquants galvanisés.</p><p>Points forts de fabrication :</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">✔️ Acier découpé au laser pour une précision et des finitions nettes</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">✔️ Soudure robotisée garantissant qualité et prévention de l’oxydation</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
         "TITLE": "Mesures du Terrain Tournament",
-        "INDOOR_TITLE": "Intérieur",
-        "OUTDOOR_TITLE": "Extérieur",
-        "OUTDOOR": "<p><strong>Longueur</strong> : 20,50 m </p><p><strong>Largeur</strong> : 10,46 m </p>",
-        "INDOOR": "<p><strong>Longueur</strong> : 20 m </p><p><strong>Largeur</strong> : 10 m </p>",
+        "OUTDOOR": "<p><strong>Intérieur</strong> : 20 m x 10 m</p>",
+        "INDOOR": "<p><strong>Extérieur</strong> : 20,50 m x 10,46 m</p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/tournament/tournament-sizing.webp",
@@ -664,14 +662,15 @@
           "alt": "Terrain mobile breveté par Portico Sport"
         },
         "TITLE": "Vitrages",
-        "SUBTITLE": "Verre de sécurité trempé dans chaque Terrain !",
-        "DESCRIPTION": "<p>Découvrez une sécurité et une durabilité inégalées dans nos Terrains de Padel. Chaque Terrain est équipé de verre de sécurité trempé, disponible en épaisseurs de 10 ou 12 mm, adapté aux exigences spécifiques de votre projet. Soyez assuré, notre verre répond à toutes les normes réglementaires pour les installations de ce type. En partenariat avec des fabricants espagnols de renom bénéficiant du marquage CE, nous garantissons une qualité irréprochable dans tous les aspects de notre construction.</p><p>Découvrez ce design fluide, doté d'une paroi en verre haute résistance sans soudure offrant une vue panoramique sur les environs. Grâce à son verre de sécurité trempé, ce modèle assure une vue dégagée tout en garantissant durabilité et sécurité.</p><p>Le <strong>VITRAGE</strong> est réalisé avec du verre trempé clair aux bords polis, fixé à la structure métallique à l'aide de bagues en polyéthylène à tête fraisée, de vis galvanisées et de joints en néoprène pour un parfait support verre/métal, avec un total de 6 trous d'ancrage. Nos panneaux de verre présentent d'excellentes propriétés physiques et mécaniques, notamment une résistance aux chocs et une planéité optimale.</p>"
+        "SUBTITLE": "Verre de sécurité trempé pour terrains de padel",
+        "DESCRIPTION": "<p>Tous nos terrains sont équipés de verre de sécurité trempé (10 ou 12 mm), fabriqué en Espagne avec marquage CE.</p><p>Design continu sans obstructions, bords polis, joints en néoprène et fixation avec vis galvanisées. Haute résistance aux impacts, excellente visibilité et conformité aux normes européennes.</p>"
       },
       "PAINT_SECTION": {
         "ID": "paint-section",
-        "TITLE": "Peinture de structure",
-        "SUBTITLE": "Saviez-vous que vous pouvez désormais ajouter une touche de couleur à votre Terrain ?",
-        "DESCRIPTION": "<p>Découvrez l'apogée de la distinction dans la construction de Terrains de Padel avec une gamme de types de laques, offrant des options infinies pour peindre les structures de votre Terrain dans des teintes vibrantes. Notre <strong>PEINTURE LAQUÉE</strong> offre une résistance maximale à l'abrasion et à l'oxydation. Choisissez la couleur RAL qui vous convient et démarquez-vous avec nos options de couleur personnalisables.</p><p>Que vous préfériez un look monochrome ou que vous souhaitiez ajouter une touche de couleur avec un design bicolore, laissez votre Terrain refléter votre style et votre personnalité tout en vous assurant qu'il attire l'attention de tous sur le Terrain.</p>",
+        "TITLE": "Peinture laquée pour structures de terrains de padel",
+        "SUBTITLE": "Saviez-vous que vous pouvez désormais ajouter une touche de couleur à votre Terrain?",
+        "DESCRIPTION": "<p>Une infinité d’options pour colorer la structure de votre terrain avec des teintes vibrantes grâce à nos solutions de peinture laquée durable:</p>",
+        "DESCRIPTION_DOS": "Choisissez votre couleur RAL préférée et personnalisez l’apparence de votre terrain !",
         "IMAGES": [
           {
             "id": "slide-5",
@@ -700,9 +699,9 @@
           }
         ],
         "LIST": [
-          "<strong>INTÉRIEUR :</strong> revêtement en poudre formulé avec des résines thermofusibles.",
-          "<strong>EXTÉRIEUR :</strong> traitement de primaire en poudre thermofusible avec une teneur élevée en zinc formulé pour améliorer la protection contre la corrosion de l'acier galvanisé.",
-          "<strong>GALVANISÉ À CHAUD :</strong> traitement de zinc fondu à une température de 450 ºC afin d'obtenir une protection élevée des pièces contre la corrosion dans les environnements marins. Comprend un revêtement en poudre formulé avec des résines thermofusibles."
+          "<strong>INTÉRIEUR :</strong> Revêtement par poudre avec résines thermofusibles",
+          "<strong>EXTÉRIEUR :</strong> Apprêt riche en zinc thermofusible + revêtement par poudre pour une protection anticorrosion.",
+          "<strong>GALVANISÉ À CHAUD :</strong> Traitement par bain de zinc + revêtement par poudre pour environnements côtiers ou marins"
         ]
       },
       "TURF_SECTION": {
@@ -711,9 +710,9 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Vue de dessus d'un Terrain mobile"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Pelouse</span>",
-        "SUBTITLE": "Vivez une performance inégalée sur notre pelouse !",
-        "DESCRIPTION": "<p>Nous collaborons avec les meilleures entreprises de pelouse pour garantir que votre Terrain reçoive une pelouse de qualité premium. Chaque Terrain est équipé de pelouse de dernière génération conçue avec des monofilaments texturés, présentant différentes épaisseurs et hauteurs de pile, très faible abrasion, composée de polyéthylène (PE) et d'additifs spécifiques avec une grande résistance à l'usure et un traitement anti-UV, résistant à la chaleur et aux fluctuations climatiques extrêmes.</p><p>Remplissage de stabilisation et lestage à l'aide de sable de silice arrondi, lavé et séché, avec 97 % de silice, granulométrie entre 0,2 - 0,6 mm en quantité approximative de 10-15 kg/m2, selon le modèle de gazon.</p><p>Notre pelouse de pointe garantit aux joueurs de padel une vitesse de jeu optimisée et un rebond de balle amélioré et offre la possibilité de fibres droites ou bouclées et est disponible dans une large gamme de couleurs.</p>"
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Gazon haute performance pour terrains de padel</span>",
+        "SUBTITLE": "Découvrez des performances incomparables avec notre gazon artificiel !",
+        "DESCRIPTION": "<p>Gazon technique de dernière génération, fourni par les principaux fabricants européens.</p><p>Notre gazon artificiel offre: <ul class=\"list-disc\"><li> Gazon texturé en polyéthylène de dernière génération</li><li>Haute résistance aux UV, faible abrasion et stabilité thermique</li><li>Remplissage en sable de silice (10 à 15 kg/m²) pour améliorer le rebond et la vitesse de la balle</li></ul></p><p>Disponible en plusieurs couleurs et types de fibres pour s’adapter à vos préférences.</p>"
       },
       "LIGHTING_SECTION": {
         "ID": "lighting-section",
@@ -721,9 +720,21 @@
           "src": "/courts-detail/mobile/mobile-lighting.webp",
           "alt": "Éclairage d'un Terrain mobile"
         },
-        "TITLE": "Éclairage LED",
-        "SUBTITLE": "Illuminez votre jeu avec l'éclairage de Terrain de padel de Portico Sport !",
-        "DESCRIPTION": "<p>Profitez de la solution d'éclairage LED ultime pour les Terrains de Padel, offerte exclusivement par Portico Sport en partenariat avec des spécialistes de premier plan dans le domaine.</p><p>Notre éclairage de Terrain de padel assure une illumination optimale et une uniformité sur toutes les zones de jeu. De la zone du filet aux zones d'accès, de fond de terrain, des lignes de touche et des zones de hauts ballons, notre solution d'éclairage élimine l'éblouissement et les ombres, offrant aux joueurs une visibilité et des performances inégalées.</p><p>La qualité de nos projecteurs, conçus pour résister aux chocs jusqu'à IK10, avec des degrés d'étanchéité IP66-IP67 et une résistance aux surtensions de 4kV - 6kV, combinée aux capacités de dissipation thermique élevées des boîtiers, permet une durée de vie prolongée de nos projecteurs, avec une garantie allant jusqu'à 5 ans.</p><p>Nos projecteurs sont conçus pour couvrir tous les types de terrains spécifiés dans la norme européenne d'éclairage des sports (UNE-EN-12193:2020), allant de l'utilisation récréative (Classe III) aux compétitions professionnelles ou aux diffusions télévisées (Classe I - norme NIDE).</p>"
+        "TITLE": "Éclairage LED avancé pour terrains de padel",
+        "SUBTITLE": "Éclairez votre terrain avec l’éclairage de Portico Sport !",
+        "DESCRIPTION": "<p>Profitez d’un éclairage LED haut de gamme, développé avec des spécialistes de premier plan du secteur.</p><p><ul class=\"list-disc pl-4\"><li>Conforme à la norme <span>UNE-EN-12193:2020</span></li><li>Lumière uniforme sans éblouissement</li><li>Résistance aux impacts <span>IK10</span> et protection <span>IP66-IP67</span></li><li>Protection contre les surtensions (4kV – 6kV) et dissipation thermique efficace<li>Adapté à un usage récréatif (Classe III) et aux compétitions professionnelles (Classe I, norme NIDE)</li><li>Garantie jusqu’à 5 ans</li></ul></p>"
+      },
+      "INSTALLATION_SECTION": {
+        "ID": "installation",
+        "TITLE": "Foire aux questions sur le terrain Tournament",
+        "SUBTITLE": "<p class=\"text-black\">Quelle est la taille standard d’un terrain Tournament?</p>",
+        "SUBTITLE_2": "<p class=\"text-black\">Pourquoi choisir Portico Sport pour votre événement de padel?</p>",
+        "SUBTITLE_3": "<p class=\"text-black\">Le terrain Tournament convient-il aux événements professionnels ou semi-professionnels?</P>",
+        "SUBTITLE_4": "<p class=\"text-black\">Peut-il être installé en intérieur comme en extérieur?</P>",
+        "DESCRIPTION": "<p class=\"text-black\">La taille standard est de 20 x 10 mètres, conforme à la réglementation officielle du padel. Tous nos terrains respectent les normes les plus strictes en matière de qualité et de sécurité.</p>",
+        "DESCRIPTION_2": "<p class=\"text-black\">Portico Sport est le partenaire de confiance des clubs organisant des tournois et événements. Nos terrains panoramiques offrent une expérience professionnelle, une visibilité maximale pour les spectateurs et des finitions haut de gamme. Plus de 15 ans d’expérience, systèmes certifiés CE, installation rapide et options de personnalisation.</p>",
+        "DESCRIPTION_3": "<p class=\"text-black\">Oui. Il est conçu selon les normes internationales du padel, avec des parois entièrement vitrées pour une visibilité totale et des conditions de jeu optimales. Idéal pour les clubs organisant des compétitions.</P>",
+        "DESCRIPTION_4": "<p class=\"text-black\">Absolument. Le terrain de padel Tournament est conçu pour résister à tous les environnements, grâce à sa structure en acier galvanisé et à ses finitions résistantes aux intempéries, comme la galvanisation à chaud et la peinture thermolaquée.</P>"
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
