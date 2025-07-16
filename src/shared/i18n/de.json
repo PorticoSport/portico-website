@@ -570,7 +570,7 @@
       "OG_IMG": "https://www.porticosport.com/og/og-tournament.jpg",
       "TITLE": "<span>Tournament Court</span>",
       "DETAIL_TITLE": "<span>Tournament Court</span>",
-      "DESCRIPTION": "<p>Inspiriert von den Plätzen, die Sie im Fernsehen bei professionellen Veranstaltungen sehen, ist der Tournament Court eine Weiterentwicklung unseres Panoramaplatzmodells.</p><p>Entworfen von der Ingenieurabteilung von Portico Sport, eliminiert dieses Platzmodell die Ecken der Stahlstruktur, sodass die durchgehenden Glaswände eine ungehinderte Panoramaaussicht auf die Umgebung bieten können.</p><p>Dieses großartige Design, gepaart mit akribischer Ästhetik, macht diesen Platz am attraktivsten für diejenigen, die möchten, dass ihre Zuschauer ein unvergleichliches Padel-Erlebnis genießen.</p>",
+      "DESCRIPTION": "<p>Inspiriert von professionellen Veranstaltungen. Entwickelt für Clubs.</p><p>Unser Modell Tournament ist die fortschrittlichste Version unseres Panoramic-Platzes, mit vollständigen Glaswänden an den Seiten und Enden für volle Sichtbarkeit und ein professionelles Spielerlebnis.</p>",
       "SUBTITLE": "Genießen Sie Padel mit uneingeschränkter Panoramaaussicht auf die Umgebung.",
       "NAME": "Tournament",
       "LITTLE_DESCRIPTION": "<p>Genießen Sie Padel mit uneingeschränkter Panoramaaussicht auf die Umgebung.</p>",
@@ -584,7 +584,7 @@
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Erleben Sie Padel wie nie zuvor!</span>",
-        "DESCRIPTION": "<p>Unvergleichliche Ästhetik, uneingeschränkte Aussicht, fühlen Sie sich wie ein Profi! Design, um den Spielern ein Spielerlebnis auf Profiniveau zu bieten, während die regulären starken Nutzungbedingungen eines Padel-Clubs standhalten.</p><p>Perfekt an jede Umgebung angepasst, drinnen oder draußen, hat der Tournament Court keine Strukturelemente, die die Aussicht behindern, was ihn zum perfekten Platz für Ihre Clubveranstaltungen und Turniere macht.</p><p>Der Tournament Court ist die beste Option für Clubs, die die am angenehmsten aussehenden Plätze haben möchten.</p>",
+        "DESCRIPTION": "<p>Der Tournament-Padelplatz bietet ein klares Design ohne visuelle Hindernisse, ideal für Clubs, die Turniere oder Veranstaltungen ausrichten.</p><p>Er ist robust für intensive Nutzung und perfekt für Innen- sowie Außenanlagen, wobei er Langlebigkeit und hochwertige Ästhetik vereint.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/tournament/tournament-front.webp",
@@ -605,19 +605,19 @@
         "TITLE": "Erleben Sie die Vorteile unseres Tournament Courts",
         "BENEFITS": [
           {
-            "header": "10 Jahre Garantie",
+            "header": "Haltbarkeit",
             "icon": "WarrantyIcon",
-            "footer": "Seien Sie beruhigt mit unserer 10-jährigen Garantie auf die strukturelle Integrität unserer Plätze, die sicherstellt, dass sie auch starken Winden standhalten. Genießen Sie sie ohne Sorgen!"
+            "footer": "10 Jahre strukturelle Garantie"
           },
           {
-            "header": "Vielseitiger Platz",
+            "header": "Vielseitigkeit",
             "icon": "VersatileCourtIcon",
-            "footer": "Ideal für den Innen- und Außenbereich sind unsere Plätze die erste Wahl für Clubs, die ästhetisch ansprechende und vielseitige Spielflächen suchen."
+            "footer": "Geeignet für Innen- und Außenbereiche"
           },
           {
             "header": "Premium-Materialien",
             "icon": "MaterialsIcon",
-            "footer": "Hergestellt aus Premium-Materialien für maximale Stärke und Haltbarkeit, bieten unsere Plätze Premium-Qualität in jedem Detail."
+            "footer": "Widerstandsfähigkeit und Qualität"
           }
         ]
       },
@@ -628,17 +628,15 @@
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
           "alt": "Render eines mobilen Platzes"
         },
-        "TITLE": "Strukturen",
+        "TITLE": "Struktur des Tournament-Platzes: Professionelle Ästhetik",
         "SUBTITLE": "Erleben Sie die Exzellenz unserer hochwertigen Platzstruktur",
-        "TEXT": "<p>Hergestellt aus feuerverzinktem Stahl sorgt unser Platz für maximale Beständigkeit gegen Abrieb und Oxidation.</p><p>Die Platzstruktur besteht aus feuerverzinkten S275JR-Stahlprofilen, die mit Ankerplatten sicher im Boden verankert sind. Die Seiten- und Oberrahmen werden durch elektrogeschweißte Maschung gemäß UNE-EN-10223-4-Standards ergänzt.</p><p>Um Vibrationen des Netzes zu verhindern, umfasst die Struktur Zwischengerüste.</p><p>Die Befestigung der Struktur am Boden erfolgt mit versenkten Metallankern mit einer Größe von M8X80 mm. Der Montageprozess ist nahtlos dank selbstsichernder Sicherheitsschrauben und Muttern aus feuerverzinktem Stahl.</p><p>Die Struktur der Padelplätze von Portico Sport unterliegt Herstellungsprozessen, die modernste industrielle Technologien wie folgt einschließen:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laserbeschnitt garantiert präzise Schnitte und liefert hochwertige Oberflächen.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Eine vollautomatische robotergesteuerte Schweißmontagelinie garantiert die Qualität der Schweißnähte und verhindert mögliche Oxidationen in der Zukunft.</li></ul>"
+        "TEXT": "<p>Unsere Plätze werden aus verzinktem Stahl S275JR gefertigt und sind beständig gegen Abrieb und Korrosion.</p><p>Sie enthalten ein elektroschweißbares Gitter gemäß der Norm <span>UNE-EN-10223-4</span> mit vibrationsdämpfungssystem.</p><p>Der Montageprozess ist schnell und erfolgt mit selbstsichernden verzinkten Schrauben und Muttern.</p><p>Wichtige Punkte des Herstellungsprozesses:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">✔️ Laserschneiden für präzise Oberflächen</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">✔️ Robotergestütztes Schweißen zur Qualitätssicherung und Vermeidung von Oxidation</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
         "TITLE": "Maße des Tournament Courts",
-        "INDOOR_TITLE": "Innenbereich",
-        "OUTDOOR_TITLE": "Außenbereich",
-        "OUTDOOR": "<p><strong>Länge</strong>: 20,50 m </p><p><strong>Breite</strong>: 10,46 m </p>",
-        "INDOOR": "<p><strong>Länge</strong>: 20 m </p><p><strong>Breite</strong>: 10 m </p>",
+        "OUTDOOR": "<p><strong>Innenmaß</strong>: 20 m x 10 m</p>",
+        "INDOOR": "<p><strong>Außenmaß</strong>: 20,50 m x 10,46 m</p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/tournament/tournament-sizing.webp",
@@ -654,15 +652,16 @@
           "height": 323,
           "alt": "Von Portico Sport patentierte mobile Plattform"
         },
-        "TITLE": "Gläser",
+        "TITLE": "Gehärtete Sicherheitsgläser für Padelplätze",
         "SUBTITLE": "Sicherheitsglas in jedem Platz!",
-        "DESCRIPTION": "<p>Entdecken Sie unübertroffene Sicherheit und Haltbarkeit in unseren Padelplätzen. Jeder Platz verfügt über Sicherheitsglas, erhältlich in einer Dicke von 10 oder 12 mm, maßgeschneidert für die spezifischen Anforderungen Ihres Projekts. Seien Sie versichert, unser Glas erfüllt alle gesetzlichen Vorschriften für Installationen dieser Art. In Zusammenarbeit mit angesehenen spanischen Herstellern mit CE-Kennzeichnung garantieren wir in allen Aspekten unserer Konstruktion Qualität auf höchstem Niveau.</p><p>Entdecken Sie dieses Fließdesign, das eine nahtlose hochfeste Glaswand bietet, die eine Panoramaaussicht auf die Umgebung bietet. Dank seines Sicherheitsglases gewährleistet dieses Modell eine ungehinderte Sicht und gewährleistet gleichzeitig Haltbarkeit und Sicherheit.</p><p><strong>VERGLASUNG</strong> erfolgt mit klarem Einscheibensicherheitsglas mit polierten Kanten, das mit Senkschrauben aus Polyethylen, feuerverzinkten Schrauben und Neoprengummis zur perfekten Glas-/Metallunterstützung an der Metallstruktur befestigt ist, mit insgesamt 6 Ankerlöchern. Unsere Glaspaneele bieten herausragende physikalische und mechanische Eigenschaften, einschließlich Schlagfestigkeit und optimaler Planheit.</p>"
+        "DESCRIPTION": "<p>Alle unsere Plätze sind mit gehärtetem Sicherheitsglas (10 oder 12 mm) ausgestattet, hergestellt in Spanien mit CE-Kennzeichnung.</p><p>Durchgehendes Design ohne Hindernisse, polierte Kanten, Neopren-Dichtungen und Befestigung mit verzinkten Schrauben. Hohe Schlagfestigkeit, ausgezeichnete Sichtbarkeit und gemäß europäischen Normen.</p>"
       },
       "PAINT_SECTION": {
         "ID": "paint-section",
-        "TITLE": "Struktur Lackierung",
+        "TITLE": "Lackierung für Padelplatz-Strukturen",
         "SUBTITLE": "Wussten Sie, dass Sie Ihrem Platz jetzt einen Farbtupfer hinzufügen können?",
-        "DESCRIPTION": "<p>Entdecken Sie das Höchstmaß an Unterscheidung bei der Padelplatzkonstruktion mit einer Reihe von Lacktypen, die endlose Möglichkeiten bieten, die Strukturen Ihres Platzes in lebendigen Farben zu lackieren. Unser LACKIERTE LACK bietet maximale Beständigkeit gegen Abrieb und Oxidation. Wählen Sie die RAL-Farbe, die Ihren Vorlieben entspricht, und stechen Sie mit unseren anpassbaren Farboptionen heraus.</p><p>Ob Sie einen monochromen Look bevorzugen oder mit einem zweifarbigen Design einen Farbtupfer hinzufügen möchten, lassen Sie Ihren Platz Ihren Stil und Ihre Persönlichkeit widerspiegeln und stellen Sie sicher, dass er auf dem Platz jedem ins Auge fällt.</p>",
+        "DESCRIPTION": "<p>Unendliche Möglichkeiten, die Strukturen Ihres Platzes in lebendigen Farben mit unseren langlebigen Lackieroptionen zu gestalten:</p>",
+        "DESCRIPTION_DOS": "Wählen Sie Ihre bevorzugte RAL-Farbe und passen Sie das Aussehen Ihres Platzes individuell an!",
         "IMAGES": [
           {
             "id": "slide-5",
@@ -691,9 +690,9 @@
           }
         ],
         "LIST": [
-          "<strong>INNENBEREICH:</strong> Pulverbeschichtung formuliert mit thermofusiblen Harzen.",
-          "<strong>AUßENBEREICH:</strong> Thermofusibler Pulverprimer mit hohem Zinkgehalt, formuliert zur Verbesserung des Korrosionsschutzes von feuerverzinktem Stahl.",
-          "<strong>FEUERVERZINKT:</strong> Behandlung von geschmolzenem Zink bei einer Temperatur von 450 ºC, um einen hohen Korrosionsschutz der Teile gegen Korrosion in marinen Umgebungen zu erreichen. Enthält Pulverbeschichtung formuliert mit thermofusiblen Harzen."
+          "<strong>INNENBEREICH:</strong> Pulverbeschichtung mit thermoplastischen Harzen",
+          "<strong>AUßENBEREICH:</strong> Zinkreicher thermoplastischer Grundanstrich + Pulverbeschichtung zum Korrosionsschutz",
+          "<strong>FEUERVERZINKT:</strong> Zinkbadbehandlung + Pulverbeschichtung für Küsten- oder Meeresumgebungen"
         ]
       },
       "TURF_SECTION": {
@@ -702,9 +701,31 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Panoramablick auf den mobilen Platz"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Kunstrasen</span>",
-        "SUBTITLE": "Erleben Sie unübertroffene Leistung auf unserem Kunstrasen!",
-        "DESCRIPTION": "<p>Wir arbeiten mit den besten Kunstrasenherstellern zusammen, um sicherzustellen, dass Ihr Platz Kunstrasen von höchster Qualität erhält. Jeder Platz ist mit Kunstrasen der neuesten Generation ausgestattet, der mit strukturierten Monofilamenten, unterschiedlichen Dicken und Faserhöhen, sehr geringer Abriebfestigkeit, aus Polyethylen (PE) und speziellen Additiven mit hoher Verschleißfestigkeit und UV-beständigem Behandlung, beständig gegen Hitze und extreme Witterungsschwankungen, entwickelt wurde.</p><p>Stabilisierungsfüllung und Ballastierung mit gerundetem, gewaschenem und getrocknetem Quarzsand, mit 97 % Silizium, Granulometrie zwischen 0,2 - 0,6 mm in einer ungefähren Menge von 10-15 kg/m², je nach Modell des Rasens.</p><p>Unser hochmoderner Kunstrasen garantiert Padel-Spielern eine optimierte Spielgeschwindigkeit und verbesserten Ballprall und bietet die Option gerader oder gekräuselter Fasern und ist in einer Vielzahl von Farben erhältlich.</p>"
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Hochleistungs-Rasen für Padelplätze</span>",
+        "SUBTITLE": "Erleben Sie unvergleichliche Leistung mit unserem Kunstrasen!",
+        "DESCRIPTION": "<p>Technischer Kunstrasen der neuesten Generation, geliefert von führenden europäischen Herstellern.</p><p>Unser Kunstrasen bietet: <ul class=\"list-disc\"><li> Texturierter Polyethylenrasen der neuesten Generation</li><li>Hohe UV-Beständigkeit, geringe Abrasion und thermische Stabilität</li><li>Kieselsandfüllung (10–15 kg/m²) zur Verbesserung des Ballabsprungs und der Ballgeschwindigkeit</li></ul></p><p>Erhältlich in verschiedenen Farben und Fasertypen, um Ihren Vorlieben gerecht zu werden.</p>"
+      },
+      "LIGHTING_SECTION": {
+        "ID": "lighting-section",
+        "IMAGE": {
+          "src": "/courts-detail/mobile/mobile-lighting.webp",
+          "alt": "Beleuchtung des mobilen Platzes"
+        },
+        "TITLE": "Fortschrittliche LED-Beleuchtung für Padelplätze",
+        "SUBTITLE": "Beleuchten Sie Ihr Spiel mit der Padelplatz-Beleuchtung von Portico Sport!",
+        "DESCRIPTION": "<p>Erhellen Sie den Platz mit unseren hochwertigen LED-Beleuchtungssystemen, entwickelt in Zusammenarbeit mit führenden Spezialisten.</p><p><ul class=\"list-disc pl-4\"><li>Vollständig konform mit der Norm <span>UNE-EN-12193:2020</span></li><li>Gleichmäßige, blendfreie Lichtverteilung</li><li><span>IK10</span> Schlagfestigkeit <span>IP66-IP67</span> wateWasserschutz</li><li>Überspannungsschutz (4 kV – 6 kV), hohe Wärmeableitung</li><li>Geeignet für Freizeiteinsatz (Klasse III) und professionelle Veranstaltungen (Klasse I, NIDE-Standard)</li><li>Bis zu 5 Jahre Garantie</li></ul></p>"
+      },
+      "INSTALLATION_SECTION": {
+        "ID": "installation",
+        "TITLE": "Häufig gestellte Fragen zum Tournament-Platz",
+        "SUBTITLE": "<p class=\"text-black\">Wie groß ist ein Tournament-Platz im Standardmaß?</p>",
+        "SUBTITLE_2": "<p class=\"text-black\">Warum Portico Sport für Ihr Padel-Event wählen?</p>",
+        "SUBTITLE_3": "<p class=\"text-black\">Ist der Tournament-Platz für professionelle oder semi-professionelle Events geeignet?</P>",
+        "SUBTITLE_4": "<p class=\"text-black\">Kann der Platz sowohl im Innen- als auch im Außenbereich installiert werden?</P>",
+        "DESCRIPTION": "<p class=\"text-black\">Das Standardmaß beträgt 20 x 10 Meter, gemäß den offiziellen Padel-Vorschriften. Alle unsere Plätze erfüllen höchste Qualitäts- und Sicherheitsstandards.</p>",
+        "DESCRIPTION_2": "<p class=\"text-black\">Portico Sport ist der vertrauenswürdige Partner für Clubs, die Turniere und Veranstaltungen organisieren. Unsere Panorama-Plätze bieten ein professionelles Spielerlebnis, maximale Sicht für Zuschauer und hochwertige Ausführungen. Über 15 Jahre Erfahrung, CE-zertifizierte Systeme, schnelle Installation und individuelle Gestaltungsmöglichkeiten.</p>",
+        "DESCRIPTION_3": "<p class=\"text-black\">Ja. Er ist nach internationalen Padel-Standards konzipiert, mit vollständig verglasten Wänden für maximale Sicht und optimale Spielbedingungen. Ideal für Clubs, die Wettbewerbe ausrichten.</P>",
+        "DESCRIPTION_4": "<p class=\"text-black\">Natürlich. Der Tournament-Padelplatz ist für jede Umgebung ausgelegt – mit einer Struktur aus verzinktem Stahl und witterungsbeständigen Ausführungen wie Feuerverzinkung und Pulverbeschichtung.</p>"
       },
       "LIGHTING_SECTION": {
         "ID": "lighting-section",
@@ -3495,7 +3516,7 @@
   "LIGHTING_SECTION": {
     "TYPES_TITLE": "Beleuchtungstypen",
     "MASTS_TITLE": "Beleuchtungsmasten",
-    "MASTS_DESCRIPTION": "<p>6 Meter hohe Pfähle aus verzinktem Stahl, erhältlich in drei Designs:</p>",
+    "MASTS_DESCRIPTION": "<p>Die Beleuchtungsmasten bestehen aus verzinktem Stahl, sind 6 Meter hoch und in drei Designs erhältlich:</p>",
     "LIGHTING_TYPES": [
       {
         "title": "PV: 8 X 180W",
