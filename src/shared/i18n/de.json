@@ -490,11 +490,11 @@
         "ID": "lighting-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-lighting.webp",
-          "alt": "Mobile court lighting"
+          "alt": "Beleuchtung des mobilen Platzes"
         },
-        "TITLE": "Fortschrittliche Beleuchtung für mobile Padelplätze",
-        "SUBTITLE": "Beleuchten Sie Ihr Spiel mit der Padelplatzbeleuchtung von Portico Sport!",
-        "DESCRIPTION": "<p>Wir arbeiten mit den besten Kunstrasenanbietern zusammen, um eine Leistung auf höchstem Niveau zu gewährleisten.</p><p>Unser Kunstrasen bietet:<p> ✔️ Hochmoderne texturierte Polyethylen-Fasern</p><p>✔️ Hohe UV-Beständigkeit, geringe Abriebwerte und thermische Stabilität</p><p>✔️ Silica-Sandfüllung (10–15 kg/m²) zur Verbesserung des Ballsprungs und der Spielgeschwindigkeit</p><p>Erhältlich in verschiedenen Farben und Faserarten – angepasst an Ihre individuellen Vorlieben.</p>"
+        "TITLE": "Fortschrittliche LED-Beleuchtung für Padelplätze",
+        "SUBTITLE": "Beleuchten Sie Ihr Spiel mit der Padelplatz-Beleuchtung von Portico Sport!",
+        "DESCRIPTION": "<p>Erhellen Sie den Platz mit unseren hochwertigen LED-Beleuchtungssystemen, entwickelt in Zusammenarbeit mit führenden Spezialisten.</p><p><ul class=\"list-disc pl-4\"><li>Vollständig konform mit der Norm <span>UNE-EN-12193:2020</span></li><li>Gleichmäßige, blendfreie Lichtverteilung</li><li><span>IK10</span> Schlagfestigkeit <span>IP66-IP67</span> wateWasserschutz</li><li>Überspannungsschutz (4 kV – 6 kV), hohe Wärmeableitung</li><li>Geeignet für Freizeiteinsatz (Klasse III) und professionelle Veranstaltungen (Klasse I, NIDE-Standard)</li><li>Bis zu 5 Jahre Garantie</li></ul></p>"
       },
       "INSTALLATION_SECTION": {
         "ID": "installation",
