@@ -726,16 +726,15 @@
         "DESCRIPTION_2": "<p class=\"text-black\">Portico Sport ist der vertrauenswürdige Partner für Clubs, die Turniere und Veranstaltungen organisieren. Unsere Panorama-Plätze bieten ein professionelles Spielerlebnis, maximale Sicht für Zuschauer und hochwertige Ausführungen. Über 15 Jahre Erfahrung, CE-zertifizierte Systeme, schnelle Installation und individuelle Gestaltungsmöglichkeiten.</p>",
         "DESCRIPTION_3": "<p class=\"text-black\">Ja. Er ist nach internationalen Padel-Standards konzipiert, mit vollständig verglasten Wänden für maximale Sicht und optimale Spielbedingungen. Ideal für Clubs, die Wettbewerbe ausrichten.</P>",
         "DESCRIPTION_4": "<p class=\"text-black\">Natürlich. Der Tournament-Padelplatz ist für jede Umgebung ausgelegt – mit einer Struktur aus verzinktem Stahl und witterungsbeständigen Ausführungen wie Feuerverzinkung und Pulverbeschichtung.</p>"
-      },
       "LIGHTING_SECTION": {
         "ID": "lighting-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-lighting.webp",
           "alt": "Beleuchtung des mobilen Platzes"
         },
-        "TITLE": "LED-Beleuchtung",
-        "SUBTITLE": "Beleuchten Sie Ihr Spiel mit der Padelplatzbeleuchtung von Portico Sport!",
-        "DESCRIPTION": "<p>Genießen Sie die ultimative LED-Beleuchtungslösung für Padelplätze, die exklusiv von Portico Sport in Zusammenarbeit mit führenden Spezialisten auf diesem Gebiet angeboten wird.</p><p>Unsere Padelplatzbeleuchtung gewährleistet optimale Beleuchtung und Gleichmäßigkeit auf allen Spielflächen. Von der Netzhöhe über die Zugangsbereiche, den Hintergrund, die Seitenlinien und die Zonen für hohe Bälle eliminiert unsere Beleuchtungslösung Blendeffekte und Schatten, bietet Spielern eine unvergleichliche Sichtbarkeit und Leistung.</p><p>Die Qualität unserer Projektoren, die darauf ausgelegt sind, Schläge bis zu IK10 standzuhalten, mit IP66-IP67-Dichtungsgraden und Widerstand gegen Spannungsspitzen von 4 kV - 6 kV, kombiniert mit den hohen Wärmeabgabefähigkeiten der Gehäuse, ermöglicht eine verlängerte Lebensdauer unserer Projektoren mit einer Garantie von bis zu 5 Jahren.</p><p>Unsere Projektoren sind so konzipiert, dass sie alle Arten von Plätzen abdecken, die in der europäischen Norm für Sportbeleuchtung (UNE-EN-12193:2020) spezifiziert sind, von der Freizeitnutzung (Klasse III) bis hin zu professionellen Wettkämpfen oder Fernsehübertragungen (Klasse I - NIDE-Standard).</p>"
+        "TITLE": "Fortschrittliche LED-Beleuchtung für Padelplätze",
+        "SUBTITLE": "Beleuchten Sie Ihr Spiel mit der Padelplatz-Beleuchtung von Portico Sport!",
+        "DESCRIPTION": "<p>Erhellen Sie den Platz mit unseren hochwertigen LED-Beleuchtungssystemen, entwickelt in Zusammenarbeit mit führenden Spezialisten.</p><p><ul class=\"list-disc pl-4\"><li>Vollständig konform mit der Norm <span>UNE-EN-12193:2020</span></li><li>Gleichmäßige, blendfreie Lichtverteilung</li><li><span>IK10</span> Schlagfestigkeit <span>IP66-IP67</span> wateWasserschutz</li><li>Überspannungsschutz (4 kV – 6 kV), hohe Wärmeableitung</li><li>Geeignet für Freizeiteinsatz (Klasse III) und professionelle Veranstaltungen (Klasse I, NIDE-Standard)</li><li>Bis zu 5 Jahre Garantie</li></ul></p>"
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
