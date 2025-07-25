@@ -104,6 +104,10 @@
           "URL": "/client-contact"
                   }
       },
+      "TRUSTED_SAU": {
+        "TITLE":"Trusted by the world's best",
+        "DESCRIPTION":"<p>Official court of the <strong>HEXAGON CUP</strong>, featuring global legends like Juan Lebrón, Federico Chingotto, Martín Di Nenno, Ariana Sánchez or sports celebrities: Leo Messi, Agüero, Eva Longoria, and Lewandowski.</p><p>Chosen by royalty, elite investors, and luxury resorts from Barbados to Japan.</p>"
+      },
       "GRAPHIC_PROCESS_SECTION": {
         "ID": "graphic-process",
         "TITLE": "Padel court builders worldwide",
