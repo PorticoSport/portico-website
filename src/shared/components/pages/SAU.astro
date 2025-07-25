@@ -79,7 +79,7 @@ bgClass="brightness-50"
     </div>
     <div class="bg-main relative bg-background">
         
-      <div class="intro-section flex flex-wrap w-full h-auto ">
+      <div class="intro-section flex flex-wrap w-full h-auto">
         <div class="m-2 md:w-1/2 text-center xs:m-auto">
           <Typography tag="h2" className="font-bold mb-10" text={i18n.PAGES.HOME.INTRO_SECTION_SAU.TITLE} />
           <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.HOME.INTRO_SECTION_SAU.DESCRIPTION} />
@@ -91,11 +91,26 @@ bgClass="brightness-50"
         </div>
         <div class="w-full md:w-1/2 md:m-auto">
           <img
-            src="/sau-court/thumbnails/Barbados-padel-court.webp"
+            src="/sau-court/thumbnails/whater-padel.webp"
             alt="Barbados Padel"
-            class="img-structure w-full object-cover scale-[75%]"
+            class="img-structure w-full object-cover scale-[90%]"
           />
         </div>
+      </div>
+
+      <div class="w-full text-center mt-20">
+        <Typography tag="h2" className="font-bold mb-10" text={i18n.PAGES.HOME.TRUSTED_SAU.TITLE} />
+        <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.HOME.TRUSTED_SAU.DESCRIPTION} />
+      </div>
+
+      <!-- CARRUSEL -->
+        
+      <div class="m-10">
+        <SliderProjects 
+          id="slider-sau"
+          photos={SliderPhotos}
+          path="sau-court"
+          language={language}/> 
       </div>
   
     
@@ -130,20 +145,6 @@ bgClass="brightness-50"
         
             <article class="flex flex-col justify-center items-center text-center max-w-lg m-5 bg-blue-500/30 p-5">
               <p class="text-primary font-bold uppercase">
-                {i18n.PAGES.HOME.BENTO_SECTION_SAU.POINT_2.TITLE} 
-              </p>
-            
-              <Typography 
-                tag="div" 
-                className="mt-2" 
-                text={i18n.PAGES.HOME.BENTO_SECTION_SAU.POINT_2.DESCRIPTION} 
-              />
-            </article>
-          </div>
-        
-          <div class="md:w-full md:flex md:justify-center md:gap-10">
-            <article class="flex flex-col justify-center items-center text-center max-w-lg m-5 bg-blue-500/30 p-5">
-              <p class="text-primary font-bold uppercase">
                 {i18n.PAGES.HOME.BENTO_SECTION_SAU.POINT_3.TITLE} 
               </p>
             
@@ -153,7 +154,9 @@ bgClass="brightness-50"
                 text={i18n.PAGES.HOME.BENTO_SECTION_SAU.POINT_3.DESCRIPTION} 
               />
             </article>
-
+          </div>
+        
+          <div class="md:w-full md:flex md:justify-center md:gap-10">
             <article class="flex flex-col justify-center items-center text-center max-w-lg m-5 bg-blue-500/30 p-5">
               <p class="text-primary font-bold uppercase">
                 {i18n.PAGES.HOME.BENTO_SECTION_SAU.POINT_4.DESCRIPTION} 
@@ -165,9 +168,8 @@ bgClass="brightness-50"
                 text={i18n.PAGES.HOME.BENTO_SECTION_SAU.POINT_4.DESCRIPTION} 
               />
             </article>
-          </div>
 
-          <article class="flex flex-col justify-center items-center text-center max-w-lg m-5 bg-blue-500/30 p-5">
+            <article class="flex flex-col justify-center items-center text-center max-w-lg m-5 bg-blue-500/30 p-5">
             <p class="text-primary font-bold uppercase">
               {i18n.PAGES.HOME.BENTO_SECTION_SAU.POINT_5.DESCRIPTION} 
             </p>
@@ -178,19 +180,11 @@ bgClass="brightness-50"
               text={i18n.PAGES.HOME.BENTO_SECTION_SAU.POINT_5.DESCRIPTION} 
             />
           </article>
+          </div>
+
 
           <Button size="sm" class="" url={i18n.PAGES.HOME.BENTO_SECTION_SAU.BUTTON.URL} title={i18n.PAGES.HOME.BENTO_SECTION_SAU.BUTTON.TITLE} target="_self"> {i18n.PAGES.HOME.BENTO_SECTION_SAU.BUTTON.LABEL}
           </Button>
-        </div>
-        
-        <!-- CARRUSEL -->
-        
-        <div class="m-10">
-          <SliderProjects 
-          id="slider-sau"
-          photos={SliderPhotos}
-          path="sau-court"
-          language={language}/> 
         </div>
 
     <Typography tag="h2" className="text-center font-bold mt-16 mb-10" text={i18n.PAGES.HOME.COMPLEMENTS_SECTION_SAU.TITLE} />
@@ -245,6 +239,35 @@ bgClass="brightness-50"
        -z-10 h-full w-full 
        bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
        data-src="/sau-court/thumbnails/Domaine-Dessendieras-Chateaux.webp"
+     >
+     </div>
+   </BentoItem>
+   <BentoItem class="col-span-10 lg:col-span-4">
+     <div
+       slot="image"
+       class="background transition-scale absolute bottom-0 left-0 top-0
+       -z-10 h-full w-full 
+       bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+       data-src="/sau-court/thumbnails/field-padel.webp">
+     </div>
+   </BentoItem>
+   <BentoItem class="col-span-10 lg:col-span-6">
+     <div
+       slot="image"
+       class="background transition-scale absolute bottom-0 left-0 top-0
+   -z-10 h-full w-full 
+   bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+       data-src="/sau-court/thumbnails/evening-padel.webp"
+     >
+     </div>
+   </BentoItem>
+   <BentoItem class="col-span-10 lg:col-span-10">
+     <div
+       slot="image"
+       class="background transition-scale absolute bottom-0 left-0 top-0
+   -z-10 h-full w-full 
+   bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+       data-src="/sau-court/thumbnails/padel-center.webp"
      >
      </div>
    </BentoItem>
