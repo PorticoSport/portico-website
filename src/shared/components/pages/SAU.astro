@@ -190,14 +190,18 @@ bgClass="brightness-50"
     <Typography tag="h2" className="text-center font-bold mt-16 mb-10" text={i18n.PAGES.HOME.COMPLEMENTS_SECTION_SAU.TITLE} />
     <Typography tag="div" className="text-center mb-10 m-auto w-[85%] " text={i18n.PAGES.HOME.COMPLEMENTS_SECTION_SAU.SUBSUBTITLE} />
     
-    <div class="max-w-7xl mx-auto p-16 ">
-            <div class="grid grid-cols-1 md:grid-cols-2 ">
-              <p class="text-left w-full md:w-1/2"><span class="mr-3">✅</span>{i18n.PAGES.HOME.COMPLEMENTS_SECTION_SAU.ITEMS.ITEM_1.DESCRIPTION}</p>
-              <p class="text-left w-full md:w-1/2"><span class="mr-3">✅</span>{i18n.PAGES.HOME.COMPLEMENTS_SECTION_SAU.ITEMS.ITEM_2.DESCRIPTION}</p>
-              <p class="text-left w-full md:w-1/2"><span class="mr-3">✅</span>{i18n.PAGES.HOME.COMPLEMENTS_SECTION_SAU.ITEMS.ITEM_3.DESCRIPTION}</p>
-              <p class="text-left w-full md:w-1/2"><span class="mr-3">✅</span>{i18n.PAGES.HOME.COMPLEMENTS_SECTION_SAU.ITEMS.ITEM_4.DESCRIPTION}</p>  
-            </div>
-            <Typography className="text-center mt-4" text={i18n.PAGES.HOME.COMPLEMENTS_SECTION_SAU.DESCRIPTION}/>
+    <div class="max-w-7xl mx-auto p-16">
+      <div class="grid grid-cols-1 md:grid-cols-2 text-black gap-x-6 gap-y-6">
+        <div class="bg-slate-100 p-10 rounded-md">
+          <p class="text-center mx-auto"><span class="mr-3">✅</span>{i18n. PAGES.HOME.COMPLEMENTS_SECTION_SAU.ITEMS.ITEM_1.DESCRIPTION}</p>
+          <p class="text-center mx-auto"><span class="mr-3">✅</span>{i18n.PAGES.HOME.COMPLEMENTS_SECTION_SAU.ITEMS.ITEM_2.DESCRIPTION}</p>
+        </div>
+        <div class="bg-slate-100 p-10 text-black rounded-md">
+          <p class="text-center mx-auto"><span class="mr-3">✅</span>{i18n.PAGES.HOME.COMPLEMENTS_SECTION_SAU.ITEMS.ITEM_3.DESCRIPTION}</p>
+          <p class="text-center mx-auto"><span class="mr-3">✅</span>{i18n.PAGES.HOME.COMPLEMENTS_SECTION_SAU.ITEMS.ITEM_4.DESCRIPTION}</p>
+        </div>  
+      </div>
+      <Typography className="text-center mt-4" text={i18n.PAGES.HOME.COMPLEMENTS_SECTION_SAU.DESCRIPTION} />
     </div>
     
         
@@ -261,7 +265,7 @@ bgClass="brightness-50"
      >
      </div>
    </BentoItem>
-   <BentoItem class="col-span-10 lg:col-span-10">
+   <BentoItem class="col-span-10 lg:col-span-10 h-[400px]">
      <div
        slot="image"
        class="background transition-scale absolute bottom-0 left-0 top-0
