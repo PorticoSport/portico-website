@@ -1,1 +1,467 @@
+---
+import { getI18N, getCurrentLocale } from "@/shared/i18n"
+import Section from '@/shared/components/Section.astro';
+import Typography from "@/shared/components/ui/Typography.astro";
+import Gallery from "../Gallery.astro"
+import Layout from "@/shared/layouts/Layout.astro";
+import "photoswipe/style.css";
+import Button from "src/shared/components/Button.astro";
+import ContactSectionEs from "@/shared/components/sections/ContactSectionIrl.astro";
+import { type Photo } from "@/types/types.ts";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import BentoItem from "@/shared/components/BentoItem.astro";
+import CarouselImages from "../CarouselImages";
+import SliderProjects from "@/shared/components/sections/SliderProjects.astro";
 
+interface Props {
+  language: string
+}
+
+const {language} = Astro.props
+const i18n = getI18N({ language })
+const currentLocale = getCurrentLocale({ language })
+
+const projectsGallery: Photo[] = [
+  {
+    src: "projects-1.webp",
+    alt: "Barbados padel court",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "projects-2.webp",
+    alt: "Los Naranjos 1",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "projects-3.webp",
+    alt: "Domaine Dessendieras",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "projects-4.webp",
+    alt: "Domaine Dessendieras",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "projects-5.webp",
+    alt: "Domaine Dessendieras",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "projects-6.webp",
+    alt: "Domaine Dessendieras",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "projects-7.webp",
+    alt: "Domaine Dessendieras",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "projects-8.webp",
+    alt: "Domaine Dessendieras",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "projects-9.webp",
+    alt: "Domaine Dessendieras",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "projects-10.webp",
+    alt: "Domaine Dessendieras",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "projects-11.webp",
+    alt: "Domaine Dessendieras",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "projects-12.webp",
+    alt: "Domaine Dessendieras",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "projects-13.webp",
+    alt: "Domaine Dessendieras",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "projects-14.webp",
+    alt: "Domaine Dessendieras",
+    width: 600,
+    height: 400
+  }
+];
+
+---
+<Layout title={i18n.PAGES.HOME.SEO_TITLE_INDONE} 
+description={i18n.PAGES.HOME.SEO_DESCRIPTION_INDONE} 
+currentLocale={currentLocale} 
+language={language}
+bgImage="/sau-court/thumbnails/Club-de-padel.webp"
+bgClass="brightness-50"
+>
+    
+    <main class="flex flex-col gradient-bg relative">
+      <div
+      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
+    >
+      <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.HOME.TITLE_INDONE} responsive />
+      <Typography tag="p" className="uppercase mb-6 font-extrabold" text={i18n.PAGES.HOME.SUBTITLE_SAU} responsive />
+      <Typography tag="p" className="uppercase mb-6 font-extrabold pl-6 pr-6" text={i18n.PAGES.HOME.SLOGAN_SAU} responsive />
+    </div>
+    <div class="bg-main relative bg-background">
+        
+      <div class="intro-section flex flex-wrap w-full h-auto">
+        <div class="m-2 md:w-1/2 text-center xs:m-auto">
+          <Typography tag="h2" className="font-bold mb-10" text={i18n.PAGES.HOME.INTRO_SECTION_INDONE.TITLE} />
+          <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.HOME.INTRO_SECTION_INDONE.DESCRIPTION} />
+          <div class="text-center mx-auto mb-4">
+                <Button size="sm" class="" url={i18n.PAGES.HOME.INTRO_SECTION_SAU.BUTTON.URL} title={i18n.PAGES.HOME.INTRO_SECTION_SAU.BUTTON.TITLE} target="_self">
+                {i18n.PAGES.HOME.INTRO_SECTION_SAU.BUTTON.LABEL}
+                </Button>
+            </div> 
+        </div>
+        <div class="w-full md:w-1/2 md:m-auto">
+            <img
+                src="/sau-court/thumbnails/whater-padel.webp"
+                alt="Barbados Padel"
+                class="img-structure w-full object-cover scale-[90%]"
+            />
+        </div>
+    </div>
+
+    <div class="bg-slate-100 text-black w-full text-center py-8 px-4">
+      <Typography
+        tag="h2"
+        className="text-2xl md:text-4xl font-bold mb-6"
+        text={i18n.PAGES.HOME.COST_INDONE.TITLE}
+      />
+
+      <div class="flex flex-col md:flex-row justify-center items-stretch gap-8 p-4">
+        <div class="w-full md:w-1/2 max-w-2xl text-center md:text-left">
+          <Typography
+            tag="div"
+            className="text-base md:text-lg mb-6"
+          text={i18n.PAGES.HOME.COST_INDONE.DESCRIPTION}
+          />
+          <Typography
+            tag="div"
+            className="text-base md:text-lg mb-6"
+            text={i18n.PAGES.HOME.COST_INDONE.LIST}
+          />
+          <div class="flex justify-center md:justify-start">
+            <Button
+              size="sm"
+              class="bg-background text-black"
+              url={i18n.PAGES.HOME.COST_INDONE.BUTTON.URL}
+              title={i18n.PAGES.HOME.COST_INDONE.BUTTON.TITLE}
+              target="_self"
+            >
+              {i18n.PAGES.HOME.COST_INDONE.BUTTON.LABEL}
+            </Button>
+          </div>
+      </div>
+
+      <div class="w-full md:w-1/2 max-w-2xl text-center md:text-left p-4">
+        <Typography
+          tag="div"
+          className="text-base md:text-lg mb-6"
+          text={i18n.PAGES.HOME.COST_INDONE.DESCRIPTION_2}
+        />
+          <div class="flex justify-center md:justify-start">
+            <Button
+              size="sm"
+              class="bg-background text-black"
+              url={i18n.PAGES.HOME.COST_INDONE.BUTTON_2.URL}
+              title={i18n.PAGES.HOME.COST_INDONE.BUTTON_2.TITLE}
+              target="_self"
+            >
+              {i18n.PAGES.HOME.COST_INDONE.BUTTON_2.LABEL}
+            </Button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-full text-center py-8 px-4">
+      <Typography
+        tag="h2"
+        className="text-2xl md:text-4xl font-bold mb-6"
+        text={i18n.PAGES.HOME.PROJECTS_INDONE.TITLE}
+      />
+
+      <Typography
+        tag="div"
+        className="text-base md:text-lg mb-6 pl-6 pr-6"
+        text={i18n.PAGES.HOME.PROJECTS_INDONE.DESCRIPTION}
+      />
+
+      <div class="w-full flex justify-center">
+        <Typography
+          tag="div"
+          className="text-base md:text-lg mb-6 list-disc list-inside text-left max-w-xl"
+          text={i18n.PAGES.HOME.PROJECTS_INDONE.LIST}
+        />
+      </div>
+
+      <section id={i18n.PAGES.HOME.PROJECTS_SECTION.ID} class="w-full">
+        <SliderProjects
+          language={language}
+          heading={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE}
+          subheading={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE_GALLERY}
+          id={i18n.PAGES.HOME.PROJECTS_SECTION.ID_GALLERY}
+          photos={projectsGallery}
+          offset={14}
+          path={i18n.PAGES.HOME.PROJECTS_SECTION.PATH}
+          urlButton={i18n.PAGES.HOME.PROJECTS_SECTION.URL.SRC}
+          buttonTitle={i18n.PAGES.HOME.PROJECTS_SECTION.URL.TITLE}
+          urlText={i18n.PAGES.HOME.PROJECTS_SECTION.URL.LABEL}
+        />
+      </section>
+
+      <Typography
+        tag="div"
+        className="text-base md:text-lg mb-6 pl-8 pr-8"
+        text={i18n.PAGES.HOME.PROJECTS_INDONE.DESCRIPTION_2}
+      />
+
+      <div class="flex justify-center w-full">
+        <Button
+          size="sm"
+          class="bg-background text-black"
+          url={i18n.PAGES.HOME.PROJECTS_INDONE.BUTTON.URL}
+          title={i18n.PAGES.HOME.PROJECTS_INDONE.BUTTON.TITLE}
+          target="_self"
+        >
+        {i18n.PAGES.HOME.PROJECTS_INDONE.BUTTON.LABEL}
+        </Button>
+      </div>
+    </div>
+
+    <div class="flex flex-col justify-center m-auto text-center mt-10 mb-10 bg-slate-100 text-black p-6">
+      
+        <Typography 
+          tag="h2" 
+          className="mb-6 font-bold" 
+          text={i18n.PAGES.HOME.TEAM_INDONE.TITLE} 
+        />
+        <Typography 
+          tag="div" 
+          className="mb-8" 
+          text={i18n.PAGES.HOME.TEAM_INDONE.DESCRIPTION} 
+        />
+      
+        <div class="w-full flex justify-center">
+          <Typography
+            tag="div"
+            className="text-base md:text-lg mb-6 list-disc list-inside text-left max-w-xl pl-4"
+            text={i18n.PAGES.HOME.TEAM_INDONE.LIST}
+          />
+      </div>
+
+        <Typography 
+          tag="div" 
+          className="mb-8" 
+          text={i18n.PAGES.HOME.TEAM_INDONE.DESCRIPTION_2} 
+        />
+    </div>
+
+    <Section
+      heading2={i18n.PAGES.SECTION_ME.SECTION_INDONE.TITLE}
+    >
+      <div class="grid lg:grid-cols-10 auto-rows-[25rem] gap-4">
+      <BentoItem
+        class="col-span-10 lg:col-span-4"
+        title={i18n.PAGES.SECTION_ME.SECTION_INDONE.ITEM_1.TITLE}
+      >
+        <div
+          slot="image"
+          class="background transition-scale absolute bottom-0 left-0 top-0
+          -z-10 h-full w-full bg-white/70
+          bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110 group-hover:bg-transparent"
+          data-src="projectsMe/projects-ea11.webp"
+        >
+        </div>
+
+        <p
+          slot="content"
+          class="max-w-xl text-base md:text-lg"
+          set:html={i18n.PAGES.SECTION_ME.SECTION_INDONE.ITEM_1.DESCRIPTION}
+        />
+      </BentoItem>
+      <BentoItem
+        class="col-span-10 lg:col-span-6"
+        title={i18n.PAGES.SECTION_ME.SECTION_INDONE.ITEM_2.TITLE}
+      >
+        <div
+          slot="image"
+          class="background transition-scale absolute bottom-0 left-0 top-0
+          -z-10 h-full w-full bg-white/70
+          bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110 group-hover:bg-transparent"
+          data-src="projectsMe/turf_1.webp"
+        >
+        </div>
+        <p
+          slot="content"
+          class="max-w-xl text-base md:text-lg"
+          set:html={i18n.PAGES.SECTION_ME.SECTION_INDONE.ITEM_2.DESCRIPTION}
+        />
+      </BentoItem>
+      <BentoItem
+        class="col-span-10 lg:col-span-6"
+        title={i18n.PAGES.SECTION_ME.SECTION_INDONE.ITEM_3.TITLE}
+      >
+        <div
+          slot="image"
+          class="background transition-scale absolute bottom-0 left-0 top-0
+          -z-10 h-full w-full bg-white/70
+          bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110 group-hover:bg-transparent"
+          data-src="projectsMe/projects-ea4.webp"
+        >
+        </div>
+        <p
+          slot="content"
+          class="max-w-xl text-base md:text-lg"
+          set:html={i18n.PAGES.SECTION_ME.SECTION_INDONE.ITEM_3.DESCRIPTION}
+        />
+      </BentoItem>
+      <BentoItem
+        class="col-span-10 lg:col-span-4"
+        title={i18n.PAGES.SECTION_ME.SECTION_INDONE.ITEM_4.TITLE}
+      >
+        <div
+          slot="image"
+          class="background transition-scale absolute bottom-0 left-0 top-0
+          -z-10 h-full w-full bg-white/70
+          bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110 group-hover:bg-transparent"
+          data-src="/projectsMe/projectsCyprus-1.webp"
+        >
+        </div>
+        <p
+        slot="content"
+          class="max-w-xl text-base md:text-lg"
+          set:html={i18n.PAGES.SECTION_ME.SECTION_INDONE.ITEM_4.DESCRIPTION}
+        />
+      </BentoItem>
+      <BentoItem
+        class="col-span-10 lg:col-span-4"
+        title={i18n.PAGES.SECTION_ME.SECTION_INDONE.ITEM_5.TITLE}
+      >
+        <div
+          slot="image"
+          class="background transition-scale absolute bottom-0 left-0 top-0
+          -z-10 h-full w-full bg-white/70
+          bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110 group-hover:bg-transparent"
+          data-src="indonesia/Skipton.webp"
+        >
+        </div>
+
+        <p
+          slot="content"
+          class="max-w-xl text-base md:text-lg"
+          set:html={i18n.PAGES.SECTION_ME.SECTION_INDONE.ITEM_5.DESCRIPTION}
+        />
+      </BentoItem>
+      <BentoItem
+        class="col-span-10 lg:col-span-6"
+        title={i18n.PAGES.SECTION_ME.SECTION_INDONE.ITEM_6.TITLE}
+      >
+        <div
+          slot="image"
+          class="background transition-scale absolute bottom-0 left-0 top-0
+          -z-10 h-full w-full bg-white/70
+          bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110 group-hover:bg-transparent"
+          data-src="indonesia/RocketPadel-ilford.webp"
+        >
+        </div>
+        <p
+          slot="content"
+          class="max-w-xl text-base md:text-lg"
+          set:html={i18n.PAGES.SECTION_ME.SECTION_INDONE.ITEM_6.DESCRIPTION}
+        />
+      </BentoItem>
+    </div>
+  </Section>
+
+
+
+  <div class="bg-slate-100 text-black p-10">
+    <Typography tag="h2" className="text-center font-bold mt-20 mb-10" text={i18n.PAGES.SECTION_AE.CONTACT_SECTION_INDONE.TITLE} />
+    <Typography tag="div" className="text-center mb-10 m-auto w-[85%] " text={i18n.PAGES.SECTION_AE.CONTACT_SECTION_INDONE.DESCRIPTION} />
+  </div>
+  
+  <ContactSectionEs language={language} 
+
+    button_text={i18n.PAGES.SECTION_AE.CONTACT_SECTION_INDONE.BUTTON.LABEL}
+    button_url={i18n.PAGES.SECTION_AE.CONTACT_SECTION_INDONE.BUTTON.URL}
+    button_title={i18n.PAGES.SECTION_AE.CONTACT_SECTION_INDONE.BUTTON.TITLE}/>
+        
+          
+  </div>
+</main>
+</Layout>
+  <script type="module">
+  document.addEventListener("astro:page-load", () => {
+    // Lazy load para imágenes de fondo
+    const backgrounds = document.querySelectorAll(".background");
+
+    if (window.IntersectionObserver == null) {
+      backgrounds.forEach((bkg) => {
+        bkg.style.backgroundImage = "url('" + bkg.dataset.src + "')";
+      });
+      return;
+    }
+
+    function handleIntersection(entries) {
+      entries.map((entry) => {
+        if (entry.isIntersecting) {
+          const target = entry.target;
+          const { style, dataset } = target;
+          style.backgroundImage = "url('" + dataset.src + "')";
+          observer.unobserve(entry.target);
+        }
+      });
+    }
+
+    const observer = new IntersectionObserver(handleIntersection, {
+      rootMargin: "100px",
+    });
+
+    backgrounds.forEach((bkg) => observer.observe(bkg));
+
+    const scroller = document.querySelector(".scroller-projects");
+    if (scroller) {
+      function addAnimation() {
+        scroller.setAttribute("data-animated", true);
+        const scrollerInner = scroller.querySelector(".scroller_inner");
+        const scrollerContent = Array.from(scrollerInner.children);
+
+        scrollerContent.forEach((item) => {
+          const clone = item.cloneNode(true);
+          clone.setAttribute("aria-hidden", true);
+          scrollerInner.appendChild(clone);
+        });
+      }
+
+      if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        addAnimation();
+      }
+    }
+  });
+</script>
