@@ -30,6 +30,8 @@
       "SEO_DESCRIPTION_IND": "Portico Sport offers end-to-end solutions for custom-built, durable and premium quality Padel courts across the country.",
       "SEO_TITLE_SAU":"Padel Court Construction Saudi Arabia | Portico Sport",
       "SEO_DESCRIPTION_SAU":"Luxury padel courts in Saudi Arabia. Trusted by champions, built for Riyadh, Jeddah & Dammam. Turnkey installation by top global court builders.",
+      "SEO_TITLE_INDONE":"Padel Court Constructor Indonesia | Portico Sport",
+      "SEO_DESCRIPTION_INDONE":"Build your padel court in Indonesia with global experts. Custom designs, premium materials, and turnkey service. Invest in the sport of the future.",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
       "SUBTITLE": "Construction and Installation of Padel Courts and Canopies Worldwide",
       "SUBTITLE_UK": "Construction and Installation of Padel Courts and Canopies in UK",
@@ -51,6 +53,7 @@
       "TITLE_ME":"Padel court supplier in Middle East",
       "TITLE_IND":"Padel Court Builder India",
       "TITLE_SAU": "Padel courts builders Saudi Arabia",
+      "TITLE_INDONE": "Padel court constructors in Indonesia",
       "SLOGAN": "Thinking Padel, Thinking Portico Sport",
       "SLOGAN_SAU":"Portico Sport is the court of choice for international tournaments, elite clubs and the world's most influential investors. From the Caribbean to the Middle East, we bring unmatched quality and innovation to every project.",
       "CONTACT_BUTTON": {
@@ -103,6 +106,45 @@
           "LABEL": "Start your project today",
           "URL": "/client-contact"
                   }
+      },
+      "INTRO_SECTION_INDONE":{
+        "ID":"intro",
+        "TITLE":"Complete padel court solutions for Indonesia’s sports market",
+        "DESCRIPTION":"<p>As padel rapidly gains popularity across Southeast Asia, Indonesia is emerging as one of the region’s most promising markets. From Jakarta to Bali and Surabaya to Medan, clubs, resorts, and sports investors are exploring the potential of padel to attract new members and create vibrant communities.</p><p>At Portico Sport, we bring years of global experience building high-performance padel courts — now expertly adapted to Indonesia’s climate, infrastructure, and growing demand.</p><p>We offer turnkey court solutions including design, transportation, on-site installation, roofing systems, and lighting — all backed by a dedicated team of specialists familiar with projects in tropical and coastal regions.</p>",
+        "BUTTON": {
+          "LABEL": "Start your project today",
+          "URL": "/client-contact"
+                  }
+      },
+      "COST_INDONE": {
+        "TITLE": "Padel court cost in Indonesia: What factors matter?",
+        "DESCRIPTION": "<p>Understanding padel court costs in Indonesia is key for successful planning. The cost of building turnkey padel courts in Southeast Asia depends on several important variables:</p>",
+        "DESCRIPTION_2": "<p>At Portico Sport, we specialize in delivering turnkey, customized padel court solutions that match your vision and adapt to local conditions.</p><p>With several years of international experience, our team provides complete support — from design and manufacturing to <strong>global shipping and on-site installation</strong>. Our optimized global logistics ensure smart delivery strategies that respect your court construction budget while guaranteeing European-grade standards.</p>",
+        "LIST": "<ul class=\"list-disc pl-4\"><li><strong>Court type:</strong> standard (club model), panoramic, full panoramic (tournament model)</li><li><strong>Installation site:</strong> outdoor, indoor, coastal, or elevated terrain</li><li><strong>Additional features:</strong> roofing systems, lighting, fencing, drainage, and flooring base</li><li><strong>Project scale:</strong> single court or full multi-court complex</li><li><strong>Customization:</strong> branding, colors, surface selection, and structural adaptations</li></ul>",
+        "BUTTON": {
+          "LABEL": "Customization",
+          "URL": "https://www.porticosport.com/custom-padel-courts"
+        },
+        "BUTTON_2": {
+          "LABEL": "Start planning your padel project with us",
+          "URL": "https://www.porticosport.com/client-contact"
+        }
+      },
+      "PROJECTS_INDONE": {
+        "TITLE": "Portico Sport padel court projects in Indonesia",
+        "DESCRIPTION": "<p>Padel is still an emerging sport in Indonesia, but interest is rapidly expanding — especially in major cities and luxury destinations. Urban centers and tourism hubs such as:</p>",
+        "DESCRIPTION_2": "<p>At Portico Sport, we are ready to support padel growth in Indonesia with our international project experience and optimized global shipping solutions. Our courts have been installed in over 40 countries, and we’re fully equipped to deliver and install in Indonesia — with expert support for logistics, customs, and on-site coordination</p><p>Let’s work together to bring world-class padel installations to Indonesia’s most vibrant locations.</p>",
+        "LIST": "<ul class=\"list-disc pl-4\"><li><strong>Jakarta</strong> – A prime location for indoor padel clubs and premium sports venues.</li><li><strong>Bali</strong> – Ideal for luxury resorts and wellness destinations looking to offer padel as a signature activity.</li><li><strong>Bandung, Surabaya, Yogyakarta</strong> – Dynamic cities where fitness, real estate, and community sports are on the rise.</li></ul>",
+        "BUTTON": {
+          "LABEL": "international padel court constructions",
+          "URL": "https://www.porticosport.com/projects"
+        }
+      },
+      "TEAM_INDONE": {
+        "TITLE": "Team Leader in Indonesia",
+        "DESCRIPTION": "<p>Every Portico project in Indonesia is managed by an experienced international project leader with support from our <strong>dedicated Southeast Asia coordinator</strong>.</p><p>From the initial site visit to final installation, our team ensures:</p>",
+        "DESCRIPTION_2": "<p>We understand the local market — and we’re there in person when it counts. Our Indonesian clients benefit from hands-on coordination and responsive service at every stage.</p>",
+        "LIST": "<ul class=\"list-disc pl-4\"><li>Clear communication</li><li>Project planning adapted to local regulations and timelines</li><li>Supervision of trained installers on-site</li><li>After-sales support and court maintenance guidance</li></ul>"
       },
       "TRUSTED_SAU": {
         "TITLE":"Trusted by the world's best",
@@ -1576,6 +1618,15 @@
       "TITLE":"Request your private consultation"
      }
     }
+    "CONTACT_SECTION_INDONE": {
+        "TITLE": "Ready to build padel in Indonesia?",
+        "DESCRIPTION": "<p>Whether you’re a resort developer in Bali, a club owner in Jakarta, or an investor exploring sports business opportunities, Portico Sport is your partner for building courts that perform — and last.</p>Get in touch with our Southeast Asia team for a free custom court design and quote — adapted to your site and your goals.<p></p><p>Let us help you create a standout padel experience in Indonesia — on time, on budget, and built to last.</p>",
+        "BUTTON":{
+          "LABEL":"Get a Quote Today!",
+          "URL":"/client-contact",
+          "TITLE":"Get a Quote Today!"
+        }
+      }
   },
      "SECTION_CA":{
       "ID": "canada",
@@ -1802,6 +1853,33 @@
         "DESCRIPTION":"The demand for padel courts in the UAE, Saudi Arabia, Qatar, Bahrain, and Oman is skyrocketing, with new clubs and facilities opening every year. By choosing Portico Sport as your trusted padel court supplier, you ensure your venue stands out with top-tier playability, durability, and aesthetics. "
       }
           
+    },
+    "SECTION_INDONE": {
+      "TITLE":"Why Choose Portico Sport?",
+      "ITEM_1": {
+        "TITLE":"Global expertise",
+        "DESCRIPTION":"More than 4,000 padel courts installed in over 35 countries, including Spain, Italy, UAE, USA, and now Southeast Asia."
+      },
+      "ITEM_2": {
+        "TITLE":"100% Made in Spain",
+        "DESCRIPTION":"All courts are fully manufactured at our facility in Spain, with strict quality control and adherence to European safety and performance standards."
+      },
+      "ITEM_3": {
+        "TITLE":"Premium materials",
+        "DESCRIPTION":"We use hot-dip galvanized steel, UV-resistant turf, tempered safety glass, and certified components."
+      },
+      "ITEM_4": {
+        "TITLE":"Efficient logistics",
+        "DESCRIPTION":"We handle everything, from optimized container loading in Europe to seamless delivery and unloading at Indonesian ports."
+      },
+      "ITEM_5": {
+        "TITLE":"Customized design",
+        "DESCRIPTION":"Courts can be adapted in color, branding, and structure (roofing, canopies) to suit your location’s climate and visual identity."
+      },
+      "ITEM_6": {
+        "TITLE":"Turnkey solutions",
+        "DESCRIPTION":"Whether you’re building one court or a multi-court complex, we deliver full-service solutions."
+      }
     },
     "PROJECTS_MIDDLE_EAST":{
       "TITLE":"Padel court projects across the Middle East",
