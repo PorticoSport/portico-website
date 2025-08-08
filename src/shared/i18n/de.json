@@ -179,6 +179,7 @@
       "FAQS_SECTION": {
         "ID": "faqs",
         "TITLE": "Fragen zu Padelplatzhersteller stellen",
+        "TITLE_COURT": "Häufig gestellte Fragen zum Club-Court",
         "SUBTITLE": "Häufig gestellte Fragen",
         "BUTTON":{  
   "TEXT":"Baue deinen Padelplatz!",  
@@ -209,6 +210,19 @@
         }, {
           "question": "Wie viel kostet es, einen Padelplatz zu bauen?",
           "answer": "Die Kosten für den Bau eines Padelplatzes können stark variieren, je nach Art des Platzes, den verwendeten Materialien, dem Standort und zusätzlichen Merkmalen wie Beleuchtung oder Sitzplätzen. In der Regel beginnen die Preise bei etwa 18.000 € (EXWORK), aber individuelle Designs und hochwertige Materialien können den Gesamtpreis erhöhen. Für ein genaues Angebot ist es am besten, einen professionellen Padelplatzhersteller zu konsultieren, der Ihre spezifischen Bedürfnisse und den Standort bewerten kann."
+        }],
+        "QUESTIONS_COURT": [{
+            "question": "Ist sie für den Außenbereich geeignet?",
+            "answer": "<p>Ja, der Club-Court ist sowohl für den Innen- als auch für den Außenbereich konzipiert. Seine feuerverzinkte Stahlkonstruktion und die Option Club+ machen ihn perfekt, um widrigen Witterungsbedingungen standzuhalten.</p>"
+          }, {
+            "question": "Warum sollte ich den Club-Court für meinen Club wählen?",
+            "answer": "<p>Seine Langlebigkeit, zeitloses Design und robuste Bauweise machen ihn zu einer sicheren Investition. Mit einer strukturellen Garantie von 10 Jahren ist er ideal für Clubs, die langfristig auf Zuverlässigkeit und Qualität setzen.</p>"
+          }, {
+            "question": "Kann der Court individuell angepasst werden?",
+            "answer": "<p>Natürlich. Wir bieten zahlreiche Individualisierungsmöglichkeiten: RAL-Farben, verschiedene Kunstrasenarten, strukturelle Oberflächen und Beleuchtung. Er passt sich vollständig Ihrem Stil und Ihren Bedürfnissen an.</p>"
+          }, {
+            "question": "Kann er für Wettbewerbe genutzt werden?",
+            "answer": "<p>Ja, er erfüllt die offiziellen internationalen Padel-Standards und ist daher für Turniere und Clubspiele geeignet. Für professionelle Veranstaltungen mit maximaler Sicht für das Publikum empfehlen wir unseren Tournament-Court mit Panoramadesign.</p>"
         }]
       },      
       "CONTACT_SECTION": {
