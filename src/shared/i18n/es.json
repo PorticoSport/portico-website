@@ -178,6 +178,7 @@
       "FAQS_SECTION": {
         "ID": "faqs",
         "TITLE": "Preguntas sobre constructores de Pistas de Pádel",
+        "TITLE_COURT": "Preguntas frecuentes sobre la pista Club",
         "SUBTITLE": "Preguntas Frecuentes",
         "BUTTON":{
           "TITLE":"Fabricantes de pistas de pádel",
@@ -208,7 +209,21 @@
         }, {
           "question": "¿Cuánto cuesta construir una pista de pádel?",
           "answer": "El coste de construir una pista de pádel varia considerablemente dependiendo de varios factores, como el trabajo de preparación de terreno, el tipo de pista, los materiales utilizados, el espacio disponible o la ubicación y las opciones adicionales para la pista como la iluminación o añadir asientos. Generalmente, el precio de una pista de pádel estándar comienza en 18,000 € (EXWORK), pero los diseños personalizados y la elección de materiales pueden aumentar el coste final. Para obtener un presupuesto exacto, lo mejor es consultar con un fabricante profesional de pistas de pádel, como Portico Sport, para que pueda evaluar tus necesidades específicas."
-        }]
+        }],
+        "QUESTIONS_COURT": [{
+          "question": "¿Es apta para exteriores?",
+          "answer": "<p>Sí, la pista Club está diseñada para instalaciones tanto en interiores como al aire libre. Su estructura de acero galvanizado y la opción Club+ la hacen perfecta para resistir condiciones climáticas adversas.</p>"
+        }, {
+          "question": "¿Por qué elegir la pista Club para mi club?",
+          "answer": "<p>Su durabilidad, diseño atemporal y construcción robusta la convierten en una inversión segura. Con una garantía estructural de 10 años, es ideal para clubes que buscan fiabilidad y calidad a largo plazo.</p>"
+        }, {
+          "question": "¿Se puede personalizar la pista?",
+          "answer": "<p>Por supuesto. Ofrecemos múltiples opciones de personalización: colores RAL, tipos de césped, acabados estructurales e iluminación. Se adapta completamente a tu estilo y necesidades.</p>"
+        }, {
+          "question": "¿Puede usarse en competiciones?",
+          "answer": "<p>Sí, cumple con los estándares internacionales oficiales del pádel, lo que la hace adecuada para torneos y partidos a nivel de club. Para eventos profesionales con máxima visibilidad para el público, recomendamos nuestra pista Tournament con diseño panorámico.</p>"
+        }
+      ]
       },      
       "CONTACT_SECTION": {
         "ID": "contacto",
