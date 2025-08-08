@@ -255,7 +255,6 @@ robots="index,follow"
             </div>
             <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10">
               <Typography tag="h2" className="mb-6 font-bold uppercase" text={isPaintSection.TITLE} responsive type="secondary"/>
-              <Typography tag="p" className="mb-4 font-thin" text={isPaintSection.SUBTITLE} responsive />
               <Typography tag="div" className="mb-8" text={isPaintSection.DESCRIPTION} responsive />
               <FeatureList list={isPaintSection.LIST} />
               <Typography tag="div" className="mt-4" text={isPaintSection.DESCRIPTION_DOS} responsive />
@@ -271,7 +270,9 @@ robots="index,follow"
         image={isTurfSection.IMAGE}
         subtitle={isTurfSection.SUBTITLE}
         title={isTurfSection.TITLE}
-        description={isTurfSection.DESCRIPTION} /> : null
+        description={isTurfSection.DESCRIPTION}
+        list={isTurfSection.LIST}
+        descriptionDos={isTurfSection.DESCRIPTION_DOS} /> : null
     }
     </div>
     {
@@ -282,6 +283,17 @@ robots="index,follow"
         language={language}
       /> : null
     }
+    <div class="w-full pt-28">
+      <div class="bg-gradient-to-br from-[#315A75] via-[#151a36] to-[#151a36]">
+        <SectionFaqs
+          items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_COURT}
+          title={i18n.PAGES.HOME.FAQS_SECTION.TITLE_COURT}
+          urlButton={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.URL}
+          buttonTitle={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TITLE}
+          urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
+        />
+      </div>
+    </div>
     <div class="bg-slate-100 text-black">
     {
       isInstallationSection ? (
@@ -421,4 +433,5 @@ robots="index,follow"
 
   featureImages.length && updateFeatureImages(featureImages);
 </script>
+
 
