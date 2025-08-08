@@ -182,6 +182,7 @@
       "FAQS_SECTION": {
         "ID": "faqs",
         "TITLE": "Poser des questions sur les constructeurs de Terrains de Padel",
+        "TITLE_COURT": "Questions fréquentes sur la piste Club",
         "SUBTITLE": "Foire Aux Questions",
         "BUTTON":{  
   "TEXT":"Construisez votre court de padel !",  
@@ -213,7 +214,20 @@
         }, {
           "question": "Combien coûte la construction d'un terrain de padel ?",
           "answer": "Le coût de construction d'un terrain de padel peut varier considérablement en fonction de plusieurs facteurs, notamment le type de terrain, les matériaux utilisés, l'emplacement et les caractéristiques supplémentaires comme l'éclairage ou les sièges. En général, le prix commence à 18 000 € (EXWORK), mais les designs personnalisés et les matériaux haut de gamme peuvent augmenter le prix total. Pour obtenir un devis précis, il est préférable de consulter un constructeur professionnel de terrains de padel qui pourra évaluer vos besoins spécifiques et votre emplacement."
-        }]
+        }],
+        "QUESTIONS_COURT": [{
+          "question": "Est-elle adaptée à l’extérieur ?",
+          "answer": "<p>Oui, la piste Club est conçue pour des installations aussi bien en intérieur qu’en extérieur. Sa structure en acier galvanisé et l’option Club+ la rendent parfaite pour résister à des conditions climatiques difficiles.</p>"
+        }, {
+          "question": "Pourquoi choisir la piste Club pour mon club ?",
+          "answer": "<p>Sa durabilité, son design intemporel et sa construction robuste en font un investissement sûr. Avec une garantie structurelle de 10 ans, elle est idéale pour les clubs qui recherchent fiabilité et qualité à long terme.</p>"
+        }, {
+          "question": "Peut-on personnaliser la piste ?",
+          "answer": "<p>Bien sûr. Nous proposons de nombreuses options de personnalisation : couleurs RAL, types de gazon, finitions structurelles et éclairage. Elle s’adapte entièrement à votre style et à vos besoins.</p>"
+        }, {
+          "question": "Peut-elle être utilisée en compétition ?",
+          "answer": "<p>Oui, elle respecte les normes internationales officielles du padel, ce qui la rend adaptée aux tournois et aux matchs de club. Pour des événements professionnels offrant une visibilité maximale au public, nous recommandons notre piste Tournament au design panoramique.</p>"
+      }]
       },      
       "CONTACT_SECTION": {
         "ID": "contact",
