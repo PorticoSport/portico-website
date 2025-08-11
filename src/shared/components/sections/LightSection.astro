@@ -3,7 +3,7 @@ import Section from "@/shared/components/Section.astro";
 import Typography from '@/shared/components/ui/Typography.astro';
 import { getI18N } from "@/shared/i18n/"
 
-const { title, subtitle, description, language } = Astro.props
+const { title, subtitle, description, list, language } = Astro.props
 const i18n = getI18N({ language })
 ---
 
@@ -19,6 +19,7 @@ const i18n = getI18N({ language })
     <Typography tag="h2" text={title} type="secondary" className="mb-6 font-bold uppercase" />
     <Typography tag="p" text={subtitle} type="primary" className="font-thin mb-4" />
     <Typography tag="div" text={description} className="pb-2 shadow-glass" />
+    <Typography tag="div" text={list} className="pb-2 shadow-glass" />
     <div>
       <Typography tag="h3" text={i18n.LIGHTING_SECTION.MASTS_TITLE} type="primary" className="font-thin mt-6 mb-4" />
       <Typography tag="div" text={i18n.LIGHTING_SECTION.MASTS_DESCRIPTION} className="pb-2" />
