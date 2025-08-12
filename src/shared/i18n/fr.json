@@ -1885,15 +1885,15 @@
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
-        "TITLE": "Mesures du Mini Terrain",
+        "TITLE": "Dimensions du Mini Court de padel",
         "INDOOR_TITLE": "Intérieur",
         "OUTDOOR_TITLE": "Extérieur",
-        "OUTDOOR": "<p><strong>Longueur</strong> : 10,47 m </p><p><strong>Largeur</strong> : 5,47 m </p>",
-        "INDOOR": "<p><strong>Longueur</strong> : 10 m </p><p><strong>Largeur</strong> : 5 m </p>",
+        "OUTDOOR": "<p><strong>Longueur</strong> : 10 m × 5 m</p>",
+        "INDOOR": "<p><strong>Longueur</strong> : 10,47 m × 5,47 m</p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/mini/mini-sizing.webp",
-          "alt": "Tailles du Terrain simple intérieur et extérieur"
+          "alt": "Dimensions intérieures et extérieures d’un court simple"
         }
       },
       "GLASS_SECTION": {
