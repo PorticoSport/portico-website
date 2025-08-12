@@ -1820,62 +1820,58 @@
     },
     "MINI_COURT": {
       "ID": "mini-court",
-      "SEO_TITLE": "Mini Court - Kompaktes Padel-Vergnügen",
-      "SEO_DESCRIPTION": "Einführung von Kindern in Padel mit unserem Mini Court, perfekt für kleinere Räume. Gleiche Premium-Qualität in kompakter Größe. Erfahren Sie mehr!",
-      "TYPE": "PRODUCT",
+      "SEO_TITLE": "Mini Court – Kompakter Padel-Spaß",
+      "SEO_DESCRIPTION": "Führen Sie Kinder mit unserem Mini-Padelplatz an den Padel-Sport heran, perfekt für kleinere Räume. Gleiche Premium-Qualität in kompakter Größe. Erfahren Sie mehr!",
       "OG_IMG": "https://www.porticosport.com/og/og-mini.jpg",
-      "TITLE": "<span>Mini Court</span>",
-      "DESCRIPTION": "<p>Unser Mini Court ist ein verkleinerter Padelplatz (10,47x5,47 m) mit reduzierter Höhe (1 m), ideal für kleinere Räume, das Üben zu Hause oder jüngere Spieler.</p><p>Entwickelt von der Ingenieurabteilung von Portico Sport, wird dieser Platz mit den gleichen hochwertigen Materialien hergestellt wie der Rest unserer Padelplätze.</p><p>Trotz seiner geringeren Größe bietet er die gleiche Stabilität, Haltbarkeit und Widerstandsfähigkeit. Wenn Sie nach einem kompakten Padelplatz suchen, ist der Mini Court eine ausgezeichnete Wahl.</p>",
+      "TITLE": "<span>Mini-Padelplatz</span>",
+      "DESCRIPTION": "<p>Unser Mini-Padelplatz ist ein verkleinerter Padelplatz (10 × 5 m) mit einer Höhe von 1 m, ideal für kleinere Räume, zum Üben zu Hause oder für jüngere Spieler.</p><p>Entwickelt vom Ingenieurteam von Portico Sport in Spanien, gebaut aus den gleichen hochwertigen Materialien, mit struktureller Integrität und Haltbarkeit wie unsere Großfeldplätze.</p>",
       "NAME": "Mini",
       "LITTLE_DESCRIPTION": "<p>Unser verkleinerter Padelplatz, der überall passt.</p>",
       "SUBTITLE": "Unser verkleinerter Padelplatz, der überall passt.",
-      "CONTACT_TITLE_1": "Möchten Sie einen Mini Court?",
-      "CONTACT_SUBJECT": "Neue Anfrage für Mini Plus Court",
-      "CONTACT_BUTTON": "Ich möchte einen Mini Court",
+      "CONTACT_TITLE_1": "Möchten Sie einen Mini-Padelplatz?",
+      "CONTACT_SUBJECT": "Neue Anfrage für Mini-Padelplatz",
+      "CONTACT_BUTTON": "Ich möchte einen Mini-Padelplatz",
       "ROUTE": {
-        "LABEL": "Mehr über den Mini Court erfahren",
+        "LABEL": "Mehr über den Mini-Padelplatz",
         "URL": "/mini",
         "TITLE": "Mini Court"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
         "TITLE": "<span class=\"text-secondary\">Kompakt, aber kraftvoll: Mini-Padelplätze von Portico Sport</span>",
-        "DESCRIPTION": "<p>Unser Mini Court, speziell entwickelt, um Kindern bereits in jungen Jahren die Freude am Padel zu vermitteln.</p><p>Die kleinere Größe dieses Platzes gewährleistet, dass Kinder das Spiel bequem genießen können, maßgeschneidert auf ihre Größe und körperlichen Fähigkeiten.</p><p>Er bietet nicht nur eine sichere und angenehme Umgebung für Kinder zum Spielen, sondern bietet auch zahlreiche Vorteile für Vereine: Eltern können Padel spielen, während ihre Kinder den Sport betreiben und so eine einzigartige und einladende Atmosphäre im Verein fördern.</p><p>Trotz seiner kompakten Größe bietet unser Mini Court die gleiche ästhetische Anziehungskraft wie herkömmliche Plätze und bietet eine außergewöhnliche Windbeständigkeit. Mit anpassbaren Optionen können junge Spieler sich wie Champions auf dem Platz fühlen.</p>",
+        "DESCRIPTION": "<p>Speziell für Kinder und Anfänger entwickelt, bietet der Mini-Platz eine sichere und unterhaltsame Einführung in den Padel-Sport. Seine kompakten Maße machen ihn perfekt für Gärten, Hotels, Schulen und Clubs, die Platz maximieren möchten, ohne an Qualität einzubüßen. Eltern können ihr Spiel genießen, während Kinder in der Nähe ihre Fähigkeiten entwickeln und eine einladende Clubatmosphäre entsteht.</p><p>Trotz seiner Größe entspricht unser Mini Court der Ästhetik, Stabilität und Windresistenz von Großfeldplätzen.</p><p>Mit anpassbaren Designoptionen können sich auch die jüngsten Spieler wie Champions fühlen.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/mini/mini-front.webp",
-            "alt": "Frontansicht des Mini Courts"
+            "alt": "Frontansicht Mini-Padelplatz"
           },
           "PERSPECTIVE": {
             "src": "/courts-detail/mini/mini-perspective.webp",
-            "alt": "Perspektivansicht des Mini Courts"
+            "alt": "Perspektivansicht Mini-Padelplatz"
           },
           "TOP": {
             "src": "/courts-detail/mini/mini-top.webp",
-            "alt": "Topansicht des Mini Courts"
+            "alt": "Draufsicht Mini-Padelplatz"
           }
         }
       },
       "BENEFITS_SECTION": {
         "ID": "benefits",
-        "TITLE": "Erleben Sie die Vorteile unseres Mini Courts",
-        "SUBTITLE": "Warum einen Mini-Padel-Platz wählen?",
-        "DESCRIPTION": "Mini-Padel-Plätze sind eine ausgezeichnete Wahl für diejenigen, die nur wenig Platz haben, aber trotzdem Sport treiben möchten. Diese Padel-Plätze sind besonders beliebt in städtischen Umgebungen, wo der Platz knapp ist, und in Umgebungen wie Schulen oder Gemeindezentren, in denen junge Spieler das Spiel erlernen. Trotz ihrer geringeren Größe verfügen Mini-Padel-Plätze über alle wesentlichen Merkmale eines Standard-Padel-Plätzes und sorgen so für ein unterhaltsames und wettbewerbsorientiertes Spiel.",
-        "BENEFITS": [
-          {
+        "TITLE": "Erleben Sie die Vorteile unseres Mini-Platzes",
+        "BENEFITS": [{
             "header": "10 Jahre Garantie",
             "icon": "WarrantyIcon",
-            "footer": "Seien Sie beruhigt mit unserer 10-jährigen Garantie auf die strukturelle Integrität unserer Plätze, die entwickelt wurden, um hohen Windgeschwindigkeiten standzuhalten."
+            "footer": "Strukturelle Integrität, ausgelegt für hohe Windbelastungen"
           },
           {
             "header": "Kleiner und vielseitiger Platz",
             "icon": "VersatileCourtIcon",
-            "footer": "Ideal für kleinere Räume, das Üben zu Hause oder jüngere Spieler, bietet dieser Platz die gleiche Stabilität und Widerstandsfähigkeit wie der Rest unserer Padelplätze."
+            "footer": "Ideal für Häuser, Hotels und Clubs mit begrenztem Platzangebot"
           },
           {
-            "header": "Hochwertige Materialien",
+            "header": "Premium-Materialien",
             "icon": "MaterialsIcon",
-            "footer": "Hergestellt aus hochwertigen Materialien für maximale Stärke und Haltbarkeit bieten unsere Plätze Premium-Qualität."
+            "footer": "Verzinkter Stahl, gehärtetes Glas und Profi-Kunstrasen"
           }
         ]
       },
@@ -1884,23 +1880,23 @@
         "IMAGE": {
           "id": "section-information",
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
-          "alt": "Rendering eines mobilen Platzes"
+          "alt": "Render eines mobilen Platzes"
         },
-        "TITLE": "Platzstruktur von Experten Padelplatzhersteller",
+        "TITLE": "Platzstruktur von erfahrenen Padelplatz-Herstellern",
         "SUBTITLE": "Erleben Sie die Exzellenz unserer hochwertigen Platzstruktur",
-        "TEXT": "<p>Ein verkleinerter Padelplatz aus feuerverzinkter Stahlstruktur garantiert maximale Beständigkeit gegen Abrieb und Oxidation.</p><p>Die Platzstruktur besteht aus feuerverzinkten S275JR-Stahlprofilen, die sicher mit Hilfe von Ankerplatten im Boden verankert sind.</p><p>Die Seiten- und Oberprofile werden durch elektroverschweißten Maschendraht gemäß den Normen UNE-EN-10223-4 ergänzt.</p><p>Zur Dämpfung von Maschenvibrationen verfügt die Struktur über Zwischengerüste. Die Befestigung der Struktur auf dem Boden erfolgt mit versenkten Metallankern mit den Maßen M8X80 mm.</p><p>Der Montageprozess ist dank selbstsichernder Sicherheitsschrauben und Muttern aus feuerverzinktem Stahl nahtlos.</p><p>Die Struktur der Padelplätze von Portico Sport durchläuft Herstellungsprozesse, darunter hochmoderne industrielle Technologien wie:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laserschneiden garantiert präzise Schnitte und liefert hochwertige Oberflächen.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Eine vollautomatisierte robotergesteuerte Schweißmontagelinie garantiert die Qualität der Schweißnähte und verhindert mögliche Oxidationen in der Zukunft.</li></ul>"
+        "TEXT": "<p>Ein verkleinerter Padelplatz aus verzinktem <strong>S275JR</strong>-Stahl für Abrieb- und Korrosionsbeständigkeit.</p><p>Seiten- und Oberrahmen beinhalten <strong>UNE-EN-10223-4</strong>-konformes elektroschweißbares Netz mit Zwischenstreben zur Vibrationskontrolle.</p><p>Schnelle Montage mit verzinkten selbstsichernden Schrauben und Muttern.</p><p>Unsere Struktur durchläuft fortschrittliche Fertigungsprozesse:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Lasergeschnittener Stahl für Präzision und saubere Oberflächen</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Roboter-Schweißverfahren garantiert Qualität und verhindert Oxidation</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
-        "TITLE": "Mini Court Messungen",
-        "INDOOR_TITLE": "Innen",
-        "OUTDOOR_TITLE": "Außen",
-        "OUTDOOR": "<p><strong>Länge</strong>: 10,47 m </p><p><strong>Breite</strong>: 5,47 m </p>",
-        "INDOOR": "<p><strong>Länge</strong>: 10 m </p><p><strong>Breite</strong>: 5 m </p>",
+        "TITLE": "Maße des Mini-Padelplatzes",
+        "INDOOR_TITLE": "Innenbereich",
+        "OUTDOOR_TITLE": "Außenbereich",
+        "OUTDOOR": "<p><strong>Länge</strong>: 10 m x 5 m</p>",
+        "INDOOR": "<p><strong>Länge</strong>: 10,47 m x 5,47 m</p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/mini/mini-sizing.webp",
-          "alt": "Innen- und Außengrößen eines einzelnen Platzes"
+          "alt": "Innen- und Außenmaße des Einzelfeldes"
         }
       },
       "GLASS_SECTION": {
@@ -1910,19 +1906,18 @@
           "src": "/courts-detail/mobile/mobile-glasses.webp",
           "width": 574,
           "height": 323,
-          "alt": "Mobiler Platz patentiert von Portico Sport"
+          "alt": "Mobilplatz patentiert von Portico Sport"
         },
         "TITLE": "Hochwertiges Glas für Mini-Padelplätze",
-        "SUBTITLE": "Sicherheitsglas in jedem Platz!",
-        "DESCRIPTION": "<p>Entdecken Sie unübertroffene Sicherheit und Haltbarkeit in unseren Padelplätzen. Trotz seiner kompakten Größe bietet unser Mini Court die gleiche ästhetische Anziehungskraft wie herkömmliche Plätze und verfügt über Sicherheitsglas, erhältlich in 10 oder 12 mm Dicke, passend zu den spezifischen Anforderungen dieses Platzes.</p><p>Unser Glas erfüllt alle gesetzlichen Vorschriften für Installationen dieser Art. In Zusammenarbeit mit angesehenen spanischen Herstellern mit CE-Kennzeichnung garantieren wir erstklassige Qualität in allen Aspekten unseres Baus.</p><p><strong>VERGLASUNG</strong> erfolgt mit klarem Einscheiben-Sicherheitsglas mit polierten Kanten, das mit Senkloch-Polyethylen-Distanzhülsen, feuerverzinkten Schrauben und Neopren-Dichtungen zur perfekten Glas/Metall-Unterstützung am Metallgerüst befestigt ist, mit insgesamt 6 Ankerlöchern. Unsere Glaspaneele weisen herausragende physikalische und mechanische Eigenschaften auf, einschließlich Schlagfestigkeit und optimaler Planheit.</p>"
+        "SUBTITLE": "Gehärtetes Sicherheitsglas in jedem Platz!",
+        "DESCRIPTION": "<p>Jeder Platz enthält <strong>10 oder 12 mm gehärtetes   Sicherheitsglas</strong> von CE-zertifizierten spanischen Herstellern.</p><p>Klare,   polierte Kanten, Neopren-Dichtungen und sichere Befestigungen gewährleisten Sicherheit,   Stabilität und hervorragende Sicht – alles gemäß europäischer Normen.</p>"
       },
       "PAINT_SECTION": {
         "ID": "paint-section",
         "TITLE": "Strukturfarbe für Padelplätze",
-        "SUBTITLE": "Wussten Sie, dass Sie Ihrem Platz jetzt Farbe verleihen können?",
-        "DESCRIPTION": "<p>Entdecken Sie den Inbegriff der Unterscheidung im Bau von Padelplätzen mit einer Reihe von Lacktypen, die endlose Möglichkeiten bieten, die Strukturen Ihres Platzes in lebendigen Farben zu lackieren. Unser LACKLACK bietet maximale Beständigkeit gegen Abrieb und Oxidation. Wählen Sie die RAL-Farbe, die Ihnen am besten gefällt, und fallen Sie mit unseren anpassbaren Farboptionen auf.</p><p>Lassen Sie Ihren Platz Ihren individuellen Stil widerspiegeln, egal ob Sie einen monochromen Look wählen oder sich für ein zweifarbiges Design entscheiden. Auch auf einem kleineren Platz kann die richtige Farbe ihn hervorheben und Aufmerksamkeit erregen.</p>",
-        "IMAGES": [
-          {
+        "SUBTITLE": "Wussten Sie, dass Sie Ihrem Platz jetzt eine Farbakzentuierung hinzufügen  können?",
+        "DESCRIPTION": "<p>Fügen Sie Persönlichkeit mit Ihrer Wahl von <strong>RAL-Farben</strong> hinzu, einfarbige oder zweifarbige Designs mit langlebigen Lackoptionen:</p>",
+        "IMAGES": [{
             "id": "slide-1",
             "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
             "alt": "Orange lackierter mobiler Platz"
@@ -1935,7 +1930,7 @@
           {
             "id": "slide-3",
             "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
-            "alt": "Äußeres eines gelben mobilen Platzes"
+            "alt": "Außenansicht eines gelben mobilen Platzes"
           },
           {
             "id": "slide-7",
@@ -1945,39 +1940,42 @@
           {
             "id": "slide-8",
             "src": "/courts-detail/mobile/structure-painted-mobile-8.webp",
-            "alt": "Pink lackierte Struktur"
+            "alt": "Rosa lackierte Struktur"
           },
           {
             "id": "slide-9",
             "src": "/courts-detail/mobile/structure-painted-mobile-9.webp",
-            "alt": "Ein violettes Gericht"
+            "alt": "Ein violetter Platz"
           }
         ],
         "LIST": [
-          "<strong>INNENBEREICH:</strong> Pulverbeschichtung mit thermofusiblen Harzen formuliert.",
-          "<strong>AUSSENBEREICH:</strong> thermofusible Pulvergrundierung mit einem hohen Zinkgehalt, formuliert zur Verbesserung des Korrosionsschutzes von feuerverzinktem Stahl.",
-          "<strong>FEUERVERZINKT:</strong> Behandlung von geschmolzenem Zink bei einer Temperatur von 450 ºC, um einen hohen Schutz der Teile gegen Korrosion in maritimen Umgebungen zu erreichen. Enthält Pulverbeschichtung mit thermofusiblen Harzen."
+          "<strong>INNENBEREICH:</strong> Pulverbeschichtung mit thermisch schmelzbaren Harzen",
+          "<strong>AUSSENBEREICH:</strong> Zinkreiche thermisch schmelzbare Grundierung +   Pulverbeschichtung für Korrosionsschutz",
+          "<strong>FEUERVERZINKT:</strong> Zinkbadbehandlung + Pulverbeschichtung für Meeres-   oder feuchte Umgebungen"
         ]
       },
       "TURF_SECTION": {
         "ID": "turf-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-top.webp",
-          "alt": "Obenansicht eines mobilen Platzes"
+          "alt": "Draufsicht mobiler Platz"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Hochleistungsrasen für Mini-Padelplätze</span>",
-        "SUBTITLE": "Erleben Sie unerreichte Leistung auf unserem Rasen!",
-        "DESCRIPTION": "<p>Wir arbeiten mit den führenden Rasenunternehmen zusammen, um sicherzustellen, dass Ihr Platz Rasen von Premium-Qualität erhält. Jeder Platz ist mit Rasen der neuesten Generation ausgestattet, der mit strukturierten Monofilamenten, unterschiedlichen Dicken und Florhöhen, sehr geringem Abrieb, aus Polyethylen (PE) und spezifischen Additiven mit hoher Beständigkeit gegen Verschleiß und UV-Behandlung hergestellt ist, widerstandsfähig gegen Hitze und extreme Witterungsschwankungen.</p><p>Stabilisierungsfüllung und Ballastierung mit gerundetem, gewaschenem und getrocknetem Quarzsand, mit 97% Silizium, Korngrößen zwischen 0,2 - 0,6 mm in einer ungefähren Menge von 10-15 kg/m², je nach Rasenmodell.</p><p>Unser hochmoderner Rasen garantiert Padel-Spielern eine optimierte Spielgeschwindigkeit und verbesserten Ballprall und bietet die Möglichkeit von geraden oder gekräuselten Fasern und ist in einer Vielzahl von Farben erhältlich.</p>"
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8   uppercase\">Hochleistungs-Kunstrasen für Mini-Padelplätze</span>",
+        "SUBTITLE": "Erleben Sie unvergleichliche Leistung auf unserem Kunstrasen!",
+        "DESCRIPTION": "<p>Unser Kunstrasen der neuesten Generation von vertrauenswürdigen  europäischen Herstellern garantiert professionelle Leistung.</p><p>Jeder Padelplatz   enthält:</p>",
+        "DESCRIPTION_DOS": "Unser Kunstrasen bietet ein professionelles Spielgefühl in  verschiedenen Farben und Fasertypen.",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Next-Gen Polyethylen-Kunstrasen mit texturierten Monofilamenten</li><li>UV-beständig, geringe Abrasion, stabil bei Hitze und Wetter</li><li>Quarzsand-Füllung (10-15 kg/m²) für optimales Ballabspringen und Geschwindigkeit</li></ul>"
       },
       "LIGHTING_SECTION": {
         "ID": "lighting-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-lighting.webp",
-          "alt": "Beleuchtung eines mobilen Platzes"
+          "alt": "Beleuchtung mobiler Platz"
         },
-        "TITLE": "Fortschrittliche LED-Beleuchtung für Padelplätze",
-        "SUBTITLE": "Beleuchten Sie Ihr Spiel mit der Padelplatz-Beleuchtung von Portico Sport!",
-        "DESCRIPTION": "<p>Erhellen Sie den Platz mit unseren hochwertigen LED-Beleuchtungssystemen, entwickelt in Zusammenarbeit mit führenden Spezialisten.</p><p><ul class=\"list-disc pl-4\"><li>Vollständig konform mit der Norm <span>UNE-EN-12193:2020</span></li><li>Gleichmäßige, blendfreie Lichtverteilung</li><li><span>IK10</span> Schlagfestigkeit <span>IP66-IP67</span> wateWasserschutz</li><li>Überspannungsschutz (4 kV – 6 kV), hohe Wärmeableitung</li><li>Geeignet für Freizeiteinsatz (Klasse III) und professionelle Veranstaltungen (Klasse I, NIDE-Standard)</li><li>Bis zu 5 Jahre Garantie</li></ul></p>"
+        "TITLE": "Qualitäts-LED-Beleuchtung für Mini-Padelplätze",
+        "SUBTITLE": "Beleuchten Sie Ihr Spiel mit der Padelplatz-Beleuchtung von Portico  Sport!",
+        "DESCRIPTION": "<p>Beleuchten Sie Ihren Padelplatz mit hochwertigen   <strong>LED-Beleuchtungslösungen</strong>, in Zusammenarbeit mit erstklassigen  Spezialisten:</p>",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Vollständig konform mit <strong>UNE-EN-12193:2020</strong></li><li>Gleichmäßiges Licht ohne Blendung oder Schatten</li><li>Schlagfestigkeit IK10, IP66–IP67 wasserdicht</li><li>Überspannungsschutz (4kV - 6kV), hohe Wärmeabfuhr</li><li>Geeignet für Freizeit (Klasse III) und professionelle Veranstaltungen (Klasse I, NIDE-Standard)</li><li>5 Jahre Garantie</li></ul>"
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
