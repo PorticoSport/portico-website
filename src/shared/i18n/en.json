@@ -3897,8 +3897,8 @@
         "TITLE": "Mini Padel Court dimensions",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
-        "OUTDOOR": "<p><strong>Length</strong>: 10 m x 5 m</p>",
-        "INDOOR": "<p><strong>Length</strong>: 10.47 m x 5.47 m</p>",
+        "OUTDOOR": "<p><strong>Length</strong>: 10.47 m x 5.47 m</p>",
+        "INDOOR": "<p><strong>Length</strong>: 10 m x 5 m</p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/mini/mini-sizing.webp",
