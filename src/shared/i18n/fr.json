@@ -1017,7 +1017,7 @@
       "TYPE": "PRODUCT",
       "OG_IMG": "https://www.porticosport.com/og/og-club.jpg",
       "TITLE": "<span>Terrain de Club</span>",
-      "DESCRIPTION": "<p>Pendant de nombreuses années, nos terrains les plus recherchés, le Terrain de Club, se démarquent comme une option idéale pour ceux qui recherchent une qualité supérieure et une durabilité exceptionnelle.</p><p>Avec des piliers mesurant 3 mètres de hauteur, ce Terrain est conçu et fabriqué par le département d'ingénierie de Portico Sport pour fournir un environnement optimal pour la pratique du padel de haut niveau, garantissant les normes de qualité les plus élevées.</p><p>Si vous recherchez un Terrain de padel qui combine durabilité et résistance, le Terrain de Club est un excellent choix.</p>",
+      "DESCRIPTION": "<p>Un choix de premier ordre pour les clubs du monde entier, le terrain de padel Club allie l'ingénierie renommée de Portico Sport à une durabilité exceptionnelle. Conçu avec des piliers de 3 mètres et des matériaux haut de gamme, il est idéal pour les installations intérieures et extérieures, même dans des climats difficiles.</p>",
       "LITTLE_DESCRIPTION": "<p>Vous pouvez jouer au padel dans l'un de nos terrains les plus recherchés.</p>",
       "SUBTITLE": "Nos terrains les plus recherchés.",
       "NAME": "Club",
@@ -1031,68 +1031,64 @@
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
-        "TITLE": "<span class=\"text-secondary\">Terrain de Club : Où Qualité Rime avec Durabilité !</span>",
-        "DESCRIPTION": "<p>Découvrez notre Terrain de Club, un choix de premier plan pour les clubs de padel du monde entier ! Construit pour résister aux vents forts et adapté aussi bien à l'intérieur qu'à l'extérieur, notre Terrain de Club offre une durabilité et une polyvalence inégalées.</p><p>Avec une large gamme d'options de personnalisation disponibles, nous veillons à ce qu'il s'intègre parfaitement dans n'importe quel environnement. Réputé pour son design intemporel et sa construction robuste, il n'est pas étonnant que le Terrain de Club reste l'une de nos offres les plus recherchées.</p>",
+        "TITLE": "<span class=\"text-secondary\">Terrain de Padel Club : Quand Qualité rime avec Durabilité !</span>",
+        "DESCRIPTION": "<p>Conçu pour la performance et la durabilité, sa structure solide assure une performance à long terme avec un entretien minimal, en faisant un investissement fiable pour toute installation.</p><p>Avec une large gamme d'options de personnalisation disponibles, nous garantissons une intégration parfaite dans n'importe quel environnement. Réputé pour son design intemporel et sa construction robuste, il n'est pas surprenant que le Terrain Club reste l'une de nos offres les plus prisées.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/club/club-front.webp",
-            "alt": "Vue de face du Terrain de Club"
+            "alt": "Vue de face du terrain Club"
           },
           "PERSPECTIVE": {
             "src": "/courts-detail/club/club-perspective.webp",
-            "alt": "Vue en perspective du Terrain de Club"
+            "alt": "Vue en perspective du terrain Club"
           },
           "TOP": {
             "src": "/courts-detail/club/club-top.webp",
-            "alt": "Vue de dessus du Terrain de Club"
+            "alt": "Vue de dessus du terrain Club"
           }
         }
       },
       "BENEFITS_SECTION": {
         "ID": "benefits",
-        "TITLE": "Découvrez les avantages de notre Terrain de club",
-        "BENEFITS": [
-          {
-            "header": "Garantie de 10 ans",
-            "icon": "WarrantyIcon",
-            "footer": "Soyez assuré avec notre garantie de 10 ans sur l'intégrité structurelle de nos terrains, conçus pour résister aux vitesses du vent. Profitez-en sans aucun souci !."
-          },
-          {
-            "header": "Terrain polyvalent et résistant",
-            "icon": "VersatileCourtIcon",
-            "footer": "Idéal pour les configurations intérieures et extérieures, nos terrains sont le meilleur choix pour les clubs recherchant une durabilité et une polyvalence inégalées."
-          },
-          {
-            "header": "Matériaux de première qualité",
-            "icon": "MaterialsIcon",
-            "footer": "Fabriqués avec des matériaux de première qualité pour une résistance et une durabilité maximales, nos terrains offrent une qualité premium dans les moindres détails."
-          }
-        ]
+        "TITLE": "Découvrez les avantages de notre terrain de padel Club",
+        "BENEFITS": [{
+        "header": "Garantie 10 ans",
+          "icon": "WarrantyIcon",
+          "footer": "Conçu pour résister à des vents violents."
+        }, {
+          "header": "Terrain polyvalent et résistant",
+          "icon": "VersatileCourtIcon",
+          "footer": "Prêt pour intérieur et extérieur"
+        }, {
+          "header": "Matériaux haut de gamme",
+          "icon": "MaterialsIcon",
+          "footer": "Solidité et qualité maximales dans chaque détail"
+        }]
       },
       "STRUCTURE_SECTION": {
-        "ID": "structure",
+        "ID": "Excellence structurelle du terrain Club",
         "IMAGE": {
           "id": "section-information",
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
-          "alt": "Rendu d'un Terrain mobile"
+          "alt": "Rendu d'un terrain mobile"
         },
         "TITLE": "Structures",
-        "SUBTITLE": "Découvrez l'excellence de notre structure de Terrain de qualité premium",
-        "TEXT": "<p>Conçue avec une structure en acier galvanisé, notre Terrain assure une résistance maximale à l'abrasion et à l'oxydation.</p><p>La structure du Terrain est composée de profils en acier galvanisé S275JR, ancrés solidement au sol à l'aide de plaques d'ancrage. Les cadres latéraux et supérieurs sont complétés par une maille électro-soudée conforme aux normes UNE-EN-10223-4.</p><p>Pour éviter les vibrations de la maille, la structure comprend des échafaudages intermédiaires.</p><p>La fixation de la structure au revêtement est réalisée à l'aide d'ancres métalliques à tête fraisée mesurant M8X80 mm. De plus, son processus d'assemblage est sans faille, grâce à des vis de sécurité auto-bloquantes et des écrous en acier galvanisé.</p><p>La structure des Terrains de Padel Portico Sport subit des processus de fabrication incluant des technologies industrielles de pointe telles que :</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">La découpe au laser garantit des coupes précises et offre une finition de haute qualité.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Une ligne d'assemblage robotisée entièrement automatisée garantit la qualité des soudures, empêchant toute oxydation potentielle à l'avenir.</li></ul>",
-        "SUBTEXT_TITLE": "Améliorez-vous vers le CLUB PLUS !",
-        "SUBTEXT": "<p>Si vous avez besoin de votre Terrain de club dans des conditions météorologiques difficiles, vous pouvez améliorer sa structure et le transformer en Terrain Plus Club avec des renforts supplémentaires en utilisant des profils en acier, parfaits pour les zones sujettes aux conditions météorologiques extrêmes.</p><p>Profitez du Terrain Plus Club, offrant la même qualité premium mais avec une robustesse accrue, parfaite pour résister à des rafales de vent plus élevées (131,40 km/h) et à des conditions météorologiques défavorables, assurant une durabilité sans faille et une haute résistance.</p>"
+        "SUBTITLE": "Découvrez l'excellence de la structure premium de notre terrain de padel",
+        "TEXT": "<p>Fabriqué en acier galvanisé <strong>S275JR</strong> pour la résistance à l'abrasion et à la corrosion. Les cadres latéraux et supérieurs incluent un treillis électro-soudé conforme à la norme <strong>UNE-EN-10223-4</strong> avec échafaudages intermédiaires pour le contrôle des vibrations.</p><p>Assemblage rapide avec vis et écrous auto-bloquants galvanisés.</p><p>Notre structure bénéficie de procédés de fabrication avancés :</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Découpe laser de l'acier pour une précision et une finition soignée</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Soudage robotisé garantissant qualité et prévention de l'oxydation</li></ul>",
+        "SUBTEXT_TITLE": "Passez à CLUB+ !",
+        "SUBTEXT": "<p>Vous pouvez également passer à la version Club+ <strong>pour une résistance accrue au vent (jusqu'à 131,40 km/h)</strong> avec des profils en acier renforcés.</p>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
-        "TITLE": "Mesures du Terrain de Club",
+        "TITLE": "Dimensions du terrain de padel Club",
         "INDOOR_TITLE": "Intérieur",
         "OUTDOOR_TITLE": "Extérieur",
-        "OUTDOOR": "<p><strong>Longueur</strong> : 20,47 m </p><p><strong>Largeur</strong> : 10,47 m </p>",
-        "INDOOR": "<p><strong>Longueur</strong> : 20 m </p><p><strong>Largeur</strong> : 10 m </p>",
+        "OUTDOOR": "<p><strong>Longueur</strong> : 20,47 m x 10,47 m</p>",
+        "INDOOR": "<p><strong>Longueur</strong> : 20 m x 10 m</p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/club/Club-sizing.webp",
-          "alt": "Tailles intérieure et extérieure du Terrain de Club"
+          "alt": "Tailles intérieure et extérieure du terrain Club"
         }
       },
       "GLASS_SECTION": {
@@ -1104,67 +1100,63 @@
           "height": 323,
           "alt": "Terrain mobile breveté par Portico Sport"
         },
-        "TITLE": "Vitres",
-        "SUBTITLE": "Vitres de Sécurité Trempées dans Chaque Terrain !",
-        "DESCRIPTION": "<p>Découvrez une sécurité et une durabilité inégalées dans nos Terrains de Padel. Chaque Terrain est équipé de vitres de sécurité trempées, disponibles en épaisseur de 10 ou 12 mm, adaptées aux exigences spécifiques de votre projet. Soyez assuré, notre verre répond à toutes les normes réglementaires pour les installations de ce type. En partenariat avec des fabricants espagnols renommés bénéficiant du marquage CE, nous garantissons une qualité irréprochable dans tous les aspects de notre construction.</p><p>La <strong>VITRIFICATION</strong> est effectuée à l'aide de verre trempé transparent avec des bords polis, fixé à la structure métallique à l'aide de douilles en polyéthylène fraisées, de vis galvanisées et de joints en néoprène pour un support verre/métal parfait, avec un total de 6 trous d'ancrage. Nos panneaux de verre présentent d'excellentes propriétés physiques et mécaniques, notamment une résistance aux chocs et une planéité optimale.</p>"
+        "TITLE": "Verre de sécurité trempé pour terrains de padel Club",
+        "DESCRIPTION": "<p>Tous les terrains incluent du <strong>verre de sécurité trempé (10 ou 12 mm)</strong> provenant de fabricants espagnols certifiés CE.</p><p>Design avec bords polis transparents, joints en néoprène et vis galvanisées. Chaque panneau de verre assure une excellente visibilité et résistance aux chocs — tous conformes aux normes européennes.</p>"
       },
       "PAINT_SECTION": {
         "ID": "paint-section",
-        "TITLE": "Peinture de Structure",
-        "SUBTITLE": "Saviez-vous que vous pouvez désormais ajouter une touche de couleur à votre Terrain ?",
-        "DESCRIPTION": "<p>Découvrez l'apogée de la distinction dans la construction de Terrains de Padel avec une gamme de types de laques, offrant des options infinies pour peindre les structures de votre Terrain dans des teintes vibrantes. Notre PEINTURE LAQUÉE offre une résistance maximale à l'abrasion et à l'oxydation. Choisissez la couleur RAL qui correspond à vos préférences et démarquez-vous avec nos options de couleurs personnalisables.</p><p>Que vous optiez pour une apparence monochromatique ou que vous souhaitiez injecter une énergie vibrante avec un schéma bicolore, laissez votre Terrain refléter votre style et votre personnalité uniques, en veillant à ce qu'il attire l'attention sur le terrain.</p>",
-        "IMAGES": [
-          {
-            "id": "slide-1",
-            "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
-            "alt": "Terrain mobile peint en orange"
-          },
-          {
-            "id": "slide-2",
-            "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
-            "alt": "Terrain mobile peint en orange"
-          },
-          {
-            "id": "slide-9",
-            "src": "/courts-detail/mobile/structure-painted-mobile-9.webp",
-            "alt": "Un Terrain violet"
-          },
-          {
-            "id": "slide-10",
-            "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
-            "alt": "Structure bleue peinte"
-          },
-          {
-            "id": "slide-12",
-            "src": "/courts-detail/mobile/structure-painted-mobile-12.webp",
-            "alt": "Structure grise peinte à l'intérieur"
-          }
-        ],
+        "TITLE": "Peinture laquée pour une finition personnalisable de la structure",
+        "DESCRIPTION": "<p>Options infinies pour peindre les structures de votre terrain dans des teintes vibrantes grâce à nos peintures laquées durables :</p>",
+        "DESCRIPTION_DOS": "Ajoutez une touche de personnalité avec votre choix de <strong>couleurs RAL</strong>, monochromes ou bicolores.",
+        "IMAGES": [{
+          "id": "slide-1",
+          "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
+          "alt": "Terrain mobile peint en orange"
+        },{
+          "id": "slide-2",
+          "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
+          "alt": "Terrain mobile peint en orange"
+        },{
+          "id": "slide-9",
+          "src": "/courts-detail/mobile/structure-painted-mobile-9.webp",
+          "alt": "Terrain violet"
+        },{
+          "id": "slide-10",
+          "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
+          "alt": "Structure peinte en bleu"
+        }, {
+          "id": "slide-12",
+          "src": "/courts-detail/mobile/structure-painted-mobile-12.webp",
+          "alt": "Structure peinte en gris à l'intérieur"
+        }],
         "LIST": [
-          "<strong>INTÉRIEUR :</strong> revêtement en poudre formulé avec des résines thermofusibles.",
-          "<strong>EXTÉRIEUR :</strong> traitement primaire en poudre thermofusible avec une teneur élevée en zinc formulée pour améliorer la protection contre la corrosion de l'acier galvanisé.",
-          "<strong>GALVANISATION À CHAUD :</strong> traitement de zinc fondu à une température de 450 ºC afin d'obtenir une protection élevée des pièces contre la corrosion dans les environnements marins. Comprend un revêtement en poudre formulé avec des résines thermofusibles."
+          "<strong>INTÉRIEUR :</strong> Revêtement en poudre avec résines thermofusibles",
+          "<strong>EXTÉRIEUR :</strong> Apprêt thermofusible riche en zinc + revêtement en poudre pour la protection contre la corrosion",
+          "<strong>GALVANISATION À CHAUD :</strong> Traitement par bain de zinc + revêtement en poudre pour milieux marins ou à forte humidité"
         ]
       },
       "TURF_SECTION": {
         "ID": "turf-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-top.webp",
-          "alt": "Vue de dessus du Terrain mobile"
+          "alt": "Vue de dessus du terrain mobile"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Gazon</span>",
-        "SUBTITLE": "Découvrez des performances inégalées sur notre Gazon !",
-        "DESCRIPTION": "<p>Nous collaborons avec les meilleures entreprises de gazon pour garantir que votre Terrain reçoive un gazon de qualité premium. Chaque Terrain est équipé d'un gazon de dernière génération conçu avec des monofilaments texturés, offrant différentes épaisseurs et hauteurs de pile, très faible abrasion, fabriqué en polyéthylène (PE) et des additifs spécifiques avec une haute résistance à l'usure et un traitement anti-UV, résistant à la chaleur et aux fluctuations météorologiques extrêmes.</p><p>Remplissage de stabilisation et lestage à l'aide de sable de silice arrondi, lavé et séché, avec 97% de silice, granulométrie entre 0,2 - 0,6 mm en une quantité approximative de 10-15 Kg/m2, selon le modèle de gazon.</p><p>Notre gazon de pointe garantit aux joueurs de padel une vitesse de jeu optimisée et un rebond de balle amélioré, et offre la possibilité de fibres droites ou frisées et est disponible dans une grande variété de couleurs.</p>"
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Gazon haute performance pour terrains Club</span>",
+        "SUBTITLE": "Découvrez une performance inégalée sur notre gazon !",
+        "DESCRIPTION": "<p>Nous proposons un gazon de dernière génération de fabricants européens de confiance pour garantir une performance d'élite.</p><p>Chaque terrain de padel inclut :</p>",
+        "DESCRIPTION_DOS": "Notre gazon offre une expérience de jeu professionnelle en différentes couleurs et types de fibres.",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Gazon en polyéthylène nouvelle génération avec monofilaments texturés</li><li>Résistant aux UV, faible abrasion, stable sous la chaleur et les intempéries</li><li>Remplissage de sable de silice (10-15 kg/m²) pour un rebond et une vitesse optimisés</li></ul>"
       },
       "LIGHTING_SECTION": {
         "ID": "lighting-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-lighting.webp",
-          "alt": "Éclairage du Terrain mobile"
+          "alt": "Éclairage du terrain mobile"
         },
-        "TITLE": "Éclairage LED",
-        "SUBTITLE": "Illuminez votre jeu avec l'éclairage de Terrain de padel de Portico Sport !",
-        "DESCRIPTION": "<p>Profitez de la solution d'éclairage LED ultime pour les Terrains de Padel, exclusivement proposée par Portico Sport en partenariat avec des spécialistes de premier plan dans le domaine.</p><p>Notre éclairage de Terrain de padel assure une illumination optimale et une uniformité sur toutes les zones de jeu. Du filet aux zones d'accès, en passant par l'arrière-plan, les lignes de touche et les zones de haute balle, notre solution d'éclairage élimine les reflets et les ombres, offrant aux joueurs une visibilité et des performances inégalées.</p><p>La qualité de nos projecteurs, conçus pour résister aux chocs jusqu'à IK10, avec des degrés d'étanchéité IP66-IP67 et une résistance aux surtensions de 4kV - 6kV, combinée aux capacités de dissipation thermique élevées des boîtiers, permet une durée de vie prolongée de nos projecteurs, avec une garantie allant jusqu'à 5 ans.</p><p>Nos projecteurs sont conçus pour couvrir tous les types de terrains spécifiés dans la norme européenne pour l'éclairage des sports (UNE-EN-12193:2020), allant de l'utilisation récréative (Classe III) aux compétitions professionnelles ou aux diffusions télévisées (Classe I - norme NIDE).</p><p>Fabriqués à partir de profils en acier S275 JR galvanisés et laqués, nos mâts sont solidement fixés et ancrés à la structure du Terrain, garantissant durabilité et fiabilité. Se tenant à une hauteur impressionnante de 6 mètres, chaque mât offre un support pour 2 projecteurs, illuminant votre Terrain avec précision et clarté.</p>"
+        "TITLE": "Systèmes d'éclairage LED avancés pour terrains de padel",
+        "SUBTITLE": "Illuminez votre jeu avec l'éclairage de terrain de padel Portico Sport !",
+        "DESCRIPTION": "<p>Éclairez votre terrain de padel avec des systèmes LED premium, en partenariat avec des spécialistes de premier plan.</p>",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Conforme à la norme <strong>UNE-EN-12193:2020</strong></li><li>Lumière uniforme sans éblouissement ni ombres</li><li>Résistance aux chocs IK10, indice d'étanchéité IP66-IP67</li><li>Protection contre les surtensions (4kV - 6kV), haute dissipation thermique</li><li>Convient à un usage récréatif (Classe III) et événements professionnels (Classe I, norme NIDE)</li><li>Garantie de 5 ans</li></ul>"
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
