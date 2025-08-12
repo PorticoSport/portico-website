@@ -1823,7 +1823,7 @@
       "FIRST_SECTION": {
         "ID": "vistas-de-pistas",
         "TITLE": "<span class=\"text-secondary\"> Compactas pero poderosas: pistas de pádel Mini de Portico Sport</span>",
-        "DESCRIPTION": "<p>Especialmente diseñada para niños y principiantes, la pista de pádel Mini ofrece una introducción segura y divertida al pádel.</p><pSus dimensiones compactas la hacen perfecta para jardines, hoteles, colegios y clubes que quieran optimizar el espacio sin renunciar a la calidad.</p><p>Los padres pueden disfrutar de su partido mientras los niños desarrollan sus habilidades cerca, fomentando un ambiente de club acogedor.</p><p>A pesar de su tamaño, nuestra pista Mini mantiene la misma estética, estabilidad y resistencia al viento que las pistas de tamaño completo.</p><p>Con opciones de personalización, incluso los jugadores más pequeños pueden sentirse campeones</p>",
+        "DESCRIPTION": "<p>Especialmente diseñada para niños y principiantes, la pista de pádel Mini ofrece una introducción segura y divertida al pádel.</p><p>Sus dimensiones compactas la hacen perfecta para jardines, hoteles, colegios y clubes que quieran optimizar el espacio sin renunciar a la calidad.</p><p>Los padres pueden disfrutar de su partido mientras los niños desarrollan sus habilidades cerca, fomentando un ambiente de club acogedor.</p><p>A pesar de su tamaño, nuestra pista Mini mantiene la misma estética, estabilidad y resistencia al viento que las pistas de tamaño completo.</p><p>Con opciones de personalización, incluso los jugadores más pequeños pueden sentirse campeones</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/mini/mini-front.webp",
@@ -1853,7 +1853,7 @@
         }, {
           "header": "Materiales premium",
           "icon": "MaterialsIcon",
-          "footer": "Acero galvanizado, vidrio templado y césped profesiona"
+          "footer": "Acero galvanizado, vidrio templado y césped profesional"
         }]
       },
       "STRUCTURE_SECTION": {
@@ -1956,7 +1956,7 @@
         },
         "TITLE": "Iluminación Profesional para pistas de pádel Mini",
         "SUBTITLE": "¡Ilumina tu Juego con la Iluminación de Pistas de Pádel de Portico Sport!",
-        "DESCRIPTION": "<p>LIlumina tu pista con la iluminación LED de Portico Sport. Trabajamos con especialistas de primer nivel para ofrecer soluciones de iluminación de alto rendimiento:</p>",
+        "DESCRIPTION": "<p>Ilumina tu pista con la iluminación LED de Portico Sport. Trabajamos con especialistas de primer nivel para ofrecer soluciones de iluminación de alto rendimiento:</p>",
         "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Cumplen con la norma <strong>UNE-EN-12193:2020</strong></li><li>Luz uniforme, sin deslumbramientos ni sombras</li><li>Resistencia al impacto IK10 e impermeabilidad IP66-IP67</li><li>Protección contra sobretensiones (4kV-6kV), alta disipación térmica</li><li>Válido para uso recreativo (Clase III) hasta competiciones profesionales (Clase I, normativa NIDE)</li><li>Garantía de hasta 5 años</li></ul>"
       },
       "COST_SECTION": {
