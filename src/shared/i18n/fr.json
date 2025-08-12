@@ -1949,11 +1949,13 @@
         "ID": "turf-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-top.webp",
-          "alt": "Vue de dessus du Terrain mobile"
+          "alt": "Vue du dessus d’un court mobile"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Gazon Haute Performance pour Mini Terrains de Padel</span>",
-        "SUBTITLE": "Découvrez des performances inégalées sur notre gazon !",
-        "DESCRIPTION": "<p>Nous nous associons aux meilleures entreprises de gazon pour garantir que votre Terrain reçoive une gazon de qualité premium. Chaque Terrain est équipé d'une gazon de dernière génération, conçue avec des monofilaments texturés, présentant différentes épaisseurs et hauteurs de brins, très faible abrasion, fabriquée en polyéthylène (PE) et des additifs spécifiques avec une haute résistance à l'usure et un traitement anti-UV, résistante à la chaleur et aux fluctuations extrêmes de la météo.</p><p>Le lestage et le ballast sont réalisés à l'aide de sable de silice arrondi, lavé et séché, avec 97 % de silice, granulométrie entre 0,2 - 0,6 mm en une quantité approximative de 10-15 Kg/m2, selon le modèle de gazon.</p><p>Notre gazon de pointe garantit aux joueurs de padel une vitesse de jeu optimisée et un rebondissement de balle amélioré, et offre la possibilité de fibres droites ou bouclées et est disponible dans une grande variété de couleurs.</p>"
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Gazon haute performance pour Mini Courts de padel</span>",
+        "SUBTITLE": "Vivez une performance inégalée sur notre gazon !",
+        "DESCRIPTION": "<p>Notre gazon de dernière génération, issu de fabricants européens de confiance, garantit des performances professionnelles.</p><p>Chaque court de padel comprend :</p>",
+        "DESCRIPTION_DOS": "Notre gazon offre une expérience de jeu professionnelle dans diverses couleurs et types de fibres.",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Gazon en polyéthylène nouvelle génération avec monofilaments texturés</li><li>Résistant aux UV, faible abrasion, stable à la chaleur et aux intempéries</li><li>Sable de silice (10-15 kg/m²) pour un rebond et une vitesse de balle optimisés</li></ul>"
       },
       "LIGHTING_SECTION": {
         "ID": "lighting-section",
