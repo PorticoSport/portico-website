@@ -1911,45 +1911,38 @@
       },
       "PAINT_SECTION": {
         "ID": "paint-section",
-        "TITLE": "Peinture de Structure pour Terrains de Padel",
-        "SUBTITLE": "Saviez-vous que vous pouvez maintenant ajouter une touche de couleur à votre Terrain ?",
-        "DESCRIPTION": "<p>Découvrez l'épitomé de la distinction dans la construction de Terrains de Padel avec une gamme de types de laques, offrant d'innombrables options pour peindre les structures de votre Terrain dans des teintes vibrantes. Notre PEINTURE LAQUÉE offre une résistance maximale à l'abrasion et à l'oxydation. Choisissez la couleur RAL qui convient le mieux à vos préférences et démarquez-vous avec nos options de couleur personnalisables.</p><p>Permettez à votre Terrain de refléter votre style individuel, que vous optiez pour un look monochromatique ou décidiez d'insuffler de la vitalité avec un design bicolore. Même sur un petit Terrain, la bonne peinture peut le faire ressortir et attirer l'attention.</p>",
-        "IMAGES": [
-          {
-            "id": "slide-1",
-            "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
-            "alt": "Terrain mobile peint en orange"
-          },
-          {
-            "id": "slide-2",
-            "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
-            "alt": "Terrain mobile peint en orange"
-          },
-          {
-            "id": "slide-3",
-            "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
-            "alt": "Extérieur d'un Terrain mobile jaune"
-          },
-          {
-            "id": "slide-7",
-            "src": "/courts-detail/mobile/structure-painted-mobile-7.webp",
-            "alt": "Structure peinte en bleu"
-          },
-          {
-            "id": "slide-8",
-            "src": "/courts-detail/mobile/structure-painted-mobile-8.webp",
-            "alt": "Structure peinte en rose"
-          },
-          {
-            "id": "slide-9",
-            "src": "/courts-detail/mobile/structure-painted-mobile-9.webp",
-            "alt": "Un Terrain violet"
-          }
-        ],
+        "TITLE": "Peinture de structure pour courts de padel",
+        "SUBTITLE": "Saviez-vous que vous pouvez maintenant ajouter une touche de couleur à votre court ?",
+        "DESCRIPTION": "<p>Ajoutez une touche personnelle avec votre choix de <strong>couleurs RAL</strong>, designs monochromes ou bicolores avec des options de peinture laquée durable :</p>",
+        "IMAGES": [{
+          "id": "slide-1",
+          "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
+          "alt": "Court mobile peint en orange"
+        },{
+          "id": "slide-2",
+          "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
+          "alt": "Court mobile peint en orange"
+        },{
+          "id": "slide-3",
+          "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
+          "alt": "Extérieur d’un court mobile peint en jaune"
+        }, {
+          "id": "slide-7",
+          "src": "/courts-detail/mobile/structure-painted-mobile-7.webp",
+          "alt": "Structure peinte en bleu"
+        },{
+          "id": "slide-8",
+          "src": "/courts-detail/mobile/structure-painted-mobile-8.webp",
+          "alt": "Structure peinte en rose"
+        },{
+          "id": "slide-9",
+          "src": "/courts-detail/mobile/structure-painted-mobile-9.webp",
+          "alt": "Court violet"
+        }],
         "LIST": [
-          "<strong>INTÉRIEUR :</strong> revêtement en poudre formulé avec des résines thermofusibles.",
-          "<strong>EXTÉRIEUR :</strong> traitement primaire en poudre thermofusible avec une forte teneur en zinc formulé pour améliorer la protection contre la corrosion de l'acier galvanisé.",
-          "<strong>GALVANISATION À CHAUD :</strong> traitement de zinc fondu à une température de 450 ºC afin d'obtenir une haute protection des pièces contre la corrosion dans les environnements marins. Comprend un revêtement en poudre formulé avec des résines thermofusibles."
+          "<strong>INTÉRIEUR :</strong> Revêtement en poudre avec résines thermofusibles",
+          "<strong>EXTÉRIEUR :</strong> Apprêt riche en zinc thermofusible + revêtement en poudre pour protection anticorrosion",
+          "<strong>GALVANISATION À CHAUD :</strong> Traitement par bain de zinc + revêtement en poudre pour environnements marins ou très humides"
         ]
       },
       "TURF_SECTION": {
