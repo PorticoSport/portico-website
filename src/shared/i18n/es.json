@@ -1823,7 +1823,7 @@
       "FIRST_SECTION": {
         "ID": "vistas-de-pistas",
         "TITLE": "<span class=\"text-secondary\"> Compactas pero poderosas: pistas de pádel Mini de Portico Sport</span>",
-        "DESCRIPTION": "<p>Especialmente diseñada para niños y principiantes, la pista de pádel Mini ofrece una introducción segura y divertida al pádel.</p><p>Sus dimensiones compactas la hacen perfecta para jardines, hoteles, colegios y clubes que quieran optimizar el espacio sin renunciar a la calidad.</p><p>Los padres pueden disfrutar de su partido mientras los niños desarrollan sus habilidades cerca, fomentando un ambiente de club acogedor.</p><p>A pesar de su tamaño, nuestra pista Mini mantiene la misma estética, estabilidad y resistencia al viento que las pistas de tamaño completo.</p><p>Con opciones de personalización, incluso los jugadores más pequeños pueden sentirse campeones</p>",
+        "DESCRIPTION": "<p>Especialmente diseñada para niños y principiantes, la pista de pádel Mini ofrece una introducción segura y divertida al pádel. Sus dimensiones compactas la hacen perfecta para jardines, hoteles, colegios y clubes que quieran optimizar el espacio sin renunciar a la calidad. Los padres pueden disfrutar de su partido mientras los niños desarrollan sus habilidades cerca, fomentando un ambiente de club acogedor.</p><p>A pesar de su tamaño, nuestra pista Mini mantiene la misma estética, estabilidad y resistencia al viento que las pistas de tamaño completo. Con opciones de personalización, incluso los jugadores más pequeños pueden sentirse campeones.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/mini/mini-front.webp",
@@ -1849,7 +1849,7 @@
         }, {
           "header": "Versatilidad en pequeño formato",
           "icon": "VersatileCourtIcon",
-          "footer": "Resistencia estructural diseñada para soportar fuertes vientos"
+          "footer": "Ideal para viviendas, hoteles y clubes con espacio limitado"
         }, {
           "header": "Materiales premium",
           "icon": "MaterialsIcon",
@@ -1872,8 +1872,8 @@
         "TITLE": "Medidas de la Pista de pádel Mini",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
-        "OUTDOOR": "<p><strong>Longitud</strong>: 10 m x 5 m </p>",
-        "INDOOR": "<p><strong>Longitud</strong>: 10.47 m x 5.47 m</p>",
+        "OUTDOOR": "<p><strong>Length</strong>: 10 m x 5 m</p>",
+        "INDOOR": "<p><strong>Length</strong>: 10.47 m x 5.47 m</p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/mini/mini-sizing.webp",
@@ -1891,7 +1891,7 @@
         },
         "TITLE": "Vidrio de Alta Calidad para pistas de pádel Mini",
         "SUBTITLE": "¡Vidrio de seguridad templado en cada pista!",
-        "DESCRIPTION": "<p>Cada pista incluye <strong>cristal templado de seguridad (10 o 12 mm)</strong> de fabricantes españoles con certificación CE.</p><p>Bordes pulidos, juntas de neopreno y fijaciones seguras para garantizar seguridad, estabilidad y máxima visibilidad, cumpliendo con las normas europeas</p>"
+        "DESCRIPTION": "<p>Cada pista incluye <strong>cristal templado de seguridad (10 o 12 mm)</strong> de fabricantes españoles con certificación CE.</p><p>Bordes pulidos, juntas de neopreno y fijaciones seguras para garantizar seguridad, estabilidad y máxima visibilidad, cumpliendo con las normas europeas.</p>"
       },
       "PAINT_SECTION": {
         "ID": "sección-de-pintura",
