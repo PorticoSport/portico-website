@@ -1820,39 +1820,38 @@
     },
     "MINI_COURT": {
       "ID": "mini-court",
-      "SEO_TITLE": "Mini Terrain - Compact Padel Fun",
-      "SEO_DESCRIPTION": "Initiez les enfants au padel avec notre Mini Terrain, parfait pour les espaces plus petits. Même qualité premium dans une taille compacte. En savoir plus !",
-      "TYPE": "PRODUCT",
+      "SEO_TITLE": "Mini Court - Padel compact et amusant",
+      "SEO_DESCRIPTION": "Initiez les enfants au padel avec notre Mini Court de padel, parfait pour les petits espaces. Même qualité premium dans un format compact. En savoir plus !",
       "OG_IMG": "https://www.porticosport.com/og/og-mini.jpg",
-      "TITLE": "<span>Mini Terrain</span>",
-      "DESCRIPTION": "<p>Notre Mini Terrain est un Terrain de padel de taille réduite (10,47x5,47m) avec une hauteur abaissée (1m), idéal pour les espaces plus petits, la pratique à domicile ou les joueurs plus jeunes.</p><p>Conçu par le département d'ingénierie de Portico Sport, ce Terrain est fabriqué avec les mêmes matériaux de qualité premium que le reste de nos Terrains de Padel.</p><p>Malgré sa petite taille, il offre la même stabilité, durabilité et résistance. Si vous recherchez un Terrain de padel compact, le Mini Terrain est un excellent choix.</p>",
+      "TITLE": "<span>Mini Court de padel</span>",
+      "DESCRIPTION": "<p>Notre Mini Court de padel est un court de taille réduite (10 × 5 m) avec une hauteur de 1 m, idéal pour les petits espaces, la pratique à domicile ou les jeunes joueurs.</p><p>Conçu par l’équipe d’ingénierie de Portico Sport en Espagne, il est fabriqué avec les mêmes matériaux premium, la même solidité structurelle et la même durabilité que nos courts de taille standard.</p>",
       "NAME": "Mini",
-      "LITTLE_DESCRIPTION": "<p>Notre Terrain de padel de taille réduite qui s'adapte partout.</p>",
-      "SUBTITLE": "Notre Terrain de padel de taille réduite qui s'adapte partout.",
-      "CONTACT_TITLE_1": "Vous voulez un Mini Terrain ?",
-      "CONTACT_SUBJECT": "Nouvelle demande de Mini Plus Terrain",
-      "CONTACT_BUTTON": "Je veux un Mini Terrain",
+      "LITTLE_DESCRIPTION": "<p>Notre court de padel réduit qui s’adapte partout.</p>",
+      "SUBTITLE": "Notre court de padel réduit qui s’adapte partout.",
+      "CONTACT_TITLE_1": "Voulez-vous un Mini Court de padel ?",
+      "CONTACT_SUBJECT": "Nouvelle demande pour Mini Court de padel",
+      "CONTACT_BUTTON": "Je veux un Mini Court de padel",
       "ROUTE": {
-        "LABEL": "En savoir plus sur le mini Terrain",
+        "LABEL": "En savoir plus sur le mini court de padel",
         "URL": "/mini",
-        "TITLE": "Terrain de padel Mini Terrain"
+        "TITLE": "Mini Court"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
-        "TITLE": "<span class=\"text-secondary\">Compact mais puissant : Mini Terrains de Padel par Portico Sport</span>",
-        "DESCRIPTION": "<p>Notre Mini Terrain, spécialement conçu pour initier les enfants à la joie du padel dès leur plus jeune âge.</p><p>La taille plus petite de ce Terrain garantit que les enfants peuvent profiter confortablement du jeu, adapté à leur taille et à leurs capacités physiques.</p><p>Non seulement il offre un environnement sûr et agréable pour les enfants, mais il offre également de nombreux avantages pour les clubs : les parents peuvent jouer au padel pendant que leurs enfants pratiquent ce sport, favorisant une atmosphère unique et accueillante dans le club.</p><p>Malgré sa taille compacte, notre Mini Terrain offre le même attrait esthétique que les terrains conventionnels et offre une résistance exceptionnelle au vent. De plus, avec des options personnalisables disponibles, les jeunes joueurs peuvent se sentir comme des champions sur le Terrain.</p>",
+        "TITLE": "<span class=\"text-secondary\">Compact mais puissant : Mini Courts de padel par Portico Sport</span>",
+        "DESCRIPTION": "<p>Spécialement conçu pour les enfants et les débutants, le Mini Court offre une introduction sûre et agréable au padel. Ses dimensions compactes le rendent parfait pour les jardins, hôtels, écoles et clubs cherchant à optimiser l’espace sans compromettre la qualité. Les parents peuvent jouer pendant que les enfants développent leurs compétences à proximité, favorisant ainsi une atmosphère conviviale au club.</p><p>Malgré sa taille, notre Mini Court conserve l’esthétique, la stabilité et la résistance au vent des courts de taille standard.</p><p>Avec des options de design personnalisables, même les plus jeunes joueurs peuvent se sentir comme des champions.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/mini/mini-front.webp",
-            "alt": "Vue de face du Mini Terrain"
+            "alt": "Vue avant du mini court"
           },
           "PERSPECTIVE": {
             "src": "/courts-detail/mini/mini-perspective.webp",
-            "alt": "Vue en perspective du Mini Terrain"
+            "alt": "Vue en perspective du mini court"
           },
           "TOP": {
             "src": "/courts-detail/mini/mini-top.webp",
-            "alt": "Vue de dessus du Mini Terrain"
+            "alt": "Vue du dessus du mini court"
           }
         }
       },
