@@ -1961,16 +1961,12 @@
         "ID": "lighting-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-lighting.webp",
-          "alt": "Éclairage du Terrain mobile"
+          "alt": "Éclairage pour court mobile"
         },
-        "TITLE": "Éclairage LED de Qualité pour Mini Terrains de Padel",
-        "SUBTITLE": "Illuminez votre jeu avec l'éclairage de Terrain de padel de Portico Sport !",
-        "DESCRIPTION": "<p>Profitez de la solution d'éclairage LED ultime pour les Terrains de Padel, exclusivement proposée par Portico Sport en partenariat avec des spécialistes de premier plan dans le domaine.</p><p>Notre éclairage de Terrain de padel garantit une illumination optimale et une uniformité sur toutes les zones de jeu. De la zone du filet aux zones d'accès, de fond, latérales et de haut de balle, notre solution d'éclairage élimine l'éblouissement et les ombres, offrant aux joueurs une visibilité et des performances inégalées.</p><p>La qualité de nos projecteurs, conçus pour résister aux chocs jusqu'à IK10, avec des degrés d'étanchéité IP66-IP67 et une résistance aux surtensions de 4kV - 6kV, combinée aux capacités de dissipation thermique élevée des boîtiers, permet une durée de vie prolongée de nos projecteurs, avec une garantie pouvant aller jusqu'à 5 ans.</p><p>Nos projecteurs sont conçus pour couvrir tous les types de terrains spécifiés dans la norme européenne pour l'éclairage sportif (UNE-EN-12193:2020), allant de l'utilisation récréative (Classe III) aux compétitions professionnelles ou aux diffusions télévisées (Classe I - norme NIDE).</p>"
-      },
-      "GALLERY_SECTION": {
-        "ID": "gallery",
-        "PATH": "courts-detail/mini/gallery",
-        "OFFSET": 27
+        "TITLE": "Éclairage LED de qualité pour Mini Courts de padel",
+        "SUBTITLE": "Illuminez votre jeu avec l’éclairage pour courts de padel de Portico Sport !",
+        "DESCRIPTION": "<p>Éclairez votre court de padel avec des solutions d’éclairage <strong>LED premium</strong>, en partenariat avec des spécialistes de premier plan :</p>",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Totalement conforme à la norme <strong>UNE-EN-12193:2020</strong></li><li>Lumière uniforme sans éblouissement ni ombres</li><li>Résistance aux chocs IK10, étanchéité IP66–IP67</li><li>Protection contre les surtensions (4kV - 6kV), dissipation thermique élevée</li><li>Convient pour un usage récréatif (Classe III) et pour des événements professionnels (Classe I, norme NIDE)</li><li>Garantie 5 ans</li></ul>"
       },
       "COURTS_SECTION": {
         "TITLE": "Découvrez d'autres Terrains de Padel",
