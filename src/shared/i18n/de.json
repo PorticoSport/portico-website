@@ -180,6 +180,7 @@
         "ID": "faqs",
         "TITLE": "Fragen zu Padelplatzhersteller stellen",
         "TITLE_COURT": "Häufig gestellte Fragen zum Club-Court",
+        "TITLE_MINI": "Häufig gestellte Fragen zu unseren Mini-Padelplätzen",
         "SUBTITLE": "Häufig gestellte Fragen",
         "BUTTON":{  
   "TEXT":"Baue deinen Padelplatz!",  
@@ -223,7 +224,24 @@
           }, {
             "question": "Kann er für Wettbewerbe genutzt werden?",
             "answer": "<p>Ja, er erfüllt die offiziellen internationalen Padel-Standards und ist daher für Turniere und Clubspiele geeignet. Für professionelle Veranstaltungen mit maximaler Sicht für das Publikum empfehlen wir unseren Tournament-Court mit Panoramadesign.</p>"
-        }]
+        }],
+        "QUESTIONS_MINI": [{
+          "question": "Was ist ein Mini-Padelplatz und warum sollte man ihn wählen?",
+          "answer": "<p>Portico Sport fertigt und installiert hochwertige Mini-Padelplätze, ideal für Wohnhäuser, Schulen und Freizeitbereiche mit begrenztem Platzangebot. Mit der gleichen Qualität und Sicherheit wie unsere professionellen Plätze bieten sie den vollen Padel-Spaß in einem kompakteren Format.</p>"
+        },
+        {
+          "question": "Was beinhaltet die Installation eines maßgeschneiderten Mini-Padelplatzes?",
+          "answer": "<p>Die Kosten für die Installation eines Mini-Padelplatzes sind aufgrund der kleineren Größe in der Regel niedriger als für einen Standardplatz. Die Preise variieren je nach Materialien, Ausführungen und zusätzlichen Merkmalen. Kontaktieren Sie uns für ein individuelles Angebot.</p>"
+        },
+        {
+          "question": "Wie viel kostet ein Mini-Padelplatz?",
+          "answer": "<p>Natürlich bieten wir zahlreiche Personalisierungsoptionen an: RAL-Farben, Rasentypen, Strukturfinish und Beleuchtung. Es passt sich vollständig Ihrem Stil und Ihren Bedürfnissen an.</p>"
+        },
+        {
+          "question": "Warum einen Mini-Padelplatz wählen?",
+          "answer": "<p>Sie sind perfekt für begrenzte Räume oder um jüngeren Spielern das Erlernen des Sports zu ermöglichen. In städtischen Umgebungen, Schulen und Vereinen sehr gefragt, behalten sie alle wesentlichen Merkmale eines Standardplatzes für ein unterhaltsames und wettbewerbsfähiges Spiel bei.</p>"
+        }
+      ]
       },      
       "CONTACT_SECTION": {
         "ID": "contact",
