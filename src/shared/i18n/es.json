@@ -1868,7 +1868,7 @@
         "TEXT": "<p>Una pista de pádel de tamaño reducido fabricada en acero galvanizado <strong>S275JR</strong>, con alta resistencia a la abrasión y la corrosión.</p><p>Los marcos laterales y superiores incluyen malla electrosoldada conforme a la norma <strong>UNE-EN-10223-4</strong>, con refuerzos intermedios que evitan vibraciones.</p><p>Montaje rápido gracias a tornillería galvanizada con sistema de bloqueo automático.</p><p>Todas nuestras estructuras fabricadas con procesos de fabricación avanzada:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Corte por láser para acabados precisos y limpios</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Soldadura robotizada para garantizar calidad y prevenir oxidación</li></ul>"
       },
       "SIZING_SECTION": {
-        "ID": "sección-de-medidas",
+        "ID": "seccion-de-medidas",
         "TITLE": "Medidas de la Pista de pádel Mini",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
@@ -1881,7 +1881,7 @@
         }
       },
       "GLASS_SECTION": {
-        "ID": "sección-de-cristales",
+        "ID": "seccion-de-cristales",
         "IMAGE": {
           "id": "sección-de-ventaja",
           "src": "/courts-detail/mobile/mobile-glasses.webp",
@@ -1894,7 +1894,7 @@
         "DESCRIPTION": "<p>Cada pista incluye <strong>cristal templado de seguridad (10 o 12 mm)</strong> de fabricantes españoles con certificación CE.</p><p>Bordes pulidos, juntas de neopreno y fijaciones seguras para garantizar seguridad, estabilidad y máxima visibilidad, cumpliendo con las normas europeas.</p>"
       },
       "PAINT_SECTION": {
-        "ID": "sección-de-pintura",
+        "ID": "seccion-de-pintura",
         "TITLE": "Pintura para estructuras de pistas de pádel",
         "SUBTITLE": "¿Sabías que ahora puedes agregar un toque de color a tu pista de pádel Mini?",
         "DESCRIPTION": "<p>Personaliza tu pista con colores RAL en diseño monocromo o bicolor, con acabados de pintura de alta durabilidad:</p>",
@@ -1937,7 +1937,7 @@
         ]
       },
       "TURF_SECTION": {
-        "ID": "sección-de-cesped",
+        "ID": "seccion-de-cesped",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Vista superior de la pista móvil"
@@ -1949,7 +1949,7 @@
         "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Césped de filamentos texturizados de polietileno de baja abrasión.</li><li>Tratamiento anti-UV, alta resistencia al calor y a la intemperie.</li><li>Relleno de arena de sílice lavada y secada (10-15 kg/m²) para un bote de pelota y velocidad óptimos.</li></ul>"
       },
       "LIGHTING_SECTION": {
-        "ID": "sección-de-iluminación",
+        "ID": "seccion-de-iluminación",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-lighting.webp",
           "alt": "Iluminación de la pista móvil"
