@@ -1857,26 +1857,20 @@
       },
       "BENEFITS_SECTION": {
         "ID": "benefits",
-        "TITLE": "Découvrez les avantages de notre Mini Terrain",
-        "SUBTITLE": "Pourquoi choisir un mini terrain de padel ?",
-        "DESCRIPTION": "Les mini terrains de padel sont un excellent choix pour ceux qui disposent d’un espace limité mais souhaitent néanmoins pratiquer ce sport. Ces terrains de padel sont particulièrement populaires dans les environnements urbains, où l'espace est limité, et dans des contextes tels que les écoles ou les centres communautaires où les jeunes joueurs apprennent le jeu. Malgré leur taille réduite, les terrains de Mini Padel conservent toutes les caractéristiques essentielles d'un terrain de Padel standard, garantissant un jeu amusant et compétitif.",
-        "BENEFITS": [
-          {
-            "header": "Garantie de 10 ans",
-            "icon": "WarrantyIcon",
-            "footer": "Soyez assuré avec notre garantie de 10 ans sur l'intégrité structurelle de nos terrains, conçus pour résister à des vitesses de vent élevées."
-          },
-          {
-            "header": "Terrain petit et polyvalent",
-            "icon": "VersatileCourtIcon",
-            "footer": "Idéal pour les espaces plus petits, la pratique à domicile ou les joueurs plus jeunes, ce Terrain offre la même stabilité et résilience que le reste de nos Terrains de Padel."
-          },
-          {
-            "header": "Matériaux de qualité premium",
-            "icon": "MaterialsIcon",
-            "footer": "Fabriqués avec des matériaux de qualité premium pour une résistance et une durabilité maximales, nos terrains offrent une qualité premium."
-          }
-        ]
+        "TITLE": "Découvrez les avantages de notre Mini Court",
+        "BENEFITS": [{
+          "header": "Garantie 10 ans",
+          "icon": "WarrantyIcon",
+          "footer": "Intégrité structurelle conçue pour résister aux vents forts"
+        }, {
+          "header": "Court petit et polyvalent",
+          "icon": "VersatileCourtIcon",
+          "footer": "Idéal pour maisons, hôtels et clubs avec espace limité"
+        }, {
+          "header": "Matériaux premium",
+          "icon": "MaterialsIcon",
+          "footer": "Acier galvanisé, verre trempé et gazon professionnel"
+        }]
       },
       "STRUCTURE_SECTION": {
         "ID": "structure",
