@@ -310,13 +310,6 @@ robots="index,follow"
       </div>
     )}
     {
-      isCostSection ?
-      <Section id={isCostSection.ID}>
-        <Typography tag="h2" className="text-center font-bold" type="secondary" text={isCostSection.TITLE} responsive />
-        <Typography tag="p" className="text-center mt-8" text={isCostSection.DESCRIPTION} responsive />
-      </Section> : null
-    }
-    {
       isGallerySection ? (<Gallery
         id={isGallerySection.ID}
         path={isGallerySection.PATH}
