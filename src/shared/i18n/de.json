@@ -1017,7 +1017,7 @@
       "TYPE": "PRODUCT",
       "OG_IMG": "https://www.porticosport.com/og/og-club.jpg",
       "TITLE": "<span>Club court</span>",
-      "DESCRIPTION": "<p>Seit vielen Jahren unsere begehrtesten Plätze, zeichnet sich der Club Court als ideale Option für diejenigen aus, die überragende Qualität und außergewöhnliche Haltbarkeit suchen.</p><p>Mit Säulen von 3 Metern Höhe, ist dieser Platz vom Engineering-Team von Portico Sport konzipiert und hergestellt, um ein optimales Umfeld für das Padeltraining auf hohem Niveau zu bieten und die höchsten Qualitätsstandards sicherzustellen.</p><p>Wenn Sie einen Padelplatz suchen, der Langlebigkeit und Widerstandsfähigkeit kombiniert, ist der Club Court eine ausgezeichnete Wahl.</p>",
+      "DESCRIPTION": "<p>Eine Top-Wahl für Clubs weltweit, der Club Padelplatz verbindet das renommierte Engineering von Portico Sport mit außergewöhnlicher Haltbarkeit. Entwickelt mit 3 Meter hohen Pfosten und hochwertigen Materialien, ideal für Innen- und Außenanlagen, selbst bei schwierigen klimatischen Bedingungen.</p>",
       "LITTLE_DESCRIPTION": "<p>Sie können Padel auf einem unserer begehrtesten Plätze spielen.</p>",
       "SUBTITLE": "Unsere begehrtesten Plätze.",
       "NAME": "Club",
@@ -1031,68 +1031,64 @@
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
-        "TITLE": "<span class=\"text-secondary\">Club Court: Wo Qualität auf Haltbarkeit trifft!</span>",
-        "DESCRIPTION": "<p>Entdecken Sie unseren Club Court, eine erstklassige Wahl für Padelclubs weltweit! Gebaut, um starken Winden standzuhalten und sowohl für den Innen- als auch für den Außenbereich geeignet, bietet unser Club Court unvergleichliche Haltbarkeit und Vielseitigkeit.</p><p>Mit einer breiten Palette von Anpassungsoptionen stellen wir sicher, dass er nahtlos in jede Umgebung integriert wird. Berühmt für sein zeitloses Design und seine robuste Konstruktion ist es kein Wunder, dass der Club Court eines unserer begehrtesten Angebote bleibt.</p>",
+        "TITLE": "<span class=\"text-secondary\">Club Padelplatz: Wo Qualität auf Haltbarkeit trifft!</span>",
+        "DESCRIPTION": "<p>Für Leistung und Haltbarkeit gebaut, sorgt seine solide Struktur für langfristige Leistung bei minimalem Wartungsaufwand und macht ihn zu einer zuverlässigen Investition für jede Anlage.</p><p>Mit einer großen Auswahl an Anpassungsoptionen stellen wir sicher, dass er sich nahtlos in jede Umgebung einfügt. Bekannt für sein zeitloses Design und seine robuste Konstruktion ist es kein Wunder, dass der Club Platz eines unserer beliebtesten Angebote bleibt.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/club/club-front.webp",
-            "alt": "Vorderansicht des Club Court"
+            "alt": "Frontansicht des Clubplatzes"
           },
           "PERSPECTIVE": {
             "src": "/courts-detail/club/club-perspective.webp",
-            "alt": "Perspektivansicht des Club Court"
+            "alt": "Perspektivansicht des Clubplatzes"
           },
           "TOP": {
             "src": "/courts-detail/club/club-top.webp",
-            "alt": "Vogelperspektive des Club Court"
+            "alt": "Draufsicht des Clubplatzes"
           }
         }
       },
       "BENEFITS_SECTION": {
         "ID": "benefits",
-        "TITLE": "Erleben Sie die Vorteile unseres Club Court",
-        "BENEFITS": [
-          {
-            "header": "10 Jahre Garantie",
-            "icon": "WarrantyIcon",
-            "footer": "Seien Sie beruhigt mit unserer 10-jährigen Garantie auf die strukturelle Integrität unserer Plätze, die entwickelt wurden, um Windgeschwindigkeiten standzuhalten. Genießen Sie sie ohne Sorgen!."
-          },
-          {
-            "header": "Vielseitiger und widerstandsfähiger Platz",
-            "icon": "VersatileCourtIcon",
-            "footer": "Ideal für den Innen- und Außenbereich, sind unsere Plätze die beste Wahl für Clubs, die unübertroffene Haltbarkeit und Vielseitigkeit suchen."
-          },
-          {
-            "header": "Hochwertige Materialien",
-            "icon": "MaterialsIcon",
-            "footer": "Hergestellt aus hochwertigen Materialien für maximale Stärke und Haltbarkeit bieten unsere Plätze Premiumqualität in jedem Detail."
-          }
-        ]
+        "TITLE": "Erleben Sie die Vorteile unseres Club Padelplatzes",
+        "BENEFITS": [{
+          "header": "10 Jahre Garantie",
+          "icon": "WarrantyIcon",
+          "footer": "Gebaut, um starken Windgeschwindigkeiten standzuhalten."
+        }, {
+          "header": "Vielseitiger und widerstandsfähiger Platz",
+          "icon": "VersatileCourtIcon",
+          "footer": "Für Innen- und Außenbereiche geeignet"
+        }, {
+          "header": "Hochwertige Materialien",
+          "icon": "MaterialsIcon",
+          "footer": "Maximale Stärke und Qualität in jedem Detail"
+        }]
       },
       "STRUCTURE_SECTION": {
-        "ID": "structure",
+        "ID": "Clubplatz: Strukturelle Exzellenz",
         "IMAGE": {
           "id": "section-information",
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
-          "alt": "Darstellung eines mobilen Platzes"
+          "alt": "Render eines mobilen Platzes"
         },
         "TITLE": "Strukturen",
-        "SUBTITLE": "Erleben Sie die Exzellenz unserer Premium-Qualitätsplatzstruktur",
-        "TEXT": "<p>Hergestellt aus feuerverzinktem Stahl, garantiert unser Platz maximale Beständigkeit gegen Abrieb und Oxidation.</p><p>Die Platzstruktur besteht aus feuerverzinkten S275JR-Stahlprofilen, die sicher mit Verankerungsplatten am Boden befestigt sind. Die Seiten- und Oberprofile werden durch elektrogeschweißte Gitter gemäß den Normen UNE-EN-10223-4 ergänzt.</p><p>Um Vibrationen des Gitters zu verhindern, enthält die Struktur Zwischengerüste.</p><p>Die Befestigung der Struktur am Boden erfolgt mit versenkten Metallankern mit einer Größe von M8X80 mm. Der Montageprozess ist nahtlos dank selbstsichernden Sicherheitsschrauben und Muttern aus feuerverzinktem Stahl.</p><p>Die Struktur der Padelplätze von Portico Sport durchläuft Herstellungsprozesse, die modernste industrielle Technologien wie:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laser-Schneiden garantiert präzise Schnitte und liefert eine hochwertige Oberfläche.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Eine vollautomatisierte robotergesteuerte Schweißmontagelinie garantiert die Qualität der Schweißnähte und verhindert mögliche Oxidation in der Zukunft.</li></ul>",
-        "SUBTEXT_TITLE": "Upgrade zum CLUB PLUS!",
-        "SUBTEXT": "<p>Wenn Sie Ihren Club-Court bei schwierigen Wetterbedingungen benötigen, können Sie seine Struktur verbessern und ihn mit zusätzlichen Verstärkungen aus Stahlprofilen in einen Club Plus Court verwandeln, perfekt für Gebiete, die extremem Wetter ausgesetzt sind.</p><p>Genießen Sie den Club Plus Court, der die gleiche Premiumqualität bietet, aber mit zusätzlicher Robustheit, perfekt um stärkeren Windböen (131,40 km/h) und widrigen Wetterbedingungen standzuhalten, was eine nahtlose Haltbarkeit und hohe Widerstandsfähigkeit gewährleistet.</p>"
+        "SUBTITLE": "Erleben Sie die Exzellenz unserer Premium-Padelplatzstruktur",
+        "TEXT": "<p>Gefertigt aus verzinktem <strong>S275JR</strong>-Stahl für Abrieb- und Korrosionsbeständigkeit. Seiten- und Oberrahmen beinhalten <strong>UNE-EN-10223-4</strong>-konformes elektrogeschweißtes Netz mit Zwischenverschalungen zur Vibrationskontrolle.</p><p>Schnelle Montage mit verzinkten selbstsichernden Schrauben und Muttern.</p><p>Unsere Struktur durchläuft fortschrittliche Herstellungsprozesse:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laserzuschnitt für präzise und saubere Oberflächen</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Roboter-Schweißen garantiert Qualität und verhindert Oxidation</li></ul>",
+        "SUBTEXT_TITLE": "Upgrade zu CLUB+!",
+        "SUBTEXT": "<p>Sie können auch auf die Club+-Version <strong>für erhöhte Windbeständigkeit (bis zu 131,40 km/h)</strong> mit verstärkten Stahlprofilen upgraden.</p>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
-        "TITLE": "Club Court-Maße",
+        "TITLE": "Abmessungen des Club Padelplatzes",
         "INDOOR_TITLE": "Innenbereich",
         "OUTDOOR_TITLE": "Außenbereich",
-        "OUTDOOR": "<p><strong>Länge</strong>: 20,47 m </p><p><strong>Breite</strong>: 10,47 m </p>",
-        "INDOOR": "<p><strong>Länge</strong>: 20 m </p><p><strong>Breite</strong>: 10 m </p>",
+        "OUTDOOR": "<p><strong>Länge</strong>: 20,47 m x 10,47 m</p>",
+        "INDOOR": "<p><strong>Länge</strong>: 20 m x 10 m</p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/club/Club-sizing.webp",
-          "alt": "Innen- und Außenabmessungen des Club Court"
+          "alt": "Innen- und Außenmaße des Clubplatzes"
         }
       },
       "GLASS_SECTION": {
@@ -1102,69 +1098,65 @@
           "src": "/courts-detail/mobile/mobile-glasses.webp",
           "width": 574,
           "height": 323,
-          "alt": "Mobiles Gericht patentiert von Portico Sport"
+          "alt": "Von Portico Sport patentierter mobiler Platz"
         },
-        "TITLE": "Gläser",
-        "SUBTITLE": "Gehärtetes Sicherheitsglas in jedem Platz!",
-        "DESCRIPTION": "<p>Entdecken Sie unübertroffene Sicherheit und Haltbarkeit in unseren Padelplätzen. Jeder Platz verfügt über gehärtetes Sicherheitsglas, erhältlich in 10 oder 12 mm Dicke, maßgeschneidert für die spezifischen Anforderungen Ihres Projekts. Seien Sie versichert, unser Glas erfüllt alle regulatorischen Standards für solche Installationen. In Zusammenarbeit mit angesehenen spanischen Herstellern mit CE-Kennzeichnung garantieren wir Spitzenqualität in jedem Aspekt unserer Konstruktion.</p><p><strong>VERGLASUNG</strong> erfolgt mit klarem gehärtetem Glas mit polierten Kanten, das mit versenkten Polyethylen-Buchsen, feuerverzinkten Schrauben und Neopren-Dichtungen zur perfekten Glas-/Metallunterstützung befestigt ist, mit insgesamt 6 Ankerlöchern. Unsere Glaspaneele bieten herausragende physikalische und mechanische Eigenschaften, einschließlich Schlagfestigkeit und optimaler Planheit.</p>"
+        "TITLE": "Tempered Sicherheitsglas für Club Padelplätze",
+        "DESCRIPTION": "<p>Alle Plätze enthalten <strong>gehärtetes Sicherheitsglas (10 oder 12 mm)</strong> von CE-zertifizierten spanischen Herstellern.</p><p>Design mit klaren, polierten Kanten, Neopren-Dichtungen und verzinkten Schrauben. Jedes Glasfeld bietet hervorragende Sichtbarkeit und Schlagfestigkeit — alles gemäß europäischen Standards.</p>"
       },
       "PAINT_SECTION": {
         "ID": "paint-section",
-        "TITLE": "Strukturlack",
-        "SUBTITLE": "Wussten Sie, dass Sie jetzt Ihrem Platz einen Farbtupfer hinzufügen können?",
-        "DESCRIPTION": "<p>Entdecken Sie das Epitom der Unterscheidung in der Padelplatzkonstruktion mit einer Reihe von Lacktypen, die endlose Optionen bieten, um die Strukturen Ihres Platzes in lebendigen Farben zu lackieren. Unser LACKIERTER LACK bietet maximale Beständigkeit gegen Abrieb und Oxidation. Wählen Sie die RAL-Farbe, die Ihnen am besten gefällt, und stechen Sie mit unseren anpassbaren Farboptionen hervor.</p><p>Ob Sie sich für ein monochromes Erscheinungsbild entscheiden oder mit einem zweifarbigen Schema lebendige Energie injizieren möchten, lassen Sie Ihren Platz Ihren einzigartigen Stil und Ihre Persönlichkeit widerspiegeln, damit er auf dem Platz Aufmerksamkeit erregt.</p>",
-        "IMAGES": [
-          {
-            "id": "slide-1",
-            "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
-            "alt": "Orange lackierter mobiler Platz"
-          },
-          {
-            "id": "slide-2",
-            "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
-            "alt": "Orange lackierter mobiler Platz"
-          },
-          {
-            "id": "slide-9",
-            "src": "/courts-detail/mobile/structure-painted-mobile-9.webp",
-            "alt": "Ein violetter Platz"
-          },
-          {
-            "id": "slide-10",
-            "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
-            "alt": "Blau lackierte Struktur"
-          },
-          {
-            "id": "slide-12",
-            "src": "/courts-detail/mobile/structure-painted-mobile-12.webp",
-            "alt": "Grau lackierte Struktur im Innenbereich"
-          }
-        ],
+        "TITLE": "Lackierung für individuell anpassbare Strukturfinishes",
+        "DESCRIPTION": "<p>Unendliche Möglichkeiten, die Strukturen Ihres Platzes in lebendigen Farbtönen mit unseren langlebigen Lackoptionen zu lackieren:</p>",
+        "DESCRIPTION_DOS": "Fügen Sie mit Ihrer Wahl von <strong>RAL-Farben</strong>, einfarbig oder zweifarbig, eine persönliche Note hinzu.",
+        "IMAGES": [{
+          "id": "slide-1",
+          "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
+          "alt": "Orange lackierter mobiler Platz"
+        },{
+          "id": "slide-2",
+          "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
+          "alt": "Orange lackierter mobiler Platz"
+        },{
+          "id": "slide-9",
+          "src": "/courts-detail/mobile/structure-painted-mobile-9.webp",
+          "alt": "Ein violetter Platz"
+        },{
+          "id": "slide-10",
+          "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
+          "alt": "Blau lackierte Struktur"
+        }, {
+          "id": "slide-12",
+          "src": "/courts-detail/mobile/structure-painted-mobile-12.webp",
+          "alt": "Grau lackierte Struktur im Innenbereich"
+        }],
         "LIST": [
-          "<strong>INNENBEREICH:</strong> Pulverbeschichtung mit thermofusiblen Harzen formuliert.",
-          "<strong>OUTDOOR:</strong> Thermofusible Pulvergrundierungsbehandlung mit einem hohen Zinkgehalt, formuliert zur Verbesserung des Korrosionsschutzes von feuerverzinktem Stahl.",
-          "<strong>FEUERVERZINKT:</strong> Behandlung von geschmolzenem Zink bei einer Temperatur von 450 ºC, um einen hohen Schutz der Teile gegen Korrosion in marinen Umgebungen zu erreichen. Beinhaltet Pulverbeschichtung mit thermofusiblen Harzen."
+          "<strong>INNENBEREICH:</strong> Pulverbeschichtung mit thermofusiblen Harzen",
+          "<strong>AUßENBEREICH:</strong> Zinkreicher thermofusibler Primer + Pulverbeschichtung zum Korrosionsschutz",
+          "<strong>FEUERVERZINKT:</strong> Zinkbadbehandlung + Pulverbeschichtung für marine oder feuchte Umgebungen"
         ]
       },
       "TURF_SECTION": {
         "ID": "turf-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-top.webp",
-          "alt": "Vogelperspektive des mobilen Platzes"
+          "alt": "Draufsicht des mobilen Platzes"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Rasen</span>",
-        "SUBTITLE": "Erleben Sie unübertroffene Leistung auf unserem Rasen!",
-        "DESCRIPTION": "<p>Wir arbeiten mit den Top-Rasenfirmen zusammen, um sicherzustellen, dass Ihr Platz Rasen von Premiumqualität erhält. Jeder Platz ist mit Rasen der neuesten Generation ausgestattet, der mit strukturierten Monofilamenten entwickelt wurde, unterschiedliche Dicken und Faserhöhen aufweist, sehr geringen Verschleiß aufweist, aus Polyethylen (PE) und spezifischen Additiven mit hoher Widerstandsfähigkeit gegen Verschleiß und UV-Schutz besteht, beständig gegen Hitze und extreme Wetterfluktuationen.</p><p>Stabilisierungs- und Ballastierungsfüllung mit gerundetem, gewaschenem und getrocknetem Quarzsand mit 97% Silizium, Korngröße zwischen 0,2 - 0,6 mm in einer ungefähren Menge von 10-15 kg/m², je nach Rasenmodell.</p><p>Unser hochmoderner Rasen garantiert Padel-Spielern eine optimierte Spielgeschwindigkeit und verbesserten Ballrücksprung und bietet die Möglichkeit von geraden oder gekrümmten Fasern und ist in einer Vielzahl von Farben erhältlich.</p>"
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Hochleistungsrasen für Clubplätze</span>",
+        "SUBTITLE": "Erleben Sie unvergleichliche Leistung auf unserem Rasen!",
+        "DESCRIPTION": "<p>Wir bieten neuesten Generationen von Rasen von vertrauenswürdigen europäischen Herstellern, um Spitzenleistung zu gewährleisten.</p><p>Jeder Padelplatz beinhaltet:</p>",
+        "DESCRIPTION_DOS": "Unser Rasen bietet ein professionelles Spielerlebnis in verschiedenen Farben und Fasertypen.",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Polyethylen-Rasen der nächsten Generation mit texturierten Monofilamenten</li><li>UV-beständig, geringe Abriebfestigkeit, stabil bei Hitze und Wetter</li><li>Quarzsand-Füllung (10-15 kg/m²) für optimierten Ballabsprung und Geschwindigkeit</li></ul>"
       },
       "LIGHTING_SECTION": {
         "ID": "lighting-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-lighting.webp",
-          "alt": "Mobile Platzbeleuchtung"
+          "alt": "Beleuchtung des mobilen Platzes"
         },
-        "TITLE": "Fortschrittliche LED-Beleuchtung für Padelplätze",
-        "SUBTITLE": "Beleuchten Sie Ihr Spiel mit der Padelplatz-Beleuchtung von Portico Sport!",
-        "DESCRIPTION": "<p>Erhellen Sie den Platz mit unseren hochwertigen LED-Beleuchtungssystemen, entwickelt in Zusammenarbeit mit führenden Spezialisten.</p><p><ul class=\"list-disc pl-4\"><li>Vollständig konform mit der Norm <span>UNE-EN-12193:2020</span></li><li>Gleichmäßige, blendfreie Lichtverteilung</li><li><span>IK10</span> Schlagfestigkeit <span>IP66-IP67</span> wateWasserschutz</li><li>Überspannungsschutz (4 kV – 6 kV), hohe Wärmeableitung</li><li>Geeignet für Freizeiteinsatz (Klasse III) und professionelle Veranstaltungen (Klasse I, NIDE-Standard)</li><li>Bis zu 5 Jahre Garantie</li></ul></p>"
+        "TITLE": "Fortschrittliche LED-Beleuchtungssysteme für Padelplätze",
+        "SUBTITLE": "Beleuchten Sie Ihr Spiel mit der Padelplatzbeleuchtung von Portico Sport!",
+        "DESCRIPTION": "<p>Beleuchten Sie Ihren Padelplatz mit Premium-LED-Beleuchtungssystemen in Partnerschaft mit erstklassigen Spezialisten.</p>",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Vollständig konform mit <strong>UNE-EN-12193:2020</strong></li><li>Gleichmäßiges Licht ohne Blendung oder Schatten</li><li>Schlagfestigkeit IK10, Wasserdichtigkeit IP66-IP67</li><li>Überspannungsschutz (4kV - 6kV), hohe Wärmeableitung</li><li>Geeignet für Freizeitnutzung (Klasse III) und professionelle Veranstaltungen (Klasse I, NIDE-Standard)</li><li>5 Jahre Garantie</li></ul>"
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
