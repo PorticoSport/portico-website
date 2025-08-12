@@ -1808,7 +1808,7 @@
       "SEO_DESCRIPTION": "Introduce a los niños al pádel con nuestra pista de pádel Mini, perfecta para los espacios más pequeños. La misma calidad premium en un tamaño compacto. ¡Aprende más!",
       "OG_IMG": "https://www.porticosport.com/og/og-mini.jpg",
       "TITLE": "<span>Pista de pádel Mini</span>",
-      "DESCRIPTION": "<p>Our Mini Padel Court is a reduced-size padel court (10 × 5 m) with a 1 m height, ideal for smaller spaces, home practice, or younger players.</p><p>Designed by Portico Sport’s engineering team in Spain, it’s built with the same premium materials, structural integrity, and durability as our full-size courts.</p>",
+      "DESCRIPTION": "<p>Nuestra pista Mini es una pista de pádel de tamaño reducido (10 × 5 m) y 1 m de altura, ideal para espacios pequeños, práctica en casa o jugadores más jóvenes.</p><p>Diseñada por el equipo de ingeniería de Portico Sport, está fabricada con los mismos materiales de primera calidad, resistencia estructural y durabilidad que nuestras pistas de tamaño estándar.</p>",
       "NAME": "Mini",
       "LITTLE_DESCRIPTION": "<p>Nuestra pista de pádel de tamaño reducido que cabe en cualquier lugar.</p>",
       "SUBTITLE": "Nuestra pista de pádel de tamaño reducido que cabe en cualquier lugar.",
@@ -1823,7 +1823,7 @@
       "FIRST_SECTION": {
         "ID": "vistas-de-pistas",
         "TITLE": "<span class=\"text-secondary\"> Compactas pero poderosas: pistas de pádel Mini de Portico Sport</span>",
-        "DESCRIPTION": "<p>Especialmente diseñada para niños y principiantes, la pista de pádel Mini ofrece una introducción segura y divertida al pádel.</p><p>Sus dimensiones compactas la hacen perfecta para jardines, hoteles, colegios y clubes que quieran optimizar el espacio sin renunciar a la calidad.</p><p>Los padres pueden disfrutar de su partido mientras los niños desarrollan sus habilidades cerca, fomentando un ambiente de club acogedor.</p><p>A pesar de su tamaño, nuestra pista Mini mantiene la misma estética, estabilidad y resistencia al viento que las pistas de tamaño completo.</p><p>Con opciones de personalización, incluso los jugadores más pequeños pueden sentirse campeones</p>",
+        "DESCRIPTION": "<p>Especialmente diseñada para niños y principiantes, la pista de pádel Mini ofrece una introducción segura y divertida al pádel.</p><pSus dimensiones compactas la hacen perfecta para jardines, hoteles, colegios y clubes que quieran optimizar el espacio sin renunciar a la calidad.</p><p>Los padres pueden disfrutar de su partido mientras los niños desarrollan sus habilidades cerca, fomentando un ambiente de club acogedor.</p><p>A pesar de su tamaño, nuestra pista Mini mantiene la misma estética, estabilidad y resistencia al viento que las pistas de tamaño completo.</p><p>Con opciones de personalización, incluso los jugadores más pequeños pueden sentirse campeones</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/mini/mini-front.webp",
@@ -1831,7 +1831,7 @@
           },
           "PERSPECTIVE": {
             "src": "/courts-detail/mini/mini-perspective.webp",
-            "alt": "Vista en perspectiva de la pista mini"
+            "alt": "Vista frontal de la pista mini"
           },
           "TOP": {
             "src": "/courts-detail/mini/mini-top.webp",
@@ -1842,34 +1842,30 @@
       "BENEFITS_SECTION": {
         "ID": "beneficios",
         "TITLE": "Experimenta los beneficios de nuestra pista de pádel Mini",
-        "BENEFITS": [
-          {
-            "header": "Garantía de 10 años",
-            "icon": "WarrantyIcon",
-            "footer": "Resistencia estructural diseñada para soportar fuertes vientos"
-          },
-          {
-            "header": "Pista pequeña y versátil",
-            "icon": "VersatileCourtIcon",
-            "footer": "Ideal para viviendas, hoteles y clubes con espacio limitado"
-          },
-          {
-            "header": "Materiales de primera calidad",
-            "icon": "MaterialsIcon",
-            "footer": "Acero galvanizado, vidrio templado y césped profesional"
-          }
-        ]
+        "BENEFITS": [{
+          "header": "Garantía de 10 años",
+          "icon": "WarrantyIcon",
+          "footer": "Resistencia estructural diseñada para soportar fuertes vientos"
+        }, {
+          "header": "Versatilidad en pequeño formato",
+          "icon": "VersatileCourtIcon",
+          "footer": "Resistencia estructural diseñada para soportar fuertes vientos"
+        }, {
+          "header": "Materiales premium",
+          "icon": "MaterialsIcon",
+          "footer": "Acero galvanizado, vidrio templado y césped profesiona"
+        }]
       },
       "STRUCTURE_SECTION": {
         "ID": "estructura",
         "IMAGE": {
-          "id": "sección-de-información",
+          "id": "section-information",
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
           "alt": "Render de una pista móvil"
         },
         "TITLE": "Estructura de pistas por expertos fabricantes de pistas de pádel",
         "SUBTITLE": "Experimenta la excelencia de la estructura de alta calidad de nuestras pistas de pádel",
-        "TEXT": "<p>Una pista de pádel de tamaño reducido fabricada en acero galvanizado S275JR, con alta resistencia a la abrasión y la corrosión.</p><p>Los marcos laterales y superiores incluyen malla electrosoldada conforme a la norma <strong>UNE-EN-10223-4</strong>, con refuerzos intermedios que evitan vibraciones.</p><p>Montaje rápido gracias a tornillería galvanizada con sistema de bloqueo automático.</p><p>Todas nuestras estructuras fabricadas con procesos de fabricación avanzada:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Corte por láser para acabados precisos y limpios</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Soldadura robotizada para garantizar calidad y prevenir oxidación</li></ul>"
+        "TEXT": "<p>Una pista de pádel de tamaño reducido fabricada en acero galvanizado <strong>S275JR</strong>, con alta resistencia a la abrasión y la corrosión.</p><p>Los marcos laterales y superiores incluyen malla electrosoldada conforme a la norma <strong>UNE-EN-10223-4</strong>, con refuerzos intermedios que evitan vibraciones.</p><p>Montaje rápido gracias a tornillería galvanizada con sistema de bloqueo automático.</p><p>Todas nuestras estructuras fabricadas con procesos de fabricación avanzada:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Corte por láser para acabados precisos y limpios</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Soldadura robotizada para garantizar calidad y prevenir oxidación</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "sección-de-medidas",
@@ -1879,7 +1875,7 @@
         "OUTDOOR": "<p><strong>Longitud</strong>: 10 m x 5 m </p>",
         "INDOOR": "<p><strong>Longitud</strong>: 10.47 m x 5.47 m</p>",
         "IMAGE": {
-          "id": "imagen-de-medición",
+          "id": "image-sizing",
           "src": "/courts-detail/mini/mini-sizing.webp",
           "alt": "Tamaños de pista Singlees interior y exterior"
         }
@@ -1895,7 +1891,7 @@
         },
         "TITLE": "Vidrio de Alta Calidad para pistas de pádel Mini",
         "SUBTITLE": "¡Vidrio de seguridad templado en cada pista!",
-        "DESCRIPTION": "<p>Cada pista incluye cristal templado de seguridad (10 o 12 mm) de fabricantes españoles con certificación CE.</p><p>Bordes pulidos, juntas de neopreno y fijaciones seguras para garantizar seguridad, estabilidad y máxima visibilidad, cumpliendo con las normas europeas.</p>"
+        "DESCRIPTION": "<p>Cada pista incluye <strong>cristal templado de seguridad (10 o 12 mm)</strong> de fabricantes españoles con certificación CE.</p><p>Bordes pulidos, juntas de neopreno y fijaciones seguras para garantizar seguridad, estabilidad y máxima visibilidad, cumpliendo con las normas europeas</p>"
       },
       "PAINT_SECTION": {
         "ID": "sección-de-pintura",
@@ -1935,9 +1931,9 @@
           }
         ],
         "LIST": [
-          "<strong>INTERIOR:</strong> Pintura en polvo con resinas termo-fundibles",
-          "<strong>EXTERIOR:</strong> Tratamiento de imprimación rica en zinc + pintura termo-fundible anticorrosiva",
-          "<strong>GALVANIZADO POR INMERSIÓN EN CALIENTE:</strong> Baño de zinc + pintura, ideal para zonas costeras o marinas"
+          "<strong>INDOOR:</strong> Pintura en polvo con resinas termo-fundibles",
+          "<strong>OUTDOOR:</strong> Tratamiento de imprimación rica en zinc + pintura termo-fundible anticorrosiva",
+          "<strong>HOT DIP GALVANIZED:</strong> Baño de zinc + pintura, ideal para zonas costeras o marinas"
         ]
       },
       "TURF_SECTION": {
@@ -1960,7 +1956,7 @@
         },
         "TITLE": "Iluminación Profesional para pistas de pádel Mini",
         "SUBTITLE": "¡Ilumina tu Juego con la Iluminación de Pistas de Pádel de Portico Sport!",
-        "DESCRIPTION": "<p>Ilumina tu pista con la iluminación LED de Portico Sport. Trabajamos con especialistas de primer nivel para ofrecer soluciones de iluminación de alto rendimiento:</p>",
+        "DESCRIPTION": "<p>LIlumina tu pista con la iluminación LED de Portico Sport. Trabajamos con especialistas de primer nivel para ofrecer soluciones de iluminación de alto rendimiento:</p>",
         "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Cumplen con la norma <strong>UNE-EN-12193:2020</strong></li><li>Luz uniforme, sin deslumbramientos ni sombras</li><li>Resistencia al impacto IK10 e impermeabilidad IP66-IP67</li><li>Protección contra sobretensiones (4kV-6kV), alta disipación térmica</li><li>Válido para uso recreativo (Clase III) hasta competiciones profesionales (Clase I, normativa NIDE)</li><li>Garantía de hasta 5 años</li></ul>"
       },
       "COST_SECTION": {
