@@ -183,6 +183,7 @@
         "ID": "faqs",
         "TITLE": "Poser des questions sur les constructeurs de Terrains de Padel",
         "TITLE_COURT": "Questions fréquentes sur la piste Club",
+        "TITLE_MINI": "Questions fréquentes sur nos mini-terrains de padel",
         "SUBTITLE": "Foire Aux Questions",
         "BUTTON":{  
   "TEXT":"Construisez votre court de padel !",  
@@ -227,7 +228,25 @@
         }, {
           "question": "Peut-elle être utilisée en compétition ?",
           "answer": "<p>Oui, elle respecte les normes internationales officielles du padel, ce qui la rend adaptée aux tournois et aux matchs de club. Pour des événements professionnels offrant une visibilité maximale au public, nous recommandons notre piste Tournament au design panoramique.</p>"
-      }]
+      }],
+        "QUESTIONS_MINI": [
+        {
+          "question": "Qu’est-ce qu’un mini-terrain de padel et pourquoi le choisir ?",
+          "answer": "<p>Portico Sport fabrique et installe des mini-terrains de padel haut de gamme, idéaux pour les maisons, les écoles et les espaces récréatifs avec un espace réduit. Avec la même qualité et sécurité que nos terrains professionnels, ils offrent toute l’excitation du padel dans un format plus compact.</p>"
+        },
+        {
+          "question": "Que comprend l’installation d’un mini-terrain de padel sur mesure ?",
+          "answer": "<p>Le coût d’installation d’un mini-terrain de padel est généralement inférieur à celui d’un terrain de taille complète en raison de sa taille réduite. Les prix varient selon les matériaux, les finitions et les caractéristiques supplémentaires choisies. Contactez-nous pour obtenir un devis personnalisé.</p>"
+        },
+        {
+          "question": "Combien coûte un mini-terrain de padel ?",
+          "answer": "<p>Bien sûr. Nous proposons de nombreuses options de personnalisation : couleurs RAL, types de gazon, finitions structurelles et éclairage. Il s’adapte entièrement à votre style et à vos besoins.</p>"
+        },
+        {
+          "question": "Pourquoi choisir un mini-terrain de padel ?",
+          "answer": "<p>Ils sont parfaits pour les espaces limités ou pour permettre aux plus jeunes d’apprendre ce sport. Très demandés dans les environnements urbains, les écoles et les clubs, ils conservent toutes les caractéristiques essentielles d’un terrain standard pour un jeu amusant et compétitif.</p>"
+        }
+      ]
       },      
       "CONTACT_SECTION": {
         "ID": "contact",
