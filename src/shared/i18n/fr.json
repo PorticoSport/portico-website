@@ -1877,11 +1877,11 @@
         "IMAGE": {
           "id": "section-information",
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
-          "alt": "Rendu d'un Terrain mobile"
+          "alt": "Rendu d’un court mobile"
         },
-        "TITLE": "Structure du Terrain par des Constructeurs Experts de Terrains de Padel",
-        "SUBTITLE": "Découvrez l'excellence de la structure de qualité premium de notre Terrain",
-        "TEXT": "<p>Un Terrain de padel de taille réduite fabriqué avec une structure en acier galvanisé assurant une résistance maximale à l'abrasion et à l'oxydation.</p><p>La structure du Terrain se compose de profils en acier galvanisé S275JR, ancrés solidement au sol à l'aide de plaques d'ancrage.</p><p>Les cadres latéraux et supérieurs sont complétés par une grille électro-soudée conforme aux normes UNE-EN-10223-4.</p><p>Pour atténuer les vibrations de la grille, la structure intègre un échafaudage intermédiaire. La fixation de la structure au revêtement de sol est réalisée avec des ancrages métalliques fraisés mesurant M8X80 mm. De plus, son processus d'assemblage est sans faille, grâce à des vis de sécurité auto-verrouillantes et des écrous en acier galvanisé.</p><p>La structure des Terrains de Padel Portico Sport subit des processus de fabrication incluant des technologies industrielles de pointe telles que :</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">La découpe au laser garantit des découpes précises et offre une finition de haute qualité.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Une ligne d'assemblage robotisée entièrement automatisée garantit la qualité des soudures, empêchant toute oxydation potentielle à l'avenir.</li></ul>"
+        "TITLE": "Structure de court par des experts en construction de courts de padel",
+        "SUBTITLE": "Découvrez l’excellence de notre structure de court de qualité premium",
+        "TEXT": "<p>Un court de padel de taille réduite fabriqué en acier galvanisé <strong>S275JR</strong> pour résister à l’abrasion et à la corrosion.</p><p>Les cadres latéraux et supérieurs incluent un treillis électrosoudé conforme à la norme <strong>UNE-EN-10223-4</strong>, avec échafaudage intermédiaire pour le contrôle des vibrations.</p><p>Montage rapide avec vis et écrous autobloquants galvanisés.</p><p>Notre structure suit des procédés de fabrication avancés :</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Découpe laser pour une précision et une finition nette</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Soudure robotisée pour garantir la qualité et éviter l’oxydation</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
