@@ -86,7 +86,6 @@ const compatibleCourts = isMobile
   : courts.filter((item) => item.title !== title && item.title !== i18n.PAGES.MOBILE_COURT.TITLE);
 
 const faqToShow = isMobile ? faqItemsShort : faqItems;
-const path = Astro.url.pathname;
 
 ---
 
@@ -282,33 +281,28 @@ robots="index,follow"
         language={language}
       /> : null
     }
-    {path.includes("/club") && (
-      <div class="w-full pt-28">
-        <div class="bg-gradient-to-br from-[#315A75] via-[#151a36] to-[#151a36]">
-          <SectionFaqs
-            items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_COURT}
-            title={i18n.PAGES.HOME.FAQS_SECTION.TITLE_COURT}
-            urlButton={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.URL}
-            buttonTitle={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TITLE}
-            urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
-          />
-        </div>
-      </div>
-    )}
-
-    {path.includes("/mini") && (
-      <div class="w-full pt-28">
-        <div class="bg-gradient-to-br from-[#315A75] via-[#151a36] to-[#151a36]">
-          <SectionFaqs
-            items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_MINI}
-            title={i18n.PAGES.HOME.FAQS_SECTION.TITLE_MINI}
-            urlButton={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.URL}
-            buttonTitle={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TITLE}
-            urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
-          />
-        </div>
-      </div>
-    )}
+    <div class="bg-gradient-to-br from-[#315A75] via-[#151a36] to-[#151a36]">
+        <SectionFaqs
+          items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_COURT}
+          title={i18n.PAGES.HOME.FAQS_SECTION.TITLE_COURT}
+          urlButton={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.URL}
+          buttonTitle={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TITLE}
+          urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
+    />
+    </div>
+    <div class="bg-slate-100 text-black">
+    {
+      isInstallationSection ? (
+        <SectionFaqs
+          language={language}
+          title={isInstallationSection.TITLE}
+          items={faqToShow}
+          className="text-black"
+          dark={true}
+        />
+      ) : null
+    }
+    </div>
     {
       isGallerySection ? (<Gallery
         id={isGallerySection.ID}
