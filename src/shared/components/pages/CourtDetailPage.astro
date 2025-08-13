@@ -291,6 +291,15 @@ robots="index,follow"
           urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
         />
       )}
+      {court === "MINI_COURT" && (
+        <SectionFaqs
+          items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_MINI}
+          title={i18n.PAGES.HOME.FAQS_SECTION.TITLE_MINI}
+          urlButton={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.URL}
+          buttonTitle={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TITLE}
+          urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
+        />
+      )}
     </div>
     {
       isGallerySection ? (<Gallery
