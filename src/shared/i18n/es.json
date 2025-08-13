@@ -1977,7 +1977,8 @@
         "SUBJECT": "Nueva petición de Mini Court",
         "TITLE": "Noticias",
         "BG_IMAGE": "/courts-detail/mini/mini-contact-bg.webp",
-        "IMAGE": "/courts-detail/mini/mini-court-contact.webp"
+        "IMAGE": "/courts-detail/mini/mini-court-contact.webp",
+        "DESCRIPTION": "<p>¿Interesado en instalar una pista de pádel mini? Contacta hoy con Portico Sport para hablar sobre tu proyecto. Nuestros expertos están listos para ayudarte a crear una pista de pádel mini personalizada que se adapte a tu espacio y a tus necesidades. Ya sea para uso personal o como complemento de una instalación, estamos aquí para ofrecerte pistas de la más alta calidad que mejoren tu experiencia deportiva.</p>"
       },
       "HOME_DESCRIPTION": "Los niños pueden comenzar a aprender pádel desde una edad muy temprana, pero el tamaño de una pista estándar puede resultarles intimidante. Con esta pista de pádel adaptada, los más pequeños pueden disfrutar del juego en un entorno diseñado específicamente para su altura y capacidad física.",
       "HOME_IMAGES": [
