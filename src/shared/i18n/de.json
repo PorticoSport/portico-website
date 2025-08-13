@@ -1883,8 +1883,8 @@
         "TITLE": "Maße des Mini-Padelplatzes",
         "INDOOR_TITLE": "Innenbereich",
         "OUTDOOR_TITLE": "Außenbereich",
-        "OUTDOOR": "<p><strong>Länge</strong>: 10 m x 5 m</p>",
-        "INDOOR": "<p><strong>Länge</strong>: 10,47 m x 5,47 m</p>",
+        "OUTDOOR": "<p><strong>Länge</strong>: 10,47 m x 5,47 m</p>",
+        "INDOOR": "<p><strong>Länge</strong>: 10 m x 5 m</p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/mini/mini-sizing.webp",
