@@ -1816,7 +1816,7 @@
       "CONTACT_BUTTON": "Quiero una pista Mini",
       "ROUTE": {
         "LABEL": "Más sobre la pista mini",
-        "URL": "/es/mini",
+        "URL": "/mini",
         "TITLE": "Mini Court"
       },
       "FIRST_SECTION": {
@@ -1958,13 +1958,8 @@
         "DESCRIPTION": "<p>Ilumina tu pista con la iluminación LED de Portico Sport. Trabajamos con especialistas de primer nivel para ofrecer soluciones de iluminación de alto rendimiento:</p>",
         "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Cumplen con la norma <strong>UNE-EN-12193:2020</strong></li><li>Luz uniforme, sin deslumbramientos ni sombras</li><li>Resistencia al impacto IK10 e impermeabilidad IP66-IP67</li><li>Protección contra sobretensiones (4kV-6kV), alta disipación térmica</li><li>Válido para uso recreativo (Clase III) hasta competiciones profesionales (Clase I, normativa NIDE)</li><li>Garantía de hasta 5 años</li></ul>"
       },
-      "COST_SECTION": {
-        "ID": "cost",
-        "TITLE": "¿Cuánto cuesta una pista de pádel mini?",
-        "DESCRIPTION": "El costo de instalar una pista de pádel mini es generalmente más bajo que el de una pista de tamaño completo debido a su tamaño reducido. Normalmente, el costo varía según los materiales utilizados y las características adicionales que desees. Para una estimación detallada, te recomendamos ponerte en contacto con nuestro equipo para obtener una cotización personalizada."
-      },
       "GALLERY_SECTION": {
-        "ID": "galería",
+        "ID": "galeria",
         "PATH": "courts-detail/mini/gallery",
         "OFFSET": 27
       },
