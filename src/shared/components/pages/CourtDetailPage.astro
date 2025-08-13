@@ -290,18 +290,16 @@ robots="index,follow"
           urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
     />
     </div>
-    <div class="bg-slate-100 text-black">
-    {
-      isInstallationSection ? (
-        <SectionFaqs
-          language={language}
-          title={isInstallationSection.TITLE}
-          items={faqToShow}
-          className="text-black"
-          dark={true}
-        />
-      ) : null
-    }
+    <div class="w-full pt-28">
+        <div class="bg-gradient-to-br from-[#315A75] via-[#151a36] to-[#151a36]">
+          <SectionFaqs
+            items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_MINI}
+            title={i18n.PAGES.HOME.FAQS_SECTION.TITLE_MINI}
+            urlButton={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.URL}
+            buttonTitle={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TITLE}
+            urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
+          />
+        </div>
     </div>
     {
       isGallerySection ? (<Gallery
