@@ -184,12 +184,13 @@
         "TITLE": "Poser des questions sur les constructeurs de Terrains de Padel",
         "TITLE_COURT": "Questions fréquentes sur la piste Club",
         "TITLE_MINI": "Questions fréquentes sur nos mini-terrains de padel",
+        "TITLE_SINGLE": "Questions fréquentes sur nos pistes de padel Single",
         "SUBTITLE": "Foire Aux Questions",
         "BUTTON":{  
-  "TEXT":"Construisez votre court de padel !",  
-  "TITLE":"Constructeurs de courts de padel",  
-  "URL":"/contact-client"  
-},
+          "TEXT":"Construisez votre court de padel !",  
+          "TITLE":"Constructeurs de courts de padel",  
+          "URL":"/contact-client"  
+        },
 
         "QUESTIONS": [{
           "question": "Quelle est la taille standard d'un terrain de padel ?",
@@ -246,6 +247,20 @@
           "question": "Pourquoi choisir un mini-terrain de padel ?",
           "answer": "<p>Ils sont parfaits pour les espaces limités ou pour permettre aux plus jeunes d’apprendre ce sport. Très demandés dans les environnements urbains, les écoles et les clubs, ils conservent toutes les caractéristiques essentielles d’un terrain standard pour un jeu amusant et compétitif.</p>"
         }
+      ],
+        "QUESTIONS_SINGLE": [{
+        "question": "Qu'est-ce qu'une piste de padel individuelle et pour qui est-elle destinée ?",
+        "answer": "<p>Portico Sport propose des pistes de padel individuelles, avec notre modèle Single, conçu pour répondre aux besoins des joueurs professionnels et amateurs. Elles sont parfaites pour les espaces réduits tout en conservant l'expérience complète du padel. Que ce soit pour une résidence privée, un club ou un complexe hôtelier, nous avons l'expérience nécessaire pour offrir une solution de haute qualité adaptée à vos besoins.</p>"
+      }, {
+        "question": "Quelles sont les dimensions d'une piste de padel individuelle ?",
+        "answer": "<p>Une piste de padel individuelle conserve la longueur standard de 20 m, mais avec une largeur réduite (6 m), idéale pour les matchs en 1 contre 1, les entraînements individuels ou les clubs cherchant à optimiser l'espace sans compromettre la qualité.</p>"
+      }, {
+        "question": "Peut-on utiliser une piste de padel Single pour l'entraînement professionnel ?",
+        "answer": "<p>Oui. Les pistes de padel Single sont construites selon les normes internationales, offrant un environnement optimal pour l'entraînement technique, l'amélioration de la précision et des matchs intenses en tête-à-tête. Elles conviennent aux joueurs amateurs comme professionnels.</p>"
+      }, {
+        "question": "Quels sont les principaux avantages d'une piste de padel individuelle ?",
+        "answer": "<p>Les pistes de padel individuelles offrent polyvalence, optimisation de l'espace et durabilité. Elles sont fabriquées avec des matériaux haut de gamme tels que l'acier galvanisé, le verre trempé et le gazon professionnel. Des options de personnalisation existent pour adapter la piste à vos besoins spécifiques.</p>"
+      }
       ]
       },      
       "CONTACT_SECTION": {
@@ -1610,7 +1625,7 @@
       "TYPE": "PRODUCT",
       "OG_IMG": "https://www.porticosport.com/og/og-single.jpg",
       "TITLE": "<span>Terrain individuel</span>",
-      "DESCRIPTION": "<p>Même longueur, largeur réduite permettant de profiter du padel en 1 contre 1. Ce Terrain est également idéal pour des cours individuels, des entraînements spécifiques ou pour maximiser l'espace d'utilisation dans votre club lorsque qu'un Terrain double ne convient pas.</p><p>Malgré sa taille réduite, il offre la même qualité premium et une durabilité exceptionnelle que le reste de nos terrains, ce qui en fait un excellent choix pour les clubs souhaitant élargir leur offre et proposer ce Terrain spécial.</p>",
+      "DESCRIPTION": "<p>Notre piste de padel Single conserve la même longueur qu'une piste standard mais avec une largeur réduite, parfaite pour les matchs en tête-à-tête.</p><p>Idéale pour les cours individuels, les entraînements spécifiques ou pour optimiser les espaces où une piste de double ne s'adapte pas, elle offre une expérience complète du padel dans un format compact.</p>",
       "NAME": "individuel",
       "LITTLE_DESCRIPTION": "<p>Même solidité dans des dimensions plus petites pour les joueurs solitaires.</p>",
       "SUBTITLE": "Même solidité dans des dimensions plus petites pour les joueurs solitaires.",
@@ -1623,151 +1638,144 @@
         "TITLE": "Terrain de padel individuel"
       },
       "FIRST_SECTION": {
-        "ID": "courts-views",
-        "TITLE": "<span class=\"text-secondary\">Terrain individuel : Adapté aux joueurs solitaires !</span>",
-        "DESCRIPTION": "<p>Le choix parfait pour perfectionner des compétences spécifiques et améliorer la précision dans votre jeu de padel.</p><p>Avec sa largeur réduite, ce Terrain permet des matchs intenses en tête-à-tête, ce qui en fait l'idéal pour des séances d'entraînement individuelles ou <strong>pour maximiser l'utilisation de l'espace dans votre club.</strong></p><p>Personnalisable selon vos préférences, notre Terrain individuel offre polyvalence et adaptabilité pour répondre à vos besoins.</p>",
+        "ID": "vues-de-pistes",
+        "TITLE": "<span class=\"text-secondary\"> Compactes mais puissantes : pistes de padel Mini de Portico Sport</span>",
+        "DESCRIPTION": "<p>Avec sa zone de jeu plus étroite, la piste de padel individuelle est parfaite pour améliorer la précision, les réflexes et les compétences techniques.</p><p>C'est un excellent choix pour des séances d'entraînement professionnelles, des cours particuliers ou des matchs récréatifs dans des espaces réduits.</p><p>Construite avec les mêmes matériaux haut de gamme et l'ingénierie de toutes les pistes de Portico Sport, elle offre durabilité, style et performance pour les clubs, complexes touristiques et résidences privées.</p><p>Totalement personnalisable en conception, couleurs et finitions, elle s'adapte à votre style tout en respectant les normes internationales du padel.</p>",
         "IMAGES": {
           "FRONT": {
-            "src": "/courts-detail/single/single-front.webp",
-            "alt": "Vue de face du Terrain individuel"
+            "src": "/courts-detail/mini/mini-front.webp",
+            "alt": "Vue frontale de la piste mini"
           },
           "PERSPECTIVE": {
-            "src": "/courts-detail/single/single-perspective.webp",
-            "alt": "Vue perspective du Terrain individuel"
+            "src": "/courts-detail/mini/mini-perspective.webp",
+            "alt": "Vue en perspective de la piste mini"
           },
           "TOP": {
-            "src": "/courts-detail/single/single-top.webp",
-            "alt": "Vue de dessus du Terrain individuel"
+            "src": "/courts-detail/mini/mini-top.webp",
+            "alt": "Vue supérieure de la piste mini"
           }
         }
       },
       "BENEFITS_SECTION": {
-        "ID": "benefits",
-        "TITLE": "Découvrez les avantages de notre Terrain individuel",
-        "SUBTITLE":"Pourquoi choisir un terrain de padel unique ?",
-        "DESCRIPTION": "Les Terrains de Padel simples sont idéaux pour ceux qui disposent d’un espace limité mais qui souhaitent tout de même profiter du jeu. Ces terrains de padel conservent toutes les caractéristiques clés d'un terrain de padel standard, mais sont conçus pour s'adapter à des zones plus petites, ce qui en fait une option polyvalente pour les environnements urbains, les maisons privées et les petits clubs. Il s'agit d'une solution rentable qui ne fait aucun compromis sur la qualité ou la jouabilité.",
-        "BENEFITS": [
-          {
-            "header": "Garantie de 10 ans",
-            "icon": "WarrantyIcon",
-            "footer": "Reposez-vous sur notre garantie de 10 ans sur l'intégrité structurelle de nos terrains, conçus pour résister à des vents violents."
-          },
-          {
-            "header": "Polyvalent et adaptable",
-            "icon": "VersatileCourtIcon",
-            "footer": "Idéal pour des cours individuels, des entraînements spécifiques ou pour maximiser l'espace d'utilisation, ce Terrain offre la même stabilité que les terrains conventionnels."
-          },
-          {
-            "header": "Matériaux premium",
-            "icon": "MaterialsIcon",
-            "footer": "Fabriqués avec des matériaux de qualité premium pour une résistance et une durabilité maximales, nos terrains offrent une qualité premium."
-          }
-        ]
+        "ID": "avantages",
+        "TITLE": "Découvrez les avantages de notre piste de padel Mini",
+        "BENEFITS": [{
+          "header": "Garantie de 10 ans",
+          "icon": "WarrantyIcon",
+          "footer": "Résistance structurelle garantie. Conçue pour résister aux vents forts"
+        }, {
+          "header": "Optimisation de l'espace",
+          "icon": "VersatileCourtIcon",
+          "footer": "S'adapte aux zones inadaptées aux pistes de double, sans perte de qualité de jeu"
+        }, {
+          "header": "Matériaux premium",
+          "icon": "MaterialsIcon",
+          "footer": "Acier galvanisé, verre trempé et gazon professionnel"
+        }]
       },
       "STRUCTURE_SECTION": {
         "ID": "structure",
         "IMAGE": {
           "id": "section-information",
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
-          "alt": "Rendu d'un Terrain mobile"
+          "alt": "Rendu d'une piste mobile"
         },
-        "TITLE": "Constructeurs Experts de Terrains de Padel : Structures Supérieures",
-        "SUBTITLE": "Découvrez l'excellence de la structure de qualité premium de notre Terrain",
-        "TEXT": "<p>Conçu avec une structure en acier galvanisé, ce Terrain offre la même longueur mais une largeur réduite, garantissant toujours une résistance maximale à l'abrasion et à l'oxydation.</p><p>La structure du Terrain se compose de profils en acier galvanisé S275JR, solidement ancrés au sol à l'aide de plaques d'ancrage.</p><p>Les cadres latéraux et supérieurs sont complétés par une grille électrosoudée conforme aux normes UNE-EN-10223-4. Pour atténuer les vibrations de la grille, la structure intègre des échafaudages intermédiaires. La fixation de la structure au sol est réalisée à l'aide d'ancrages métalliques fraisés mesurant M8X80 mm. De plus, son processus d'assemblage est sans faille, grâce à des vis de sécurité autobloquantes et des écrous en acier galvanisé.</p><p>La structure des Terrains de Padel Portico Sport est soumise à des processus de fabrication comprenant des technologies industrielles de pointe telles que :</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">La découpe laser garantit des découpes précises et offre une finition de haute qualité.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Une ligne d'assemblage robotisée entièrement automatisée garantit la qualité des soudures, empêchant toute oxydation potentielle à l'avenir.</li></ul>"
+        "TITLE": "Structure de pistes par des fabricants experts",
+        "SUBTITLE": "Découvrez l'excellence de la structure de haute qualité de nos pistes de padel",
+        "TEXT": "<p>Une piste de padel de taille réduite fabriquée en acier galvanisé <strong>S275JR</strong>, avec une haute résistance à l'abrasion et à la corrosion.</p><p>Les cadres latéraux et supérieurs incluent un treillis soudé conforme à la norme <strong>UNE-EN-10223-4</strong>, avec des renforts intermédiaires pour éviter les vibrations.</p><p>Montage rapide grâce à une visserie galvanisée avec système de verrouillage automatique.</p><p>Toutes nos structures sont fabriquées avec des procédés de fabrication avancés :</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Découpe laser pour des finitions précises et nettes</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Soudage robotisé pour garantir la qualité et prévenir l'oxydation</li></ul>"
       },
       "SIZING_SECTION": {
-        "ID": "measure-section",
-        "TITLE": "Mesures du Terrain individuel",
+        "ID": "section-des-dimensions",
+        "TITLE": "Dimensions de la piste de padel Mini",
         "INDOOR_TITLE": "Intérieur",
         "OUTDOOR_TITLE": "Extérieur",
-        "OUTDOOR": "<p><strong>Longueur</strong> : 20,47 m </p><p><strong>Largeur</strong> : 6,47 m </p>",
-        "INDOOR": "<p><strong>Longueur</strong> : 20 m </p><p><strong>Largeur</strong> : 6 m </p>",
+        "OUTDOOR": "<p><strong>Longueur</strong>: 20,47 m x 6,47 m</p>",
+        "INDOOR": "<p><strong>Longueur</strong>: 20 m x 6 m</p>",
         "IMAGE": {
           "id": "image-sizing",
-          "src": "/courts-detail/single/single-sizing.webp",
-          "alt": "Tailles intérieure et extérieure du Terrain individuel"
+          "src": "/courts-detail/mini/mini-sizing.webp",
+          "alt": "Dimensions de la piste Single en intérieur et extérieur"
         }
       },
       "GLASS_SECTION": {
-        "ID": "glass-section",
+        "ID": "section-des-vitres",
         "IMAGE": {
-          "id": "advantage-section",
-          "src": "/courts-detail/mobile/mobile-glasses.webp",
+          "id": "section-des-avantages",
+            "src": "/courts-detail/mobile/mobile-glasses.webp",
           "width": 574,
           "height": 323,
-          "alt": "Terrain mobile breveté par Portico Sport"
+          "alt": "Piste mobile brevetée par Portico Sport"
         },
-        "TITLE": "Verre de Haute Qualité pour Terrains de Padel Simples",
-        "SUBTITLE": "Verre de sécurité trempé dans chaque Terrain !",
-        "DESCRIPTION": "<p>Découvrez une sécurité et une durabilité inégalées dans nos Terrains de Padel. Malgré sa taille, notre Terrain individuel offre le même attrait esthétique que le reste de nos terrains et est doté de vitres de sécurité trempées, disponibles en épaisseur de 10 ou 12 mm, adaptées aux exigences spécifiques de ce Terrain. Soyez assuré, notre verre répond à toutes les normes réglementaires pour les installations de ce type. En partenariat avec des fabricants espagnols réputés bénéficiant du marquage CE, nous garantissons une qualité irréprochable dans tous les aspects de notre construction.</p><p>Le <strong>VERRE</strong> est réalisé avec du verre trempé clair aux bords polis, fixé à la structure métallique à l'aide de bagues en polyéthylène fraisées, de vis galvanisées et de joints en néoprène pour un support parfait verre/métal, avec un total de 6 trous d'ancrage. Nos panneaux de verre présentent des propriétés physiques et mécaniques exceptionnelles, notamment une résistance aux chocs et une planéité optimale.</p>"
+        "TITLE": "Verre de haute qualité pour pistes de padel Mini",
+        "SUBTITLE": "Verre de sécurité trempé sur chaque piste !",
+        "DESCRIPTION": "<p>Chaque piste comprend un <strong>verre trempé de sécurité (10 ou 12 mm)</strong> provenant de fabricants espagnols certifiés CE.</p><p>Bords polis, joints en néoprène et fixations sécurisées pour garantir sécurité, stabilité et visibilité maximale.</p><p>Conçu pour résister aux impacts et offrir des performances à long terme, le verre respecte toutes les normes européennes pour le jeu professionnel.</p>"
       },
       "PAINT_SECTION": {
-        "ID": "paint-section",
-        "TITLE": "Options de Laque Vibrantes par les Constructeurs de Terrains de Padel",
-        "SUBTITLE": "Saviez-vous que vous pouvez désormais ajouter une touche de couleur à votre Terrain ?",
-        "DESCRIPTION": "<p>Découvrez l'apogée de la distinction dans la construction de Terrains de Padel avec une gamme de types de laques, offrant des options infinies pour peindre les structures de votre Terrain dans des teintes vibrantes. Notre <strong>PEINTURE LAQUÉE</strong> offre une résistance maximale à l'abrasion et à l'oxydation. Choisissez la couleur RAL qui correspond à vos préférences et démarquez-vous avec nos options de couleur personnalisables.</p><p>Laissez votre Terrain refléter votre style et votre personnalité uniques en optant pour une apparence monochromatique ou en injectant une énergie vibrante avec un schéma bicolore. Avec la bonne peinture, même un Terrain de taille réduite se démarquera.</p>",
+        "ID": "section-de-peinture",
+        "TITLE": "Peinture pour structures de pistes de padel",
+        "SUBTITLE": "Saviez-vous que vous pouvez ajouter une touche de couleur à votre piste de padel Mini ?",
+        "DESCRIPTION": "<p>Personnalisez votre piste avec des couleurs RAL en design monochrome ou bicolore, avec des finitions de peinture haute durabilité :</p>",
+        "DESCRIPTION_DOS": "Avec la bonne peinture, même une piste plus petite se démarquera.",
         "IMAGES": [
           {
-            "id": "slide-3",
+            "id": "diapositive-1",
+            "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
+            "alt": "Piste mobile peinte en orange"
+          },
+          {
+            "id": "diapositive-2",
+            "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
+            "alt": "Piste mobile peinte en orange"
+          },
+          {
+            "id": "diapositive-3",
             "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
-            "alt": "Extérieur d'un Terrain mobile jaune"
+            "alt": "Extérieur d'une piste mobile jaune"
           },
           {
-            "id": "slide-4",
-            "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
-            "alt": "Extérieur d'un Terrain mobile jaune"
-          },
-          {
-            "id": "slide-5",
-            "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "alt": "Terrain mobile peint en jaune"
-          },
-          {
-            "id": "slide-6",
-            "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
-            "alt": "Structure bleue peinte"
-          },
-          {
-            "id": "slide-7",
+            "id": "diapositive-7",
             "src": "/courts-detail/mobile/structure-painted-mobile-7.webp",
-            "alt": "Structure bleue peinte"
+            "alt": "Structure peinte en bleu"
           },
           {
-            "id": "slide-11",
-            "src": "/courts-detail/mobile/structure-painted-mobile-11.webp",
-            "alt": "Structure bleue peinte à l'intérieur"
+            "id": "diapositive-8",
+            "src": "/courts-detail/mobile/structure-painted-mobile-8.webp",
+            "alt": "Structure peinte en rose"
           },
           {
-            "id": "slide-12",
-            "src": "/courts-detail/mobile/structure-painted-mobile-12.webp",
-            "alt": "Structure grise peinte à l'intérieur"
+            "id": "diapositive-9",
+            "src": "/courts-detail/mobile/structure-painted-mobile-9.webp",
+            "alt": "Une piste violette"
           }
         ],
         "LIST": [
-          "<strong>INTÉRIEUR :</strong> revêtement en poudre formulé avec des résines thermofusibles.",
-          "<strong>EXTÉRIEUR :</strong> traitement primaire en poudre thermofusible avec une teneur élevée en zinc formulée pour améliorer la protection contre la corrosion de l'acier galvanisé.",
-          "<strong>GALVANISATION À CHAUD :</strong> traitement de zinc fondu à une température de 450 ºC afin d'obtenir une protection élevée des pièces contre la corrosion dans les environnements marins. Comprend un revêtement en poudre formulé avec des résines thermofusibles."
+          "<strong>INTÉRIEUR :</strong> Peinture en poudre avec résines thermofusibles",
+          "<strong>EXTÉRIEUR :</strong> Traitement d'apprêt riche en zinc + peinture thermofusible anticorrosion",
+          "<strong>GALVANISÉ À CHAUD :</strong> Bain de zinc + peinture, idéal pour les zones côtières ou marines"
         ]
       },
       "TURF_SECTION": {
-        "ID": "turf-section",
+        "ID": "section-de-gazon",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-top.webp",
-          "alt": "Vue de dessus du Terrain mobile"
+          "alt": "Vue supérieure de la piste mobile"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Gazon Haute Performance pour Terrains de Padel Simples</span>",
-        "SUBTITLE": "Profitez de performances inégalées sur notre gazon !",
-        "DESCRIPTION": "<p>Nous nous associons aux meilleures entreprises de gazon pour garantir que votre Terrain reçoive une gazon de qualité premium. Chaque Terrain est équipé d'une gazon de dernière génération conçue avec des monofilaments texturés, offrant différentes épaisseurs et hauteurs de pile, une abrasion très faible, fabriquée en polyéthylène (PE) et des additifs spécifiques offrant une résistance élevée à l'usure et un traitement anti-UV, résistant à la chaleur et aux fluctuations météorologiques extrêmes.</p><p>Remplissage de stabilisation et ballast utilisant du sable de silice arrondi, lavé et séché, avec 97% de silice, granulométrie entre 0,2 - 0,6 mm en une quantité approximative de 10-15 Kg/m2, en fonction du modèle de gazon.</p><p>Notre gazon de pointe garantit aux joueurs de padel une vitesse de jeu optimisée et un rebond de balle amélioré et offre la possibilité de fibres droites ou bouclées et est disponible dans une grande variété de couleurs.</p>"
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Gazon artificiel de qualité pour pistes de padel Mini</span>",
+        "SUBTITLE": "Découvrez la performance inégalée de notre gazon artificiel !",
+        "DESCRIPTION": "<p>Profitez d'une performance inégalée avec notre gazon de dernière génération, provenant de fabricants européens de confiance.</p><p>Notre gazon artificiel offre :</p>",
+        "DESCRIPTION_DOS": "Disponible en plusieurs couleurs et types de fibres pour s'adapter à vos préférences.",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Gazon en fibres texturées de polyéthylène à faible abrasion.</li><li>Traitement anti-UV, haute résistance à la chaleur et aux intempéries.</li><li>Remplissage de sable de silice lavé et séché (10-15 kg/m²) pour un rebond et une vitesse de balle optimaux.</li></ul>"
       },
       "LIGHTING_SECTION": {
-        "ID": "lighting-section",
+        "ID": "section-declairage",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-lighting.webp",
-          "alt": "Éclairage de Terrain mobile"
+          "alt": "Éclairage de la piste mobile"
         },
-        "TITLE": "Solutions d'Éclairage LED par des Experts en Terrains de Padel",
-        "SUBTITLE": "Illuminez votre jeu avec l'éclairage de Terrain de padel de Portico Sport !",
-        "DESCRIPTION": "<p>Profitez de la meilleure solution d'éclairage LED pour les Terrains de Padel, exclusivement proposée par Portico Sport en partenariat avec des spécialistes de premier plan dans le domaine.</p><p>Notre éclairage de Terrain de padel garantit une illumination optimale et une uniformité sur toutes les zones de jeu. Du filet aux zones d'accès, à l'arrière-plan, aux lignes de touche et aux zones de balle haute, notre solution d'éclairage élimine l'éblouissement et les ombres, offrant aux joueurs une visibilité et des performances inégalées.</p><p>La qualité de nos projecteurs, conçus pour résister aux impacts jusqu'à IK10, avec des degrés de scellement IP66-IP67 et une résistance aux surtensions de 4kV - 6kV, combinée aux capacités élevées de dissipation thermique des boîtiers, permet une durée de vie prolongée de nos projecteurs, avec une garantie pouvant aller jusqu'à 5 ans.</p><p>Nos projecteurs sont conçus pour couvrir tous les types de terrains spécifiés dans la norme européenne pour l'éclairage sportif (UNE-EN-12193:2020), allant de l'utilisation récréative (Classe III) aux compétitions professionnelles ou aux diffusions télévisées (Classe I - norme NIDE).</p>"
+        "TITLE": "Éclairage professionnel pour pistes de padel",
+        "SUBTITLE": "Illuminez votre piste avec l'éclairage de Portico Sport !",
+        "DESCRIPTION": "<p>Illuminez votre piste de padel Single avec l'éclairage LED de Portico Sport. Nous travaillons avec des spécialistes de premier plan pour offrir des solutions d'éclairage haute performance :</p>",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Conforme à la norme <strong>UNE-EN-12193:2020</strong></li><li>Lumière uniforme, sans éblouissement ni ombre</li><li>Résistance aux impacts IK10 et étanchéité IP66-IP67</li><li>Protection contre les surtensions (4kV-6kV), dissipation thermique élevée</li><li>Convient pour un usage récréatif (Classe III) jusqu'aux compétitions professionnelles (Classe I, norme NIDE)</li><li>Garantie jusqu'à 5 ans</li></ul>"
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
