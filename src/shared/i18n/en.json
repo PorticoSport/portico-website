@@ -701,6 +701,7 @@
         "TITLE": "ASK Question about Padel Court Builders",
         "TITLE_COURT": "Frequently Asked Questions About Our Club Padel Courts",
         "TITLE_MINI": "Frequently Asked Questions About Our Mini Padel Courts",
+        "TITLE_SINGLE": "Frequently Asked Questions About Our Single Padel Courts",
         "TITLE_USA": "ASK Question about Padel court manufacturers in USA",
         "TITLE_UK":"ASK Question about build a padel court in UK",
         "TITLE_OCEANIA":"ASK Question about Padel courts in Oceania",
@@ -749,6 +750,20 @@
         }, {
           "question": "Can the Club Court be used in padel tournaments or events?",
           "answer": "<p>Yes — the Club Court fully complies with official international padel regulations, making it suitable for club-level competitions and matches. However, if you're looking for optimal spectator visibility and professional event setups, we recommend our Tournament Court for the ultimate panoramic experience.</p>"
+        }
+      ],
+        "QUESTIONS_SINGLE": [{
+          "question": "What is a Single Padel court and who is it for?",
+          "answer": "<p>Portico Sport offers top-tier Single Padel courts designed to meet the needs of both professional and amateur players. Our Single Padel courts are perfect for smaller spaces while still providing the full Padel experience. Whether you need a court for a private residence, a club, or a resort, we have the expertise to deliver a high-quality solution that fits your requirements.</p>"
+        }, {
+          "question": "What are the dimensions of a Single Padel court?",
+          "answer": "<p>A Single Padel court maintains the standard length of 20m but has a reduced width (6m), making it ideal for 1vs1 matches, individual training, or clubs looking to maximize space without compromising quality.</p>"
+        }, {
+          "question": "Can a Single Padel court be used for professional training?",
+          "answer": "<p>Yes. Single Padel courts are built to international standards, providing an optimal environment for technical training, precision improvement, and intense one-on-one matches. They are suitable for both amateur and professional players.</p>"
+        }, {
+          "question": "What are the main benefits of a Single Padel court?",
+          "answer": "<p>Single Padel courts offer versatility, space efficiency, and durability. They are made with premium materials such as galvanized steel, tempered glass, and professional-grade turf. Customization options are available to tailor the court to your specific needs.</p>"
         }
       ],
         "QUESTIONS_MINI": [{
@@ -3633,7 +3648,7 @@
       "SEO_DESCRIPTION":"Discover the Single Padel Court, perfect for 1vs1 matches or individual training sessions. Same premium quality and durability in a smaller size. Learn more!",
       "OG_IMG": "https://www.porticosport.com/og/og-single.jpg",
       "TITLE": "<span>Single Padel court</span>",
-      "DESCRIPTION": "<p>Same length, reduced width enabling padel to be enjoyed 1vs1. This Padel court is also ideal for individual classes, specific training or to maximize utilization space in your club where a doubles court does not fit.</p><p>Despite its smaller size, it features the same premium quality and exceptional durability as the rest of our courts, making it a great choice for clubs looking to expand their offerings and provide this special court.</p>",
+      "DESCRIPTION": "<p>Our Single Padel Court keeps the same length as a standard court but with reduced width, perfect for 1vs1 games. Ideal for individual lessons, targeted training, or making use of spaces where a doubles court won’t fit, it offers a full padel experience in a compact format.</p>",
       "NAME": "Single",
       "LITTLE_DESCRIPTION": "<p>Same strength in smaller dimensions for solo players.</p>",
       "SUBTITLE": "Same strength in smaller dimensions for solo players.",
@@ -3648,7 +3663,7 @@
       "FIRST_SECTION": {
         "ID": "courts-views",
         "TITLE": "<span class=\"text-secondary\">Single Padel Court: Tailored for Solo Players!</span>",
-        "DESCRIPTION": "<p>The perfect choice for honing specific skills and improving precision in your padel game.</p><p>With its reduced width, this court allows for intense one-on-one matches, making it ideal for individual training sessions or <strong>maximizing the use of space in your club.</strong></p><p>Customizable to meet your preferences, our Single Court offers versatility and adaptability to suit your needs.</p><p>Portico Sport offers top-tier Single Padel courts designed to meet the needs of both professional and amateur players. Our Single Padel courts are perfect for smaller spaces while still providing the full Padel experience. Whether you need a court for a private residence, a club, or a resort, we have the expertise to deliver a high-quality solution that fits your requirements.</p><p>Our Single Padel courts are crafted with precision, using the best materials to ensure durability and performance. Each Padel court is designed to international standards, ensuring that you receive a product that is both functional and aesthetically pleasing.</p>",
+        "DESCRIPTION": "<p>With its narrow playing area, the Single Court is perfect for improving accuracy, reflexes, and technical skills. It’s an excellent choice for professional training sessions, private coaching, or recreational matches in smaller spaces.</p><p>Built with the same premium materials and engineering as all Portico Sport courts, it delivers durability, style, and performance for clubs, resorts, and private homes.</p><p>Fully customisable in design, colours, and finishes, it adapts to your style while maintaining international padel standards.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/single/single-front.webp",
@@ -3667,20 +3682,18 @@
       "BENEFITS_SECTION": {
         "ID": "benefits",
         "TITLE": "Experience the benefits of our Single Padel court",
-        "SUBTITLE":"Why Choose a Single Padel Court?",
-        "DESCRIPTION": "Single Padel courts are ideal for those who have limited space but still want to enjoy the game. These Padel courts maintain all the key features of a standard Padel court but are designed to fit smaller areas, making them a versatile option for urban environments, private homes, and smaller clubs. They are a cost-effective solution that does not compromise on quality or playability.",
         "BENEFITS": [{
-          "header": "10 years warranty",
+          "header": "10-year warranty",
           "icon": "WarrantyIcon",
-          "footer": "Rest assured with our 10-year warranty on the structural integrity of our courts, designed to withstand high wind speeds."
+          "footer": "Guaranteed structural integrity, engineered to withstand strong winds"
         }, {
           "header": "Versatile and adaptability",
           "icon": "VersatileCourtIcon",
-          "footer": "Ideal for individual classes, specific training or to maximize utilization space  this court offers the same stability as conventional courts"
+          "footer": "Fits in areas unsuitable for doubles courts, without losing play quality"
         }, {
           "header": "Premium materials",
           "icon": "MaterialsIcon",
-          "footer": "Crafted with premium materials for maximum strength and durability, our courts offer premium quality."
+          "footer": "Galvanised steel, tempered glass, and professional-grade tur"
         }]
       },
       "STRUCTURE_SECTION": {
@@ -3690,21 +3703,21 @@
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
           "alt": "Render of a mobile court"
         },
-        "TITLE": "Expert Padel Court Builders: Superior Structures",
-        "SUBTITLE": "Experience the excellence of our premium quality Padel court structure",
-        "TEXT": "<p>Crafted with galvanized steel structure, this court offers the same length but reduced width, always ensuring maximum resistance to abrasion and oxidation.</p><p>The court structure consists of galvanized S275JR steel profiles, anchored securely to the ground using anchor plates.</p><p>The side and top frames are complemented by electro-welded mesh in accordance with UNE-EN-10223-4 standards. To mitigate mesh vibrations, the structure incorporates intermediate scaffolding. Fastening the structure to the pavement is achieved with countersunk metal anchors measuring M8X80 mm. Plus, its assembly process is seamless, thanks to self-locking safety screws and nuts made of galvanized steel.</p><p>The structure of Portico Sport padel courts undergoes manufacturing processes including cutting-edge industrial technologies such as:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laser cutting guarantees precise cuts and delivers high-quality finishing.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">A fully automated robotic welding assembly line guarantees the quality of welds, preventing potential oxidation in the future.</li></ul>"
+        "TITLE": "Court Structure by expert Padel Court Builders",
+        "SUBTITLE": "Experience the excellence of our premium quality court structure",
+        "TEXT": "<p>A reduced-size padel court crafted from galvanized <strong>S275JR</strong> steel for abrasion and corrosion resistance.</p><p>Side and top frames include <strong>UNE-EN-10223-4</strong> compliant electro-welded mesh with intermediate scaffolding for vibration control.</p><p>Quick assembly with galvanized self-locking screws and nuts.</p><p>Our structure undergoes advanced manufacturing processes:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laser-cut steel ensures precision and clean finishes</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Robotic welding guarantees quality and prevents oxidation</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
-        "TITLE": "Single Court dimensions",
+        "TITLE": "Mini Padel Court dimensions",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
-        "OUTDOOR": "<p><strong>Length</strong>: 20,47 m </p><p><strong>Width</strong>: 6,47 m </p>",
-        "INDOOR": "<p><strong>Length</strong>: 20 m </p><p><strong>Width</strong>: 6 m </p>",
+        "OUTDOOR": "<p><strong>Length</strong>: 20.47 m x 6.47 m</p>",
+        "INDOOR": "<p><strong>Length</strong>: 20 m x 6 m</p>",
         "IMAGE": {
           "id": "image-sizing",
-          "src": "/courts-detail/single/single-sizing.webp",
-          "alt": "Interior and exterior Single court sizes"
+          "src": "/courts-detail/mini/mini-sizing.webp",
+          "alt": "Interior and exterior single court sizes"
         }
       },
       "GLASS_SECTION": {
@@ -3716,48 +3729,45 @@
           "height": 323,
           "alt": "Mobile court patented by Portico Sport"
         },
-        "TITLE": "High-Quality Glass for Single Padel Courts",
+        "TITLE": "High-Quality Glass for Mini Padel Courts",
         "SUBTITLE": "Tempered Safety Glass in Every Court!",
-        "DESCRIPTION": "<p>Discover unrivaled safety and durability in our padel courts. Despite its size, our single court boasts the same aesthetic appeal as the rest of our courts and features tempered safety glass, available in either 10 or 12 mm thickness, tailored to the specific requirements of this court. Rest assured, our glass meets all regulatory standards for installations of this kind. Partnering with esteemed Spanish manufacturers boasting CE marking, we guarantee top-notch quality in every aspect of our construction.</p><p><strong>GLAZING</strong> is done using clear tempered glass with polished edges, fixed to the metal structure using countersunk polyethylene bushings, galvanized screws and neoprene gaskets for perfect glass/metal support, with a total of 6 anchor holes. Our glass panels boast outstanding physical and mechanical properties, including impact resistance and optimal flatness.</p>"
+        "DESCRIPTION": "<p>Our Single Courts feature <strong>10 or 12 mm CE-certified tempered safety glass</strong> from top Spanish manufacturers.</p><p>Clear polished edges, neoprene gaskets, and galvanised fixings ensure safety, stability, and excellent visibility. Designed for impact resistance and long-term performance, the glass meets all European standards for professional play.</p>"
       },
       "PAINT_SECTION": {
         "ID": "paint-section",
-        "TITLE": "Vibrant Lacquer Options from Padel Court Builders",
+        "TITLE": "Structure Paint for Padel Courts",
         "SUBTITLE": "Did you know that now you can add a splash of color to your court?",
-        "DESCRIPTION": "<p>Discover the epitome of distinction in padel court construction with a range of lacquer types, providing endless options to paint your court's structures in vibrant hues. Our LACQUERED PAINT offers maximum resistance to abrasion and oxidation. Choose the RAL color that suits your preference and stand out on with our customizable color options.</p><p>Let your court reflect your unique style and personality by opting for a monochromatic appearance or injecting vibrant energy with a bicolor scheme. With the right paint, even a smaller court will stand out.</p>",
+        "DESCRIPTION": "<p>Add a touch of personality with your choice of <strong>RAL colors</strong>, monocolor or bicolor designs with durable lacquer paint options:</p>",
+        "DESCRIPTION_DOS": "With the right paint, even a smaller court will stand out",
         "IMAGES": [{
+          "id": "slide-1",
+          "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
+          "alt": "Orange painted mobile court"
+        },{
+          "id": "slide-2",
+          "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
+          "alt": "Orange painted mobile court"
+        },{
           "id": "slide-3",
           "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
           "alt": "Exterior of a yellow mobile court"
-        },{
-          "id": "slide-4",
-          "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
-          "alt": "Exterior of a yellow mobile court"
-        },{
-          "id": "slide-5",
-          "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-          "alt": "Yellow painted mobile court"
-        },{
-          "id": "slide-6",
-          "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
-          "alt": "Blue structure painted"
-        },{
+        }, {
           "id": "slide-7",
           "src": "/courts-detail/mobile/structure-painted-mobile-7.webp",
           "alt": "Blue structure painted"
         },{
-          "id": "slide-11",
-          "src": "/courts-detail/mobile/structure-painted-mobile-11.webp",
-          "alt": "Blue structure painted in interior"
+          "id": "slide-8",
+          "src": "/courts-detail/mobile/structure-painted-mobile-8.webp",
+          "alt": "Pink structure painted"
         },{
-          "id": "slide-12",
-          "src": "/courts-detail/mobile/structure-painted-mobile-12.webp",
-          "alt": "Gray structure painted in interior"
+          "id": "slide-9",
+          "src": "/courts-detail/mobile/structure-painted-mobile-9.webp",
+          "alt": "A violet court"
         }],
         "LIST": [
-          "<strong>INDOOR:</strong> powder coating formulated with thermos-fusible resins.",
-          "<strong>OUTDOOR:</strong> thermo-fusible powder primer treatment with a high zinc content formulated to improve the corrosion protection of galvanized steel.",
-          "<strong>HOT DIP GALVANIZED:</strong> treatment of molten zinc at a temperature of 450 ºC in order to achieve high protection of parts against corrosion in marine environments. Includes powder coating formulated with thermo-fusible resins."
+          "<strong>INDOOR:</strong> Powder coating with thermos-fusible resins",
+          "<strong>OUTDOOR:</strong> Zinc-rich thermo-fusible primer + powder coating for corrosion protection",
+          "<strong>HOT DIP GALVANIZED:</strong> Zinc bath treatment + powder coating for marine or high-humidity environments"
         ]
       },
       "TURF_SECTION": {
@@ -3766,9 +3776,11 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Mobile court top view"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">High-Performance Turf for Single Padel Courts</span>",
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">High-Performance Turf for Mini Padel Courts</span>",
         "SUBTITLE": "Experience Unmatched Performance on our Turf!",
-        "DESCRIPTION": "<p>We partner with the top turf companies to ensure your court receives premium quality turf. Every court is equipped with the latest generation turf engineered with textured monofilaments, featuring different thickness and pile heights, very low abrasion, made of polyethylene (PE) and specific additives with high resistance to wear and anti-UV treatment, resistant to heat and extreme weather fluctuations.</p><p>Stabilization fill and ballast using rounded, washed and dried silica sand, with 97% silica, granulometry between 0,2 - 0,6 mm in an approximate quantity of 10-15 Kg/m2, depending on the lawn model.</p><p>Our cutting-edge turf guarantees padel players an optimized playing speed and improved ball bounce and offers the option of straight or curled fibers and is available in a wide variety of colors.</p>"
+        "DESCRIPTION": "<p>Our latest-generation turf from trusted European manufacturers ensures professional performance.</p><p>Every padel court includes:</p>",
+        "DESCRIPTION_DOS": "Our turf offers a professional playing experience in various colors and fiber types.",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Next-gen polyethylene turf with textured monofilaments</li><li>UV-resistant, low-abrasion, stable under heat and weather</li><li>Silica sand infill (10-15 kg/m²) for optimized ball bounce and speed</li></ul>"
       },
       "LIGHTING_SECTION": {
         "ID": "lighting-section",
@@ -3776,9 +3788,10 @@
           "src": "/courts-detail/mobile/mobile-lighting.webp",
           "alt": "Mobile court lighting"
         },
-        "TITLE": "LED Lighting Solutions by Padel Court Experts",
+        "TITLE": "Quality Led Lighting for Mini Padel Courts",
         "SUBTITLE": "Illuminate Your Game with Portico Sport's Padel Court Lighting!",
-        "DESCRIPTION": "<p>Enjoy the ultimate LED lighting solution for padel courts, exclusively offered by Portico Sport in partnership with leading specialists in the field.</p><p>Our padel court lighting ensures optimal illumination and uniformity across all playing areas. From the net to the access zones, background, sidelines, and high ball zones, our lighting solution eliminates glare and shadows, providing players with unparalleled visibility and performance.</p><p>The quality of our projectors, designed to withstand impacts up to IK10, with IP66-IP67 sealing degrees and resistance to voltage surges of 4kV - 6kV, combined with high heat dissipation capabilities of the housings, allows for an extended lifespan of our projectors, with a warranty of up to 5 years.</p><p>Our projectors are designed to cover all types of courts specified in the European standard for sports lighting (UNE-EN-12193:2020), ranging from recreational use (Class III) to professional competitions or televised broadcasts (Class I - NIDE standard).</p>"
+        "DESCRIPTION": "<p>Light up your padel court with premium <strong>LED lighting solutions</strong>, in partnership with top-tier specialists:</p>",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Fully compliant with <strong>UNE-EN-12193:2020</strong></li><li>Uniform light with no glare or shadows</li><li>Impact resistance IK10, IP66–IP67 waterproofing</li><li>Voltage surge protection (4kV - 6kV), high heat dissipation</li><li>Suitable for recreational use (Class III) and professional events (Class I, NIDE standard)</li><li>5-year warranty</li></ul>"
       },
       "INSTALLATION_SECTION": {
         "ID": "installation",
