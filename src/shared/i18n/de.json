@@ -182,6 +182,7 @@
         "TITLE_COURT": "Häufig gestellte Fragen zum Club-Court",
         "TITLE_MINI": "Häufig gestellte Fragen zu unseren Mini-Padelplätzen",
         "TITLE_SINGLE": "Häufig gestellte Fragen zu unseren Single-Padelplätzen",
+        "TITLE_CLUB_FORCE_80_COURT": "Häufig gestellte Fragen zu unseren Single-Padelplätzen",
         "SUBTITLE": "Häufig gestellte Fragen",
         "BUTTON":{  
           "TEXT":"Baue deinen Padelplatz!",  
@@ -256,7 +257,21 @@
       "question": "Was sind die Hauptvorteile eines Einzel-Padelplatzes?",
       "answer": "<p>Einzel-Padelplätze bieten Vielseitigkeit, Platzeffizienz und Langlebigkeit. Sie werden aus hochwertigen Materialien wie verzinktem Stahl, gehärtetem Glas und professionellem Kunstrasen hergestellt. Es gibt individuelle Anpassungsoptionen, um den Platz genau auf Ihre Bedürfnisse abzustimmen.</p>"
     }
-    ]
+    ],
+        "QUESTIONS_CLUB_FORCE_80_COURT": [{
+          "question": "Ist der Platz für Regionen mit extremen Wetterbedingungen geeignet?",
+          "answer": "<p>Absolut. Speziell für Gebiete mit Hurrikans oder Stürmen entwickelt, um maximale Sicherheit und Haltbarkeit zu gewährleisten. Mit seinem originalen Design und hochwertigen Materialien bietet der Club Force 80 maximale Langlebigkeit und Stabilität und ist damit ideal für Regionen mit extrem widrigen Wetterbedingungen.</p>"
+        }, {
+          "question": "Welche Materialien werden beim Club Force 80 verwendet?",
+          "answer": "<p>Verzinkter S275JR-Stahl, verstärkte Strebepfeiler und elektroschweißtes Gitter sorgen für höchste Qualität, Haltbarkeit und Leistung.</p>"
+        }, {
+          "question": "Kann der Platz im Freien in Küsten- oder feuchten Umgebungen installiert werden?",
+          "answer": "<p>Ja. Die verzinkte Stahlkonstruktion und korrosionsbeständige Beschichtungen gewährleisten eine langfristige Leistung, selbst in rauen Klimazonen.</p>"
+        }, {
+          "question": "Was macht das Design des Club Force 80 einzigartig?",
+          "answer": "<p>Der Platz integriert ein exklusives System von Strebepfeilern und einen fortschrittlichen Verankerungsmechanismus, der speziell für Hurrikan-gefährdete Regionen entwickelt wurde. Dadurch hebt er sich von herkömmlichen Padelplätzen ab und kann Hurrikanwinden von bis zu 80 m/s standhalten – und das bei gleichbleibender Ästhetik.</p>"
+        }
+      ]
       },      
       "CONTACT_SECTION": {
         "ID": "contact",
@@ -1221,7 +1236,7 @@
       "TYPE": "PRODUCT",
       "OG_IMG": "https://www.porticosport.com/og/og-club-force-80.jpg",
       "TITLE": "<span>Club Force 80 Court</span>",
-      "DESCRIPTION": "<p>Seit 2021 hat unser Club Force 80 Court eine eigene Kategorie geschaffen. Ein Platz, der speziell für Gebiete mit extremen Wetterbedingungen konzipiert wurde und sich als der widerstandsfähigste Padelplatz auf dem Markt auszeichnet.</p><p>Von den Ingenieuren von Portico Sport entworfen, zeichnet sich die Struktur dieses Platzes durch ein überlegenes Design von Strebepfeilern und ein spezielles Verankerungssystem aus, das in der Lage ist, Hurrikanwinden von bis zu 80 m/s (288,0 km/h) standzuhalten.</p><p>Die Kombination aus seinem originellen Design und hochwertigen Materialien macht ihn zum stabilsten und langlebigsten Platz, ideal für Gebiete mit extrem widrigen Wetterbedingungen.</p><p>Wenn Sie Padel unabhängig von den herausfordernden Wetterbedingungen genießen möchten, ist der Club Force 80 Court eine ausgezeichnete Wahl.</p>",
+      "DESCRIPTION": "<p>Seit 2021 hat der Club Force 80 eine eigene Kategorie geschaffen: ein Padelplatz, der für extreme Wetterbedingungen konzipiert wurde und sich als der widerstandsfähigste Platz auf dem Markt auszeichnet.</p><p>Entwickelt von Portico Sport verfügt seine Struktur über verstärkte Strebepfeiler und ein spezielles Verankerungssystem, das <strong>Hurrikanwinden von bis zu 80 m/s (288 km/h)</strong> standhalten kann.</p><p>Genießen Sie Padel ohne Kompromisse – egal bei welchen Bedingungen.</p>",
       "LITTLE_DESCRIPTION": "<p>Genießen Sie Padel unabhängig von den herausfordernden Wetterbedingungen.</p>",
       "SUBTITLE": "Genießen Sie Padel unabhängig von den herausfordernden Wetterbedingungen.",
       "CONTACT_TITLE_1": "Möchten Sie einen Club Force 80 Court?",
@@ -1235,66 +1250,64 @@
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
-        "TITLE": "<span class=\"text-secondary\">Entfesseln Sie die Kraft der Widerstandsfähigkeit mit dem Club Force 80 Court!</span>",
-        "DESCRIPTION": "<p>Sorgfältig entwickelt, um Hurrikanwinden standzuhalten, ohne die strukturelle Ästhetik zu beeinträchtigen.</p><p>Entwickelt, um auch bei extremen Wetterbedingungen ein komfortables Spiel zu ermöglichen, wird er durch Windgeschwindigkeitsberechnungen gestützt, die auf die Anforderungen technisch anspruchsvoller Märkte zugeschnitten sind.</p><p>Verglichen mit anderen Modellen auf dem Markt zeichnet sich unser Platz durch seine Robustheit und Widerstandsfähigkeit aus, während er eine attraktive Ästhetik bewahrt, die sicherstellt, dass das Stahl nicht vom Gesamtbild ablenkt.</p>",
+        "TITLE": "<span class=\"text-secondary\">Club Padelplatz: Wo Qualität auf Langlebigkeit trifft!</span>",
+        "DESCRIPTION": "<p>Sorgfältig konstruiert, um Hurrikanwinden standzuhalten und gleichzeitig strukturelle Eleganz zu bewahren.</p><p>Der Platz bietet sicheres und komfortables Spiel bei extremen Wetterbedingungen, unterstützt durch Windgeschwindigkeitsberechnungen für technisch anspruchsvolle Umgebungen.</p><p>Im Vergleich zu anderen Modellen besticht der Club Force 80 durch seine Robustheit und Widerstandsfähigkeit, kombiniert mit hoher Leistung und einem ansprechenden Design, das die Ästhetik von Premiumstahl hervorhebt.</p>",
         "IMAGES": {
           "FRONT": {
-            "src": "/courts-detail/club-force-80/club-force-80-front.webp",
-            "alt": "Frontansicht des Force 80 Courts"
+            "src": "/courts-detail/club/club-front.webp",
+            "alt": "Vorderansicht des Clubplatzes"
           },
           "PERSPECTIVE": {
-            "src": "/courts-detail/club-force-80/club-force-80-perspective.webp",
-            "alt": "Perspektivansicht des Force 80 Courts"
+            "src": "/courts-detail/club/club-perspective.webp",
+            "alt": "Perspektivansicht des Clubplatzes"
           },
           "TOP": {
-            "src": "/courts-detail/club-force-80/club-force-80-top.webp",
-            "alt": "Topansicht des Force 80 Courts"
+            "src": "/courts-detail/club/club-top.webp",
+            "alt": "Draufsicht auf den Clubplatz"
           }
         }
       },
       "BENEFITS_SECTION": {
         "ID": "benefits",
-        "TITLE": "Erleben Sie die Vorteile unseres Club Force 80 Courts",
-        "BENEFITS": [
-          {
-            "header": "10 Jahre Garantie",
-            "icon": "WarrantyIcon",
-            "footer": "Speziell entwickelt, um Hurrikanwinden standzuhalten, können Sie sich entspannt zurücklehnen, denn unsere Plätze sind durch eine 10-jährige Garantie auf die strukturelle Integrität abgesichert."
-          },
-          {
-            "header": "Der widerstandsfähigste Padelplatz",
-            "icon": "VersatileCourtIcon",
-            "footer": "Sein originelles Strukturdesign und hochwertige Materialien machen ihn zum stabilsten und langlebigsten Platz, ohne seine Ästhetik zu beeinträchtigen."
-          },
-          {
-            "header": "Hochwertige Materialien",
-            "icon": "MaterialsIcon",
-            "footer": "Hergestellt aus hochwertigen Materialien für maximale Festigkeit und Haltbarkeit bieten unsere Plätze Premiumqualität in jedem Detail."
-          }
-        ]
+        "TITLE": "Erleben Sie die Vorteile unseres Club Padelplatzes",
+        "BENEFITS": [{
+          "header": "10 Jahre Garantie",
+          "icon": "WarrantyIcon",
+          "footer": "Strukturelle Integrität auch bei Hurrikanwinden garantiert"
+        }, {
+          "header": "Der widerstandsfähigste Padelplatz",
+          "icon": "VersatileCourtIcon",
+          "footer": "Originelles Design und Premium-Materialien machen ihn zum robustesten und langlebigsten Platz auf dem Markt"
+        }, {
+          "header": "Premium-Qualität",
+          "icon": "MaterialsIcon",
+          "footer": "Verzinkter Stahl, verstärkte Struktur, gehärtetes Glas und fortschrittliche Technik für Langlebigkeit und Leistung"
+        }]
       },
       "STRUCTURE_SECTION": {
-        "ID": "structure",
+        "ID": "Club court: Strukturelle Exzellenz",
         "IMAGE": {
           "id": "section-information",
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
-          "alt": "Render eines mobilen Platzes"
+          "alt": "Rendering eines mobilen Platzes"
         },
-        "TITLE": "Strukturen",
-        "SUBTITLE": "Erleben Sie die Exzellenz unserer Premium-Qualitätsplatzstruktur",
-        "TEXT": "<p>Entwickelt, um Hurrikanwinden standzuhalten, verfügt unser Platz über zusätzliche Verstärkungen mit einem Design aus Strebepfeilern, die maximale Widerstandsfähigkeit gegen Abrieb und Oxidation mit seiner feuerverzinkten Stahlstruktur gewährleisten.</p><p>Die Platzstruktur besteht aus feuerverzinkten S275JR-Stahlprofilen, die mit einem speziellen Verankerungssystem sicher im Boden verankert sind. Die Seiten- und Oberrahmen werden durch elektroverschweißte Netze gemäß den Standards UNE-EN-10223-4 ergänzt.</p><p>Um Vibrationen des Netzes zu verhindern, umfasst die Struktur Zwischengerüste. Die Befestigung der Struktur am Boden erfolgt mit versenkten Metallankern mit den Maßen M8X80 mm. Darüber hinaus ist der Montageprozess dank selbstsichernder Sicherheitsschrauben und Muttern aus feuerverzinktem Stahl nahtlos.</p><p>Die Struktur der Padelplätze von Portico Sport durchläuft Herstellungsprozesse, die modernste industrielle Technologien wie folgt einschließen:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laserschneiden garantiert präzise Schnitte und liefert eine hochwertige Oberflächenbearbeitung.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Eine vollautomatische robotergesteuerte Schweißmontagelinie garantiert die Qualität der Schweißnähte und verhindert mögliche Oxidationen in der Zukunft.</li></ul>"
+        "TITLE": "Robuste Stahlkonstruktion für Hochleistungs-Padelplätze",
+        "SUBTITLE": "Erleben Sie die Exzellenz unserer Premium-Padelplatzstruktur",
+        "TEXT": "<p>Für maximale Widerstandsfähigkeit verfügt der Platz über Stahlstrebepfeiler und zusätzliche Verstärkungen. Hergestellt aus verzinkten <strong>S275JR</strong>-Stahlprofilen für Abrieb- und Korrosionsbeständigkeit.</p><p>Seiten- und obere Rahmen enthalten ein elektroschweißtes Gitter gemäß UNE-EN-10223-4 mit Zwischenverstrebungen zur Vibrationskontrolle.</p><p>Die Befestigung am Boden erfolgt mit versenkten Metallankern <strong>M8X80 mm</strong>, während die Montage durch verzinkte, selbstsichernde Schrauben und Muttern vereinfacht wird.</p><p>Unser fortschrittlicher Herstellungsprozess umfasst:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Lasergeschnittener Stahl sorgt für Präzision und saubere Oberflächen</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Roboterschweißen garantiert Qualität und verhindert Oxidation</li></ul>",
+        "SUBTEXT_TITLE": "Upgrade auf CLUB+!",
+        "SUBTEXT": "<p>Sie können auch auf die Club+ Version upgraden <strong>für erhöhte Windbeständigkeit (bis zu 131,40 km/h)</strong> mit verstärkten Stahlprofilen.</p>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
-        "TITLE": "Maße des Club Force 80 Courts",
+        "TITLE": "Abmessungen des Club Padelplatzes",
         "INDOOR_TITLE": "Innen",
         "OUTDOOR_TITLE": "Außen",
-        "OUTDOOR": "<p><strong>Länge</strong>: 20,87 m </p><p><strong>Breite</strong>: 10,87 m </p>",
-        "INDOOR": "<p><strong>Länge</strong>: 20 m </p><p><strong>Breite</strong>: 10 m </p>",
+        "OUTDOOR": "<p><strong>Länge</strong>: 20,87 m x 10,87 m</p>",
+        "INDOOR": "<p><strong>Länge</strong>: 20 m x 10 m</p>",
         "IMAGE": {
           "id": "image-sizing",
-          "src": "/courts-detail/club-force-80/club-Force-80-sizing.webp",
-          "alt": "Innen- und Außenabmessungen des Club Force-80 Courts"
+          "src": "/courts-detail/club/Club-sizing.webp",
+          "alt": "Innen- und Außenmaße des Clubplatzes"
         }
       },
       "GLASS_SECTION": {
@@ -1304,69 +1317,65 @@
           "src": "/courts-detail/mobile/mobile-glasses.webp",
           "width": 574,
           "height": 323,
-          "alt": "Mobiler Platz patentiert von Portico Sport"
+          "alt": "Mobiler Platz, patentiert von Portico Sport"
         },
-        "TITLE": "Gläser",
+        "TITLE": "Schlagfestes Glas für Padelplätze bei extremem Wetter",
         "SUBTITLE": "Gehärtetes Sicherheitsglas in jedem Platz!",
-        "DESCRIPTION": "<p>Entdecken Sie unübertroffene Sicherheit und Haltbarkeit in unseren Padelplätzen. Jeder Platz verfügt über gehärtetes Sicherheitsglas, das in 10 oder 12 mm Dicke erhältlich ist und auf die spezifischen Anforderungen Ihres Projekts zugeschnitten ist. Seien Sie versichert, unser Glas erfüllt alle gesetzlichen Standards für Installationen dieser Art. In Zusammenarbeit mit angesehenen spanischen Herstellern mit CE-Kennzeichnung garantieren wir Spitzenqualität in jedem Aspekt unserer Konstruktion.</p><p><strong>VERGLASUNG</strong> erfolgt mit klarem gehärtetem Glas mit polierten Kanten, das mit versenkten Polyethylen-Buchsen, feuerverzinkten Schrauben und Neoprengummis zur perfekten Glas-/Metallunterstützung befestigt ist, mit insgesamt 6 Ankerlöchern. Unsere Glaspaneele weisen herausragende physikalische und mechanische Eigenschaften auf, einschließlich Schlagfestigkeit und optimaler Planheit.</p>"
+        "DESCRIPTION": "<p>Unsere hurrikanresistenten Padelplätze verfügen über <strong>12 mm CE-zertifiziertes gehärtetes Sicherheitsglas</strong> von führenden spanischen Herstellern.</p><p>Klar polierte Kanten, Neoprendichtungen und verzinkte Befestigungen sorgen für Sicherheit, Stabilität und hervorragende Sicht. Das Glas ist stoßfest und für eine langfristige Leistung ausgelegt und erfüllt alle europäischen Standards für professionelles Spiel.</p>"
       },
       "PAINT_SECTION": {
         "ID": "paint-section",
-        "TITLE": "Strukturlackierung",
-        "SUBTITLE": "Wussten Sie, dass Sie Ihrem Platz jetzt einen Farbtupfer hinzufügen können?",
-        "DESCRIPTION": "<p>Entdecken Sie das Höchstmaß an Unterscheidung in der Padelplatzkonstruktion mit einer Reihe von Lacktypen, die endlose Möglichkeiten bieten, die Strukturen Ihres Platzes in lebendigen Farben zu lackieren. Unser LACKIERTER LACK bietet maximale Beständigkeit gegen Abrieb und Oxidation. Wählen Sie die RAL-Farbe, die Ihren Vorlieben entspricht, und stechen Sie mit unseren anpassbaren Farboptionen heraus.</p><p>Ob Sie sich für ein monochromes Aussehen entscheiden oder mit einem zweifarbigen Schema lebendige Energie einbringen möchten, lassen Sie Ihren Platz Ihren einzigartigen Stil und Ihre Persönlichkeit widerspiegeln, um sicherzustellen, dass er auf dem Platz Aufmerksamkeit erregt.</p>",
-        "IMAGES": [
-          {
-            "id": "slide-1",
-            "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
-            "alt": "Orange lackierter mobiler Platz"
-          },
-          {
-            "id": "slide-2",
-            "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
-            "alt": "Orange lackierter mobiler Platz"
-          },
-          {
-            "id": "slide-5",
-            "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "alt": "Gelber lackierter mobiler Platz"
-          },
-          {
-            "id": "slide-6",
-            "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
-            "alt": "Blau lackierte Struktur"
-          },
-          {
-            "id": "slide-10",
-            "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
-            "alt": "Blau lackierte Struktur"
-          }
-        ],
+        "TITLE": "Langlebige Lackierlösungen für Padelplätze bei extremem Wetter",
+        "DESCRIPTION": "<p>Verleihen Sie Ihrem Platz Persönlichkeit mit Ihrer Wahl an RAL-Farben, einfarbig oder zweifarbig, mit langlebigen Lackoptionen:</p>",
+        "IMAGES": [{
+          "id": "slide-1",
+          "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
+          "alt": "Mobiler Platz in Orange gestrichen"
+        },{
+          "id": "slide-2",
+          "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
+          "alt": "Mobiler Platz in Orange gestrichen"
+        },{
+          "id": "slide-9",
+          "src": "/courts-detail/mobile/structure-painted-mobile-9.webp",
+          "alt": "Violetter Platz"
+        },{
+          "id": "slide-10",
+          "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
+          "alt": "Blaue Struktur gestrichen"
+        }, {
+          "id": "slide-12",
+          "src": "/courts-detail/mobile/structure-painted-mobile-12.webp",
+          "alt": "Graue Struktur im Innenbereich gestrichen"
+        }],
         "LIST": [
-          "<strong>INNEN:</strong> Pulverbeschichtung mit thermisch schmelzbaren Harzen formuliert.",
-          "<strong>AUSSEN:</strong> Thermisch schmelzbares Pulverprimer-Behandlung mit einem hohen Zinkgehalt, formuliert zur Verbesserung des Korrosionsschutzes von feuerverzinktem Stahl.",
-          "<strong>FEUERVERZINKT:</strong> Behandlung von geschmolzenem Zink bei einer Temperatur von 450 ºC, um einen hohen Schutz der Teile gegen Korrosion in marinen Umgebungen zu erreichen. Beinhaltet Pulverbeschichtung mit thermisch schmelzbaren Harzen."
+          "<strong>INNEN:</strong> Pulverbeschichtung mit thermoplastischen Harzen",
+          "<strong>AUßEN:</strong> Zinkreicher Primer + Pulverbeschichtung für Korrosionsschutz",
+          "<strong>FEUERVERZINKT:</strong> Zinkbadbehandlung + Pulverbeschichtung für maritime oder feuchte Umgebungen"
         ]
       },
       "TURF_SECTION": {
         "ID": "turf-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-top.webp",
-          "alt": "Topansicht des mobilen Platzes"
+          "alt": "Draufsicht auf einen mobilen Platz"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Rasen</span>",
-        "SUBTITLE": "Erleben Sie unübertroffene Leistung auf unserem Rasen!",
-        "DESCRIPTION": "<p>Wir arbeiten mit den besten Rasenunternehmen zusammen, um sicherzustellen, dass Ihr Platz Rasen von erstklassiger Qualität erhält. Jeder Platz ist mit Rasen der neuesten Generation ausgestattet, der mit strukturierten Monofilamenten, unterschiedlichen Dicken und Höhen des Fasermoppes, sehr geringem Verschleiß, aus Polyethylen (PE) und speziellen Additiven mit hoher Beständigkeit gegen Abrieb und UV-Behandlung, beständig gegen Hitze und extreme Wetterfluktuationen hergestellt wird.</p><p>Stabilisierungsfüllung und Ballastierung mit abgerundetem, gewaschenem und getrocknetem Silikatsand, mit 97 % Silika, Granulometrie zwischen 0,2 - 0,6 mm in einer ungefähren Menge von 10-15 kg/m², je nach Rasenmodell.</p><p>Unser hochmoderner Rasen garantiert Padel-Spielern eine optimierte Spielgeschwindigkeit und verbesserten Ballaufprall und bietet die Möglichkeit gerader oder gewellter Fasern und ist in einer Vielzahl von Farben erhältlich.</p>"
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Fortschrittliche Rasensysteme für Padelplätze</span>",
+        "SUBTITLE": "Erleben Sie unvergleichliche Leistung auf unserem Rasen!",
+        "DESCRIPTION": "<p>Unser <strong>Rasen der neuesten Generation</strong> von vertrauenswürdigen europäischen Herstellern sorgt für professionelle Leistung.</p><p>Jeder Padelplatz beinhaltet:</p>",
+        "DESCRIPTION_DOS": "Unser Rasen bietet ein professionelles Spielerlebnis in verschiedenen Farben und Fasertypen.",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Polyethylenrasen der neuesten Generation mit strukturierten Monofilamenten</li><li>UV-beständig, geringe Abrasion, hitze- und wetterbeständig</li><li>Quarzsandfüllung (10–15 kg/m²) für optimierten Ballabsprung und -geschwindigkeit</li></ul>"
       },
       "LIGHTING_SECTION": {
         "ID": "lighting-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-lighting.webp",
-          "alt": "Mobile Platzbeleuchtung"
+          "alt": "Beleuchtung eines mobilen Platzes"
         },
-        "TITLE": "Fortschrittliche LED-Beleuchtung für Padelplätze",
-        "SUBTITLE": "Beleuchten Sie Ihr Spiel mit der Padelplatz-Beleuchtung von Portico Sport!",
-        "DESCRIPTION": "<p>Erhellen Sie den Platz mit unseren hochwertigen LED-Beleuchtungssystemen, entwickelt in Zusammenarbeit mit führenden Spezialisten.</p><p><ul class=\"list-disc pl-4\"><li>Vollständig konform mit der Norm <span>UNE-EN-12193:2020</span></li><li>Gleichmäßige, blendfreie Lichtverteilung</li><li><span>IK10</span> Schlagfestigkeit <span>IP66-IP67</span> wateWasserschutz</li><li>Überspannungsschutz (4 kV – 6 kV), hohe Wärmeableitung</li><li>Geeignet für Freizeiteinsatz (Klasse III) und professionelle Veranstaltungen (Klasse I, NIDE-Standard)</li><li>Bis zu 5 Jahre Garantie</li></ul></p>"
+        "TITLE": "Hochleistungs-LED-Beleuchtungslösungen für Padelplätze",
+        "SUBTITLE": "Erhellen Sie Ihr Spiel mit der Padelplatzbeleuchtung von Portico Sport!",
+        "DESCRIPTION": "<p>Beleuchten Sie Ihren Padelplatz mit hochwertigen LED-Lösungen in Zusammenarbeit mit führenden Spezialisten.</p>",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Vollständig konform mit <strong>UNE-EN-12193:2020</strong></li><li>Gleichmäßiges Licht ohne Blendung oder Schatten</li><li>Schlagfestigkeit IK10, wasserdicht IP66–IP67</li><li>Überspannungsschutz (4kV - 6kV), hohe Wärmeableitung</li><li>Geeignet für Freizeitnutzung (Klasse III) und professionelle Veranstaltungen (Klasse I, NIDE-Standard)</li><li>5 Jahre Garantie</li></ul>"
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
