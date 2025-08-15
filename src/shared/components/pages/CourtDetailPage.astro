@@ -311,6 +311,16 @@ robots="index,follow"
           urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
         />
       )}
+
+      {court === "CLUB_FORCE_80_COURT" && (
+        <SectionFaqs
+          items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_CLUB_FORCE_80_COURT}
+          title={i18n.PAGES.HOME.FAQS_SECTION.TITLE_CLUB_FORCE_80_COURT}
+          urlButton={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.URL}
+          buttonTitle={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TITLE}
+          urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
+        />
+      )}
     </div>
     {
       isGallerySection ? (<Gallery
