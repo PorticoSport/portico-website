@@ -183,6 +183,7 @@
         "TITLE_MINI": "Häufig gestellte Fragen zu unseren Mini-Padelplätzen",
         "TITLE_SINGLE": "Häufig gestellte Fragen zu unseren Single-Padelplätzen",
         "TITLE_CLUB_FORCE_80_COURT": "Häufig gestellte Fragen zu unseren Single-Padelplätzen",
+        "TITLE_PANORAMIC_COURT": "Häufig gestellte Fragen zu Panoramischen Padelplätzen",
         "SUBTITLE": "Häufig gestellte Fragen",
         "BUTTON":{  
           "TEXT":"Baue deinen Padelplatz!",  
@@ -270,6 +271,20 @@
         }, {
           "question": "Was macht das Design des Club Force 80 einzigartig?",
           "answer": "<p>Der Platz integriert ein exklusives System von Strebepfeilern und einen fortschrittlichen Verankerungsmechanismus, der speziell für Hurrikan-gefährdete Regionen entwickelt wurde. Dadurch hebt er sich von herkömmlichen Padelplätzen ab und kann Hurrikanwinden von bis zu 80 m/s standhalten – und das bei gleichbleibender Ästhetik.</p>"
+        }
+      ],
+        "QUESTIONS_PANORAMIC_COURT": [{
+          "question": "Ist der Panoramische Platz sowohl für den Innen- als auch für den Außenbereich geeignet?",
+          "answer": "<p>Ja, seine verzinkte Stahlstruktur und die hochwertigen Materialien gewährleisten Leistung und Langlebigkeit in allen Umgebungen.</p>"
+        }, {
+          "question": "Kann der Panoramische Padelplatz individuell gestaltet werden?",
+          "answer": "<p>Absolut. Der Panoramische Platz bietet umfangreiche Anpassungsmöglichkeiten, einschließlich Lackierung, Glastranzparenz, Rahmenoberflächen und Rasenfarben. Außerdem können verschiedene Zubehörteile integriert werden, um einen einzigartigen Platz zu schaffen.</p>"
+        }, {
+          "question": "Wie unterscheidet sich die Sichtbarkeit des Panoramischen Platzes von einem Standard-Padelplatz?",
+          "answer": "<p>Der Panoramische Platz bietet dank seiner hochfesten Glaswände uneingeschränkte Sicht und ermöglicht Spielern und Zuschauern eine vollständige 360°-Perspektive. Im Gegensatz zu Standard-Padelplätzen mit teilweise verglasten Wänden verbessert das Panoramadekor das visuelle Erlebnis und schafft eine offenere und immersivere Umgebung.</p>"
+        }, {
+          "question": "Erfordert der Platz aufgrund seiner Glaswände eine besondere Wartung?",
+          "answer": "<p>Die Wartung ist einfach; regelmäßige Reinigung und Kontrolle der Befestigungen gewährleisten eine langanhaltende Leistung und ästhetische Attraktivität.</p>"
         }
       ]
       },      
@@ -847,8 +862,7 @@
       "TYPE": "PRODUCT",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic.jpg",
       "TITLE": "Panoramaplatz",
-      "DESCRIPTION": "<p>Entwickelt und hergestellt von der Ingenieursabteilung von Portico Sport, verfügt dieses Platzmodell über Glaswände hoher Festigkeit, die eine Panoramaaussicht auf die Umgebung bieten und ein einzigartiges und aufregendes Spielerlebnis sowohl innerhalb als auch außerhalb des Platzes schaffen.</p><p>Aufgrund seiner visuellen Attraktivität wird dieser Platz zunehmend von Kunden nachgefragt, die allen ihren Spielern ein unverwechselbares Spielerlebnis bieten möchten.</p><p>Wenn Sie einen Padelplatz suchen, der ein einzigartiges und aufregendes Spielerlebnis bietet, sind die Panoramaplätze eine ausgezeichnete Wahl.</p>",
-      "NAME": "Panoramaplatz",
+      "DESCRIPTION": "<p>Entwickelt und hergestellt von Portico Sport, verfügt der Panoramische Padelplatz über hochfeste Glaswände, die eine ungehinderte Sicht auf die Umgebung bieten und so ein einzigartiges und spannendes Spielerlebnis ermöglichen.</p><p>Seine visuelle Attraktivität macht ihn zur ersten Wahl für Kunden, die eine besondere Spielumgebung schaffen möchten. Ob für den Innen- oder Außenbereich – der Panoramische Platz bietet ein erstklassiges Padel-Erlebnis.</p>",
       "SUBTITLE": "Vorstellung des Panoramaplatzes von Portico Sport",
       "LITTLE_DESCRIPTION": "<p>Genießen Sie Padel mit einer Panoramaaussicht auf die Umgebung.</p>",
       "DETAIL_TITLE": "<span>Panoramaplatz</span>",
@@ -862,45 +876,41 @@
         "TITLE": "Panoramaplatz"
       },
       "FIRST_SECTION": {
-        "TITLE": "<span class=\"text-secondary\">Erweitern Sie Ihr Spiel mit unvergleichlichen Aussichten!</span>",
-        "DESCRIPTION": "<p>Allmählich wird unser Panoramaplatz zum meistgefragten Platzmodell.</p><p>Trotz seines Panoramaglases sorgt das Design für eine größere Verstärkung und eine robuste Struktur. Ideal für den Innen- und Außenbereich, überzeugt er in verschiedenen Umgebungen und bietet ein hervorragendes Spielerlebnis.</p><p>Darüber hinaus bietet er umfangreiche Anpassungsoptionen, um sicherzustellen, dass er sich nahtlos in seine Installationsumgebung einfügt.</p>",
+        "TITLE": "<span class=\"text-secondary\">Erhöhen Sie Ihr Spiel mit unvergleichlicher Aussicht!</span>",
+        "DESCRIPTION": "<p>Unser Panoramaplatz kombiniert Glaswände mit einer stabilen Struktur und gewährleistet Sicherheit und Stabilität, ohne die Ästhetik zu beeinträchtigen.</p><p>Ideal für verschiedene Umgebungen, bietet der Platz exzellentes Gameplay und umfangreiche Anpassungsmöglichkeiten, um sich perfekt in die Umgebung einzufügen.</p><p>Als Hersteller und Installateure garantiert Portico Sport, dass jeder Panoramische Platz internationalen Standards entspricht und gleichzeitig ein außergewöhnliches Spielerlebnis für Spieler und Zuschauer bietet.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/panoramic/panoramic-front.webp",
-            "alt": "Frontansicht des Panoramaplatzes"
+            "alt": "Frontansicht Panoramaplatz"
           },
           "PERSPECTIVE": {
             "src": "/courts-detail/panoramic/panoramic-perspective.webp",
-            "alt": "Perspektivansicht des Panoramaplatzes"
+            "alt": "Perspektivansicht Panoramaplatz"
           },
           "TOP": {
             "src": "/courts-detail/panoramic/panoramic-top.webp",
-            "alt": "Topansicht des Panoramaplatzes"
+            "alt": "Draufsicht Panoramaplatz"
           }
         }
       },
       "BENEFITS_SECTION": {
         "ID": "benefits",
-        "TITLE": "Erleben Sie die Vorteile unseres Panoramaplatzes",
-        "SUBTITLE": "Warum einen Panorama-Padelplatz wählen?",
-        "DESCRIPTION": "Panorama-Padelplätze erfreuen sich aufgrund ihres modernen Designs und der verbesserten Sichtbarkeit immer größerer Beliebtheit. Das Fehlen von Metallstrukturen rund um die Glasscheiben sorgt für ein elegantes, offenes Gefühl, das sowohl optisch ansprechend als auch funktional ist. Diese Padel-Plätze eignen sich perfekt für hochkarätige Veranstaltungen, Clubs, die mehr Mitglieder gewinnen möchten, oder alle, die Wert auf ein erstklassiges Sportumfeld legen.",
-        "BENEFITS": [
-          {
-            "header": "10 Jahre Garantie",
-            "icon": "WarrantyIcon",
-            "footer": "Seien Sie beruhigt mit unserer 10-jährigen Garantie auf die strukturelle Integrität unserer Plätze, die sicherstellt, dass sie selbst starken Winden standhalten. Genießen Sie sie ohne jegliche Sorgen!"
-          },
-          {
-            "header": "Vielseitiger Platz",
-            "icon": "VersatileCourtIcon",
-            "footer": "Ideal für den Innen- und Außenbereich sind unsere Plätze die erste Wahl für Clubs, die ästhetisch ansprechende und vielseitige Spielflächen suchen."
-          },
-          {
-            "header": "Hochwertige Materialien",
-            "icon": "MaterialsIcon",
-            "footer": "Hergestellt aus hochwertigen Materialien für maximale Festigkeit und Haltbarkeit bieten unsere Plätze in jedem Detail Premiumqualität."
-          }
-        ]
+        "TITLE": "Erleben Sie die Vorteile unseres Panoramischen Padelplatzes",
+        "SUBTITLE": "Warum einen Panoramischen Padelplatz wählen?",
+        "DESCRIPTION": "Panoramische Padelplätze werden immer beliebter aufgrund ihres modernen Designs und der verbesserten Sichtbarkeit. Das Fehlen von Metallstrukturen um die Glaswände vermittelt ein elegantes, offenes Gefühl, das sowohl ästhetisch ansprechend als auch funktional ist. Diese Plätze sind ideal für hochkarätige Events, Clubs, die mehr Mitglieder gewinnen möchten, oder alle, die eine Premium-Sportumgebung schätzen.",
+        "BENEFITS": [{
+          "header": "10 Jahre Garantie",
+          "icon": "WarrantyIcon",
+          "footer": "Strukturelle Integrität garantiert, gebaut um starken Winden standzuhalten"
+        }, {
+          "header": "Vielseitiges Design",
+          "icon": "VersatileCourtIcon",
+          "footer": "Perfekt für Innen- und Außenbereiche, ästhetisch ansprechend und anpassungsfähig"
+        }, {
+          "header": "Hochwertige Materialien",
+          "icon": "MaterialsIcon",
+          "footer": "Maximale Festigkeit, Haltbarkeit und langfristige Leistung"
+        }]
       },
       "STRUCTURE_SECTION": {
         "ID": "structure",
@@ -909,21 +919,21 @@
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
           "alt": "Render eines mobilen Platzes"
         },
-        "TITLE": "Überlegene Strukturen für panoramische Padelplätze",
+        "TITLE": "Überlegene Strukturen für Panoramische Padelplätze",
         "SUBTITLE": "Erleben Sie die Exzellenz unserer hochwertigen Platzstruktur",
-        "TEXT": "<p>Hergestellt mit feuerverzinkter Stahlstruktur gewährleistet unser Platz maximale Beständigkeit gegen Abrieb und Oxidation.</p><p>Die Platzstruktur besteht aus feuerverzinkten S275JR-Stahlprofilen, die sicher mit Hilfe von Ankertellern im Boden verankert sind. Die Seiten- und Oberprofile werden durch elektroverschweißte Maschen gemäß den Standards UNE-EN-10223-4 ergänzt.</p><p>Um Vibrationen des Netzes zu verhindern, umfasst die Struktur Zwischengerüste.</p><p>Die Befestigung der Struktur am Boden erfolgt mit versenkten Metallankern mit den Maßen M8X80 mm. Darüber hinaus ist der Montageprozess dank selbstsichernder Sicherheitsschrauben und Muttern aus feuerverzinktem Stahl nahtlos.</p><p>Die Struktur der Padelplätze von Portico Sport unterliegt Herstellungsprozessen, darunter modernste industrielle Technologien wie:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laserschneiden garantiert präzise Schnitte und liefert eine hochwertige Oberfläche.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Eine vollautomatische robotergesteuerte Schweißmontagelinie garantiert die Qualität der Schweißnähte und verhindert mögliche Oxidation in der Zukunft.</li></ul>"
+        "TEXT": "<p>Der Platz ist aus verzinkten <strong>S275JR</strong>-Stahlprofilen gefertigt, die abrieb- und korrosionsbeständig sind und sicher im Boden verankert werden.</p><p>Seiten- und Rahmenkonstruktionen enthalten elektrogeschweißtes Drahtgeflecht gemäß UNE-EN-10223-4, mit Zwischenverstrebungen zur Vibrationsvermeidung.</p><p>Schnelle Montage mit verzinkten, selbstsichernden Schrauben und Muttern.</p><p>Unsere Struktur durchläuft modernste Herstellungsprozesse</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laserschneiden: sorgt für präzise Schnitte und saubere Oberflächen</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Roboterschweißen: garantiert hochwertige Schweißnähte und verhindert Oxidation</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
-        "TITLE": "Maße des Panoramaplatzes",
-        "INDOOR_TITLE": "Innenbereich",
-        "OUTDOOR_TITLE": "Außenbereich",
-        "OUTDOOR": "<p><strong>Länge</strong>: 20,50 m </p><p><strong>Breite</strong>: 10,46 m </p>",
-        "INDOOR": "<p><strong>Länge</strong>: 20 m </p><p><strong>Breite</strong>: 10 m </p>",
+        "TITLE": "Maße des Panoramischen Platzes",
+        "INDOOR_TITLE": "Innen",
+        "OUTDOOR_TITLE": "Außen",
+        "OUTDOOR": "<p><strong>Länge</strong>: 20,50 m x 10,46 m </p>",
+        "INDOOR": "<p><strong>Länge</strong>: 20 m x 10 m </p><p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/panoramic/panoramic-sizing.webp",
-          "alt": "Innen- und Außenabmessungen des Panoramaplatzes"
+          "alt": "Maße des Panoramaplatzes innen und außen"
         }
       },
       "GLASS_SECTION": {
@@ -935,62 +945,60 @@
           "height": 323,
           "alt": "Mobiler Platz patentiert von Portico Sport"
         },
-        "TITLE": "Hochwertiges Glas für panoramische Padelplätze",
+        "TITLE": "Hochwertiges Glas für Panoramische Padelplätze",
         "SUBTITLE": "Sicherheitsglas in jedem Platz!",
-        "DESCRIPTION": "<p>Entdecken Sie unübertroffene Sicherheit und Haltbarkeit in unseren Padelplätzen. Jeder Platz verfügt über Sicherheitsglas, das in 10 oder 12 mm Dicke erhältlich ist und an die spezifischen Anforderungen Ihres Projekts angepasst ist. Seien Sie versichert, unser Glas erfüllt alle gesetzlichen Standards für Installationen dieser Art. In Zusammenarbeit mit angesehenen spanischen Herstellern mit CE-Kennzeichnung garantieren wir in jeder Hinsicht hochwertige Qualität bei unserem Bau.</p><p>Entdecken Sie dieses spektakuläre Design, das mit Glaswänden hoher Festigkeit eine Panoramaaussicht auf die Umgebung bietet. Unser Panoramaplatz bietet klare Sicht mit Sicherheitsglas, das sowohl Haltbarkeit als auch Sicherheit gewährleistet.</p><p><strong>VERGLASUNG</strong> erfolgt mit klarem Sicherheitsglas mit polierten Kanten, das mit Senkeinsätzen aus Polyethylen, feuerverzinkten Schrauben und Neoprendichtungen zur perfekten Glas-/Metallunterstützung an der Metallstruktur befestigt ist, mit insgesamt 6 Ankern. Unsere Glasplatten zeichnen sich durch herausragende physikalische und mechanische Eigenschaften aus, einschließlich Schlagfestigkeit und optimaler Planheit.</p>"
+        "DESCRIPTION": "<p>Unsere Panoramapadelplätze sind mit Sicherheitsglas in <strong>10 oder 12 mm Dicke</strong> ausgestattet, das allen Normen entspricht.</p><p>Polierte Kanten, Neopren-Dichtungen und verzinkte Befestigungen gewährleisten Sicherheit, Stabilität und beste Sicht. Dank hoher Schlagfestigkeit und Ebenheit bietet das Glas ein Premium-Spielerlebnis für Spieler und Zuschauer.</p>"
       },
       "PAINT_SECTION": {
         "ID": "paint-section",
-        "TITLE": "Individuelle Farboptionen für Padelplatz-Strukturen",
-        "SUBTITLE": "Wussten Sie, dass Sie Ihrem Platz jetzt einen Farbtupfer hinzufügen können?",
-        "DESCRIPTION": "<p>Entdecken Sie den Inbegriff der Unterscheidung im Bau von Padelplätzen mit einer Reihe von Lacktypen, die endlose Möglichkeiten bieten, die Strukturen Ihres Platzes in lebendigen Farben zu lackieren. Unser LACKIERLACK bietet maximale Beständigkeit gegen Abrieb und Oxidation. Wählen Sie die RAL-Farbe, die Ihnen am besten gefällt, und stechen Sie mit unseren anpassbaren Farboptionen heraus.</p><p>Ob Sie einen monochromen Look bevorzugen oder mit einem zweifarbigen Design einen Farbtupfer hinzufügen möchten, lassen Sie Ihren Platz Ihren Stil und Ihre Persönlichkeit widerspiegeln und sorgen Sie gleichzeitig dafür, dass er allen auf dem Platz ins Auge fällt.</p>",
-        "IMAGES": [
-          {
-            "id": "slide-3",
-            "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
-            "alt": "Exterieur eines gelben mobilen Platzes"
-          },
-          {
-            "id": "slide-4",
-            "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
-            "alt": "Exterieur eines gelben mobilen Platzes"
-          },
-          {
-            "id": "slide-5",
-            "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "alt": "Gelber lackierter mobiler Platz"
-          },
-          {
-            "id": "slide-11",
-            "src": "/courts-detail/mobile/structure-painted-mobile-11.webp",
-            "alt": "Blau lackierte Struktur im Innenbereich"
-          }
-        ],
+        "TITLE": "Individuelle Lackieroptionen für Platzstrukturen",
+        "SUBTITLE": "Wussten Sie, dass Sie Ihrem Platz jetzt Farbe verleihen können?",
+        "DESCRIPTION": "<p>Verleihen Sie Ihrem Platz Persönlichkeit mit Ihrer Wahl aus <strong>RAL-Farben</strong>, einfarbig oder zweifarbig mit langlebigen Lackoptionen:</p>",
+        "IMAGES": [{
+          "id": "slide-3",
+          "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
+          "alt": "Außenansicht eines gelben mobilen Platzes"
+        },{
+          "id": "slide-4",
+          "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
+          "alt": "Außenansicht eines gelben mobilen Platzes"
+        },{
+          "id": "slide-5",
+          "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
+          "alt": "Gelb lackierter mobiler Platz"
+        }, {
+          "id": "slide-11",
+          "src": "/courts-detail/mobile/structure-painted-mobile-11.webp",
+          "alt": "Blaue lackierte Struktur im Innenbereich"
+        }],
         "LIST": [
-          "<strong>INNENBEREICH:</strong> Pulverbeschichtung formuliert mit thermofusiblen Harzen.",
-          "<strong>ÄUßERER:</strong> Thermo-Fusible-Pulvergrundierungsbehandlung mit einem hohen Zinkgehalt, formuliert zur Verbesserung des Korrosionsschutzes von feuerverzinktem Stahl.",
-          "<strong>FEUERVERZINKT:</strong> Behandlung von geschmolzenem Zink bei einer Temperatur von 450 ºC, um einen hohen Schutz der Teile gegen Korrosion in maritimen Umgebungen zu erreichen. Enthält Pulverbeschichtung formuliert mit thermofusiblen Harzen."
+          "<strong>INNEN:</strong> Pulverbeschichtung mit thermoplastischen Harzen.",
+          "<strong>AUSSEN:</strong> Pulvergrundierung mit hohem Zinkgehalt, entwickelt zum Korrosionsschutz von verzinktem Stahl.",
+          "<strong>FEUERVERZINKT:</strong> Behandlung mit geschmolzenem Zink bei 450 ºC, um einen hohen Korrosionsschutz in Meeresumgebungen zu gewährleisten. Inklusive Pulverbeschichtung mit thermoplastischen Harzen."
         ]
       },
       "TURF_SECTION": {
         "ID": "turf-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-top.webp",
-          "alt": "Mobile Platzansicht von oben"
+          "alt": "Draufsicht mobiler Platz"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Hochleistungsrasen für panoramische Padelplätze</span>",
-        "SUBTITLE": "Erleben Sie unübertroffene Leistung auf unserem Rasen!",
-        "DESCRIPTION": "<p>Wir arbeiten mit den Top-Rasenunternehmen zusammen, um sicherzustellen, dass Ihr Platz Rasen von höchster Qualität erhält. Jeder Platz ist mit Rasen der neuesten Generation ausgestattet, der mit strukturierten Monofilamenten hergestellt ist, verschiedene Dicken und Faserhöhen aufweist, sehr geringen Abrieb aufweist, aus Polyethylen (PE) und spezifischen Additiven mit hoher Beständigkeit gegen Verschleiß und UV-Behandlung besteht, beständig gegen Hitze und extreme Wetterfluktuationen.</p><p>Stabilisierungsfüllung und Ballastierung mit gerundetem, gewaschenem und getrocknetem Quarzsand mit 97% Silizium, Korngröße zwischen 0,2 - 0,6 mm in einer ungefähren Menge von 10-15 kg/m², je nach Rasenmodell.</p><p>Unser hochmoderner Rasen garantiert Padel-Spielern eine optimierte Spielgeschwindigkeit und verbesserten Ballrücksprung und bietet die Möglichkeit von geraden oder gekrümmten Fasern und ist in einer Vielzahl von Farben erhältlich.</p>"
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\"> Hochleistungsrasen für Panoramische Padelplätze </span>",
+        "SUBTITLE": "Erleben Sie unvergleichliche Leistung auf unserem Rasen!",
+        "DESCRIPTION": "<p>Unser <strong>hochmoderner Rasen</strong> von führenden europäischen Herstellern sorgt für professionelle Leistung.</p><p>Jeder Padelplatz umfasst:</p>",
+        "DESCRIPTION_DOS": "Unser Rasen bietet ein professionelles Spielerlebnis in verschiedenen Farben und Faserarten.",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Polyethylen-Rasen der neuesten Generation mit texturierten Monofilamenten</li><li>UV-beständig, geringe Abnutzung, stabil bei Hitze und Witterung</li><li>Quarzsandverfüllung (10-15 kg/m²) für optimierten Ballabsprung und Geschwindigkeit</li></ul>"
       },
       "LIGHTING_SECTION": {
         "ID": "lighting-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-lighting.webp",
-          "alt": "Mobile Platzbeleuchtung"
+          "alt": "Beleuchtung mobiler Platz"
         },
-        "TITLE": "Fortschrittliche LED-Beleuchtung für Padelplätze",
-        "SUBTITLE": "Beleuchten Sie Ihr Spiel mit der Padelplatz-Beleuchtung von Portico Sport!",
-        "DESCRIPTION": "<p>Erhellen Sie den Platz mit unseren hochwertigen LED-Beleuchtungssystemen, entwickelt in Zusammenarbeit mit führenden Spezialisten.</p><p><ul class=\"list-disc pl-4\"><li>Vollständig konform mit der Norm <span>UNE-EN-12193:2020</span></li><li>Gleichmäßige, blendfreie Lichtverteilung</li><li><span>IK10</span> Schlagfestigkeit <span>IP66-IP67</span> wateWasserschutz</li><li>Überspannungsschutz (4 kV – 6 kV), hohe Wärmeableitung</li><li>Geeignet für Freizeiteinsatz (Klasse III) und professionelle Veranstaltungen (Klasse I, NIDE-Standard)</li><li>Bis zu 5 Jahre Garantie</li></ul></p>"
+        "TITLE": " Fachgerechte Beleuchtung für Panoramische Padelplätze",
+        "SUBTITLE": "Beleuchten Sie Ihr Spiel mit der Platzbeleuchtung von Portico Sport!",
+        "DESCRIPTION": "<p>Erhellen Sie Ihren Panoramapadelplatz mit hochwertigen <strong>LED-Beleuchtungslösungen</strong>, in Zusammenarbeit mit führenden Spezialisten:</p>",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Vollständig konform mit <strong>UNE-EN-12193:2020</strong></li><li>Gleichmäßiges Licht ohne Blendung oder Schatten</li><li>IK10 Schlagfestigkeit, IP66-IP67 wasserdicht</li><li>Überspannungsschutz (4kV - 6kV), hohe Wärmeableitung</li><li>Geeignet für Freizeitnutzung (Klasse III) und professionelle Events (Klasse I, NIDE-Standard)</li><li>5 Jahre Garantie</li></ul>"
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
