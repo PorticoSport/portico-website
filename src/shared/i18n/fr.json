@@ -186,6 +186,7 @@
         "TITLE_MINI": "Questions fréquentes sur nos mini-terrains de padel",
         "TITLE_SINGLE": "Questions fréquentes sur nos pistes de padel Single",
         "TITLE_CLUB_FORCE_80_COURT": "Questions fréquentes sur nos terrains de padel Club Force 80",
+        "TITLE_PANORAMIC_COURT": "Foire aux questions sur les courts de padel panoramiques",
         "SUBTITLE": "Foire Aux Questions",
         "BUTTON":{  
           "TEXT":"Construisez votre court de padel !",  
@@ -276,7 +277,20 @@
           "question": "Qu'est-ce qui rend le design du Club Force 80 unique ?",
           "answer": "<p>Le terrain intègre un système exclusif de contreforts et un mécanisme d'ancrage avancé, spécialement conçu pour les régions sujettes aux ouragans, ce qui le distingue des terrains de padel conventionnels et le rend capable de résister à des vents d'ouragan allant jusqu'à 80 m/s tout en conservant son esthétique.</p>"
         }
-      ]
+      ],
+        "QUESTIONS_PANORAMIC_COURT": [{
+        "question": "Le Court Panoramique est-il adapté à un usage intérieur et extérieur ?",
+        "answer": "<p>Oui, sa structure en acier galvanisé et ses matériaux haut de gamme garantissent performance et durabilité dans tous les environnements.</p>"
+      }, {
+        "question": "Le court panoramique peut-il être personnalisé ?",
+        "answer": "<p>Absolument. Le Court Panoramique offre de nombreuses possibilités de personnalisation, notamment la peinture, la transparence du verre, les finitions des cadres et la couleur du gazon. Vous pouvez également ajouter plusieurs accessoires pour créer un court unique.</p>"
+      }, {
+        "question": "Comment la visibilité du court panoramique se compare-t-elle à celle d’un court standard ?",
+        "answer": "<p>Le Court Panoramique offre une vue dégagée grâce à ses parois en verre haute résistance, permettant aux joueurs et spectateurs de profiter d’une perspective à 360°. Contrairement aux courts standards avec panneaux de verre partiels, le design panoramique améliore l’expérience visuelle et crée un environnement plus ouvert et immersif.</p>"
+      }, {
+        "question": "Le court nécessite-t-il un entretien particulier en raison de ses parois vitrées ?",
+        "answer": "<p>L’entretien est simple : un nettoyage régulier et une vérification des fixations garantissent des performances durables et un aspect esthétique préservé.</p>"
+      }]
       },      
       "CONTACT_SECTION": {
         "ID": "contact",
@@ -847,7 +861,7 @@
       "TYPE": "PRODUCT",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic.jpg",
       "TITLE": "Terrain panoramique",
-      "DESCRIPTION": "<p>Conçu et fabriqué par le département d'ingénierie de Portico Sport, ce modèle de Terrain est doté de parois en verre ultra-résistant offrant une vue panoramique sur les environs, créant une expérience de jeu unique et excitante à l'intérieur et à l'extérieur du Terrain.</p><p>En raison de son attrait visuel, ce Terrain est de plus en plus recherché par les clients désireux d'offrir une expérience de jeu distinctive à tous leurs joueurs.</p><p>Si vous recherchez un Terrain de padel offrant une expérience de jeu unique et excitante, les terrains panoramiques sont un excellent choix.</p>",
+      "DESCRIPTION": "<p>Conçu et fabriqué par Portico Sport, le Court Panoramique dispose de parois en verre haute résistance offrant une vue dégagée sur l’environnement, créant ainsi une expérience de jeu unique et captivante.</p><p>Son attrait visuel en fait un choix privilégié pour les clients souhaitant créer un environnement de jeu distinctif. Que ce soit en intérieur ou en extérieur, le Court Panoramique garantit une expérience de padel haut de gamme.</p>",
       "NAME": "Panoramique",
       "SUBTITLE": "Présentation du Terrain panoramique par Portico Sport",
       "LITTLE_DESCRIPTION": "<p>Profitez du padel avec une vue panoramique sur les environs.</p>",
@@ -862,68 +876,64 @@
         "TITLE": "Terrain de padel panoramique"
       },
       "FIRST_SECTION": {
-        "TITLE": "<span class=\"text-secondary\">Rehaussez votre jeu avec des vues incomparables !</span>",
-        "DESCRIPTION": "<p>Progressivement, notre Terrain panoramique devient le modèle de Terrain le plus recherché.</p><p>Malgré son verre panoramique, le design assure un renforcement accru et une structure robuste. Idéal pour les environnements intérieurs et extérieurs, il excelle dans divers environnements, offrant une excellente expérience de jeu.</p><p>De plus, il offre de nombreuses options de personnalisation pour s'intégrer parfaitement à son environnement d'installation.</p>",
+        "TITLE": "<span class=\"text-secondary\">Élevez votre jeu avec une vue inégalée !</span>",
+        "DESCRIPTION": "<p>Notre Court Panoramique combine des parois vitrées panoramiques avec une structure solide, garantissant sécurité et stabilité sans compromettre l’esthétique.</p><p>Idéal pour différents environnements, le court offre un excellent confort de jeu et de nombreuses options de personnalisation afin de s’intégrer parfaitement à son cadre.</p><p>En tant que fabricants et installateurs, Portico Sport garantit que chaque Court Panoramique respecte les normes internationales tout en offrant une expérience exceptionnelle aux joueurs et spectateurs.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/panoramic/panoramic-front.webp",
-            "alt": "Vue avant du Terrain panoramique"
+            "alt": "Vue de face du court panoramique"
           },
           "PERSPECTIVE": {
             "src": "/courts-detail/panoramic/panoramic-perspective.webp",
-            "alt": "Vue perspective du Terrain panoramique"
+            "alt": "Vue en perspective du court panoramique"
           },
-          "TOP": {
+            "TOP": {
             "src": "/courts-detail/panoramic/panoramic-top.webp",
-            "alt": "Vue de dessus du Terrain panoramique"
+            "alt": "Vue du dessus du court panoramique"
           }
         }
       },
       "BENEFITS_SECTION": {
         "ID": "benefits",
-        "TITLE": "Découvrez les avantages de notre Terrain panoramique",
-        "SUBTITLE": "Pourquoi choisir un terrain de padel panoramique ?",
-        "DESCRIPTION": "Les Terrains de Padel panoramiques deviennent de plus en plus populaires en raison de leur design moderne et de la visibilité accrue qu'ils offrent. L'absence de structures métalliques autour des panneaux de verre offre une sensation élégante et ouverte, à la fois visuellement attrayante et fonctionnelle. Ces Terrains de Padel sont parfaits pour les événements de haut niveau, les clubs cherchant à attirer plus de membres ou toute personne qui valorise un environnement sportif haut de gamme.",
-        "BENEFITS": [
-          {
-            "header": "Garantie de 10 ans",
-            "icon": "WarrantyIcon",
-            "footer": "Soyez assuré avec notre garantie de 10 ans sur l'intégrité structurelle de nos terrains, assurant qu'ils résistent même aux vents forts. Profitez-en sans aucun souci !"
-          },
-          {
-            "header": "Terrain polyvalent",
-            "icon": "VersatileCourtIcon",
-            "footer": "Idéal pour les configurations intérieures et extérieures, nos terrains sont le premier choix des clubs recherchant des surfaces de jeu esthétiquement agréables et polyvalentes."
-          },
-          {
-            "header": "Matériaux de qualité supérieure",
-            "icon": "MaterialsIcon",
-            "footer": "Fabriqués avec des matériaux de première qualité pour une résistance et une durabilité maximales, nos terrains offrent une qualité premium dans les moindres détails."
-          }
-        ]
+        "TITLE": "Découvrez les avantages de notre court panoramique",
+        "SUBTITLE": "Pourquoi choisir un court de padel panoramique ?",
+        "DESCRIPTION": "Les courts de padel panoramiques gagnent en popularité grâce à leur design moderne et à la visibilité améliorée qu’ils offrent. L’absence de structures métalliques autour des panneaux de verre crée une impression ouverte et élégante, à la fois esthétique et fonctionnelle. Ces courts sont parfaits pour les événements prestigieux, les clubs souhaitant attirer plus de membres ou toute personne recherchant un environnement sportif haut de gamme.",
+        "BENEFITS": [{
+          "header": "Garantie de 10 ans",
+          "icon": "WarrantyIcon",
+          "footer": "Intégrité structurelle garantie, conçu pour résister aux vents forts"
+        }, {
+          "header": "Design polyvalent",
+          "icon": "VersatileCourtIcon",
+          "footer": "Parfait pour une installation intérieure ou extérieure, esthétique et adaptable"
+        }, {
+          "header": "Matériaux haut de gamme",
+          "icon": "MaterialsIcon",
+          "footer": "Résistance, durabilité et performance à long terme"
+        }]
       },
       "STRUCTURE_SECTION": {
         "ID": "structure",
         "IMAGE": {
           "id": "section-information",
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
-          "alt": "Rendu d'un Terrain mobile"
+          "alt": "Rendu d’un court mobile"
         },
-        "TITLE": "Structures supérieures pour Terrains de Padel panoramiques",
-        "SUBTITLE": "Découvrez l'excellence de la structure de notre Terrain de qualité premium",
-        "TEXT": "<p>Fabriqué avec une structure en acier galvanisé, notre Terrain assure une résistance maximale à l'abrasion et à l'oxydation.</p><p>La structure du Terrain se compose de profils en acier galvanisé S275JR, ancrés solidement au sol à l'aide de plaques d'ancrage. Les cadres latéraux et supérieurs sont complétés par une maille électro-soudée conforme aux normes UNE-EN-10223-4.</p><p>Pour éviter les vibrations de la maille, la structure comprend des échafaudages intermédiaires.</p><p>La fixation de la structure au revêtement se fait avec des ancrages métalliques fraisés mesurant M8X80 mm. De plus, son processus d'assemblage est sans couture, grâce à des vis de sécurité à verrouillage automatique et des écrous en acier galvanisé.</p><p>La structure des Terrains de Padel Portico Sport subit des processus de fabrication comprenant des technologies industrielles de pointe telles que :</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">La découpe laser garantit des coupes précises et offre une finition de haute qualité.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Une ligne d'assemblage robotisée entièrement automatisée garantit la qualité des soudures, prévenant toute oxydation potentielle à l'avenir.</li></ul>"
+        "TITLE": "Structures supérieures pour les courts panoramiques",
+        "SUBTITLE": "Découvrez l’excellence de notre structure de qualité premium",
+        "TEXT": "<p>Le court est construit avec des profils en acier galvanisé <strong>S275JR</strong> résistants à l’abrasion et à la corrosion, solidement ancrés au sol.</p><p>Les cadres latéraux et supérieurs incluent un treillis électro-soudé conforme à la norme UNE-EN-10223-4, avec un échafaudage intermédiaire pour éviter les vibrations.</p><p>Montage rapide avec vis et écrous autobloquants galvanisés.</p><p>Notre structure bénéficie de procédés de fabrication avancés</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Découpe laser : garantit des coupes précises et des finitions nettes</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Soudage robotisé : assure la qualité des soudures et empêche l’oxydation</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
-        "TITLE": "Dimensions du Terrain panoramique",
+        "TITLE": "Dimensions du court panoramique",
         "INDOOR_TITLE": "Intérieur",
         "OUTDOOR_TITLE": "Extérieur",
-        "OUTDOOR": "<p><strong>Longueur</strong> : 20,50 m </p><p><strong>Largeur</strong> : 10,46 m </p>",
-        "INDOOR": "<p><strong>Longueur</strong> : 20 m </p><p><strong>Largeur</strong> : 10 m </p>",
+        "OUTDOOR": "<p><strong>Longueur</strong> : 20,50 m x 10,46 m </p>",
+      "INDOOR": "<p><strong>Longueur</strong> : 20 m x 10 m </p><p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/panoramic/panoramic-sizing.webp",
-          "alt": "Tailles intérieure et extérieure du Terrain panoramique"
+          "alt": "Dimensions intérieures et extérieures du court panoramique"
         }
       },
       "GLASS_SECTION": {
@@ -933,64 +943,62 @@
           "src": "/courts-detail/mobile/mobile-glasses.webp",
           "width": 574,
           "height": 323,
-          "alt": "Terrain mobile breveté par Portico Sport"
+          "alt": "Court mobile breveté par Portico Sport"
         },
-        "TITLE": "Verre de haute qualité pour Terrains de Padel panoramiques",
-        "SUBTITLE": "Verre de sécurité trempé dans chaque Terrain !",
-        "DESCRIPTION": "<p>Découvrez une sécurité et une durabilité inégalées dans nos Terrains de Padel. Chaque Terrain est équipé de verre de sécurité trempé, disponible en épaisseurs de 10 ou 12 mm, adapté aux exigences spécifiques de votre projet. Soyez assuré, notre verre répond à toutes les normes réglementaires pour les installations de ce type. En partenariat avec des fabricants espagnols de renom bénéficiant du marquage CE, nous garantissons une qualité de premier ordre dans tous les aspects de notre construction.</p><p>Découvrez ce design spectaculaire, avec des parois en verre ultra-résistant offrant une vue panoramique sur les environs. Notre Terrain panoramique offre des vues dégagées avec du verre de sécurité trempé, garantissant à la fois durabilité et sécurité.</p><p>Le <strong>VITRAGE</strong> est réalisé avec du verre trempé transparent aux bords polis, fixé à la structure métallique à l'aide de douilles en polyéthylène fraisées, de vis galvanisées et de joints en néoprène pour un support verre/métal parfait, avec un total de 6 trous d'ancrage. Nos panneaux de verre présentent d'excellentes propriétés physiques et mécaniques, notamment une résistance aux chocs et une planéité optimale.</p>"
+        "TITLE": "Verre de haute qualité pour courts panoramiques",
+        "SUBTITLE": "Verre de sécurité trempé sur chaque court !",
+        "DESCRIPTION": "<p>Nos courts panoramiques sont équipés de verre de sécurité trempé d’une épaisseur de <strong>10 ou 12 mm</strong>, conforme à toutes les normes.</p><p>Bords polis, joints en néoprène et fixations galvanisées garantissent sécurité, stabilité et visibilité optimale. Grâce à sa résistance aux impacts et à sa planéité, le verre assure une expérience de jeu premium pour les joueurs et les spectateurs.</p>"
       },
       "PAINT_SECTION": {
         "ID": "paint-section",
-        "TITLE": "Options de peinture personnalisées pour structures de Terrains de Padel",
-        "SUBTITLE": "Saviez-vous que vous pouvez désormais ajouter une touche de couleur à votre Terrain ?",
-        "DESCRIPTION": "<p>Découvrez l'apogée de la distinction dans la construction de Terrains de Padel avec une gamme de types de laques, offrant une multitude d'options pour peindre les structures de votre Terrain dans des teintes vibrantes. Notre PEINTURE LAQUÉE offre une résistance maximale à l'abrasion et à l'oxydation. Choisissez la couleur RAL qui correspond à vos préférences et démarquez-vous avec nos options de couleur personnalisables.</p><p>Que vous préfériez un look monochrome ou que vous souhaitiez ajouter une touche de couleur avec un design bicolore, laissez votre Terrain refléter votre style et votre personnalité tout en garantissant qu'il attire tous les regards sur le Terrain.</p>",
-        "IMAGES": [
-          {
-            "id": "slide-3",
-            "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
-            "alt": "Extérieur d'un Terrain mobile jaune"
-          },
-          {
-            "id": "slide-4",
-            "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
-            "alt": "Extérieur d'un Terrain mobile jaune"
-          },
-          {
-            "id": "slide-5",
-            "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "alt": "Terrain mobile peint en jaune"
-          },
-          {
-            "id": "slide-11",
-            "src": "/courts-detail/mobile/structure-painted-mobile-11.webp",
-            "alt": "Structure bleue peinte à l'intérieur"
-          }
-        ],
+        "TITLE": "Options de peinture personnalisées pour les structures",
+        "SUBTITLE": "Saviez-vous que vous pouvez maintenant ajouter de la couleur à votre court ?",
+        "DESCRIPTION": "<p>Ajoutez une touche de personnalité grâce à votre choix de <strong>couleurs RAL</strong>, en version monochrome ou bicolore, avec des peintures laquées durables :</p>",
+        "IMAGES": [{
+          "id": "slide-3",
+          "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
+          "alt": "Vue extérieure d’un court mobile jaune"
+        },{
+          "id": "slide-4",
+          "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
+          "alt": "Vue extérieure d’un court mobile jaune"
+        },{
+          "id": "slide-5",
+          "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
+          "alt": "Court mobile peint en jaune"
+        }, {
+          "id": "slide-11",
+          "src": "/courts-detail/mobile/structure-painted-mobile-11.webp",
+          "alt": "Structure bleue peinte à l’intérieur"
+        }],
         "LIST": [
           "<strong>INTÉRIEUR :</strong> revêtement en poudre formulé avec des résines thermofusibles.",
-          "<strong>EXTÉRIEUR :</strong> traitement d'apprêt en poudre thermodurcissable avec une teneur élevée en zinc formulée pour améliorer la protection contre la corrosion de l'acier galvanisé.",
-          "<strong>GALVANISATION À CHAUD :</strong> traitement du zinc fondu à une température de 450 ºC afin d'obtenir une protection élevée des pièces contre la corrosion dans les environnements marins. Comprend un revêtement en poudre formulé avec des résines thermofusibles."
+          "<strong>EXTÉRIEUR :</strong> apprêt en poudre thermofusible à forte teneur en zinc, conçu pour améliorer la protection anticorrosion de l’acier galvanisé.",
+          "<strong>GALVANISATION À CHAUD :</strong> traitement au zinc fondu à 450 ºC assurant une protection élevée contre la corrosion dans les environnements marins. Inclut un revêtement en poudre à base de résines thermofusibles."
         ]
       },
       "TURF_SECTION": {
         "ID": "turf-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-top.webp",
-          "alt": "Vue de dessus d'un Terrain mobile"
+          "alt": "Vue du dessus d’un court mobile"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Gazon haute performance pour Terrains de Padel panoramiques</span>",
-        "SUBTITLE": "Expérimentez des performances inégalées sur notre gazon !",
-        "DESCRIPTION": "<p>Nous nous associons aux meilleures entreprises de gazon pour garantir que votre Terrain reçoive un gazon de qualité premium. Chaque Terrain est équipé d'un gazon de dernière génération conçu avec des monofilaments texturés, offrant différentes épaisseurs et hauteurs de pile, une abrasion très faible, fabriqué en polyéthylène (PE) et des additifs spécifiques avec une grande résistance à l'usure et un traitement anti-UV, résistant à la chaleur et aux fluctuations extrêmes de la météo.</p><p>Remplissage de stabilisation et lestage à l'aide de sable de silice arrondi, lavé et séché, avec 97% de silice, granulométrie entre 0,2 - 0,6 mm en quantité approximative de 10-15 kg/m2, en fonction du modèle de gazon.</p><p>Notre gazon de pointe garantit aux joueurs de padel une vitesse de jeu optimisée et un rebond de balle amélioré, et offre la possibilité de fibres droites ou frisées et est disponible dans une grande variété de couleurs.</p>"
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\"> Gazon haute performance pour courts panoramiques </span>",
+        "SUBTITLE": "Découvrez des performances inégalées sur notre gazon !",
+        "DESCRIPTION": "<p>Notre <strong>gazon de dernière génération</strong> provenant de fabricants européens de confiance assure une performance professionnelle.</p><p>Chaque court de padel comprend :</p>",
+        "DESCRIPTION_DOS": "Notre gazon offre une expérience de jeu professionnelle dans différentes couleurs et types de fibres.",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Gazon en polyéthylène nouvelle génération avec monofilaments texturés</li><li>Résistant aux UV, faible abrasion, stable face à la chaleur et aux intempéries</li><li>Sable de silice (10-15 kg/m²) pour un rebond et une vitesse de balle optimisés</li></ul>"
       },
       "LIGHTING_SECTION": {
         "ID": "lighting-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-lighting.webp",
-          "alt": "Éclairage de Terrain mobile"
+          "alt": "Éclairage d’un court mobile"
         },
-        "TITLE": "Éclairage expert pour Terrains de Padel panoramiques",
-        "SUBTITLE": "Illuminez votre jeu avec l'éclairage de Terrain de padel de Portico Sport !",
-        "DESCRIPTION": "<p>Profitez de la solution d'éclairage LED ultime pour les Terrains de Padel, offerte exclusivement par Portico Sport en partenariat avec des spécialistes de premier plan dans le domaine.</p><p>Notre éclairage de Terrain de padel garantit une illumination optimale et une uniformité sur toutes les zones de jeu. Du filet aux zones d'accès, en passant par l'arrière-plan, les lignes de touche et les zones de haute balle, notre solution d'éclairage élimine les reflets et les ombres, offrant aux joueurs une visibilité et des performances inégalées.</p><p>La qualité de nos projecteurs, conçus pour résister aux impacts jusqu'à IK10, avec des degrés d'étanchéité IP66-IP67 et une résistance aux surtensions de 4kV - 6kV, combinée aux capacités de dissipation thermique élevées des boîtiers, permet une durée de vie prolongée de nos projecteurs, avec une garantie allant jusqu'à 5 ans.</p><p>Nos projecteurs sont conçus pour couvrir tous les types de terrains spécifiés dans la norme européenne pour l'éclairage des sports (UNE-EN-12193:2020), allant de l'utilisation récréative (Classe III) aux compétitions professionnelles ou aux diffusions télévisées (Classe I - norme NIDE).</p>"
+        "TITLE": " Éclairage expert pour courts panoramiques",
+        "SUBTITLE": "Illuminez votre jeu avec l’éclairage Portico Sport !",
+        "DESCRIPTION": "<p>Éclairez votre court panoramique avec des <strong>solutions LED haut de gamme</strong>, en partenariat avec des spécialistes de renom :</p>",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Conformité totale à la norme <strong>UNE-EN-12193:2020</strong></li><li>Lumière uniforme sans éblouissement ni ombre</li><li>Résistance aux chocs IK10, étanchéité IP66-IP67</li><li>Protection contre les surtensions (4kV - 6kV), dissipation thermique élevée</li><li>Adapté aux usages récréatifs (Classe III) et aux événements professionnels (Classe I, norme NIDE)</li><li>Garantie de 5 ans</li></ul>"
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
