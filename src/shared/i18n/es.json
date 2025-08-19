@@ -183,6 +183,7 @@
         "TITLE_SINGLE": "Preguntas Frecuentes sobre Nuestras Pistas de Pádel Single",
         "TITLE_CLUB_FORCE_80_COURT": "Preguntas frecuentes sobre nuestras pistas Club Force 80",
         "TITLE_PANORAMIC_COURT":"Preguntas frecuentes sobre pistas de pádel panorámicas",
+        "TITLE_PANORAMIC_FORCE_80_COURT": "Preguntas frecuentes sobre nuestras pistas de pádel Panoramic Force 80",
         "SUBTITLE": "Preguntas Frecuentes",
         "BUTTON":{
           "TITLE":"Fabricantes de pistas de pádel",
@@ -282,6 +283,20 @@
         }, {
           "question": "¿Requiere la pista un mantenimiento especial debido a sus paredes de vidrio?",
           "answer": "<p>El mantenimiento es sencillo; la limpieza regular y la inspección de los herrajes aseguran un rendimiento duradero y un atractivo estético.</p>"
+        }
+      ],
+        "QUESTIONS_PANORAMIC_FORCE_80_COURT": [{
+          "question": "¿Qué hace diferente a la Panoramic Force 80 de otras pistas panorámicas de pádel?",
+          "answer": "<p>Combina la elegancia panorámica con un sistema exclusivo de refuerzos que la transforma en una estructura anti-huracanes capaz de soportar vientos de hasta 80 m/s.</p>"
+        }, {
+          "question": "¿Se pueden retirar los refuerzos cuando no se necesitan?",
+          "answer": "<p>Sí. El sistema de 8 refuerzos puede instalarse o retirarse rápidamente, ofreciendo flexibilidad según las condiciones meteorológicas.</p>"
+        }, {
+          "question": "¿Es la Panoramic Force 80 apta para torneos oficiales?",
+          "answer": "<p>Por supuesto. Cumple con todas las normativas internacionales de pádel y con la norma UNE-EN-10223-4, asegurando su uso en competiciones profesionales.</p>"
+        }, {
+          "question": "¿Qué materiales se utilizan en la Panoramic Force 80?",
+          "answer": "<p>La pista está fabricada con acero galvanizado S275JR, cristal templado premium y malla electrosoldada, garantizando máxima durabilidad y rendimiento.</p>"
         }
       ]
       },      
@@ -1454,7 +1469,7 @@
       "SEO_DESCRIPTION": "Descubre la pista de pádel Panoramic Force 80, diseñada para resistir vientos huracanados de hasta 80 m/s. Ideal para áreas con condiciones climáticas extremas. ¡Aprende más!",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic-force-80.jpg",
       "TITLE": "<span>Pista de pádel Panoramic Force 80</span>",
-      "DESCRIPTION": "<p>En 2021, Portico Sport presentó la pista de pádel Club Force 80, la primera pista anti-huracanes, creando una categoría propia. Ahora, nos complace presentar la pista de pádel Panoramic Force 80. Capaz de resistir vientos de hasta 80m/s en un marco panorámico.</p><p>El departamento de ingeniería de Portico Sport continúa liderando la innovación de productos en la industria con este diseño que, a pesar de sus paredes de cristal panorámicas y su estructura de acero más delgada que los diseños competidores, permanece firme bajo las condiciones climáticas más desafiantes, lo que lo hace ideal para instalaciones al aire libre en geografías afectadas por huracanes y fuertes tormentas.</p>",
+      "DESCRIPTION": "<p>En 2021, Portico Sport presentó la Club Force 80, la primera pista de pádel anti-huracanes del mundo. Ahora, nuestro equipo de ingeniería ha creado una pista que combina paredes panorámicas de cristal y una estructura de acero más estilizada: la <strong>Panoramic Force 80</strong>, capaz de resistir vientos de hasta 80 m/s, manteniendo un elegante diseño panorámico.</p>",
       "LITTLE_DESCRIPTION": "<p>Disfruta del pádel sin importar las condiciones climáticas desafiantes.</p>",
       "SUBTITLE": "Disfruta del pádel sin importar las condiciones climáticas desafiantes.",
       "CONTACT_TITLE_1": "¿Quieres una Pista Panoramic Force 80?",
@@ -1469,7 +1484,7 @@
       "FIRST_SECTION": {
         "ID": "vistas-de-las-pistas",
         "TITLE": "<span class=\"text-secondary\">¡La pista de pádel más resistente y emocionante del mercado!</span>",
-        "DESCRIPTION": "<p>Esta pista de pádel combina la robustez de nuestro exitoso modelo Club Force 80 con la espectacularidad visual de nuestras pistas panorámicas.</p><p>Lo que la diferencia es nuestro innovador y exclusivo sistema de 8 refuerzos que se pueden quitar y añadir según las necesidades del cliente y las condiciones climáticas esperadas. Con este sistema, puedes disfrutar de una pista panoramic estándar que se transforma en una pista ultra resistente antes de las tormentas y huracanes, con un esfuerzo mínimo y en poco tiempo.</p><p>Capaz de resistir vientos huracanados de hasta 273,6 km/h (80 m/s), con nuestra Panorámica Force 80, no solo obtendrás la máxima resistencia contra cualquier condición climática, sino que también agregarás un toque de elegancia y modernidad a tu club.</p>",
+        "DESCRIPTION": "<p>Combinando la probada robustez de la Club Force 80 con el atractivo visual de una estructura panorámica, este modelo ofrece rendimiento y estilo sin sacrificar la estabilidad, siendo ideal para ubicaciones exteriores en regiones afectadas por huracanes o fuertes tormentas.</p><p>Su exclusivo sistema de <strong>8 refuerzos</strong> se puede añadir o retirar rápidamente según las condiciones climáticas, permitiendo transformar una pista panorámica estándar en una estructura ultra resistente lista para huracanes en cuestión de minutos. Con resistencia a vientos de hasta <strong>273,6 km/h</strong>, garantiza la máxima seguridad y una elegancia moderna para su club o resort.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/panoramic-force-80/panoramic-force-80-front.webp",
@@ -1490,19 +1505,19 @@
         "TITLE": "Experimenta los beneficios de nuestra pista de pádel Panoramic Force 80",
         "BENEFITS": [
           {
-            "header": "Garantía de 10 años",
+            "header": "10 años de garantía",
             "icon": "WarrantyIcon",
-            "footer": "Diseñada específicamente para resistir vientos huracanados, puedes relajarte sabiendo que nuestras pistas cuentan con una garantía de 10 años en integridad estructural."
+            "footer": "Integridad estructural garantizada incluso bajo vientos huracanados"
           },
           {
-            "header": "La pista de pádel más resistente",
+            "header": "La pista más resistente",
             "icon": "VersatileCourtIcon",
-            "footer": "Su diseño estructural original y materiales de primera calidad la convierten en la pista de pádel más resistente y duradera, sin comprometer su estética."
+            "footer": "Diseño exclusivo y materiales premium para la pista panorámica más robusta del mercado"
           },
           {
-            "header": "Materiales premium",
+            "header": "Calidad premium",
             "icon": "MaterialsIcon",
-            "footer": "Fabricadas con materiales premium para obtener la máxima resistencia y durabilidad, nuestras pistas ofrecen calidad premium en cada detalle."
+            "footer": "Acero galvanizado, cristal templado y avanzada ingeniería para durabilidad y rendimiento"
           }
         ]
       },
@@ -1513,17 +1528,17 @@
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
           "alt": "Render de una pista móvil"
         },
-        "TITLE": "Estructuras",
+        "TITLE": "Estructura resistente a huracanes para pistas panorámicas de pádel",
         "SUBTITLE": "¡Experimenta la fusión perfecta de resistencia estructural y brillantez estética!",
-        "TEXT": "<p>Experimenta la excelencia de nuestra estructura de pista de pádel de calidad premium diseñada para resistir vientos huracanados. Nuestra pista Panoramic Force 80 cuenta con 8 refuerzos que incluyen un diseño exclusivo de contrafuertes de acero, asegurando la máxima resistencia a la abrasión y oxidación con su estructura de acero galvanizado. Además, estos refuerzos están diseñados para ser removibles, ofreciendo flexibilidad y adaptabilidad según sea necesario.</p><p>La estructura de la pista, con perfiles de acero galvanizado S275JR firmemente anclados al suelo con un sistema de anclaje especializado, se fabrica meticulosamente para cumplir con las regulaciones deportivas oficiales (NIDE 2004 Pádel). Además, los marcos laterales y superiores están reforzados con malla electro-soldada, alineándose con los estándares UNE-EN-10223-4, asegurando la integridad estructural y el cumplimiento de los estándares de la industria.</p><p>La estructura de las pistas de pádel de Portico Sport se somete a procesos de fabricación que incluyen tecnologías industriales de vanguardia como:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">El corte láser garantiza cortes precisos y proporciona un acabado de alta calidad.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Una línea de ensamblaje de soldadura robótica totalmente automatizada garantiza la calidad de las soldaduras, evitando posibles oxidaciones en el futuro.</li></ul>"
+        "TEXT": "<p>Fabricada con perfiles de acero galvanizado <strong>S275JR</strong> para resistencia a la abrasión y la corrosión.</p><p>Los marcos laterales y superiores cuentan con malla electrosoldada conforme a la norma <strong>UNE-EN-10223-4</strong>, con andamiaje intermedio para control de vibraciones.</p><p>Un sistema especializado de <strong>8 contrafuertes de acero desmontables</strong> aporta adaptabilidad a distintos climas y asegura resistencia a largo plazo.</p><p>Montaje rápido con tornillería y tuercas autoblocantes galvanizadas.</p><p>Nuestro avanzado proceso de fabricación incluye</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Corte por láser para máxima precisión y acabados limpios.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Soldadura robótica para garantizar calidad y evitar oxidación.</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "seccion-de-medidas",
         "TITLE": "Medidas de la Pista Panoramic Force 80",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
-        "OUTDOOR": "<p><strong>Longitud</strong>: 22,70 m </p><p><strong>Anchura</strong>: 12,66 m </p>",
-        "INDOOR": "<p><strong>Longitud</strong>: 20 m </p><p><strong>Anchura</strong>: 10 m </p>",
+        "OUTDOOR": "<p><strong>Longitud</strong>: 22.70 m x 12,66 m </p>",
+        "INDOOR": "<p><strong>Longitud</strong>: 20 m x 10 m </p>",
         "IMAGE": {
           "id": "imagen-de-dimensiones",
           "src": "/courts-detail/panoramic-force-80/panoramic-Force-80-sizing.webp",
@@ -1539,15 +1554,14 @@
           "height": 323,
           "alt": "Pista móvil patentada por Portico Sport"
         },
-        "TITLE": "Vidrios",
-        "SUBTITLE": "¡Vidrio de seguridad templado en cada pista de pádel!",
-        "DESCRIPTION": "<p>Descubre una seguridad y durabilidad incomparables en nuestras pistas de pádel. Cada pista cuenta con vidrio de seguridad templado, disponible en grosores de 10 o 12 mm, adaptado a los requisitos específicos de tu proyecto. Ten la seguridad de que nuestro vidrio cumple con todas las normativas regulatorias para instalaciones de este tipo. En asociación con distinguidos fabricantes españoles con marcado CE, garantizamos calidad de primera en cada aspecto de nuestra construcción.</p><p>El <strong>ACRISTALAMIENTO</strong> se realiza utilizando vidrio templado transparente con bordes pulidos, fijado a la estructura metálica utilizando casquillos de polietileno avellanados, tornillos galvanizados y juntas de neopreno para un soporte de vidrio/metal perfecto, con un total de 6 agujeros de anclaje. Nuestros paneles de vidrio cuentan con propiedades físicas y mecánicas excepcionales, incluida la resistencia al impacto y la planitud óptima.</p>"
+        "TITLE": "Cristales de seguridad premium para pistas de pádel resistentes a huracanes",
+        "SUBTITLE": "¡Cristal templado de seguridad en cada pista!",
+        "DESCRIPTION": "<p>Nuestras pistas de pádel anti-huracanes incluyen <strong>cristal templado de seguridad de 12 mm</strong> de fabricantes españoles con certificación CE.</p><p>Cantos pulidos, juntas de neopreno y fijaciones galvanizadas garantizan seguridad, estabilidad y excelente visibilidad. Diseñado para resistencia al impacto y rendimiento a largo plazo, cumple todas las normativas europeas para juego profesional.</p>"
       },
       "PAINT_SECTION": {
         "ID": "seccion-de-pintura",
-        "TITLE": "Pintura de la estructura",
-        "SUBTITLE": "¿Sabías que ahora puedes agregar un toque de color a tu pista de pádel?",
-        "DESCRIPTION": "<p>Descubre el epítome de la distinción en la construcción de pistas de pádel con una variedad de tipos de lacado, que ofrecen opciones infinitas para pintar las estructuras de tu pista en colores vibrantes. Nuestra PINTURA LACADA ofrece resistencia máxima a la abrasión y oxidación. Elige el color RAL que se adapte a tus preferencias y destácate con nuestras opciones de color personalizables.</p><p>Ya sea que optes por una apariencia monocromática o desees inyectar energía vibrante con un esquema bicolor, deja que tu pista refleje tu estilo y personalidad únicos, asegurando que capte la atención en la pista.</p>",
+        "TITLE": "Acabados de pintura duraderos para estructuras de pistas de pádel",
+        "DESCRIPTION": "<p>Personaliza tu pista con colores RAL en diseño monocromo o bicolor, con acabados de pintura de alta durabilidad:</p>",
         "IMAGES": [
           {
             "id": "slide-1",
@@ -1576,9 +1590,9 @@
           }
         ],
         "LIST": [
-          "<strong>INTERIOR:</strong> recubrimiento en polvo formulado con resinas termofusibles.",
-          "<strong>EXTERIOR:</strong> tratamiento de imprimación en polvo termofusible con alto contenido de zinc formulado para mejorar la protección contra la corrosión del acero galvanizado.",
-          "<strong>GALVANIZADO POR INMERSIÓN EN CALIENTE:</strong> tratamiento de zinc fundido a una temperatura de 450 ºC para lograr una alta protección de las piezas contra la corrosión en ambientes marinos. Incluye recubrimiento en polvo formulado con resinas termofusibles."
+          "<strong>INTERIOR:</strong> Pintura en polvo con resinas termo-fundibles",
+          "<strong>EXTERIOR:</strong> Tratamiento de imprimación rica en zinc + pintura termo-fundible anticorrosiva",
+          "<strong>GALVANIZADO POR INMERSIÓN EN CALIENTE:</strong> Baño de zinc + pintura, ideal para zonas costeras o marinas"
         ]
       },
       "TURF_SECTION": {
@@ -1587,9 +1601,11 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Vista superior de la pista móvil"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped Artificial</span>",
-        "SUBTITLE": "¡Experimenta un rendimiento incomparable en nuestro césped artificial!",
-        "DESCRIPTION": "<p>Nos asociamos con las principales empresas de césped artificial para garantizar que tu pista reciba césped de la más alta calidad. Cada pista de pádel está equipada con césped de última generación diseñado con monofilamentos texturizados, con diferentes grosores y alturas de pelo, muy baja abrasión, fabricado con polietileno (PE) y aditivos específicos con alta resistencia al desgaste y tratamiento anti-UV, resistente al calor y a fluctuaciones climáticas extremas.</p><p>El relleno de estabilización y el lastre se realizan con arena de sílice redondeada, lavada y seca, con un 97% de sílice, granulometría entre 0,2 - 0,6 mm en una cantidad aproximada de 10-15 Kg/m2, dependiendo del modelo de césped.</p><p>Nuestro césped de vanguardia garantiza a los jugadores de pádel una velocidad de juego optimizada y un rebote de bola mejorado, y ofrece la opción de fibras rectas o rizadas y está disponible en una amplia variedad de colores.</p>"
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped de alto rendimiento para pistas de pádel profesionales Artificial</span>",
+        "SUBTITLE": "¡Experimenta nuestro césped artificial de alto rendimiento!",
+        "DESCRIPTION": "<p>Disfruta de un rendimiento inigualable con nuestro <strong>césped de última generación</strong>, procedente de fabricantes europeos de confianza.</p><p>Nuestro césped artificial cuenta con:</p>",
+        "DESCRIPTION_DOS": "Disponible en varios colores y tipos de fibra para adaptarse a tus preferencias.",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Césped de filamentos texturizados de polietileno de baja abrasión.</li><li>Tratamiento anti-UV, alta resistencia al calor y a la intemperie.</li><li>Relleno de arena de sílice lavada y secada (10-15 kg/m²) para un bote de pelota y velocidad óptimos.</li></ul>"
       },
       "LIGHTING_SECTION": {
         "ID": "seccion-de-iluminacion",
@@ -1597,9 +1613,10 @@
           "src": "/courts-detail/mobile/mobile-lighting.webp",
           "alt": "Iluminación de la pista móvil"
         },
-        "TITLE": "Iluminación LED",
-        "SUBTITLE": "¡Ilumina tu juego con la iluminación de pistas de pádel de Portico Sport!",
-        "DESCRIPTION": "<p>Disfruta de la mejor solución de iluminación LED para pistas de pádel, ofrecida exclusivamente por Portico Sport en asociación con los principales especialistas en el campo.</p><p>Nuestra iluminación para pistas de pádel garantiza una iluminación óptima y uniforme en todas las áreas de juego. Desde la red hasta las zonas de acceso, fondo, líneas laterales y zonas altas de la bola, nuestra solución de iluminación elimina los reflejos y las sombras, proporcionando a los jugadores una visibilidad y rendimiento inigualables.</p><p>La calidad de nuestros proyectores, diseñados para resistir impactos de hasta IK10, con grados de sellado IP66-IP67 y resistencia a sobretensiones de 4kV - 6kV, combinada con las altas capacidades de disipación de calor de las carcasas, permite una vida útil prolongada de nuestros proyectores, con una garantía de hasta 5 años.</p><p>Nuestros proyectores están diseñados para cubrir todo tipo de pistas especificadas en la norma europea de iluminación deportiva (UNE-EN-12193:2020), desde uso recreativo (Clase III) hasta competiciones profesionales o transmisiones televisadas (Clase I - estándar NIDE).</p><p>Fabricados con perfiles de acero galvanizado y lacado S275 JR, nuestros postes de iluminación están sujetos y anclados de forma segura a la estructura de la pista, garantizando durabilidad y fiabilidad.</p><p>Para resistir condiciones climáticas extremas, esta pista cuenta con postes de iluminación reforzados con doble pilar, protegiendo su impresionante altura de 6 metros cada uno. Cada mástil soporta dos proyectores, proporcionando iluminación precisa y clara para tu pista.</p>"
+        "TITLE": "Sistemas de iluminación LED profesionales para pistas de pádel",
+        "SUBTITLE": "¡Ilumina tu pista con la iluminación de Portico Sport!",
+        "DESCRIPTION": "<p>Ilumina tu pista de pádel con la iluminación LED de Portico Sport. Trabajamos con especialistas de primer nivel para ofrecer soluciones de iluminación de alto rendimiento:</p>",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Cumplen con la norma <strong>UNE-EN-12193:2020</strong></li><li>Luz uniforme, sin deslumbramientos ni sombras</li><li>Resistencia al impacto IK10 y protección IP66-IP67</li><li>Protección contra sobretensiones (4kV-6kV), alta disipación térmica</li><li>Válido para uso recreativo (Clase III) hasta competiciones profesionales (Clase I, normativa NIDE)</li><li>Garantía de hasta 5 años</li></ul>"
       },
       "GALLERY_SECTION": {
         "ID": "galeria",
