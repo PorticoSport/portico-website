@@ -184,6 +184,7 @@
         "TITLE_SINGLE": "Häufig gestellte Fragen zu unseren Single-Padelplätzen",
         "TITLE_CLUB_FORCE_80_COURT": "Häufig gestellte Fragen zu unseren Single-Padelplätzen",
         "TITLE_PANORAMIC_COURT": "Häufig gestellte Fragen zu Panoramischen Padelplätzen",
+        "TITLE_PANORAMIC_FORCE_80_COURT": "Häufig gestellte Fragen zu unseren Panoramic Force 80 Padelplätzen",
         "SUBTITLE": "Häufig gestellte Fragen",
         "BUTTON":{  
           "TEXT":"Baue deinen Padelplatz!",  
@@ -285,6 +286,20 @@
         }, {
           "question": "Erfordert der Platz aufgrund seiner Glaswände eine besondere Wartung?",
           "answer": "<p>Die Wartung ist einfach; regelmäßige Reinigung und Kontrolle der Befestigungen gewährleisten eine langanhaltende Leistung und ästhetische Attraktivität.</p>"
+        }
+      ],
+        "QUESTIONS_PANORAMIC_FORCE_80_COURT": [{
+          "question": "Was unterscheidet den Panoramic Force 80 von anderen Panoramapadelplätzen?",
+          "answer": "<p>Er kombiniert die Eleganz eines Panoramaplatzes mit einem exklusiven Verstärkungssystem, das ihn in eine Anti-Hurrikan-Struktur verwandelt, die Winden von bis zu 80 m/s standhält.</p>"
+        }, {
+          "question": "Können die Verstärkungen entfernt werden, wenn sie nicht benötigt werden?",
+          "answer": "<p>Absolut. Der Panoramaplatz bietet zahlreiche Anpassungsmöglichkeiten, einschließlich Lackierung, Glastransparenz, Rahmenoberflächen und Rasenkolorierung. Außerdem können Sie verschiedene Zubehörteile hinzufügen, um einen einzigartigen Platz zu gestalten.</p>"
+        }, {
+          "question": "Ist der Panoramic Force 80 für offizielle Turniere geeignet?",
+          "answer": "<p>Absolut. Er erfüllt alle internationalen Padelvorschriften und UNE-EN-10223-4 Normen und ist somit für professionelle Wettbewerbe zugelassen.</p>"
+        }, {
+          "question": "Welche Materialien werden beim Panoramic Force 80 verwendet?",
+          "answer": "<p>Der Platz wird aus verzinktem S275JR-Stahl, hochwertigem gehärtetem Glas und elektroschweißtem Gitter gefertigt, was maximale Haltbarkeit und Leistung gewährleistet.</p>"
         }
       ]
       },      
@@ -1454,66 +1469,62 @@
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
-        "TITLE": "<span class=\"text-secondary\">Das robusteste und aufregendste Padelgericht auf dem Markt!</span>",
-        "DESCRIPTION": "<p>Dieses Gericht kombiniert die Robustheit unseres erfolgreichen Club Force 80 Modells mit der visuellen Spektakularität unserer Panorama-Gerichte.</p><p>Was es auszeichnet, ist unser innovatives und exklusives System von 8 Verstärkungen, die je nach Bedarf des Kunden und erwarteten Wetterbedingungen entfernt und hinzugefügt werden können. Mit diesem System können Sie ein Standard-Panorama-Gericht genießen, das sich bei Stürmen und Hurrikans in kurzer Zeit zu einem ultrabeständigen Gericht verwandelt, mit minimalem Aufwand und ohne Zeitverlust.</p><p>In der Lage, Orkanböen von bis zu 273,6 km/h (80 m/s) standzuhalten, erhalten Sie mit unserem Panoramischen Force 80 nicht nur maximalen Widerstand gegen jede Wetterbedingung, sondern fügen Ihrem Club auch eine Note von Eleganz und Modernität hinzu.</p>",
+        "TITLE": "<span class=\"text-secondary\">Der widerstandsfähigste und spannendste Padelplatz auf dem Markt!</span>",
+        "DESCRIPTION": "<p>Durch die Kombination der bewährten Robustheit des Club Force 80 mit der optischen Attraktivität eines Panoramarahmens bietet dieses Modell sowohl Leistung als auch Stil, ohne die Stabilität zu beeinträchtigen – ideal für Außenbereiche in Hurrikan- oder Sturmregionen.</p><p>Das exklusive <strong>8-Verstärkungssystem</strong> kann je nach Wetterbedingungen schnell hinzugefügt oder entfernt werden, sodass sich ein Standard-Panoramaplatz in wenigen Minuten in eine ultra-resistente Orkanstruktur verwandeln lässt. Mit einer Widerstandsfähigkeit gegen Winde bis zu 273,6 km/h garantiert er maximale Sicherheit und <strong>moderne Eleganz</strong> für Ihren Club oder Ihr Resort.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/panoramic-force-80/panoramic-force-80-front.webp",
-            "alt": "Panoramisches Force 80 Gericht Vorderansicht"
+          "alt": "Vorderansicht des Panoramic Force 80 Platzes"
           },
           "PERSPECTIVE": {
             "src": "/courts-detail/panoramic-force-80/panoramic-force-80-perspective.webp",
-            "alt": "Panoramisches Force 80 Gericht Perspektivansicht"
+            "alt": "Perspektivansicht des Panoramic Force 80 Platzes"
           },
           "TOP": {
             "src": "/courts-detail/panoramic-force-80/panoramic-force-80-top.webp",
-            "alt": "Panoramisches Force 80 Gericht Draufsicht"
+            "alt": "Draufsicht des Panoramic Force 80 Platzes"
           }
         }
       },
       "BENEFITS_SECTION": {
         "ID": "benefits",
-        "TITLE": "Erleben Sie die Vorteile unseres Panoramischen Force 80 Gerichts",
-        "BENEFITS": [
-          {
-            "header": "10 Jahre Garantie",
-            "icon": "WarrantyIcon",
-            "footer": "Speziell entwickelt, um Orkanböen standzuhalten, können Sie beruhigt sein, dass unsere Gerichte durch eine 10-jährige Garantie auf strukturelle Integrität abgesichert sind."
-          },
-          {
-            "header": "Das widerstandsfähigste Padel-Gericht",
-            "icon": "VersatileCourtIcon",
-            "footer": "Sein originelles Strukturdesign und hochwertige Materialien machen es zum stabilsten und langlebigsten Gericht, ohne dabei seine Ästhetik zu beeinträchtigen."
-          },
-          {
-            "header": "Hochwertige Materialien",
-            "icon": "MaterialsIcon",
-            "footer": "Hergestellt aus hochwertigen Materialien für maximale Festigkeit und Haltbarkeit bieten unsere Gerichte Premium-Qualität in jedem Detail."
-          }
-        ]
+        "TITLE": "Erleben Sie die Vorteile unseres Panoramic Force 80 Padelplatzes",
+        "BENEFITS": [{
+          "header": "10 Jahre Garantie",
+          "icon": "WarrantyIcon",
+          "footer": "Strukturelle Integrität auch bei Orkanwinden garantiert"
+        }, {
+          "header": "Der widerstandsfähigste Padelplatz",
+          "icon": "VersatileCourtIcon",
+          "footer": "Exklusives Design und Premium-Materialien für den stärksten Panoramaplatz auf dem Markt"
+        }, {
+          "header": "Premium-Qualität",
+          "icon": "MaterialsIcon",
+          "footer": "Verzinkter Stahl, gehärtetes Glas und modernste Technik für Langlebigkeit und Leistung"
+        }]
       },
       "STRUCTURE_SECTION": {
         "ID": "structure",
         "IMAGE": {
           "id": "section-information",
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
-          "alt": "Render eines mobilen Gerichts"
+          "alt": "Rendering eines mobilen Platzes"
         },
-        "TITLE": "Strukturen",
-        "SUBTITLE": "Erleben Sie die perfekte Fusion aus struktureller Widerstandsfähigkeit und ästhetischem Glanz!",
-        "TEXT": "<p>Erleben Sie die Exzellenz unserer hochwertigen Gerichtsstruktur, die entwickelt wurde, um Orkanböen standzuhalten. Unser Gericht verfügt über 8 Verstärkungen, darunter ein exklusives Design aus Stahlstreben, die für maximale Beständigkeit gegen Abrieb und Oxidation sorgen. Darüber hinaus sind diese Verstärkungen entfernbar, was Flexibilität und Anpassungsfähigkeit je nach Bedarf ermöglicht.</p><p>Die Gerichtsstruktur, die verzinkte S275JR-Stahlprofile umfasst, die mit einem spezialisierten Verankerungssystem fest im Boden verankert sind, wird sorgfältig hergestellt, um den offiziellen Sportvorschriften (NIDE 2004 Padel). Darüber hinaus sind die Seiten- und Oberrahmen mit elektrogeschweißtem Drahtgeflecht verstärkt, das den UNE-EN-10223-4-Standards entspricht, um die strukturelle Integrität und die Einhaltung der Branchenstandards sicherzustellen.</p><p>Die Struktur der Padelplätze von Portico Sport durchläuft Herstellungsprozesse, die modernste industrielle Technologien wie:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laserschneiden garantiert präzise Schnitte und liefert eine hochwertige Oberfläche.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Eine vollautomatische robotergesteuerte Schweißmontagelinie garantiert die Qualität der Schweißnähte und verhindert mögliche Oxidationen in der Zukunft.</li></ul>"
+        "TITLE": "Hurrikanresistente Struktur für Panoramapadelplätze",
+        "SUBTITLE": "Die perfekte Kombination aus struktureller Stärke und ästhetischer Eleganz!",
+        "TEXT": "<p>Gefertigt aus verzinkten <strong>S275JR</strong>-Stahlprofilen für Abrieb- und Korrosionsbeständigkeit.</p><p>Seiten- und Rahmenoberteile mit elektroschweißtem Gitter nach UNE-EN-10223-4 Norm, mit Zwischengerüst zur Vibrationskontrolle.</p><p>Ein spezielles System aus <strong>8 abnehmbaren Stahlstützen</strong> bietet Anpassungsfähigkeit an verschiedene Klimazonen und sorgt gleichzeitig für langfristige Widerstandsfähigkeit.</p><p>Schnelle Montage mit verzinkten, selbstsichernden Schrauben und Muttern.</p><p>Unser fortschrittlicher Herstellungsprozess umfasst:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Lasergeschnittener Stahl sorgt für Präzision und saubere Oberflächen</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Roboterschweißen garantiert Qualität und verhindert Oxidation</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
-        "TITLE": "Maße des Panoramischen Force 80 Gerichts",
+        "TITLE": "Maße des Panoramic Force 80 Platzes",
         "INDOOR_TITLE": "Innen",
         "OUTDOOR_TITLE": "Außen",
-        "OUTDOOR": "<p><strong>Länge</strong>: 22,70 m </p><p><strong>Breite</strong>: 12,66 m </p>",
-        "INDOOR": "<p><strong>Länge</strong>: 20 m </p><p><strong>Breite</strong>: 10 m </p>",
+        "OUTDOOR": "<p><strong>Länge</strong>: 22,70 m x 12,66 m </p>",
+        "INDOOR": "<p><strong>Länge</strong>: 20 m x 10 m </p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/panoramic-force-80/panoramic-Force-80-sizing.webp",
-          "alt": "Innen- und Außenmaße des Force-80-Gerichts"
+          "alt": "Innen- und Außenmaße des Force-80 Platzes"
         }
       },
       "GLASS_SECTION": {
@@ -1523,69 +1534,65 @@
           "src": "/courts-detail/mobile/mobile-glasses.webp",
           "width": 574,
           "height": 323,
-          "alt": "Mobiles Gericht patentiert von Portico Sport"
+          "alt": "Mobiler Platz, patentiert von Portico Sport"
         },
-        "TITLE": "Gläser",
-        "SUBTITLE": "Sicherheitsverbundglas in jedem Gericht!",
-        "DESCRIPTION": "<p>Entdecken Sie unübertroffene Sicherheit und Haltbarkeit in unseren Padelplätzen. Jedes Gericht verfügt über Sicherheitsverbundglas, erhältlich in einer Dicke von 10 oder 12 mm, maßgeschneidert für die spezifischen Anforderungen Ihres Projekts. Seien Sie versichert, unser Glas erfüllt alle gesetzlichen Standards für Installationen dieser Art. In Zusammenarbeit mit angesehenen spanischen Herstellern mit CE-Kennzeichnung garantieren wir in jeder Hinsicht erstklassige Qualität unserer Konstruktion.</p><p><strong>VERGLASUNG</strong> erfolgt mit klarem Verbundglas mit polierten Kanten, das mit Senkschrauben aus galvanisiertem Stahl und Neopren-Dichtungen für perfekte Glas/Metall-Unterstützung befestigt ist, mit insgesamt 6 Ankerlöchern. Unsere Glasplatten bieten herausragende physikalische und mechanische Eigenschaften, einschließlich Schlagfestigkeit und optimaler Planheit.</p>"
+        "TITLE": "Hochwertiges Sicherheitsglas für hurrikanresistente Padelplätze",
+        "SUBTITLE": "Gehärtetes Sicherheitsglas in jedem Platz!",
+        "DESCRIPTION": "<p>Unsere hurrikanresistenten Padelplätze verfügen über <strong>12 mm CE-zertifiziertes gehärtetes Sicherheitsglas</strong> von führenden spanischen Herstellern.</p><p>Polierte Kanten, Neoprendichtungen und verzinkte Befestigungen sorgen für Sicherheit, Stabilität und exzellente Sicht. Das Glas ist stoßfest, langlebig und entspricht allen europäischen Normen für professionelles Spiel.</p>"
       },
       "PAINT_SECTION": {
         "ID": "paint-section",
-        "TITLE": "Strukturlackierung",
-        "SUBTITLE": "Wussten Sie, dass Sie jetzt Ihrem Gericht eine Farbakzent hinzufügen können?",
-        "DESCRIPTION": "<p>Entdecken Sie das Nonplusultra in der Padelgerichtskonstruktion mit einer Reihe von Lacktypen, die endlose Möglichkeiten bieten, die Strukturen Ihres Gerichts in lebendigen Farben zu lackieren. Unser LACKIERTE LACK bietet maximale Beständigkeit gegen Abrieb und Oxidation. Wählen Sie die RAL-Farbe, die Ihren Vorlieben entspricht, und fallen Sie mit unseren anpassbaren Farboptionen auf.</p><p>Ob Sie sich für ein monochromatisches Erscheinungsbild entscheiden oder mit einem zweifarbigen Schema lebendige Energie einspritzen möchten, lassen Sie Ihr Gericht Ihren einzigartigen Stil und Ihre Persönlichkeit widerspiegeln, um sicherzustellen, dass es auf dem Platz die Aufmerksamkeit auf sich zieht.</p>",
-        "IMAGES": [
-          {
-            "id": "slide-1",
-            "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
-            "alt": "Orange lackiertes mobiles Gericht"
-          },
-          {
-            "id": "slide-2",
-            "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
-            "alt": "Orange lackiertes mobiles Gericht"
-          },
-          {
-            "id": "slide-5",
-            "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "alt": "Gelbes lackiertes mobiles Gericht"
-          },
-          {
-            "id": "slide-6",
-            "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
-            "alt": "Blau lackierte Struktur"
-          },
-          {
-            "id": "slide-10",
-            "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
-            "alt": "Blau lackierte Struktur"
-          }
-        ],
+        "TITLE": "Langlebige Lackierungen für Padelplatzstrukturen",
+        "DESCRIPTION": "<p>Verleihen Sie Ihrem Platz Persönlichkeit mit einer Auswahl an RAL-Farben, ein- oder zweifarbigen Designs und langlebigen Lackoptionen:</p>",
+        "IMAGES": [{
+          "id": "slide-1",
+          "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
+          "alt": "Oranger lackierter mobiler Platz"
+        },{
+          "id": "slide-2",
+          "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
+          "alt": "Oranger lackierter mobiler Platz"
+        }, {
+          "id": "slide-5",
+          "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
+          "alt": "Gelber lackierter mobiler Platz"
+        },{
+          "id": "slide-6",
+          "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
+          "alt": "Blaue lackierte Struktur"
+        },{
+          "id": "slide-10",
+          "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
+          "alt": "Blaue lackierte Struktur"
+        }],
         "LIST": [
-          "<strong>INNEN:</strong> Pulverbeschichtung mit thermofusiblen Harzen formuliert.",
-          "<strong>AUßEN:</strong> Thermofusible Pulverprimer-Behandlung mit einem hohen Zinkgehalt, formuliert zur Verbesserung des Korrosionsschutzes von verzinktem Stahl.",
-          "<strong>FEUERVERZINKT:</strong> Behandlung von geschmolzenem Zink bei einer Temperatur von 450 ºC, um einen hohen Schutz der Teile gegen Korrosion in maritimen Umgebungen zu erreichen. Enthält Pulverbeschichtung mit thermofusiblen Harzen."
+          "<strong>INNEN:</strong> Pulverbeschichtung mit thermofusiblen Harzen",
+          "<strong>AUßEN:</strong> Zinkhaltige Grundierung + Pulverbeschichtung für Korrosionsschutz",
+          "<strong>FEUERVERZINKT:</strong> Zinkbadbehandlung + Pulverbeschichtung für marine oder feuchte Umgebungen"
         ]
       },
       "TURF_SECTION": {
         "ID": "turf-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-top.webp",
-          "alt": "Draufsicht auf mobiles Gericht"
+          "alt": "Draufsicht eines mobilen Platzes"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Rasen</span>",
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Hochleistungsrasen für professionelle Padelplätze</span>",
         "SUBTITLE": "Erleben Sie unübertroffene Leistung auf unserem Rasen!",
-        "DESCRIPTION": "<p>Wir arbeiten mit den besten Rasenunternehmen zusammen, um sicherzustellen, dass Ihr Gericht Rasen von höchster Qualität erhält. Jedes Gericht ist mit Rasen der neuesten Generation ausgestattet, der mit strukturierten Monofilamenten hergestellt ist und verschiedene Dicken und Fasershöhen aufweist, sehr geringe Abnutzung aufweist, aus Polyethylen (PE) und speziellen Additiven mit hoher Widerstandsfähigkeit gegen Abrieb und UV-Schutz hergestellt ist, hitze- und extremen Wetterschwankungen widersteht.</p><p>Stabilisierungsfüllung und Ballastierung mit gerundetem, gewaschenem und getrocknetem Quarzsand, mit 97% Silizium, Korngrößen zwischen 0,2 - 0,6 mm in einer ungefähren Menge von 10-15 kg/m², je nach Rasenmodell.</p><p>Unser hochmoderner Rasen garantiert Padel-Spielern eine optimierte Spielgeschwindigkeit und verbesserten Ballrücksprung und bietet die Möglichkeit von geraden oder gekräuselten Fasern und ist in einer Vielzahl von Farben erhältlich.</p>"
+        "DESCRIPTION": "<p>Unser <strong>Rasen der neuesten Generation</strong> von vertrauenswürdigen europäischen Herstellern garantiert professionelle Leistung.</p><p>Jeder Padelplatz umfasst:</p>",
+        "DESCRIPTION_DOS": "Unser Rasen bietet ein professionelles Spielerlebnis in verschiedenen Farben und Faserarten.",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Polyethylenrasen der neuen Generation mit texturierten Monofilamenten</li><li>UV-beständig, geringe Abrasion, stabil bei Hitze und Witterung</li><li>Quarzsandfüllung (10-15 kg/m²) für optimiertes Ballverhalten</li></ul>"
       },
       "LIGHTING_SECTION": {
         "ID": "lighting-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-lighting.webp",
-          "alt": "Beleuchtung des mobilen Gerichts"
+          "alt": "Beleuchtung eines mobilen Platzes"
         },
-        "TITLE": "LED-Beleuchtung",
-        "SUBTITLE": "Erhellen Sie Ihr Spiel mit der Padelplatzbeleuchtung von Portico Sport!",
-        "DESCRIPTION": "<p>Genießen Sie die ultimative LED-Beleuchtungslösung für Padelplätze, die exklusiv von Portico Sport in Zusammenarbeit mit führenden Spezialisten auf diesem Gebiet angeboten wird.</p><p>Unsere Padelplatzbeleuchtung sorgt für optimale Ausleuchtung und Gleichmäßigkeit auf allen Spielflächen. Von der Netzzone über die Zugangsbereiche, Hintergrund, Seitenlinien und hohen Ballzonen eliminiert unsere Beleuchtungslösung Blendung und Schatten und bietet Spielern eine beispiellose Sichtbarkeit und Leistung.</p><p>Die Qualität unserer Projektoren, die entworfen sind, um Stöße bis zu IK10 standzuhalten, mit IP66-IP67-Dichtungsgraden und Widerstand gegen Spannungsspitzen von 4 kV - 6 kV, kombiniert mit der hohen Wärmeableitungsfähigkeit der Gehäuse, ermöglicht eine verlängerte Lebensdauer unserer Projektoren mit einer Garantie von bis zu 5 Jahren.</p><p>Unsere Projektoren sind so konzipiert, dass sie alle Arten von Plätzen abdecken, die in der europäischen Norm für Sportbeleuchtung (UNE-EN-12193:2020) spezifiziert sind, von der Freizeitnutzung (Klasse III) bis hin zu professionellen Wettbewerben oder Fernsehsendungen (Klasse I - NIDE-Standard).</p><p>Aus verzinkten und lackierten S275-JR-Stahlprofilen gefertigt, sind unsere Masten sicher am Gerüst des Platzes befestigt und verankert, um Langlebigkeit und Zuverlässigkeit zu gewährleisten.</p><p>Um extreme Wetterbedingungen zu überstehen, verfügt dieses Gericht über verstärkte Beleuchtungsmasten mit doppelten Säulen, die ihre beeindruckende Höhe von jeweils 6 Metern schützen. Jeder Mast unterstützt zwei Projektoren und sorgt für präzise und klare Beleuchtung für Ihr Gericht.</p>"
+        "TITLE": "Professionelle LED-Beleuchtungssysteme für Padelplätze",
+        "SUBTITLE": "Beleuchten Sie Ihr Spiel mit der Beleuchtung von Portico Sport!",
+        "DESCRIPTION": "<p>Erhellen Sie Ihren Padelplatz mit hochwertigen <strong>LED-Lösungen</strong>, in Zusammenarbeit mit führenden Spezialisten.</p>",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Vollständig konform mit <strong>UNE-EN-12193:2020</strong></li><li>Gleichmäßiges Licht ohne Blendung oder Schatten</li><li>Stoßfestigkeit IK10, wasserdicht IP66–IP67</li><li>Überspannungsschutz (4kV - 6kV), hohe Wärmeableitung</li><li>Geeignet für Freizeitnutzung (Klasse III) und Profiwettbewerbe (Klasse I, NIDE-Norm)</li><li>5 Jahre Garantie</li></ul>"
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
