@@ -187,6 +187,7 @@
         "TITLE_SINGLE": "Questions fréquentes sur nos pistes de padel Single",
         "TITLE_CLUB_FORCE_80_COURT": "Questions fréquentes sur nos terrains de padel Club Force 80",
         "TITLE_PANORAMIC_COURT": "Foire aux questions sur les courts de padel panoramiques",
+        "TITLE_PANORAMIC_FORCE_80_COURT": "Questions fréquentes sur nos courts de padel Panoramiques Force 80",
         "SUBTITLE": "Foire Aux Questions",
         "BUTTON":{  
           "TEXT":"Construisez votre court de padel !",  
@@ -290,7 +291,21 @@
       }, {
         "question": "Le court nécessite-t-il un entretien particulier en raison de ses parois vitrées ?",
         "answer": "<p>L’entretien est simple : un nettoyage régulier et une vérification des fixations garantissent des performances durables et un aspect esthétique préservé.</p>"
-      }]
+      }],
+        "QUESTIONS_PANORAMIC_FORCE_80_COURT": [{
+          "question": "Qu’est-ce qui différencie le Panoramique Force 80 des autres courts de padel panoramiques ?",
+          "answer": "<p>Il combine l’élégance panoramique avec un système exclusif de renforts qui le transforme en une structure anti-ouragan, capable de résister à des vents allant jusqu’à 80 m/s.</p>"
+        }, {
+          "question": "Peut-on retirer les renforts lorsqu’ils ne sont pas nécessaires ?",
+          "answer": "<p>Absolument. Le court panoramique offre de nombreuses options de personnalisation, y compris la peinture, la transparence du verre, les finitions du cadre et les couleurs du gazon. Vous pouvez également ajouter de multiples accessoires pour créer un court unique.</p>"
+        }, {
+          "question": "Le Panoramique Force 80 est-il adapté aux tournois officiels ?",
+          "answer": "<p>Absolument. Il respecte toutes les réglementations internationales du padel et les normes UNE-EN-10223-4, garantissant sa conformité pour les compétitions professionnelles.</p>"
+        }, {
+          "question": "Quels matériaux sont utilisés pour le Panoramique Force 80 ?",
+          "answer": "<p>Le court est construit en acier galvanisé S275JR, verre trempé premium et treillis électro-soudé, garantissant une durabilité et des performances maximales.</p>"
+        }
+      ]
       },      
       "CONTACT_SECTION": {
         "ID": "contact",
@@ -1440,7 +1455,7 @@
       "TYPE": "PRODUCT",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic-force-80.jpg",
       "TITLE": "<span>Panoramic Force 80</span>",
-      "DESCRIPTION": "<p>En 2021, Portico Sport a introduit le Terrain Club Force 80, le premier Terrain anti-ouragan, créant ainsi une catégorie à part entière. Maintenant, nous sommes heureux de vous présenter le Panoramic Force 80. Capable de résister à des vents allant jusqu'à 80m/s dans un cadre panoramique.</p><p>Le département d'ingénierie de Portico Sport continue de mener l'innovation produit dans l'industrie avec ce design qui, malgré ses murs en verre panoramiques et sa structure en acier plus mince que les conceptions concurrentes, reste ferme dans les conditions météorologiques les plus difficiles, ce qui en fait idéal pour les installations extérieures dans les géographies affectées par les ouragans et les fortes tempêtes.</p>",
+      "DESCRIPTION": "<p>En 2021, Portico Sport a présenté le Club Force 80, le premier court de padel anti-ouragan au monde.</p><p>Aujourd’hui, notre équipe d’ingénieurs a créé un court qui combine des parois vitrées panoramiques et une structure en acier plus fine, <strong>le Panoramique Force 80</strong>, capable de résister à des vents allant jusqu’à 80 m/s tout en conservant un design panoramique élégant.</p>",
       "LITTLE_DESCRIPTION": "<p>Profitez du padel quel que soit le temps.</p>",
       "SUBTITLE": "Profitez du padel quel que soit le temps.",
       "CONTACT_TITLE_1": "Vous voulez un Terrain Panoramic Force 80?",
@@ -1454,66 +1469,62 @@
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
-        "TITLE": "<span class=\"text-secondary\">Le Terrain de padel le plus résistant et excitant sur le marché!</span>",
-        "DESCRIPTION": "<p>Ce Terrain combine la robustesse de notre modèle Club Force 80 à succès avec la spectaculaire visuelle de nos cours panoramiques.</p><p>Ce qui le distingue, c'est notre système innovant et exclusif de 8 renforts qui peuvent être retirés et ajoutés selon les besoins du client et les conditions météorologiques prévues. Avec ce système, vous pouvez profiter d'un Terrain panoramique standard qui se transforme en un Terrain ultra-résistant avant les tempêtes et les ouragans, avec un effort minimal et en un rien de temps.</p><p>Capable de résister à des vents d'ouragan allant jusqu'à 273,6 km/h (80 m/s), avec notre Panoramic Force 80, vous obtiendrez non seulement une résistance maximale contre toutes les conditions météorologiques, mais vous ajouterez également une touche d'élégance et de modernité à votre club.</p>",
+        "TITLE": "<span class=\"text-secondary\">Le court de padel le plus résistant et spectaculaire du marché !</span>",
+        "DESCRIPTION": "<p>Alliant la robustesse éprouvée du Club Force 80 à l’attrait visuel d’un cadre panoramique, ce modèle offre à la fois performance et style sans compromettre la stabilité, ce qui en fait un choix idéal pour les zones extérieures sujettes aux ouragans ou fortes tempêtes.</p><p>Son système exclusif de <strong>8 renforts</strong> peut être ajouté ou retiré rapidement selon les conditions météorologiques, permettant de transformer un court panoramique standard en une structure ultra-résistante en quelques minutes. Avec une résistance aux vents allant jusqu’à 273,6 km/h, il garantit à la fois une sécurité maximale et une <strong>élégance moderne</strong> pour votre club ou complexe.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/panoramic-force-80/panoramic-force-80-front.webp",
-            "alt": "Vue avant du Terrain Panoramic Force 80"
+            "alt": "Vue de face du court Panoramique Force 80"
           },
           "PERSPECTIVE": {
             "src": "/courts-detail/panoramic-force-80/panoramic-force-80-perspective.webp",
-            "alt": "Vue en perspective du Terrain Panoramic Force 80"
+            "alt": "Vue en perspective du court Panoramique Force 80"
           },
           "TOP": {
             "src": "/courts-detail/panoramic-force-80/panoramic-force-80-top.webp",
-            "alt": "Vue de dessus du Terrain Panoramic Force 80"
+            "alt": "Vue du dessus du court Panoramique Force 80"
           }
         }
       },
       "BENEFITS_SECTION": {
         "ID": "benefits",
-        "TITLE": "Découvrez les avantages de notre Terrain Panoramic Force 80",
-        "BENEFITS": [
-          {
-            "header": "Garantie de 10 ans",
-            "icon": "WarrantyIcon",
-            "footer": "Conçu spécifiquement pour résister à des vents d'ouragan, vous pouvez être tranquille en sachant que nos terrains sont couverts par une garantie de 10 ans sur l'intégrité structurelle."
-          },
-          {
-            "header": "Le Terrain de padel le plus résistant",
-            "icon": "VersatileCourtIcon",
-            "footer": "Son design structurel original et ses matériaux de haute qualité en font le Terrain le plus solide et le plus durable, sans compromettre son esthétique."
-          },
-          {
-            "header": "Matériaux de qualité supérieure",
-            "icon": "MaterialsIcon",
-            "footer": "Fabriqués avec des matériaux de qualité supérieure pour une résistance et une durabilité maximales, nos terrains offrent une qualité premium dans les moindres détails."
-          }
-        ]
+        "TITLE": "Découvrez les avantages de notre court de padel Panoramique Force 80",
+        "BENEFITS": [{
+          "header": "Garantie de 10 ans",
+          "icon": "WarrantyIcon",
+          "footer": "Intégrité structurelle garantie même sous vents d’ouragan"
+        }, {
+          "header": "Le court de padel le plus résistant",
+          "icon": "VersatileCourtIcon",
+          "footer": "Design exclusif et matériaux haut de gamme pour le court panoramique le plus solide du marché"
+        }, {
+          "header": "Qualité Premium",
+          "icon": "MaterialsIcon",
+          "footer": "Acier galvanisé, verre trempé et ingénierie avancée pour une durabilité et des performances optimales"
+        }]
       },
       "STRUCTURE_SECTION": {
         "ID": "structure",
         "IMAGE": {
           "id": "section-information",
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
-          "alt": "Rendu d'un Terrain mobile"
+          "alt": "Rendu d’un court mobile"
         },
-        "TITLE": "Structures",
-        "SUBTITLE": "Découvrez la fusion parfaite de la résilience structurelle et de la brillance esthétique!",
-        "TEXT": "<p>Découvrez l'excellence de notre structure de Terrain de qualité premium conçue pour résister à des vents d'ouragan. Notre Terrain dispose de 8 renforts, dont un design exclusif de contreforts en acier, garantissant une résistance maximale à l'abrasion et à l'oxydation avec sa structure en acier galvanisé. De plus, ces renforts sont conçus pour être amovibles, offrant flexibilité et adaptabilité selon les besoins.</p><p>La structure du Terrain, comportant des profilés en acier galvanisé S275JR solidement ancrés au sol avec un système d'ancrage spécialisé, est fabriquée avec soin pour répondre aux réglementations sportives officielles (NIDE 2004 Padel). De plus, les cadres latéraux et supérieurs sont renforcés avec une maille électro-soudée, conformément aux normes UNE-EN-10223-4, garantissant l'intégrité structurelle et la conformité aux normes de l'industrie.</p><p>La structure des Terrains de Padel de Portico Sport subit des processus de fabrication incluant des technologies industrielles de pointe telles que:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">La découpe au laser garantit des découpes précises et offre une finition de haute qualité.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Une ligne d'assemblage de soudage robotisée entièrement automatisée garantit la qualité des soudures, prévenant toute oxydation potentielle à l'avenir.</li></ul>"
+        "TITLE": "Structure résistante aux ouragans pour courts de padel panoramiques",
+        "SUBTITLE": "Découvrez la fusion parfaite entre robustesse structurelle et brillance esthétique !",
+        "TEXT": "<p>Construit à partir de profils en acier galvanisé <strong>S275JR</strong> pour une résistance à l’abrasion et à la corrosion.</p><p>Les cadres latéraux et supérieurs comportent un treillis électro-soudé conforme à la norme UNE-EN-10223-4 avec échafaudage intermédiaire pour le contrôle des vibrations.</p><p>Un système spécialisé de <strong>8 contreforts amovibles</strong> offre une adaptabilité aux différents climats tout en assurant une résistance à long terme.</p><p>Montage rapide avec vis et écrous autobloquants galvanisés.</p><p>Notre processus de fabrication avancé inclut :</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Découpe laser de l’acier pour une précision et des finitions nettes</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Soudure robotisée garantissant qualité et prévention de l’oxydation</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
-        "TITLE": "Dimensions du Terrain Panoramic Force 80",
+        "TITLE": "Dimensions du court Panoramique Force 80",
         "INDOOR_TITLE": "Intérieur",
         "OUTDOOR_TITLE": "Extérieur",
-        "OUTDOOR": "<p><strong>Longueur</strong>: 22,70 m </p><p><strong>Largeur</strong>: 12,66 m </p>",
-        "INDOOR": "<p><strong>Longueur</strong>: 20 m </p><p><strong>Largeur</strong>: 10 m </p>",
+        "OUTDOOR": "<p><strong>Longueur</strong> : 22,70 m x 12,66 m </p>",
+        "INDOOR": "<p><strong>Longueur</strong> : 20 m x 10 m </p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/panoramic-force-80/panoramic-Force-80-sizing.webp",
-          "alt": "Dimensions intérieures et extérieures du Terrain Force-80"
+          "alt": "Dimensions intérieures et extérieures du court Force 80"
         }
       },
       "GLASS_SECTION": {
@@ -1523,69 +1534,65 @@
           "src": "/courts-detail/mobile/mobile-glasses.webp",
           "width": 574,
           "height": 323,
-          "alt": "Terrain mobile breveté par Portico Sport"
+          "alt": "Court mobile breveté par Portico Sport"
         },
-        "TITLE": "Verres",
-        "SUBTITLE": "Verre de sécurité trempé dans chaque Terrain!",
-        "DESCRIPTION": "<p>Découvrez une sécurité et une durabilité inégalées dans nos Terrains de Padel. Chaque Terrain est équipé de verre de sécurité trempé, disponible en épaisseurs de 10 ou 12 mm, adapté aux exigences spécifiques de votre projet. Soyez assuré, notre verre répond à toutes les normes réglementaires pour les installations de ce type. En partenariat avec des fabricants espagnols réputés bénéficiant du marquage CE, nous garantissons une qualité haut de gamme dans tous les aspects de notre construction.</p><p>Le <strong>VITRAGE</strong> est réalisé avec du verre trempé clair aux bords polis, fixé à la structure métallique à l'aide de douilles en polyéthylène fraisées, de vis galvanisées et de joints néoprène pour un support verre/métal parfait, avec un total de 6 trous d'ancrage. Nos panneaux de verre offrent des propriétés physiques et mécaniques exceptionnelles, notamment une résistance aux chocs et une planéité optimale.</p>"
+        "TITLE": "Verre de sécurité premium pour courts de padel résistants aux ouragans",
+        "SUBTITLE": "Du verre de sécurité trempé dans chaque court !",
+        "DESCRIPTION": "<p>Nos courts de padel résistants aux ouragans disposent de <strong>verre de sécurité trempé de 12 mm certifié CE</strong>, issu des meilleurs fabricants espagnols.</p><p>Des bords polis clairs, des joints en néoprène et des fixations galvanisées assurent sécurité, stabilité et excellente visibilité. Conçu pour résister aux impacts et garantir une performance durable, le verre répond à toutes les normes européennes pour le jeu professionnel.</p>"
       },
       "PAINT_SECTION": {
         "ID": "paint-section",
-        "TITLE": "Peinture de structure",
-        "SUBTITLE": "Saviez-vous que vous pouvez maintenant ajouter une touche de couleur à votre Terrain?",
-        "DESCRIPTION": "<p>Découvrez l'épitome de la distinction dans la construction de Terrains de Padel avec une gamme de types de laques, offrant des options infinies pour peindre les structures de votre Terrain dans des couleurs vibrantes. Notre PEINTURE LAQUÉE offre une résistance maximale à l'abrasion et à l'oxydation. Choisissez la couleur RAL qui correspond à vos préférences et démarquez-vous avec nos options de couleur personnalisables.</p><p>Que vous optiez pour un aspect monochromatique ou que vous désiriez insuffler une énergie vibrante avec un schéma bicolore, laissez votre Terrain refléter votre style et votre personnalité uniques, en veillant à ce qu'il attire l'attention sur le terrain.</p>",
-        "IMAGES": [
-          {
-            "id": "slide-1",
-            "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
-            "alt": "Terrain mobile peint en orange"
-          },
-          {
-            "id": "slide-2",
-            "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
-            "alt": "Terrain mobile peint en orange"
-          },
-          {
-            "id": "slide-5",
-            "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-            "alt": "Terrain mobile peint en jaune"
-          },
-          {
-            "id": "slide-6",
-            "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
-            "alt": "Structure bleue peinte"
-          },
-          {
-            "id": "slide-10",
-            "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
-            "alt": "Structure bleue peinte"
-          }
-        ],
+        "TITLE": "Finitions de peinture durables pour structures de courts de padel",
+        "DESCRIPTION": "<p>Ajoutez une touche de personnalité avec votre choix de couleurs RAL, designs monochromes ou bicolores avec options de peinture laquée durable :</p>",
+        "IMAGES": [{
+          "id": "slide-1",
+          "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
+          "alt": "Court mobile peint en orange"
+        },{
+          "id": "slide-2",
+          "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
+          "alt": "Court mobile peint en orange"
+        }, {
+          "id": "slide-5",
+          "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
+          "alt": "Court mobile peint en jaune"
+        },{
+          "id": "slide-6",
+          "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
+          "alt": "Structure peinte en bleu"
+        },{
+          "id": "slide-10",
+          "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
+          "alt": "Structure peinte en bleu"
+        }],
         "LIST": [
-          "<strong>INTÉRIEUR:</strong> revêtement en poudre formulé avec des résines thermodurcissables.",
-          "<strong>EXTÉRIEUR:</strong> traitement de primaire en poudre thermodurcissable avec une forte teneur en zinc formulé pour améliorer la protection contre la corrosion de l'acier galvanisé.",
-          "<strong>GALVANISATION À CHAUD:</strong> traitement du zinc fondu à une température de 450 ºC afin d'obtenir une protection élevée des pièces contre la corrosion dans les environnements marins. Comprend un revêtement en poudre formulé avec des résines thermodurcissables."
+          "<strong>INTÉRIEUR :</strong> Revêtement en poudre avec résines thermofusibles",
+          "<strong>EXTÉRIEUR :</strong> Apprêt thermofusible riche en zinc + revêtement en poudre pour protection anticorrosion",
+          "<strong>GALVANISÉ À CHAUD :</strong> Traitement par bain de zinc + revêtement en poudre pour environnements marins ou très humides"
         ]
       },
       "TURF_SECTION": {
         "ID": "turf-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-top.webp",
-          "alt": "Vue de dessus du Terrain mobile"
+          "alt": "Vue du dessus d’un court mobile"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Gazon</span>",
-        "SUBTITLE": "Découvrez des performances inégalées sur notre gazon!",
-        "DESCRIPTION": "<p>Nous nous associons aux meilleures entreprises de gazon pour garantir que votre Terrain reçoive un gazon de qualité premium. Chaque Terrain est équipé d'un gazon de dernière génération conçu avec des monofilaments texturés, présentant différentes épaisseurs et hauteurs de poil, une très faible abrasion, composé de polyéthylène (PE) et d'additifs spécifiques avec une haute résistance à l'usure et un traitement anti-UV, résistant à la chaleur et aux fluctuations météorologiques extrêmes.</p><p>Remplissage de stabilisation et de ballast utilisant du sable de silice arrondi, lavé et séché, avec 97% de silice, granulométrie entre 0,2 - 0,6 mm en une quantité approximative de 10-15 Kg/m2, selon le modèle de gazon.</p><p>Notre gazon de pointe garantit aux joueurs de padel une vitesse de jeu optimisée et un rebondissement de balle amélioré et offre la possibilité de fibres droites ou bouclées et est disponible dans une grande variété de couleurs.</p>"
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Gazon haute performance pour courts de padel professionnels</span>",
+        "SUBTITLE": "Découvrez une performance inégalée sur notre gazon !",
+        "DESCRIPTION": "<p>Notre <strong>gazon de dernière génération</strong> provenant de fabricants européens de confiance garantit une performance professionnelle.</p><p>Chaque court de padel comprend :</p>",
+        "DESCRIPTION_DOS": "Notre gazon offre une expérience de jeu professionnelle dans différentes couleurs et types de fibres.",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Gazon polyéthylène nouvelle génération avec monofilaments texturés</li><li>Résistant aux UV, faible abrasion, stable face à la chaleur et aux intempéries</li><li>Remplissage en sable de silice (10-15 kg/m²) pour un rebond et une vitesse de balle optimisés</li></ul>"
       },
       "LIGHTING_SECTION": {
         "ID": "lighting-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-lighting.webp",
-          "alt": "Éclairage du Terrain mobile"
+          "alt": "Éclairage d’un court mobile"
         },
-        "TITLE": "Éclairage Led",
-        "SUBTITLE": "Illuminez votre jeu avec l'éclairage de Terrain de padel de Portico Sport!",
-        "DESCRIPTION": "<p>Profitez de la meilleure solution d'éclairage LED pour les Terrains de Padel, offerte exclusivement par Portico Sport en partenariat avec des spécialistes de premier plan dans le domaine.</p><p>Notre éclairage de Terrain de padel assure une illumination optimale et une uniformité sur toutes les zones de jeu. De la zone du filet aux zones d'accès, de fond de Terrain, latérales et de haute balle, notre solution d'éclairage élimine les reflets et les ombres, offrant aux joueurs une visibilité et des performances inégalées.</p><p>La qualité de nos projecteurs, conçus pour résister aux impacts jusqu'à IK10, avec des degrés d'étanchéité IP66-IP67 et une résistance aux surtensions de 4kV - 6kV, combinée aux capacités de dissipation de chaleur élevées des boîtiers, permet une durée de vie prolongée de nos projecteurs, avec une garantie allant jusqu'à 5 ans.</p><p>Nos projecteurs sont conçus pour couvrir tous les types de terrains spécifiés dans la norme européenne pour l'éclairage sportif (UNE-EN-12193:2020), allant de l'utilisation récréative (Classe III) aux compétitions professionnelles ou aux diffusions télévisées (Classe I - norme NIDE).</p><p>Fabriqués à partir de profilés en acier galvanisé et laqué S275 JR, nos mâts sont solidement fixés et ancrés à la structure du Terrain, garantissant durabilité et fiabilité.</p><p>Pour résister aux conditions météorologiques extrêmes, ce Terrain est équipé de mâts d'éclairage renforcés avec des piliers doubles, protégeant leur impressionnante hauteur de 6 mètres chacun. Chaque mât supporte deux projecteurs, offrant une illumination précise et claire pour votre Terrain.</p>"
+        "TITLE": "Systèmes d’éclairage LED professionnels pour courts de padel",
+        "SUBTITLE": "Illuminez votre jeu avec l’éclairage Portico Sport !",
+        "DESCRIPTION": "<p>Éclairez votre court de padel avec des <strong>solutions LED haut de gamme</strong>, en partenariat avec des spécialistes de premier plan.</p>",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Totalement conforme à la norme <strong>UNE-EN-12193:2020</strong></li><li>Lumière uniforme sans éblouissement ni ombre</li><li>Résistance aux chocs IK10, étanchéité IP66–IP67</li><li>Protection contre les surtensions (4kV - 6kV), dissipation thermique élevée</li><li>Adapté à l’usage récréatif (Classe III) et aux compétitions professionnelles (Classe I, norme NIDE)</li><li>Garantie 5 ans</li></ul>"
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
