@@ -1316,13 +1316,11 @@
         },
         "TITLE": "Structure en acier robuste pour terrains de padel haute performance",
         "SUBTITLE": "Découvrez l'excellence de la structure de nos terrains de padel de qualité supérieure",
-        "TEXT": "<p>Conçu pour une résistance maximale, le terrain est doté de contreforts en acier et de renforts supplémentaires. Fabriqué à partir de profils en acier galvanisé <strong>S275JR</strong> pour une résistance à l'abrasion et à la corrosion.</p><p>Les cadres latéraux et supérieurs comportent un treillis électrosoudé conforme à la norme UNE-EN-10223-4 avec échafaudage intermédiaire pour le contrôle des vibrations.</p><p>La fixation au sol utilise des ancrages métalliques fraisés <strong>M8X80 mm</strong>, tandis que l'assemblage est simplifié grâce à des vis et écrous autobloquants galvanisés.</p><p>Notre processus de fabrication avancé comprend :</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Acier découpé au laser pour une précision et des finitions impeccables</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Soudure robotisée garantissant qualité et prévention de l'oxydation</li></ul>",
-        "SUBTEXT_TITLE": "Passez au CLUB+ !",
-        "SUBTEXT": "<p>Vous pouvez également passer à la version Club+ <strong>pour une résistance accrue au vent (jusqu'à 131,40 km/h)</strong> avec des profils en acier renforcés.</p>"
+        "TEXT": "<p>Conçu pour une résistance maximale, le terrain est doté de contreforts en acier et de renforts supplémentaires. Fabriqué à partir de profils en acier galvanisé <strong>S275JR</strong> pour une résistance à l'abrasion et à la corrosion.</p><p>Les cadres latéraux et supérieurs comportent un treillis électrosoudé conforme à la norme UNE-EN-10223-4 avec échafaudage intermédiaire pour le contrôle des vibrations.</p><p>La fixation au sol utilise des ancrages métalliques fraisés <strong>M8X80 mm</strong>, tandis que l'assemblage est simplifié grâce à des vis et écrous autobloquants galvanisés.</p><p>Notre processus de fabrication avancé comprend :</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Acier découpé au laser pour une précision et des finitions impeccables</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Soudure robotisée garantissant qualité et prévention de l'oxydation</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
-        "TITLE": "Dimensions du terrain de padel Club",
+        "TITLE": "Dimensions du Court de Padel Club Force 80",
         "INDOOR_TITLE": "Intérieur",
         "OUTDOOR_TITLE": "Extérieur",
         "OUTDOOR": "<p><strong>Longueur</strong> : 20,87 m x 10,87 m</p>",
