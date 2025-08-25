@@ -3761,7 +3761,7 @@
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
-        "TITLE": "Mini Padel Court dimensions",
+        "TITLE": "Single Padel Court dimensions",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
         "OUTDOOR": "<p><strong>Length</strong>: 20.47 m x 6.47 m</p>",
@@ -3781,7 +3781,7 @@
           "height": 323,
           "alt": "Mobile court patented by Portico Sport"
         },
-        "TITLE": "High-Quality Glass for Mini Padel Courts",
+        "TITLE": "High-Quality Glass for Single Padel Courts",
         "SUBTITLE": "Tempered Safety Glass in Every Court!",
         "DESCRIPTION": "<p>Our Single Courts feature <strong>10 or 12 mm CE-certified tempered safety glass</strong> from top Spanish manufacturers.</p><p>Clear polished edges, neoprene gaskets, and galvanised fixings ensure safety, stability, and excellent visibility. Designed for impact resistance and long-term performance, the glass meets all European standards for professional play.</p>"
       },
@@ -3828,7 +3828,7 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Mobile court top view"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">High-Performance Turf for Mini Padel Courts</span>",
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">High-Performance Turf for Single Padel Courts</span>",
         "SUBTITLE": "Experience Unmatched Performance on our Turf!",
         "DESCRIPTION": "<p>Our latest-generation turf from trusted European manufacturers ensures professional performance.</p><p>Every padel court includes:</p>",
         "DESCRIPTION_DOS": "Our turf offers a professional playing experience in various colors and fiber types.",
@@ -3840,7 +3840,7 @@
           "src": "/courts-detail/mobile/mobile-lighting.webp",
           "alt": "Mobile court lighting"
         },
-        "TITLE": "Quality Led Lighting for Mini Padel Courts",
+        "TITLE": "Quality Led Lighting for Single Padel Courts",
         "SUBTITLE": "Illuminate Your Game with Portico Sport's Padel Court Lighting!",
         "DESCRIPTION": "<p>Light up your Single padel court with premium <strong>LED lighting solutions</strong>, in partnership with top-tier specialists:</p>",
         "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Fully compliant with <strong>UNE-EN-12193:2020</strong></li><li>Uniform light with no glare or shadows</li><li>Impact resistance IK10, IP66–IP67 waterproofing</li><li>Voltage surge protection (4kV - 6kV), high heat dissipation</li><li>Suitable for recreational use (Class III) and professional events (Class I, NIDE standard)</li><li>5-year warranty</li></ul>"
