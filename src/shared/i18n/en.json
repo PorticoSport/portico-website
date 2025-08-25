@@ -3381,13 +3381,11 @@
         },
         "TITLE": "Robust Steel Structure for High-Performance Padel Courts",
         "SUBTITLE": "Experience the excellence of our premium quality Padel court structure",
-        "TEXT": "<p>Designed for maximum resistance, the court features steel buttresses and additional reinforcements. Built from galvanized <strong>S275JR</strong> steel profiles for abrasion and corrosion resistance.</p><p>Side and top frames feature electro-welded mesh compliant with UNE-EN-10223-4 standards with intermediate scaffolding for vibration control.</p><p>Fastening to the pavement uses countersunk metal anchors <strong>M8X80 mm</strong>, while assembly is simplified with galvanized self-locking screws and nuts</p><p>Our advanced manufacturing process includes:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laser-cut steel ensures precision and clean finishes</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Robotic welding guarantees quality and prevents oxidation</li></ul>",
-        "SUBTEXT_TITLE": "Upgrade to CLUB+!",
-        "SUBTEXT": "<p>You can also upgrade to the Club+ version <strong>for enhanced wind resistance (up to 131,40 km/h)</strong> with reinforced steel profiles.</p>"
+        "TEXT": "<p>Designed for maximum resistance, the court features steel buttresses and additional reinforcements. Built from galvanized <strong>S275JR</strong> steel profiles for abrasion and corrosion resistance.</p><p>Side and top frames feature electro-welded mesh compliant with UNE-EN-10223-4 standards with intermediate scaffolding for vibration control.</p><p>Fastening to the pavement uses countersunk metal anchors <strong>M8X80 mm</strong>, while assembly is simplified with galvanized self-locking screws and nuts</p><p>Our advanced manufacturing process includes:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laser-cut steel ensures precision and clean finishes</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Robotic welding guarantees quality and prevents oxidation</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
-        "TITLE": "Club Padel Court Dimensions",
+        "TITLE": "Club Force 80 Padel Court Dimensions",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
         "OUTDOOR": "<p><strong>Length</strong>: 20.87 m x 10.87 m</p>",
