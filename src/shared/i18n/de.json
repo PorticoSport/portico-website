@@ -1316,13 +1316,11 @@
         },
         "TITLE": "Robuste Stahlkonstruktion für Hochleistungs-Padelplätze",
         "SUBTITLE": "Erleben Sie die Exzellenz unserer Premium-Padelplatzstruktur",
-        "TEXT": "<p>Für maximale Widerstandsfähigkeit verfügt der Platz über Stahlstrebepfeiler und zusätzliche Verstärkungen. Hergestellt aus verzinkten <strong>S275JR</strong>-Stahlprofilen für Abrieb- und Korrosionsbeständigkeit.</p><p>Seiten- und obere Rahmen enthalten ein elektroschweißtes Gitter gemäß UNE-EN-10223-4 mit Zwischenverstrebungen zur Vibrationskontrolle.</p><p>Die Befestigung am Boden erfolgt mit versenkten Metallankern <strong>M8X80 mm</strong>, während die Montage durch verzinkte, selbstsichernde Schrauben und Muttern vereinfacht wird.</p><p>Unser fortschrittlicher Herstellungsprozess umfasst:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Lasergeschnittener Stahl sorgt für Präzision und saubere Oberflächen</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Roboterschweißen garantiert Qualität und verhindert Oxidation</li></ul>",
-        "SUBTEXT_TITLE": "Upgrade auf CLUB+!",
-        "SUBTEXT": "<p>Sie können auch auf die Club+ Version upgraden <strong>für erhöhte Windbeständigkeit (bis zu 131,40 km/h)</strong> mit verstärkten Stahlprofilen.</p>"
+        "TEXT": "<p>Für maximale Widerstandsfähigkeit verfügt der Platz über Stahlstrebepfeiler und zusätzliche Verstärkungen. Hergestellt aus verzinkten <strong>S275JR</strong>-Stahlprofilen für Abrieb- und Korrosionsbeständigkeit.</p><p>Seiten- und obere Rahmen enthalten ein elektroschweißtes Gitter gemäß UNE-EN-10223-4 mit Zwischenverstrebungen zur Vibrationskontrolle.</p><p>Die Befestigung am Boden erfolgt mit versenkten Metallankern <strong>M8X80 mm</strong>, während die Montage durch verzinkte, selbstsichernde Schrauben und Muttern vereinfacht wird.</p><p>Unser fortschrittlicher Herstellungsprozess umfasst:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Lasergeschnittener Stahl sorgt für Präzision und saubere Oberflächen</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Roboterschweißen garantiert Qualität und verhindert Oxidation</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
-        "TITLE": "Abmessungen des Club Padelplatzes",
+        "TITLE": "Abmessungen des Club Force 80 Padelplatzes",
         "INDOOR_TITLE": "Innen",
         "OUTDOOR_TITLE": "Außen",
         "OUTDOOR": "<p><strong>Länge</strong>: 20,87 m x 10,87 m</p>",
