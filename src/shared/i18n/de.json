@@ -1680,7 +1680,7 @@
       },
       "BENEFITS_SECTION": {
         "ID": "vorteile",
-        "TITLE": "Erleben Sie die Vorteile unseres Mini-Padelplatzes",
+        "TITLE": "Erleben Sie die Vorteile unseres Einzel-Padelplatzes",
         "BENEFITS": [{
           "header": "10 Jahre Garantie",
           "icon": "WarrantyIcon",
@@ -1708,7 +1708,7 @@
       },
       "SIZING_SECTION": {
         "ID": "abmessungen",
-        "TITLE": "Abmessungen des Mini-Padelplatzes",
+        "TITLE": "Abmessungen eines Einzel-Padelplatzes",
         "INDOOR_TITLE": "Innen",
         "OUTDOOR_TITLE": "Außen",
         "OUTDOOR": "<p><strong>Länge</strong>: 20,47 m x 6,47 m</p>",
@@ -1782,7 +1782,7 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Draufsicht des mobilen Platzes"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Hochwertiger Kunstrasen für Mini-Padelplätze</span>",
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Hochleistungsrasen für Einzel-Padelplätze</span>",
         "SUBTITLE": "Erleben Sie die unübertroffene Leistung unseres Kunstrasens!",
         "DESCRIPTION": "<p>Genießen Sie die unübertroffene Leistung unseres hochmodernen Kunstrasens von renommierten europäischen Herstellern.</p><p>Unser Kunstrasen bietet:</p>",
         "DESCRIPTION_DOS": "Erhältlich in verschiedenen Farben und Faserarten, um Ihren Vorlieben zu entsprechen.",
@@ -1794,7 +1794,7 @@
           "src": "/courts-detail/mobile/mobile-lighting.webp",
           "alt": "Beleuchtung des mobilen Platzes"
         },
-        "TITLE": "Professionelle Beleuchtung für Padelplätze",
+        "TITLE": "Hochwertige LED-Beleuchtung für Einzel-Padelplätze",
         "SUBTITLE": "Beleuchten Sie Ihren Platz mit Portico Sport!",
         "DESCRIPTION": "<p>Beleuchten Sie Ihren Single-Padelplatz mit hochwertigen <strong>LED-Beleuchtungslösungen</strong>, in Zusammenarbeit mit erstklassigen Spezialisten:</p>",
         "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Entspricht der Norm <strong>UNE-EN-12193:2020</strong></li><li>Gleichmäßiges Licht ohne Blendung oder Schatten</li><li>Schlagfestigkeit IK10 und Wasserdichtigkeit IP66–IP67</li><li>Überspannungsschutz (4kV–6kV), hohe Wärmeableitung</li><li>Geeignet für Freizeitnutzung (Klasse III) bis hin zu professionellen Wettkämpfen (Klasse I, NIDE-Norm)</li><li>Garantie bis zu 5 Jahren</li></ul>"
