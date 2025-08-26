@@ -1680,7 +1680,7 @@
       },
       "BENEFITS_SECTION": {
         "ID": "avantages",
-        "TITLE": "Découvrez les avantages de notre piste de padel Mini",
+        "TITLE": "Découvrez les avantages de notre piste de padel individuelle",
         "BENEFITS": [{
           "header": "Garantie de 10 ans",
           "icon": "WarrantyIcon",
@@ -1708,7 +1708,7 @@
       },
       "SIZING_SECTION": {
         "ID": "section-des-dimensions",
-        "TITLE": "Dimensions de la piste de padel Mini",
+        "TITLE": "Dimensions d’une piste de padel individuelle",
         "INDOOR_TITLE": "Intérieur",
         "OUTDOOR_TITLE": "Extérieur",
         "OUTDOOR": "<p><strong>Longueur</strong>: 20,47 m x 6,47 m</p>",
@@ -1728,7 +1728,7 @@
           "height": 323,
           "alt": "Piste mobile brevetée par Portico Sport"
         },
-        "TITLE": "Verre de haute qualité pour pistes de padel Mini",
+        "TITLE": "Verre de haute qualité pour les pistes de padel individuelles",
         "SUBTITLE": "Verre de sécurité trempé sur chaque piste !",
         "DESCRIPTION": "<p>Chaque piste comprend un <strong>verre trempé de sécurité (10 ou 12 mm)</strong> provenant de fabricants espagnols certifiés CE.</p><p>Bords polis, joints en néoprène et fixations sécurisées pour garantir sécurité, stabilité et visibilité maximale.</p><p>Conçu pour résister aux impacts et offrir des performances à long terme, le verre respecte toutes les normes européennes pour le jeu professionnel.</p>"
       },
@@ -1782,19 +1782,19 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Vue supérieure de la piste mobile"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Gazon artificiel de qualité pour pistes de padel Mini</span>",
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Gazon haute performance pour les pistes de padel individuelles</span>",
         "SUBTITLE": "Découvrez la performance inégalée de notre gazon artificiel !",
         "DESCRIPTION": "<p>Profitez d'une performance inégalée avec notre gazon de dernière génération, provenant de fabricants européens de confiance.</p><p>Notre gazon artificiel offre :</p>",
         "DESCRIPTION_DOS": "Disponible en plusieurs couleurs et types de fibres pour s'adapter à vos préférences.",
         "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Gazon en fibres texturées de polyéthylène à faible abrasion.</li><li>Traitement anti-UV, haute résistance à la chaleur et aux intempéries.</li><li>Remplissage de sable de silice lavé et séché (10-15 kg/m²) pour un rebond et une vitesse de balle optimaux.</li></ul>"
-      },
+      }, 
       "LIGHTING_SECTION": {
         "ID": "section-declairage",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-lighting.webp",
           "alt": "Éclairage de la piste mobile"
         },
-        "TITLE": "Éclairage professionnel pour pistes de padel",
+        "TITLE": "Éclairage LED de qualité pour les pistes de padel individuelles",
         "SUBTITLE": "Illuminez votre piste avec l'éclairage de Portico Sport !",
         "DESCRIPTION": "<p>Illuminez votre court de padel individuel avec des <strong>solutions d’éclairage LED</strong> haut de gamme, en partenariat avec des spécialistes de premier plan :</p>",
         "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Conforme à la norme <strong>UNE-EN-12193:2020</strong></li><li>Lumière uniforme, sans éblouissement ni ombre</li><li>Résistance aux impacts IK10 et étanchéité IP66-IP67</li><li>Protection contre les surtensions (4kV-6kV), dissipation thermique élevée</li><li>Convient pour un usage récréatif (Classe III) jusqu'aux compétitions professionnelles (Classe I, norme NIDE)</li><li>Garantie jusqu'à 5 ans</li></ul>"
