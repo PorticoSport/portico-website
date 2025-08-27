@@ -1277,16 +1277,16 @@
         "DESCRIPTION": "<p>Sorgfältig konstruiert, um Hurrikanwinden standzuhalten und gleichzeitig strukturelle Eleganz zu bewahren.</p><p>Der Platz bietet sicheres und komfortables Spiel bei extremen Wetterbedingungen, unterstützt durch Windgeschwindigkeitsberechnungen für technisch anspruchsvolle Umgebungen.</p><p>Im Vergleich zu anderen Modellen besticht der Club Force 80 durch seine Robustheit und Widerstandsfähigkeit, kombiniert mit hoher Leistung und einem ansprechenden Design, das die Ästhetik von Premiumstahl hervorhebt.</p>",
         "IMAGES": {
           "FRONT": {
-            "src": "/courts-detail/club/club-front.webp",
-            "alt": "Vorderansicht des Clubplatzes"
+            "src": "/courts-detail/club-force-80/club-force-80-front.webp",
+            "alt": "Vorderansicht des Club Force 80 Courts"
           },
           "PERSPECTIVE": {
-            "src": "/courts-detail/club/club-perspective.webp",
-            "alt": "Perspektivansicht des Clubplatzes"
+            "src": "/courts-detail/club-force-80/club-force-80-perspective.webp",
+            "alt": "Perspektivische Ansicht des Club Force 80 Courts"
           },
           "TOP": {
-            "src": "/courts-detail/club/club-top.webp",
-            "alt": "Draufsicht auf den Clubplatz"
+            "src": "/courts-detail/club-force-80/club-force-80-top.webp",
+            "alt": "Draufsicht des Club Force 80 Courts"
           }
         }
       },
