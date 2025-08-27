@@ -3556,7 +3556,7 @@
         "name": "Orange"
       }],
         "ID": "curled-turf",
-        "TITLE": "Pelouse frisée",
+        "TITLE": "Gazon frisée",
         "DESCRIPTION": "Un système de gazon artificiel qui combine des fibres texturées frisées",
         "IMAGE": "/courts-detail/turf-XN.webp"
     }, {
@@ -3571,7 +3571,7 @@
         "name": "Orange"
       }],
       "ID": "straight-turf",
-      "TITLE": "Straight Turf",
+      "TITLE": "Straight Gazon",
       "DESCRIPTION": "Cutting-edge artificial turf system composed of straight fibers",
       "IMAGE": "/courts-detail/turf-STX.webp"
     }]
