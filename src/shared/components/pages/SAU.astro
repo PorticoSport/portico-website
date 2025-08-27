@@ -112,6 +112,28 @@ bgClass="brightness-50"
           path="sau-court"
           language={language}/> 
       </div>
+
+    <div class="w-full justify-center">
+        <Typography tag="h2" className="font-bold mb-10 text-center" text={i18n.PAGES.HOME.ELITE_SAU.TITLE} />
+        <Typography tag="div" className="ml-12 mr-12 text-center" text={i18n.PAGES.HOME.ELITE_SAU.DESCRIPTION} />
+        <div class="w-full flex justify-center">
+          <div class="flex flex-col sm:flex-row justify-center items-center gap-7 w-full sm:w-auto">
+            <a href="https://www.head.com/" class="mt-6 sm:mt-12">
+              <img src="/Head-logo.png" class="invert w-32 sm:w-36 object-contain" />
+            </a>
+            <a href="/partners" class="mt-6 sm:mt-12">
+              <img src="/logotipo-portico-sport-redondo-blanco.webp" class="w-32 sm:w-36 object-contain" />
+            </a>
+          </div>
+        </div>
+        <div class="flex justify-center mt-8">
+          <Button size="sm" class="" 
+            url={i18n.PAGES.HOME.ELITE_SAU.BUTTON.URL} 
+            title={i18n.PAGES.HOME.ELITE_SAU.BUTTON.TITLE} target="_self">
+            {i18n.PAGES.HOME.ELITE_SAU.BUTTON.LABEL}
+          </Button>
+        </div>
+      </div>
   
     
     <div class="flex flex-col justify-center m-auto text-center mt-10 mb-10 ">
