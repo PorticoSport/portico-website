@@ -1665,16 +1665,16 @@
         "DESCRIPTION": "<p>Mit seiner schmaleren Spielfläche ist der Einzel-Padelplatz perfekt, um Präzision, Reflexe und technische Fähigkeiten zu verbessern.</p><p>Er ist eine ausgezeichnete Wahl für professionelles Training, Privatstunden oder Freizeitspiele auf begrenztem Raum.</p><p>Gebaut mit denselben hochwertigen Materialien und derselben Ingenieurskunst wie alle Plätze von Portico Sport, bietet er Langlebigkeit, Stil und Leistung für Clubs, Resorts und Privathäuser.</p><p>Vollständig anpassbar in Design, Farben und Oberflächen, passt er sich Ihrem Stil an und erfüllt internationale Padel-Standards.</p>",
         "IMAGES": {
           "FRONT": {
-            "src": "/courts-detail/mini/mini-front.webp",
-            "alt": "Frontansicht des Mini-Platzes"
+            "src": "/courts-detail/single/single-front.webp",
+            "alt": "Frontansicht des single-Platzes"
           },
           "PERSPECTIVE": {
-            "src": "/courts-detail/mini/mini-perspective.webp",
-            "alt": "Perspektivansicht des Mini-Platzes"
+            "src": "/courts-detail/single/single-perspective.webp",
+            "alt": "Perspektivansicht des single-Platzes"
           },
           "TOP": {
-            "src": "/courts-detail/mini/mini-top.webp",
-            "alt": "Draufsicht des Mini-Platzes"
+            "src": "/courts-detail/single/single-top.webp",
+            "alt": "Draufsicht des single-Platzes"
           }
         }
       },
