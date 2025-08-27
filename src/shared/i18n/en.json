@@ -3777,7 +3777,7 @@
         "INDOOR": "<p><strong>Length</strong>: 20 m x 6 m</p>",
         "IMAGE": {
           "id": "image-sizing",
-          "src": "/courts-detail/mini/mini-sizing.webp",
+          "src": "/courts-detail/single/single-sizing.webp",
           "alt": "Interior and exterior single court sizes"
         }
       },
