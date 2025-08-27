@@ -225,6 +225,15 @@
           "URL":"/client-contact"
         }
       },
+      "ELITE_SAU": {
+        "TITLE": "Elite Partnerships for Premium Padel",
+        "DESCRIPTION": "<p>Portico Sport teams up with world-class partners like <strong>HEAD</strong> to deliver premium padel courts that combine performance, style, and durability. These <strong>courts are certified and tournament-ready</strong>, featuring advanced surfaces, integrated lighting, and sustainable design.</p><p>Clubs also <strong>benefit from an exclusive HEAD product and accessory package</strong>, enhancing both player experience and club offerings.</p><p>By partnering with HEAD, Portico Sport helps clubs attract and retain members while elevating their image with a globally recognized brand. This collaboration ensures a complete, high-quality padel experience for players and clubs alike.</p>",
+        "BUTTON": {
+          "TITLE":"Contact us to upgrade your club",
+          "LABEL": "Contact us to upgrade your club",
+          "URL": "https://www.porticosport.com/client-contact"
+        }
+      },
       "COURTS_SECTION_SAU": {
         "ID": "padel-courts",
         "TITLE": "Why choose Portico Sport in Saudi Arabia?",
