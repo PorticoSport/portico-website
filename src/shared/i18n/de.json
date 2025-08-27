@@ -1715,7 +1715,7 @@
         "INDOOR": "<p><strong>Länge</strong>: 20 m x 6 m</p>",
         "IMAGE": {
           "id": "image-sizing",
-          "src": "/courts-detail/mini/mini-sizing.webp",
+          "src": "/courts-detail/single/single-sizing.webp",
           "alt": "Innen- und Außenmaße des Single-Platzes"
         }
       },
