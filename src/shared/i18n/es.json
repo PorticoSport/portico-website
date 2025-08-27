@@ -1691,16 +1691,16 @@
         "DESCRIPTION": "<p>Con su área de juego más estrecha, la pista de pádel Individual es perfecta para mejorar la precisión, los reflejos y las habilidades técnicas.</p><pEs una excelente opción para sesiones de entrenamiento profesional, clases privadas o partidos recreativos en espacios reducidos.</p><p>Construida con los mismos materiales premium y la ingeniería de todas las pistas de Portico Sport, ofrece durabilidad, estilo y rendimiento para clubes, resorts y hogares privados.</p><p>Totalmente personalizable en diseño, colores y acabados, se adapta a tu estilo mientras mantiene los estándares internacionales de pádel.</p>",
         "IMAGES": {
           "FRONT": {
-            "src": "/courts-detail/mini/mini-front.webp",
-            "alt": "Vista frontal de la pista mini"
+            "src": "/courts-detail/single/single-front.webp",
+            "alt": "Vista frontal de la pista single"
           },
           "PERSPECTIVE": {
-            "src": "/courts-detail/mini/mini-perspective.webp",
-            "alt": "Vista frontal de la pista mini"
+            "src": "/courts-detail/single/single-perspective.webp",
+            "alt": "Vista frontal de la pista single"
           },
           "TOP": {
-            "src": "/courts-detail/mini/mini-top.webp",
-            "alt": "Vista superior de la pista mini"
+            "src": "/courts-detail/single/single-top.webp",
+            "alt": "Vista superior de la pista single"
           }
         }
       },
