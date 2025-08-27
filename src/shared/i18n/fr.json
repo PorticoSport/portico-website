@@ -1277,16 +1277,16 @@
         "DESCRIPTION": "<p>Conçu avec soin pour résister à des vents d'ouragan tout en conservant une élégance structurelle.</p><p>Le terrain offre un jeu sûr et confortable dans des conditions extrêmes, avec des calculs de résistance au vent adaptés aux environnements techniquement exigeants.</p><p>Comparé à d'autres modèles, le Club Force 80 se distingue par sa robustesse et sa résilience, alliant haute performance et design visuellement attrayant qui met en valeur l'esthétique de l'acier haut de gamme.</p>",
         "IMAGES": {
           "FRONT": {
-            "src": "/courts-detail/club/club-front.webp",
-            "alt": "Vue de face du terrain Club"
+            "src": "/courts-detail/club-force-80/club-force-80-front.webp",
+            "alt": "Vue de face du court Club Force 80"
           },
           "PERSPECTIVE": {
-            "src": "/courts-detail/club/club-perspective.webp",
-            "alt": "Vue en perspective du terrain Club"
+            "src": "/courts-detail/club-force-80/club-force-80-perspective.webp",
+            "alt": "Vue en perspective du court Club Force 80"
           },
           "TOP": {
-            "src": "/courts-detail/club/club-top.webp",
-            "alt": "Vue du dessus du terrain Club"
+            "src": "/courts-detail/club-force-80/club-force-80-top.webp",
+            "alt": "Vue de dessus du court Club Force 80"
           }
         }
       },
