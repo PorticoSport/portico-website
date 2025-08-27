@@ -3351,16 +3351,16 @@
         "DESCRIPTION": "<p>Meticulously engineered to withstand hurricane-force winds while maintaining structural elegance.</p><p>The court provides safe and comfortable gameplay in extreme weather, supported by wind-speed calculations tailored for technically demanding environments.</p><p>Compared to other models, the Club Force 80 stands out for its robustness and resilience, combining high performance with a visually appealing design that highlights premium steel aesthetics.</p>",
         "IMAGES": {
           "FRONT": {
-            "src": "/courts-detail/club/club-front.webp",
-            "alt": "Club court front view"
+            "src": "/courts-detail/club-force-80/club-force-80-front.webp",
+            "alt": "Club Force 80 court front view"
           },
           "PERSPECTIVE": {
-            "src": "/courts-detail/club/club-perspective.webp",
-            "alt": "Club court perspective view"
+            "src": "/courts-detail/club-force-80/club-force-80-perspective.webp",
+            "alt": "Club Force 80 court perspective view"
           },
           "TOP": {
-            "src": "/courts-detail/club/club-top.webp",
-            "alt": "Club court top view"
+            "src": "/courts-detail/club-force-80/club-force-80-top.webp",
+            "alt": "Club Force 80 court top view"
           }
         }
       },
