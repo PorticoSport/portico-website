@@ -1687,7 +1687,7 @@
       },
       "FIRST_SECTION": {
         "ID": "vistas-de-pistas",
-        "TITLE": "<span class=\"text-secondary\"> Compactas pero poderosas: pistas de pádel Mini de Portico Sport</span>",
+        "TITLE": "<span class=\"text-secondary\"> Compactas pero poderosas: pistas de pádel Single de Portico Sport</span>",
         "DESCRIPTION": "<p>Con su área de juego más estrecha, la pista de pádel Individual es perfecta para mejorar la precisión, los reflejos y las habilidades técnicas.</p><pEs una excelente opción para sesiones de entrenamiento profesional, clases privadas o partidos recreativos en espacios reducidos.</p><p>Construida con los mismos materiales premium y la ingeniería de todas las pistas de Portico Sport, ofrece durabilidad, estilo y rendimiento para clubes, resorts y hogares privados.</p><p>Totalmente personalizable en diseño, colores y acabados, se adapta a tu estilo mientras mantiene los estándares internacionales de pádel.</p>",
         "IMAGES": {
           "FRONT": {
@@ -1706,7 +1706,7 @@
       },
       "BENEFITS_SECTION": {
         "ID": "beneficios",
-        "TITLE": "Experimenta los beneficios de nuestra pista de pádel Mini",
+        "TITLE": "Experimenta los beneficios de nuestra pista de pádel Single",
         "BENEFITS": [{
           "header": "Garantía de 10 años",
           "icon": "WarrantyIcon",
@@ -1754,7 +1754,7 @@
           "height": 323,
           "alt": "Pista móvil patentada por Portico Sport"
         },
-        "TITLE": "Vidrio de Alta Calidad para pistas de pádel Mini",
+        "TITLE": "Vidrio de Alta Calidad para pistas de pádel Single",
         "SUBTITLE": "¡Vidrio de seguridad templado en cada pista!",
         "DESCRIPTION": "<p>Cada pista incluye <strong>cristal templado de seguridad (10 o 12 mm)</strong> de fabricantes españoles con certificación CE.</p><p>Bordes pulidos, juntas de neopreno y fijaciones seguras para garantizar seguridad, estabilidad y máxima visibilidad.</p><p>Diseñado para resistencia al impacto y rendimiento a largo plazo, el vidrio cumple con todas las normas europeas para juego profesional.</p>"
       },
@@ -1808,7 +1808,7 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Vista superior de la pista móvil"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped Artificial de calidad para pistas de pádel Mini </span>",
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped Artificial de calidad para pistas de pádel Single</span>",
         "SUBTITLE": "¡Experimenta un Rendimiento Inigualable en Nuestro Césped Artificial!",
         "DESCRIPTION": "<p>Disfruta de un rendimiento inigualable con nuestro césped de última generación, procedente de fabricantes europeos de confianza.</p><p>Nuestro césped artificial cuenta con:</p>",
         "DESCRIPTION_DOS": "Disponible en varios colores y tipos de fibra para adaptarse a tus preferencias.",
