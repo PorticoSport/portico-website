@@ -1327,8 +1327,8 @@
         "INDOOR": "<p><strong>Longueur</strong> : 20 m x 10 m</p>",
         "IMAGE": {
           "id": "image-sizing",
-          "src": "/courts-detail/club/Club-sizing.webp",
-          "alt": "Dimensions intérieures et extérieures du terrain Club"
+          "src": "/courts-detail/club-force-80/club-Force-80-sizing.webp",
+          "alt": "Dimensions intérieures et extérieures du terrain Club Force-80"
         }
       },
       "GLASS_SECTION": {
