@@ -1661,7 +1661,7 @@
       },
       "FIRST_SECTION": {
         "ID": "vues-de-pistes",
-        "TITLE": "<span class=\"text-secondary\"> Compactes mais puissantes : pistes de padel Mini de Portico Sport</span>",
+        "TITLE": "<span class=\"text-secondary\">Court de Padel Simple : Conçu pour les joueurs en solo !</span>",
         "DESCRIPTION": "<p>Avec sa zone de jeu plus étroite, la piste de padel individuelle est parfaite pour améliorer la précision, les réflexes et les compétences techniques.</p><p>C'est un excellent choix pour des séances d'entraînement professionnelles, des cours particuliers ou des matchs récréatifs dans des espaces réduits.</p><p>Construite avec les mêmes matériaux haut de gamme et l'ingénierie de toutes les pistes de Portico Sport, elle offre durabilité, style et performance pour les clubs, complexes touristiques et résidences privées.</p><p>Totalement personnalisable en conception, couleurs et finitions, elle s'adapte à votre style tout en respectant les normes internationales du padel.</p>",
         "IMAGES": {
           "FRONT": {
@@ -1680,7 +1680,7 @@
       },
       "BENEFITS_SECTION": {
         "ID": "avantages",
-        "TITLE": "Découvrez les avantages de notre piste de padel individuelle",
+        "TITLE": "Découvrez les avantages de notre Court de Padel Simple",
         "BENEFITS": [{
           "header": "Garantie de 10 ans",
           "icon": "WarrantyIcon",
@@ -1702,13 +1702,13 @@
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
           "alt": "Rendu d'une piste mobile"
         },
-        "TITLE": "Structure de pistes par des fabricants experts",
+        "TITLE": "Structure de court par des experts en construction de padel",
         "SUBTITLE": "Découvrez l'excellence de la structure de haute qualité de nos pistes de padel",
         "TEXT": "<p>Une piste de padel de taille réduite fabriquée en acier galvanisé <strong>S275JR</strong>, avec une haute résistance à l'abrasion et à la corrosion.</p><p>Les cadres latéraux et supérieurs incluent un treillis soudé conforme à la norme <strong>UNE-EN-10223-4</strong>, avec des renforts intermédiaires pour éviter les vibrations.</p><p>Montage rapide grâce à une visserie galvanisée avec système de verrouillage automatique.</p><p>Toutes nos structures sont fabriquées avec des procédés de fabrication avancés :</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Découpe laser pour des finitions précises et nettes</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Soudage robotisé pour garantir la qualité et prévenir l'oxydation</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "section-des-dimensions",
-        "TITLE": "Dimensions d’un court de padel simple",
+        "TITLE": "Dimensions du Court de Padel Simple",
         "INDOOR_TITLE": "Intérieur",
         "OUTDOOR_TITLE": "Extérieur",
         "OUTDOOR": "<p><strong>Longueur</strong>: 20,47 m x 6,47 m</p>",
@@ -1728,13 +1728,13 @@
           "height": 323,
           "alt": "Piste mobile brevetée par Portico Sport"
         },
-        "TITLE": "Verre de haute qualité pour les pistes de padel individuelles",
+       "TITLE": "Verre de haute qualité pour Courts de Padel Simples",
         "SUBTITLE": "Verre de sécurité trempé sur chaque piste !",
         "DESCRIPTION": "<p>Chaque piste comprend un <strong>verre trempé de sécurité (10 ou 12 mm)</strong> provenant de fabricants espagnols certifiés CE.</p><p>Bords polis, joints en néoprène et fixations sécurisées pour garantir sécurité, stabilité et visibilité maximale.</p><p>Conçu pour résister aux impacts et offrir des performances à long terme, le verre respecte toutes les normes européennes pour le jeu professionnel.</p>"
       },
       "PAINT_SECTION": {
         "ID": "section-de-peinture",
-        "TITLE": "Peinture pour structures de pistes de padel",
+        "TITLE": "Peinture de structure pour Courts de Padel",
         "SUBTITLE": "Saviez-vous que vous pouvez ajouter une touche de couleur à votre piste de padel Mini ?",
         "DESCRIPTION": "<p>Personnalisez votre piste avec des couleurs RAL en design monochrome ou bicolore, avec des finitions de peinture haute durabilité :</p>",
         "DESCRIPTION_DOS": "Avec la bonne peinture, même une piste plus petite se démarquera.",
@@ -1782,7 +1782,7 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Vue supérieure de la piste mobile"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Gazon haute performance pour les pistes de padel individuelles</span>",
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Gazon haute performance pour Courts de Padel Simples</span>",
         "SUBTITLE": "Découvrez la performance inégalée de notre gazon artificiel !",
         "DESCRIPTION": "<p>Profitez d'une performance inégalée avec notre gazon de dernière génération, provenant de fabricants européens de confiance.</p><p>Notre gazon artificiel offre :</p>",
         "DESCRIPTION_DOS": "Disponible en plusieurs couleurs et types de fibres pour s'adapter à vos préférences.",
@@ -1794,7 +1794,7 @@
           "src": "/courts-detail/mobile/mobile-lighting.webp",
           "alt": "Éclairage de la piste mobile"
         },
-        "TITLE": "Éclairage LED de qualité pour les pistes de padel individuelles",
+        "TITLE": "Éclairage LED de qualité pour Courts de Padel Simples",
         "SUBTITLE": "Illuminez votre piste avec l'éclairage de Portico Sport !",
         "DESCRIPTION": "<p>Illuminez votre court de padel individuel avec des <strong>solutions d’éclairage LED</strong> haut de gamme, en partenariat avec des spécialistes de premier plan :</p>",
         "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Conforme à la norme <strong>UNE-EN-12193:2020</strong></li><li>Lumière uniforme, sans éblouissement ni ombre</li><li>Résistance aux impacts IK10 et étanchéité IP66-IP67</li><li>Protection contre les surtensions (4kV-6kV), dissipation thermique élevée</li><li>Convient pour un usage récréatif (Classe III) jusqu'aux compétitions professionnelles (Classe I, norme NIDE)</li><li>Garantie jusqu'à 5 ans</li></ul>"
