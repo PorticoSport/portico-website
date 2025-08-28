@@ -1661,7 +1661,7 @@
       },
       "FIRST_SECTION": {
         "ID": "platzansichten",
-        "TITLE": "<span class=\"text-secondary\">Kompakt aber leistungsstark: Mini-Padelplätze von Portico Sport</span>",
+        "TITLE": "<span class=\"text-secondary\">Einzel-Padelplatz: Maßgeschneidert für Solospieler!</span>",
         "DESCRIPTION": "<p>Mit seiner schmaleren Spielfläche ist der Einzel-Padelplatz perfekt, um Präzision, Reflexe und technische Fähigkeiten zu verbessern.</p><p>Er ist eine ausgezeichnete Wahl für professionelles Training, Privatstunden oder Freizeitspiele auf begrenztem Raum.</p><p>Gebaut mit denselben hochwertigen Materialien und derselben Ingenieurskunst wie alle Plätze von Portico Sport, bietet er Langlebigkeit, Stil und Leistung für Clubs, Resorts und Privathäuser.</p><p>Vollständig anpassbar in Design, Farben und Oberflächen, passt er sich Ihrem Stil an und erfüllt internationale Padel-Standards.</p>",
         "IMAGES": {
           "FRONT": {
@@ -1680,7 +1680,7 @@
       },
       "BENEFITS_SECTION": {
         "ID": "vorteile",
-        "TITLE": "Erleben Sie die Vorteile unseres Einzel-Padelplatzes",
+        "TITLE": "Entdecken Sie die Vorteile unseres Einzel-Padelplatzes",
         "BENEFITS": [{
           "header": "10 Jahre Garantie",
           "icon": "WarrantyIcon",
@@ -1702,13 +1702,13 @@
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
           "alt": "Rendering eines mobilen Platzes"
         },
-        "TITLE": "Platzstrukturen von erfahrenen Padelplatz-Herstellern",
+        "TITLE": "Platzstruktur von erfahrenen Padelplatz-Bauern",
         "SUBTITLE": "Erleben Sie die hochwertige Struktur unserer Padelplätze",
         "TEXT": "<p>Ein Padelplatz in reduzierter Größe aus verzinktem Stahl <strong>S275JR</strong>, hochbeständig gegen Abrieb und Korrosion.</p><p>Seitliche und obere Rahmen enthalten geschweißten Draht gemäß <strong>UNE-EN-10223-4</strong> mit Zwischenverstärkungen zur Vermeidung von Vibrationen.</p><p>Schnelle Montage dank verzinkter Schrauben mit automatischem Verriegelungssystem.</p><p>Alle unsere Strukturen werden mit modernsten Herstellungsverfahren gefertigt:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laserschneiden für präzise und saubere Kanten</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Roboterschweißen für gleichbleibende Qualität und Korrosionsschutz</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "abmessungen",
-        "TITLE": "Abmessungen eines Einzel-Padelplatzes",
+        "TITLE": "Abmessungen des Einzel-Padelplatzes",
         "INDOOR_TITLE": "Innen",
         "OUTDOOR_TITLE": "Außen",
         "OUTDOOR": "<p><strong>Länge</strong>: 20,47 m x 6,47 m</p>",
@@ -1728,13 +1728,13 @@
           "height": 323,
           "alt": "Mobiler Platz, patentiert von Portico Sport"
         },
-        "TITLE": "Hochwertiges Glas für Mini-Padelplätze",
+        "TITLE": "Hochwertiges Glas für Einzel-Padelplätze",
         "SUBTITLE": "Sicherheitsgehärtetes Glas auf jedem Platz!",
         "DESCRIPTION": "<p>Jeder Platz enthält <strong>sicherheitsgehärtetes Glas (10 oder 12 mm)</strong> von spanischen Herstellern mit CE-Zertifizierung.</p><p>Polierte Kanten, Neoprendichtungen und sichere Befestigungen sorgen für Sicherheit, Stabilität und maximale Sicht.</p><p>Entwickelt für Schlagfestigkeit und langfristige Leistung erfüllt das Glas alle europäischen Normen für den Profisport.</p>"
       },
       "PAINT_SECTION": {
         "ID": "lackierung",
-        "TITLE": "Lackierung für Padelplatz-Strukturen",
+        "TITLE": "Strukturbeschichtung für Padelplätze",
         "SUBTITLE": "Wussten Sie, dass Sie Ihrem Mini-Padelplatz Farbe verleihen können?",
         "DESCRIPTION": "<p>Passen Sie Ihren Platz mit RAL-Farben in einfarbigem oder zweifarbigem Design an – mit besonders langlebigen Lackierungen:</p>",
         "DESCRIPTION_DOS": "Mit der richtigen Lackierung fällt selbst ein kleinerer Platz auf.",
