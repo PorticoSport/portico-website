@@ -3366,7 +3366,7 @@
       },
       "BENEFITS_SECTION": {
         "ID": "benefits",
-        "TITLE": "Experience the benefits of our Club Padel court",
+        "TITLE": "Experience the benefits of our Club Force 80 Padel court",
         "BENEFITS": [{
           "header": "10 years warranty",
           "icon": "WarrantyIcon",
@@ -3401,8 +3401,8 @@
         "INDOOR": "<p><strong>Length</strong>: 20 m x 10 m</p>",
         "IMAGE": {
           "id": "image-sizing",
-          "src": "/courts-detail/club/Club-sizing.webp",
-          "alt": "Interior and exterior Club court sizes"
+          "src": "/courts-detail/club-force-80/club-Force-80-sizing.webp",
+          "alt": "Interior and exterior Club Force-80 sizes"
         }
       },
       "GLASS_SECTION": {
