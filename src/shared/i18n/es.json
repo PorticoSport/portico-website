@@ -590,7 +590,7 @@
       "GALLERY_SECTION": {
         "ID": "galeria",
         "PATH": "courts-detail/mobile/gallery",
-        "OFFSET": 12,
+        "OFFSET": 15,
         "BUTTON_TEXT": "Descubre más imágenes"
       },
       "COURTS_SECTION": {
