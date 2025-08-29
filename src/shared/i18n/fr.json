@@ -1646,7 +1646,7 @@
       "SEO_DESCRIPTION": "Découvrez le Terrain individuel, parfait pour des matchs en 1 contre 1 ou des séances d'entraînement individuelles. Même qualité premium et durabilité dans un format plus petit. En savoir plus !",
       "TYPE": "PRODUCT",
       "OG_IMG": "https://www.porticosport.com/og/og-single.jpg",
-      "TITLE": "<span>Terrain individuel</span>",
+      "TITLE": "<span>Terrain Single</span>",
       "DESCRIPTION": "<p>Notre piste de padel Single conserve la même longueur qu'une piste standard mais avec une largeur réduite, parfaite pour les matchs en tête-à-tête.</p><p>Idéale pour les cours individuels, les entraînements spécifiques ou pour optimiser les espaces où une piste de double ne s'adapte pas, elle offre une expérience complète du padel dans un format compact.</p>",
       "NAME": "individuel",
       "LITTLE_DESCRIPTION": "<p>Même solidité dans des dimensions plus petites pour les joueurs solitaires.</p>",
@@ -1661,7 +1661,7 @@
       },
       "FIRST_SECTION": {
         "ID": "vues-de-pistes",
-        "TITLE": "<span class=\"text-secondary\">Court de Padel Simple : Conçu pour les joueurs en solo !</span>",
+        "TITLE": "<span class=\"text-secondary\">Court de Padel Single : Conçu pour les joueurs en solo !</span>",
         "DESCRIPTION": "<p>Avec sa zone de jeu plus étroite, la piste de padel individuelle est parfaite pour améliorer la précision, les réflexes et les compétences techniques.</p><p>C'est un excellent choix pour des séances d'entraînement professionnelles, des cours particuliers ou des matchs récréatifs dans des espaces réduits.</p><p>Construite avec les mêmes matériaux haut de gamme et l'ingénierie de toutes les pistes de Portico Sport, elle offre durabilité, style et performance pour les clubs, complexes touristiques et résidences privées.</p><p>Totalement personnalisable en conception, couleurs et finitions, elle s'adapte à votre style tout en respectant les normes internationales du padel.</p>",
         "IMAGES": {
           "FRONT": {
@@ -1680,7 +1680,7 @@
       },
       "BENEFITS_SECTION": {
         "ID": "avantages",
-        "TITLE": "Découvrez les avantages de notre Court de Padel Simple",
+        "TITLE": "Découvrez les avantages de notre Court de Padel Single",
         "BENEFITS": [{
           "header": "Garantie de 10 ans",
           "icon": "WarrantyIcon",
@@ -1708,7 +1708,7 @@
       },
       "SIZING_SECTION": {
         "ID": "section-des-dimensions",
-        "TITLE": "Dimensions du Court de Padel Simple",
+        "TITLE": "Dimensions du Court de Padel Single",
         "INDOOR_TITLE": "Intérieur",
         "OUTDOOR_TITLE": "Extérieur",
         "OUTDOOR": "<p><strong>Longueur</strong>: 20,47 m x 6,47 m</p>",
@@ -1728,7 +1728,7 @@
           "height": 323,
           "alt": "Piste mobile brevetée par Portico Sport"
         },
-       "TITLE": "Verre de haute qualité pour Courts de Padel Simples",
+       "TITLE": "Verre de haute qualité pour Courts de Padel Single",
         "SUBTITLE": "Verre de sécurité trempé sur chaque piste !",
         "DESCRIPTION": "<p>Chaque piste comprend un <strong>verre trempé de sécurité (10 ou 12 mm)</strong> provenant de fabricants espagnols certifiés CE.</p><p>Bords polis, joints en néoprène et fixations sécurisées pour garantir sécurité, stabilité et visibilité maximale.</p><p>Conçu pour résister aux impacts et offrir des performances à long terme, le verre respecte toutes les normes européennes pour le jeu professionnel.</p>"
       },
@@ -1782,7 +1782,7 @@
           "src": "/courts-detail/mobile/mobile-top.webp",
           "alt": "Vue supérieure de la piste mobile"
         },
-        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Gazon haute performance pour Courts de Padel Simples</span>",
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Gazon haute performance pour Courts de Padel Single</span>",
         "SUBTITLE": "Découvrez la performance inégalée de notre gazon artificiel !",
         "DESCRIPTION": "<p>Profitez d'une performance inégalée avec notre gazon de dernière génération, provenant de fabricants européens de confiance.</p><p>Notre gazon artificiel offre :</p>",
         "DESCRIPTION_DOS": "Disponible en plusieurs couleurs et types de fibres pour s'adapter à vos préférences.",
@@ -1794,7 +1794,7 @@
           "src": "/courts-detail/mobile/mobile-lighting.webp",
           "alt": "Éclairage de la piste mobile"
         },
-        "TITLE": "Éclairage LED de qualité pour Courts de Padel Simples",
+        "TITLE": "Éclairage LED de qualité pour Courts de Padel Single",
         "SUBTITLE": "Illuminez votre piste avec l'éclairage de Portico Sport !",
         "DESCRIPTION": "<p>Illuminez votre court de padel individuel avec des <strong>solutions d’éclairage LED</strong> haut de gamme, en partenariat avec des spécialistes de premier plan :</p>",
         "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Conforme à la norme <strong>UNE-EN-12193:2020</strong></li><li>Lumière uniforme, sans éblouissement ni ombre</li><li>Résistance aux impacts IK10 et étanchéité IP66-IP67</li><li>Protection contre les surtensions (4kV-6kV), dissipation thermique élevée</li><li>Convient pour un usage récréatif (Classe III) jusqu'aux compétitions professionnelles (Classe I, norme NIDE)</li><li>Garantie jusqu'à 5 ans</li></ul>"
