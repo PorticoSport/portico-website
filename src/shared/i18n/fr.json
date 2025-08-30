@@ -1990,6 +1990,11 @@
         "DESCRIPTION": "<p>Éclairez votre court de padel avec des solutions d’éclairage <strong>LED premium</strong>, en partenariat avec des spécialistes de premier plan :</p>",
         "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Totalement conforme à la norme <strong>UNE-EN-12193:2020</strong></li><li>Lumière uniforme sans éblouissement ni ombres</li><li>Résistance aux chocs IK10, étanchéité IP66–IP67</li><li>Protection contre les surtensions (4kV - 6kV), dissipation thermique élevée</li><li>Convient pour un usage récréatif (Classe III) et pour des événements professionnels (Classe I, norme NIDE)</li><li>Garantie 5 ans</li></ul>"
       },
+      "GALLERY_SECTION": {
+        "ID": "gallery",
+        "PATH": "courts-detail/mini/gallery",
+        "OFFSET": 27
+      },
       "COURTS_SECTION": {
         "TITLE": "Découvrez d'autres Terrains de Padel",
         "DESCRIPTION": "Vous voulez quelque chose de différent ? Vous pouvez voir d'autres modèles de Terrains de Padel"
