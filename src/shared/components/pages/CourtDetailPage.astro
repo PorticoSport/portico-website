@@ -177,7 +177,8 @@ robots="index,follow"
       </Section>) : null
     }
     <NormativeLogos language={language} />
-    {
+    <div class="bg-slate-100 w-full">
+      {
       isBenefitsSection ? (
         <BenefitsSection
           title={isBenefitsSection.TITLE}
@@ -185,6 +186,7 @@ robots="index,follow"
         />
       ) : null
     }
+    </div>
     {
       isStructure ? (
         <SectionInformation
