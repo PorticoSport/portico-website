@@ -184,6 +184,7 @@
         "TITLE_CLUB_FORCE_80_COURT": "Preguntas frecuentes sobre nuestras pistas Club Force 80",
         "TITLE_PANORAMIC_COURT":"Preguntas frecuentes sobre pistas de pádel panorámicas",
         "TITLE_PANORAMIC_FORCE_80_COURT": "Preguntas frecuentes sobre nuestras pistas de pádel Panoramic Force 80",
+        "TITLE_MODULAR": "Preguntas frecuentes sobre las unidades modulares para clubes de pádel",
         "SUBTITLE": "Preguntas Frecuentes",
         "BUTTON":{
           "TITLE":"Fabricantes de pistas de pádel",
@@ -297,6 +298,24 @@
         }, {
           "question": "¿Qué materiales se utilizan en la Panoramic Force 80?",
           "answer": "<p>La pista está fabricada con acero galvanizado S275JR, cristal templado premium y malla electrosoldada, garantizando máxima durabilidad y rendimiento.</p>"
+        }
+      ],
+        "QUESTIONS_MODULAR": [{
+          "question": "<h3 class=\"uppercase font-bold text-black\">¿Cuáles son las ventajas de las unidades modulares frente a la construcción tradicional?</h3>",
+          "answer": "<p>Las unidades modulares son más rápidas, económicas y no requieren obras civiles. Se entregan, instalan y están listas para usar en una fracción del tiempo.</p>"
+        }, {
+          "question": "<h3 class=\"uppercase font-bold text-black\">¿Se pueden personalizar las unidades modulares para mi club?</h3>",
+          "answer": "<p>Sí. Los diseños, la identidad visual, los colores, los acabados e incluso las opciones al aire libre pueden adaptarse a la identidad y necesidades funcionales de tu club.</p>"
+        }, {
+          "question": "<h3 class=\"uppercase font-bold text-black\">¿Son las unidades modulares una solución duradera para clubes de pádel?</h3>",
+          "answer": "<p>Cada módulo está construido con estructura de acero, exterior de fibrocemento y aislamiento térmico y acústico completo, lo que garantiza resistencia, durabilidad y confort en cualquier condición climática.</p>"
+        }, {
+          "question": "<h3 class=\"uppercase font-bold text-black\">¿Qué instalaciones puedo incluir en mi club de pádel modular?</h3>",
+          "answer": "<p>Puedes añadir recepción, tienda, cafetería, vestuarios, oficinas, baños o áreas lounge, totalmente equipadas y listas para funcionar.</p>"
+        },
+        {
+          "question": "<h3 class=\"uppercase font-bold text-black\">¿Qué tan fácil es instalar las unidades modulares para clubes de pádel?</h3>",
+          "answer": "<p>Muy fácil. Las unidades son prefabricadas, transportadas en camión y ensambladas en el sitio sin necesidad de grandes obras.</p>"
         }
       ]
       },      
