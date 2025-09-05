@@ -718,6 +718,7 @@
         "TITLE_UK":"ASK Question about build a padel court in UK",
         "TITLE_OCEANIA":"ASK Question about Padel courts in Oceania",
         "TITLE_ZA":"ASK Question about Padel court manufacturers in South Africa",
+        "TITLE_MODULAR": "Frequently Asked Questions About Modular Units for Padel Clubs",
         "SUBTITLE": "Frequently Asked Questions",
         "BUTTON":{
           "TITLE":"Padel Court Builders",
@@ -949,7 +950,25 @@
   "answer": "Portico Sport leads the way in innovation with the Club Force 80 and Panoramic Force 80 courts, which are the most durable options on the market. These Padel courts are designed to withstand extreme weather conditions, making them ideal for diverse environments while maintaining top performance and longevity."
 }
 
-]
+],
+        "QUESTIONS_MODULAR": [{
+          "question": "<h3 class=\"uppercase font-bold text-black\">What are the advantages of modular units compared to traditional construction?</h3>",
+          "answer": "<p>Modular units are faster, more cost-efficient, and require no civil works. They can be delivered, installed, and ready to use in a fraction of the time.</p>"
+        }, {
+          "question": "<h3 class=\"uppercase font-bold text-black\">Can the modular units be customized for my club?</h3>",
+          "answer": "<p>Yes. Layouts, branding, colors, finishes, and even open-air options can be tailored to your club’s identity and functional needs.</p>"
+        }, {
+          "question": "<h3 class=\"uppercase font-bold text-black\">Are modular units a long-lasting solution for padel clubs?</h3>",
+          "answer": "<p>Each module is built with a steel structure, fibrecement exterior, and full thermal and acoustic insulation, ensuring strength, durability, and comfort in all weather conditions.</p>"
+        }, {
+          "question": "<h3 class=\"uppercase font-bold text-black\">What facilities can I include in my modular padel club?</h3>",
+          "answer": "<p>You can add reception, shop, cafeteria, changing rooms, offices, toilets, or lounge areas—fully fitted and ready to operate.</p>"
+        },
+        {
+          "question": "<h3 class=\"uppercase font-bold text-black\">How easy is it to install modular units for padel clubs?</h3>",
+          "answer": "<p>Not at all. The units are prefabricated, transported by truck, and assembled on-site without the need for heavy construction works.</p>"
+        }
+      ]
       },
       "COUNTRIES_SECTION":{
        "ID":"countires",
