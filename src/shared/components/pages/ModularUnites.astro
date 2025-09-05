@@ -1,0 +1,247 @@
+---
+import Layout from "@/shared/layouts/Layout.astro";
+import SectionContact from "@/shared/components/sections/SectionContact.astro";
+import SectionCourtsGrid from "@/shared/components/sections/SectionCourtsGrid.astro";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import Video from "@/shared/components/Video.astro";
+import Typography from "@/shared/components/ui/Typography.astro";
+import Section from "@/shared/components/Section.astro";
+import Button from "@/shared/components/Button.astro";
+import { getI18N, getCurrentLocale } from "@/shared/i18n";
+import { courtsGrid } from "@/shared/i18n/constants";
+import FeatureList from "@/shared/components/FeatureList.astro";
+import Gallery from "@/shared/components/Gallery.astro";
+import { type Photo } from "@/types/types";
+import SectionFaqs from "@/shared/components/sections/SectionFaqs.astro";
+
+interface Props {
+  language: string;
+  modularUnitesGallery: Photo[];
+}
+
+const { language, modularUnitesGallery} = Astro.props;
+const i18n = getI18N({ language });
+const currentLocale = getCurrentLocale({ language });
+
+const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase().includes('mob') && !item.title.includes('80'));
+---
+
+<Layout
+  title={i18n.PAGES.MODULAR_UNITES.SEO_TITLE}
+  description={i18n.PAGES.MODULAR_UNITES.SEO_DESCRIPTION}
+  ogImage={i18n.PAGES.MODULAR_UNITES.OG_IMG}
+robots="index,follow"
+  currentLocale={currentLocale}
+  language={language}
+>
+  <Section 
+    className="relative w-full max-w-none h-[400px] md:h-[500px] lg:h-[600px] xl:h-[810px] bg-cover" 
+    style="background-image: url('/modular-unites/thumbnails/cabecera.webp')"
+  >
+    <div class="absolute inset-0 bg-black/40 overlay opcional" />
+
+    <div class="relative z-10 animate-fade-up flex flex-col xl:flex-row max-w-none h-full justify-between md:justify-center">
+      <div class="lg:p-16 flex flex-col md:gap-8 flex-1 justify-center">
+        <header class="text-center md:pt-20">
+          <Typography 
+            tag="h1" 
+            type="secondary" 
+            className="uppercase mb-6 font-bold" 
+            text={i18n.PAGES.MODULAR_UNITES.TITLE} 
+            responsive 
+          />
+        </header>
+      </div>
+
+      <Button 
+        target="_self" 
+        class="xl:hidden self-center" 
+        url={`#/${i18n.PAGES.MODULAR_UNITES.CONTACT_SECTION.ID}`}
+      >
+        {i18n.PAGES.MODULAR_UNITES.CONTACT_BUTTON}
+      </Button>
+    </div>
+  </Section>
+  <main class="flex flex-col gradient-bg relative">
+    <Breadcrumb
+      crumbs={[
+        { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
+        {
+          label: i18n.PAGES.MODULAR_UNITES.ROUTE.LABEL,
+          href: i18n.PAGES.MODULAR_UNITES.ROUTE.URL,
+        },
+      ]}
+    />
+    <Section
+      heading2={i18n.PAGES.MODULAR_UNITES.FIRST_SECTION.TITLE}
+      subheading={i18n.PAGES.MODULAR_UNITES.FIRST_SECTION.SUBTITLE}
+    >
+    <Typography tag="div" className="text-center" text={i18n.PAGES.MODULAR_UNITES.FIRST_SECTION.DESCRIPTION} responsive />
+    </Section>
+    <Section
+  className="flex flex-col max-w-none my-14 p-0 lg:mb-0 bg-slate-100 text-black"
+>
+  <div class="flex flex-col xl:flex-row max-w-none">
+    <!-- Columna izquierda: Imagen -->
+    <div class="relative w-full flex-1">
+      <img
+        loading="lazy"
+        draggable={false}
+        id={i18n.PAGES.MODULAR_UNITES.CHOOSE_MODULAR.IMAGE.id}
+        src={i18n.PAGES.MODULAR_UNITES.CHOOSE_MODULAR.IMAGE.src}
+        alt={i18n.PAGES.MODULAR_UNITES.CHOOSE_MODULAR.IMAGE.alt}
+        class="relative h-full object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none aspect-[16/12]"
+      />
+    </div>
+
+    <!-- Columna derecha: Contenido -->
+    <div class="w-full py-8 px-4 md:px-8 flex-1 z-10 flex items-center">
+      <div class="max-w-xl">
+        <Typography
+          tag="h2"
+          className="mb-8 font-bold uppercase"
+          text={i18n.PAGES.MODULAR_UNITES.CHOOSE_MODULAR.TITLE}
+          type="secondary"
+          responsive
+        />
+        <Typography
+          tag="p"
+          className="mb-8 font-thin uppercase"
+          text={i18n.PAGES.MODULAR_UNITES.CHOOSE_MODULAR.SUBTITLE}
+          type="primary"
+          responsive
+        />
+        <FeatureList list={i18n.PAGES.MODULAR_UNITES.CHOOSE_MODULAR.LIST} />
+      </div>
+    </div>
+  </div>
+</Section>
+    <Section
+        className="flex flex-col max-w-none p-0 lg:mb-0"
+        style="padding: 0; margin-left: 0; margin-right: 0;"
+      >
+      <div class="flex flex-col-reverse xl:flex-row max-w-none">
+        <div class="w-full py-8 px-4 flex-1 md:px-8">
+          <Typography tag="h2" className="mb-8 font-bold uppercase" text={i18n.PAGES.MODULAR_UNITES.FEATURE_MODULAR.TITLE} type="secondary" responsive />
+          <Typography tag="p" text={i18n.PAGES.MODULAR_UNITES.FEATURE_MODULAR.DESCRIPTION} responsive />
+          <FeatureList list={i18n.PAGES.MODULAR_UNITES.FEATURE_MODULAR.ADVANTAGES} />
+        </div>
+        <div class="relative w-full flex-1">
+          <img
+            loading="lazy"
+            draggable={false}
+            id={i18n.PAGES.MODULAR_UNITES.FEATURE_MODULAR.IMAGE.id}
+            src={i18n.PAGES.MODULAR_UNITES.FEATURE_MODULAR.IMAGE.src}
+            alt={i18n.PAGES.MODULAR_UNITES.FEATURE_MODULAR.IMAGE.alt}
+            class="relative h-full object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none aspect-[16/15]"
+          />
+        </div>
+      </div>
+    </Section>
+    <Section
+      className="flex flex-col max-w-none mb-14 p-0 bg-slate-100 text-black"
+      style="padding: 0; margin-left: 0; margin-right: 0;"
+    >
+      <div class="flex flex-col xl:flex-row max-w-none">
+        <div class="relative w-full flex-1">
+          <img
+            loading="lazy"
+            draggable={false}
+            id={i18n.PAGES.MODULAR_UNITES.OPTION_MODULAR.IMAGE.id}
+            src={i18n.PAGES.MODULAR_UNITES.OPTION_MODULAR.IMAGE.src}
+            alt={i18n.PAGES.MODULAR_UNITES.OPTION_MODULAR.IMAGE.alt}
+            class="relative h-full object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none aspect-[16/11]"
+          />
+        </div>
+        <div class="w-full py-8 px-4 md:px-8 flex-1 z-10">
+          <Typography tag="h2" className="mb-8 font-bold uppercase" text={i18n.PAGES.MODULAR_UNITES.OPTION_MODULAR.TITLE} type="secondary" responsive />
+          <Typography tag="div" text={i18n.PAGES.MODULAR_UNITES.OPTION_MODULAR.DESCRIPTION} responsive />
+          <div>
+            {
+              i18n.PAGES.MODULAR_UNITES.OPTION_MODULAR.TECHNICAL_FEATURES.map((item:string) => (
+              <Typography tag="div" text={item} className="p-3" responsive />
+              ))
+            }
+          </div>
+        </div>
+      </div>
+    </Section>
+    <Section>
+        <Typography tag="h2" className="mb-8 font-bold uppercase" text={i18n.PAGES.MODULAR_UNITES.BUILD_MODULAR.TITLE} type="secondary" responsive />
+        <Typography tag="div" text={i18n.PAGES.MODULAR_UNITES.BUILD_MODULAR.DESCRIPTION} responsive />
+    </Section>
+    <div class="bg-slate-100 text-black">
+        <SectionFaqs class="text-black"
+          items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_MODULAR}
+          title={i18n.PAGES.HOME.FAQS_SECTION.TITLE_MODULAR}
+        />
+    </div>
+    <div class="bg-slate-100 w-full text-center pb-6 -mt-10"> 
+        <Button size="sm" color="black" 
+            url={i18n.PAGES.MODULAR_UNITES.BUTTON.URL} 
+            title={i18n.PAGES.MODULAR_UNITES.BUTTON.TITLE} target="_self"> 
+            {i18n.PAGES.MODULAR_UNITES.BUTTON.TEXT} 
+        </Button> 
+    </div>
+    <Gallery
+      id={i18n.PAGES.MODULAR_UNITES.PROJECTS_SECTION.ID_GALLERY}
+      path="modular-unites/thumbnails"
+      offset={7}
+      photos={modularUnitesGallery}
+    />
+    <SectionContact
+      hiddenSubject
+      title={i18n.PAGES.MODULAR_UNITES.CONTACT_SECTION.TITLE}
+      description={i18n.PAGES.MODULAR_UNITES.CONTACT_SECTION.DESCRIPTION}      
+      subject={i18n.PAGES.MODULAR_UNITES.CONTACT_SECTION.CONTACT_SUBJECT}
+      language={language}
+      bgImage={i18n.PAGES.MODULAR_UNITES.CONTACT_SECTION.BG_IMAGE}
+    />
+  </main>
+</Layout>
+
+<style>
+  ul {
+    font-size: 1em;
+  }
+
+  ul li span {
+    flex: 1;
+  }
+
+  @media (min-width: 1280px) {
+    .image {
+      -webkit-mask: linear-gradient(
+        90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+      mask: linear-gradient(
+        90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+    }
+
+    .image-reverse {
+      -webkit-mask: linear-gradient(
+        -90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+      mask: linear-gradient(
+        -90deg,
+        transparent,
+        white 0,
+        white 30%,
+        transparent
+      );
+    }
+  }
+</style>
