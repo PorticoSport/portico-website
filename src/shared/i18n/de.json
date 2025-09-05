@@ -2751,6 +2751,116 @@
         "href": "erhohte-plattform"
       }
     },
+    "MODULAR_UNITES": {
+      "SEO_TITLE": "Modulare Einheiten für Padel-Clubs | Vorgefertigte & anpassbare Club-Lösungen – Portico Sport",
+      "TYPE": "PRODUKT",
+      "SEO_DESCRIPTION":"Erstellen Sie schnell und effizient einen professionellen Padel-Club mit den modularen Einheiten von Portico Sport. Vorgefertigte, vollständig anpassbare und schlüsselfertige Lösungen für Empfangsbereiche, Pro-Shops, Cafeterias, Umkleideräume und mehr.",
+      "OG_IMG": "https://www.porticosport.com/og/og-elevated-platform.jpg",
+      "ID": "modular-unites",
+      "TITLE": "Modulare Einheiten für Padel-Clubs",
+      "CONTACT_BUTTON": "Ich möchte eine modulare Einheit",
+      "ROUTE": {
+        "LABEL": "Modulare Einheiten",
+        "URL": "/modular-unites"
+      },
+      "FIRST_SECTION": {
+        "TITLE": "Verwandeln Sie Ihren Padel-Club mit maßgeschneiderten modularen Einheiten",
+        "SUBTITLE": "Die perfekte Lösung für Ihren Padelplatz!",
+        "DESCRIPTION": "<p>Bei Portico Sport bauen wir nicht nur Padelplätze, wir gestalten komplette Club-Erlebnisse. <strong>Unsere vorgefertigten modularen Einheiten bieten alles, was Ihr Club benötigt</strong>, ohne den Aufwand traditioneller Bauweisen.</p><p>Egal, ob Sie einen <strong>Pro-Shop, eine Cafeteria, einen Empfang, Umkleideräume, Büros oder Toiletten</strong> benötigen – unsere modularen Lösungen werden entworfen, hergestellt und installiert, um Ihre genauen Anforderungen zu erfüllen.</p><p>Tragbar, stilvoll und vollständig anpassbar, sind diese Module die schnellste und effizienteste Möglichkeit, von Tag eins an einen professionellen Padel-Club zu schaffen.</p>"
+      },
+      "CHOOSE_MODULAR": {
+        "TITLE": "<span class=\"text-black text-base lg:text-xl\">Warum modulare Einheiten für Ihren Padel-Club wählen?</span>",
+        "SUBTITLE": "<p>Modulare Einheiten werden schnell zu einer <strong>intelligenten, kosteneffektiven und praktischen Lösung</strong> für Padel-Anlagen. Sie bieten eine schnellere, sauberere und flexiblere Alternative zur traditionellen Bauweise und machen die Erstellung und Erweiterung Ihres Padel-Clubs einfacher denn je. Mit modularer Bauweise können professionelle Räume ab dem ersten Tag betriebsbereit sein – ohne Verzögerungen oder unnötige Komplikationen.</p>",
+        "IMAGE": {
+          "id": "feature-section",
+          "src": "/modular-unites/thumbnails/Interior-1.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Modulares Innenraum 1"
+        },
+        "LIST": [
+          "<strong>Komplette Lösungen</strong> – Von Empfangsbereichen bis zu Toiletten, schaffen Sie alle Räume, die Ihr Club benötigt.",
+          "<strong>Schnelle Installation</strong> – Keine Bauarbeiten, keine Verzögerungen. Direkt vor Ort geliefert und installiert.",
+          "<strong>Premium-Qualität</strong> – Hergestellt mit Stahlstrukturen, isolierten Wänden und hochwertigen Oberflächen.",
+          "<strong>Individuelles Design</strong> – Maßgeschneiderte Layouts, Branding und Innenräume passend zur Identität Ihres Clubs.",
+          "<strong>Schlüsselfertiger Service</strong> – Von der Planung bis zur Lieferung übernimmt Portico Sport den gesamten Prozess."
+        ]
+      },
+      "FEATURE_MODULAR": {
+        "IMAGE": {
+          "id": "advantage-section",
+          "src": "/modular-unites/thumbnails/Interior-3.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Modulares Innenraum 1"
+        },
+        "TITLE": "<span class=\"text-white text-base lg:text-xl font-thin\">Merkmale der modularen Einheiten</span>",
+        "DESCRIPTION": "<p>Die modularen Einheiten von Portico Sport für Padel-Clubs kombinieren <strong>Premium-Materialien und intelligentes Design</strong>, bieten <strong>Langlebigkeit, Komfort und modernen Stil</strong>. Unsere modularen Einheiten werden nach den höchsten Qualitätsstandards gebaut. Jedes Detail wird sorgfältig geplant, um Funktionalität, Ästhetik und langfristige Leistung zu gewährleisten, sodass Ihre Clubanlagen genauso professionell sind wie Ihre Padelplätze.</p>",
+        "ADVANTAGES": [
+          "Standardgröße: 12 x 2,4 m | Höhe: 2,8 m",
+          "Stahlkonstruktion für lange Lebensdauer",
+          "Holztüren und Aluminiumfenster",
+          "Thermische und akustische Isolierung",
+          "Elektrik, Sanitär und Evakuierungsinstallationen im Innenbereich",
+          "Innenausbau mit Lackierung, Fliesen und Laminatboden",
+          "Außenverkleidung aus Faserzement für Wetterbeständigkeit",
+          "Einfache Lieferung und Installation per LKW"
+        ]
+      },
+      "OPTION_MODULAR": {
+        "TITLE": "Modulare Club-Optionen",
+        "DESCRIPTION": "<p>Schaffen Sie einzigartige Räume für Spieler, Besucher und Zuschauer mit voll funktionsfähigen Modulen wie:</p>",
+        "IMAGE": {
+          "id": "information-section",
+          "src": "/modular-unites/thumbnails/Exterior-2.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Modulares Außenbereich 1"
+        },
+        "TECHNICAL_FEATURES": [
+          "- Empfang und Kasse",
+          "- Pro-Shop",
+          "- Cafeteria oder Lounge-Bar",
+          "- Büros",
+          "- Umkleideräume und Duschen",
+          "- Toiletten und Wohlfühlbereiche",
+          "- Aufenthaltsbereiche für Spieler oder Zuschauer"
+        ]
+      },
+      "BUILD_MODULAR": {
+        "TITLE": "Bauen Sie einen kompletten Padel-Club mit Portico Sport",
+        "DESCRIPTION": "<p>Mit industrieller Modulbauweise bieten wir <strong>intelligente, stilvolle und funktionale Räume</strong>, die unsere Weltklasse-Padelplätze ergänzen.</p><p>Egal, ob Sie ein neues Projekt starten oder Ihre Anlagen aufwerten, die modularen Einheiten von Portico bieten eine <strong>skalierbare und effiziente Lösung</strong>, um Ihren Padel-Club wachsen zu lassen.</p><p>Lassen Sie uns gemeinsam Ihren idealen Padel-Bereich gestalten.</p>"
+      },
+      "BUTTON": {
+        "TITLE":"Padelplatzbauer",
+        "TEXT":"Beginnen Sie noch heute mit dem Bau Ihres Padel-Clubs",
+        "URL":"/client-contact"
+      },
+      "PROJECTS_SECTION": {
+        "ID": "gallery",
+        "TITLE": "Projekte der modularen Einheiten",
+        "SUBTITLE": "Klicken Sie, um zu entdecken: Erkunden Sie unsere Platzprojekte im Detail!",
+      "URL": {
+          "LABEL": "Alle Projekte entdecken",
+          "SRC": "/projects"
+        },
+        "ID_GALLERY": "modular-unites-gallery",
+        "PATH": "modular-unites/thumbnails"
+      },
+      "CONTACT_SECTION": {
+        "ID": "contact",
+        "TITLE": "Kontaktieren Sie unsere Experten, um mehr über unsere modularen Padel-Einheiten zu erfahren!",
+        "DESCRIPTION":"Kontaktieren Sie unser Team von Padelplatzbauern für weitere Informationen zu unseren modularen Padel-Einheiten! Wir beantworten alle Ihre Fragen und helfen Ihnen, die perfekte Padel-Lösung nach Ihren Bedürfnissen zu finden. Auf Wunsch können wir auch einen maßgeschneiderten Padel-Platz nach Ihren Vorgaben entwerfen und installieren. Wir freuen uns auf Ihre Nachricht!",
+        "SUBTITLE": "Kontaktieren Sie uns und wir helfen Ihnen",
+        "BUTTON": "Ich möchte eine modulare Einheit",
+        "CONTACT_SUBJECT": "Neue Anfrage von modularen Einheiten",
+        "BG_IMAGE": "modular-unites/thumbnails/Interior-5.webp"
+      },
+      "URL": {
+        "label": "Mehr über modulare Einheiten",
+        "href": "elevated-platform"
+      }
+    },
     "PROJECTS": {
       "ID": "projects",
       "TYPE": "PRODUCT",
