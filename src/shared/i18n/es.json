@@ -2706,18 +2706,23 @@
         "href": "plataforma-elevada"
       }
     },
-    "MODULAR_UNITES": {
+    "MODULAR_UNITS": {
       "SEO_TITLE": "Unidades Modulares para Clubes de Padel | Soluciones Prefabricadas y Personalizables – Portico Sport",
       "TYPE": "PRODUCTO",
       "SEO_DESCRIPTION":"Crea un club de padel profesional de manera rápida y eficiente con las unidades modulares de Portico Sport. Soluciones prefabricadas, totalmente personalizables y llave en mano para recepciones, tiendas, cafeterías, vestuarios y más.",
       "OG_IMG": "https://www.porticosport.com/og/og-elevated-platform.jpg",
-      "ID": "modular-unites",
+      "ID": "modular-units",
       "TITLE": "Unidades Modulares para Clubes de Padel",
       "CONTACT_BUTTON": "Quiero una Unidad Modular",
       "ROUTE": {
         "LABEL": "Unidades Modulares",
-        "URL": "/modular-unites"
+        "URL": "/modular-units"
       },
+      "FIRST_SECTION": {
+        "TITLE": "Transforma tu club de padel con unidades modulares a medida",
+        "SUBTITLE": "¡La solución perfecta para tu cancha de Padel!",
+        "DESCRIPTION": "<p>En Portico Sport, vamos más allá de construir canchas de padel, diseñamos experiencias completas para clubes de padel. <strong>Nuestras unidades modulares prefabricadas ofrecen todo lo que tu club necesita</strong> sin las complicaciones de la construcción tradicional.</p><p>Ya sea que necesites una <strong>tienda profesional, cafetería, recepción, vestuarios, oficinas o baños</strong>, nuestras soluciones modulares están diseñadas, fabricadas e instaladas para cumplir con tus requisitos exactos.</p><p>Portátiles, elegantes y totalmente personalizables, estos módulos son la manera más rápida y eficiente de crear un club de padel profesional desde el primer día.</p>"
+    },
       "FIRST_SECTION": {
         "TITLE": "Transforma tu club de padel con unidades modulares a medida",
         "SUBTITLE": "¡La solución perfecta para tu cancha de Padel!",
