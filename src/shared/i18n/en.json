@@ -4759,7 +4759,116 @@
         "href": "elevated-platform"
       }
     },
-    
+    "MODULAR_UNITS": {
+      "SEO_TITLE": "Modular Units for Padel Clubs | Prefabricated & Customizable Club Solutions – Portico Sport",
+      "TYPE": "PRODUCT",
+      "SEO_DESCRIPTION":"Create a professional padel club quickly and efficiently with Portico Sport’s modular units. Prefabricated, fully customizable, and turnkey solutions for reception areas, pro shops, cafeterias, changing rooms, and more.",
+      "OG_IMG": "https://www.porticosport.com/og/og-elevated-platform.jpg",
+      "ID": "modular-units",
+      "TITLE": "Modular Units for Padel Clubs",
+      "CONTACT_BUTTON": "I want an Modular Unites",
+      "ROUTE": {
+        "LABEL": "Modular Units",
+        "URL": "/modular-units"
+      },
+      "FIRST_SECTION": {
+        "TITLE": "Transform your padel club with bespoke modular units",
+        "SUBTITLE": "The perfect solution for your Padel court!",
+        "DESCRIPTION": "<p>At Portico Sport, we go beyond building padel courts, we design complete padel club experiences. <strong>Our prefabricated modular units offer everything your club needs</strong> without the hassle of traditional construction.</p><p>Whether you need a <strong>pro shop, cafeteria, reception, changing rooms, offices, or restrooms</strong>, our modular solutions are designed, manufactured, and installed to meet your exact requirements.</p><p>Portable, stylish, and fully customizable, these modules are the fastest and most efficient way to create a professional padel club from day one.</p>"
+      },
+      "CHOOSE_MODULAR": {
+        "TITLE": "<span class=\"text-black text-base lg:text-xl\">Why choose modular units for your padel club?</span>",
+        "SUBTITLE": "<p>Modular units are quickly becoming a <strong>smart, cost-effective, and practical solution</strong> for creating padel facilities. They offer a faster, cleaner, and more flexible alternative to traditional construction, making the creation and expansion of your padel club easier than ever. With modular construction, you can have professional spaces ready to operate from day one—without delays or unnecessary complications.</p>",
+        "IMAGE": {
+          "id": "feature-section",
+          "src": "/modular-unites/thumbnails/Interior-1.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Modular interior 1"
+        },
+        "LIST": [
+          "<strong>Complete Solutions</strong> – From reception areas to restrooms, create all the spaces your club needs.",
+          "<strong>Fast Installation</strong> – No civil works, no delays. Delivered and installed directly on-site.",
+          "<strong>Premium Quality</strong> – Built with steel structures, insulated walls, and high-quality finishes.",
+          "<strong>Custom Design</strong> – Tailored layouts, branding, and interiors to match your club’s identity.",
+          "<strong>Turnkey Service</strong> – From design to delivery, Portico Sport handles the full process."
+        ]
+      },
+      "FEATURE_MODULAR": {
+        "IMAGE": {
+          "id": "advantage-section",
+          "src": "/modular-unites/thumbnails/Interior-3.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Modular interior 1"
+        },
+        "TITLE": "<span class=\"text-white text-base lg:text-xl font-thin\">Modular Unit Features</span>",
+        "DESCRIPTION": "<p>Portico Sport’s modular units for padel clubs combine <strong>premium materials and smart design</strong>, delivering <strong>durability, comfort, and modern style</strong>. Our modular units are built to meet the highest standards of quality. Every detail is carefully engineered to provide functionality, aesthetics, and long-term performance, ensuring that your club facilities are as professional as your padel courts.</p>",
+        "ADVANTAGES": [
+          "Standard size: 12 x 2.4 m | Height: 2.8 m",
+          "Steel structure for long-lasting strength",
+          "Wooden doors and aluminum windows",
+          "Thermal and acoustic insulation",
+          "Indoor electrical, plumbing, and evacuation installations",
+          "Interior finishes with paint, tiling, and laminated flooring",
+          "Exterior finish in fibrecement for weather resistance",
+          "Easy transport and installation by truck"
+        ]
+      },
+      "OPTION_MODULAR": {
+        "TITLE": "Modular Club Options",
+        "DESCRIPTION": "<p>Create unique spaces for players, visitors, and spectators with fully functional modules such as:</p>",
+        "IMAGE": {
+          "id": "information-section",
+          "src": "/modular-unites/thumbnails/Exterior-2.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Modular exterior 1"
+        },
+        "TECHNICAL_FEATURES": [
+          "- Reception and ticket office",
+          "- Pro shop",
+          "- Cafeteria or lounge bar",
+          "- Offices",
+          "- Changing rooms and showers",
+          "- Toilets and welfare facilities",
+          "- Player or spectator lounge areas"
+        ]
+      },
+      "BUILD_MODULAR": {
+        "TITLE": "Build a complete Padel Club with Portico Sport",
+        "DESCRIPTION": "<p>With industrialized modular construction, we provide <strong>smart, stylish, and functional spaces</strong> that complement our world-class padel courts.</p><p>Whether you are starting a new project or upgrading your facilities, Portico’s modular units give you a <strong>scalable and efficient solution</strong> to grow your padel club.</p><p>Let’s design your ideal padel space together.</p>"
+      },
+      "BUTTON": {
+        "TITLE":"Padel Court Builders",
+        "TEXT":"Start Building Your Padel Club Today",
+        "URL":"/client-contact"
+      },
+      "PROJECTS_SECTION": {
+        "ID": "gallery",
+        "TITLE": "Elevated Platform Projects",
+        "SUBTITLE": "Click to unveil: Explore our court projects in detail!",
+        "URL": {
+          "LABEL": "Discover all our projects",
+          "SRC": "/projects"
+        },
+        "ID_GALLERY": "modular-unites-gallery",
+        "PATH": "modular-unites/thumbnails"
+      },
+      "CONTACT_SECTION": {
+        "ID": "contact",
+        "TITLE": "Reach ourt Experts to learn more about our Modular Unites Padel Court!",
+        "DESCRIPTION":"Feel free to reach out to our team of Padel court builders for more information on our Modular Unites Padel Court! We're here to address all your inquiries and assist you in finding the perfect Padel solution tailored to your needs. If you're interested, we can also design and install a customized Padel court based on your preferences and specifications. We look forward to hearing from you soon!",
+        "SUBTITLE": "Contact us and we will help you",
+        "BUTTON": "I want an Modular Unites",
+        "CONTACT_SUBJECT": "New petition from Modular Unites",
+        "BG_IMAGE": "modular-unites/thumbnails/Interior-5.webp"
+      },
+      "URL": {
+        "label": "More about elevated",
+        "href": "elevated-platform"
+      }
+    },
     "PROJECTS": {
       "ID": "projects",
       "SEO_TITLE": "Portico Sport's Latest Projects",
