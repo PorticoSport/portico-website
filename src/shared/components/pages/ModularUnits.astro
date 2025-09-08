@@ -27,9 +27,9 @@ const compatibleCourts = courtsGrid(i18n).filter(item => !item.title.toLowerCase
 ---
 
 <Layout
-  title={i18n.PAGES.MODULAR_UNITES.SEO_TITLE}
-  description={i18n.PAGES.MODULAR_UNITES.SEO_DESCRIPTION}
-  ogImage={i18n.PAGES.MODULAR_UNITES.OG_IMG}
+  title={i18n.PAGES.MODULAR_UNITS.SEO_TITLE}
+  description={i18n.PAGES.MODULAR_UNITS.SEO_DESCRIPTION}
+  ogImage={i18n.PAGES.MODULAR_UNITS.OG_IMG}
 robots="index,follow"
   currentLocale={currentLocale}
   language={language}
@@ -47,7 +47,7 @@ robots="index,follow"
             tag="h1" 
             type="secondary" 
             className="uppercase mb-6 font-bold" 
-            text={i18n.PAGES.MODULAR_UNITES.TITLE} 
+            text={i18n.PAGES.MODULAR_UNITS.TITLE} 
             responsive 
           />
         </header>
@@ -56,9 +56,9 @@ robots="index,follow"
       <Button 
         target="_self" 
         class="xl:hidden self-center" 
-        url={`#/${i18n.PAGES.MODULAR_UNITES.CONTACT_SECTION.ID}`}
+        url={`#/${i18n.PAGES.MODULAR_UNITS.CONTACT_SECTION.ID}`}
       >
-        {i18n.PAGES.MODULAR_UNITES.CONTACT_SECTION.BUTTON}
+        {i18n.PAGES.MODULAR_UNITS.CONTACT_SECTION.BUTTON}
       </Button>
     </div>
   </Section>
@@ -67,16 +67,16 @@ robots="index,follow"
       crumbs={[
         { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
         {
-          label: i18n.PAGES.MODULAR_UNITES.ROUTE.LABEL,
-          href: i18n.PAGES.MODULAR_UNITES.ROUTE.URL,
+          label: i18n.PAGES.MODULAR_UNITS.ROUTE.LABEL,
+          href: i18n.PAGES.MODULAR_UNITS.ROUTE.URL,
         },
       ]}
     />
     <Section
-      heading2={i18n.PAGES.MODULAR_UNITES.FIRST_SECTION.TITLE}
-      subheading={i18n.PAGES.MODULAR_UNITES.FIRST_SECTION.SUBTITLE}
+      heading2={i18n.PAGES.MODULAR_UNITS.FIRST_SECTION.TITLE}
+      subheading={i18n.PAGES.MODULAR_UNITS.FIRST_SECTION.SUBTITLE}
     >
-    <Typography tag="div" className="text-center" text={i18n.PAGES.MODULAR_UNITES.FIRST_SECTION.DESCRIPTION} responsive />
+    <Typography tag="div" className="text-center" text={i18n.PAGES.MODULAR_UNITS.FIRST_SECTION.DESCRIPTION} responsive />
     </Section>
     <Section
   className="flex flex-col max-w-none my-14 p-0 lg:mb-0 bg-slate-100 text-black"
@@ -87,9 +87,9 @@ robots="index,follow"
       <img
         loading="lazy"
         draggable={false}
-        id={i18n.PAGES.MODULAR_UNITES.CHOOSE_MODULAR.IMAGE.id}
-        src={i18n.PAGES.MODULAR_UNITES.CHOOSE_MODULAR.IMAGE.src}
-        alt={i18n.PAGES.MODULAR_UNITES.CHOOSE_MODULAR.IMAGE.alt}
+        id={i18n.PAGES.MODULAR_UNITS.CHOOSE_MODULAR.IMAGE.id}
+        src={i18n.PAGES.MODULAR_UNITS.CHOOSE_MODULAR.IMAGE.src}
+        alt={i18n.PAGES.MODULAR_UNITS.CHOOSE_MODULAR.IMAGE.alt}
         class="relative h-full object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none aspect-[16/12]"
       />
     </div>
@@ -100,18 +100,18 @@ robots="index,follow"
         <Typography
           tag="h2"
           className="mb-8 font-bold uppercase"
-          text={i18n.PAGES.MODULAR_UNITES.CHOOSE_MODULAR.TITLE}
+          text={i18n.PAGES.MODULAR_UNITS.CHOOSE_MODULAR.TITLE}
           type="secondary"
           responsive
         />
         <Typography
           tag="p"
           className="mb-8 font-thin uppercase"
-          text={i18n.PAGES.MODULAR_UNITES.CHOOSE_MODULAR.SUBTITLE}
+          text={i18n.PAGES.MODULAR_UNITS.CHOOSE_MODULAR.SUBTITLE}
           type="primary"
           responsive
         />
-        <FeatureList list={i18n.PAGES.MODULAR_UNITES.CHOOSE_MODULAR.LIST} />
+        <FeatureList list={i18n.PAGES.MODULAR_UNITS.CHOOSE_MODULAR.LIST} />
       </div>
     </div>
   </div>
@@ -122,17 +122,17 @@ robots="index,follow"
       >
       <div class="flex flex-col-reverse xl:flex-row max-w-none">
         <div class="w-full py-8 px-4 flex-1 md:px-8">
-          <Typography tag="h2" className="mb-8 font-bold uppercase" text={i18n.PAGES.MODULAR_UNITES.FEATURE_MODULAR.TITLE} type="secondary" responsive />
-          <Typography tag="p" text={i18n.PAGES.MODULAR_UNITES.FEATURE_MODULAR.DESCRIPTION} responsive />
-          <FeatureList list={i18n.PAGES.MODULAR_UNITES.FEATURE_MODULAR.ADVANTAGES} />
+          <Typography tag="h2" className="mb-8 font-bold uppercase" text={i18n.PAGES.MODULAR_UNITS.FEATURE_MODULAR.TITLE} type="secondary" responsive />
+          <Typography tag="p" text={i18n.PAGES.MODULAR_UNITS.FEATURE_MODULAR.DESCRIPTION} responsive />
+          <FeatureList list={i18n.PAGES.MODULAR_UNITS.FEATURE_MODULAR.ADVANTAGES} />
         </div>
         <div class="relative w-full flex-1">
           <img
             loading="lazy"
             draggable={false}
-            id={i18n.PAGES.MODULAR_UNITES.FEATURE_MODULAR.IMAGE.id}
-            src={i18n.PAGES.MODULAR_UNITES.FEATURE_MODULAR.IMAGE.src}
-            alt={i18n.PAGES.MODULAR_UNITES.FEATURE_MODULAR.IMAGE.alt}
+            id={i18n.PAGES.MODULAR_UNITS.FEATURE_MODULAR.IMAGE.id}
+            src={i18n.PAGES.MODULAR_UNITS.FEATURE_MODULAR.IMAGE.src}
+            alt={i18n.PAGES.MODULAR_UNITS.FEATURE_MODULAR.IMAGE.alt}
             class="relative h-full object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none aspect-[16/15]"
           />
         </div>
@@ -147,18 +147,18 @@ robots="index,follow"
           <img
             loading="lazy"
             draggable={false}
-            id={i18n.PAGES.MODULAR_UNITES.OPTION_MODULAR.IMAGE.id}
-            src={i18n.PAGES.MODULAR_UNITES.OPTION_MODULAR.IMAGE.src}
-            alt={i18n.PAGES.MODULAR_UNITES.OPTION_MODULAR.IMAGE.alt}
+            id={i18n.PAGES.MODULAR_UNITS.OPTION_MODULAR.IMAGE.id}
+            src={i18n.PAGES.MODULAR_UNITS.OPTION_MODULAR.IMAGE.src}
+            alt={i18n.PAGES.MODULAR_UNITS.OPTION_MODULAR.IMAGE.alt}
             class="relative h-full object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none aspect-[16/11]"
           />
         </div>
         <div class="w-full py-8 px-4 md:px-8 flex-1 z-10">
-          <Typography tag="h2" className="mb-8 font-bold uppercase" text={i18n.PAGES.MODULAR_UNITES.OPTION_MODULAR.TITLE} type="secondary" responsive />
-          <Typography tag="div" text={i18n.PAGES.MODULAR_UNITES.OPTION_MODULAR.DESCRIPTION} responsive />
+          <Typography tag="h2" className="mb-8 font-bold uppercase" text={i18n.PAGES.MODULAR_UNITS.OPTION_MODULAR.TITLE} type="secondary" responsive />
+          <Typography tag="div" text={i18n.PAGES.MODULAR_UNITS.OPTION_MODULAR.DESCRIPTION} responsive />
           <div>
             {
-              i18n.PAGES.MODULAR_UNITES.OPTION_MODULAR.TECHNICAL_FEATURES.map((item:string) => (
+              i18n.PAGES.MODULAR_UNITS.OPTION_MODULAR.TECHNICAL_FEATURES.map((item:string) => (
               <Typography tag="div" text={item} className="p-3" responsive />
               ))
             }
@@ -167,8 +167,8 @@ robots="index,follow"
       </div>
     </Section>
     <Section>
-        <Typography tag="h2" className="mb-8 font-bold uppercase" text={i18n.PAGES.MODULAR_UNITES.BUILD_MODULAR.TITLE} type="secondary" responsive />
-        <Typography tag="div" text={i18n.PAGES.MODULAR_UNITES.BUILD_MODULAR.DESCRIPTION} responsive />
+        <Typography tag="h2" className="mb-8 font-bold uppercase" text={i18n.PAGES.MODULAR_UNITS.BUILD_MODULAR.TITLE} type="secondary" responsive />
+        <Typography tag="div" text={i18n.PAGES.MODULAR_UNITS.BUILD_MODULAR.DESCRIPTION} responsive />
     </Section>
     <div class="bg-slate-100 text-black">
         <SectionFaqs class="text-black"
@@ -178,24 +178,24 @@ robots="index,follow"
     </div>
     <div class="bg-slate-100 w-full text-center pb-6 -mt-10"> 
         <Button size="sm" color="black" 
-            url={i18n.PAGES.MODULAR_UNITES.BUTTON.URL} 
-            title={i18n.PAGES.MODULAR_UNITES.BUTTON.TITLE} target="_self"> 
-            {i18n.PAGES.MODULAR_UNITES.BUTTON.TEXT} 
+            url={i18n.PAGES.MODULAR_UNITS.BUTTON.URL} 
+            title={i18n.PAGES.MODULAR_UNITS.BUTTON.TITLE} target="_self"> 
+            {i18n.PAGES.MODULAR_UNITS.BUTTON.TEXT} 
         </Button> 
     </div>
     <Gallery
-      id={i18n.PAGES.MODULAR_UNITES.PROJECTS_SECTION.ID_GALLERY}
+      id={i18n.PAGES.MODULAR_UNITS.PROJECTS_SECTION.ID_GALLERY}
       path="modular-unites/thumbnails"
       offset={7}
       photos={modularUnitesGallery}
     />
     <SectionContact
       hiddenSubject
-      title={i18n.PAGES.MODULAR_UNITES.CONTACT_SECTION.TITLE}
-      description={i18n.PAGES.MODULAR_UNITES.CONTACT_SECTION.DESCRIPTION}      
-      subject={i18n.PAGES.MODULAR_UNITES.CONTACT_SECTION.CONTACT_SUBJECT}
+      title={i18n.PAGES.MODULAR_UNITS.CONTACT_SECTION.TITLE}
+      description={i18n.PAGES.MODULAR_UNITS.CONTACT_SECTION.DESCRIPTION}      
+      subject={i18n.PAGES.MODULAR_UNITS.CONTACT_SECTION.CONTACT_SUBJECT}
       language={language}
-      bgImage={i18n.PAGES.MODULAR_UNITES.CONTACT_SECTION.BG_IMAGE}
+      bgImage={i18n.PAGES.MODULAR_UNITS.CONTACT_SECTION.BG_IMAGE}
     />
   </main>
 </Layout>
