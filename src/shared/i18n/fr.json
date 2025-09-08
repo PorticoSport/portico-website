@@ -2736,17 +2736,17 @@
         "href": "plateforme-surélevée"
       }
     },
-    "MODULAR_UNITES": {
+    "MODULAR_UNITS": {
       "SEO_TITLE": "Unités Modulaires pour Clubs de Padel | Solutions Préfabriquées & Personnalisables – Portico Sport",
       "TYPE": "PRODUIT",
       "SEO_DESCRIPTION":"Créez rapidement et efficacement un club de padel professionnel avec les unités modulaires de Portico Sport. Solutions préfabriquées, entièrement personnalisables et clés en main pour les accueils, boutiques, cafés, vestiaires et plus encore.",
-    "OG_IMG": "https://www.porticosport.com/og/og-elevated-platform.jpg",
-      "ID": "modular-unites",
+      "OG_IMG": "https://www.porticosport.com/og/og-elevated-platform.jpg",
+      "ID": "modular-units",
       "TITLE": "Unités Modulaires pour Clubs de Padel",
       "CONTACT_BUTTON": "Je veux une unité modulaire",
       "ROUTE": {
         "LABEL": "Unités Modulaires",
-        "URL": "/modular-unites"
+        "URL": "/modular-units"
       },
       "FIRST_SECTION": {
         "TITLE": "Transformez votre club de padel avec des unités modulaires sur mesure",
