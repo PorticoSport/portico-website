@@ -2720,13 +2720,8 @@
       },
       "FIRST_SECTION": {
         "TITLE": "Transforma tu club de padel con unidades modulares a medida",
-        "SUBTITLE": "¡La solución perfecta para tu cancha de Padel!",
-        "DESCRIPTION": "<p>En Portico Sport, vamos más allá de construir canchas de padel, diseñamos experiencias completas para clubes de padel. <strong>Nuestras unidades modulares prefabricadas ofrecen todo lo que tu club necesita</strong> sin las complicaciones de la construcción tradicional.</p><p>Ya sea que necesites una <strong>tienda profesional, cafetería, recepción, vestuarios, oficinas o baños</strong>, nuestras soluciones modulares están diseñadas, fabricadas e instaladas para cumplir con tus requisitos exactos.</p><p>Portátiles, elegantes y totalmente personalizables, estos módulos son la manera más rápida y eficiente de crear un club de padel profesional desde el primer día.</p>"
-    },
-      "FIRST_SECTION": {
-        "TITLE": "Transforma tu club de padel con unidades modulares a medida",
-        "SUBTITLE": "¡La solución perfecta para tu cancha de Padel!",
-        "DESCRIPTION": "<p>En Portico Sport, vamos más allá de construir canchas de padel, diseñamos experiencias completas para clubes de padel. <strong>Nuestras unidades modulares prefabricadas ofrecen todo lo que tu club necesita</strong> sin las complicaciones de la construcción tradicional.</p><p>Ya sea que necesites una <strong>tienda profesional, cafetería, recepción, vestuarios, oficinas o baños</strong>, nuestras soluciones modulares están diseñadas, fabricadas e instaladas para cumplir con tus requisitos exactos.</p><p>Portátiles, elegantes y totalmente personalizables, estos módulos son la manera más rápida y eficiente de crear un club de padel profesional desde el primer día.</p>"
+        "SUBTITLE": "¡La solución perfecta para tu pista de Padel!",
+        "DESCRIPTION": "<p>En Portico Sport, vamos más allá de construir pistas de padel, diseñamos experiencias completas para clubes de padel. <strong>Nuestras unidades modulares prefabricadas ofrecen todo lo que tu club necesita</strong> sin las complicaciones de la construcción tradicional.</p><p>Ya sea que necesites una <strong>tienda profesional, cafetería, recepción, vestuarios, oficinas o baños</strong>, nuestras soluciones modulares están diseñadas, fabricadas e instaladas para cumplir con tus requisitos exactos.</p><p>Portátiles, elegantes y totalmente personalizables, estos módulos son la manera más rápida y eficiente de crear un club de padel profesional desde el primer día.</p>"
     },
     "CHOOSE_MODULAR": {
         "TITLE": "<span class=\"text-black text-base lg:text-xl\">¿Por qué elegir unidades modulares para tu club de padel?</span>",
@@ -2755,7 +2750,7 @@
           "alt": "Interior modular 1"
         },
         "TITLE": "<span class=\"text-white text-base lg:text-xl font-thin\">Características de las Unidades Modulares</span>",
-        "DESCRIPTION": "<p>Las unidades modulares de Portico Sport para clubes de padel combinan <strong>materiales premium y diseño inteligente</strong>, ofreciendo <strong>durabilidad, confort y estilo moderno</strong>. Nuestras unidades modulares están construidas para cumplir con los más altos estándares de calidad. Cada detalle se planifica cuidadosamente para brindar funcionalidad, estética y rendimiento a largo plazo, asegurando que las instalaciones de tu club sean tan profesionales como tus canchas de padel.</p>",
+        "DESCRIPTION": "<p>Las unidades modulares de Portico Sport para clubes de padel combinan <strong>materiales premium y diseño inteligente</strong>, ofreciendo <strong>durabilidad, confort y estilo moderno</strong>. Nuestras unidades modulares están construidas para cumplir con los más altos estándares de calidad. Cada detalle se planifica cuidadosamente para brindar funcionalidad, estética y rendimiento a largo plazo, asegurando que las instalaciones de tu club sean tan profesionales como tus pistas de padel.</p>",
         "ADVANTAGES": [
           "Tamaño estándar: 12 x 2.4 m | Altura: 2.8 m",
           "Estructura de acero para máxima resistencia",
@@ -2789,7 +2784,7 @@
       },
       "BUILD_MODULAR": {
         "TITLE": "Construye un club de padel completo con Portico Sport",
-        "DESCRIPTION": "<p>Con la construcción modular industrializada, proporcionamos <strong>espacios inteligentes, elegantes y funcionales</strong> que complementan nuestras canchas de padel de clase mundial.</p><p>Ya sea que inicies un nuevo proyecto o actualices tus instalaciones, las unidades modulares de Portico ofrecen una <strong>solución escalable y eficiente</strong> para hacer crecer tu club de padel.</p><p>Diseñemos juntos tu espacio de padel ideal.</p>"
+        "DESCRIPTION": "<p>Con la construcción modular industrializada, proporcionamos <strong>espacios inteligentes, elegantes y funcionales</strong> que complementan nuestras pistas de padel de clase mundial.</p><p>Ya sea que inicies un nuevo proyecto o actualices tus instalaciones, las unidades modulares de Portico ofrecen una <strong>solución escalable y eficiente</strong> para hacer crecer tu club de padel.</p><p>Diseñemos juntos tu espacio de padel ideal.</p>"
       },
       "BUTTON": {
         "TITLE":"Constructores de Canchas de Padel",
@@ -2799,7 +2794,7 @@
       "PROJECTS_SECTION": {
         "ID": "gallery",
         "TITLE": "Proyectos de Plataforma Elevada",
-        "SUBTITLE": "Haz clic para descubrir: ¡Explora nuestros proyectos de canchas en detalle!",
+        "SUBTITLE": "Haz clic para descubrir: ¡Explora nuestros proyectos de pistas en detalle!",
         "URL": {
           "LABEL": "Descubre todos nuestros proyectos",
           "SRC": "/projects"
@@ -2810,7 +2805,7 @@
       "CONTACT_SECTION": {
         "ID": "contact",
         "TITLE": "¡Contacta a nuestros expertos para conocer más sobre nuestra Club Modular de Padel!",
-        "DESCRIPTION":"No dudes en contactar a nuestro equipo de constructores de canchas de padel para obtener más información sobre nuestra Club Modular de cancha. ¡Estamos aquí para responder todas tus consultas y ayudarte a encontrar la solución perfecta de padel adaptada a tus necesidades! Si lo deseas, también podemos diseñar e instalar una cancha de padel personalizada según tus preferencias y especificaciones. ¡Esperamos tu contacto pronto!",
+        "DESCRIPTION":"No dudes en contactar a nuestro equipo de constructores de pistas de padel para obtener más información sobre nuestra Club Modular de pista. ¡Estamos aquí para responder todas tus consultas y ayudarte a encontrar la solución perfecta de padel adaptada a tus necesidades! Si lo deseas, también podemos diseñar e instalar una pistas de padel personalizada según tus preferencias y especificaciones. ¡Esperamos tu contacto pronto!",
         "SUBTITLE": "Contáctanos y te ayudaremos",
         "BUTTON": "Quiero un Club Modular",
         "CONTACT_SUBJECT": "Nueva solicitud desde Club Modular",
