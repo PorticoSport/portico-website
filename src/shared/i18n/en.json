@@ -719,6 +719,7 @@
         "TITLE_OCEANIA":"ASK Question about Padel courts in Oceania",
         "TITLE_ZA":"ASK Question about Padel court manufacturers in South Africa",
         "TITLE_MODULAR": "Frequently Asked Questions About Modular Units for Padel Clubs",
+        "TITLE_PICKLEBALL": "Frequently Asked Questions About Pickleball Courts",
         "SUBTITLE": "Frequently Asked Questions",
         "BUTTON":{
           "TITLE":"Padel Court Builders",
@@ -968,7 +969,25 @@
           "question": "<h3 class=\"uppercase font-bold text-black\">How easy is it to install modular units for padel clubs?</h3>",
           "answer": "<p>Not at all. The units are prefabricated, transported by truck, and assembled on-site without the need for heavy construction works.</p>"
         }
-      ]
+      ],
+        "QUESTIONS_PICKLEBALL": [{
+          "question": "<h3 class=\"uppercase font-bold text-black\">What is Pickleball and why should I add it to my club?</h3>",
+          "answer": "<p>Pickleball is a fast-growing racket sport that combines elements of tennis, badminton, and ping-pong. Adding pickleball to your club diversifies your offerings, attracts new members of all ages, and creates additional revenue streams.</p>"
+        }, {
+          "question": "<h3 class=\"uppercase font-bold text-black\">What is the standard size of a Pickleball court?</h3>",
+          "answer": "<p>The official dimensions of a pickleball court are <strong>20 feet wide by 44 feet long (6.1m x 13.41m)</strong>. These compact dimensions allow you to fit more courts in a smaller space compared to tennis or padel courts.</p>"
+        }, {
+          "question": "<h3 class=\"uppercase font-bold text-black\">Can Pickleball courts be installed indoors and outdoors?</h3>",
+          "answer": "<p>Yes. Pickleball courts are highly versatile and can be installed in indoor sports halls, gyms, or outdoor areas. Portico Sport adapts the court design to your available space and environmental conditions.</p>"
+        }, {
+          "question": "<h3 class=\"uppercase font-bold text-black\">Can I combine Pickleball and Padel in the same facility?</h3>",
+          "answer": "<p>Absolutely. Portico Sport specializes in both padel and pickleball installations, allowing clubs to integrate both sports seamlessly. This combination maximizes usage, offers variety for members, and enhances the overall appeal of your facility.</p>"
+        },
+        {
+          "question": "<h3 class=\"uppercase font-bold text-black\">How long does it take to install a Pickleball court?</h3>",
+          "answer": "<p>Pickleball courts are compact and can be installed quickly with minimal disruption. Our turnkey service ensures a fast and safe installation, often in a fraction of the time required for traditional court construction.</p>"
+        }
+      ]  
       },
       "COUNTRIES_SECTION":{
        "ID":"countires",
@@ -4863,6 +4882,100 @@
         "BUTTON": "I want an Modular Unites",
         "CONTACT_SUBJECT": "New petition from Modular Unites",
         "BG_IMAGE": "modular-unites/thumbnails/Interior-5.webp"
+      },
+      "URL": {
+        "label": "More about elevated",
+        "href": "elevated-platform"
+      }
+    },
+    "PICKLEBALL": {
+      "SEO_TITLE": "Pickleball Courts Installation | Premium Pickleball & Padel Court Solutions – Portico Sport",
+      "TYPE": "PRODUCT",
+      "SEO_DESCRIPTION": "Install professional Pickleball courts with Portico Sport. Expand your club with turnkey solutions, precision engineering, and premium surfaces. Combine Pickleball and Padel for a complete racket sports experience and attract new players worldwide.",
+      "OG_IMG": "https://www.porticosport.com/og/og-elevated-platform.jpg",
+      "ID": "pickleball",
+      "TITLE": "Pickleball Courts Installation",
+      "CONTACT_BUTTON": "I want a Pickleball Court",
+      "ROUTE": {
+        "LABEL": "Pickleball",
+        "URL": "/pickleball"
+      },
+      "FIRST_SECTION": {
+        "TITLE": "Expand your club with professional Pickleball courts",
+        "SUBTITLE": "The perfect solution for your Padel court!",
+        "DESCRIPTION": "<p>As padel and pickleball continue to grow worldwide, clubs and sports facilities are increasingly offering both sports to meet player demand. At Portico Sport, we help you create a <strong>complete racket sports experience</strong>, combining our expertise in padel court construction with the installation of premium pickleball courts.</p><p>Pickleball is accessible, social, and rapidly growing, making it the perfect complement to padel. With Portico Sport, you can diversify your facilities efficiently and attract new players, creating a dynamic multi-sport environment.</p>"
+      },
+      "CHOOSE_PICKLEBALL": {
+        "TITLE": "<span class=\"text-black text-base lg:text-xl\">Why choose Portico Sport for Pickleball court installation?</span>",
+        "SUBTITLE": "<p>With more than 15 years of trusted experience in padel court construction, we bring the same <strong>engineering precision, premium materials, and turnkey service</strong> to every pickleball project.</p><p>Key benefits of our Pickleball courts:</p>",
+        "IMAGE": {
+          "id": "feature-section",
+          "src": "/pickleball/thumbnails/pickleball-1.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pickleball 1"
+        },
+        "LIST": [
+          "<strong>Precision engineering</strong> – In-house design tailored to your court, project, and terrain.",
+          "<strong>High-performance surfaces</strong> – Durable, safe, and optimized for playability.",
+          "<strong>Fast & safe installation</strong> – Certified teams and turnkey solutions worldwide.",
+          "<strong>High return potential</strong> – Fast-growing sport, popular across all age groups.",
+          "<strong>Space optimization</strong> – More courts per m² than tennis or padel.",
+          "<strong>Versatility</strong> – Install indoors, outdoors, or adapt existing areas."
+        ]
+      },
+      "SOLUTIONS_PICKLEBALL": {
+        "IMAGE": {
+          "id": "advantage-section",
+          "src": "/pickleball/thumbnails/pickleball-2.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pickleball 2"
+        },
+        "TITLE": "<span class=\"text-white text-base lg:text-xl font-thin\">Complete solutions for your Pickleball project</span>",
+        "DESCRIPTION": "<p>Built to perform and installed to last, we provide everything you need to get your pickleball court up and running:</p>",
+        "ADVANTAGES": [
+          "Site analysis & tailored space planning",
+          "Sports-grade surface with anti-slip finish",
+          "Official court layout, net, and fencing",
+          "LED lighting integration",
+          "Full warranty and dedicated after-sales service"
+        ]
+      },
+      "WHO_ARE_PICKLEBALL": {
+        "TITLE": "Who are our Pickleball courts for?",
+        "DESCRIPTION": "<p>Pickleball’s versatility and space efficiency make it an excellent addition for:</p>",
+        "IMAGE": {
+          "id": "information-section",
+          "src": "/pickleball/thumbnails/pickleball-3.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pickleball 3"
+        },
+        "TECHNICAL_FEATURES": [
+          "<strong>Sports and padel clubs</strong> - Expand your offering and keep members engaged",
+          "<strong>Hotels and resorts</strong> - Add premium, social recreation for guests",
+          "<strong>Municipal projects</strong> - Promote an inclusive and accessible sport for all ages",
+          "<strong>Private developments</strong> - Ideal for communities, residential spaces, and events"
+        ]
+      },
+      "PERFECT_PICKLEBALL": {
+        "TITLE": "Padel and Pickleball — the perfect match for your club",
+        "DESCRIPTION": "<p>Combining padel and pickleball in your club offers unique advantages: maximize court usage, diversify offerings, attract a wider audience, and create a dynamic, multi-sport environment ensuring a higher return on investment.</p><p>Padel provides fast-paced, strategic gameplay for enthusiasts, while pickleball adds a highly social, accessible, and rapidly growing sport for players of all ages and skill levels.</p><p>Installing both with Portico Sport is a smart choice: our experience in padel court construction and turnkey pickleball installations ensures professional quality, seamless integration, and a complete racket sports experience for your members.</p>"
+      },
+      "BUTTON": {
+        "TITLE":"Padel Court Builders",
+        "TEXT":"Expand Your Club with Pickleball Today",
+        "URL":"/client-contact"
+      },
+      "CONTACT_SECTION": {
+        "ID": "contact",
+        "TITLE": "Reach our Experts to learn more about our Pickleball Courts!",
+        "DESCRIPTION":"Feel free to reach out to our team of Padel court builders for more information on our Pickleball Padel Court! We're here to address all your inquiries and assist you in finding the perfect Padel solution tailored to your needs. If you're interested, we can also design and install a customized Padel court based on your preferences and specifications. We look forward to hearing from you soon!",
+        "SUBTITLE": "Contact us and we will help you",
+        "BUTTON": "I want an Pickleball",
+        "CONTACT_SUBJECT": "New petition from Pickleball",
+        "BG_IMAGE": "pickleball/thumbnails/pickleball-4.webp"
       },
       "URL": {
         "label": "More about elevated",
