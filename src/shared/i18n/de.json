@@ -186,6 +186,7 @@
         "TITLE_PANORAMIC_COURT": "Häufig gestellte Fragen zu Panoramischen Padelplätzen",
         "TITLE_PANORAMIC_FORCE_80_COURT": "Häufig gestellte Fragen zu unseren Panoramic Force 80 Padelplätzen",
         "TITLE_MODULAR": "Häufig gestellte Fragen zu modularen Einheiten für Padel-Clubs",
+        "TITLE_PICKLEBALL": "Häufig gestellte Fragen zu Pickleball-Plätzen",
         "SUBTITLE": "Häufig gestellte Fragen",
         "BUTTON":{  
           "TEXT":"Baue deinen Padelplatz!",  
@@ -319,6 +320,28 @@
         {
           "question": "<h3 class=\"uppercase font-bold text-black\">Wie einfach ist es, modulare Einheiten für Padel-Clubs zu installieren?</h3>",
           "answer": "<p>Sehr einfach. Die Einheiten sind vorgefertigt, werden per Lkw transportiert und vor Ort ohne große Bauarbeiten montiert.</p>"
+        }
+      ],
+        "QUESTIONS_PICKLEBALL": [
+        {
+          "question": "<h3 class=\"uppercase font-bold text-black\">Was ist Pickleball und warum sollte ich es in meinem Club anbieten?</h3>",
+          "answer": "<p>Pickleball ist eine rasant wachsende Racketsportart, die Elemente aus Tennis, Badminton und Tischtennis kombiniert. Die Aufnahme in Ihr Clubangebot diversifiziert Ihr Portfolio, zieht neue Mitglieder aller Altersgruppen an und erschließt zusätzliche Einnahmequellen.</p>"
+        },
+        {
+          "question": "<h3 class=\"uppercase font-bold text-black\">Wie groß ist ein Pickleball-Platz nach Standard?</h3>",
+          "answer": "<p>Die offiziellen Maße eines Pickleball-Platzes betragen <strong>20 Fuß × 44 Fuß (6,1 m × 13,41 m)</strong>. Durch die kompakten Abmessungen lassen sich im Vergleich zu Tennis- oder Padelplätzen mehr Courts auf kleinerer Fläche unterbringen.</p>"
+        },
+        {
+          "question": "<h3 class=\"uppercase font-bold text-black\">Kann man Pickleball-Plätze indoor und outdoor installieren?</h3>",
+          "answer": "<p>Ja. Pickleball-Plätze sind sehr vielseitig und können in Sporthallen, Fitnessstudios oder Außenbereichen installiert werden. Portico Sport passt das Platzdesign an Ihren verfügbaren Raum und die Umgebungsbedingungen an.</p>"
+        },
+        {
+          "question": "<h3 class=\"uppercase font-bold text-black\">Kann ich Pickleball und Padel in derselben Anlage kombinieren?</h3>",
+          "answer": "<p>Auf jeden Fall. Portico Sport ist auf Padel und Pickleball spezialisiert und ermöglicht Clubs die nahtlose Integration beider Sportarten. Diese Kombination maximiert die Auslastung, bietet Mitgliedern Vielfalt und steigert die Attraktivität Ihrer Anlage.</p>"
+        },
+        {
+          "question": "<h3 class=\"uppercase font-bold text-black\">Wie lange dauert die Installation eines Pickleball-Platzes?</h3>",
+          "answer": "<p>Pickleball-Plätze sind kompakt und lassen sich mit minimaler Beeinträchtigung schnell installieren. Unser schlüsselfertiger Service sorgt für eine schnelle und sichere Umsetzung – oft in einem Bruchteil der Zeit, die ein herkömmlicher Platzbau benötigt.</p>"
         }
       ]
       },      
@@ -2877,6 +2900,100 @@
       },
       "URL": {
         "label": "Mehr über modulare Einheiten",
+        "href": "elevated-platform"
+      }
+    },
+    "PICKLEBALL": {
+      "SEO_TITLE": "Installation von Pickleball-Plätzen | Premium-Lösungen für Pickleball- und Padelplätze – Portico Sport",
+      "TYPE": "PRODUCT",
+      "SEO_DESCRIPTION": "Installieren Sie professionelle Pickleball-Plätze mit Portico Sport. Erweitern Sie Ihren Club mit schlüsselfertigen Lösungen, präziser Ingenieurstechnik und hochwertigen Belägen. Kombinieren Sie Pickleball und Padel für ein komplettes Racketsport-Erlebnis und gewinnen Sie neue Spieler weltweit.",
+      "OG_IMG": "https://www.porticosport.com/og/og-elevated-platform.jpg",
+      "ID": "pickleball",
+      "TITLE": "Installation von Pickleball-Plätzen",
+      "CONTACT_BUTTON": "Ich möchte einen Pickleball-Platz",
+      "ROUTE": {
+        "LABEL": "Pickleball",
+        "URL": "/pickleball"
+      },
+      "FIRST_SECTION": {
+        "TITLE": "Erweitern Sie Ihren Club mit professionellen Pickleball-Plätzen",
+        "SUBTITLE": "Die perfekte Lösung für Ihren Padelplatz!",
+        "DESCRIPTION": "<p>Da Padel und Pickleball weltweit wachsen, bieten Clubs und Sportanlagen zunehmend beide Sportarten an, um der Nachfrage gerecht zu werden. Bei Portico Sport helfen wir Ihnen, ein <strong>vollständiges Racketsport-Erlebnis</strong> zu schaffen – durch unsere Expertise im Padelplatzbau und die Installation hochwertiger Pickleball-Plätze.</p><p>Pickleball ist zugänglich, gesellig und wächst rasant – die ideale Ergänzung zu Padel. Mit Portico Sport diversifizieren Sie Ihre Anlage effizient und ziehen neue Spieler an, wodurch ein dynamisches Multisport-Umfeld entsteht.</p>"
+      },
+      "CHOOSE_PICKLEBALL": {
+        "TITLE": "<span class=\"text-black text-base lg:text-xl\">Warum Portico Sport für die Installation von Pickleball-Plätzen wählen?</span>",
+        "SUBTITLE": "<p>Mit über 15 Jahren Erfahrung im Bau von Padelplätzen bringen wir die gleiche <strong>Ingenieurpräzision, Premium-Materialien und schlüsselfertigen Service</strong> in jedes Pickleball-Projekt.</p><p>Wesentliche Vorteile unserer Pickleball-Plätze:</p>",
+        "IMAGE": {
+          "id": "feature-section",
+          "src": "/pickleball/thumbnails/pickleball-1.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pickleball 1"
+        },
+        "LIST": [
+          "<strong>Präzisions-Engineering</strong> – In-house-Design, abgestimmt auf Platz, Projekt und Gelände.",
+          "<strong>Hochleistungsoberflächen</strong> – Langlebig, sicher und auf Spielbarkeit optimiert.",
+          "<strong>Schnelle & sichere Installation</strong> – Zertifizierte Teams und schlüsselfertige Lösungen weltweit.",
+          "<strong>Hohe Renditechancen</strong> – Rasant wachsende Sportart, beliebt in allen Altersgruppen.",
+          "<strong>Flächeneffizienz</strong> – Mehr Plätze pro m² als Tennis oder Padel.",
+          "<strong>Vielseitigkeit</strong> – Indoor, Outdoor oder Anpassung bestehender Flächen."
+        ]
+      },
+      "SOLUTIONS_PICKLEBALL": {
+        "IMAGE": {
+          "id": "advantage-section",
+          "src": "/pickleball/thumbnails/pickleball-2.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pickleball 2"
+        },
+        "TITLE": "<span class=\"text-white text-base lg:text-xl font-thin\">Komplettlösungen für Ihr Pickleball-Projekt</span>",
+        "DESCRIPTION": "<p>Gebaut für Leistung und auf Langlebigkeit ausgelegt – wir liefern alles, was Sie für die Inbetriebnahme Ihres Pickleball-Platzes benötigen:</p>",
+        "ADVANTAGES": [
+          "Standortanalyse & maßgeschneiderte Raumplanung",
+          "Sportboden mit rutschhemmendem Finish",
+          "Offizielles Platzlayout, Netz und Zaunanlage",
+          "Integration von LED-Beleuchtung",
+          "Umfassende Garantie und dedizierter After-Sales-Service"
+        ]
+      },
+      "WHO_ARE_PICKLEBALL": {
+        "TITLE": "Für wen eignen sich unsere Pickleball-Plätze?",
+        "DESCRIPTION": "<p>Die Vielseitigkeit und Flächeneffizienz von Pickleball machen es ideal für:</p>",
+        "IMAGE": {
+          "id": "information-section",
+          "src": "/pickleball/thumbnails/pickleball-3.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pickleball 3"
+        },
+        "TECHNICAL_FEATURES": [
+          "<strong>Sport- und Padelclubs</strong> – Angebot erweitern und Mitglieder binden",
+          "<strong>Hotels und Resorts</strong> – Premium, gesellige Freizeit für Gäste",
+          "<strong>Kommunale Projekte</strong> – Ein inklusiver, zugänglicher Sport für alle Altersgruppen",
+          "<strong>Private Anlagen</strong> – Ideal für Wohnanlagen, Communities und Events"
+        ]
+      },
+      "PERFECT_PICKLEBALL": {
+        "TITLE": "Padel und Pickleball — die perfekte Kombination für Ihren Club",
+        "DESCRIPTION": "<p>Die Kombination aus Padel und Pickleball bietet einzigartige Vorteile: maximale Platzauslastung, vielfältigeres Angebot, breitere Zielgruppe und ein dynamisches Multisport-Umfeld mit höherer Rentabilität.</p><p>Padel bietet schnellen, strategischen Spielspaß, während Pickleball als sehr sozialer, zugänglicher und stark wachsender Sport Menschen aller Alters- und Leistungsstufen anspricht.</p><p>Beides mit Portico Sport zu installieren ist eine kluge Wahl: Unsere Erfahrung im Padelplatzbau und schlüsselfertige Pickleball-Installationen garantieren professionelle Qualität, nahtlose Integration und ein umfassendes Racketsport-Erlebnis für Ihre Mitglieder.</p>"
+      },
+      "BUTTON": {
+        "TITLE": "Padelplatzbau-Experten",
+        "TEXT": "Erweitern Sie Ihren Club noch heute mit Pickleball",
+        "URL": "/client-contact"
+      },
+      "CONTACT_SECTION": {
+        "ID": "contact",
+        "TITLE": "Kontaktieren Sie unsere Experten, um mehr über unsere Pickleball-Plätze zu erfahren!",
+        "DESCRIPTION": "Kontaktieren Sie gerne unser Team von Padelplatzbau-Experten für weitere Informationen zu unseren Pickleball-Plätzen. Wir beantworten Ihre Fragen und helfen Ihnen, die passende Padel-Lösung für Ihre Anforderungen zu finden. Auf Wunsch planen und installieren wir auch einen maßgeschneiderten Padelplatz nach Ihren Vorgaben. Wir freuen uns auf Ihre Nachricht!",
+        "SUBTITLE": "Kontaktieren Sie uns – wir helfen Ihnen",
+        "BUTTON": "Ich möchte einen Pickleball-Platz",
+        "CONTACT_SUBJECT": "Neue Anfrage: Pickleball",
+        "BG_IMAGE": "pickleball/thumbnails/pickleball-4.webp"
+      },
+      "URL": {
+        "label": "More about elevated",
         "href": "elevated-platform"
       }
     },
