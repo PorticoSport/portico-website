@@ -1,0 +1,7 @@
+---
+import PickleballPage from "@/shared/components/pages/Pickleball.astro"
+import { LANGUAGES } from "@/shared/i18n/constants"
+import pickleball from "@/en/data/pickleball-gallery.json"
+---
+
+<PickleballPage language={LANGUAGES.ES} pickleballGallery={pickleball} />
