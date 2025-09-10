@@ -189,6 +189,7 @@
         "TITLE_PANORAMIC_COURT": "Foire aux questions sur les courts de padel panoramiques",
         "TITLE_PANORAMIC_FORCE_80_COURT": "Questions fréquentes sur nos courts de padel Panoramiques Force 80",
         "TITLE_MODULAR": "Questions fréquentes sur les unités modulaires pour clubs de padel",
+        "TITLE_PICKLEBALL": "Foire aux questions sur les terrains de Pickleball",
         "SUBTITLE": "Foire Aux Questions",
         "BUTTON":{  
           "TEXT":"Construisez votre court de padel !",  
@@ -324,7 +325,29 @@
           "question": "<h3 class=\"uppercase font-bold text-black\">Est-il facile d’installer des unités modulaires pour les clubs de padel ?</h3>",
           "answer": "<p>Très facile. Les unités sont préfabriquées, transportées par camion et assemblées sur place sans grands travaux.</p>"
         }
-      ]
+      ],
+       "QUESTIONS_PICKLEBALL": [
+        {
+          "question": "<h3 class=\"uppercase font-bold text-black\">Qu’est-ce que le Pickleball et pourquoi l’ajouter à mon club ?</h3>",
+          "answer": "<p>Le pickleball est un sport de raquette en forte croissance, mêlant tennis, badminton et tennis de table. L’ajouter à votre club diversifie votre offre, attire de nouveaux membres de tous âges et crée des sources de revenus supplémentaires.</p>"
+        },
+        {
+          "question": "<h3 class=\"uppercase font-bold text-black\">Quelle est la taille standard d’un terrain de Pickleball ?</h3>",
+          "answer": "<p>Les dimensions officielles d’un terrain de pickleball sont de <strong>20 pieds par 44 pieds (6,1 m × 13,41 m)</strong>. Ces dimensions compactes permettent d’implanter davantage de terrains dans un espace réduit par rapport au tennis ou au padel.</p>"
+        },
+        {
+          "question": "<h3 class=\"uppercase font-bold text-black\">Peut-on installer des terrains de Pickleball en intérieur et en extérieur ?</h3>",
+          "answer": "<p>Oui. Les terrains de Pickleball sont très polyvalents et peuvent être installés dans des salles, des gymnases ou des espaces extérieurs. Portico Sport adapte la conception du terrain à votre espace disponible et aux conditions environnementales.</p>"
+        },
+        {
+          "question": "<h3 class=\"uppercase font-bold text-black\">Puis-je combiner Pickleball et padel au sein de la même installation ?</h3>",
+          "answer": "<p>Absolument. Portico Sport est spécialisé à la fois dans le padel et le pickleball, ce qui permet d’intégrer les deux sports sans difficulté. Cette combinaison maximise l’utilisation, offre de la variété à vos membres et renforce l’attractivité globale de votre installation.</p>"
+        },
+        {
+          "question": "<h3 class=\"uppercase font-bold text-black\">Combien de temps faut-il pour installer un terrain de Pickleball ?</h3>",
+          "answer": "<p>Les terrains de Pickleball sont compacts et peuvent être installés rapidement, avec un minimum de perturbations. Notre service clé en main garantit une installation rapide et sûre, souvent en une fraction du temps nécessaire à une construction traditionnelle.</p>"
+        }
+      ] 
       },      
       "CONTACT_SECTION": {
         "ID": "contact",
@@ -2843,6 +2866,100 @@
       },
       "URL": {
         "label": "Plus sur les unités modulaires",
+        "href": "elevated-platform"
+      }
+    },
+    "PICKLEBALL": {
+      "SEO_TITLE": "Installation de terrains de Pickleball | Solutions premium pour terrains de Pickleball et de padel – Portico Sport",
+      "TYPE": "PRODUCT",
+      "SEO_DESCRIPTION": "Installez des terrains professionnels de Pickleball avec Portico Sport. Développez votre club avec des solutions clés en main, une ingénierie de précision et des revêtements premium. Combinez Pickleball et padel pour une expérience complète des sports de raquette et attirez de nouveaux joueurs dans le monde entier.",
+      "OG_IMG": "https://www.porticosport.com/og/og-elevated-platform.jpg",
+      "ID": "pickleball",
+      "TITLE": "Installation de terrains de Pickleball",
+      "CONTACT_BUTTON": "Je veux un terrain de Pickleball",
+      "ROUTE": {
+        "LABEL": "Pickleball",
+        "URL": "/pickleball"
+      },
+      "FIRST_SECTION": {
+        "TITLE": "Développez votre club avec des terrains professionnels de Pickleball",
+        "SUBTITLE": "La solution parfaite pour votre terrain de padel !",
+        "DESCRIPTION": "<p>À mesure que le padel et le pickleball se développent dans le monde, les clubs et installations sportives proposent de plus en plus les deux sports pour répondre à la demande. Chez Portico Sport, nous vous aidons à créer une <strong>expérience complète des sports de raquette</strong>, en associant notre expertise en construction de terrains de padel à l’installation de terrains de pickleball premium.</p><p>Le pickleball est accessible, convivial et en forte croissance, ce qui en fait le parfait complément du padel. Avec Portico Sport, vous diversifiez efficacement vos installations et attirez de nouveaux joueurs, en créant un environnement multisports dynamique.</p>"
+      },
+      "CHOOSE_PICKLEBALL": {
+        "TITLE": "<span class=\"text-black text-base lg:text-xl\">Pourquoi choisir Portico Sport pour l’installation de terrains de Pickleball ?</span>",
+        "SUBTITLE": "<p>Avec plus de 15 ans d’expérience reconnue dans la construction de terrains de padel, nous apportons la même <strong>précision d’ingénierie, des matériaux premium et un service clé en main</strong> à chaque projet de pickleball.</p><p>Avantages clés de nos terrains de Pickleball :</p>",
+        "IMAGE": {
+          "id": "feature-section",
+          "src": "/pickleball/thumbnails/pickleball-1.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pickleball 1"
+        },
+        "LIST": [
+          "<strong>Ingénierie de précision</strong> – Conception interne adaptée à votre terrain, votre projet et votre site.",
+          "<strong>Surfaces haute performance</strong> – Durables, sûres et optimisées pour la jouabilité.",
+          "<strong>Installation rapide et sûre</strong> – Équipes certifiées et solutions clés en main dans le monde entier.",
+          "<strong>Fort potentiel de rentabilité</strong> – Sport en pleine croissance, populaire auprès de toutes les tranches d’âge.",
+          "<strong>Optimisation de l’espace</strong> – Plus de terrains par m² que le tennis ou le padel.",
+          "<strong>Polyvalence</strong> – Installation en intérieur, en extérieur ou adaptation d’espaces existants."
+        ]
+      },
+      "SOLUTIONS_PICKLEBALL": {
+        "IMAGE": {
+          "id": "advantage-section",
+          "src": "/pickleball/thumbnails/pickleball-2.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pickleball 2"
+        },
+        "TITLE": "<span class=\"text-white text-base lg:text-xl font-thin\">Solutions complètes pour votre projet de Pickleball</span>",
+        "DESCRIPTION": "<p>Conçues pour la performance et faites pour durer, nous fournissons tout ce dont vous avez besoin pour mettre en service votre terrain de pickleball :</p>",
+        "ADVANTAGES": [
+          "Analyse du site et planification de l’espace sur mesure",
+          "Surface sportive avec finition antidérapante",
+          "Traçage officiel, filet et clôture",
+          "Intégration d’un éclairage LED",
+          "Garantie complète et service après-vente dédié"
+        ]
+      },
+      "WHO_ARE_PICKLEBALL": {
+        "TITLE": "À qui s’adressent nos terrains de Pickleball ?",
+        "DESCRIPTION": "<p>La polyvalence et l’efficacité spatiale du pickleball en font un excellent ajout pour :</p>",
+        "IMAGE": {
+          "id": "information-section",
+          "src": "/pickleball/thumbnails/pickleball-3.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pickleball 3"
+        },
+        "TECHNICAL_FEATURES": [
+          "<strong>Clubs de sport et de padel</strong> – Élargissez votre offre et fidélisez vos membres",
+          "<strong>Hôtels et resorts</strong> – Ajoutez une activité sociale premium pour vos clients",
+          "<strong>Projets municipaux</strong> – Favorisez un sport inclusif et accessible à tous les âges",
+          "<strong>Programmes privés</strong> – Idéal pour les communautés, résidences et événements"
+        ]
+      },
+      "PERFECT_PICKLEBALL": {
+        "TITLE": "Padel et Pickleball — le duo parfait pour votre club",
+        "DESCRIPTION": "<p>Combiner le padel et le pickleball dans votre club offre des avantages uniques : maximiser l’utilisation des terrains, diversifier l’offre, attirer un public plus large et créer un environnement multisports dynamique garantissant un meilleur retour sur investissement.</p><p>Le padel propose un jeu rapide et stratégique pour les passionnés, tandis que le pickleball apporte un sport très social, accessible et en plein essor pour tous les âges et niveaux.</p><p>Installer les deux avec Portico Sport est un choix avisé : notre expérience en construction de terrains de padel et nos installations clé en main de pickleball assurent une qualité professionnelle, une intégration fluide et une expérience complète des sports de raquette pour vos membres.</p>"
+      },
+      "BUTTON": {
+        "TITLE": "Constructeurs de terrains de padel",
+        "TEXT": "Développez votre club avec le Pickleball dès aujourd’hui",
+        "URL": "/client-contact"
+      },
+      "CONTACT_SECTION": {
+        "ID": "contact",
+        "TITLE": "Contactez nos experts pour en savoir plus sur nos terrains de Pickleball !",
+        "DESCRIPTION": "N’hésitez pas à contacter notre équipe de constructeurs de terrains de padel pour plus d’informations sur nos terrains de Pickleball. Nous sommes là pour répondre à toutes vos questions et vous aider à trouver la solution de padel idéale pour vos besoins. Si vous le souhaitez, nous pouvons également concevoir et installer un terrain de padel personnalisé selon vos préférences et spécifications. Nous attendons votre message avec impatience !",
+        "SUBTITLE": "Contactez-nous et nous vous aiderons",
+        "BUTTON": "Je veux un terrain de Pickleball",
+        "CONTACT_SUBJECT": "Nouvelle demande Pickleball",
+        "BG_IMAGE": "pickleball/thumbnails/pickleball-4.webp"
+      },
+      "URL": {
+        "label": "More about elevated",
         "href": "elevated-platform"
       }
     },
