@@ -27,9 +27,7 @@
        "SEO_TITLE_ME": "Padel Court Construction Middle East | Portico Sport",
       "SEO_DESCRIPTION_ME": "Portico Sport, leading Padel court manufacturer in the Middle East, providing custom design, construction, and installation for durable, high-performance courts",
       "SEO_TITLE_IND": "Padel Court Construction India | Portico Sport",
-      "SEO_DESCRIPTION_IND": "Portico Sport offers end-to-end solutions for custom-built, durable and premium quality Padel courts across the country.",
-      "SEO_TITLE_SAU":"Padel Court Construction Saudi Arabia | Portico Sport",
-      "SEO_DESCRIPTION_SAU":"Luxury padel courts in Saudi Arabia. Trusted by champions, built for Riyadh, Jeddah & Dammam. Turnkey installation by top global court builders.",
+      "SEO_DESCRIPTION_IND": "Portico Sport offers end-to-end solutions for custom-built, durable and premium quality Padel courts across the country.",  
       "SEO_TITLE_INDONE":"Padel Court Constructor Indonesia | Portico Sport",
       "SEO_DESCRIPTION_INDONE":"Build your padel court in Indonesia with global experts. Custom designs, premium materials, and turnkey service. Invest in the sport of the future.",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
@@ -38,7 +36,6 @@
       "SUBTITLE_USA": "Construction and Installation of Padel Courts and Canopies in USA",
       "SUBTITLE_ZA":"Construction and Installation of Padel Courts and Canopies in South Africa",
       "SUBTITLE_OCEANIA":"Contruction and Installation of Padel Courts and Canopies in Oceania",
-      "SUBTITLE_SAU":"Engineered in Europe. Trusted by champions. Designed for luxury",
       "TITLE": "Padel Court Builders",
       "TITLE_UK": "Padel Court Builders UK",
       "TITLE_USA": "Padel Court Builders USA",
@@ -52,10 +49,8 @@
       "TITLE_CA":"Padel court builder Canada",
       "TITLE_ME":"Padel court supplier in Middle East",
       "TITLE_IND":"Padel Court Builder India",
-      "TITLE_SAU": "Padel courts builders Saudi Arabia",
       "TITLE_INDONE": "Padel court constructors in Indonesia",
       "SLOGAN": "Thinking Padel, Thinking Portico Sport",
-      "SLOGAN_SAU":"Portico Sport is the court of choice for international tournaments, elite clubs and the world's most influential investors. From the Caribbean to the Middle East, we bring unmatched quality and innovation to every project.",
       "CONTACT_BUTTON": {
         "LABEL": "Contact us",
         "URL": "/#contact"
@@ -98,15 +93,6 @@
         "TITLE":"Padel court manufacturers and installers in South Africa",
         "DESCRIPTION":"<p>Padel is experiencing significant growth in South Africa, quickly becoming one of the country's fastest-developing sports. This boom has been partly driven by contributions from Padel court manufacturers like Portico Sport, a global leader in the sector, playing a crucial role in the sport's expansion. Portico Sport has already completed notable projects such as Virgin Active Padel Club The Glen and Atlantic Padel Table View in Cape Town. </p><p>The most sought-after courts in South Africa include the Club, Panoramic, and, notably, the patented Club Force 80 and Panoramic Force 80 by Portico Sport, unique in the market. The Force 80 Padel courts feature a superior brace design and a special anchoring system, capable of withstanding hurricane-force winds, making them ideal for areas with extreme weather conditions. Their innovative construction has positioned these Padel courts as the most durable on the market, reinforcing Padel's growth in South Africa and securing its expansion across the country.</p><p>We hope that Padel will continue its expansion in other cities such as Johannesburg, Pretoria, Durban, Port Elizabeth, Bloemfontein, Nelspruit or Kimberley.</p>"
       },
-      "INTRO_SECTION_SAU":{
-        "ID":"intro",
-        "TITLE":"The world’s most prestigious padel courts — now in Saudi Arabia",
-        "DESCRIPTION":"<p>From Riyadh to Jeddah and Dammam, padel is rising as one of Saudi Arabia’s fastest-growing sports — and we’re here to lead the transformation. As one of the world’s top padel court builders, Portico Sport delivers championship-grade courts to elite clubs, private estates, and luxury resorts across the Kingdom. Engineered in Europe and trusted worldwide, our courts combine precision design, unmatched durability, and tailored luxury — ideal for Saudi Arabia’s climate, architecture, and ambition.</p><p>Whether you're creating a standout facility in King Abdullah Economic City or an event-ready court in a Riyadh resort, we deliver fully customizable padel courts that thrive under the desert sun and elevate every playing experience.</p>",
-        "BUTTON": {
-          "LABEL": "Start your project today",
-          "URL": "/client-contact"
-                  }
-      },
       "INTRO_SECTION_INDONE":{
         "ID":"intro",
         "TITLE":"Complete padel court solutions for Indonesia’s sports market",
@@ -145,10 +131,6 @@
         "DESCRIPTION": "<p>Every Portico project in Indonesia is managed by an experienced international project leader with support from our <strong>dedicated Southeast Asia coordinator</strong>.</p><p>From the initial site visit to final installation, our team ensures:</p>",
         "DESCRIPTION_2": "<p>We understand the local market — and we’re there in person when it counts. Our Indonesian clients benefit from hands-on coordination and responsive service at every stage.</p>",
         "LIST": "<ul class=\"list-disc pl-4\"><li>Clear communication</li><li>Project planning adapted to local regulations and timelines</li><li>Supervision of trained installers on-site</li><li>After-sales support and court maintenance guidance</li></ul>"
-      },
-      "TRUSTED_SAU": {
-        "TITLE":"Trusted by the world's best",
-        "DESCRIPTION":"<p>Official court of the <strong>HEXAGON CUP</strong>, featuring global legends like Juan Lebrón, Federico Chingotto, Martín Di Nenno, Ariana Sánchez or sports celebrities: Leo Messi, Agüero, Eva Longoria, and Lewandowski.</p><p>Chosen by royalty, elite investors, and luxury resorts from Barbados to Japan.</p>"
       },
       "GRAPHIC_PROCESS_SECTION": {
         "ID": "graphic-process",
@@ -223,15 +205,6 @@
           "TEXT":"Need help choosing the best model for your venue? Contact us today.",
           "TITLE":"Padel court builders",
           "URL":"/client-contact"
-        }
-      },
-      "ELITE_SAU": {
-        "TITLE": "Elite Partnerships for Premium Padel",
-        "DESCRIPTION": "<p>Portico Sport teams up with world-class partners like <strong>HEAD</strong> to deliver premium padel courts that combine performance, style, and durability. These <strong>courts are certified and tournament-ready</strong>, featuring advanced surfaces, integrated lighting, and sustainable design.</p><p>Clubs also <strong>benefit from an exclusive HEAD product and accessory package</strong>, enhancing both player experience and club offerings.</p><p>By partnering with HEAD, Portico Sport helps clubs attract and retain members while elevating their image with a globally recognized brand. This collaboration ensures a complete, high-quality padel experience for players and clubs alike.</p>",
-        "BUTTON": {
-          "TITLE":"Contact us to upgrade your club",
-          "LABEL": "Contact us to upgrade your club",
-          "URL": "https://www.porticosport.com/client-contact"
         }
       },
       "COURTS_SECTION_SAU": {
@@ -384,35 +357,6 @@
           "TITLE":"DEDICATED TEAM IN SOUTH AFRICA",
           "DESCRIPTION":"Portico Sport is committed to delivering a seamless construction process through a specialized team of sports engineering and architecture professionals. Each project benefits from our local expertise, with a South African team on hand to provide personalized support and efficient service."
         }
-    },
-      "BENTO_SECTION_SAU":{
-        "ID": "why-us",
-        "TITLE": "Unmatched quality, built for Saudi Arabia",
-        "POINT_1": {
-          "TITLE": "Unmatched quality, built for Saudi Arabia",
-          "DESCRIPTION": "Fully engineered courts, anti-corrosion, UV- and heat-resistant materials engineered to perform in high temperatures and dry climates. Certified by international padel bodies."
-        },
-        "POINT_2": {
-          "TITLE": "Trusted by the world's best",
-          "DESCRIPTION": "Official court of the HEXAGON CUP, featuring global legends like Juan Lebrón, Federico Chingotto, Martín Di Nenno, Ariana Sánchez or sports celebrities: Leo Messi, Agüero, Eva Longoria, and Lewandowski.<p>Chosen by royalty, elite investors, and luxury resorts from Barbados to Japan.</p>"
-      },
-        "POINT_3":{
-        "TITLE":"Turnkey construction & fast installation",
-        "DESCRIPTION":"From beachfront resorts in Jeddah to rooftop courts in Riyadh, we offer full-service padel court construction with short lead times and expert local support."
-        },
-        "POINT_4":{
-          "TITLE":"Fully tailored solutions for Saudi luxury",
-          "DESCRIPTION":"Designed for high-end real estate, 5-star resorts, and premium venues — with custom branding, lighting, finishes, and more."
-        },
-        "POINT_5":{
-          "TITLE":"Global padel court suppliers with proven results",
-          "DESCRIPTION":"Over 4,000 installations worldwide and growing projects across the Middle East"
-        },
-        "BUTTON": {
-          "TITLE":"Design your signature court in Saudi Arabi",
-          "LABEL": "Design your signature court in Saudi Arabi",
-          "URL": "/client-contact"
-                  }
     },
       "PROJECTS_SECTION": {
         "ID": "projects",
@@ -674,30 +618,6 @@
             "TITLE": "Customized Padel Court Design",
             "DESCRIPTION": "Elevate your Padel court’s appeal with lacquered paint, built-in seating, engraved corner details with club logos, and screen-printed nets for a branded, unique playing environment."
           }}
-      },
-      "COMPLEMENTS_SECTION_SAU": {
-        "ID": "complements",
-        "TITLE": "Premium padel court projects for Saudi Arabia",
-        "SUBSUBTITLE": "Whether you're a visionary investor in NEOM, a developer in the Red Sea project, or a hotel owner in Jeddah’s Corniche, Portico Sport delivers custom padel courts designed to impress. <br> Our team ensures:",
-        "DESCRIPTION": "As trusted padel court suppliers, we help Saudi Arabia’s top investors and developers create venues that rival the world’s best.",
-        "ITEMS": {
-          "ITEM_1": {
-            "TITLE": "",
-            "DESCRIPTION": "Full compliance with international padel standards"
-          },
-          "ITEM_2": {
-            "TITLE": "",
-            "DESCRIPTION": "Weather-adapted materials for desert environments"
-          },
-          "ITEM_3": {
-            "TITLE": "",
-            "DESCRIPTION": "Options for indoor and outdoor courts"
-          },
-          "ITEM_4": {
-            "TITLE": "",
-            "DESCRIPTION": "High-end custom finishes, branding, and lighting"
-          }
-        }
       },
       "TITLE_AUS_NZ":"Visit our websites to discover Padel Courts in Oceania",
       "SUBTITLE_AUS_NZ":"We deliver premium, 100% manufactured Padel courts and canopies across Oceania, shaping the future of the sport. Visit our Australia and New Zealand websites to learn more about our courts in these regions.",
@@ -1756,17 +1676,6 @@
       "LABEL":"Contact Portico Sport now!",
       "URL":"/client-contact",
       "TITLE":"contact Portico Sport"
-     }
-    },
-    "CONTACT_SECTION_SAU": {
-      "ID":"contact",
-      "TITLE":"Ready to build your padel court in Saudi Arabia?",
-      "DESCRIPTION":"With over 4,000 courts installed and active projects worldwide, Portico Sport is your trusted padel court builder in Saudi Arabia.",
-      "SUBTITLE_1":"Contact our team today for a tailored consultation — and let’s build something extraordinary in Riyadh, Jeddah, or Dammam.",
-      "BUTTON":{
-      "LABEL":"Request your private consultation",
-      "URL":"/client-contact",
-      "TITLE":"Request your private consultation"
      }
     },
     "CONTACT_SECTION_INDONE": {
@@ -4132,6 +4041,218 @@
         "alt": "Mobile court patented by Portico Sport"
       }]
     },
+    "SAU": {
+      "ID": "sau",
+      "SEO_TITLE":"Padel Court Construction Saudi Arabia | Portico Sport",
+      "SEO_DESCRIPTION":"Luxury padel courts in Saudi Arabia. Trusted by champions, built for Riyadh, Jeddah & Dammam. Turnkey installation by top global court builders.",
+      "OG_IMG": "https://www.porticosport.com/og/og-mini.jpg",
+      "TITLE": "Padel courts builders Saudi Arabia",
+      "DESCRIPTION": "<p>Portico Sport is the global leader in padel courts — delivering innovation, performance, and design <br> excellence trusted by champions, clubs, and investors across the world.</p>",
+      "NAME": "Sau",
+      "LITTLE_DESCRIPTION": "<p>Our reduced-size Padel court that fits anywhere.</p>",
+      "SUBTITLE":"Engineered in Europe. <br> Trusted Worldwide. <br> Built for Saudi Arabia.",
+      "BUTTON": {
+          "LABEL": "Discover Our Courts",
+          "URL": "/client-contact"
+      },
+      "ROUTE": {
+        "LABEL": "More about sau padel court",
+        "URL": "/sau",
+        "TITLE": "Sau"
+      },
+      "INTRO_SECTION_SAU":{
+        "ID":"intro",
+        "TITLE":"Shaping the Future of <br> Padel in the Kingdom",
+        "DESCRIPTION":"<p>Padel is one of Saudi Arabia's fastest-growing sports - and Portico Sport is driving its else</p><p>As a global padel court specialist, we provide championship-grade courts to elite clubs, private estates, and luxury resorts across the Kingdom its rise.</p><p></p>Our courts are engineered in Europe and certified worldwide, combining precision design, unmatched durability, and bespoke finishes. Built to perform in extreme climates, they align seamlessly with Saudi Arabia's Vision 2030 — from Qiddiya Sports City to the Red Sea Resorts and the historic heart of Diriyah."
+      }, 
+      "TAG_SAU": {
+        "TAG_1": {
+          "TITLE":"Vision 2030",
+          "DESCRIPTION": "Aligned with Saudi giga-projects <br> and national ambitions.",
+          "ICON": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='48' height='48' viewBox='0 0 103 101'><defs><clipPath id='clip-icone-orgao-publico'><rect width='103' height='101'/></clipPath></defs><g id='icone-orgao-publico' clip-path='url(#clip-icone-orgao-publico)'><g id='Grupo_28288' data-name='Grupo 28288' transform='translate(-7 11.455)'><path id='União_62' data-name='União 62' d='M6724.037,3980.448a3,3,0,0,1-3-3v-1a3,3,0,0,1,3-3h69a3,3,0,0,1,3,3v1a3,3,0,0,1-3,3Zm54-12a3,3,0,0,1-3-3v-20a3,3,0,0,1,3-3h1a3,3,0,0,1,3,3v20a3,3,0,0,1-3,3Zm-19,0a3,3,0,0,1-3-3v-20a3,3,0,0,1,3-3h1a3,3,0,0,1,3,3v20a3,3,0,0,1-3,3Zm-20,0a3,3,0,0,1-3-3v-20a3,3,0,0,1,3-3h1a3,3,0,0,1,3,3v20a3,3,0,0,1-3,3Zm-13.026-31a7,7,0,0,1-3.518-13.052l32.526-18.9a7,7,0,0,1,7.035,0l32.524,18.9a7,7,0,0,1-3.518,13.052Zm32.022-26.767-32.524,18.9a1,1,0,0,0,.5,1.865h65.05a1,1,0,0,0,.5-1.865l-32.526-18.9a1,1,0,0,0-.5-.136Z' transform='translate(-6700.037 -3903.448)' fill='#e8ac16'/></g></g></svg>"
+        },
+        "TAG_2": {
+          "TITLE":"Built for Climate",
+          "DESCRIPTION": "Anti-UV, heat-resistant, and <br> designed for desert conditions.",
+          "ICON": "<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' fill='none' stroke='#fbbf24' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='24' cy='24' r='8'/><path d='M24 4v4M24 40v4M4 24h4M40 24h4M8 8l3 3M37 37l3 3M8 40l3-3M37 11l3-3'/></svg>"
+        },
+        "TAG_3": {
+          "TITLE":"Championship-Grade",
+          "DESCRIPTION": "Trusted for tournaments, elite <br> clubs, and luxury resorts.",
+          "ICON": "<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' fill='none' stroke='#fbbf24' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='24' cy='16' r='8'/><path d='M18 22l-4 16 10-6 10 6-4-16'/></svg>"
+        },
+        "TAG_4": {
+          "TITLE":"Bespoke Design",
+          "DESCRIPTION": "Custom finishes that <br> complement Saudi architecture and lifestyle.",
+          "ICON": "<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' fill='none' stroke='#fbbf24' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M4 12l20-8 20 8-20 8-20-8z'/><path d='M4 24l20 8 20-8M4 36l20 8 20-8'/></svg>"
+        }
+      },
+      "TRUSTED_SAU": {
+        "TITLE":"Trusted by the World's Best",
+        "DESCRIPTION":"<p>We are the official court of the Hexagon Cup, where legends like Juan Lebron, Federico Chingotto, Martin Di Nenno, and Ariana Sanchez compete — alongside global icons including Leo Messi, Sergio Aguero, Eva Longoria, and Robert Lewandowski.</p><p>Selected by elite clubs, iconic events, and world-class tournaments — and trusted by celebrities, investors, and resorts worldwide — Portico Sport courts are the first choice for those who demand excellence in quality, design, and playing experience.</p>",
+        "TAG_1": {
+          "TITLE":"Official Court",
+          "DESCRIPTION": "Hexagon Cup & international tournaments",
+          "ICON": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='48' height='48' viewBox='0 0 103 101'><defs><clipPath id='clip-icone-orgao-publico'><rect width='103' height='101'/></clipPath></defs><g id='icone-orgao-publico' clip-path='url(#clip-icone-orgao-publico)'><g id='Grupo_28288' data-name='Grupo 28288' transform='translate(-7 11.455)'><path id='União_62' data-name='União 62' d='M6724.037,3980.448a3,3,0,0,1-3-3v-1a3,3,0,0,1,3-3h69a3,3,0,0,1,3,3v1a3,3,0,0,1-3,3Zm54-12a3,3,0,0,1-3-3v-20a3,3,0,0,1,3-3h1a3,3,0,0,1,3,3v20a3,3,0,0,1-3,3Zm-19,0a3,3,0,0,1-3-3v-20a3,3,0,0,1,3-3h1a3,3,0,0,1,3,3v20a3,3,0,0,1-3,3Zm-20,0a3,3,0,0,1-3-3v-20a3,3,0,0,1,3-3h1a3,3,0,0,1,3,3v20a3,3,0,0,1-3,3Zm-13.026-31a7,7,0,0,1-3.518-13.052l32.526-18.9a7,7,0,0,1,7.035,0l32.524,18.9a7,7,0,0,1-3.518,13.052Zm32.022-26.767-32.524,18.9a1,1,0,0,0,.5,1.865h65.05a1,1,0,0,0,.5-1.865l-32.526-18.9a1,1,0,0,0-.5-.136Z' transform='translate(-6700.037 -3903.448)' fill='#e8ac16'/></g></g></svg>"
+        },
+        "TAG_2": {
+          "TITLE":"Trusted by Icons",
+          "DESCRIPTION": "From Messi to Eva Longoria and Lewandowski",
+          "ICON": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' width='48' height='48'> <path d='M352.7,430.4v-38.7c0-42.7-34.6-77.3-77.3-77.3H120.7c-42.7,0-77.3,34.6-77.3,77.3v38.7' fill='none' stroke='#DE9E00' stroke-width='40' stroke-linecap='round' stroke-linejoin='round' /><circle cx='198' cy='159.7' r='77.3' fill='none' stroke='#DE9E00' stroke-width='40' stroke-linecap='round' stroke-linejoin='round' /><path d='M468.7,430.4v-38.7c0-35.2-23.9-66-58-74.8' fill='none' stroke='#DE9E00' stroke-width='40' stroke-linecap='round' stroke-linejoin='round' /><path d='M333.3,84.9c41.4,10.6,66.3,52.7,55.7,94.1c-7,27.4-28.4,48.7-55.7,55.7' fill='none' stroke='#DE9E00' stroke-width='40' stroke-linecap='round' stroke-linejoin='round' /></svg>"
+        },
+        "TAG_3": {
+          "TITLE":"Global Prestige",
+          "DESCRIPTION": "Elite clubs, investors, and luxury resorts worldwide",
+          "ICON": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='#fbbf24' stroke-width='2' class='w-10 h-10 text-yellow-500'><path stroke-linecap='round' stroke-linejoin='round' d='M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.957a1 1 0 00.95.69h4.15c.969 0 1.371 1.24.588 1.81l-3.36 2.44a1 1 0 00-.364 1.118l1.287 3.957c.3.921-.755 1.688-1.54 1.118l-3.36-2.44a1 1 0 00-1.175 0l-3.36 2.44c-.784.57-1.838-.197-1.539-1.118l1.287-3.957a1 1 0 00-.364-1.118L2.974 9.384c-.784-.57-.38-1.81.588-1.81h4.15a1 1 0 00.95-.69l1.287-3.957z'/></svg>"
+        }
+      },
+      "ELITE_SAU": {
+        "TITLE": "Elite Partnerships for Premium Padel",
+        "DESCRIPTION": "<p>Portico Sport partners with HEAD to deliver padel courts that set new benchmarks in performance, style, and durability.</p>",
+        "TAG_1": {
+          "TITLE":"Tournament Ready",
+          "DESCRIPTION": "Advanced surfaces, integrated LED lighting, and sustainable design solutions",
+          "ICON": "<svg width='48' height='48' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M7 4H17V8C17 8 16.5 9 14.5 9H9.5C7.5 9 7 8 7 8V4Z' stroke='#F8C22E' stroke-width='2' stroke-linejoin='round'fill='none'/><path d='M7 8H5C4.44772 8 4 8.44772 4 9V11C4 11.5523 4.44771 12 5 12H7' stroke='#F8C22E' stroke-width='2' stroke-linejoin='round' fill='none'/><path d='M17 8H19C19.5523 8 20 8.44772 20 9V11C20 11.5523 19.5523 12 19 12H17' stroke='#F8C22E' stroke-width='2' stroke-linejoin='round' fill='none'/><path d='M10 13H14V16C14 17.1046 13.1046 18 12 18C10.8954 18 10 17.1046 10 16V13Z' stroke='#F8C22E' stroke-width='2' stroke-linejoin='round' fill='none'/><path d='M9 18H15' stroke='#F8C22E' stroke-width='2' stroke-linecap='round'/></svg>"
+        },
+        "TAG_2": {
+          "TITLE":"Exclusive HEAD Package",
+          "DESCRIPTION": "Clubs gain access to HEAD products and accessories to enhance prestige and experience",
+          "ICON": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='48' height='48'><path d='M12.9,1.4l8,4c0.7,0.3,1.1,1,1.1,1.8v9.5c0,0.8-0.4,1.5-1.1,1.8l-8,4c-0.6,0.3-1.2,0.3-1.8,0l-8-4c-0.7-0.3-1.1-1-1.1-1.8V7.2c0-0.8,0.4-1.5,1.1-1.8l8-4C11.7,1.2,12.3,1.2,12.9,1.4z' fill='none' stroke='#FFC107' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' /><polyline points='2.3,6.2 12,11 21.7,6.2' fill='none' stroke='#FFC107' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' /><line x1='12' y1='22.8' x2='12' y2='11' fill='none' stroke='#FFC107' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' /><line x1='7' y1='3.5' x2='17' y2='8.5' fill='none' stroke='#FFC107' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' /></svg>"
+        },
+        "TAG_3": {
+          "TITLE":"Complete Experience",
+          "DESCRIPTION": "Together, Portico and HEAD deliver a full padel experience, attracting and retaining members.",
+          "ICON": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='#fbbf24' stroke-width='2' class='w-12 h-12 text-yellow-500'><path stroke-linecap='round' stroke-linejoin='round' d='M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.957a1 1 0 00.95.69h4.15c.969 0 1.371 1.24.588 1.81l-3.36 2.44a1 1 0 00-.364 1.118l1.287 3.957c.3.921-.755 1.688-1.54 1.118l-3.36-2.44a1 1 0 00-1.175 0l-3.36 2.44c-.784.57-1.838-.197-1.539-1.118l1.287-3.957a1 1 0 00-.364-1.118L2.974 9.384c-.784-.57-.38-1.81.588-1.81h4.15a1 1 0 00.95-.69l1.287-3.957z'/></svg>"
+        }
+      },
+      "CHOSE_SAU": {
+        "TITLE": "Why Choose Portico Sport in Saudi Arabia?",
+        "DESCRIPTION": "Portico Sport provides expert technical advice, financial support through agreements with leading institutions, and outstanding after-sales service, building long-term relationships based on trust and results.",
+        "TAG_1": {
+          "TITLE":"Engineered for Saudi Conditions",
+          "DESCRIPTION": "Anti-corrosion, UV- and heat- resistant courts — certified by international padel bodies and built to perform in extreme climates",
+          "ICON": "<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' fill='none' stroke='#fbbf24' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M3 21h42M6 21V9l18-6 18 6v12M10 21v18M38 21v18M2 39h44'/></svg>"
+        },
+        "TAG_2": {
+          "TITLE":"Turnkey Delivery & Fast Installation",
+          "DESCRIPTION": "From beachfront resorts in Jeddah to indoor courts in Riyadh, we deliver full-service construction with rapid lead times and local expertise",
+          "ICON": "<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' fill='none' stroke='#fbbf24' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='24' cy='24' r='8'/><path d='M24 4v4M24 40v4M4 24h4M40 24h4M8 8l3 3M37 37l3 3M8 40l3-3M37 11l3-3'/></svg>"
+        },
+        "TAG_3": {
+          "TITLE":"Tailored for Premium Venues",
+          "DESCRIPTION": "Custom branding, advanced lighting, and luxury finishes — designed for high-end resorts, private clubs, and exclusive real estate developments",
+          "ICON": "<svg width='48' height='48' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M20 2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2ZM7 7h2a1 1 0 1 1 0 2H7a1 1 0 1 1 0-2Zm0 4h2a1 1 0 1 1 0 2H7a1 1 0 1 1 0-2Zm0 4h2a1 1 0 1 1 0 2H7a1 1 0 1 1 0-2Zm5-8h2a1 1 0 1 1 0 2h-2a1 1 0 1 1 0-2Zm0 4h2a1 1 0 1 1 0 2h-2a1 1 0 1 1 0-2Zm0 4h2a1 1 0 1 1 0 2h-2a1 1 0 1 1 0-2Zm5-8h2a1 1 0 1 1 0 2h-2a1 1 0 1 1 0-2Zm0 4h2a1 1 0 1 1 0 2h-2a1 1 0 1 1 0-2Zm0 4h2a1 1 0 1 1 0 2h-2a1 1 0 1 1 0-2Z' fill='#FFB800'/></svg>"
+        },
+        "TAG_4": {
+          "TITLE":"Proven Global Experience",
+          "DESCRIPTION": "With 4,000+ installations worldwide and a growing presence across the Middle East, Portico Sport is the trusted partner for world-class padel courts",
+          "ICON": "<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' fill='none' stroke='#fbbf24' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M4 12l20-8 20 8-20 8-20-8z'/><path d='M4 24l20 8 20-8M4 36l20 8 20-8'/></svg>"
+        }
+      },
+      "COURTS_SECTION_SAU": {
+        "ID": "padel-courts",
+        "TITLE": "Why choose Portico Sport in Saudi Arabia?",
+        "DESCRIPTION":"As a global padel court supplier, Portico Sport is the preferred choice for those seeking excellence, speed, and distinction."
+      },
+      "BENTO_SECTION_SAU":{
+        "ID": "why-us",
+        "TITLE": "Unmatched quality, built for Saudi Arabia",
+        "POINT_1": {
+          "TITLE": "Unmatched quality, built for Saudi Arabia",
+          "DESCRIPTION": "Fully engineered courts, anti-corrosion, UV- and heat-resistant materials engineered to perform in high temperatures and dry climates. Certified by international padel bodies."
+        },
+        "POINT_2": {
+          "TITLE": "Trusted by the world's best",
+          "DESCRIPTION": "Official court of the HEXAGON CUP, featuring global legends like Juan Lebrón, Federico Chingotto, Martín Di Nenno, Ariana Sánchez or sports celebrities: Leo Messi, Agüero, Eva Longoria, and Lewandowski.<p>Chosen by royalty, elite investors, and luxury resorts from Barbados to Japan.</p>"
+        },
+        "POINT_3":{
+          "TITLE":"Turnkey construction & fast installation",
+          "DESCRIPTION":"From beachfront resorts in Jeddah to rooftop courts in Riyadh, we offer full-service padel court construction with short lead times and expert local support."
+        },
+        "POINT_4":{
+          "TITLE":"Fully tailored solutions for Saudi luxury",
+          "DESCRIPTION":"Designed for high-end real estate, 5-star resorts, and premium venues — with custom branding, lighting, finishes, and more."
+        },
+        "POINT_5":{
+          "TITLE":"Global padel court suppliers with proven results",
+          "DESCRIPTION":"Over 4,000 installations worldwide and growing projects across the Middle East"
+        },
+        "BUTTON": {
+          "TITLE":"Design your signature court in Saudi Arabi",
+          "LABEL": "Design your signature court in Saudi Arabi",
+          "URL": "/client-contact"
+        }
+      },
+      "CONTACT_SECTION_SAU": {
+        "ID":"contact",
+        "TITLE":"Ready to build your padel court in Saudi Arabia?",
+        "DESCRIPTION":"With over 4,000 courts installed and active projects worldwide, Portico Sport is your trusted padel court builder in Saudi Arabia.",
+        "SUBTITLE_1":"Contact our team today for a tailored consultation — and let’s build something extraordinary in Riyadh, Jeddah, or Dammam.",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        }
+      },
+      "IMAGES_SAU": [
+        {
+          "id": "slide-1",
+          "src": "/sau-court/carrusel.webp",
+          "alt": "Official padel court of Hexagon Cup"
+        },{
+          "id": "slide-2",
+          "src": "/sau-court/carrusel-1.webp",
+          "alt": "Official padel court of Hexagon Cup"
+        },{
+          "id": "slide-3",
+          "src": "/sau-court/carrusel-2.webp",
+          "alt": "Official padel court of Hexagon Cup"
+        },{
+          "id": "slide-4",
+          "src": "/sau-court/carrusel-3.webp",
+          "alt": "Official padel court of Hexagon Cup"
+        },{
+          "id": "slide-5",
+          "src": "/sau-court/carrusel-4.webp",
+          "alt": "Official padel court of Hexagon Cup"
+        },
+        {
+          "id": "slide-6",
+          "src": "/sau-court/carrusel-pista-indoor.webp",
+          "alt": "Official padel court of Hexagon Cup"
+        },
+        {
+          "id": "slide-7",
+          "src": "/sau-court/carrusel-pista-indoor-2.webp",
+          "alt": "Official padel court of Hexagon Cup"
+        },
+        {
+          "id": "slide-8",
+          "src": "/sau-court/carrusel-pista-indoor-3.webp",
+          "alt": "Official padel court of Hexagon Cup"
+        },{
+          "id": "slide-9",
+          "src": "/sau-court/Hexagon-Cup.webp",
+          "alt": "Official padel court of Hexagon Cup"
+        },{
+          "id": "slide-10",
+          "src": "/sau-court/Hexagon-Cup-Kun-1.webp",
+          "alt": "Official padel court of Hexagon Cup"
+        },{
+          "id": "slide-11",
+          "src": "/sau-court/Hexagon-Cup-iker.webp",
+          "alt": "Official padel court of Hexagon Cup"
+        },{
+          "id": "slide-12",
+          "src": "/sau-court/Hexagon-Cup-Eva-1.webp",
+          "alt": "Official padel court of Hexagon Cup"
+        }, {
+          "id": "slide-13",
+          "src": "/sau-court/Hexagon-Cup-Eva-2.webp",
+          "alt": "Official padel court of Hexagon Cup"
+        }
+      ]
+    },
     "OUR_COMPANY":{
            "ID":"our-company",
       "SEO_TITLE": "Portico Sport Company - Leader in padel courts & canopies design and manufacture",
@@ -4209,27 +4330,6 @@
         },{
           "id": "slide-4",
           "src": "/partners/hexagon/Hexagon-04.webp",
-          "alt": "Official padel court of Hexagon Cup"
-        }],
-        "IMAGES_SAU": [{
-          "id": "slide-1",
-          "src": "/sau-court/Hexagon-Cup.webp",
-          "alt": "Official padel court of Hexagon Cup"
-        },{
-          "id": "slide-2",
-          "src": "/sau-court/Hexagon-Cup-Kun-1.webp",
-          "alt": "Official padel court of Hexagon Cup"
-        },{
-          "id": "slide-3",
-          "src": "/sau-court/Hexagon-Cup-iker.webp",
-          "alt": "Official padel court of Hexagon Cup"
-        },{
-          "id": "slide-4",
-          "src": "/sau-court/Hexagon-Cup-Eva-1.webp",
-          "alt": "Official padel court of Hexagon Cup"
-        }, {
-          "id": "slide-5",
-          "src": "/sau-court/Hexagon-Cup-Eva-2.webp",
           "alt": "Official padel court of Hexagon Cup"
         }],
         "BUTTON":
