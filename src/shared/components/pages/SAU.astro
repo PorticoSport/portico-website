@@ -23,7 +23,49 @@ const i18n = getI18N({ language })
 const currentLocale = getCurrentLocale({ language })
 const SliderPhotos: Photo[] = [
   {
-    src: "Hexagon-Cup-Eva-2.webp",
+    src: "carrusel.webp",
+    alt: "Barbados padel court",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "carrusel-1.webp",
+    alt: "Barbados padel court",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "carrusel-2.webp",
+    alt: "Barbados padel court",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "carrusel-3.webp",
+    alt: "Barbados padel court",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "carrusel-4.webp",
+    alt: "Barbados padel court",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "carrusel-pista-indoor.webp",
+    alt: "Barbados padel court",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "carrusel-pista-indoor-2.webp",
+    alt: "Barbados padel court",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "carrusel-pista-indoor-3.webp",
     alt: "Barbados padel court",
     width: 600,
     height: 400
@@ -61,255 +103,310 @@ const SliderPhotos: Photo[] = [
 ];
 
 ---
-<Layout title={i18n.PAGES.HOME.SEO_TITLE_SAU} 
-description={i18n.PAGES.HOME.SEO_DESCRIPTION_SAU} 
+<Layout title={i18n.PAGES.SAU.SEO_TITLE} 
+description={i18n.PAGES.SAU.SEO_DESCRIPTION} 
 currentLocale={currentLocale} 
 language={language}
-bgImage="/sau-court/thumbnails/Club-de-padel.webp"
-bgClass="brightness-50"
+bgImage="/sau-court/thumbnails/portada.webp"
+bgClass="brightness-50 md:object-[center_-100px] md:object-cover"
 >
     
     <main class="flex flex-col gradient-bg relative">
       <div
-      class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
-    >
-      <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.HOME.TITLE_SAU} responsive />
-      <Typography tag="p" className="uppercase mb-6 font-extrabold" text={i18n.PAGES.HOME.SUBTITLE_SAU} responsive />
-      <Typography tag="p" className="uppercase mb-6 font-extrabold" text={i18n.PAGES.HOME.SLOGAN_SAU} responsive />
-    </div>
-    <div class="bg-main relative bg-background">
+        class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
+      >
+        <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.SAU.TITLE} responsive />
+        <Typography tag="h2" className="uppercase mb-6 font-black text-xl md:text-3xl lg:text-5xl" text={i18n.PAGES.SAU.SUBTITLE} responsive />
+        <Typography tag="div" className="uppercase mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.SAU.DESCRIPTION} responsive />
+        <Button size="sm" class="bg-yellow-600" color="black"
+          url={i18n.PAGES.SAU.BUTTON.URL} 
+          title={i18n.PAGES.SAU.BUTTON.TITLE} target="_self">
+          {i18n.PAGES.SAU.BUTTON.LABEL}
+        </Button>
+      </div>
+      <div class="bg-main relative bg-background">
         
-      <div class="intro-section flex flex-wrap w-full h-auto">
-        <div class="m-2 md:w-1/2 text-center xs:m-auto">
-          <Typography tag="h2" className="font-bold mb-10" text={i18n.PAGES.HOME.INTRO_SECTION_SAU.TITLE} />
-          <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.HOME.INTRO_SECTION_SAU.DESCRIPTION} />
-          <div class="text-center mx-auto ">
-            <Button size="sm" class="" url={i18n.PAGES.HOME.INTRO_SECTION_SAU.BUTTON.URL} title={i18n.PAGES.HOME.INTRO_SECTION_SAU.BUTTON.TITLE} target="_self">
-            {i18n.PAGES.HOME.INTRO_SECTION_SAU.BUTTON.LABEL}
-            </Button>
-          </div> 
-        </div>
-        <div class="w-full md:w-1/2 md:m-auto">
-          <img
-            src="/sau-court/thumbnails/whater-padel.webp"
-            alt="Barbados Padel"
-            class="img-structure w-full object-cover scale-[90%]"
-          />
-        </div>
-      </div>
+        <div class="intro-section flex flex-wrap w-full h-auto">
+          <div class="flex flex-col md:flex-row w-full items-center">
+            <div class="m-2 md:w-1/2 text-center xs:m-auto">
+              <Typography tag="h2" className="font-bold mb-10" text={i18n.PAGES.SAU.INTRO_SECTION_SAU.TITLE} />
+              <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.SAU.INTRO_SECTION_SAU.DESCRIPTION} />
+            </div>
+            <div class="w-full md:w-1/2 md:m-auto pb-6">
+              <img
+                src="/sau-court/thumbnails/modulo-1.webp"
+                alt="Barbados Padel"
+                class="img-structure w-full object-cover scale-[90%]"
+              />
+            </div>
+          </div>
+          <div class="flex flex-col md:flex-row w-full items-stretch bg-slate-100 text-black 
+            pt-20 pb-20 px-6 text-center justify-evenly gap-6">
 
-      <div class="w-full text-center mt-20">
-        <Typography tag="h2" className="font-bold mb-10" text={i18n.PAGES.HOME.TRUSTED_SAU.TITLE} />
-        <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.HOME.TRUSTED_SAU.DESCRIPTION} />
-      </div>
+            <div class="bg-slate-200 pt-10 pb-10 flex-1 rounded shadow-lg shadow-black">
+              <div class="ml-6 mr-6 flex justify-center pb-4" set:html={i18n.PAGES.SAU.TAG_SAU.TAG_1.ICON}></div>
+              <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.SAU.TAG_SAU.TAG_1.TITLE} />
+              <Typography tag="p" className="ml-6 mr-6" text={i18n.PAGES.SAU.TAG_SAU.TAG_1.DESCRIPTION} />
+            </div>
+
+            <div class="bg-slate-200 pt-10 pb-10 flex-1 rounded shadow-lg shadow-black">
+              <div class="ml-6 mr-6 flex justify-center pb-4" set:html={i18n.PAGES.SAU.TAG_SAU.TAG_2.ICON}></div>
+              <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.SAU.TAG_SAU.TAG_2.TITLE} />
+              <Typography tag="p" className="ml-6 mr-6" text={i18n.PAGES.SAU.TAG_SAU.TAG_2.DESCRIPTION} />
+            </div>
+
+            <div class="bg-slate-200 pt-10 pb-10 flex-1 rounded shadow-lg shadow-black">
+              <div class="ml-6 mr-6 flex justify-center pb-4" set:html={i18n.PAGES.SAU.TAG_SAU.TAG_3.ICON}></div>
+              <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.SAU.TAG_SAU.TAG_3.TITLE} />
+              <Typography tag="p" className="ml-6 mr-6" text={i18n.PAGES.SAU.TAG_SAU.TAG_3.DESCRIPTION} />
+            </div>
+
+            <div class="bg-slate-200 pt-10 pb-10 flex-1 rounded shadow-lg shadow-black">
+              <div class="ml-6 mr-6 flex justify-center pb-4" set:html={i18n.PAGES.SAU.TAG_SAU.TAG_4.ICON}></div>
+              <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.SAU.TAG_SAU.TAG_4.TITLE} />
+              <Typography tag="p" className="ml-6 mr-6" text={i18n.PAGES.SAU.TAG_SAU.TAG_4.DESCRIPTION} />
+            </div>
+
+          </div>
+        </div>
+
+        <div class="flex flex-col w-full pt-10 pb-10 px-6 text-center gap-10">
+            <div class="w-full text-center mt-20">
+              <Typography tag="h2" type="secondary" className="font-bold mb-10" text={i18n.PAGES.SAU.TRUSTED_SAU.TITLE} />
+              <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.DESCRIPTION} />
+            </div>
+            <div class="flex flex-col md:flex-row w-full items-stretch pt-10 pb-10 px-6 text-center justify-evenly gap-6">
+              <div class="pt-10 pb-10 flex-1 rounded shadow-lg shadow-black bg-gray-800">
+                <div class="ml-6 mr-6 flex justify-center pb-4" set:html={i18n.PAGES.SAU.TRUSTED_SAU.TAG_1.ICON}></div>
+                  <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.TAG_1.TITLE} />
+                  <Typography tag="p" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.TAG_1.DESCRIPTION} />
+              </div>
+
+              <div class="pt-10 pb-10 flex-1 rounded shadow-lg shadow-black bg-gray-800">
+                <div class="ml-6 mr-6 flex justify-center pb-4" set:html={i18n.PAGES.SAU.TRUSTED_SAU.TAG_2.ICON}></div>
+                  <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.TAG_2.TITLE} />
+                  <Typography tag="p" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.TAG_2.DESCRIPTION} />
+              </div>
+
+              <div class="pt-10 pb-10 flex-1 rounded shadow-lg shadow-black bg-gray-800">
+                <div class="ml-6 mr-6 flex justify-center pb-4" set:html={i18n.PAGES.SAU.TRUSTED_SAU.TAG_3.ICON}></div>
+                <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.TAG_3.TITLE} />
+                <Typography tag="p" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.TAG_3.DESCRIPTION} />
+              </div>
+            </div>
+        </div>
 
       <!-- CARRUSEL -->
         
-      <div class="m-10">
-        <SliderProjects 
-          id="slider-sau"
-          photos={SliderPhotos}
-          path="sau-court"
-          language={language}/> 
-      </div>
+        <div class="bg-slate-100">
+          <SliderProjects 
+            id="slider-sau"
+            photos={SliderPhotos}
+            path="sau-court"
+            language={language}/> 
+        </div>
 
-    <div class="w-full justify-center">
-        <Typography tag="h2" className="font-bold mb-10 text-center" text={i18n.PAGES.HOME.ELITE_SAU.TITLE} />
-        <Typography tag="div" className="ml-12 mr-12 text-center" text={i18n.PAGES.HOME.ELITE_SAU.DESCRIPTION} />
-        <div class="w-full flex justify-center">
-          <div class="flex flex-col sm:flex-row justify-center items-center gap-7 w-full sm:w-auto">
-            <a href="https://www.head.com/" class="mt-6 sm:mt-12">
-              <img src="/Head-logo.png" class="invert w-40 sm:w-64 object-contain" />
-            </a>
-            <a href="/partners" class="mt-6 sm:mt-12">
-              <img src="/logotipo-portico-sport-redondo-blanco.webp" class="w-32 sm:w-36 object-contain" />
-            </a>
+        <div class="flex flex-col w-full pt-10 pb-10 px-6 text-center gap-10">
+          <div>
+            <Typography tag="h2" type="secondary" className="font-bold mb-4" text={i18n.PAGES.SAU.ELITE_SAU.TITLE} />
+            <Typography tag="div" className="mx-6" text={i18n.PAGES.SAU.ELITE_SAU.DESCRIPTION} />
+          </div>
+          <div class="w-full flex justify-center mt-[-50px]">
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-10 w-full sm:w-auto">
+              <a href="https://www.head.com/" class="mt-6 sm:mt-12">
+                <img src="/Head-logo.png" class="invert w-40 sm:w-64 object-contain" />
+              </a>
+              <a href="/partners" class="mt-6 sm:mt-12">
+                <img src="/logotipo-portico-sport-redondo-blanco.webp" class="w-32 sm:w-36 object-contain" />
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-col md:flex-row justify-center gap-6">
+            <div class="pt-10 pb-10 flex-1 rounded shadow-lg shadow-black bg-gray-800">
+              <div class="flex justify-center pb-4" set:html={i18n.PAGES.SAU.ELITE_SAU.TAG_1.ICON}></div>
+              <Typography tag="div" className="mx-6" text={i18n.PAGES.SAU.ELITE_SAU.TAG_1.TITLE} />
+              <Typography tag="p" className="mx-6" text={i18n.PAGES.SAU.ELITE_SAU.TAG_1.DESCRIPTION} />
+            </div>
+
+            <div class="pt-10 pb-10 flex-1 rounded shadow-lg shadow-black bg-gray-800">
+              <div class="flex justify-center pb-4" set:html={i18n.PAGES.SAU.ELITE_SAU.TAG_2.ICON}></div>
+              <Typography tag="div" className="mx-6" text={i18n.PAGES.SAU.ELITE_SAU.TAG_2.TITLE} />
+              <Typography tag="p" className="mx-6" text={i18n.PAGES.SAU.ELITE_SAU.TAG_2.DESCRIPTION} />
+            </div>
+
+            <div class="pt-10 pb-10 flex-1 rounded shadow-lg shadow-black bg-gray-800">
+              <div class="flex justify-center pb-4" set:html={i18n.PAGES.SAU.ELITE_SAU.TAG_3.ICON}></div>
+              <Typography tag="div" className="mx-6" text={i18n.PAGES.SAU.ELITE_SAU.TAG_3.TITLE} />
+              <Typography tag="p" className="mx-6" text={i18n.PAGES.SAU.ELITE_SAU.TAG_3.DESCRIPTION} />
+            </div>
           </div>
         </div>
-        <div class="flex justify-center mt-8">
-          <Button size="sm" class="" 
-            url={i18n.PAGES.HOME.ELITE_SAU.BUTTON.URL} 
-            title={i18n.PAGES.HOME.ELITE_SAU.BUTTON.TITLE} target="_self">
-            {i18n.PAGES.HOME.ELITE_SAU.BUTTON.LABEL}
-          </Button>
-        </div>
-      </div>
-  
-    
-    <div class="flex flex-col justify-center m-auto text-center mt-10 mb-10 ">
-      
-        <Typography 
-          tag="h2" 
-          className="mb-6 font-bold" 
-          text={i18n.PAGES.HOME.COURTS_SECTION_SAU.TITLE} 
-        />
-        <Typography 
-          tag="div" 
-          className="mb-8" 
-          text={i18n.PAGES.HOME.COURTS_SECTION_SAU.DESCRIPTION} 
-        />
-      
-      
-        <div class="flex flex-col items-center gap-12 justify-center mt-14">
-  
-          <div class="md:w-full md:flex md:justify-center md:gap-10">
-            <article class="flex flex-col justify-center items-center text-center max-w-lg m-5 bg-blue-500/30 p-5">
-              <p class="text-primary font-bold uppercase">
-                {i18n.PAGES.HOME.BENTO_SECTION_SAU.POINT_1.TITLE}
-              </p>
-            
-              <Typography 
-                tag="div" 
-                className="mt-2" 
-                text={i18n.PAGES.HOME.BENTO_SECTION_SAU.POINT_1.DESCRIPTION} 
-              />
-            </article>
         
-            <article class="flex flex-col justify-center items-center text-center max-w-lg m-5 bg-blue-500/30 p-5">
-              <p class="text-primary font-bold uppercase">
-                {i18n.PAGES.HOME.BENTO_SECTION_SAU.POINT_3.TITLE} 
-              </p>
-            
-              <Typography 
-                tag="div" 
-                className="mt-2" 
-                text={i18n.PAGES.HOME.BENTO_SECTION_SAU.POINT_3.DESCRIPTION} 
-              />
-            </article>
+        <div class="flex flex-col w-full pt-10 pb-10 px-6 text-center gap-10 bg-slate-100 text-black">
+            <div class="w-full text-center mt-10">
+              <Typography tag="h2" className="font-bold" text={i18n.PAGES.SAU.CHOSE_SAU.TITLE} />
+            </div>
+            <div class="flex flex-col md:flex-row w-full items-stretch pt-10 pb-5 px-6 text-center justify-evenly gap-6">
+              <div class="pt-8 pb-8 flex-1 rounded shadow-lg shadow-black bg-slate-200">
+                <div class="ml-6 mr-6 flex justify-center pb-4" set:html={i18n.PAGES.SAU.CHOSE_SAU.TAG_1.ICON}></div>
+                  <Typography tag="div" className="ml-6 mr-6 pb-4" text={i18n.PAGES.SAU.CHOSE_SAU.TAG_1.TITLE} />
+                  <Typography tag="p" className="ml-6 mr-6" text={i18n.PAGES.SAU.CHOSE_SAU.TAG_1.DESCRIPTION} />
+              </div>
+
+              <div class="pt-8 pb-8  flex-1 rounded shadow-lg shadow-black bg-slate-200">
+                <div class="ml-6 mr-6 flex justify-center pb-4" set:html={i18n.PAGES.SAU.CHOSE_SAU.TAG_2.ICON}></div>
+                  <Typography tag="div" className="ml-6 mr-6 pb-4" text={i18n.PAGES.SAU.CHOSE_SAU.TAG_2.TITLE} />
+                  <Typography tag="p" className="ml-6 mr-6" text={i18n.PAGES.SAU.CHOSE_SAU.TAG_2.DESCRIPTION} />
+              </div>
+
+              <div class="pt-8 pb-8  flex-1 rounded shadow-lg shadow-black bg-slate-200">
+                <div class="ml-6 mr-6 flex justify-center pb-4" set:html={i18n.PAGES.SAU.CHOSE_SAU.TAG_3.ICON}></div>
+                <Typography tag="div" className="ml-6 mr-6 pb-4" text={i18n.PAGES.SAU.CHOSE_SAU.TAG_3.TITLE} />
+                <Typography tag="p" className="ml-6 mr-6" text={i18n.PAGES.SAU.CHOSE_SAU.TAG_3.DESCRIPTION} />
+              </div>
+
+              <div class="pt-8 pb-8  flex-1 rounded shadow-lg shadow-black bg-slate-200">
+                <div class="ml-6 mr-6 flex justify-center pb-4" set:html={i18n.PAGES.SAU.CHOSE_SAU.TAG_4.ICON}></div>
+                <Typography tag="div" className="ml-6 mr-6 pb-4" text={i18n.PAGES.SAU.CHOSE_SAU.TAG_4.TITLE} />
+                <Typography tag="p" className="ml-6 mr-6" text={i18n.PAGES.SAU.CHOSE_SAU.TAG_4.DESCRIPTION} />
+              </div>
+            </div>
+            <div class="w-full text-center">
+              <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.SAU.CHOSE_SAU.DESCRIPTION} />
+            </div>
+        </div>
+        
+        <Section >
+          <div class="grid lg:grid-cols-10 auto-rows-[25rem] mb-8 gap-4">
+            <BentoItem class="col-span-10 lg:col-span-4">
+              <div
+                slot="image"
+                class="background transition-scale absolute bottom-0 left-0 top-0
+                -z-10 h-full w-full 
+                bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+                data-src="/sau-court/thumbnails/galeria.webp">
+              </div>
+            </BentoItem>
+            <BentoItem class="col-span-10 lg:col-span-6">
+              <div
+                slot="image"
+                class="background transition-scale absolute bottom-0 left-0 top-0
+                -z-10 h-full w-full 
+                bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+                data-src="/sau-court/thumbnails/galeria-2.webp">
+              </div>
+            </BentoItem>
+            <BentoItem class="col-span-10 lg:col-span-6">
+              <div
+                slot="image"
+                class="background transition-scale absolute bottom-0 left-0 top-0
+                -z-10 h-full w-full 
+                bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+                data-src="/sau-court/thumbnails/galeria-4.webp">
+              </div>
+            </BentoItem>
+            <BentoItem class="col-span-10 lg:col-span-4">
+              <div
+                slot="image"
+                class="background transition-scale absolute bottom-0 left-0 top-0
+                -z-10 h-full w-full 
+                bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+                data-src="/sau-court/thumbnails/galeria-3.webp">
+              </div>
+            </BentoItem>
+            <BentoItem class="col-span-10 lg:col-span-4">
+              <div
+                slot="image"
+                class="background transition-scale absolute bottom-0 left-0 top-0
+                -z-10 h-full w-full 
+                bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+                data-src="/sau-court/thumbnails/galeria-5.webp">
+              </div>
+            </BentoItem>
+            <BentoItem class="col-span-10 lg:col-span-6">
+              <div
+                slot="image"
+                class="background transition-scale absolute bottom-0 left-0 top-0
+                -z-10 h-full w-full 
+                bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+                data-src="/sau-court/thumbnails/galeria-7.webp">
+              </div>
+            </BentoItem>
+            <BentoItem class="col-span-10 lg:col-span-4">
+              <div
+                slot="image"
+                class="background transition-scale absolute bottom-0 left-0 top-0
+                -z-10 h-full w-full 
+                bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+                data-src="/sau-court/thumbnails/Los-Naranjos-1.webp">
+              </div>
+            </BentoItem>
+            <BentoItem class="col-span-10 lg:col-span-6">
+              <div
+                slot="image"
+                class="background transition-scale absolute bottom-0 left-0 top-0
+                -z-10 h-full w-full 
+                bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+                data-src="/sau-court/thumbnails/Los-Naranjos-2.webp">
+              </div>
+            </BentoItem>
+            <BentoItem class="col-span-10 lg:col-span-6">
+              <div
+                slot="image"
+                class="background transition-scale absolute bottom-0 left-0 top-0
+                -z-10 h-full w-full 
+                bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+                data-src="/sau-court/thumbnails/Domaine-Dessendieras-3.webp">
+              </div>
+            </BentoItem>
+            <BentoItem class="col-span-10 lg:col-span-4">
+              <div
+                slot="image"
+                class="background transition-scale absolute bottom-0 left-0 top-0
+                -z-10 h-full w-full 
+                bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+                data-src="/sau-court/thumbnails/Domaine-Dessendieras-Chateaux.webp">
+              </div>
+            </BentoItem>
+            <BentoItem class="col-span-10 lg:col-span-4">
+              <div
+                slot="image"
+                class="background transition-scale absolute bottom-0 left-0 top-0
+                -z-10 h-full w-full 
+                bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+                data-src="/sau-court/thumbnails/field-padel.webp">
+              </div>
+            </BentoItem>
+            <BentoItem class="col-span-10 lg:col-span-6">
+              <div
+                slot="image"
+                class="background transition-scale absolute bottom-0 left-0 top-0
+                -z-10 h-full w-full 
+                bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+                data-src="/sau-court/thumbnails/evening-padel.webp">
+              </div>
+            </BentoItem>
+            <BentoItem class="col-span-10 lg:col-span-10">
+              <div
+                slot="image"
+                class="background transition-scale absolute bottom-0 left-0 top-0
+                -z-10 h-full w-full 
+                bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+                data-src="/sau-court/thumbnails/padel-center.webp">
+              </div>
+            </BentoItem>
           </div>
-        
-          <div class="md:w-full md:flex md:justify-center md:gap-10">
-            <article class="flex flex-col justify-center items-center text-center max-w-lg m-5 bg-blue-500/30 p-5">
-              <p class="text-primary font-bold uppercase">
-                {i18n.PAGES.HOME.BENTO_SECTION_SAU.POINT_4.DESCRIPTION} 
-              </p>
-            
-              <Typography 
-                tag="div" 
-                className="mt-2" 
-                text={i18n.PAGES.HOME.BENTO_SECTION_SAU.POINT_4.DESCRIPTION} 
-              />
-            </article>
+        </Section>
 
-            <article class="flex flex-col justify-center items-center text-center max-w-lg m-5 bg-blue-500/30 p-5">
-            <p class="text-primary font-bold uppercase">
-              {i18n.PAGES.HOME.BENTO_SECTION_SAU.POINT_5.DESCRIPTION} 
-            </p>
-            
-            <Typography 
-              tag="div" 
-              className="mt-2" 
-              text={i18n.PAGES.HOME.BENTO_SECTION_SAU.POINT_5.DESCRIPTION} 
-            />
-          </article>
-          </div>
-
-
-          <Button size="sm" class="" url={i18n.PAGES.HOME.BENTO_SECTION_SAU.BUTTON.URL} title={i18n.PAGES.HOME.BENTO_SECTION_SAU.BUTTON.TITLE} target="_self"> {i18n.PAGES.HOME.BENTO_SECTION_SAU.BUTTON.LABEL}
-          </Button>
-        </div>
-
-    <Typography tag="h2" className="text-center font-bold mt-16 mb-10" text={i18n.PAGES.HOME.COMPLEMENTS_SECTION_SAU.TITLE} />
-    <Typography tag="div" className="text-center mb-10 m-auto w-[85%] " text={i18n.PAGES.HOME.COMPLEMENTS_SECTION_SAU.SUBSUBTITLE} />
-    
-    <div class="max-w-7xl mx-auto p-16">
-      <div class="grid grid-cols-1 md:grid-cols-2 text-black gap-x-6 gap-y-6">
-        <div class="bg-slate-100 p-10 rounded-md">
-          <p class="text-center mx-auto"><span class="mr-3">✅</span>{i18n.PAGES.HOME.COMPLEMENTS_SECTION_SAU.ITEMS.ITEM_1.DESCRIPTION}</p>
-          <p class="text-center mx-auto"><span class="mr-3">✅</span>{i18n.PAGES.HOME.COMPLEMENTS_SECTION_SAU.ITEMS.ITEM_2.DESCRIPTION}</p>
-        </div>
-        <div class="bg-slate-100 p-10 text-black rounded-md">
-          <p class="text-center mx-auto"><span class="mr-3">✅</span>{i18n.PAGES.HOME.COMPLEMENTS_SECTION_SAU.ITEMS.ITEM_3.DESCRIPTION}</p>
-          <p class="text-center mx-auto"><span class="mr-3">✅</span>{i18n.PAGES.HOME.COMPLEMENTS_SECTION_SAU.ITEMS.ITEM_4.DESCRIPTION}</p>
-        </div>  
-      </div>
-      <Typography className="text-center mt-4" text={i18n.PAGES.HOME.COMPLEMENTS_SECTION_SAU.DESCRIPTION} />
-    </div>
-    
-        
- <Section >
- <div class="grid lg:grid-cols-10 auto-rows-[15rem] mb-8  gap-4">
-   <BentoItem class="col-span-10 lg:col-span-4">
-     <div
-       slot="image"
-       class="background transition-scale absolute bottom-0 left-0 top-0
-       -z-10 h-full w-full 
-       bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
-       data-src="/sau-court/thumbnails/Los-Naranjos-1.webp">
-     </div>
-   </BentoItem>
-   <BentoItem class="col-span-10 lg:col-span-6">
-     <div
-       slot="image"
-       class="background transition-scale absolute bottom-0 left-0 top-0
-   -z-10 h-full w-full 
-   bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
-       data-src="/sau-court/thumbnails/Los-Naranjos-2.webp"
-     >
-     </div>
-   </BentoItem>
-   <BentoItem class="col-span-10 lg:col-span-6">
-     <div
-       slot="image"
-       class="background transition-scale absolute bottom-0 left-0 top-0
-       -z-10 h-full w-full 
-       bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
-       data-src="/sau-court/thumbnails/Domaine-Dessendieras-3.webp"
-     >
-     </div>
-   </BentoItem>
-   <BentoItem class="col-span-10 lg:col-span-4">
-     <div
-       slot="image"
-       class="background transition-scale absolute bottom-0 left-0 top-0
-       -z-10 h-full w-full 
-       bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
-       data-src="/sau-court/thumbnails/Domaine-Dessendieras-Chateaux.webp"
-     >
-     </div>
-   </BentoItem>
-   <BentoItem class="col-span-10 lg:col-span-4">
-     <div
-       slot="image"
-       class="background transition-scale absolute bottom-0 left-0 top-0
-       -z-10 h-full w-full 
-       bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
-       data-src="/sau-court/thumbnails/field-padel.webp">
-     </div>
-   </BentoItem>
-   <BentoItem class="col-span-10 lg:col-span-6">
-     <div
-       slot="image"
-       class="background transition-scale absolute bottom-0 left-0 top-0
-   -z-10 h-full w-full 
-   bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
-       data-src="/sau-court/thumbnails/evening-padel.webp"
-     >
-     </div>
-   </BentoItem>
-   <BentoItem class="col-span-10 lg:col-span-10 h-[400px]">
-     <div
-       slot="image"
-       class="background transition-scale absolute bottom-0 left-0 top-0
-   -z-10 h-full w-full 
-   bg-cover bg-center bg-no-repeat bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
-       data-src="/sau-court/thumbnails/padel-center.webp"
-     >
-     </div>
-   </BentoItem>
-</div>
-
-</Section>
-
-  <Typography tag="h2" className="text-center font-bold mt-16 mb-10" text={i18n.PAGES.SECTION_AE.CONTACT_SECTION_SAU.TITLE} />
-  <Typography tag="div" className="text-center mb-10 m-auto w-[85%] " text={i18n.PAGES.SECTION_AE.CONTACT_SECTION_SAU.DESCRIPTION} />
-  <Typography tag="div" className="text-center mb-10 m-auto w-[85%] " text={i18n.PAGES.SECTION_AE.CONTACT_SECTION_SAU.SUBTITLE_1} />
+  <Typography tag="h2" className="text-center font-bold mt-20 mb-10" text={i18n.PAGES.SAU.CONTACT_SECTION_SAU.TITLE} />
+  <Typography tag="div" className="text-center mb-10 m-auto w-[85%] " text={i18n.PAGES.SAU.CONTACT_SECTION_SAU.DESCRIPTION} />
+  <Typography tag="div" className="text-center mb-10 m-auto w-[85%] " text={i18n.PAGES.SAU.CONTACT_SECTION_SAU.SUBTITLE_1} />
      
           <ContactSectionEs language={language} 
 
-          button_text={i18n.PAGES.SECTION_AE.CONTACT_SECTION_SAU.BUTTON.LABEL}
-          button_url={i18n.PAGES.SECTION_AE.CONTACT_SECTION_SAU.BUTTON.URL}
-          button_title={i18n.PAGES.SECTION_AE.CONTACT_SECTION_SAU.BUTTON.TITLE}/>
+          button_text={i18n.PAGES.SAU.CONTACT_SECTION_SAU.BUTTON.LABEL}
+          button_url={i18n.PAGES.SAU.CONTACT_SECTION_SAU.BUTTON.URL}
+          button_title={i18n.PAGES.SAU.CONTACT_SECTION_SAU.BUTTON.TITLE}/>
         
           
         </div>
