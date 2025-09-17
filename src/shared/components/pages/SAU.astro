@@ -29,8 +29,20 @@ const SliderPhotos: Photo[] = [
     height: 400
   },
   {
+    src: "Hexagon-Cup-Kun-1.webp",
+    alt: "Los Naranjos 1",
+    width: 600,
+    height: 400
+  },
+  {
     src: "carrusel-1.webp",
     alt: "Barbados padel court",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "Hexagon-Cup-Iker.webp",
+    alt: "Domaine Dessendieras",
     width: 600,
     height: 400
   },
@@ -41,14 +53,32 @@ const SliderPhotos: Photo[] = [
     height: 400
   },
   {
+    src: "Hexagon-Cup-Jesus.webp",
+    alt: "Domaine Dessendieras",
+    width: 600,
+    height: 400
+  },
+  {
     src: "carrusel-3.webp",
     alt: "Barbados padel court",
     width: 600,
     height: 400
   },
   {
+    src: "Hexagon-Cup-Eva-1.webp",
+    alt: "Domaine Dessendieras",
+    width: 600,
+    height: 400
+  },
+  {
     src: "carrusel-4.webp",
     alt: "Barbados padel court",
+    width: 600,
+    height: 400
+  },
+  {
+    src: "Hexagon-Cup-Kun-2.webp",
+    alt: "Domaine Dessendieras",
     width: 600,
     height: 400
   },
@@ -67,36 +97,6 @@ const SliderPhotos: Photo[] = [
   {
     src: "carrusel-pista-indoor-3.webp",
     alt: "Barbados padel court",
-    width: 600,
-    height: 400
-  },
-  {
-    src: "Hexagon-Cup-Kun-1.webp",
-    alt: "Los Naranjos 1",
-    width: 600,
-    height: 400
-  },
-  {
-    src: "Hexagon-Cup-Iker.webp",
-    alt: "Domaine Dessendieras",
-    width: 600,
-    height: 400
-  },
-  {
-    src: "Hexagon-Cup-Jesus.webp",
-    alt: "Domaine Dessendieras",
-    width: 600,
-    height: 400
-  },
-  {
-    src: "Hexagon-Cup-Eva-1.webp",
-    alt: "Domaine Dessendieras",
-    width: 600,
-    height: 400
-  },
-  {
-    src: "Hexagon-Cup-Kun-2.webp",
-    alt: "Domaine Dessendieras",
     width: 600,
     height: 400
   }
@@ -118,19 +118,19 @@ bgClass="brightness-50 md:object-[center_-100px] md:object-cover"
         <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.SAU.TITLE} responsive />
         <Typography tag="h2" className="uppercase mb-6 font-black text-xl md:text-3xl lg:text-5xl" text={i18n.PAGES.SAU.SUBTITLE} responsive />
         <Typography tag="div" className="uppercase mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.SAU.DESCRIPTION} responsive />
-        <Button size="sm" class="bg-yellow-600" color="black"
-          url={i18n.PAGES.SAU.BUTTON.URL} 
-          title={i18n.PAGES.SAU.BUTTON.TITLE} target="_self">
-          {i18n.PAGES.SAU.BUTTON.LABEL}
-        </Button>
       </div>
       <div class="bg-main relative bg-background">
         
         <div class="intro-section flex flex-wrap w-full h-auto">
-          <div class="flex flex-col md:flex-row w-full items-center">
+          <div class="flex flex-col md:flex-row w-full items-center pb-10">
             <div class="m-2 md:w-1/2 text-center xs:m-auto">
               <Typography tag="h2" className="font-bold mb-10" text={i18n.PAGES.SAU.INTRO_SECTION_SAU.TITLE} />
-              <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.SAU.INTRO_SECTION_SAU.DESCRIPTION} />
+              <Typography tag="div" className="ml-6 mr-6 mb-10" text={i18n.PAGES.SAU.INTRO_SECTION_SAU.DESCRIPTION} />
+              <Button size="sm" class="bg-yellow-600" color="black"
+                url={i18n.PAGES.SAU.INTRO_SECTION_SAU.BUTTON.URL} 
+                title={i18n.PAGES.SAU.INTRO_SECTION_SAU.BUTTON.TITLE} target="_self">
+                {i18n.PAGES.SAU.INTRO_SECTION_SAU.BUTTON.LABEL}
+              </Button>
             </div>
             <div class="w-full md:w-1/2 md:m-auto pb-6">
               <img
@@ -239,6 +239,13 @@ bgClass="brightness-50 md:object-[center_-100px] md:object-cover"
               <Typography tag="div" className="mx-6" text={i18n.PAGES.SAU.ELITE_SAU.TAG_3.TITLE} />
               <Typography tag="p" className="mx-6" text={i18n.PAGES.SAU.ELITE_SAU.TAG_3.DESCRIPTION} />
             </div>
+          </div>
+          <div>
+            <Button size="sm"
+                url={i18n.PAGES.SAU.ELITE_SAU.BUTTON.URL} 
+                title={i18n.PAGES.SAU.ELITE_SAU.BUTTON.TITLE} target="_self">
+                {i18n.PAGES.SAU.ELITE_SAU.BUTTON.LABEL}
+            </Button>
           </div>
         </div>
         
