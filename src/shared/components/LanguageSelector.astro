@@ -17,41 +17,47 @@ const key = Object.keys(i18n.PAGES).find((key) => {
   return page?.ROUTE?.URL === pathname
 }) || "HOME"
 
+function getSafeHref(lang: string) {
+  const page = getI18N({ language: lang }).PAGES?.[key];
+  const path = page?.ROUTE?.URL || "/"; // si no existe, ir al home
+  const domains: Record<string, string> = {
+    en: "https://www.porticosport.com",
+    es: "https://www.porticosport.es",
+    fr: "https://www.porticosport.fr",
+    de: "https://www.porticosport.de",
+  };
+  return `${domains[lang]}${path}`;
+}
+
 const LOCALES: Record<
   string,
   { code: string; name: string; href: string; flag: typeof SpainFlag }
 > = {
   en: {
     code: "en",
-    href: `https://www.porticosport.com${getI18N({ language: "en" }).PAGES?.[key]?.ROUTE?.URL}`,
+    href: getSafeHref("en"),
     name: "English",
     flag: UkFlag,
   },
   es: {
     code: "es",
-    href: `https://www.porticosport.es${getI18N({ language: "es" }).PAGES?.[key]?.ROUTE?.URL}`,
+    href: getSafeHref("es"),
     name: "Español",
     flag: SpainFlag,
   },
   fr: {
     code: "fr",
+    href: getSafeHref("fr"),
     name: "French",
-    href: `https://www.porticosport.fr${getI18N({ language: "fr" }).PAGES?.[key]?.ROUTE?.URL}`,
     flag: FrenchFlag,
   },
-  /*it: {
-    code: "it",
-    name: "Italian",
-    href: `https://www.porticosport.it${getI18N({ language: "it" }).PAGES?.[key]?.ROUTE?.URL}`,
-    flag: ItalianFlag,
-  },*/
   de: {
     code: "de",
+    href: getSafeHref("de"),
     name: "Germany",
-    href: `https://www.porticosport.de${getI18N({ language: "de" }).PAGES?.[key]?.ROUTE?.URL}`,
     flag: GermanyFlag,
   },
-}
+};
 
 const currentLocaleData = LOCALES[currentLocale]
 const otherLocales = Object.values(LOCALES).filter(
