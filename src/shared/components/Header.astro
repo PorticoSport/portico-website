@@ -307,4 +307,21 @@ const LINKS = [
       })
     );
   });
+document.addEventListener("astro:page-load", () => {
+    const currentPath = window.location.pathname;
+
+    // Cambiar esta ruta por la de tu página especial real
+    const isSpecialPage = currentPath.includes("/index.astro");
+
+    if (isSpecialPage) {
+      // Intercepta clics en los enlaces de banderas del selector de idioma
+      document.querySelectorAll(".language-flag").forEach(flag => {
+        flag.addEventListener("click", (e) => {
+          e.preventDefault();
+          const lang = flag.getAttribute("data-lang");
+          window.location.href = `/${lang}/`; // redirige a la home del idioma
+        });
+      });
+    }
+  });
 </script>
