@@ -25,11 +25,12 @@ interface Props {
   video?: string;
   heroImage?: string;
   gallery: Photo[];
-  court: "MOBILE_COURT" | "TOURNAMENT_COURT" | "PANORAMIC_FORCE_80_COURT" | "PANORAMIC_COURT" | "CLUB_COURT" | "CLUB_FORCE_80_COURT" | "SINGLE_COURT" | "MINI_COURT";
+  court: "MOBILE_COURT" | "TOURNAMENT_COURT" | "PANORAMIC_FORCE_80_COURT" | "PANORAMIC_COURT" | "CLUB_COURT" | "CLUB_MAS_COURT" | "CLUB_FORCE_80_COURT" | "SINGLE_COURT" | "MINI_COURT";
 }
 
 const featureImages = [] as Photo[];
 const { language, video, heroImage, court, gallery } = Astro.props;
+console.log(language)
 const i18n = getI18N({ language });
 const currentLocale = getCurrentLocale({ language });
 const locale = i18n.PAGES[court];
@@ -194,8 +195,6 @@ robots="index,follow"
           image={isStructure.IMAGE.src}
           subtitle={isStructure.SUBTITLE}
           text={isStructure.TEXT}
-          subtext={isStructure.SUBTEXT}
-          subtextTitle={isStructure.SUBTEXT_TITLE}
         />
       ) : null
     }
@@ -294,6 +293,7 @@ robots="index,follow"
           urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
         />
       )}
+
       {court === "MINI_COURT" && (
         <SectionFaqs
           items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_MINI}
@@ -314,6 +314,16 @@ robots="index,follow"
         />
       )}
 
+      {court === "CLUB_MAS_COURT" && (
+        <SectionFaqs
+          items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_MAS_COURT}
+          title={i18n.PAGES.HOME.FAQS_SECTION.TITLE_MAS_COURT}
+          urlButton={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.URL}
+          buttonTitle={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TITLE}
+          urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
+        />
+      )}
+      
       {court === "CLUB_FORCE_80_COURT" && (
         <SectionFaqs
           items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_CLUB_FORCE_80_COURT}
@@ -463,6 +473,3 @@ robots="index,follow"
 
   featureImages.length && updateFeatureImages(featureImages);
 </script>
-
-
-
