@@ -185,6 +185,7 @@
         "TITLE_COURT": "Questions fréquentes sur la piste Club",
         "TITLE_MINI": "Questions fréquentes sur nos mini-terrains de padel",
         "TITLE_SINGLE": "Questions fréquentes sur nos pistes de padel Single",
+        "TITLE_PLUS": "Questions fréquentes sur nos courts de padel Club+",
         "TITLE_CLUB_FORCE_80_COURT": "Questions fréquentes sur nos terrains de padel Club Force 80",
         "TITLE_PANORAMIC_COURT": "Foire aux questions sur les courts de padel panoramiques",
         "TITLE_PANORAMIC_FORCE_80_COURT": "Questions fréquentes sur nos courts de padel Panoramiques Force 80",
@@ -293,6 +294,19 @@
       }, {
         "question": "Le court nécessite-t-il un entretien particulier en raison de ses parois vitrées ?",
         "answer": "<p>L’entretien est simple : un nettoyage régulier et une vérification des fixations garantissent des performances durables et un aspect esthétique préservé.</p>"
+      }],
+        "QUESTIONS_PLUS": [{
+        "question": "Qu’est-ce qui distingue le court Club+ du modèle Club ?",
+        "answer": "<p>Le Club+ conserve le design intemporel de notre court Club classique mais dispose de profils renforcés, de plaques d’ancrage <strong>et d’une résistance au vent jusqu’à 240 km/h</strong>. Il est conçu pour les clubs situés dans des environnements côtiers, en altitude ou exigeants.</p>"
+        }, {
+          "question": "Le Club+ convient-il aux installations extérieures dans des climats extrêmes ?",
+          "answer": "<p>Oui. Grâce à sa protection anticorrosion renforcée et sa solidité structurelle, le Club+ est spécialement conçu pour résister aux conditions climatiques difficiles tout en garantissant des performances à long terme.</p>"
+        }, {
+          "question": "Le court Club+ peut-il être personnalisé ?",
+          "answer": "<p>Absolument. Comme le court Club standard, vous pouvez choisir parmi une gamme de couleurs RAL, de styles de gazon et d’options de marquage — tout en bénéficiant des renforts structurels du Club+.</p>"
+        }, {
+          "question": "Le court Club+ est-il homologué pour les tournois ?",
+          "answer": "<p>Oui. Le Club+ est entièrement conforme aux réglementations internationales du padel, ce qui le rend adapté aux installations professionnelles et aux compétitions, tout en offrant une plus grande durabilité que le modèle standard.</p>"
       }],
         "QUESTIONS_PANORAMIC_FORCE_80_COURT": [{
           "question": "Qu’est-ce qui différencie le Panoramique Force 80 des autres courts de padel panoramiques ?",
@@ -1293,6 +1307,189 @@
           "alt": "Terrain de padel Club"
         }
       ]
+    },
+    "CLUB_PLUS": {
+      "ID": "club-plus",
+      "SEO_TITLE": "Court de padel Club+ - Court de padel durable",
+      "SEO_DESCRIPTION": "Découvrez le court Club+, une option idéale pour une qualité supérieure et une durabilité exceptionnelle. Parfait pour la pratique du padel de haut niveau avec des piliers de 3 mètres.",
+      "OG_IMG": "https://www.porticosport.com/og/og-club.jpg",
+      "TITLE": "<span>Court de padel Club+</span>",
+      "DESCRIPTION": "<p>Le court de padel Club+ de Portico Sport a été spécialement conçu pour résister aux conditions les plus exigeantes, offrant une résistance renforcée, <strong>une résistance au vent allant jusqu’à 240 km/h</strong> et une optimisation pour une exposition prolongée en extérieur.</p>",
+      "LITTLE_DESCRIPTION": "<p>Vous pouvez jouer au padel sur l’un de nos courts les plus recherchés.</p>",
+      "SUBTITLE": "Conçu pour une résistance maximale.",
+      "NAME": "Club+",
+      "CONTACT_TITLE_1": "Voulez-vous un court de padel Club+ ?",
+      "CONTACT_SUBJECT": "Nouvelle demande pour le court de padel Club+",
+      "CONTACT_BUTTON": "Je veux un court de padel Club+",
+      "ROUTE": {
+        "LABEL": "En savoir plus sur le court de padel Club+",
+        "URL": "/club-plus",
+        "TITLE": "Court Club+"
+      },
+      "FIRST_SECTION": {
+        "ID": "courts-views",
+        "TITLE": "<span class=\"text-secondary\">L’évolution de notre court de padel le plus emblématique</span>",
+        "DESCRIPTION": "<p>Tout en conservant l’esthétique élégante de notre court Club classique, le Club+ introduit des renforts structurels qui en font le choix idéal pour les environnements à forte exposition, les zones côtières et les installations recherchant une durabilité maximale.</p><p>Construit pour résister, sa structure solide et renforcée garantit des performances à long terme avec un entretien minimal. Grâce à un large éventail d’options de personnalisation, nous veillons à ce qu’il s’intègre parfaitement à tout environnement, en constituant un investissement fiable pour toute installation.</p>",
+        "IMAGES": {
+          "FRONT": {
+            "src": "/courts-detail/club/club-front.webp",
+            "alt": "Vue de face du court Club"
+          },
+          "PERSPECTIVE": {
+            "src": "/courts-detail/club/club-perspective.webp",
+            "alt": "Vue en perspective du court Club"
+          },
+          "TOP": {
+            "src": "/courts-detail/club/club-top.webp",
+            "alt": "Vue du dessus du court Club"
+          }
+        }
+      },
+      "BENEFITS_SECTION": {
+        "ID": "benefits",
+        "TITLE": "Découvrez les avantages de notre court de padel Club+",
+        "BENEFITS": [{
+          "header": "Garantie de 10 ans",
+          "icon": "WarrantyIcon",
+          "footer": "Stabilité et performance à long terme garanties"
+        }, {
+          "header": "Haute résistance au vent",
+          "icon": "VersatileCourtIcon",
+          "footer": "Certifié jusqu’à 240 km/h"
+        }, {
+          "header": "Haute protection anticorrosion",
+          "icon": "MaterialsIcon",
+          "footer": "Finitions en option adaptées aux conditions environnementales"
+        }]
+      },
+      "STRUCTURE_SECTION": {
+        "ID": "Club court: excellence structurelle",
+        "IMAGE": {
+          "id": "section-information",
+          "src": "/courts-detail/mobile/mobile-section-information-court.webp",
+          "alt": "Rendu d’un court mobile"
+        },
+        "TITLE": "Court Club+ : résistance structurelle",
+        "SUBTITLE": "Découvrez l’excellence de la structure de notre court de padel haut de gamme",
+        "TEXT": "<p>Fabriqué en acier galvanisé renforcé <strong>S275JR</strong> pour une résistance inégalée au vent et à la corrosion.</p><p>Assemblage rapide avec vis et écrous autobloquants galvanisés.</p><p>Les cadres latéraux et supérieurs comprennent un treillis électrosoudé conforme à la norme <strong>UNE-EN-10223-4</strong> avec échafaudage intermédiaire pour le contrôle des vibrations.</p><p>Les plaques d’ancrage de précision et l’assemblage rapide garantissent une qualité optimale.</p><p>Notre structure bénéficie de procédés de fabrication avancés :</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Découpe laser pour une précision et une finition impeccables</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Soudure robotisée garantissant la qualité et empêchant l’oxydation</li></ul>",
+        "SUBTEXT_TITLE": "Passez au CLUB+ !",
+        "SUBTEXT": "<p>Vous pouvez également passer à la version Club+ <strong>pour une résistance accrue au vent (jusqu’à 131,40 km/h)</strong> avec des profilés en acier renforcé.</p>"
+      },
+      "SIZING_SECTION": {
+        "ID": "measure-section",
+        "TITLE": "Dimensions du court de padel Club+",
+        "INDOOR_TITLE": "Intérieur",
+        "OUTDOOR_TITLE": "Extérieur",
+        "OUTDOOR": "<p><strong>Longueur</strong> : 20,47 m x 10,47 m</p>",
+        "INDOOR": "<p><strong>Longueur</strong> : 20 m x 10 m</p>",
+        "IMAGE": {
+          "id": "image-sizing",
+          "src": "/courts-detail/club/Club-sizing.webp",
+          "alt": "Dimensions intérieures et extérieures du court Club"
+        }
+      },
+      "GLASS_SECTION": {
+        "ID": "glass-section",
+        "IMAGE": {
+          "id": "advantage-section",
+          "src": "/courts-detail/mobile/mobile-glasses.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Court mobile breveté par Portico Sport"
+        },
+        "TITLE": "Verre de sécurité trempé pour les courts de padel Club+",
+        "DESCRIPTION": "<p>Le Club+ comprend des panneaux en <strong>verre trempé certifié CE (10 mm)</strong> fabriqués en Espagne.</p><p>Avec des bords polis, des joints en néoprène et des vis galvanisées, chaque panneau garantit une excellente visibilité et résistance aux chocs, conforme aux normes européennes.</p>"
+      },
+      "PAINT_SECTION": {
+        "ID": "paint-section",
+        "TITLE": "Finitions personnalisables en peinture laquée",
+        "DESCRIPTION": "<p>Protégez et personnalisez votre court avec des <strong>traitements de peinture laquée longue durée</strong>, disponibles dans une large gamme de couleurs RAL :</p>",
+        "IMAGES": [{
+              "id": "slide-1",
+              "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
+              "alt": "Orange painted mobile court"
+            },{
+              "id": "slide-2",
+              "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
+              "alt": "Orange painted mobile court"
+            },{
+              "id": "slide-9",
+              "src": "/courts-detail/mobile/structure-painted-mobile-9.webp",
+              "alt": "A violet court"
+            },{
+              "id": "slide-10",
+              "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
+              "alt": "Blue structure painted"
+            }, {
+              "id": "slide-12",
+              "src": "/courts-detail/mobile/structure-painted-mobile-12.webp",
+              "alt": "Gray structure painted in interior"
+            }],
+        "LIST": [
+          "<strong>INTÉRIEUR :</strong> Revêtement en poudre avec résines thermofusibles",
+          "<strong>EXTÉRIEUR :</strong> Apprêt riche en zinc + revêtement en poudre pour protection anticorrosion",
+          "<strong>GALVANISATION À CHAUD :</strong> Bain de zinc + revêtement en poudre pour environnements marins ou très humides"
+        ]
+      },
+      "TURF_SECTION": {
+        "ID": "turf-section",
+        "IMAGE": {
+          "src": "/courts-detail/mobile/mobile-top.webp",
+          "alt": "Vue du dessus d’un court mobile"
+        },
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Gazon haute performance pour les courts Club+</span>",
+        "SUBTITLE": "Vivez une performance inégalée sur notre gazon !",
+        "DESCRIPTION": "<p>Offrez une <strong>expérience de jeu professionnelle</strong> avec du gazon de nouvelle génération fabriqué par les meilleurs producteurs européens.</p><p>Chaque court comprend :</p>",
+        "DESCRIPTION_DOS": "Notre gazon offre une expérience professionnelle dans différentes couleurs et types de fibres.",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Gazon en polyéthylène nouvelle génération à monofilaments texturés</li><li>Résistant aux UV, peu abrasif, stable à la chaleur et aux intempéries</li><li>Remplissage en sable de silice (10-15 kg/m²) pour un rebond et une vitesse de balle optimisés</li></ul>"
+      },
+      "LIGHTING_SECTION": {
+        "ID": "lighting-section",
+        "IMAGE": {
+          "src": "/courts-detail/mobile/mobile-lighting.webp",
+          "alt": "Éclairage d’un court mobile"
+        },
+        "TITLE": "Systèmes d’éclairage LED avancés pour les courts de padel Club+",
+        "SUBTITLE": "Illuminez votre jeu avec l’éclairage de Portico Sport !",
+        "DESCRIPTION": "<p>Améliorez le jeu avec des <strong>solutions d’éclairage LED de pointe</strong> développées avec les meilleurs spécialistes.</p>",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Entièrement conforme à la norme <strong>UNE-EN-12193:2020</strong></li><li>Lumière uniforme sans éblouissement ni ombres</li><li>Résistance aux chocs IK10, indice d’étanchéité IP66-IP67</li><li>Protection contre les surtensions (4kV - 6kV), dissipation thermique élevée</li><li>Convient aux usages récréatifs (Classe III) et aux événements professionnels (Classe I, norme NIDE)</li><li>Garantie 5 ans</li></ul>"
+      },
+      "GALLERY_SECTION": {
+        "ID": "gallery",
+        "PATH": "courts-detail/club-mas/gallery",
+        "OFFSET": 6
+      },
+      "COURTS_SECTION": {
+        "TITLE": "Découvrez d’autres courts de padel",
+        "DESCRIPTION": "Autres types de courts de padel Porticosport"
+      },
+      "CONTACT_SECTION": {
+        "ID": "contact",
+        "SUBJECT": "Nouvelle demande pour le court Club+",
+        "TITLE": "Actualités",
+        "BG_IMAGE": "/courts-detail/club/club-contact-bg.webp",
+        "IMAGE": "/courts-detail/club/club-perspective.webp"
+      },
+      "HOME_DESCRIPTION": "Le modèle Club est notre court polyvalent. Conception structurelle exceptionnelle et conçu pour un usage intensif et une durabilité maximale. Un court conçu pour les clubs de padel, qui résistera à l’épreuve du temps.",
+      "HOME_IMAGES": [{
+            "id": "slide-1",
+            "src": "/courts/club-court-01.webp",
+            "width": 574,
+            "height": 323,
+            "alt": "Club padel court"
+          },{
+            "id": "slide-2",
+            "src": "/courts/club-court-02.webp",
+            "width": 574,
+            "height": 323,
+            "alt": "Club padel court"
+          },{
+            "id": "slide-3",
+            "src": "/courts/club-court-03.webp",
+            "width": 574,
+            "height": 323,
+            "alt": "Club padel court"
+          }]
     },
     "CLUB_FORCE_80_COURT": {
       "ID": "club-force-80-court",
