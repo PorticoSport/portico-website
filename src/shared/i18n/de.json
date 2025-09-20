@@ -182,6 +182,7 @@
         "TITLE_COURT": "Häufig gestellte Fragen zum Club-Court",
         "TITLE_MINI": "Häufig gestellte Fragen zu unseren Mini-Padelplätzen",
         "TITLE_SINGLE": "Häufig gestellte Fragen zu unseren Single-Padelplätzen",
+        "TITLE_PLUS": "Häufig gestellte Fragen zu unseren Club+ Padelplätzen",
         "TITLE_CLUB_FORCE_80_COURT": "Häufig gestellte Fragen zu unseren Force 80 Padel Padelplätzen",
         "TITLE_PANORAMIC_COURT": "Häufig gestellte Fragen zu Panoramischen Padelplätzen",
         "TITLE_PANORAMIC_FORCE_80_COURT": "Häufig gestellte Fragen zu unseren Panoramic Force 80 Padelplätzen",
@@ -261,6 +262,24 @@
       "question": "Was sind die Hauptvorteile eines Einzel-Padelplatzes?",
       "answer": "<p>Einzel-Padelplätze bieten Vielseitigkeit, Platzeffizienz und Langlebigkeit. Sie werden aus hochwertigen Materialien wie verzinktem Stahl, gehärtetem Glas und professionellem Kunstrasen hergestellt. Es gibt individuelle Anpassungsoptionen, um den Platz genau auf Ihre Bedürfnisse abzustimmen.</p>"
     }
+    ],
+        "QUESTIONS_PLUS": [
+      {
+        "question": "Wodurch unterscheidet sich der Club+ Platz vom Club-Modell?",
+        "answer": "<p>Der Club+ behält das zeitlose Design unseres klassischen Club Courts bei, verfügt jedoch über verstärkte Profile, Ankerplatten <strong>und Windbeständigkeit bis zu 240 km/h</strong>. Er wurde für Anlagen in Küsten-, Hochlagen- oder anspruchsvollen Umgebungen entwickelt.</p>"
+      },
+      {
+        "question": "Ist der Club+ für den Außeneinsatz in extremen Klimazonen geeignet?",
+        "answer": "<p>Ja. Dank seines erhöhten Korrosionsschutzes und seiner strukturellen Stärke wurde der Club+ speziell entwickelt, um extremen Wetterbedingungen standzuhalten und dabei langfristige Leistung zu gewährleisten.</p>"
+      },
+      {
+        "question": "Kann der Club+ individuell angepasst werden?",
+        "answer": "<p>Absolut. Wie der Standard-Clubplatz können Sie aus einer Vielzahl von RAL-Farben, Rasentypen und Branding-Optionen wählen – mit dem zusätzlichen Vorteil der strukturellen Verstärkungen des Club+.</p>"
+      },
+      {
+        "question": "Ist der Club+ für Turniere geeignet?",
+        "answer": "<p>Ja. Der Club+ entspricht vollständig den internationalen Padelvorschriften und ist sowohl für professionelle Anlagen als auch für Wettkämpfe geeignet – mit höherer Haltbarkeit und Widerstandskraft als das Standardmodell.</p>"
+      }
     ],
         "QUESTIONS_CLUB_FORCE_80_COURT": [{
           "question": "Ist der Platz für Regionen mit extremen Wetterbedingungen geeignet?",
@@ -1292,6 +1311,124 @@
           "height": 323,
           "alt": "Club Padelplatz"
         }
+      ]
+    },
+    "CLUB_PLUS": {
+      "ID": "club-plus",
+      "SEO_TITLE": "Club+ Padelplatz - Langlebiger Padelplatz",
+      "SEO_DESCRIPTION": "Entdecken Sie den Club+ Court – eine ideale Option für höchste Qualität und außergewöhnliche Langlebigkeit. Perfekt für Padeltraining auf hohem Niveau mit 3-Meter-Säulen.",
+      "OG_IMG": "https://www.porticosport.com/og/og-club.jpg",
+      "TITLE": "<span>Club+ Padelplatz</span>",
+      "DESCRIPTION": "<p>Der Club+ Padelplatz von Portico Sport wurde speziell entwickelt, um den anspruchsvollsten Bedingungen standzuhalten. Er bietet verstärkte Stabilität, <strong>fortschrittliche Windbeständigkeit bis zu 240 km/h</strong> und ist für den langfristigen Außeneinsatz optimiert.</p>",
+      "LITTLE_DESCRIPTION": "<p>Spielen Sie Padel auf einem unserer gefragtesten Plätze.</p>",
+      "SUBTITLE": "Entwickelt für maximale Stabilität.",
+      "NAME": "Club+",
+      "CONTACT_TITLE_1": "Möchten Sie einen Club+ Padelplatz?",
+      "CONTACT_SUBJECT": "Neue Anfrage für Club+ Padelplatz",
+      "CONTACT_BUTTON": "Ich möchte einen Club+ Padelplatz",
+      "ROUTE": {
+        "LABEL": "Mehr über den Club+ Padelplatz",
+        "URL": "/club-plus",
+        "TITLE": "Club+ Platz"
+      },
+      "FIRST_SECTION": {
+        "ID": "courts-views",
+        "TITLE": "<span class=\"text-secondary\">Die Weiterentwicklung unseres legendären Padelplatzes</span>",
+        "DESCRIPTION": "<p>Während das elegante Design unseres klassischen Club Courts erhalten bleibt, bietet der Club+ zusätzliche strukturelle Verstärkungen, die ihn zur idealen Wahl für stark exponierte Umgebungen, Küstenregionen und Einrichtungen machen, die maximale Langlebigkeit suchen.</p><p>Seine solide verstärkte Struktur gewährleistet langfristige Leistung bei minimalem Wartungsaufwand. Mit einer breiten Palette an Anpassungsoptionen lässt sich der Platz nahtlos in jede Umgebung integrieren – eine zuverlässige Investition für jede Anlage.</p>",
+        "IMAGES": {
+          "FRONT": { "src": "/courts-detail/club/club-front.webp", "alt": "Vorderansicht des Clubplatzes" },
+          "PERSPECTIVE": { "src": "/courts-detail/club/club-perspective.webp", "alt": "Perspektivansicht des Clubplatzes" },
+          "TOP": { "src": "/courts-detail/club/club-top.webp", "alt": "Draufsicht des Clubplatzes" }
+        }
+      },
+      "BENEFITS_SECTION": {
+        "ID": "benefits",
+        "TITLE": "Entdecken Sie die Vorteile unseres Club+ Padelplatzes",
+        "BENEFITS": [
+          { "header": "10 Jahre Garantie", "icon": "WarrantyIcon", "footer": "Garantierte Stabilität und langfristige Leistung" },
+          { "header": "Hohe Windbeständigkeit", "icon": "VersatileCourtIcon", "footer": "Zertifiziert bis zu 240 km/h" },
+          { "header": "Hoher Korrosionsschutz", "icon": "MaterialsIcon", "footer": "Optionale Beschichtungen für verschiedene Umweltbedingungen" }
+        ]
+      },
+      "STRUCTURE_SECTION": {
+        "ID": "Club court: Structural Excellence",
+        "IMAGE": { "id": "section-information", "src": "/courts-detail/mobile/mobile-section-information-court.webp", "alt": "Rendering eines mobilen Platzes" },
+        "TITLE": "Club+ Platz: Strukturelle Widerstandsfähigkeit",
+        "SUBTITLE": "Erleben Sie die Exzellenz unserer hochwertigen Padelplatz-Struktur",
+        "TEXT": "<p>Hergestellt aus verstärktem, verzinktem <strong>S275JR</strong>-Stahl für außergewöhnliche Wind- und Korrosionsbeständigkeit.</p><p>Schnelle Montage mit verzinkten, selbstsichernden Schrauben und Muttern.</p><p>Seiten- und Oberrahmen enthalten elektrogeschweißtes Gitter gemäß <strong>UNE-EN-10223-4</strong> mit Zwischenverstrebungen zur Vibrationskontrolle.</p><p>Präzisionsgefertigte Ankerplatten und schnelle Montage mit verzinkten, selbstsichernden Schrauben und Muttern.</p><p>Unsere Struktur durchläuft modernste Fertigungsprozesse:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Lasergeschnittener Stahl sorgt für Präzision und saubere Oberflächen</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Roboterschweißung garantiert Qualität und verhindert Oxidation</li></ul>",
+        "SUBTEXT_TITLE": "Upgrade auf CLUB+!",
+        "SUBTEXT": "<p>Sie können auch auf die Club+ Version <strong>mit verstärkten Stahlprofilen und Windbeständigkeit bis zu 131,40 km/h</strong> aufrüsten.</p>"
+      },
+      "SIZING_SECTION": {
+        "ID": "measure-section",
+        "TITLE": "Club+ Padelplatz Maße",
+        "INDOOR_TITLE": "Innenbereich",
+        "OUTDOOR_TITLE": "Außenbereich",
+        "OUTDOOR": "<p><strong>Länge</strong>: 20,47 m x 10,47 m</p>",
+        "INDOOR": "<p><strong>Länge</strong>: 20 m x 10 m</p>",
+        "IMAGE": { "id": "image-sizing", "src": "/courts-detail/club/Club-sizing.webp", "alt": "Innen- und Außenmaße des Clubplatzes" }
+      },
+      "GLASS_SECTION": {
+        "ID": "glass-section",
+        "IMAGE": { "id": "advantage-section", "src": "/courts-detail/mobile/mobile-glasses.webp", "width": 574, "height": 323, "alt": "Mobiler Platz von Portico Sport" },
+        "TITLE": "Sicherheits-ESG-Glas für Club+ Padelplätze",
+        "DESCRIPTION": "<p>Der Club+ enthält <strong>CE-zertifizierte ESG-Sicherheitsglasscheiben (10 mm)</strong> aus spanischer Herstellung.</p><p>Mit polierten Kanten, Neoprendichtungen und verzinkten Schrauben bieten die Scheiben hervorragende Sicht und Schlagfestigkeit — alles gemäß europäischen Normen.</p>"
+      },
+      "PAINT_SECTION": {
+        "ID": "paint-section",
+        "TITLE": "Anpassbare Lackierungen für die Struktur",
+        "DESCRIPTION": "<p>Schützen und personalisieren Sie Ihren Platz mit <strong>langlebigen Lackbeschichtungen</strong>, erhältlich in vielen RAL-Farben:</p>",
+        "IMAGES": [
+          { "id": "slide-1", "src": "/courts-detail/mobile/structure-painted-mobile-1.webp", "alt": "Oranger lackierter mobiler Platz" },
+          { "id": "slide-2", "src": "/courts-detail/mobile/structure-painted-mobile-2.webp", "alt": "Oranger lackierter mobiler Platz" },
+          { "id": "slide-9", "src": "/courts-detail/mobile/structure-painted-mobile-9.webp", "alt": "Ein violetter Platz" },
+          { "id": "slide-10", "src": "/courts-detail/mobile/structure-painted-mobile-10.webp", "alt": "Blau lackierte Struktur" },
+          { "id": "slide-12", "src": "/courts-detail/mobile/structure-painted-mobile-12.webp", "alt": "Graue lackierte Struktur im Innenbereich" }
+        ],
+        "LIST": [
+          "<strong>INNEN:</strong> Pulverbeschichtung mit thermofusiblen Harzen",
+          "<strong>AUSSEN:</strong> Zinkreiche Grundierung + Pulverbeschichtung für Korrosionsschutz",
+          "<strong>FEUERVERZINKT:</strong> Zinkbadbehandlung + Pulverbeschichtung für Küsten- oder feuchte Umgebungen"
+        ]
+      },
+      "TURF_SECTION": {
+        "ID": "turf-section",
+        "IMAGE": { "src": "/courts-detail/mobile/mobile-top.webp", "alt": "Draufsicht eines mobilen Platzes" },
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Hochleistungsrasen für Club+ Plätze</span>",
+        "SUBTITLE": "Erleben Sie unübertroffene Leistung auf unserem Rasen!",
+        "DESCRIPTION": "<p>Bieten Sie ein <strong>professionelles Spielerlebnis</strong> mit modernstem Kunstrasen führender europäischer Hersteller.</p><p>Jeder Padelplatz enthält:</p>",
+        "DESCRIPTION_DOS": "Unser Rasen bietet ein professionelles Spielerlebnis in verschiedenen Farben und Faserarten.",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Modernster Polyethylenrasen mit strukturierten Monofilamenten</li><li>UV-beständig, abriebarm, hitze- und wetterstabil</li><li>Quarzsandverfüllung (10–15 kg/m²) für optimalen Ballabsprung und -geschwindigkeit</li></ul>"
+      },
+      "LIGHTING_SECTION": {
+        "ID": "lighting-section",
+        "IMAGE": { "src": "/courts-detail/mobile/mobile-lighting.webp", "alt": "Beleuchtung des mobilen Platzes" },
+        "TITLE": "Fortschrittliche LED-Beleuchtung für Club+ Padelplätze",
+        "SUBTITLE": "Beleuchten Sie Ihr Spiel mit der Beleuchtung von Portico Sport!",
+        "DESCRIPTION": "<p>Verbessern Sie das Spiel mit modernsten <strong>LED-Beleuchtungslösungen</strong>, entwickelt mit führenden Spezialisten.</p>",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Vollständig konform mit <strong>UNE-EN-12193:2020</strong></li><li>Gleichmäßiges Licht ohne Blendung oder Schatten</li><li>IK10 stoßfest, IP66-IP67 wasserdicht</li><li>Überspannungsschutz (4–6 kV), hohe Wärmeableitung</li><li>Geeignet für Freizeit (Klasse III) und professionelle Events (Klasse I, NIDE-Standard)</li><li>5 Jahre Garantie</li></ul>"
+        },
+      "GALLERY_SECTION": {
+        "ID": "gallery",
+        "PATH": "courts-detail/club-mas/gallery",
+        "OFFSET": 6
+      },
+      "COURTS_SECTION": {
+        "TITLE": "Entdecken Sie weitere Padelplätze",
+        "DESCRIPTION": "Andere Padelplatz-Typen von Porticosport"
+      },
+      "CONTACT_SECTION": {
+        "ID": "contact",
+        "SUBJECT": "Neue Anfrage für Club+ Platz",
+        "TITLE": "Neuigkeiten",
+        "BG_IMAGE": "/courts-detail/club/club-contact-bg.webp",
+        "IMAGE": "/courts-detail/club/club-perspective.webp"
+      },
+      "HOME_DESCRIPTION": "Das Club-Modell ist unser vielseitigster Platz – mit außergewöhnlichem Design und maximaler Langlebigkeit für intensive Nutzung. Ein Platz, der für Padelclubs entwickelt wurde und den Test der Zeit besteht.",
+      "HOME_IMAGES": [
+        { "id": "slide-1", "src": "/courts/club-court-01.webp", "width": 574, "height": 323, "alt": "Club Padelplatz" },
+        { "id": "slide-2", "src": "/courts/club-court-02.webp", "width": 574, "height": 323, "alt": "Club Padelplatz" },
+        { "id": "slide-3", "src": "/courts/club-court-03.webp", "width": 574, "height": 323, "alt": "Club Padelplatz" }
       ]
     },
     "CLUB_FORCE_80_COURT": {
