@@ -3290,7 +3290,7 @@
       }]
     },
     "CLUB_MAS_COURT": {
-      "ID": "club+",
+      "ID": "club-plus",
       "SEO_TITLE": "Club+ Padel Court - Durable Padel Court",
       "SEO_DESCRIPTION":"Discover the Club+ Court, an ideal option for superior quality and exceptional durability. Perfect for high-level padel practice with 3-meter pillars.",
       "OG_IMG": "https://www.porticosport.com/og/og-club.jpg",
@@ -3304,7 +3304,7 @@
       "CONTACT_BUTTON": "I want a Club+ Padel Court",
       "ROUTE": {
         "LABEL": "More about club+ padel court",
-        "URL": "/club+",
+        "URL": "/club-plus",
         "TITLE": "Club+ Court"
       },
       "FIRST_SECTION": {
