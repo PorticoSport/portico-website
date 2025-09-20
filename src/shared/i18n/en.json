@@ -631,7 +631,7 @@
         "TITLE_COURT": "Frequently Asked Questions About Our Club Padel Courts",
         "TITLE_MINI": "Frequently Asked Questions About Our Mini Padel Courts",
         "TITLE_SINGLE": "Frequently Asked Questions About Our Single Padel Courts",
-        "TITLE_MAS_COURT": "Frequently Asked Questions About Our Club+ Padel Courts",
+        "TITLE_PLUS": "Frequently Asked Questions About Our Club+ Padel Courts",
         "TITLE_CLUB_FORCE_80_COURT": "Frequently Asked Questions About Our Club Force 80 Padel Courts",
         "TITLE_PANORAMIC_COURT":"Frequently Asked Questions About Panoramic Padel Courts",
         "TITLE_PANORAMIC_FORCE_80_COURT": "Frequently Asked Questions About Our Panoramic Force 80 Padel Courts",
@@ -715,7 +715,7 @@
           "answer": "<p>Mini padel courts are an excellent choice for those who have limited space but still want to engage in the sport. Mini Courts are popular in urban settings, schools, and community clubs. Despite their smaller size, they retain all essential features of a standard court for a fun and competitive game.</p>"
         }
       ],
-        "QUESTIONS_MAS_COURT":[{
+        "QUESTIONS_PLUS":[{
           "question": "What makes the Club+ Court different from the Club model?",
           "answer": "<p>The Club+ retains the timeless design of our classic Club Court but features reinforced profiles, anchor plates, <strong>and wind resistance up to 240 km/h</strong>. It’s built for clubs located in coastal, high-altitude, or demanding environments.</p>"
         }, {
