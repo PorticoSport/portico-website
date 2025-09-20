@@ -181,6 +181,7 @@
         "TITLE_COURT": "Preguntas frecuentes sobre la pista Club",
         "TITLE_MINI": "Preguntas frecuentes sobre nuestras Mini Pistas de Pádel",
         "TITLE_SINGLE": "Preguntas Frecuentes sobre Nuestras Pistas de Pádel Single",
+        "TITLE_PLUS": "Preguntas frecuentes sobre nuestra pista de pádel Club+",
         "TITLE_CLUB_FORCE_80_COURT": "Preguntas frecuentes sobre nuestras pistas Club Force 80",
         "TITLE_PANORAMIC_COURT":"Preguntas frecuentes sobre pistas de pádel panorámicas",
         "TITLE_PANORAMIC_FORCE_80_COURT": "Preguntas frecuentes sobre nuestras pistas de pádel Panoramic Force 80",
@@ -257,6 +258,20 @@
         }, {
           "question": "¿Cuáles son los principales beneficios de una Pista de Pádel Individual?",
           "answer": "<p>Las pistas de pádel individuales ofrecen versatilidad, eficiencia de espacio y durabilidad. Están hechas con materiales premium como acero galvanizado, vidrio templado y césped profesional. Existen opciones de personalización para adaptar la pista a tus necesidades específicas.</p>"
+        }
+      ],
+        "QUESTIONS_CLUB_PLUS": [{
+          "question": "¿Qué diferencia a la pista Club+ del modelo Club?",
+          "answer": "<p>La Club+ mantiene el diseño atemporal de nuestra clásica pista Club, pero añade perfiles reforzados, placas de anclaje y resistencia certificada al viento de hasta 240 km/h. Está diseñada para clubes ubicados en zonas costeras, en altura o en entornos especialmente exigentes.</p>"
+        }, {
+          "question": "¿Es la Club+ adecuada para instalaciones exteriores en climas extremos?",
+          "answer": "<p>Sí. Gracias a su protección anticorrosión mejorada y su estructura reforzada, la Club+ está específicamente diseñada para resistir condiciones meteorológicas adversas, manteniendo un rendimiento duradero.</p>"
+        }, {
+          "question": "¿Se puede personalizar la pista Club+?",
+          "answer": "<p>Por supuesto. Al igual que la pista Club estándar, puedes elegir entre una amplia gama de colores RAL, tipos de césped y opciones de branding, con el valor añadido de las mejoras estructurales de la Club+.</p>"
+        }, {
+          "question": "¿La pista Club+ es apta para torneos?",
+          "answer": "<p>Sí. La Club+ cumple íntegramente con las normativas internacionales de pádel, siendo apta tanto para clubes profesionales como para eventos competitivos, ofreciendo mayor resistencia y durabilidad que el modelo estándar.</p>"
         }
       ],
         "QUESTIONS_CLUB_FORCE_80_COURT": [{
@@ -1276,6 +1291,207 @@
         "IMAGE": "/courts-detail/club/club-perspective.webp"
       },
       "HOME_DESCRIPTION": "El modelo Club es nuestra pista de pádel más versátil por excelencia. Con un diseño estructural superior, está construida para soportar un uso intensivo y ofrecer una durabilidad máxima. Pensada específicamente para los clubes de pádel, esta pista está diseñada para mantenerse en perfectas condiciones a lo largo del tiempo.",
+      "HOME_IMAGES": [
+        {
+          "id": "slide-1",
+          "src": "/courts/club-court-01.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pista de pádel club"
+        },
+        {
+          "id": "slide-2",
+          "src": "/courts/club-court-02.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pista de pádel club"
+        },
+        {
+          "id": "slide-3",
+          "src": "/courts/club-court-03.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pista de pádel club"
+        }
+      ]
+    },
+    "CLUB_PLUS": {
+      "ID": "club-plus",
+      "SEO_TITLE": "Pista de pádel Club - Pista de Pádel Duradera",
+      "TYPE": "PRODUCT",
+      "SEO_DESCRIPTION": "Descubre la Pista de pádel Club+, una opción ideal por su calidad superior y durabilidad excepcional. Perfecta para prácticas de pádel de alto nivel con pilares de 3 metros.",
+      "OG_IMG": "https://www.porticosport.com/og/og-club.jpg",
+      "TITLE": "<span>Pista CLUB+</span>",
+      "DESCRIPTION": "<p>La pista Club+ de Portico Sport ha sido específicamente diseñada para soportar las condiciones más exigentes, ofreciendo una resistencia reforzada, una avanzada <strong>resistencia al viento de hasta 240 km/h</strong> y una optimización para garantizar un rendimiento duradero en instalaciones exteriores.</p>",
+      "LITTLE_DESCRIPTION": "<p>Puedes jugar pádel en una de nuestras pistas más solicitadas.</p>",
+      "SUBTITLE": "Diseñada para la máxima resistencia.",
+      "NAME": "Club+",
+      "CONTACT_TITLE_1": "¿Quieres una Pista Club+?",
+      "CONTACT_SUBJECT": "Nueva petición de Pista Club+",
+      "CONTACT_BUTTON": "Quiero una Pista Club+",
+      "ROUTE": {
+        "LABEL": "Más sobre la pista club+",
+        "URL": "/club-plus",
+        "TITLE": "Pista Club"
+      },
+      "FIRST_SECTION": {
+        "ID": "vistas-de-pistas",
+        "TITLE": "<span class=\"text-secondary\">La evolución de nuestra pista de pádel más icónica</span>",
+        "DESCRIPTION": "<p>Manteniendo la elegante estética de nuestra clásica pista de pádel Club, el modelo Club+ incorpora refuerzos estructurales que la convierten en la opción ideal para entornos de alta exposición, zonas costeras y clubes que buscan la máxima durabilidad.</p><p>Construida para resistir, su sólida estructura reforzada garantiza un rendimiento a largo plazo con un mantenimiento mínimo. Con una amplia gama de opciones de personalización disponibles, aseguramos que se integre perfectamente en cualquier entorno, convirtiéndola en una inversión fiable para cualquier instalación.</p>",
+        "IMAGES": {
+          "FRONT": {
+            "src": "/courts-detail/club/club-front.webp",
+            "alt": "Vista frontal de la pista club"
+          },
+          "PERSPECTIVE": {
+            "src": "/courts-detail/club/club-perspective.webp",
+            "alt": "Vista en perspectiva de la pista club"
+          },
+          "TOP": {
+            "src": "/courts-detail/club/club-top.webp",
+            "alt": "Vista superior de la pista club"
+          }
+        }
+      },
+      "BENEFITS_SECTION": {
+        "ID": "beneficios",
+        "TITLE": "Experimenta los beneficios de nuestra pista de pádel club",
+        "BENEFITS": [
+          {
+            "header": "Garantía de 10 años",
+            "icon": "WarrantyIcon",
+            "footer": "Estabilidad y rendimiento a largo plazo garantizados"
+          },
+          {
+            "header": "Alta resistencia al viento",
+            "icon": "VersatileCourtIcon",
+            "footer": "Certificada hasta 240 km/h"
+          },
+          {
+            "header": "Protección anticorrosión avanzada",
+            "icon": "MaterialsIcon",
+            "footer": "Acabados opcionales adaptados a cada entorno"
+          }
+        ]
+      },
+      "STRUCTURE_SECTION": {
+        "ID": "structura",
+        "IMAGE": {
+          "id": "section-information",
+          "src": "/courts-detail/mobile/mobile-section-information-court.webp",
+          "alt": "Render de una pista móvil"
+        },
+        "TITLE": "Club+ Court: resistencia estructural",
+        "SUBTITLE": "Experimenta la excelencia de nuestra estructura de pista de calidad premium",
+        "TEXT": "<p>Fabricada con acero galvanizado reforzado <strong>S275JR</strong> para ofrecer una resistencia inigualable frente al viento y la corrosión.</p><p>Los marcos laterales y superiores incluyen malla electrosoldada conforme a <strong>UNE-EN-10223-4</strong>, con andamiajes intermedios para un mejor control de vibraciones.</p><p>Placas de anclaje de precisión y montaje rápido con tornillería galvanizada autoblocante.</p>Nuestros procesos de fabricación avanzados incluyen:<p></p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Corte láser para acabados precisos.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Soldadura robótica que asegura calidad y evita oxidaciones futuras.</li></ul>",
+        "SUBTEXT_TITLE": "¿Necesitas más resistencia? ¡Pasa a CLUB+!",
+        "SUBTEXT": "<p>La versión Club+ incluye refuerzos adicionales para resistir ráfagas de viento de hasta 131,40 km/h, ideal para zonas con condiciones climáticas extremas.</p>"
+      },
+      "SIZING_SECTION": {
+        "ID": "medidas",
+        "TITLE": "Dimensiones de la pista de pádel Club+",
+        "INDOOR_TITLE": "Interior",
+        "OUTDOOR_TITLE": "Exterior",
+        "OUTDOOR": "<p><strong>Longitud</strong>: 20 m x 10 m </p>",
+        "INDOOR": "<p><strong>Longitud</strong>: 20.47 m x 10.47 m </p>",
+        "IMAGE": {
+          "id": "image-sizing",
+          "src": "/courts-detail/club/Club-sizing.webp",
+          "alt": "Tamaños de pista club interior y exterior"
+        }
+      },
+      "GLASS_SECTION": {
+        "ID": "vidrios",
+        "IMAGE": {
+          "id": "advantage-section",
+          "src": "/courts-detail/mobile/mobile-glasses.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pista móvil patentada por Portico Sport"
+        },
+        "TITLE": "Vidrio templado de seguridad para pistas de pádel Club+",
+        "SUBTITLE": "¡Vidrio templado de alta seguridad en cada pista de pádel!",
+        "DESCRIPTION": "<p>La Club+ incluye paneles de vidrio templado de 10 mm certificados por la CE y fabricados en España.</p><p>Con bordes pulidos, juntas de neopreno y tornillería galvanizada, cada panel garantiza una excelente visibilidad y resistencia al impacto, cumpliendo con las normativas europeas.</p>"
+      },
+      "PAINT_SECTION": {
+        "ID": "pintura",
+        "TITLE": "Acabados de pintura lacada personalizables",
+        "SUBTITLE": "¿Sabías que ahora puedes agregar un toque de color a tu pista de pádel?",
+        "DESCRIPTION": "<p>Protege y personaliza tu pista con <strong>tratamientos de pintura lacada de alta durabilidad</strong>, disponibles en una amplia gama de colores RAL:</p>",
+        "DESCRIPTION_DOS": "Elige tu color RAL preferido y personaliza tu pista con esquema monocromático o bicolor.",
+        "IMAGES": [
+          {
+            "id": "slide-1",
+            "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
+            "alt": "Pista móvil pintada de naranja"
+          },
+          {
+            "id": "slide-2",
+            "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
+            "alt": "Pista móvil pintada de naranja"
+          },
+          {
+            "id": "slide-9",
+            "src": "/courts-detail/mobile/structure-painted-mobile-9.webp",
+            "alt": "Una pista violeta"
+          },
+          {
+            "id": "slide-10",
+            "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
+            "alt": "Estructura azul pintada"
+          },
+          {
+            "id": "slide-12",
+            "src": "/courts-detail/mobile/structure-painted-mobile-12.webp",
+            "alt": "Estructura gris pintada en el interior"
+          }
+        ],
+        "LIST": [
+          "<strong>INTERIOR:</strong> Recubrimiento en polvo con resinas termo-fusibles",
+          "<strong>EXTERIOR:</strong> Imprimación rica en zinc + recubrimiento en polvo para protección anticorrosión",
+          "<strong>GALVANIZADO EN CALIENTE:</strong> Baño de zinc + recubrimiento en polvo, ideal para entornos marinos o de alta humedad"
+        ]
+      },
+      "TURF_SECTION": {
+        "ID": "cesped",
+        "IMAGE": {
+          "src": "/courts-detail/mobile/mobile-top.webp",
+          "alt": "Vista superior de la pista móvil"
+        },
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped de alto rendimiento para pistas de pádel Club+</span>",
+        "SUBTITLE": "¡Experimenta un rendimiento incomparable en nuestro césped artificial!",
+        "DESCRIPTION": "<p>Vive una experiencia de juego profesional con césped de última generación de los mejores fabricantes europeos.</p><p>Nuestro césped artificial cuenta con:</p>",
+        "DESCRIPTION_DOS": "Disponible en varios colores y tipos de fibra para adaptarse a tus preferencias.",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Césped de filamentos texturizados de polietileno de baja abrasión</li><li>Tratamiento anti-UV, alta resistencia al calor y a la intemperie</li><li>Relleno de arena de sílice lavada y secada (10-15 kg/m²) para un bote de pelota óptimo.</li></ul>"
+      },
+      "LIGHTING_SECTION": {
+        "ID": "luces",
+        "IMAGE": {
+          "src": "/courts-detail/mobile/mobile-lighting.webp",
+          "alt": "Iluminación de la pista móvil"
+        },
+        "TITLE": "Sistemas avanzados de iluminación LED para pistas de pádel",
+        "SUBTITLE": "¡Ilumina tu juego con los sistemas de iluminación LED de Portico Sport.!",
+        "DESCRIPTION": "<p>Mejora la experiencia de juego con soluciones de iluminación de última generación, desarrolladas junto a especialistas líderes:</p>",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Cumplen con la norma <strong>UNE-EN-12193:2020</strong></li><li>Luz uniforme, sin deslumbramientos ni sombras</li><li>Resistencia al impacto IK10 y protección IP66-IP67</li><li>Protección contra sobretensiones (4kV-6kV), alta disipación térmica</li><li>Válido para uso recreativo (Clase III) hasta competiciones profesionales (Clase I, normativa NIDE)</li><li>Garantía de hasta 5 años</li></ul>"
+      },
+      "GALLERY_SECTION": {
+        "ID": "gallery",
+        "PATH": "courts-detail/club-mas/gallery",
+        "OFFSET": 6
+      },
+      "COURTS_SECTION": {
+        "TITLE": "Descubre otras Pistas de Pádel",
+        "DESCRIPTION": "¿Quieres algo diferente? Puedes ver otros modelos de Pistas de Pádel"
+      },
+      "CONTACT_SECTION": {
+        "ID": "contacto",
+        "SUBJECT": "Nueva petición de Pista Club+",
+        "TITLE": "Noticias",
+        "BG_IMAGE": "/courts-detail/club/club-contact-bg.webp",
+        "IMAGE": "/courts-detail/club/club-perspective.webp"
+      },
+      "HOME_DESCRIPTION": "El modelo Club+ es nuestra pista de pádel más versátil por excelencia. Con un diseño estructural superior, está construida para soportar un uso intensivo y ofrecer una durabilidad máxima. Pensada específicamente para los clubes de pádel, esta pista está diseñada para mantenerse en perfectas condiciones a lo largo del tiempo.",
       "HOME_IMAGES": [
         {
           "id": "slide-1",
