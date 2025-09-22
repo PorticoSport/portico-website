@@ -1190,7 +1190,7 @@
         "SUBTITLE": "Erleben Sie die Exzellenz unserer Premium-Padelplatzstruktur",
         "TEXT": "<p>Gefertigt aus verzinktem <strong>S275JR</strong>-Stahl für Abrieb- und Korrosionsbeständigkeit. Seiten- und Oberrahmen beinhalten <strong>UNE-EN-10223-4</strong>-konformes elektrogeschweißtes Netz mit Zwischenverschalungen zur Vibrationskontrolle.</p><p>Schnelle Montage mit verzinkten selbstsichernden Schrauben und Muttern.</p><p>Unsere Struktur durchläuft fortschrittliche Herstellungsprozesse:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laserzuschnitt für präzise und saubere Oberflächen</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Roboter-Schweißen garantiert Qualität und verhindert Oxidation</li></ul>",
         "SUBTEXT_TITLE": "Upgrade zu CLUB+!",
-        "SUBTEXT": "<p>Sie können auch auf die Club+-Version <strong>für erhöhte Windbeständigkeit (bis zu 131,40 km/h)</strong> mit verstärkten Stahlprofilen upgraden.</p>"
+        "SUBTEXT": "<p>Sie können auch auf die Club+-Version <strong>für erhöhte Windbeständigkeit (bis zu 240 km/h)</strong> mit verstärkten Stahlprofilen upgraden.</p>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
