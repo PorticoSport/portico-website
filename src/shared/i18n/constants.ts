@@ -1,4 +1,3 @@
-
 interface ILanguages {
   [key: string]: string
 }
@@ -9,6 +8,7 @@ export const LANGUAGES = {
   FR: 'fr',
   IT: 'it',
   DE: 'de',
+  CS: 'cs',
   DEFAULT: 'en',
 } as ILanguages
 
