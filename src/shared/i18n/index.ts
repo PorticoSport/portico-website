@@ -3,6 +3,7 @@ import spanish from './es.json'
 import french from './fr.json'
 import italian from './it.json'
 import german from './de.json'
+import cs from './cs.json'
 import EnglishCountriesList from './en-countries-list.json'
 import ItalianCountriesList from './en-countries-list.json'
 import SpanishCountriesList from './en-countries-list.json'
@@ -20,6 +21,7 @@ export const getI18N = ({
   if (LANGUAGES[language.toUpperCase()] === 'fr') return french
   if (LANGUAGES[language.toUpperCase()] === 'it') return italian
   if (LANGUAGES[language.toUpperCase()] === 'de') return german
+  if (LANGUAGES[language.toUpperCase()] === 'cs') return cs
   return english
 }
 
@@ -39,6 +41,7 @@ export const getCategoryByLanguage = ({
   if (LANGUAGES[language.toUpperCase()] === 'fr') return 61
   if (LANGUAGES[language.toUpperCase()] === 'es') return 59
   if (LANGUAGES[language.toUpperCase()] === 'de') return 62
+  if (LANGUAGES[language.toUpperCase()] === 'cs') return 63
   return 1
 }
 
