@@ -1185,7 +1185,7 @@
         "SUBTITLE": "Découvrez l'excellence de la structure premium de notre terrain de padel",
         "TEXT": "<p>Fabriqué en acier galvanisé <strong>S275JR</strong> pour la résistance à l'abrasion et à la corrosion. Les cadres latéraux et supérieurs incluent un treillis électro-soudé conforme à la norme <strong>UNE-EN-10223-4</strong> avec échafaudages intermédiaires pour le contrôle des vibrations.</p><p>Assemblage rapide avec vis et écrous auto-bloquants galvanisés.</p><p>Notre structure bénéficie de procédés de fabrication avancés :</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Découpe laser de l'acier pour une précision et une finition soignée</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Soudage robotisé garantissant qualité et prévention de l'oxydation</li></ul>",
         "SUBTEXT_TITLE": "Passez à CLUB+ !",
-        "SUBTEXT": "<p>Vous pouvez également passer à la version Club+ <strong>pour une résistance accrue au vent (jusqu'à 131,40 km/h)</strong> avec des profils en acier renforcés.</p>"
+        "SUBTEXT": "<p>Vous pouvez également passer à la version Club+ <strong>pour une résistance accrue au vent (jusqu'à 240 km/h)</strong> avec des profils en acier renforcés.</p>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
