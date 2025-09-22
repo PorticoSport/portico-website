@@ -1,0 +1,269 @@
+---
+import Layout from "@/shared/layouts/Layout.astro";
+import Video from "@/shared/components/Video.astro";
+import Typography from "@/shared/components/ui/Typography.astro";
+import SectionIntro from "@/shared/components/sections/SectionIntro.astro";
+import SectionCourts from "@/shared/components/sections/SectionCourts.astro";
+import SectionCountries from "@/shared/components/sections/CountriesSection.astro";
+import SectionCanopies from "@/shared/components/sections/SectionCanopies.astro";
+import SectionComplements from "@/shared/components/sections/SectionComplements2.astro";
+import SectionPartnerLogos from "@/shared/components/sections/SectionPartnerLogos.astro";
+import SectionContact from "@/shared/components/sections/SectionContact.astro"
+import HexagonCupLogo from "@/shared/components/logos/LogoHexagonCup.astro";
+import PopupPartners from "@/shared/components/PopupPartners.astro";
+import {
+  getI18N,
+  getCurrentLocale,
+  getCategoryByLanguage,
+} from "@/shared/i18n";
+import SectionInfiniteScroll from "@/shared/components/sections/SectionInfiniteScroll.astro";
+import SectionFaqs from "@/shared/components/sections/SectionFaqs.astro";
+import NormativeLogos from "@/shared/components/sections/NormativeLogos2.astro";
+import { type Photo } from "@/types/types.ts";
+import { type Review } from "@/types/types.ts";
+import Slider from "@/shared/components/sections/Slider.astro";
+import SectionReviews from "@/shared/components/sections/SectionReviews.astro";
+import SliderProjects from "@/shared/components/sections/SliderProjects.astro";
+import Button from "@/shared/components/Button.astro";
+
+interface Props {
+  language: string;
+  projectsGallery: Photo[];
+  reviews: Review[];
+}
+
+const { language, reviews = [] } = Astro.props;
+const i18n = getI18N({ language });
+const currentLocale = getCurrentLocale({ language });
+const category = getCategoryByLanguage({ language });
+
+const projectsGallery: Photo[] = [
+  {
+    src: "projects-1.webp",
+    alt: "projects 1"
+  },
+  {
+    src: "projects-2.webp",
+    alt: "projects 2"
+  },
+  {
+    src: "projects-3.webp",
+    alt: "projects 3"
+  },
+  {
+    src: "projects-4.webp",
+    alt: "projects 4"
+  },
+  {
+    src: "projects-5.webp",
+    alt: "projects 5"
+  },
+  {
+    src: "projects-6.webp",
+    alt: "projects 6"
+  },
+  {
+    src: "projects-7.webp",
+    alt: "projects 7"
+  },
+  {
+    src: "projects-8.webp",
+    alt: "projects 8"
+  },
+  {
+    src: "projects-9.webp",
+    alt: "projects 9"
+  },
+  {
+    src: "projects-10.webp",
+    alt: "projects 10"
+  },
+  {
+    src: "projects-11.webp",
+    alt: "projects 11"
+  },
+  {
+    src: "projects-12.webp",
+    alt: "projects 12"
+  },
+  {
+    src: "projects-13.webp",
+    alt: "projects 13"
+  },
+  {
+    src: "projects-14.webp",
+    alt: "projects 14"
+  }
+];
+
+const response = await fetch(
+  `https://portico.porticosport.com/wp-json/wp/v2/posts?categories=${category}&per_page=15&_embed`
+);
+// const response = await fetch(`https://portico.porticosport.com/wp-json/wp/v2/posts?per_page=6&_embed`)
+const posts = await response.json();
+const canopies = i18n.PAGES.HOME.CANOPIES_SECTION;
+---
+
+<Layout
+  title={i18n.PAGES.HOME.SEO_TITLE}
+  robots="index,follow"
+  contactForm
+  keywords={i18n.PAGES.HOME.SEO_KEYWORDS}
+  description={i18n.PAGES.HOME.SEO_DESCRIPTION}
+  currentLocale={currentLocale}
+  language={language}
+>
+  <Video
+    language={language}
+    video="https://res.cloudinary.com/duvzvbia1/video/upload/v1746444467/video-home-portico_oeofev.mp4"
+    subtitle={i18n.PAGES.HOME.SUBTITLE}
+    title={i18n.PAGES.HOME.TITLE}
+    slogan={i18n.PAGES.HOME.SLOGAN}
+    titleH3={i18n.PAGES.HOME.TITLE_H3}
+    buttonUrl={i18n.PAGES.HOME.CONTACT_BUTTON.URL}
+    buttonText={i18n.PAGES.HOME.CONTACT_BUTTON.LABEL}
+    language={language}
+    subject={i18n.PAGES.HOME.CONTACT_SECTION.SUBJECT}
+  >
+    <div
+      slot="bottom"
+      class="absolute bottom-[2.5%] w-40 md:bottom-1/4 md:w-[200px] left-1/2 -translate-x-1/2 md:translate-x-0 md:left-10 z-10"
+    >
+      <div class="flex flex-col gap-2">
+        <a href="/partners" id="logo-hexagon-cup">
+          <HexagonCupLogo />
+        </a>
+        <a href="/partners" class="mt-12">
+          <img src="/Head-logo.png" class="invert" />
+        </a>
+      </div>
+    </div>
+  </Video>
+  <main>
+    
+    <SectionIntro language="cs" showStatsSection={false} />
+
+    <section id={i18n.PAGES.HOME.PROJECTS_SECTION.ID}>
+      <SliderProjects language="cs"
+        language={language}
+        heading={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE}
+        subheading={i18n.PAGES.HOME.PROJECTS_SECTION.TITLE_GALLERY}
+        id={i18n.PAGES.HOME.PROJECTS_SECTION.ID_GALLERY}
+        photos={projectsGallery}
+        offset={14}
+        path={i18n.PAGES.HOME.PROJECTS_SECTION.PATH}
+        urlButton={i18n.PAGES.HOME.PROJECTS_SECTION.URL.SRC}
+        buttonTitle={i18n.PAGES.HOME.PROJECTS_SECTION.URL.TITLE}
+        urlText={i18n.PAGES.HOME.PROJECTS_SECTION.URL.LABEL}
+      />
+    </section>
+    <div class="bg-gradient-to-b from-white via-[#131937] to-[#131937] pt-12">
+      <SectionInfiniteScroll language={language} />
+      <NormativeLogos
+        language={language}
+        showInfo
+        urlButton={i18n.NORMATIVE_SECTION_LOGOS.BUTTON.URL}
+        buttonTitle={i18n.NORMATIVE_SECTION_LOGOS.BUTTON.TITLE}
+        urlText={i18n.NORMATIVE_SECTION_LOGOS.BUTTON.TEXT}
+      />
+    </div>
+    <SectionCanopies 
+      video="https://res.cloudinary.com/duvzvbia1/video/upload/v1746007690/cubiertas_hn7fsa.mp4"
+      title={canopies.TITLE}
+      subtitle={canopies.SUBTITLE}
+      text={canopies.TEXT}
+      textDos={canopies.TEXT_DOS ?? ""} 
+      buttonUrl="/contact"
+      buttonText="Contáctanos"
+      buttonTitle="Ir al formulario"
+    />
+
+    <div class="bg-background w-full">
+  <div class="text-center mt-10 mb-10 px-4 md:px-10 max-w-5xl mx-auto">
+    <Typography
+      tag="h2"
+      className="text-center text-2xl md:text-4xl font-bold mb-6"
+      text={i18n.PAGES.HOME.SECTION_CHOOSE_COURT.TITLE}
+    />
+    
+    <div class="flex flex-col md:flex-row justify-center gap-6 mb-10">
+      <Typography
+        tag="div"
+        className="text-left text-base md:text-lg leading-relaxed space-y-4 pl-5 md:w-1/2 bg-[#171F44] p-4 rounded-sm"
+        set:html={i18n.PAGES.HOME.SECTION_CHOOSE_COURT.DESCRIPTION}
+      />
+      <Typography
+        tag="div"
+        className="text-left text-base md:text-lg leading-relaxed space-y-4 pl-5 md:w-1/2 bg-[#171F44] p-4 rounded-sm"
+        set:html={i18n.PAGES.HOME.SECTION_CHOOSE_COURT.DESCRIPTION_2}
+      />
+    </div>
+
+    <Button
+      url={i18n.PAGES.HOME.SECTION_CHOOSE_COURT.BUTTON.SRC}
+      title={i18n.PAGES.HOME.SECTION_CHOOSE_COURT.BUTTON.TITLE}
+      target="_self"
+    >
+      {i18n.PAGES.HOME.SECTION_CHOOSE_COURT.BUTTON.LABEL}
+    </Button>
+  </div>
+</div>
+
+    <div class="bg-slate-100 w-full pt-4 pb-4">
+      <div class="text-center mt-10 mb-10 px-4 md:px-10 max-w-5xl mx-auto text-black">
+        <Typography
+          tag="h2"
+          className="text-center text-2xl md:text-4xl font-bold mb-6"
+          text={i18n.PAGES.HOME.BENTO_SECTION.TITLE}
+        />
+        <Typography
+          tag="div"
+          className="text-left text-base md:text-lg leading-relaxed space-y-4 pl-5 mb-10"
+          set:html={i18n.PAGES.HOME.BENTO_SECTION.TEXT}
+        />
+        <Typography
+          tag="div"
+          className="text-left text-base md:text-lg leading-relaxed space-y-4 pl-5 mb-10"
+          set:html={i18n.PAGES.HOME.BENTO_SECTION.DESCRIPTION}
+        />
+      </div>
+    </div>
+
+    <SectionContact
+      id={i18n.PAGES.HOME.CONTACT_SECTION.ID}
+      hiddenSubject
+      subject={i18n.PAGES.HOME.CONTACT_SECTION.SUBJECT}
+      language={language}
+      bgImage={i18n.PAGES.HOME.CONTACT_SECTION.BG_IMAGE}
+      image={i18n.PAGES.HOME.CONTACT_SECTION.IMAGE}
+      title={i18n.PAGES.HOME.CONTACT_FORM.TITLE}
+      description={i18n.PAGES.HOME.CONTACT_FORM.DESCRIPTION}
+    />
+  </main>
+</Layout>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const lazyBgElements = document.querySelectorAll(".lazy-bg");
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const element = entry.target;
+          const bgImage = element.getAttribute("data-bg");
+          element.style.backgroundImage = `url(${bgImage})`;
+          observer.unobserve(element);
+        }
+      });
+    });
+
+    lazyBgElements.forEach((element) => {
+      observer.observe(element);
+    });
+  });
+</script>
+<style>
+  .lazy-bg {
+    background-image: none;
+  }
+</style>
