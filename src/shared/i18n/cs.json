@@ -39,7 +39,7 @@
         },
         "ID_GALLERY": "project-gallery",
         "TITLE_GALLERY": "Stavíme padelové kurty po celém světě",
-        "PATH": "public/projects/gallery"
+        "PATH": "projects/gallery"
       },
       "CANOPIES_SECTION": {
         "ID": "canopies",
