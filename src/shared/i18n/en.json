@@ -4258,7 +4258,7 @@
       "INTRO_SECTION_SAU":{
         "ID":"intro",
         "TITLE":"Shaping the Future of <br> Padel in the Kingdom",
-        "DESCRIPTION":"<p>Padel is one of Saudi Arabia's fastest-growing sports - and Portico Sport is driving its else</p><p>As a global padel court specialist, we provide championship-grade courts to elite clubs, private estates, and luxury resorts across the Kingdom its rise.</p><p></p>Our courts are engineered in Europe and certified worldwide, combining precision design, unmatched durability, and bespoke finishes. Built to perform in extreme climates, they align seamlessly with Saudi Arabia's Vision 2030 — from Qiddiya Sports City to the Red Sea Resorts and the historic heart of Diriyah.",
+        "DESCRIPTION":"<p>Padel is one of Saudi Arabia's fastest-growing sports - and Portico Sport is driving its rise.</p><p>As a global padel court specialist, we provide championship-grade courts to elite clubs, private estates, and luxury resorts across the Kingdom.</p><p></p>Our courts are engineered in Europe and certified worldwide, combining precision design, unmatched durability, and bespoke finishes. Built to perform in extreme climates, they align seamlessly with Saudi Arabia's Vision 2030 — from Qiddiya Sports City to the Red Sea Resorts and the historic heart of Diriyah.",
         "BUTTON": {
           "LABEL": "Discover Our Courts",
           "URL": "/client-contact"
@@ -4290,19 +4290,19 @@
         "TITLE":"Trusted by the World's Best",
         "DESCRIPTION":"<p>We are the official court of the Hexagon Cup, where legends like Juan Lebron, Federico Chingotto, Martin Di Nenno, and Ariana Sanchez compete — alongside global icons including Leo Messi, Sergio Aguero, Eva Longoria, and Robert Lewandowski.</p><p>Selected by elite clubs, iconic events, and world-class tournaments — and trusted by celebrities, investors, and resorts worldwide — Portico Sport courts are the first choice for those who demand excellence in quality, design, and playing experience.</p>",
         "TAG_1": {
+          "IMG": "/sau-court/thumbnails/Hexagon-Cup-1.webp",
           "TITLE":"Official Court",
-          "DESCRIPTION": "Hexagon Cup & international tournaments",
-          "ICON": "<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'><g fill='none' stroke='#F6A800' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'><path d='M12 10h24v6c0 7-5.4 12-12 12s-12-5-12-12v-6z'/><path d='M36 12h4c0 6-3 11-9 11' /><path d='M12 12H8c0 6 3 11 9 11' /><path d='M24 28v6'/><rect x='18' y='34' width='12' height='4' rx='2'/><rect x='14' y='40' width='20' height='3' rx='1.5'/></g></svg>"
+          "DESCRIPTION": "Hexagon Cup & international tournaments"
         },
         "TAG_2": {
+          "IMG": "/sau-court/thumbnails/Hexagon-Cup-Iker.webp",
           "TITLE":"Trusted by Icons",
-          "DESCRIPTION": "From Messi to Eva Longoria and Lewandowski",
-          "ICON": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' width='48' height='48'> <path d='M352.7,430.4v-38.7c0-42.7-34.6-77.3-77.3-77.3H120.7c-42.7,0-77.3,34.6-77.3,77.3v38.7' fill='none' stroke='#DE9E00' stroke-width='40' stroke-linecap='round' stroke-linejoin='round' /><circle cx='198' cy='159.7' r='77.3' fill='none' stroke='#DE9E00' stroke-width='40' stroke-linecap='round' stroke-linejoin='round' /><path d='M468.7,430.4v-38.7c0-35.2-23.9-66-58-74.8' fill='none' stroke='#DE9E00' stroke-width='40' stroke-linecap='round' stroke-linejoin='round' /><path d='M333.3,84.9c41.4,10.6,66.3,52.7,55.7,94.1c-7,27.4-28.4,48.7-55.7,55.7' fill='none' stroke='#DE9E00' stroke-width='40' stroke-linecap='round' stroke-linejoin='round' /></svg>"
+          "DESCRIPTION": "From Iker Casillas to Eva Longoria and Lewandowski"
         },
         "TAG_3": {
+          "IMG": "/sau-court/thumbnails/Los-Naranjos-1.webp",
           "TITLE":"Global Prestige",
-          "DESCRIPTION": "Elite clubs, investors, and luxury resorts worldwide",
-          "ICON": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='#fbbf24' stroke-width='2' class='w-10 h-10 text-yellow-500'><path stroke-linecap='round' stroke-linejoin='round' d='M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.957a1 1 0 00.95.69h4.15c.969 0 1.371 1.24.588 1.81l-3.36 2.44a1 1 0 00-.364 1.118l1.287 3.957c.3.921-.755 1.688-1.54 1.118l-3.36-2.44a1 1 0 00-1.175 0l-3.36 2.44c-.784.57-1.838-.197-1.539-1.118l1.287-3.957a1 1 0 00-.364-1.118L2.974 9.384c-.784-.57-.38-1.81.588-1.81h4.15a1 1 0 00.95-.69l1.287-3.957z'/></svg>"
+          "DESCRIPTION": "Elite clubs, investors, and luxury resorts worldwide"
         }
       },
       "ELITE_SAU": {
@@ -4398,60 +4398,70 @@
         }
       },
       "IMAGES_SAU": [
+
         {
           "id": "slide-1",
           "src": "/sau-court/carrusel.webp",
           "alt": "Official padel court of Hexagon Cup"
-        },{
+        },
+        {
           "id": "slide-2",
+          "src": "/sau-court/Hexagon-Cup-Kun-1.webp",
+          "alt": "Official padel court of Hexagon Cup"
+        },
+        {
+          "id": "slide-3",
           "src": "/sau-court/carrusel-1.webp",
           "alt": "Official padel court of Hexagon Cup"
-        },{
-          "id": "slide-3",
-          "src": "/sau-court/carrusel-2.webp",
-          "alt": "Official padel court of Hexagon Cup"
-        },{
+        },
+        {
           "id": "slide-4",
-          "src": "/sau-court/carrusel-3.webp",
+          "src": "/sau-court/Hexagon-Cup-iker.webp",
           "alt": "Official padel court of Hexagon Cup"
-        },{
+        },
+        {
           "id": "slide-5",
-          "src": "/sau-court/carrusel-4.webp",
+          "src": "/sau-court/carrusel-2.webp",
           "alt": "Official padel court of Hexagon Cup"
         },
         {
           "id": "slide-6",
-          "src": "/sau-court/carrusel-pista-indoor.webp",
+          "src": "/sau-court/Hexagon-Cup-Jesus.webp",
           "alt": "Official padel court of Hexagon Cup"
         },
         {
           "id": "slide-7",
-          "src": "/sau-court/carrusel-pista-indoor-2.webp",
+          "src": "/sau-court/carrusel-3.webp",
           "alt": "Official padel court of Hexagon Cup"
         },
         {
           "id": "slide-8",
-          "src": "/sau-court/carrusel-pista-indoor-3.webp",
-          "alt": "Official padel court of Hexagon Cup"
-        },{
-          "id": "slide-9",
-          "src": "/sau-court/Hexagon-Cup.webp",
-          "alt": "Official padel court of Hexagon Cup"
-        },{
-          "id": "slide-10",
-          "src": "/sau-court/Hexagon-Cup-Kun-1.webp",
-          "alt": "Official padel court of Hexagon Cup"
-        },{
-          "id": "slide-11",
-          "src": "/sau-court/Hexagon-Cup-iker.webp",
-          "alt": "Official padel court of Hexagon Cup"
-        },{
-          "id": "slide-12",
           "src": "/sau-court/Hexagon-Cup-Eva-1.webp",
           "alt": "Official padel court of Hexagon Cup"
-        }, {
+        },
+        {
+          "id": "slide-9",
+          "src": "/sau-court/carrusel-4.webp",
+          "alt": "Official padel court of Hexagon Cup"
+        },
+        {
+          "id": "slide-10",
+          "src": "/sau-court/Hexagon-Cup-Kun-2.webp",
+          "alt": "Official padel court of Hexagon Cup"
+        },
+        {
+          "id": "slide-11",
+          "src": "/sau-court/carrusel-pista-indoor.webp",
+          "alt": "Official padel court of Hexagon Cup"
+        },
+        {
+          "id": "slide-12",
+          "src": "/sau-court/carrusel-pista-indoor-2.webp",
+          "alt": "Official padel court of Hexagon Cup"
+        },
+        {
           "id": "slide-13",
-          "src": "/sau-court/Hexagon-Cup-Eva-2.webp",
+          "src": "/sau-court/carrusel-pista-indoor-3.webp",
           "alt": "Official padel court of Hexagon Cup"
         }
       ]
