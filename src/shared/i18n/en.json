@@ -3662,44 +3662,44 @@
     },
     "PANORAMIC_FORCE_80_COURT": {
       "ID": "panoramic-force-80-court",
-      "SEO_TITLE": "Panoramic Force 80 Court - Resilient Padel Court",
-      "SEO_DESCRIPTION":"Discover the Panoramic Force 80 Padel Court, designed to withstand hurricane-force winds of up to 80 m/s. Ideal for areas with extreme weather conditions. Learn more!",
+      "SEO_TITLE": "Tournament+ Court - Resilient Padel Court",
+      "SEO_DESCRIPTION":"Discover the Tournament+ Padel Court, designed to withstand hurricane-force winds of up to 80 m/s. Ideal for areas with extreme weather conditions. Learn more!",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic-force-80.jpg",
-      "TITLE": "<span>Panoramic Force 80 Padel court</span>",
-      "DESCRIPTION": "<p>In 2021, Portico Sport introduced the Club Force 80, the world’s first anti-hurricane padel court.</p><p>Now, our engineering team has created a court that combines panoramic glass walls and a slimmer steel structure, <strong>thePanoramic Force 80</strong>, capable of withstanding winds of up to 80 m/s while maintaining a sleek panoramic design.</p>",
+      "TITLE": "<span>Tournament+ Padel court</span>",
+      "DESCRIPTION": "<p>In 2021, Portico Sport introduced the Club Tournament+, the world’s first anti-hurricane padel court.</p><p>Now, our engineering team has created a court that combines panoramic glass walls and a slimmer steel structure, <strong>the Tournament+</strong>, capable of withstanding winds of up to 80 m/s while maintaining a sleek panoramic design.</p>",
       "LITTLE_DESCRIPTION": "<p>Enjoy padel regardless of the challenging weather.</p>",
       "SUBTITLE": "Enjoy padel regardless of the challenging weather.",
-      "CONTACT_TITLE_1": "Do you want a Panoramic Force 80 Padel Court?",
-      "CONTACT_SUBJECT": "New petition from Panoramic Force 80 Padel Court",
-      "CONTACT_BUTTON": "I want a Panoramic Force 80 Padel Court",
-      "NAME": "Panoramic Force 80",
+      "CONTACT_TITLE_1": "Do you want a Tournament+ Padel Court?",
+      "CONTACT_SUBJECT": "New petition from Tournament+ Padel Court",
+      "CONTACT_BUTTON": "I want a Tournament+ Padel Court",
+      "NAME": "Tournament+",
       "ROUTE": {
-        "LABEL": "More about Panoramic Force 80 padel court",
-        "URL": "/panoramic-force-80",
-        "TITLE": "Panoramic Force 80 Court"
+        "LABEL": "More about Tournament+ padel court",
+        "URL": "/tournament-plus",
+        "TITLE": "Tournament+ Court"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
         "TITLE": "<span class=\"text-secondary\">The most resilient and thrilling Padel court on the market!</span>",
-        "DESCRIPTION": "<p>Blending the proven robustness of the Club Force 80 with the visual appeal of a panoramic frame, this model delivers both performance and style without sacrificing stability, making it ideal for outdoor locations in hurricane or heavy-storm regions.</p><p>Its exclusive <strong>8-reinforcement</strong> system can be quickly added or removed based on weather conditions, allowing you to transform a standard panoramic court into an ultra-resistant hurricane-ready structure in minutes. With resistance up to 273.6 km/h winds, it ensures both maximum safety and <strong>modern elegance</strong> for your club or resort.</p>",
+        "DESCRIPTION": "<p>Blending the proven robustness of the Club Tournament+ with the visual appeal of a panoramic frame, this model delivers both performance and style without sacrificing stability, making it ideal for outdoor locations in hurricane or heavy-storm regions.</p><p>Its exclusive <strong>8-reinforcement</strong> system can be quickly added or removed based on weather conditions, allowing you to transform a standard panoramic court into an ultra-resistant hurricane-ready structure in minutes. With resistance up to 273.6 km/h winds, it ensures both maximum safety and <strong>modern elegance</strong> for your club or resort.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/panoramic-force-80/panoramic-force-80-front.webp",
-            "alt": "Panoramic Force 80 court front view"
+            "alt": "Tournament+ court front view"
           },
           "PERSPECTIVE": {
             "src": "/courts-detail/panoramic-force-80/panoramic-force-80-perspective.webp",
-            "alt": "Panoramic Force 80 court perspective view"
+            "alt": "Tournament+ court perspective view"
           },
           "TOP": {
             "src": "/courts-detail/panoramic-force-80/panoramic-force-80-top.webp",
-            "alt": "Panoramic Force 80 court top view"
+            "alt": "Tournament+ court top view"
           }
         }
       },
       "BENEFITS_SECTION": {
         "ID": "benefits",
-        "TITLE": "Experience the benefits of our Panoramic Force 80 Padel court",
+        "TITLE": "Experience the benefits of our Tournament+ Padel court",
         "BENEFITS": [{
           "header": "10 years warranty",
           "icon": "WarrantyIcon",
@@ -3721,13 +3721,13 @@
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
           "alt": "Render of a mobile court"
         },
-        "TITLE": "Hurricane-resistant structure for Panoramic Padel Courts",
+        "TITLE": "Hurricane-resistant structure for Tournament+ Padel Courts",
         "SUBTITLE": "Experience the perfect fusion of structural resilience and aesthetic brilliance!",
         "TEXT": "<p>Built from galvanized <strong>S275JR</strong> steel profiles for abrasion and corrosion resistance.</p><p>Side and top frames feature electro-welded mesh compliant with UNE-EN-10223-4 standards with intermediate scaffolding for vibration control.</p><p>A specialised system of <strong>8 removable steel buttresses</strong> provide adaptability for different climates while ensuring long-term resistance.</p><p>Quick assembly with galvanized self-locking screws and nuts.</p><p>Our advanced manufacturing process includes:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laser-cut steel ensures precision and clean finishes</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Robotic welding guarantees quality and prevents oxidation</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
-        "TITLE": "Panoramic Force 80 Court dimensions",
+        "TITLE": "Tournament+ Court dimensions",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
         "OUTDOOR": "<p><strong>Length</strong>: 22.70 m x 12,66 m </p>",
@@ -3816,12 +3816,12 @@
       },
       "CONTACT_SECTION": {
         "ID": "contact",
-        "SUBJECT": "New petition from Panoramic Force 80 Court",
+        "SUBJECT": "New petition from Tournament+ Court",
         "TITLE": "News",
         "BG_IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-contact-bg.webp",
         "IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-court-contact.webp"
       },
-      "HOME_DESCRIPTION": "<p>The Panoramic Force 80 model is designed to withstand category 5 hurricane winds. This court combines the robustness of our successful Club Force 80 model with the visual spectacularity of our Panoramic courts</p>",
+      "HOME_DESCRIPTION": "<p>The Tournament+ model is designed to withstand category 5 hurricane winds. This court combines the robustness of our successful Club Force 80 model with the visual spectacularity of our Panoramic courts</p>",
       "HOME_IMAGES": [{
         "id": "slide-1",
         "src": "/courts/panoramic-force-80-court-01.webp",
@@ -3835,6 +3835,7 @@
         "height": 323,
         "alt": "Panoramic Force 80 padel court"
       },{
+        
         "id": "slide-3",
         "src": "/courts/panoramic-force-80-court-03.webp",
         "width": 574,
