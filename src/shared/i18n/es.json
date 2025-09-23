@@ -1722,45 +1722,45 @@
     },
     "PANORAMIC_FORCE_80_COURT": {
       "ID": "panoramic-force-80-court",
-      "SEO_TITLE": "Pista Panoramic Force 80 - Pista de Pádel Resistente",
+      "SEO_TITLE": "Pista Tournament+ - Pista de Pádel Resistente",
       "TYPE": "PRODUCT",
-      "SEO_DESCRIPTION": "Descubre la pista de pádel Panoramic Force 80, diseñada para resistir vientos huracanados de hasta 80 m/s. Ideal para áreas con condiciones climáticas extremas. ¡Aprende más!",
+      "SEO_DESCRIPTION": "Descubre la pista de pádel Tournament+, diseñada para resistir vientos huracanados de hasta 80 m/s. Ideal para áreas con condiciones climáticas extremas. ¡Aprende más!",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic-force-80.jpg",
-      "TITLE": "<span>Pista de pádel Panoramic Force 80</span>",
-      "DESCRIPTION": "<p>En 2021, Portico Sport presentó la Club Force 80, la primera pista de pádel anti-huracanes del mundo. Ahora, nuestro equipo de ingeniería ha creado una pista que combina paredes panorámicas de cristal y una estructura de acero más estilizada: la <strong>Panoramic Force 80</strong>, capaz de resistir vientos de hasta 80 m/s, manteniendo un elegante diseño panorámico.</p>",
+      "TITLE": "<span>Pista de pádel Tournament+</span>",
+      "DESCRIPTION": "<p>En 2021, Portico Sport presentó la Club Force 80, la primera pista de pádel anti-huracanes del mundo. Ahora, nuestro equipo de ingeniería ha creado una pista que combina paredes panorámicas de cristal y una estructura de acero más estilizada: la <strong>PTournament+</strong>, capaz de resistir vientos de hasta 80 m/s, manteniendo un elegante diseño panorámico.</p>",
       "LITTLE_DESCRIPTION": "<p>Disfruta del pádel sin importar las condiciones climáticas desafiantes.</p>",
       "SUBTITLE": "Disfruta del pádel sin importar las condiciones climáticas desafiantes.",
-      "CONTACT_TITLE_1": "¿Quieres una Pista Panoramic Force 80?",
-      "CONTACT_SUBJECT": "Nueva petición de Pista Panoramic Force 80",
-      "CONTACT_BUTTON": "Quiero una Pista Panoramic Force 80",
-      "NAME": "Panoramic Force 80",
+      "CONTACT_TITLE_1": "¿Quieres una Pista Tournament+?",
+      "CONTACT_SUBJECT": "Nueva petición de Pista Tournament+",
+      "CONTACT_BUTTON": "Quiero una Pista Tournament+",
+      "NAME": "Tournament+",
       "ROUTE": {
-        "LABEL": "Más sobre la pista Panoramic Force 80",
-        "URL": "/panoramic-force-80",
-        "TITLE": "Pista Panoramic Force 80"
+        "LABEL": "Más sobre la Tournament+",
+        "URL": "/Tournament-plus",
+        "TITLE": "Pista Tournament+"
       },
       "FIRST_SECTION": {
         "ID": "vistas-de-las-pistas",
         "TITLE": "<span class=\"text-secondary\">¡La pista de pádel más resistente y emocionante del mercado!</span>",
-        "DESCRIPTION": "<p>Combinando la probada robustez de la Club Force 80 con el atractivo visual de una estructura panorámica, este modelo ofrece rendimiento y estilo sin sacrificar la estabilidad, siendo ideal para ubicaciones exteriores en regiones afectadas por huracanes o fuertes tormentas.</p><p>Su exclusivo sistema de <strong>8 refuerzos</strong> se puede añadir o retirar rápidamente según las condiciones climáticas, permitiendo transformar una pista panorámica estándar en una estructura ultra resistente lista para huracanes en cuestión de minutos. Con resistencia a vientos de hasta <strong>273,6 km/h</strong>, garantiza la máxima seguridad y una elegancia moderna para su club o resort.</p>",
+        "DESCRIPTION": "<p>Combinando la probada robustez de la Club Tournament+ con el atractivo visual de una estructura panorámica, este modelo ofrece rendimiento y estilo sin sacrificar la estabilidad, siendo ideal para ubicaciones exteriores en regiones afectadas por huracanes o fuertes tormentas.</p><p>Su exclusivo sistema de <strong>8 refuerzos</strong> se puede añadir o retirar rápidamente según las condiciones climáticas, permitiendo transformar una pista panorámica estándar en una estructura ultra resistente lista para huracanes en cuestión de minutos. Con resistencia a vientos de hasta <strong>273,6 km/h</strong>, garantiza la máxima seguridad y una elegancia moderna para su club o resort.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/panoramic-force-80/panoramic-force-80-front.webp",
-            "alt": "Vista frontal de la pista Panoramic Force 80"
+            "alt": "Vista frontal de la pista Tournament+"
           },
           "PERSPECTIVE": {
             "src": "/courts-detail/panoramic-force-80/panoramic-force-80-perspective.webp",
-            "alt": "Vista panorámica de la pista Panoramic Force 80"
+            "alt": "Vista panorámica de la pista Tournament+"
           },
           "TOP": {
             "src": "/courts-detail/panoramic-force-80/panoramic-force-80-top.webp",
-            "alt": "Vista superior de la pista Panoramic Force 80"
+            "alt": "Vista superior de la pista Tournament+"
           }
         }
       },
       "BENEFITS_SECTION": {
         "ID": "beneficios",
-        "TITLE": "Experimenta los beneficios de nuestra pista de pádel Panoramic Force 80",
+        "TITLE": "Experimenta los beneficios de nuestra pista de pádel Tournament+",
         "BENEFITS": [
           {
             "header": "10 años de garantía",
@@ -1792,7 +1792,7 @@
       },
       "SIZING_SECTION": {
         "ID": "seccion-de-medidas",
-        "TITLE": "Medidas de la Pista Panoramic Force 80",
+        "TITLE": "Medidas de la Pista Tournament+",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
         "OUTDOOR": "<p><strong>Longitud</strong>: 22.70 m x 12,66 m </p>",
@@ -1887,12 +1887,12 @@
       },
       "CONTACT_SECTION": {
         "ID": "contacto",
-        "SUBJECT": "Nueva petición de Pista Panoramic Force 80",
+        "SUBJECT": "Nueva petición de Pista Tournament+",
         "TITLE": "Noticias",
         "BG_IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-contact-bg.webp",
         "IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-court-contact.webp"
       },
-      "HOME_DESCRIPTION": "<p>El modelo Panoramic Force 80 ha sido diseñado para soportar vientos de categoría 5, propios de huracanes. Esta pista de pádel fusiona la solidez del reconocido modelo Club Force 80 con la impresionante estética de nuestras pistas panorámicas.</p>",
+      "HOME_DESCRIPTION": "<p>El modelo Tournament+ ha sido diseñado para soportar vientos de categoría 5, propios de huracanes. Esta pista de pádel fusiona la solidez del reconocido modelo Club Force 80 con la impresionante estética de nuestras pistas panorámicas.</p>",
       "HOME_IMAGES": [
         {
           "id": "slide-1",
