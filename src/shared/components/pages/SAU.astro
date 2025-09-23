@@ -117,7 +117,7 @@ bgClass="brightness-50 md:object-[center_-100px] md:object-cover"
       >
         <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.SAU.TITLE} responsive />
         <Typography tag="h2" className="uppercase mb-6 font-black text-xl md:text-3xl lg:text-5xl" text={i18n.PAGES.SAU.SUBTITLE} responsive />
-        <Typography tag="div" className="uppercase mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.SAU.DESCRIPTION} responsive />
+        <Typography tag="div" className="mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.SAU.DESCRIPTION} responsive />
       </div>
       <div class="bg-main relative bg-background">
         
@@ -176,20 +176,32 @@ bgClass="brightness-50 md:object-[center_-100px] md:object-cover"
               <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.DESCRIPTION} />
             </div>
             <div class="flex flex-col md:flex-row w-full items-stretch pt-10 pb-10 px-6 text-center justify-evenly gap-6">
-              <div class="pt-10 pb-10 flex-1 rounded shadow-lg shadow-black bg-gray-800">
-                <div class="ml-6 mr-6 flex justify-center pb-4" set:html={i18n.PAGES.SAU.TRUSTED_SAU.TAG_1.ICON}></div>
-                  <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.TAG_1.TITLE} />
-                  <Typography tag="p" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.TAG_1.DESCRIPTION} />
+              <div class="flex-1 rounded shadow-lg shadow-black bg-gray-800">
+                <img 
+                    src={i18n.PAGES.SAU.TRUSTED_SAU.TAG_1.IMG} 
+                    alt={i18n.PAGES.SAU.TRUSTED_SAU.TAG_1.TITLE} 
+                    class="w-full h-48 md:h-64 object-cover rounded pb-7" 
+                />
+                <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.TAG_1.TITLE} />
+                <Typography tag="p" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.TAG_1.DESCRIPTION} />
               </div>
 
-              <div class="pt-10 pb-10 flex-1 rounded shadow-lg shadow-black bg-gray-800">
-                <div class="ml-6 mr-6 flex justify-center pb-4" set:html={i18n.PAGES.SAU.TRUSTED_SAU.TAG_2.ICON}></div>
-                  <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.TAG_2.TITLE} />
-                  <Typography tag="p" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.TAG_2.DESCRIPTION} />
+              <div class="flex-1 rounded shadow-lg shadow-black bg-gray-800">
+                <img 
+                    src={i18n.PAGES.SAU.TRUSTED_SAU.TAG_2.IMG} 
+                    alt={i18n.PAGES.SAU.TRUSTED_SAU.TAG_2.TITLE} 
+                    class="w-full h-48 md:h-64 object-cover rounded pb-7" 
+                />
+                <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.TAG_2.TITLE} />
+                <Typography tag="p" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.TAG_2.DESCRIPTION} />
               </div>
 
-              <div class="pt-10 pb-10 flex-1 rounded shadow-lg shadow-black bg-gray-800">
-                <div class="ml-6 mr-6 flex justify-center pb-4" set:html={i18n.PAGES.SAU.TRUSTED_SAU.TAG_3.ICON}></div>
+              <div class="flex-1 rounded shadow-lg shadow-black bg-gray-800">
+                <img 
+                    src={i18n.PAGES.SAU.TRUSTED_SAU.TAG_3.IMG} 
+                    alt={i18n.PAGES.SAU.TRUSTED_SAU.TAG_3.TITLE} 
+                    class="w-full h-48 md:h-64 object-cover rounded pb-7" 
+                />
                 <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.TAG_3.TITLE} />
                 <Typography tag="p" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.TAG_3.DESCRIPTION} />
               </div>
