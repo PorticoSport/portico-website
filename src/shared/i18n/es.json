@@ -1736,7 +1736,7 @@
       "NAME": "Tournament+",
       "ROUTE": {
         "LABEL": "Más sobre la Tournament+",
-        "URL": "/Tournament-plus",
+        "URL": "/tournament-plus",
         "TITLE": "Pista Tournament+"
       },
       "FIRST_SECTION": {
