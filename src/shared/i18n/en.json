@@ -2459,10 +2459,10 @@
   },
   "PROJECTS_SECTION": {
     "ID": "projects",
-    "ID_GALLERY": "projects-gallery-tx",
+    "ID_GALLERY": "texas-gallery",
     "TITLE_GALLERY": "Padel courts projects in Texas",
     "DESCRIPTION":"With active installations already completed in the Lone Star State, Portico Sport is proud to support Texas’ growing padel movement — from urban builds to residential spaces.",  
-    "PATH": "texas/gallery"
+    "PATH": "texas/gallery/thumbnails"
   },
   "SECTION_2": {
 "TITLE":"Custom padel courts for Houston, San Antonio, Dallas & beyond",
