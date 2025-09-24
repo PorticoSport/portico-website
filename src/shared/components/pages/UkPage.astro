@@ -92,7 +92,9 @@ const posts = await response.json();
     </section>
     <SectionGraphicProcessUK language={language} />
     <SectionInfiniteScroll language={language} />
-    <SectionCourts language={language} heading2={ i18n.PAGES.HOME.COURTS_SECTION.TITLE_UK} />
+    <div class="bg-slate-100">
+      <SectionCourts language={language} heading2={ i18n.PAGES.HOME.COURTS_SECTION.TITLE_UK} />
+    </div>
     <NormativeLogosUK language={language} showInfo 
 subtitle={i18n.NORMATIVE_SECTION_LOGOS_UK.SUBTITLE} 
 description={ i18n.NORMATIVE_SECTION_LOGOS_UK.DESCRIPTION}
