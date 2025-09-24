@@ -78,7 +78,9 @@ const posts = await response.json();
     </section>
     <SectionGraphicProcessOceania language={language} />
     <SectionInfiniteScroll language={language} />
-    <SectionCourts language={language}></SectionCourts>
+    <div class="bg-slate-100">
+      <SectionCourts language={language}></SectionCourts>
+    </div>
     <NormativeLogos language={language} showInfo 
    subtitle = {i18n.NORMATIVE_SECTION_LOGOS_OCEANIA.SUBTITLE}
 />
