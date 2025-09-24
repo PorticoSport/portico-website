@@ -1,15 +1,14 @@
 [
-    {
-        "src": "houston(1).webp",
-        "width": 1200,
-        "height": 553,
-        "alt": "Outdoor padel courts at Katy Padel & Soccer Lounge (Houston)"
-      },
-      {
-        "src": "houston(2).webp",
-        "width": 1200,
-        "height": 553,
-        "alt": "Outdoor padel courts at Katy Padel & Soccer Lounge (Houston)"
-      }
-
-    ]
+  {
+    "src": "houston-1.webp",
+    "width": 1200,
+    "height": 553,
+    "alt": "Outdoor padel courts at Katy Padel & Soccer Lounge (Houston)"
+  },
+  {
+    "src": "houston-2.webp",
+    "width": 1200,
+    "height": 553,
+    "alt": "Outdoor padel courts at Katy Padel & Soccer Lounge (Houston)"
+  }
+]
