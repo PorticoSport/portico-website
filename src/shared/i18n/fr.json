@@ -188,7 +188,7 @@
         "TITLE_PLUS": "Questions fréquentes sur nos courts de padel Club+",
         "TITLE_CLUB_FORCE_80_COURT": "Questions fréquentes sur nos terrains de padel Club Force 80",
         "TITLE_PANORAMIC_COURT": "Foire aux questions sur les courts de padel panoramiques",
-        "TITLE_PANORAMIC_FORCE_80_COURT": "Questions fréquentes sur nos courts de padel Panoramiques Force 80",
+        "TITLE_PANORAMIC_FORCE_80_COURT": "FAQ sur nos terrains de padel Tournament+",
         "TITLE_MODULAR": "Questions fréquentes sur les unités modulaires pour clubs de padel",
         "TITLE_PICKLEBALL": "Foire aux questions sur les terrains de Pickleball",
         "SUBTITLE": "Foire Aux Questions",
@@ -308,18 +308,22 @@
           "question": "Le court Club+ est-il homologué pour les tournois ?",
           "answer": "<p>Oui. Le Club+ est entièrement conforme aux réglementations internationales du padel, ce qui le rend adapté aux installations professionnelles et aux compétitions, tout en offrant une plus grande durabilité que le modèle standard.</p>"
       }],
-        "QUESTIONS_PANORAMIC_FORCE_80_COURT": [{
-          "question": "Qu’est-ce qui différencie le Panoramique Force 80 des autres courts de padel panoramiques ?",
-          "answer": "<p>Il combine l’élégance panoramique avec un système exclusif de renforts qui le transforme en une structure anti-ouragan, capable de résister à des vents allant jusqu’à 80 m/s.</p>"
-        }, {
-          "question": "Peut-on retirer les renforts lorsqu’ils ne sont pas nécessaires ?",
-          "answer": "<p>Absolument. Le court panoramique offre de nombreuses options de personnalisation, y compris la peinture, la transparence du verre, les finitions du cadre et les couleurs du gazon. Vous pouvez également ajouter de multiples accessoires pour créer un court unique.</p>"
-        }, {
-          "question": "Le Panoramique Force 80 est-il adapté aux tournois officiels ?",
-          "answer": "<p>Absolument. Il respecte toutes les réglementations internationales du padel et les normes UNE-EN-10223-4, garantissant sa conformité pour les compétitions professionnelles.</p>"
-        }, {
-          "question": "Quels matériaux sont utilisés pour le Panoramique Force 80 ?",
-          "answer": "<p>Le court est construit en acier galvanisé S275JR, verre trempé premium et treillis électro-soudé, garantissant une durabilité et des performances maximales.</p>"
+        "QUESTIONS_PANORAMIC_FORCE_80_COURT": [
+        {
+          "question": "Qu'est-ce qui distingue le Tournament+ des autres terrains panoramiques de padel ?",
+          "answer": "<p>Il combine l'élégance panoramique avec un système de renforcement exclusif qui le transforme en une structure anti-ouragan, capable de résister à des vents allant jusqu'à 80 m/s.</p>"
+        },
+        {
+          "question": "Les renforts peuvent-ils être retirés lorsqu'ils ne sont pas nécessaires ?",
+          "answer": "<p>Absolument. Le terrain panoramique offre de nombreuses options de personnalisation, notamment la peinture, la transparence du verre, les finitions du cadre et les couleurs du gazon. Vous pouvez également ajouter plusieurs accessoires pour créer un terrain unique.</p>"
+        },
+        {
+          "question": "Le Tournament+ est-il adapté aux tournois officiels ?",
+          "answer": "<p>Absolument. Il respecte toutes les réglementations internationales du padel ainsi que les normes UNE-EN-10223-4, garantissant son homologation pour les compétitions professionnelles.</p>"
+        },
+        {
+          "question": "Quels matériaux sont utilisés pour le Tournament+ ?",
+          "answer": "<p>Le terrain est construit en acier galvanisé S275JR, en verre trempé de qualité supérieure et en treillis électrosoudé, garantissant une durabilité et des performances maximales.</p>"
         }
       ],
         "QUESTIONS_MODULAR": [{
