@@ -185,7 +185,7 @@
         "TITLE_PLUS": "Häufig gestellte Fragen zu unseren Club+ Padelplätzen",
         "TITLE_CLUB_FORCE_80_COURT": "Häufig gestellte Fragen zu unseren Force 80 Padel Padelplätzen",
         "TITLE_PANORAMIC_COURT": "Häufig gestellte Fragen zu Panoramischen Padelplätzen",
-        "TITLE_PANORAMIC_FORCE_80_COURT": "Häufig gestellte Fragen zu unseren Panoramic Force 80 Padelplätzen",
+        "TITLE_PANORAMIC_FORCE_80_COURT": "Häufig gestellte Fragen zu unseren Tournament+ Padelplätzen",
         "TITLE_MODULAR": "Häufig gestellte Fragen zu modularen Einheiten für Padel-Clubs",
         "TITLE_PICKLEBALL": "Häufig gestellte Fragen zu Pickleball-Plätzen",
         "SUBTITLE": "Häufig gestellte Fragen",
@@ -309,17 +309,21 @@
           "answer": "<p>Die Wartung ist einfach; regelmäßige Reinigung und Kontrolle der Befestigungen gewährleisten eine langanhaltende Leistung und ästhetische Attraktivität.</p>"
         }
       ],
-        "QUESTIONS_PANORAMIC_FORCE_80_COURT": [{
-          "question": "Was unterscheidet den Panoramic Force 80 von anderen Panoramapadelplätzen?",
-          "answer": "<p>Er kombiniert die Eleganz eines Panoramaplatzes mit einem exklusiven Verstärkungssystem, das ihn in eine Anti-Hurrikan-Struktur verwandelt, die Winden von bis zu 80 m/s standhält.</p>"
-        }, {
+        "QUESTIONS_PANORAMIC_FORCE_80_COURT": [
+        {
+          "question": "Wodurch unterscheidet sich der Tournament+ von anderen Panorama-Padelplätzen?",
+          "answer": "<p>Er vereint die Eleganz eines Panorama-Platzes mit einem exklusiven Verstärkungssystem, das ihn in eine hurrikanresistente Struktur verwandelt, die Windgeschwindigkeiten von bis zu 80 m/s standhält.</p>"
+        },
+        {
           "question": "Können die Verstärkungen entfernt werden, wenn sie nicht benötigt werden?",
-          "answer": "<p>Absolut. Der Panoramaplatz bietet zahlreiche Anpassungsmöglichkeiten, einschließlich Lackierung, Glastransparenz, Rahmenoberflächen und Rasenkolorierung. Außerdem können Sie verschiedene Zubehörteile hinzufügen, um einen einzigartigen Platz zu gestalten.</p>"
-        }, {
-          "question": "Ist der Panoramic Force 80 für offizielle Turniere geeignet?",
-          "answer": "<p>Absolut. Er erfüllt alle internationalen Padelvorschriften und UNE-EN-10223-4 Normen und ist somit für professionelle Wettbewerbe zugelassen.</p>"
-        }, {
-          "question": "Welche Materialien werden beim Panoramic Force 80 verwendet?",
+          "answer": "<p>Absolut. Der Panorama-Platz bietet zahlreiche Anpassungsmöglichkeiten, darunter Lackierung, Glastransparenz, Rahmenoberflächen und Rasenfarben. Außerdem können Sie verschiedene Zubehörteile hinzufügen, um einen einzigartigen Platz zu gestalten.</p>"
+        },
+        {
+          "question": "Ist der Tournament+ für offizielle Turniere geeignet?",
+          "answer": "<p>Absolut. Er erfüllt alle internationalen Padel-Vorschriften sowie die UNE-EN-10223-4-Normen und ist damit für professionelle Wettbewerbe zugelassen.</p>"
+        },
+        {
+          "question": "Welche Materialien werden im Tournament+ verwendet?",
           "answer": "<p>Der Platz wird aus verzinktem S275JR-Stahl, hochwertigem gehärtetem Glas und elektroschweißtem Gitter gefertigt, was maximale Haltbarkeit und Leistung gewährleistet.</p>"
         }
       ],
@@ -1627,77 +1631,80 @@
     },
     "PANORAMIC_FORCE_80_COURT": {
       "ID": "panoramic-force-80-court",
-      "SEO_TITLE": "Panoramisches Force 80 Gericht - Robustes Padel-Gericht",
-      "SEO_DESCRIPTION": "Entdecken Sie das Panoramische Force 80 Gericht, das entwickelt wurde, um Orkanböen von bis zu 80 m/s standzuhalten. Ideal für Gebiete mit extremen Wetterbedingungen. Erfahren Sie mehr!",
-      "TYPE": "PRODUCT",
+      "SEO_TITLE": "Tournament+ Court - Widerstandsfähiger Padelplatz",
+      "SEO_DESCRIPTION": "Entdecken Sie den Tournament+ Padelplatz, entwickelt, um Hurrikanwinden von bis zu 80 m/s standzuhalten. Ideal für Gebiete mit extremen Wetterbedingungen. Erfahren Sie mehr!",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic-force-80.jpg",
-      "TITLE": "<span>Panoramisches Force 80</span>",
-      "DESCRIPTION": "<p>Im Jahr 2021 führte Portico Sport das Club Force 80 Gericht ein, das erste Anti-Hurrikan-Gericht, das eine eigene Kategorie schuf. Jetzt freuen wir uns, das Panoramische Force 80 vorzustellen. In der Lage, Winde von bis zu 80 m/s in einem Panorama-Rahmen standzuhalten.</p><p>Die Entwicklungsabteilung von Portico Sport führt mit diesem Design die Produktinnovation in der Branche fort, das trotz seiner Panoramaglaswände und schlankeren Stahlstruktur als konkurrierende Designs unter den herausforderndsten Wetterbedingungen standhaft bleibt und sich ideal für Installationen im Freien in von Hurrikans und schweren Stürmen betroffenen geografischen Gebieten eignet.</p>",
-      "LITTLE_DESCRIPTION": "<p>Genießen Sie Padel unabhängig von den herausfordernden Wetterbedingungen.</p>",
-      "SUBTITLE": "Genießen Sie Padel unabhängig von den herausfordernden Wetterbedingungen.",
-      "CONTACT_TITLE_1": "Möchten Sie ein Panoramisches Force 80 Gericht?",
-      "CONTACT_SUBJECT": "Neue Petition vom Panoramischen Force 80 Gericht",
-      "CONTACT_BUTTON": "Ich möchte ein Panoramisches Force 80 Gericht",
-      "NAME": "Panoramisches Force 80",
+      "TITLE": "<span>Tournament+ Padelplatz</span>",
+      "DESCRIPTION": "<p>Im Jahr 2021 stellte Portico Sport den Club Tournament+ vor, den weltweit ersten hurrikanresistenten Padelplatz.</p><p>Jetzt hat unser Ingenieurteam einen Platz entwickelt, der Panoramaglaswände und eine schlankere Stahlstruktur kombiniert – den <strong>Tournament+</strong> –, der Winden von bis zu 80 m/s standhält und dabei ein elegantes Panoramadesign bewahrt.</p>",
+      "LITTLE_DESCRIPTION": "<p>Genießen Sie Padel unabhängig von schwierigen Wetterbedingungen.</p>",
+      "SUBTITLE": "Genießen Sie Padel unabhängig von schwierigen Wetterbedingungen.",
+      "CONTACT_TITLE_1": "Möchten Sie einen Tournament+ Padelplatz?",
+      "CONTACT_SUBJECT": "Neue Anfrage für Tournament+ Padelplatz",
+      "CONTACT_BUTTON": "Ich möchte einen Tournament+ Padelplatz",
+      "NAME": "Tournament+",
       "ROUTE": {
-        "LABEL": "Mehr über Panoramisches Force 80",
-        "URL": "/panoramic-force-80",
-        "TITLE": "Panoramisches Force 80 Gericht"
+        "LABEL": "Mehr über den Tournament+ Padelplatz",
+        "URL": "/tournament-plus",
+        "TITLE": "Tournament+ Court"
       },
       "FIRST_SECTION": {
         "ID": "courts-views",
         "TITLE": "<span class=\"text-secondary\">Der widerstandsfähigste und spannendste Padelplatz auf dem Markt!</span>",
-        "DESCRIPTION": "<p>Durch die Kombination der bewährten Robustheit des Club Force 80 mit der optischen Attraktivität eines Panoramarahmens bietet dieses Modell sowohl Leistung als auch Stil, ohne die Stabilität zu beeinträchtigen – ideal für Außenbereiche in Hurrikan- oder Sturmregionen.</p><p>Das exklusive <strong>8-Verstärkungssystem</strong> kann je nach Wetterbedingungen schnell hinzugefügt oder entfernt werden, sodass sich ein Standard-Panoramaplatz in wenigen Minuten in eine ultra-resistente Orkanstruktur verwandeln lässt. Mit einer Widerstandsfähigkeit gegen Winde bis zu 273,6 km/h garantiert er maximale Sicherheit und <strong>moderne Eleganz</strong> für Ihren Club oder Ihr Resort.</p>",
+        "DESCRIPTION": "<p>Durch die Kombination der bewährten Robustheit des Club Tournament+ mit der optischen Attraktivität eines Panoramarahmens bietet dieses Modell sowohl Leistung als auch Stil, ohne die Stabilität zu beeinträchtigen – ideal für Außenbereiche in Hurrikan- oder Sturmregionen.</p><p>Das exklusive <strong>8-Verstärkungssystem</strong> kann je nach Wetterbedingungen schnell hinzugefügt oder entfernt werden, sodass Sie einen Standard-Panoramaplatz innerhalb weniger Minuten in eine ultraresistente, hurrikanfeste Struktur verwandeln können. Mit einer Widerstandsfähigkeit gegen Winde von bis zu 273,6 km/h garantiert er maximale Sicherheit und <strong>moderne Eleganz</strong> für Ihren Club oder Ihr Resort.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/panoramic-force-80/panoramic-force-80-front.webp",
-          "alt": "Vorderansicht des Panoramic Force 80 Platzes"
+            "alt": "Tournament+ Platz Vorderansicht"
           },
           "PERSPECTIVE": {
             "src": "/courts-detail/panoramic-force-80/panoramic-force-80-perspective.webp",
-            "alt": "Perspektivansicht des Panoramic Force 80 Platzes"
+            "alt": "Tournament+ Platz Perspektive"
           },
           "TOP": {
             "src": "/courts-detail/panoramic-force-80/panoramic-force-80-top.webp",
-            "alt": "Draufsicht des Panoramic Force 80 Platzes"
+            "alt": "Tournament+ Platz Draufsicht"
           }
         }
       },
       "BENEFITS_SECTION": {
         "ID": "benefits",
-        "TITLE": "Erleben Sie die Vorteile unseres Panoramic Force 80 Padelplatzes",
-        "BENEFITS": [{
-          "header": "10 Jahre Garantie",
-          "icon": "WarrantyIcon",
-          "footer": "Strukturelle Integrität auch bei Orkanwinden garantiert"
-        }, {
-          "header": "Der widerstandsfähigste Padelplatz",
-          "icon": "VersatileCourtIcon",
-          "footer": "Exklusives Design und Premium-Materialien für den stärksten Panoramaplatz auf dem Markt"
-        }, {
-          "header": "Premium-Qualität",
-          "icon": "MaterialsIcon",
-          "footer": "Verzinkter Stahl, gehärtetes Glas und modernste Technik für Langlebigkeit und Leistung"
-        }]
+        "TITLE": "Erleben Sie die Vorteile unseres Tournament+ Padelplatzes",
+        "BENEFITS": [
+          {
+            "header": "10 Jahre Garantie",
+            "icon": "WarrantyIcon",
+            "footer": "Strukturelle Integrität garantiert, selbst bei Hurrikanwinden"
+          },
+          {
+            "header": "Der widerstandsfähigste Padelplatz",
+            "icon": "VersatileCourtIcon",
+            "footer": "Exklusives Design und hochwertige Materialien für den stärksten Panoramaplatz"
+          },
+          {
+            "header": "Premiumqualität",
+            "icon": "MaterialsIcon",
+            "footer": "Verzinkter Stahl, gehärtetes Glas und modernste Technik für Langlebigkeit und Leistung"
+          }
+        ]
       },
       "STRUCTURE_SECTION": {
         "ID": "structure",
         "IMAGE": {
           "id": "section-information",
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
-          "alt": "Rendering eines mobilen Platzes"
+          "alt": "Render eines mobilen Platzes"
         },
-        "TITLE": "Hurrikanresistente Struktur für Panoramapadelplätze",
-        "SUBTITLE": "Die perfekte Kombination aus struktureller Stärke und ästhetischer Eleganz!",
-        "TEXT": "<p>Gefertigt aus verzinkten <strong>S275JR</strong>-Stahlprofilen für Abrieb- und Korrosionsbeständigkeit.</p><p>Seiten- und Rahmenoberteile mit elektroschweißtem Gitter nach UNE-EN-10223-4 Norm, mit Zwischengerüst zur Vibrationskontrolle.</p><p>Ein spezielles System aus <strong>8 abnehmbaren Stahlstützen</strong> bietet Anpassungsfähigkeit an verschiedene Klimazonen und sorgt gleichzeitig für langfristige Widerstandsfähigkeit.</p><p>Schnelle Montage mit verzinkten, selbstsichernden Schrauben und Muttern.</p><p>Unser fortschrittlicher Herstellungsprozess umfasst:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Lasergeschnittener Stahl sorgt für Präzision und saubere Oberflächen</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Roboterschweißen garantiert Qualität und verhindert Oxidation</li></ul>"
+        "TITLE": "Hurrikanfeste Struktur für Tournament+ Padelplätze",
+        "SUBTITLE": "Erleben Sie die perfekte Kombination aus struktureller Widerstandskraft und ästhetischer Brillanz!",
+        "TEXT": "<p>Hergestellt aus verzinkten <strong>S275JR</strong>-Stahlprofilen für Abrieb- und Korrosionsbeständigkeit.</p><p>Seiten- und Oberrahmen bestehen aus elektroschweißtem Gitter gemäß UNE-EN-10223-4 Normen mit Zwischenstützen zur Vibrationskontrolle.</p><p>Ein spezielles System von <strong>8 abnehmbaren Stahlstützen</strong> bietet Anpassungsfähigkeit an verschiedene Klimazonen und gewährleistet gleichzeitig langfristige Widerstandsfähigkeit.</p><p>Schnelle Montage mit verzinkten, selbstsichernden Schrauben und Muttern.</p><p>Unser fortschrittlicher Herstellungsprozess umfasst:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Lasergeschnittener Stahl sorgt für Präzision und saubere Oberflächen</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Roboterschweißen garantiert Qualität und verhindert Oxidation</li></ul>"
       },
       "SIZING_SECTION": {
         "ID": "measure-section",
-        "TITLE": "Maße des Panoramic Force 80 Platzes",
+        "TITLE": "Abmessungen des Tournament+ Platzes",
         "INDOOR_TITLE": "Innen",
         "OUTDOOR_TITLE": "Außen",
-        "OUTDOOR": "<p><strong>Länge</strong>: 22,70 m x 12,66 m </p>",
-        "INDOOR": "<p><strong>Länge</strong>: 20 m x 10 m </p>",
+        "OUTDOOR": "<p><strong>Länge</strong>: 22,70 m x 12,66 m</p>",
+        "INDOOR": "<p><strong>Länge</strong>: 20 m x 10 m</p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/panoramic-force-80/panoramic-Force-80-sizing.webp",
@@ -1713,38 +1720,44 @@
           "height": 323,
           "alt": "Mobiler Platz, patentiert von Portico Sport"
         },
-        "TITLE": "Hochwertiges Sicherheitsglas für hurrikanresistente Padelplätze",
+        "TITLE": "Premium-Sicherheitsglas für hurrikanfeste Padelplätze",
         "SUBTITLE": "Gehärtetes Sicherheitsglas in jedem Platz!",
-        "DESCRIPTION": "<p>Unsere hurrikanresistenten Padelplätze verfügen über <strong>12 mm CE-zertifiziertes gehärtetes Sicherheitsglas</strong> von führenden spanischen Herstellern.</p><p>Polierte Kanten, Neoprendichtungen und verzinkte Befestigungen sorgen für Sicherheit, Stabilität und exzellente Sicht. Das Glas ist stoßfest, langlebig und entspricht allen europäischen Normen für professionelles Spiel.</p>"
+        "DESCRIPTION": "<p>Unsere hurrikanfesten Padelplätze verfügen über <strong>12 mm CE-zertifiziertes gehärtetes Sicherheitsglas</strong> führender spanischer Hersteller.</p><p>Polierte Kanten, Neoprendichtungen und verzinkte Befestigungen gewährleisten Sicherheit, Stabilität und hervorragende Sichtbarkeit. Entwickelt für Stoßfestigkeit und langfristige Leistung erfüllt das Glas alle europäischen Standards für professionelles Spiel.</p>"
       },
       "PAINT_SECTION": {
         "ID": "paint-section",
         "TITLE": "Langlebige Lackierungen für Padelplatzstrukturen",
-        "DESCRIPTION": "<p>Verleihen Sie Ihrem Platz Persönlichkeit mit einer Auswahl an RAL-Farben, ein- oder zweifarbigen Designs und langlebigen Lackoptionen:</p>",
-        "IMAGES": [{
-          "id": "slide-1",
-          "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
-          "alt": "Oranger lackierter mobiler Platz"
-        },{
-          "id": "slide-2",
-          "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
-          "alt": "Oranger lackierter mobiler Platz"
-        }, {
+        "DESCRIPTION": "<p>Verleihen Sie Ihrem Platz Persönlichkeit mit Ihrer Wahl an RAL-Farben, einfarbigen oder zweifarbigen Designs mit langlebigen Lackoptionen:</p>",
+        "IMAGES": [
+          {
+            "id": "slide-1",
+            "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
+            "alt": "Orange lackierter mobiler Platz"
+          },
+          {
+            "id": "slide-2",
+            "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
+            "alt": "Orange lackierter mobiler Platz"
+          },
+          {
           "id": "slide-5",
-          "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
-          "alt": "Gelber lackierter mobiler Platz"
-        },{
-          "id": "slide-6",
-          "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
-          "alt": "Blaue lackierte Struktur"
-        },{
-          "id": "slide-10",
-          "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
-          "alt": "Blaue lackierte Struktur"
-        }],
+            "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
+            "alt": "Gelb lackierter mobiler Platz"
+          },
+          {
+            "id": "slide-6",
+            "src": "/courts-detail/mobile/structure-painted-mobile-6.webp",
+            "alt": "Blau lackierte Struktur"
+          },
+          {
+            "id": "slide-10",
+            "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
+            "alt": "Blau lackierte Struktur"
+          }
+        ],
         "LIST": [
           "<strong>INNEN:</strong> Pulverbeschichtung mit thermofusiblen Harzen",
-          "<strong>AUßEN:</strong> Zinkhaltige Grundierung + Pulverbeschichtung für Korrosionsschutz",
+          "<strong>AUßEN:</strong> Zinkreiche thermofusible Grundierung + Pulverbeschichtung zum Korrosionsschutz",
           "<strong>FEUERVERZINKT:</strong> Zinkbadbehandlung + Pulverbeschichtung für marine oder feuchte Umgebungen"
         ]
       },
@@ -1752,24 +1765,24 @@
         "ID": "turf-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-top.webp",
-          "alt": "Draufsicht eines mobilen Platzes"
+          "alt": "Mobiler Platz Draufsicht"
         },
         "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Hochleistungsrasen für professionelle Padelplätze</span>",
-        "SUBTITLE": "Erleben Sie unübertroffene Leistung auf unserem Rasen!",
-        "DESCRIPTION": "<p>Unser <strong>Rasen der neuesten Generation</strong> von vertrauenswürdigen europäischen Herstellern garantiert professionelle Leistung.</p><p>Jeder Padelplatz umfasst:</p>",
+        "SUBTITLE": "Erleben Sie unvergleichliche Leistung auf unserem Rasen!",
+        "DESCRIPTION": "<p>Unser <strong>Rasen der neuesten Generation</strong> von renommierten europäischen Herstellern sorgt für professionelle Leistung.</p><p>Jeder Padelplatz umfasst:</p>",
         "DESCRIPTION_DOS": "Unser Rasen bietet ein professionelles Spielerlebnis in verschiedenen Farben und Faserarten.",
-        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Polyethylenrasen der neuen Generation mit texturierten Monofilamenten</li><li>UV-beständig, geringe Abrasion, stabil bei Hitze und Witterung</li><li>Quarzsandfüllung (10-15 kg/m²) für optimiertes Ballverhalten</li></ul>"
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Polyethylenrasen der neuesten Generation mit strukturierten Monofilamenten</li><li>UV-beständig, geringe Abnutzung, stabil bei Hitze und Wetter</li><li>Quarzsandfüllung (10–15 kg/m²) für optimales Ballverhalten und Geschwindigkeit</li></ul>"
       },
       "LIGHTING_SECTION": {
         "ID": "lighting-section",
         "IMAGE": {
           "src": "/courts-detail/mobile/mobile-lighting.webp",
-          "alt": "Beleuchtung eines mobilen Platzes"
+          "alt": "Beleuchtung mobiler Platz"
         },
         "TITLE": "Professionelle LED-Beleuchtungssysteme für Padelplätze",
         "SUBTITLE": "Beleuchten Sie Ihr Spiel mit der Beleuchtung von Portico Sport!",
-        "DESCRIPTION": "<p>Erhellen Sie Ihren Padelplatz mit hochwertigen <strong>LED-Lösungen</strong>, in Zusammenarbeit mit führenden Spezialisten.</p>",
-        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Vollständig konform mit <strong>UNE-EN-12193:2020</strong></li><li>Gleichmäßiges Licht ohne Blendung oder Schatten</li><li>Stoßfestigkeit IK10, wasserdicht IP66–IP67</li><li>Überspannungsschutz (4kV - 6kV), hohe Wärmeableitung</li><li>Geeignet für Freizeitnutzung (Klasse III) und Profiwettbewerbe (Klasse I, NIDE-Norm)</li><li>5 Jahre Garantie</li></ul>"
+        "DESCRIPTION": "<p>Erhellen Sie Ihren Padelplatz mit hochwertigen <strong>LED-Beleuchtungslösungen</strong> in Zusammenarbeit mit führenden Spezialisten.</p>",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Vollständig konform mit <strong>UNE-EN-12193:2020</strong></li><li>Einheitliche Beleuchtung ohne Blendung oder Schatten</li><li>Stoßfestigkeit IK10, IP66–IP67 wasserdicht</li><li>Überspannungsschutz (4kV–6kV), hohe Wärmeableitung</li><li>Geeignet für Freizeitnutzung (Klasse III) und professionelle Events (Klasse I, NIDE-Standard)</li><li>5 Jahre Garantie</li></ul>"
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
@@ -1778,44 +1791,44 @@
       },
       "COURTS_SECTION": {
         "TITLE": "Entdecken Sie andere Padelplätze",
-        "DESCRIPTION": "Möchten Sie etwas anderes? Sie können andere Padelplatzmodelle sehen"
+        "DESCRIPTION": "Andere Padelplatztypen von Portico Sport"
       },
       "CONTACT_SECTION": {
         "ID": "contact",
-        "SUBJECT": "Neue Petition vom Panoramischen Force 80 Gericht",
-        "TITLE": "Nachrichten",
+        "SUBJECT": "Neue Anfrage für Tournament+ Court",
+        "TITLE": "Neuigkeiten",
         "BG_IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-contact-bg.webp",
         "IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-court-contact.webp"
       },
-      "HOME_DESCRIPTION": "<p>Das Panoramische Force 80 ist das robusteste und aufregendste Padelgericht auf dem Markt. Entwickelt, um Winde von bis zu 80 m/s standzuhalten, bietet es maximale Beständigkeit gegen jede Wetterbedingung, während es Ihrem Club eine Note von Eleganz und Modernität hinzufügt.</p>",
+      "HOME_DESCRIPTION": "<p>Das Tournament+ Modell ist darauf ausgelegt, Hurrikanwinden der Kategorie 5 standzuhalten. Dieser Platz kombiniert die Robustheit unseres erfolgreichen Club Force 80 Modells mit der spektakulären Optik unserer Panoramic Courts.</p>",
       "HOME_IMAGES": [
         {
           "id": "slide-1",
           "src": "/courts/panoramic-force-80-court-01.webp",
           "width": 574,
           "height": 323,
-          "alt": "Panorama-Force-80-Padelplatz"
+          "alt": "Panoramic Force 80 Padelplatz"
         },
         {
           "id": "slide-2",
           "src": "/courts/panoramic-force-80-court-02.webp",
           "width": 574,
           "height": 323,
-          "alt": "Panorama-Force-80-Padelplatz"
+          "alt": "Panoramic Force 80 Padelplatz"
         },
         {
           "id": "slide-3",
           "src": "/courts/panoramic-force-80-court-03.webp",
           "width": 574,
           "height": 323,
-          "alt": "Panorama-Force-80-Padelplatz"
+          "alt": "Panoramic Force 80 Padelplatz"
         },
         {
           "id": "slide-4",
           "src": "/courts/panoramic-force-80-court-04.webp",
           "width": 574,
           "height": 323,
-          "alt": "Panorama-Force-80-Padelplatz"
+          "alt": "Panoramic Force 80 Padelplatz"
         }
       ]
     },
