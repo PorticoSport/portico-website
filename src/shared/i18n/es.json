@@ -3145,6 +3145,55 @@
         "BG_IMAGE": "pickleball/thumbnails/pickleball-4.webp"
       }
     },
+    "ALL_COURTS": {
+      "SEO_TITLE": "Pistas de pádel de Portico Sport | Calidad y diseño premium",
+      "TYPE": "PRODUCT",
+      "SEO_DESCRIPTION": "Descubre la gama de pistas de pádel premium de Portico Sport. Resistentes, personalizables y diseñadas para clubes que buscan el máximo rendimiento en todo el mundo.",
+      "OG_IMG": "https://www.porticosport.com/og/og-elevated-platform.jpg",
+      "ID": "allcourts",
+      "TITLE": "Explora nuestras pistas de pádel",
+      "DESCRIPTION": "Portico Sport diseña y fabrica pistas de pádel premium construidas para ofrecer resistencia, durabilidad y una experiencia de juego profesional. Descubre el modelo que mejor se adapta a tu club.",
+      "CONTACT_BUTTON": "Quiero una pista All Courts",
+      "ROUTE": {
+        "LABEL": "Todas las pistas",
+        "URL": "/all-courts"
+      },
+      "BUTTON_TOURNAMENT_COURT": {
+        "LABEL": "Más sobre la pista Tournament",
+        "TITLE": "Constructores de pistas de pádel",
+        "URL": "/tournament"
+      },
+      "BUTTON_PANORAMIC_PADEL_COURT": {
+        "LABEL": "Más sobre la pista Panoramic",
+        "TITLE": "Constructores de pistas de pádel",
+        "URL": "/panoramic"
+      },
+      "BUTTON_CLUB_COURT": {
+        "LABEL": "Más sobre la pista Club",
+        "TITLE": "Constructores de pistas de pádel",
+        "URL": "/club"
+      },
+      "BUTTON_CLUB_PLUS": {
+        "LABEL": "Más sobre la pista Club+",
+        "TITLE": "Constructores de pistas de pádel",
+        "URL": "/club-plus"
+      },
+      "BUTTON_TOURNAMENT_PLUS": {
+        "LABEL": "Más sobre la pista Tournament+",
+        "TITLE": "Constructores de pistas de pádel",
+        "URL": "/tournament-plus"
+      },
+      "BUTTON_SINGLE": {
+        "LABEL": "Más sobre la pista Single",
+        "TITLE": "Constructores de pistas de pádel",
+        "URL": "/single"
+      },
+      "BUTTON_MINI_COURT": {
+        "LABEL": "Más sobre la pista Mini",
+        "TITLE": "Constructores de pistas de pádel",
+        "URL": "/mini"
+      }
+    },
     "PROJECTS": {
       "ID": "proyectos",
       "TYPE": "PRODUCT",
