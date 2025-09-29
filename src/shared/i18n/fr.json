@@ -3081,6 +3081,55 @@
         "href": "elevated-platform"
       }
     },
+    "ALL_COURTS": {
+      "SEO_TITLE": "Terrains de padel par Portico Sport | Qualité & Design Premium",
+      "TYPE": "PRODUCT",
+      "SEO_DESCRIPTION": "Découvrez la gamme de terrains de padel premium de Portico Sport. Durables, personnalisables et conçus pour les clubs recherchant des performances de haut niveau dans le monde entier.",
+      "OG_IMG": "https://www.porticosport.com/og/og-elevated-platform.jpg",
+      "ID": "allcourts",
+      "TITLE": "Découvrez nos terrains de padel",
+      "DESCRIPTION": "Portico Sport conçoit et fabrique des terrains de padel premium, conçus pour la solidité, la durabilité et une expérience de jeu professionnelle. Trouvez le modèle qui convient le mieux à votre club.",
+      "CONTACT_BUTTON": "Je veux un terrain All Courts",
+      "ROUTE": {
+        "LABEL": "Tous les terrains",
+        "URL": "/all-courts"
+      },
+      "BUTTON_TOURNAMENT_COURT": {
+        "LABEL": "En savoir plus sur le terrain Tournament",
+        "TITLE": "Constructeurs de terrains de padel",
+        "URL": "/tournament"
+      },
+      "BUTTON_PANORAMIC_PADEL_COURT": {
+        "LABEL": "En savoir plus sur le terrain Panoramic",
+        "TITLE": "Constructeurs de terrains de padel",
+        "URL": "/panoramic"
+      },
+      "BUTTON_CLUB_COURT": {
+        "LABEL": "En savoir plus sur le terrain Club",
+        "TITLE": "Constructeurs de terrains de padel",
+        "URL": "/club"
+      },
+      "BUTTON_CLUB_PLUS": {
+        "LABEL": "En savoir plus sur le terrain Club+",
+        "TITLE": "Constructeurs de terrains de padel",
+        "URL": "/club-plus"
+      },
+      "BUTTON_TOURNAMENT_PLUS": {
+        "LABEL": "En savoir plus sur le terrain Tournament+",
+        "TITLE": "Constructeurs de terrains de padel",
+        "URL": "/tournament-plus"
+      },
+      "BUTTON_SINGLE": {
+        "LABEL": "En savoir plus sur le terrain Single",
+        "TITLE": "Constructeurs de terrains de padel",
+        "URL": "/single"
+      },
+      "BUTTON_MINI_COURT": {
+        "LABEL": "En savoir plus sur le terrain Mini",
+        "TITLE": "Constructeurs de terrains de padel",
+        "URL": "/mini"
+      }
+    },
     "PROJECTS": {
       "ID": "projets",
       "TYPE": "PRODUCT",
