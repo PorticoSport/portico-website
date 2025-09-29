@@ -3147,6 +3147,55 @@
         "href": "elevated-platform"
       }
     },
+    "ALL_COURTS": {
+      "SEO_TITLE": "Padelplätze von Portico Sport | Premiumqualität & Design",
+      "TYPE": "PRODUCT",
+      "SEO_DESCRIPTION": "Entdecken Sie die Premium-Padelplätze von Portico Sport. Langlebig, individuell anpassbar und entwickelt für Clubs, die weltweit höchste Leistung suchen.",
+      "OG_IMG": "https://www.porticosport.com/og/og-elevated-platform.jpg",
+      "ID": "allcourts",
+      "TITLE": "Entdecken Sie unsere Padelplätze",
+      "DESCRIPTION": "Portico Sport entwirft und fertigt Premium-Padelplätze, die für Stärke, Langlebigkeit und ein professionelles Spielerlebnis gebaut sind. Finden Sie das Modell, das am besten zu Ihrem Club passt.",
+      "CONTACT_BUTTON": "Ich möchte einen All Courts Platz",
+      "ROUTE": {
+        "LABEL": "Alle Plätze",
+        "URL": "/all-courts"
+      },
+      "BUTTON_TOURNAMENT_COURT": {
+        "LABEL": "Mehr über den Tournament Padelplatz",
+        "TITLE": "Padelplatz-Bauer",
+        "URL": "/tournament"
+      },
+      "BUTTON_PANORAMIC_PADEL_COURT": {
+        "LABEL": "Mehr über den Panoramic Padelplatz",
+        "TITLE": "Padelplatz-Bauer",
+        "URL": "/panoramic"
+      },
+      "BUTTON_CLUB_COURT": {
+        "LABEL": "Mehr über den Club Padelplatz",
+        "TITLE": "Padelplatz-Bauer",
+        "URL": "/club"
+      },
+      "BUTTON_CLUB_PLUS": {
+        "LABEL": "Mehr über den Club+ Padelplatz",
+        "TITLE": "Padelplatz-Bauer",
+        "URL": "/club-plus"
+      },
+      "BUTTON_TOURNAMENT_PLUS": {
+        "LABEL": "Mehr über den Tournament+ Padelplatz",
+        "TITLE": "Padelplatz-Bauer",
+        "URL": "/tournament-plus"
+      },
+      "BUTTON_SINGLE": {
+        "LABEL": "Mehr über den Single Padelplatz",
+        "TITLE": "Padelplatz-Bauer",
+        "URL": "/single"
+      },
+      "BUTTON_MINI_COURT": {
+        "LABEL": "Mehr über den Mini Padelplatz",
+        "TITLE": "Padelplatz-Bauer",
+        "URL": "/mini"
+      }
+    },
     "PROJECTS": {
       "ID": "projects",
       "TYPE": "PRODUCT",
