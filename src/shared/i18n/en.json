@@ -5295,6 +5295,55 @@
         "href": "elevated-platform"
       }
     },
+    "ALL_COURTS": {
+      "SEO_TITLE": "Padel Courts by Portico Sport | Premium Quality & Design",
+      "TYPE": "PRODUCT",
+      "SEO_DESCRIPTION": "Discover Portico Sport’s range of premium padel courts. Durable, customizable, and engineered for clubs seeking top performance worldwide.",
+      "OG_IMG": "https://www.porticosport.com/og/og-elevated-platform.jpg",
+      "ID": "allcourts",
+      "TITLE": "Explore Our Padel Courts",
+      "DESCRIPTION": "Portico Sport designs and manufactures premium padel courts built for strength, durability, and a professional playing experience. Discover the model that best fits your club.",
+      "CONTACT_BUTTON": "I want a All Courts Court",
+      "ROUTE": {
+        "LABEL": "All Courts",
+        "URL": "/all-courts"
+      },
+      "BUTTON_TOURNAMENT_COURT": {
+        "LABEL":"More about Tournament Padel court",
+        "TITLE":"Padel Court Builders",
+        "URL":"/tournament"
+      },
+      "BUTTON_PANORAMIC_PADEL_COURT": {
+        "LABEL":"More about Panoramic Padel court",
+        "TITLE":"Padel Court Builders",
+        "URL":"/panoramic"
+      },
+      "BUTTON_CLUB_COURT": {
+        "LABEL":"More about Club Padel court",
+        "TITLE":"Padel Court Builders",
+        "URL":"/club"
+      },
+      "BUTTON_CLUB_PLUS": {
+        "LABEL":"More about Club+ Padel court",
+        "TITLE":"Padel Court Builders",
+        "URL":"/club-plus"
+      },
+      "BUTTON_TOURNAMENT_PLUS": {
+        "LABEL":"More about Club+ Padel court",
+        "TITLE":"Padel Court Builders",
+        "URL":"/tournament-plus"
+      },
+      "BUTTON_SINGLE": {
+        "LABEL":"More about Single Padel court",
+        "TITLE":"Padel Court Builders",
+        "URL":"/single"
+      },
+      "BUTTON_MINI_COURT": {
+        "LABEL":"More about Mini Padel court",
+        "TITLE":"Padel Court Builders",
+        "URL":"/mini"
+      }
+    },
     "PROJECTS": {
       "ID": "projects",
       "SEO_TITLE": "Portico Sport's Latest Projects",
