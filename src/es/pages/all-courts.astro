@@ -1,0 +1,8 @@
+---
+import AllCourts from "@/shared/components/pages/AllCourts.astro"
+import { LANGUAGES } from "@/shared/i18n/constants"
+import projectsGallery from "@/en/data/projects-gallery.json"
+import reviews from "@/en/data/reviews.json"
+---
+
+<AllCourts language={LANGUAGES.ES} projectsGallery={projectsGallery} reviews={reviews}/>
