@@ -5343,6 +5343,11 @@
         "LABEL":"More about Mini Padel court",
         "TITLE":"Padel Court Builders",
         "URL":"/mini"
+      },
+      "BUTTON_MOBILE_COURT": {
+        "LABEL":"More about Mobile Padel court",
+        "TITLE":"Padel Court Builders",
+        "URL":"/mobile"
       }
     },
     "PROJECTS": {
