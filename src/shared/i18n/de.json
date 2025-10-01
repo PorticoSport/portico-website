@@ -3195,6 +3195,11 @@
         "LABEL": "Mehr über den Mini Padelplatz",
         "TITLE": "Padelplatz-Bauer",
         "URL": "/mini"
+      },
+      "BUTTON_MOBILE_COURT": {
+        "LABEL":"More about Mobile Padel court",
+        "TITLE":"Padel Court Builders",
+        "URL":"/mobile"
       }
     },
     "PROJECTS": {
