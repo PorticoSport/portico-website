@@ -3193,6 +3193,11 @@
         "LABEL": "Más sobre la pista Mini",
         "TITLE": "Constructores de pistas de pádel",
         "URL": "/mini"
+      },
+      "BUTTON_MOBILE_COURT": {
+        "LABEL":"More about Mobile Padel court",
+        "TITLE":"Padel Court Builders",
+        "URL":"/mobile"
       }
     },
     "PROJECTS": {
