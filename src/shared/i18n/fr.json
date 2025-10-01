@@ -3129,6 +3129,11 @@
         "LABEL": "En savoir plus sur le terrain Mini",
         "TITLE": "Constructeurs de terrains de padel",
         "URL": "/mini"
+      },
+      "BUTTON_MOBILE_COURT": {
+        "LABEL":"More about Mobile Padel court",
+        "TITLE":"Padel Court Builders",
+        "URL":"/mobile"
       }
     },
     "PROJECTS": {
