@@ -59,14 +59,14 @@ export const courtsGrid = (i18n: any) => {
       }
     },
     {
-      title: i18n.PAGES.CLUB_FORCE_80_COURT.TITLE,
-      description: i18n.PAGES.CLUB_FORCE_80_COURT.LITTLE_DESCRIPTION,
-      url: i18n.PAGES.CLUB_FORCE_80_COURT.ROUTE.URL,
-      label: i18n.PAGES.CLUB_FORCE_80_COURT.ROUTE.LABEL,
-      more: i18n.PAGES.CLUB_FORCE_80_COURT.ROUTE.LABEL,
+      title: i18n.PAGES.CLUB_PLUS.TITLES,
+      description: i18n.PAGES.CLUB_PLUS.LITTLE_DESCRIPTION,
+      url: i18n.PAGES.CLUB_PLUS.ROUTE.URL,
+      label: i18n.PAGES.CLUB_PLUS.ROUTE.LABEL,
+      more: i18n.PAGES.CLUB_PLUS.ROUTE.LABEL,
       image: {
-        src: i18n.PAGES.CLUB_FORCE_80_COURT.CONTACT_SECTION.IMAGE,
-        alt: i18n.PAGES.CLUB_FORCE_80_COURT.NAME,
+        src: i18n.PAGES.CLUB_PLUS.CONTACT_SECTION.IMAGE,
+        alt: i18n.PAGES.CLUB_PLUS.NAME,
       }
     },
     {
