@@ -84,12 +84,6 @@ bgClass="brightness-50 md:object-[center_-100px] md:object-cover"
 
         <div class="bg-slate-100 w-full">
             <div class="w-full flex flex-col md:flex-row p-8">
-                <div class="w-full md:w-1/2 flex items-center justify-center order-2 md:order-2">
-                    <img 
-                    src="/courts-detail/tournament/tournament-perspective.webp"
-                    class="w-full h-48 md:h-80 object-contain rounded pb-7"
-                    />
-                </div>
                 <div class="w-full md:w-1/2 flex items-center justify-center text-center p-4 order-1 md:order-2">
                     <div>
                         <Typography tag="h2" type="black" className="uppercase mb-6 font-bold" text={i18n.PAGES.PANORAMIC_COURT.TITLE} responsive />
@@ -101,11 +95,23 @@ bgClass="brightness-50 md:object-[center_-100px] md:object-cover"
                         </Button>
                     </div>
                 </div>
+                <div class="w-full md:w-1/2 flex items-center justify-center order-2 md:order-2">
+                    <img 
+                    src="/courts-detail/tournament/tournament-perspective.webp"
+                    class="w-full h-48 md:h-80 object-contain rounded pb-7"
+                    />
+                </div>
             </div>
         </div>
 
         <div class="w-full">
             <div class="w-full flex flex-col md:flex-row p-8">
+                <div class="w-full md:w-1/2 flex items-center justify-center">
+                    <img 
+                    src="/courts-detail/tournament/tournament-court-contact.webp"
+                    class="w-full h-48 md:h-80 object-contain rounded pb-7"
+                    />
+                </div>
                 <div class="w-full md:w-1/2 flex items-center justify-center text-center p-4">
                     <div>
                         <Typography tag="h2" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.TOURNAMENT_COURT.TITLE} responsive />
@@ -117,23 +123,11 @@ bgClass="brightness-50 md:object-[center_-100px] md:object-cover"
                         </Button>
                     </div>
                 </div>
-                <div class="w-full md:w-1/2 flex items-center justify-center">
-                    <img 
-                    src="/courts-detail/tournament/tournament-court-contact.webp"
-                    class="w-full h-48 md:h-80 object-contain rounded pb-7"
-                    />
-                </div>
             </div>
         </div>
 
         <div class="bg-slate-100 w-full">
             <div class="w-full flex flex-col md:flex-row p-8">
-                <div class="w-full md:w-1/2 flex items-center justify-center order-2 md:order-2">
-                    <img 
-                    src="/courts-detail/panoramic-force-80/panoramic-force-80-court-contact.webp"
-                    class="w-full h-48 md:h-80 object-contain rounded pb-7"
-                    />
-                </div>
                 <div class="w-full md:w-1/2 flex items-center justify-center text-center p-4 order-1 md:order-2">
                     <div>
                         <Typography tag="h2" type="black" className="uppercase mb-6 font-bold" text={i18n.PAGES.PANORAMIC_FORCE_80_COURT.TITLE} responsive />
@@ -144,6 +138,12 @@ bgClass="brightness-50 md:object-[center_-100px] md:object-cover"
                             {i18n.PAGES.ALL_COURTS.BUTTON_TOURNAMENT_PLUS.LABEL}
                         </Button>
                     </div>
+                </div>
+                <div class="w-full md:w-1/2 flex items-center justify-center order-2 md:order-2">
+                    <img 
+                    src="/courts-detail/panoramic-force-80/panoramic-force-80-court-contact.webp"
+                    class="w-full h-48 md:h-80 object-contain rounded pb-7"
+                    />
                 </div>
             </div>
         </div>
