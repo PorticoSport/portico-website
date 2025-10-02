@@ -5315,16 +5315,6 @@
         "LABEL": "All Courts",
         "URL": "/all-courts"
       },
-      "BUTTON_TOURNAMENT_COURT": {
-        "LABEL":"More about Tournament Padel court",
-        "TITLE":"Padel Court Builders",
-        "URL":"/tournament"
-      },
-      "BUTTON_PANORAMIC_PADEL_COURT": {
-        "LABEL":"More about Panoramic Padel court",
-        "TITLE":"Padel Court Builders",
-        "URL":"/panoramic"
-      },
       "BUTTON_CLUB_COURT": {
         "LABEL":"More about Club Padel court",
         "TITLE":"Padel Court Builders",
@@ -5335,8 +5325,18 @@
         "TITLE":"Padel Court Builders",
         "URL":"/club-plus"
       },
+      "BUTTON_PANORAMIC_PADEL_COURT": {
+        "LABEL":"More about Panoramic Padel court",
+        "TITLE":"Padel Court Builders",
+        "URL":"/panoramic"
+      },
+      "BUTTON_TOURNAMENT_COURT": {
+        "LABEL":"More about Tournament Padel court",
+        "TITLE":"Padel Court Builders",
+        "URL":"/tournament"
+      },
       "BUTTON_TOURNAMENT_PLUS": {
-        "LABEL":"More about Club+ Padel court",
+        "LABEL":"More about Tournament+ Padel court",
         "TITLE":"Padel Court Builders",
         "URL":"/tournament-plus"
       },
