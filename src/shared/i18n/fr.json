@@ -1,12 +1,12 @@
 {
   "PAGES": {
     "HOME": {
-      "SEO_TITLE": "Portico Sport : Terrains de Padel et Auvents dans le monde entier",
-      "SEO_DESCRIPTION": "Construction de premier plan de Terrains de Padel et installation de auvents à l'échelle mondiale. Découvrez dès aujourd'hui nos solutions sur mesure !",
+      "SEO_TITLE": "Construction et installation de courts de padel en France",
+      "SEO_DESCRIPTION": "Fabricant et constructeur de courts de padel clé en main. Obtenez un devis clair sur le coût de construction et l'installation de votre court.",
       "SEO_KEYWORDS":"Terrain de padel, Padel, Padel intérieur, Padel extérieur",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
       "SUBTITLE": "Construction et Installation de Terrains de Padel et d'Auvents dans le monde entier",
-      "TITLE": "Constructeurs de terrains de padel",
+      "TITLE": "Fournisseurs et constructeurs de terrains de padel en France",
       "SLOGAN": "Thinking Padel, Thinking Portico Sport",
       "CONTACT_BUTTON": {
         "LABEL": "Contactez-nous",
@@ -19,9 +19,15 @@
       },
       "INTRO_SECTION": {
         "ID": "intro",
-        "TITLE": "Bienvenue chez Portico Sport<br />Avantages de notre construction de Terrains de Padel",
+        "TITLE": "Construction de terrains de padel: planification et installation clé en main",
         "DESCRIPTION": "<p>Basé en Espagne, Portico Sport incarne la qualité, l’innovation et l’excellence du service client. Forts d’une solide expertise en ingénierie, nous proposons une solution clé en main complète, combinant terrains de padel et structures couvertes sportives—<strong>100 % conçues et fabriquées en interne</strong> pour un contrôle total de la qualité.</p> <p>En 2023, nous avons inauguré un nouveau site de production de plus de 10 000 m², faisant de Portico Sport <strong>le plus grand fabricant de terrains de padel et le plus avancé technologiquement</strong> du secteur. Cette installation nous permet de garantir une production rapide et de haute qualité—que vous recherchiez un fournisseur de terrains de padel indoor, outdoor ou un projet entièrement personnalisé.</p>",
-        "TITLE_2":"<p><strong>Leader mondial</strong> dans la construction et la fourniture de terrains de padel haut de gamme et de structures couvertes sportives</p>",
+        "TITLE_2":"<p>Terrains de padel et structures sportives couvertes professionnelles, référence mondiale</p>",
+        "TITLE_3":"<h3 class=\"text-black text-2xl font-bold strong\">ans</h3>",
+        "TITLE_4":"<h3 class=\"text-black text-2xl font-bold strong\">pays</h3>",
+        "TITLE_5":"<h3 class=\"text-black text-2xl font-bold strong\">courts de padel</h3>",
+        "DESCRIPTION_2": "<strong class=\"text-gray-500 text-md font-semibold\">d’expérience</strong>",
+        "DESCRIPTION_3": "<strong class=\"text-gray-500 text-md font-semibold\">– Présence -</strong>",
+        "DESCRIPTION_4": "<strong class=\"text-gray-500 text-md font-semibold\">– dans le monde entier -</strong>",
         "BUTTON": {
           "LABEL": "Prêt à construire ? Parlons de votre prochain projet — contactez notre équipe dès aujourd’hui",
           "URL": "/contact-client",
@@ -74,7 +80,7 @@
       },
       "COURTS_SECTION": {
         "ID": "padel-courts",
-        "TITLE": "Terrains de Padel",
+        "TITLE": "Installation et types de courts de padel disponibles",
         "DESCRIPTION": "Découvrez tous nos Terrains de Padel",
         "BUTTON":{
                   "TEXT":"Obtenez votre court de padel maintenant !",
@@ -3867,7 +3873,7 @@
   },
   "CONTACT_FORM": {
     "ID": "contact-form",
-    "TITLE": "Contactez nos experts en Terrains de Padel",
+    "TITLE": "Contactez-nous et découvrez le coût de construction d'un court de padel : Demandez votre devis",
     "CLOSE_BUTTON":"fermer",
     "TITLE_CANOPIES":"Contactez nos experts en auvents pour terrains de Padel",
     "DESCRIPTION": "<p>N'hésitez pas à contacter notre équipe d'experts pour plus d'informations sur les Terrains de Padel ! Nous sommes là pour répondre à toutes vos questions et vous aider à trouver le terrain qui correspond le mieux à vos besoins. De plus, si vous le souhaitez, nous pouvons également concevoir et construire votre propre Terrain personnalisé selon vos préférences et spécifications. Nous avons hâte de vous entendre bientôt !</p>",
