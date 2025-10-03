@@ -10,6 +10,11 @@
       "destination": "/$1",
       "has": [{ "type": "header", "key": "x-lowercase", "value": "true" }],
       "statusCode": 301
+    },
+    {
+      "source": "/panoramic-force-80",
+      "destination": "/tournament-plus",
+      "permanent": true
     }
   ],
   "rewrites": [
