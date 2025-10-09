@@ -37,7 +37,10 @@ const currentLocale = getCurrentLocale({ language });
 const category = getCategoryByLanguage({ language });
 
 const response = await fetch(
-  `https://portico.porticosport.com/wp-json/wp/v2/posts?categories=${category}&per_page=15&_embed`
+  `https://portico.porticosport.com/wp-json/wp/v2/posts?categories=${category}&per_page=15&_embed`,
+  {
+    cache: "force-cache",
+  }
 );
 // const response = await fetch(`https://portico.porticosport.com/wp-json/wp/v2/posts?per_page=6&_embed`)
 const posts = await response.json();
