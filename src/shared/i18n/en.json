@@ -4473,6 +4473,227 @@
         }
       ]
     },
+    "FRANCIA": {
+      "ID": "francia",
+      "SEO_TITLE":"Padel Court Construction and Instalation FR",
+      "SEO_DESCRIPTION":"Your expert partner for Padel Court Construction and Installation in France. FFT-compliant, high-quality builds from start to finish!",
+      "OG_IMG": "https://www.porticosport.com/og/og-mini.jpg",
+      "TITLE": "Padel court suppliers France",
+      "GALLERY":"fr-court/gallery/thumbnails",
+      "NAME": "Fr",
+      "ROUTE": {
+        "LABEL": "More about sau padel court",
+        "URL": "/france",
+        "TITLE": "Fr"
+      },
+      "INTRO_SECTION_FR":{
+        "ID":"intro",
+        "TITLE":"Padel court builders in France",
+        "DESCRIPTION":"<p>At Portico Sport, we are leading padel court suppliers in France, delivering premium courts that combine performance, durability, and style.</p><p>With decades of experience as international padel court manufacturers and installers, Portico Sport stands out as a reliable partner for clubs, private facilities, hotels, and municipalities across the country in bringing padel to life.</p>",
+        "BUTTON": {
+          "LABEL": "Start building your padel club",
+          "URL": "/www.porticosport.com/client-contact"
+        }
+      },
+      "PROJECTS_SECTION": {
+        "ID":"projects",
+        "DESCRIPTION":"Discover our portfolio of premium padel courts installed across France.",
+        "URL": {
+          "LABEL": "View our global padel court gallery",
+          "TITLE":"Padel court construction",
+          "URL": "/projects"
+        },
+        "ID_GALLERY": "projects-gallery-fr",
+        "TITLE_GALLERY":"Featured padel court installations in France",
+        "PATH":"fr-court/gallery/thumbnails"
+      },
+      "CONSTRUCTION":{
+        "TITLE":"Why choose Portico Sport for padel court construction in France",
+        "DESCRIPTION": "<p>As trusted padel court builders in France, our team provides turnkey padel court construction and installation in major cities such as Paris, Lyon, Marseille, Toulouse, Bordeaux, Lille, and Nice. Key benefits include:<p>",
+        "LIST": "<ul class=\"list-disc\"><li class=\"text-center\">Turnkey solutions for sports facilities and private investors</li><li class=\"text-center\">Tailored designs for indoor and outdoor installations</li><li class=\"text-center\">Advanced engineering and durable construction</li><li class=\"text-center\">Certified installers ensuring international standards</li><li class=\"text-center\">Local adaptation for climate, culture, and environment</li></ul>",
+        "DESCRIPTION_2":"<p>Beyond courts, Portico Sport offers other modular units and canopies, providing complete club facilities without the need for traditional construction. From reception areas and changing rooms to covered spectator areas, we help you build a fully functional padel club from day one.</p>"
+      },
+      "COMPANY": {
+        "TITLE":"Best padel courts company in France",
+        "DESCRIPTION": "<p>Portico Sport is recognized as one of the leading padel court companies worldwide, with a growing presence in France. Why clubs and investors choose us:<p>",
+        "LIST": "<ul class=\"list-disc\"><li class=\"text-center\">High-performance materials and reinforced structures</li><li class=\"text-center\">Customizable finishes to match local aesthetics</li><li class=\"text-center\">Courts designed to withstand diverse climates</li><li class=\"text-center\">Full solutions that attract players, enhance club <br> facilities, and ensure long-term value</li></ul>"
+      },
+      "BUILDING":{
+        "TITLE":"Cost of building a padel court in France",
+        "DESCRIPTION": "<p>If you’re wondering how much it costs to build a padel court in France, the price can vary depending on factors such as:<p>",
+        "LIST": "<ul class=\"list-disc\"><li class=\"text-center\">Location and city</li><li class=\"text-center\">Indoor or outdoor installation</li><li class=\"text-center\">Customization</li><li class=\"text-center\">Additional features</li></ul>",
+        "DESCRIPTION_2":"<p>Our team provides tailored consultations to help you understand pricing, potential ROI, and long-term value for clubs, municipalities, and investors.</p>",
+        "BUTTON": {
+          "LABEL": "Talk to our experts",
+          "TITLE":"Talk to our experts",
+          "URL": "/client-contact"
+        }
+      },
+      "COURT_EUROPE": {
+        "TITLE": "Padel court construction and installation across Europe",
+        "DESCRIPTION": "Portico Sport is proud to bring premium padel court construction and installation to clubs, resorts, and private facilities throughout Europe. Explore our projects and discover how we deliver customized courts, expert service, and durable solutions in countries across the continent.",
+        "BUTTON_DE": {
+          "TEXT": "Padel court company Deutchland",
+          "TITLE":"Padel court company Deutchland",
+          "URL": "/alemania"
+        },
+        "BUTTON_UK": {
+          "TEXT": "Padel court manufacturers UK",
+          "TITLE":"Padel court manufacturers UK",
+          "URL": "/uk"
+        },
+        "BUTTON_IRL": {
+          "TEXT": "Padel courts Irland",
+          "TITLE":"Padel courts Irland",
+          "URL": "/irl"
+        },
+        "BUTTON_GR": {
+          "TEXT": "Padel court suppliers Greece",
+          "TITLE":"Padel court suppliers Greece",
+          "URL": "/gr"
+        },
+        "BUTTON_CY": {
+          "TEXT": "Padel court construction Cyprus",
+          "TITLE":"Padel court construction Cyprus",
+          "URL": "/cy"
+        }
+      },
+      "PROJECTS_SLIDER": {
+        "ID":"projects",
+        "URL": {
+          "LABEL": "Discover more projects worldwide",
+          "TITLE":"Padel court construction",
+          "SRC": "/projects"
+        },
+        "ID_GALLERY": "projects-gallery-fr",
+        "TITLE_GALLERY":"Featured padel court installations in France",
+        "PATH":"fr-court/gallery"
+      },
+      "CONTACT_SECTION":{
+        "ID":"contact",
+        "TITLE":"Contact Portico Sport – Padel Court Suppliers in France",
+        "DESCRIPTION":"Contact us today to get a tailored quote from one of the leading padel court suppliers in France.",
+        "SUBTITLE_1":"Tailored advice for your Padel project",
+        "SUBTITLE_2":"Custom design and manufacturing",
+        "SUBTITLE_3":"General enquiries and initial consultations",
+        "SUBTITLE_4":"Comprehensive project management",
+        "BUTTON":{
+          "LABEL":"Get your tailored quote now",
+          "URL":"/client-contact"
+        }
+      }
+    },
+    "ALEMANIA": {
+      "ID": "alemania",
+      "SEO_TITLE":"Padel Court Builders Germany | High-quality",
+      "SEO_DESCRIPTION":"Premium Padel Court Builders in Germany. High-quality installation for clubs, resorts, and private use. Get your court ready to play!",
+      "OG_IMG": "https://www.porticosport.com/og/og-mini.jpg",
+      "TITLE": "Padel court construction in Germany",
+      "GALLERY":"fr-court/gallery/thumbnails",
+      "NAME": "De",
+      "ROUTE": {
+        "LABEL": "More about sau padel court",
+        "URL": "/alemania",
+        "TITLE": "De"
+      },
+      "INTRO_SECTION_DE":{
+        "ID":"intro",
+        "TITLE":"Trusted padel court builders across Germany",
+        "DESCRIPTION":"<p>Portico Sport delivers premium padel courts across Germany, combining durability, performance, and sleek design.</p><p>As experienced padel court manufacturers and installers, we support clubs, private facilities, hotels, and municipalities in creating exceptional padel experiences tailored to local culture and climate.</p>",
+        "BUTTON": {
+          "LABEL": "Start building your padel facility",
+          "URL": "/www.porticosport.com/client-contact"
+        }
+      },
+      "PROJECTS_SECTION": {
+        "ID":"projects",
+        "DESCRIPTION":"Explore our portfolio of high-quality padel courts installed across Germany, showcasing the expertise of Portico Sport in delivering customized solutions for clubs, hotels, and private facilities.",
+        "URL": {
+          "LABEL": "View our international padel court gallery",
+          "TITLE":"Padel court construction",
+          "URL": "/projects"
+        },
+        "ID_GALLERY": "projects-gallery-de",
+        "TITLE_GALLERY":"Premium padel court installations in Germany",
+        "PATH":"de-court/gallery/thumbnails"
+      },
+      "CONSTRUCTION":{
+        "TITLE":"Best padel court builders in Germany",
+        "DESCRIPTION": "<p>As one of Germany’s most trusted padel court builders, Portico Sport provides turnkey solutions for indoor and outdoor courts.<p><p>We design courts to perform in all climates, from Munich’s cold winters to Hamburg’s humid conditions.</p><p>Our certified installers ensure fast, reliable construction that meets international standards.</p>",
+        "TITLE_2":"Why padel clubs and investors choose us:",
+        "LIST": "<ul class=\"list-disc\"><li class=\"text-center\">Advanced engineering & long-lasting construction</li><li class=\"text-center\">Indoor & outdoor adaptable courts</li><li class=\"text-center\">Certified installation teams</li><li class=\"text-center\">Custom solutions for clubs, municipalities, and resorts</li></ul>"
+      },
+      "SUPPLIERS": {
+        "TITLE":"Padel court suppliers in Germany",
+        "DESCRIPTION": "<p>Portico Sport is a leading padel court supplier in Europe, with a growing presence in Germany.<p><p>Our courts integrate seamlessly into local culture and sports facilities, offering functionality, aesthetic appeal, and long-term value.</p>",
+        "TITLE_2":"Our padel courts stand out for:",
+        "LIST": "<ul class=\"list-disc\"><li class=\"text-center\">High-performance materials & reinforced steel structures</li><li class=\"text-center\">Customizable finishes to match your facility</li><li class=\"text-center\">Full club solutions: courts, canopies, modular units, and lighting...</li></ul>"
+      },
+      "BUILDING":{
+        "TITLE":"Cost of building a padel court with Portico Sport",
+        "DESCRIPTION": "<p>If you’re asking yourself how much it costs to build a padel court in Germany, the answer depends on several factors:<p>",
+        "LIST": "<ul class=\"list-disc\"><li class=\"text-center\">Indoor or outdoor installation</li><li class=\"text-center\">City and location requirements</li><li class=\"text-center\">Custom finishes and branding</li><li class=\"text-center\">Additional features like LED lighting or covered structures</li></ul>",
+        "DESCRIPTION_2":"<p>At Portico Sport, we provide personalized consultations to help clubs, investors, and municipalities understand the cost of building a padel court in Germany — always with a focus on long-term value and return on investment.</p>",
+        "BUTTON": {
+          "LABEL": "Talk to our padel experts",
+          "TITLE":"Talk to our padel experts",
+          "URL": "/client-contact"
+        }
+      },
+      "COURT_EUROPE": {
+        "TITLE": "Complete padel court solutions across Europe",
+        "DESCRIPTION": "Portico Sport delivers expert padel court construction and installation across Europe, including Germany. Beyond courts, we provide modular units and canopies, enabling a complete club setup—courts, amenities, and covered areas—ready for use from day one.",
+        "BUTTON_DE": {
+          "TEXT": "Padel court builder in France",
+          "TITLE":"Padel court builder in France",
+          "URL": "/france"
+        },
+        "BUTTON_UK": {
+          "TEXT": "Padel court manufacturers UK",
+          "TITLE":"Padel court manufacturers UK",
+          "URL": "/uk"
+        },
+        "BUTTON_IRL": {
+          "TEXT": "Padel courts Irland",
+          "TITLE":"Padel courts Irland",
+          "URL": "/irl"
+        },
+        "BUTTON_GR": {
+          "TEXT": "Padel court suppliers Greece",
+          "TITLE":"Padel court suppliers Greece",
+          "URL": "/gr"
+        },
+        "BUTTON_CY": {
+          "TEXT": "Padel court construction Cyprus",
+          "TITLE":"Padel court construction Cyprus",
+          "URL": "/cy"
+        }
+      },
+      "PROJECTS_SLIDER": {
+        "ID":"projects",
+        "URL": {
+          "LABEL": "Discover more projects worldwide",
+          "TITLE":"Padel court construction",
+          "SRC": "/projects"
+        },
+        "ID_GALLERY": "projects-gallery-de",
+        "TITLE_GALLERY":"Featured padel court installations in France",
+        "PATH":"de-court/gallery"
+      },
+      "CONTACT_SECTION":{
+        "ID":"contact",
+        "TITLE":"Contact Portico Sport – Padel court construction in Germany",
+        "DESCRIPTION":"Get a tailored quote from one of the leading padel court manufacturers and installers in Germany.",
+        "SUBTITLE_1":"Tailored advice for your Padel project",
+        "SUBTITLE_2":"Custom design and manufacturing",
+        "SUBTITLE_3":"General enquiries and initial consultations",
+        "SUBTITLE_4":"Comprehensive project management",
+        "BUTTON":{
+          "LABEL":"Contact Portico Sport Germany now",
+          "URL":"/client-contact"
+        }
+      }
+    },
     "OUR_COMPANY":{
            "ID":"our-company",
       "SEO_TITLE": "Portico Sport Company - Leader in padel courts & canopies design and manufacture",
