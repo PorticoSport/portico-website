@@ -15,6 +15,16 @@
       "source": "/panoramic-force-80",
       "destination": "/tournament-plus",
       "permanent": true
+    },
+    {
+      "source": "/fr",
+      "destination": "/france",
+      "permanent": true
+    },
+    {
+      "source": "/de",
+      "destination": "/alemania",
+      "permanent": true
     }
   ],
   "rewrites": [
