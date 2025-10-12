@@ -1,0 +1,292 @@
+---
+import { getI18N, getCurrentLocale } from "@/shared/i18n"
+import Section from '@/shared/components/Section.astro';
+import Typography from "@/shared/components/ui/Typography.astro";
+import Gallery from "../Gallery.astro"
+import Layout from "@/shared/layouts/Layout.astro";
+import "photoswipe/style.css";
+import Button from "src/shared/components/Button.astro";
+import ContactSectionEs from "@/shared/components/sections/ContactSectionIrl.astro";
+import { type Photo } from "@/types/types.ts";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import BentoItem from "@/shared/components/BentoItem.astro";
+import CarouselImages from "../CarouselImages";
+import SliderProjects from "../sections/SliderProjects.astro";
+import SectionCountries from "@/shared/components/sections/CountriesSection.astro";
+
+
+interface Props {
+  language: string
+  projectsGallery: Photo[]
+  gallery: Photo[]
+  buttonurl?: string;
+  buttontitle?: string;
+  buttontext?: string;
+}
+
+const { language, gallery, buttonurl, buttontitle, buttontext} = Astro.props
+const i18n = getI18N({ language })
+const currentLocale = getCurrentLocale({ language })
+
+const projectsGallery: Photo[] = [
+  { "src": "ProjectsFR-1.webp", "width": 1152, "height": 767, "alt": "Résidence de Vacances Paese Serenu in Corsica" },
+  { "src": "ProjectsFR-2.webp", "width": 1152, "height": 767, "alt": "David LLoyd Veigy in Veigy-Foncenex" },
+  { "src": "ProjectsFR-3.webp", "width": 1152, "height": 767, "alt": "Le Domaine d'Essendiéras in Essendiéras" },
+  { "src": "ProjectsFR-4.webp", "width": 1152, "height": 767, "alt": "Big Padel in Bordeaux Mérignac" },
+  { "src": "ProjectsFR-5.webp", "width": 1152, "height": 767, "alt": "Padel Garona in Toulouse" }
+];
+
+const sliderProjects: Photo[] = [
+  {
+    "src": "BigPadel3.webp",
+    "width": 1152,
+    "height": 767,
+    "alt": "BigPadel"
+  },
+  {
+    "src": "BigPadel8.webp",
+    "width": 1152,
+    "height": 767,
+    "alt": "BigPadel"
+  },
+  {
+    "src": "davidlloyd-2.webp",
+    "width": 1152,
+    "height": 767,
+    "alt": "davidlloyd"
+  },
+  {
+    "src": "Essendieras-2.webp",
+    "width": 1152,
+    "height": 767,
+    "alt": "Essendieras"
+  },
+  {
+    "src": "Essendieras-3.webp",
+    "width": 1152,
+    "height": 767,
+    "alt": "Essendieras"
+  }
+];
+---
+
+<Layout
+  title={i18n.PAGES.FRANCIA.SEO_TITLE}
+  description={i18n.PAGES.FRANCIA.SEO_DESCRIPTION}
+  currentLocale={currentLocale}
+  language={language}
+  bgImage="/fr-court/gallery/thumbnails/BigPadel4.webp"
+  bgClass="brightness-50 md:object-[center_-200px] md:object-cover"
+>
+  <main class="flex flex-col gradient-bg relative">
+
+    <div class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4">
+      <Typography tag="h1" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.FRANCIA.TITLE} responsive />
+    </div>
+
+    <div class="bg-main relative bg-background">
+
+      <div class="intro-section flex flex-wrap w-full h-auto">
+        <div class="flex flex-col md:flex-row w-full items-center pb-10">
+          <div class="m-2 md:w-1/2 text-center xs:m-auto">
+            <Typography tag="h2" className="font-bold mb-10" text={i18n.PAGES.FRANCIA.INTRO_SECTION_FR.TITLE} />
+            <Typography tag="div" className="ml-6 mr-6 mb-10" text={i18n.PAGES.FRANCIA.INTRO_SECTION_FR.DESCRIPTION} />
+            <Button size="sm" class="bg-yellow-600" color="black"
+              url={i18n.PAGES.FRANCIA.INTRO_SECTION_FR.BUTTON.URL}
+              title={i18n.PAGES.FRANCIA.INTRO_SECTION_FR.BUTTON.TITLE}
+              target="_self">
+              {i18n.PAGES.FRANCIA.INTRO_SECTION_FR.BUTTON.LABEL}
+            </Button>
+          </div>
+          <div class="w-full md:w-1/2 md:m-auto pb-6">
+            <img src="/fr-court/gallery/thumbnails/Corsica.webp" alt="Padel France" class="img-structure w-full object-cover scale-[90%]" />
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full bg-slate-100 text-black">
+        <Section heading2={i18n.PAGES.FRANCIA.PROJECTS_SECTION.TITLE_GALLERY}>
+          <Typography tag="div" className="ml-6 mr-6 mb-10 text-center" text={i18n.PAGES.FRANCIA.PROJECTS_SECTION.DESCRIPTION} />
+          <Gallery
+            id={i18n.PAGES.FRANCIA.PROJECTS_SECTION.ID_GALLERY}
+            photos={projectsGallery}
+            offset={5}
+            path={i18n.PAGES.FRANCIA.PROJECTS_SECTION.PATH}
+          />
+          <div class="w-full flex justify-center text-center">
+            <Button size="sm" color="black"
+              url={i18n.PAGES.FRANCIA.PROJECTS_SECTION.URL.URL}
+              title={i18n.PAGES.FRANCIA.PROJECTS_SECTION.URL.TITLE}
+              target="_self">
+              {i18n.PAGES.FRANCIA.PROJECTS_SECTION.URL.LABEL}
+            </Button>
+          </div>
+        </Section>
+      </div>
+
+      <div class="w-full pt-10 pb-10 relative  bg-cover bg-center bg-no-repeat" style="background-image: url('/fr-court/gallery/thumbnails/davidlloyd-1.webp');">
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div class="relative  text-center text-white">
+          <Typography tag="h2" type="secondary" className="font-bold mb-10" text={i18n.PAGES.FRANCIA.CONSTRUCTION.TITLE} />
+          <Typography tag="div" className="ml-6 mr-6 mb-10 text-center" text={i18n.PAGES.FRANCIA.CONSTRUCTION.DESCRIPTION} />
+          <div class="flex justify-center">
+            <Typography tag="div" className="ml-6 mr-6 mb-10 text-center" text={i18n.PAGES.FRANCIA.CONSTRUCTION.LIST} />
+          </div>
+          <Typography tag="div" className="ml-6 mr-6 mb-10 text-center" text={i18n.PAGES.FRANCIA.CONSTRUCTION.DESCRIPTION_2} />
+        </div>
+      </div>
+
+      <div class="w-full pt-10 pb-10">
+        <div class="text-center">
+          <Typography tag="h2" className="font-bold mb-10" text={i18n.PAGES.FRANCIA.COMPANY.TITLE} />
+          <Typography tag="div" className="ml-6 mr-6 mb-10 text-center" text={i18n.PAGES.FRANCIA.COMPANY.DESCRIPTION} />
+          <div class="flex justify-center">
+            <Typography tag="div" className="ml-6 mr-6 mb-10 text-center" text={i18n.PAGES.FRANCIA.COMPANY.LIST} />
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full bg-slate-100 text-black py-10">
+        <div class="container mx-auto flex flex-col md:flex-row items-center md:items-stretch gap-10 px-6">
+
+          <div class="flex-1 flex flex-col justify-center items-center text-center md:h-auto">
+            <Typography tag="h2" className="font-bold mb-6" text={i18n.PAGES.FRANCIA.BUILDING.TITLE} />
+            <Typography tag="div" className="mb-6" text={i18n.PAGES.FRANCIA.BUILDING.DESCRIPTION} />
+            <Typography tag="div" className="mb-6" text={i18n.PAGES.FRANCIA.BUILDING.LIST} />
+            <Typography tag="div" className="mb-6" text={i18n.PAGES.FRANCIA.BUILDING.DESCRIPTION_2} />
+            <Button
+              size="sm"
+              color="black"
+              url={i18n.PAGES.FRANCIA.BUILDING.BUTTON.URL}
+              title={i18n.PAGES.FRANCIA.BUILDING.BUTTON.TITLE}
+              target="_self"
+              class="mt-4"
+            >
+              {i18n.PAGES.FRANCIA.BUILDING.BUTTON.LABEL}
+            </Button>
+          </div>
+
+          <div class="flex-1 w-full md:w-1/2 flex-shrink-0">
+            <img src="/fr-court/gallery/thumbnails/DavidLloyd-3.webp" alt="Padel France" class="w-full h-full object-cover scale-[90%]" />
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full pt-10 pb-7">
+        <Typography
+          tag="h2"
+          className="font-bold mb-10 text-center"
+          text={i18n.PAGES.FRANCIA.COURT_EUROPE.TITLE}
+        />
+        <Typography
+          tag="div"
+          className="ml-6 mr-6 text-center"
+          text={i18n.PAGES.FRANCIA.COURT_EUROPE.DESCRIPTION}
+        />
+      </div>
+
+      <div class="w-full flex flex-col justify-center items-center max-w-[1400px] mx-auto py-14 text-pretty text-xl p-6 md:p-12 lg:p-20 undefined">
+        <div class=" mt-0 grid grid-rows-3 gap-4 justify-center items-center sm:grid-cols-2 xs:grid-cols-1">
+          <Button
+            class="w-full text-base px-3 py-2 lg:text-lg text-white w-fit font-medium no-underline border border-solid border-sky-400 rounded-full uppercase button text-center"
+            url={i18n.PAGES.FRANCIA.COURT_EUROPE.BUTTON_DE.URL}
+            target="_self"
+            title={i18n.PAGES.FRANCIA.COURT_EUROPE.BUTTON_DE.TITLE}
+          >
+            {i18n.PAGES.FRANCIA.COURT_EUROPE.BUTTON_DE.TEXT}
+          </Button>
+
+          <Button
+            class="w-full text-base px-3 py-2 lg:text-lg text-white w-fit font-medium no-underline border border-solid border-sky-400 rounded-full uppercase button text-center"
+            url={buttonurl || i18n.PAGES.FRANCIA.COURT_EUROPE.BUTTON_UK.URL}
+            target="_self"
+            title={buttontitle || i18n.PAGES.FRANCIA.COURT_EUROPE.BUTTON_UK.TITLE}
+          >
+            {buttontext || i18n.PAGES.FRANCIA.COURT_EUROPE.BUTTON_UK.TEXT}
+          </Button>
+
+          <Button
+            class="w-full text-base px-3 py-2 lg:text-lg text-white w-fit font-medium no-underline border border-solid border-sky-400 rounded-full uppercase button text-center"
+            url={i18n.PAGES.FRANCIA.COURT_EUROPE.BUTTON_IRL.URL}
+            target="_self"
+            title={i18n.PAGES.FRANCIA.COURT_EUROPE.BUTTON_IRL.TITLE}
+          >
+            {i18n.PAGES.FRANCIA.COURT_EUROPE.BUTTON_IRL.TEXT}
+          </Button>
+
+          <Button
+            class="w-full text-base px-3 py-2 lg:text-lg text-white w-fit font-medium no-underline border border-solid border-sky-400 rounded-full uppercase button text-center"
+            url={i18n.PAGES.FRANCIA.COURT_EUROPE.BUTTON_GR.URL}
+            target="_self"
+            title={i18n.PAGES.FRANCIA.COURT_EUROPE.BUTTON_GR.TITLE}
+          >
+            {i18n.PAGES.FRANCIA.COURT_EUROPE.BUTTON_GR.TEXT}
+          </Button>
+
+          <Button
+            class="w-full text-base px-3 py-2 lg:text-lg text-white w-fit font-medium no-underline border border-solid border-sky-400 rounded-full uppercase button text-center"
+            url={i18n.PAGES.FRANCIA.COURT_EUROPE.BUTTON_CY.URL}
+            target="_self"
+            title={i18n.PAGES.FRANCIA.COURT_EUROPE.BUTTON_CY.TITLE}
+          >
+            {i18n.PAGES.FRANCIA.COURT_EUROPE.BUTTON_CY.TEXT}
+          </Button>
+          </div>
+        </div>
+
+        <div class="bg-slate-100 overflow-x-auto">
+          <SliderProjects
+            id={i18n.PAGES.FRANCIA.PROJECTS_SLIDER.ID}
+            photos={sliderProjects}
+            offset={5}
+            path={i18n.PAGES.FRANCIA.PROJECTS_SLIDER.PATH}
+          />
+        </div>
+
+        <div class="text-white">
+          <Typography tag="h2" className="text-center font-bold mt-20 mb-10" text={i18n.PAGES.FRANCIA.CONTACT_SECTION.TITLE} />
+          <Typography tag="div" className="text-center mb-10 m-auto w-[85%] " text={i18n.PAGES.FRANCIA.CONTACT_SECTION.DESCRIPTION} />
+          <ContactSectionEs language={language}
+            button_text={i18n.PAGES.FRANCIA.CONTACT_SECTION.BUTTON.LABEL}
+            button_url={i18n.PAGES.FRANCIA.CONTACT_SECTION.BUTTON.URL}
+            button_title={i18n.PAGES.FRANCIA.CONTACT_SECTION.BUTTON.TITLE}
+          />
+        </div>
+    </div>
+  </main>
+</Layout>
+
+<script type="module">
+  document.addEventListener("astro:page-load", () => {
+    const backgrounds = document.querySelectorAll(".background");
+
+    if (!window.IntersectionObserver) {
+      backgrounds.forEach((bkg) => {
+        bkg.style.backgroundImage = "url('" + bkg.dataset.src + "')";
+      });
+      return;
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.style.backgroundImage = "url('" + entry.target.dataset.src + "')";
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { rootMargin: "100px" });
+
+    backgrounds.forEach((bkg) => observer.observe(bkg));
+
+    const scroller = document.querySelector(".scroller-projects");
+    if (scroller && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      scroller.setAttribute("data-animated", true);
+      const scrollerInner = scroller.querySelector(".scroller_inner");
+      Array.from(scrollerInner.children).forEach((item) => {
+        const clone = item.cloneNode(true);
+        clone.setAttribute("aria-hidden", true);
+        scrollerInner.appendChild(clone);
+      });
+    }
+  });
+</script>
