@@ -652,7 +652,7 @@
       },
       "GALLERY_SECTION": {
         "ID": "galeria",
-        "PATH": "courts-detail/mobile/gallery",
+        "PATH": "courts-detail/mobile/gallery/thumbnails",
         "OFFSET": 15,
         "BUTTON_TEXT": "Descubre más imágenes"
       },
@@ -2300,7 +2300,7 @@
       },
       "GALLERY_SECTION": {
         "ID": "galería",
-        "PATH": "courts-detail/mini/gallery",
+        "PATH": "courts-detail/mini/gallery/thumbnails",
         "OFFSET": 27
       },
       "COURTS_SECTION": {
