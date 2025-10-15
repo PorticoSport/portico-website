@@ -3,97 +3,97 @@
     "src": "panoramic-court-1.webp",
     "width": 675,
     "height": 1200,
-    "alt": "Club de Pádel en el Reino Unido"
+    "alt": "Club de Pádel en Reino Unido"
   },
   {
     "src": "panoramic-court-2.webp",
     "width": 1200,
     "height": 900,
-    "alt": "Club de Pádel Finlandia en Finlandia"
+    "alt": "Club Los Naranjos Pádel en España"
   },
   {
     "src": "panoramic-court-3.webp",
     "width": 834,
     "height": 550,
-    "alt": "El Club de Pádel del Reino Unido"
+    "alt": "DJK Augsburg-Lechhausen e.V. en Alemania"
   },
   {
     "src": "panoramic-court-4.webp",
     "width": 1200,
     "height": 675,
-    "alt": "Padelon en Heilbronn en Alemania"
+    "alt": "Pista panorámica cubierta de pádel en Finlandia"
   },
   {
     "src": "panoramic-court-5.webp",
     "width": 1079,
     "height": 720,
-    "alt": "Blue Padel Kourts en Portugal"
+    "alt": "El Bodeguero Pádel en Venezuela"
   },
   {
     "src": "panoramic-court-6.webp",
-    "width": 912,
-    "height": 610,
-    "alt": "El Club de Pádel del Reino Unido"
+    "width": 1024,
+    "height": 972,
+    "alt": "The Padel Club Trafford City en Reino Unido"
   },
   {
     "src": "panoramic-court-7.webp",
     "width": 1024,
-    "height": 972,
+    "height": 768,
     "alt": "Ocean Padel Club en Portugal"
   },
   {
     "src": "panoramic-court-8.webp",
-    "width": 1024,
-    "height": 768,
-    "alt": "Pista móvil en exterior"
+    "width": 1200,
+    "height": 900,
+    "alt": "Padel & Sports en Suiza"
   },
   {
     "src": "panoramic-court-9.webp",
-    "width": 1200,
-    "height": 900,
-    "alt": "Ocean Padel Club en Portugal"
+    "width": 1024,
+    "height": 768,
+    "alt": "Rocket Padel Ilford en Reino Unido"
   },
   {
     "src": "panoramic-court-10.webp",
-    "width": 1024,
-    "height": 768,
-    "alt": "Novo Padel Club en Portugal"
+    "width": 1200,
+    "height": 900,
+    "alt": "TC Degerloch Hohe Eiche e.V. en Alemania"
   },
   {
     "src": "panoramic-court-11.webp",
     "width": 1200,
-    "height": 900,
-    "alt": "Pista móvil en exterior"
+    "height": 675,
+    "alt": "Big Pádel en Francia"
   },
   {
     "src": "panoramic-court-12.webp",
     "width": 1200,
     "height": 900,
-    "alt": "Pista panorámica en Houston en EE. UU."
+    "alt": "Katy Padel & Soccer Lounge en Houston (EE. UU.)"
   },
   {
     "src": "panoramic-court-13.webp",
     "width": 1200,
     "height": 675,
-    "alt": "El Club de Pádel del Reino Unido"
+    "alt": "Pista panorámica exterior en Portugal"
   },
   {
     "src": "panoramic-court-14.webp",
     "width": 1200,
-    "height": 900,
-    "alt": "Bapadel Barcelona Golf Resort en España"
+    "height": 800,
+    "alt": "Padeleros Tennisclub TC Egnach Swiss en Suiza"
   },
   {
     "src": "panoramic-court-15.webp",
     "width": 1200,
-    "height": 675,
+    "height": 900,
     "alt": "Club El Rincón de Cajicá en Colombia"
   },
   {
     "src": "panoramic-court-16.webp",
     "width": 1200,
-    "height": 800,
-    "alt": "Club de Pádel Finlandia en Finlandia"
+    "height": 900,
+    "alt": "Padel Mate Hoorn en Países Bajos"
   },
   {
     "src": "panoramic-court-17.webp",
@@ -103,32 +103,20 @@
   },
   {
     "src": "panoramic-court-18.webp",
-    "width": 1200,
-    "height": 900,
+    "width": 899,
+    "height": 1200,
     "alt": "Bapadel Barcelona Golf Resort en España"
   },
   {
     "src": "panoramic-court-19.webp",
-    "width": 1200,
-    "height": 900,
-    "alt": "BatterSea Power Station en el Reino Unido"
+    "width": 900,
+    "height": 1200,
+    "alt": "Battersea Power Station en Reino Unido"
   },
   {
     "src": "panoramic-court-20.webp",
-    "width": 899,
-    "height": 1200,
-    "alt": "BatterSea Power Station en el Reino Unido"
-  },
-  {
-    "src": "panoramic-court-21.webp",
-    "width": 900,
-    "height": 1200,
-    "alt": "Hexagon Cup Official Court en España"
-  },
-  {
-    "src": "panoramic-court-22.webp",
     "width": 1200,
     "height": 960,
-    "alt": "Hexagon Cup Official Court en España"
+    "alt": "Pista oficial de la Hexagon Cup en España"
   }
 ]
