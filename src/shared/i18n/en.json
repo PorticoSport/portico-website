@@ -5766,6 +5766,11 @@
         "TITLE":"Padel Court Builders",
         "URL":"/panoramic"
       },
+      "BUTTON_PANORAMIC_PADEL_PLUS": {
+        "LABEL":"More about Panoramic+ Padel court",
+        "TITLE":"Experience Padel with uninterrupted views and ultimate elegance",
+        "URL":"/panoramic-plus"
+      },
       "BUTTON_TOURNAMENT_COURT": {
         "LABEL":"More about Tournament Padel court",
         "TITLE":"Padel Court Builders",
