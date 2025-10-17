@@ -648,6 +648,7 @@
         "TITLE_PLUS": "Frequently Asked Questions About Our Club+ Padel Courts",
         "TITLE_CLUB_FORCE_80_COURT": "Frequently Asked Questions About Our Club Force 80 Padel Courts",
         "TITLE_PANORAMIC_COURT":"Frequently Asked Questions About Panoramic Padel Courts",
+        "TITLE_PANORAMIC_PLUS":"Frequently Asked Questions About Our Panoramic+ Padel Courts",
         "TITLE_PANORAMIC_FORCE_80_COURT": "Frequently Asked Questions About Our Panoramic Force 80 Padel Courts",
         "TITLE_USA": "ASK Question about Padel court manufacturers in USA",
         "TITLE_UK":"ASK Question about build a padel court in UK",
@@ -769,6 +770,20 @@
         }, {
           "question": "Does the court require special maintenance due to its glass walls?",
           "answer": "<p>Maintenance is simple; regular cleaning and inspection of fittings ensure long-lasting performance and aesthetic appeal.</p>"
+        }
+      ],
+        "QUESTIONS_PANORAMIC_PLUS": [{
+          "question": "What makes the Panoramic+ different from the Panoramic court?",
+          "answer": "<p>The Panoramic+ padel court features a reinforced structure with no corner steel supports, delivering a clean, fully open design while maintaining exceptional strength and wind resistance of up to 198 km/h (120 mph).</p>"
+        }, {
+          "question": "Is the Panoramic+ court suitable for outdoor installations in exposed areas?",
+          "answer": "<p>Yes. Its reinforced galvanized steel frame and 12 mm tempered glass panels make it ideal for coastal locations, windy zones, and other exposed environments where durability is essential.</p>"
+        }, {
+          "question": "Can the Panoramic+ court be customized?",
+          "answer": "<p>Absolutely. It’s available in a wide range of RAL colors and finishes, with optional LED lighting systems, smart controls, and custom accessories — allowing every club to personalize its court without compromising on performance or aesthetics.</p>"
+        }, {
+          "question": "Is the Panoramic+ court suitable for clubs and professional tournaments?",
+          "answer": "<p>Yes. <strong>The Panoramic+ court is perfect for high-end clubs, sports complexes, and professional</strong> events that require a court combining premium design, structural strength, and maximum visibility. Its frameless, reinforced design provides uninterrupted views for spectators and meets the standards required for international padel competitions — making it the ideal choice for tournaments and exhibition matches.</p>"
         }
       ],
         "QUESTIONS_PANORAMIC_FORCE_80_COURT": [{
@@ -3070,6 +3085,206 @@
       "GALLERY_SECTION": {
         "ID": "gallery",
         "PATH": "courts-detail/panoramic/gallery",
+        "OFFSET": 22
+      },
+      "COURTS_SECTION": {
+        "TITLE": "Discover other Padel Courts",
+        "DESCRIPTION": "Other types of Portico Sport Padel Courts"
+      },
+      "CONTACT_SECTION": {
+        "ID": "contact",
+        "SUBJECT": "New petition from Panoramic Court",
+        "TITLE": "News",
+        "BG_IMAGE": "/courts-detail/panoramic/panoramic-contact-bg.webp",
+        "DESCRIPTION": "Ready to invest in a panoramic padel court? Contact Portico Sport today to discuss your project with one of our experts. We are committed to delivering high-quality courts that exceed your expectations. Whether you're looking to upgrade an existing facility or build a new one from scratch, we are here to help.",
+        "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp"
+      },
+      "HOME_DESCRIPTION": "12mm glass, minimalistic design, maximum robustness! Our panoramic court provides the perfect balance between functionality and aesthetics.",
+      "HOME_IMAGES": [{
+        "id": "slide-1",
+        "src": "/courts/panoramic-court-01.webp",
+        "width": 574,
+        "height": 323,
+        "alt": "Panoramic court"
+      },{
+        "id": "slide-2",
+        "src": "/courts/panoramic-court-02.webp",
+        "width": 574,
+        "height": 323,
+        "alt": "Panoramic court"
+      },{
+        "id": "slide-3",
+        "src": "/courts/panoramic-court-03.webp",
+        "width": 574,
+        "height": 323,
+        "alt": "Panoramic court"
+      },{
+        "id": "slide-4",
+        "src": "/courts/panoramic-court-04.webp",
+        "width": 574,
+        "height": 323,
+        "alt": "Panoramic court"
+      }]
+    },
+    "PANORAMIC_PLUS": {
+      "ID": "panoramic-plus",
+      "SEO_TITLE": "Panoramic+ Padel Courts – Premium padel court desig",
+      "SEO_DESCRIPTION":"Discover the Panoramic+ Padel Court by Portico Sport. Reinforced, frameless design with maximum visibility, strength, and style – ideal for high-end clubs, tournaments, and professional facilities.",
+      "OG_IMG": "https://www.porticosport.com/og/og-panoramic.jpg",
+      "TITLE": "Panoramic+ Court",
+      "DESCRIPTION": "<p>The <strong>Panoramic+</strong> is a <strong>reinforced panoramic padel court</strong> designed for clubs and venues that demand top-tier performance and impeccable aesthetics.</p><p>Its frameless, open design offers uninterrupted visibility, making it ideal for clubs that want a premium experience for players and spectators — perfect for tournaments, events, and professional venues.</p>",
+      "NAME": "Panoramic+",
+      "SUBTITLE": "Introducing the Panoramic Court by Portico Sport",
+      "LITTLE_DESCRIPTION": "<p>Maximum visibility, strength, and style in one court</p>",
+      "DETAIL_TITLE": "<span>Panoramic+ Court</span>",
+      "MORE_INFO_URL": "https://www.porticosport.com/en/panoramic-courts",
+      "CONTACT_TITLE_1": "Do you want a Panoramic+ Padel Court?",
+      "CONTACT_SUBJECT": "New petition from Panoramic+ Court",
+      "CONTACT_BUTTON": "I want a Panoramic+ Padel Court",
+      "ROUTE": {
+        "LABEL": "More about panoramic+ padel court",
+        "URL": "/panoramic-plus",
+        "TITLE": "Panoramic+ Court"
+      },
+      "FIRST_SECTION": {
+        "TITLE": "<span class=\"text-secondary\">Built to withstand anything</span>",
+        "DESCRIPTION": "<p>Engineered to perform in the most demanding conditions, the Panoramic+ <strong>can resist wind speeds of up to 198 km/h (120 mph)</strong> while maintaining its sleek, lightweight design. Perfect for coastal areas and exposed environments where <strong>strength, durability, and long-term performance</strong> are essential.</p>",
+        "IMAGES": {
+          "FRONT": {
+            "src": "/courts-detail/panoramic/panoramic-front.webp",
+            "alt": "Panoramic+ court front view"
+          },
+          "PERSPECTIVE": {
+            "src": "/courts-detail/panoramic-plus/Panoramic-plus-perspective.webp",
+            "alt": "Panoramic+ court perspective view"
+          },
+          "TOP": {
+            "src": "/courts-detail/panoramic-plus/Panoramic-plus-top.webp",
+            "alt": "Panorami court top view"
+          }
+        }
+      },
+      "BENEFITS_SECTION": {
+        "ID": "benefits",
+        "TITLE": "Experience the benefits of our Panoramic+ court",
+        "SUBTITLE": "Why Choose a Panoramic Padel Court?",
+        "DESCRIPTION": "Panoramic Padel courts are becoming increasingly popular due to their modern design and the enhanced visibility they offer. The absence of metal structures around the glass panels provides a sleek, open feel that is both visually appealing and functional. These Padel courts are perfect for high-profile events, clubs looking to attract more members, or anyone who values a premium sports environment.",
+        "BENEFITS": [{
+          "header": "10 years warranty",
+          "icon": "WarrantyIcon",
+          "footer": "Guaranteed stability and long-term performance"
+        }, {
+          "header": "High wind resistance",
+          "icon": "VersatileCourtIcon",
+          "footer": "Certified up to 198 km/h"
+        }, {
+          "header": "Versatile design",
+          "icon": "MaterialsIcon",
+          "footer": "Perfect for indoor and outdoor setups, providing long-lasting performance, safety, and minimal maintenance."
+        }]
+      },
+      "STRUCTURE_SECTION": {
+        "ID": "structure",
+        "IMAGE": {
+          "id": "section-information",
+          "src": "/courts-detail/mobile/mobile-section-information-court.webp",
+          "alt": "Render of a mobile court"
+        },
+        "TITLE": "Panoramic+ Court: Reinforced Design & Strength",
+        "SUBTITLE": "Experience the excellence of our premium quality court structure",
+        "TEXT": "<p>Crafted with hot-dip galvanized S275JR steel for maximum durability.</p><p>Side and top frames include electro-welded mesh according to UNE-EN-10223-4 standards, wit intermediate scaffolding to prevent vibrations.</p><p>Our structure undergoes advanced manufacturing processes:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laser Cutting: Ensures precise cuts and clean finishes</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Robotic Welding: Guarantees quality welds and prevents oxidation</li></ul>"
+      },
+      "SIZING_SECTION": {
+        "ID": "measure-section",
+        "TITLE": "Panoramic+ Padel court dimensions",
+        "INDOOR_TITLE": "Interior",
+        "OUTDOOR_TITLE": "Exterior",
+        "OUTDOOR": "<p><strong>Length</strong>: 20 m x 10 m </p>",
+        "INDOOR": "<p><strong>Length</strong>: 20.46 m x 10.43 m </p><p>",
+        "IMAGE": {
+          "id": "image-sizing",
+          "src": "/courts-detail/panoramic/panoramic-sizing.webp",
+          "alt": "Interior and exterior Panoramic court sizes"
+        }
+      },
+      "GLASS_SECTION": {
+        "ID": "glass-section",
+        "IMAGE": {
+          "id": "advantage-section",
+          "src": "/courts-detail/mobile/mobile-glasses.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Mobile court patented by Portico Sport"
+        },
+        "TITLE": "Tempered safety glass for Panoramic+ padel courts",
+        "SUBTITLE": "Tempered Safety Glass in Every Court!",
+        "DESCRIPTION": "<p>Our Panoramic+ padel courts feature tempered safety glass in <strong>12 mm thickness</strong>, meeting all regulatory standards.</p><p>Clear polished edges, neoprene gaskets, and galvanised fixings ensure safety, stability, and excellent visibility. With excellent impact resistance and flatness, the glass ensures a premium playing experience for both players and spectators.</p>"
+      },
+      "PAINT_SECTION": {
+        "ID": "paint-section",
+        "TITLE": "Customizable steel structure lacquer paint finishes",
+        "SUBTITLE": "Did you know that now you can add a splash of color to your court?",
+        "DESCRIPTION": "<p>Add a touch of personality with your choice of <strong>RAL colors</strong>, monocolor or bicolor designs with durable lacquer paint options:</p>",
+        "IMAGES": [{
+          "id": "slide-3",
+          "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
+          "alt": "Exterior of a yellow mobile court"
+        },{
+          "id": "slide-4",
+          "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
+          "alt": "Exterior of a yellow mobile court"
+        },{
+          "id": "slide-5",
+          "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
+          "alt": "Yellow painted mobile court"
+        }, {
+          "id": "slide-11",
+          "src": "/courts-detail/mobile/structure-painted-mobile-11.webp",
+          "alt": "Blue structure painted in interior"
+        }],
+        "LIST": [
+          "<strong>INDOOR:</strong> Electro-galvanized finish + lacquer finish.",
+          "<strong>OUTDOOR:</strong> Electro-galvanized finish + primer coating + lacquer finish.",
+          "<strong>HOT DIP GALVANIZED:</strong> Electro-galvanized finish + special welding treatment + primer coating + lacquer finish.",
+          "<strong>HOT DIP GALVANIZED:</strong> Hot dip galvanized (zinc bath treatment)+ primer coating + lacquer finish"
+        ]
+      },
+      "TURF_SECTION": {
+        "ID": "turf-section",
+        "IMAGE": {
+          "src": "/courts-detail/mobile/mobile-top.webp",
+          "alt": "Mobile court top view"
+        },
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\"> High-performance turf for Panoramic+ courts </span>",
+        "SUBTITLE": "Experience Unmatched Performance on our Turf!",
+        "DESCRIPTION": "<p>Our <strong>latest-generation turf</strong> from trusted European manufacturers ensures professional performance</p><p>Every padel court includes:</p>",
+        "DESCRIPTION_DOS": "Our turf offers a professional playing experience in various colors and fiber types.",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Next-gen polyethylene turf with textured monofilaments</li><li>UV-resistant, low-abrasion, stable under heat and weather</li><li>Silica sand infill (10-15 kg/m²) for optimized ball bounce and speed</li></ul>"
+      },
+      "LIGHTING_SECTION": {
+        "ID": "lighting-section",
+        "IMAGE": {
+          "src": "/courts-detail/mobile/mobile-lighting.webp",
+          "alt": "Mobile court lighting"
+        },
+        "TITLE": " Advanced LED lighting systems for Panoramic+ padel courts",
+        "SUBTITLE": "Illuminate your game with Portico Sport's padel court lighting!",
+        "DESCRIPTION": "<p>Enhance gameplay with state-of-the-ar <strong>LED lighting solutions</strong>, developed with leading specialists:</p>",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Fully compliant with <strong>UNE-EN-12193:2020</strong></li><li>Uniform light with no glare or shadows</li><li>IK10 impact resistance, IP66-IP67 waterproof rating</li><li>Voltage surge protection (4kV - 6kV), high heat dissipation</li><li>Suitable for recreational use (Class III) and professional events (Class I, NIDE standard)</li><li>5-year warranty</li></ul>"
+      },
+      "INSTALLATION_SECTION": {
+        "ID": "installation",
+        "TITLE": "Custom Panoramic Padel Court Installation",
+        "DESCRIPTION": "We understand that every Padel project is unique, which is why we offer customized Panoramic Padel court solutions. From the size of the court to the choice of materials, lighting, and additional features, we work closely with our clients to create a court that fits their specific needs and budget. Our Padel courts are built using high-quality materials to ensure durability, safety, and excellent playing conditions."
+      },
+      "COST_SECTION": {
+        "ID": "cost",
+        "TITLE": "How Much Does a Panoramic Padel Court Cost?",
+        "DESCRIPTION": "The cost of installing a Panoramic Padel court can vary depending on several factors including the size, materials, and any additional features you choose. For a more precise estimate, we recommend scheduling a consultation with our team, who can provide a detailed quote based on your specific requirements."
+      },
+      "GALLERY_SECTION": {
+        "ID": "gallery",
+        "PATH": "courts-detail/panoramic-plus/gallery",
         "OFFSET": 22
       },
       "COURTS_SECTION": {
@@ -6443,7 +6658,7 @@
   "LIGHTING_SECTION": {
     "TYPES_TITLE": "Lighting types",
     "MASTS_TITLE": "Lighting masts",
-    "MASTS_DESCRIPTION": "<p>Lighting masts are galvanized steel, 6 meters high, available in three designs:</p>",
+    "MASTS_DESCRIPTION": "<p>Optimized lighting masts are galvanized steel, 6 meters high, available in three designs:</p>",
     "LIGHTING_TYPES": [{
       "title": "PV: 8 X 180W",
       "description": "Proven technology endorsed by our experience and the vast majority of professional players.",
