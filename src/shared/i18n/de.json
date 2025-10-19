@@ -191,6 +191,7 @@
         "TITLE_PLUS": "Häufig gestellte Fragen zu unseren Club+ Padelplätzen",
         "TITLE_CLUB_FORCE_80_COURT": "Häufig gestellte Fragen zu unseren Force 80 Padel Padelplätzen",
         "TITLE_PANORAMIC_COURT": "Häufig gestellte Fragen zu Panoramischen Padelplätzen",
+        "TITLE_PANORAMIC_PLUS": "Häufig gestellte Fragen zu unseren Panoramic+ Padelplätzen",
         "TITLE_PANORAMIC_FORCE_80_COURT": "Häufig gestellte Fragen zu unseren Tournament+ Padelplätzen",
         "TITLE_MODULAR": "Häufig gestellte Fragen zu modularen Einheiten für Padel-Clubs",
         "TITLE_PICKLEBALL": "Häufig gestellte Fragen zu Pickleball-Plätzen",
@@ -315,6 +316,19 @@
           "answer": "<p>Die Wartung ist einfach; regelmäßige Reinigung und Kontrolle der Befestigungen gewährleisten eine langanhaltende Leistung und ästhetische Attraktivität.</p>"
         }
       ],
+        "QUESTIONS_PANORAMIC_PLUS": [{
+        "question": "Wodurch unterscheidet sich der Panoramic+ vom Panoramic Platz?",
+        "answer": "<p>Der Panoramic+ Padelplatz verfügt über eine verstärkte Struktur ohne Stahleckenstützen, was ein sauberes, vollständig offenes Design ermöglicht, während er gleichzeitig außergewöhnliche Stabilität und Windbeständigkeit von bis zu 198 km/h (120 mph) beibehält.</p>"
+      }, {
+        "question": "Ist der Panoramic+ Platz für Außeninstallationen in exponierten Bereichen geeignet?",
+        "answer": "<p>Ja. Sein verstärkter, verzinkter Stahlrahmen und die 12 mm dicken Sicherheitsgläser machen ihn ideal für Küstenregionen, windige Gebiete und andere exponierte Umgebungen, in denen Haltbarkeit entscheidend ist.</p>"
+      }, {
+        "question": "Kann der Panoramic+ Platz individuell angepasst werden?",
+        "answer": "<p>Absolut. Er ist in einer breiten Palette von RAL-Farben und Oberflächen erhältlich, mit optionalen LED-Beleuchtungssystemen, intelligenten Steuerungen und individuellen Zubehörteilen — so kann jeder Club seinen Platz personalisieren, ohne Kompromisse bei Leistung oder Ästhetik einzugehen.</p>"
+      }, {
+        "question": "Ist der Panoramic+ Platz für Clubs und professionelle Turniere geeignet?",
+        "answer": "<p>Ja. <strong>Der Panoramic+ Platz ist perfekt für Premium-Clubs, Sportanlagen und professionelle Veranstaltungen</strong>, die einen Platz mit erstklassigem Design, struktureller Stärke und maximaler Sicht erfordern. Sein rahmenloses, verstärktes Design bietet ununterbrochene Sicht für Zuschauer und erfüllt die Anforderungen internationaler Padelwettbewerbe – die ideale Wahl für Turniere und Ausstellungsspiele.</p>"
+      }],
         "QUESTIONS_PANORAMIC_FORCE_80_COURT": [
         {
           "question": "Wodurch unterscheidet sich der Tournament+ von anderen Panorama-Padelplätzen?",
@@ -1133,6 +1147,206 @@
           "alt": "Panoramaplatz"
         }
       ]
+    },
+    "PANORAMIC_PLUS": {
+      "ID": "panoramic-plus",
+      "SEO_TITLE": "Panoramic+ Padelplätze – Premium Padelplatz-Design",
+      "SEO_DESCRIPTION": "Entdecken Sie den Panoramic+ Padelplatz von Portico Sport. Verstärktes, rahmenloses Design mit maximaler Sicht, Stärke und Stil – ideal für High-End-Clubs, Turniere und professionelle Anlagen.",
+      "OG_IMG": "https://www.porticosport.com/og/og-panoramic.jpg",
+      "TITLE": "Panoramic+ Platz",
+      "DESCRIPTION": "<p>Der <strong>Panoramic+</strong> ist ein <strong>verstärkter Panoramic Padelplatz</strong>, entwickelt für Clubs und Anlagen, die höchste Leistung und ein makelloses Design verlangen.</p><p>Sein rahmenloses, offenes Design bietet ununterbrochene Sicht, ideal für Clubs, die ein Premium-Erlebnis für Spieler und Zuschauer wünschen — perfekt für Turniere, Events und professionelle Einrichtungen.</p>",
+      "NAME": "Panoramic+",
+      "SUBTITLE": "Der Panoramic Platz von Portico Sport",
+      "LITTLE_DESCRIPTION": "<p>Maximale Sicht, Stärke und Stil in einem Platz</p>",
+      "DETAIL_TITLE": "<span>Panoramic+ Platz</span>",
+      "MORE_INFO_URL": "https://www.porticosport.com/de/panoramic-courts",
+      "CONTACT_TITLE_1": "Möchten Sie einen Panoramic+ Padelplatz?",
+      "CONTACT_SUBJECT": "Neue Anfrage für Panoramic+ Platz",
+      "CONTACT_BUTTON": "Ich möchte einen Panoramic+ Padelplatz",
+      "ROUTE": {
+        "LABEL": "Mehr über den Panoramic+ Padelplatz",
+        "URL": "/panoramic-plus",
+        "TITLE": "Panoramic+ Platz"
+      },
+      "FIRST_SECTION": {
+        "TITLE": "<span class=\"text-secondary\">Gebaut, um allem standzuhalten</span>",
+        "DESCRIPTION": "<p>Der Panoramic+ wurde entwickelt, um auch unter anspruchsvollsten Bedingungen zu bestehen. Er <strong>widersteht Windgeschwindigkeiten von bis zu 198 km/h (120 mph)</strong> und behält dabei sein elegantes, leichtes Design. Perfekt für Küstenregionen und exponierte Standorte, wo <strong>Stärke, Haltbarkeit und langfristige Leistung</strong> entscheidend sind.</p>",
+        "IMAGES": {
+          "FRONT": {
+            "src": "/courts-detail/panoramic/panoramic-front.webp",
+            "alt": "Vorderansicht des Panoramic+ Platzes"
+          },
+          "PERSPECTIVE": {
+            "src": "/courts-detail/panoramic-plus/Panoramic-plus-perspective.webp",
+            "alt": "Perspektivansicht des Panoramic+ Platzes"
+          },
+          "TOP": {
+            "src": "/courts-detail/panoramic-plus/Panoramic-plus-top.webp",
+            "alt": "Draufsicht des Panoramic+ Platzes"
+          }
+        }
+      },
+      "BENEFITS_SECTION": {
+        "ID": "benefits",
+        "TITLE": "Erleben Sie die Vorteile unseres Panoramic+ Platzes",
+        "SUBTITLE": "Warum einen Panoramic Padelplatz wählen?",
+        "DESCRIPTION": "Panoramic Padelplätze werden immer beliebter, dank ihres modernen Designs und der verbesserten Sicht. Der Verzicht auf Metallstrukturen um die Glasplatten sorgt für ein elegantes, offenes Erscheinungsbild, das sowohl visuell ansprechend als auch funktional ist. Diese Padelplätze sind perfekt für hochkarätige Events, Clubs, die mehr Mitglieder gewinnen möchten, oder jeden, der eine Premium-Sportumgebung schätzt.",
+        "BENEFITS": [{
+          "header": "10 Jahre Garantie",
+          "icon": "WarrantyIcon",
+          "footer": "Garantierte Stabilität und langfristige Leistung"
+        }, {
+          "header": "Hohe Windbeständigkeit",
+          "icon": "VersatileCourtIcon",
+          "footer": "Zertifiziert bis zu 198 km/h"
+        }, {
+          "header": "Vielseitiges Design",
+          "icon": "MaterialsIcon",
+          "footer": "Perfekt für Innen- und Außenbereiche, langlebig, sicher und wartungsarm."
+        }]
+      },
+      "STRUCTURE_SECTION": {
+        "ID": "structure",
+        "IMAGE": {
+          "id": "section-information",
+          "src": "/courts-detail/mobile/mobile-section-information-court.webp",
+          "alt": "Rendering eines mobilen Platzes"
+        },
+        "TITLE": "Panoramic+ Platz: Verstärkte Struktur und Stärke",
+        "SUBTITLE": "Erleben Sie die Exzellenz unserer hochwertigen Platzstruktur",
+        "TEXT": "<p>Hergestellt aus feuerverzinktem S275JR-Stahl für maximale Haltbarkeit.</p><p>Seiten- und Oberrahmen enthalten elektroschweißte Gitter nach UNE-EN-10223-4-Normen, mit zusätzlicher Verstrebung zur Vermeidung von Vibrationen.</p><p>Unsere Struktur durchläuft fortschrittliche Fertigungsprozesse:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laserschneiden: sorgt für präzise Schnitte und saubere Oberflächen</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Roboterschweißen: garantiert hochwertige Schweißnähte und verhindert Oxidation</li></ul>"
+      },
+      "SIZING_SECTION": {
+        "ID": "measure-section",
+        "TITLE": "Abmessungen des Panoramic+ Padelplatzes",
+        "INDOOR_TITLE": "Innenbereich",
+        "OUTDOOR_TITLE": "Außenbereich",
+        "OUTDOOR": "<p><strong>Länge</strong>: 20 m x 10 m </p>",
+        "INDOOR": "<p><strong>Länge</strong>: 20,46 m x 10,43 m </p><p>",
+        "IMAGE": {
+          "id": "image-sizing",
+          "src": "/courts-detail/panoramic/panoramic-sizing.webp",
+          "alt": "Innen- und Außenmaße des Panoramic Platzes"
+        }
+      },
+      "GLASS_SECTION": {
+        "ID": "glass-section",
+        "IMAGE": {
+          "id": "advantage-section",
+          "src": "/courts-detail/mobile/mobile-glasses.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Mobiler Platz, patentiert von Portico Sport"
+        },
+        "TITLE": "Gehärtetes Sicherheitsglas für Panoramic+ Padelplätze",
+        "SUBTITLE": "Gehärtetes Sicherheitsglas in jedem Platz!",
+        "DESCRIPTION": "<p>Unsere Panoramic+ Padelplätze verfügen über gehärtetes Sicherheitsglas mit einer <strong>Stärke von 12 mm</strong>, das allen gesetzlichen Normen entspricht.</p><p>Polierte Kanten, Neopren-Dichtungen und verzinkte Befestigungen gewährleisten Sicherheit, Stabilität und hervorragende Sicht. Mit ausgezeichneter Stoßfestigkeit und Ebenheit bietet das Glas ein erstklassiges Spielerlebnis für Spieler und Zuschauer.</p>"
+      },
+      "PAINT_SECTION": {
+        "ID": "paint-section",
+        "TITLE": "Anpassbare Lackierungen der Stahlstruktur",
+        "SUBTITLE": "Wussten Sie, dass Sie Ihrem Platz jetzt Farbe verleihen können?",
+        "DESCRIPTION": "<p>Verleihen Sie Ihrem Platz mit Ihrer Wahl an <strong>RAL-Farben</strong>, einfarbigen oder zweifarbigen Designs und langlebigen Lackoptionen eine persönliche Note:</p>",
+        "IMAGES": [{
+          "id": "slide-3",
+          "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
+          "alt": "Außenansicht eines gelben mobilen Platzes"
+        },{
+          "id": "slide-4",
+          "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
+          "alt": "Außenansicht eines gelben mobilen Platzes"
+        },{
+          "id": "slide-5",
+          "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
+          "alt": "Gelb lackierter mobiler Platz"
+        },{
+          "id": "slide-11",
+          "src": "/courts-detail/mobile/structure-painted-mobile-11.webp",
+          "alt": "Blaue lackierte Struktur im Innenbereich"
+        }],
+        "LIST": [
+          "<strong>INNEN:</strong> Elektroverzinkte Oberfläche + Lackbeschichtung.",
+          "<strong>AUSSEN:</strong> Elektroverzinkte Oberfläche + Grundierung + Lackbeschichtung.",
+          "<strong>FEUERVERZINKT:</strong> Elektroverzinkte Oberfläche + spezielle Schweißbehandlung + Grundierung + Lackbeschichtung.",
+          "<strong>FEUERVERZINKT:</strong> Feuerverzinkung (Zinkbad) + Grundierung + Lackbeschichtung."
+        ]
+      },
+      "TURF_SECTION": {
+        "ID": "turf-section",
+        "IMAGE": {
+          "src": "/courts-detail/mobile/mobile-top.webp",
+          "alt": "Draufsicht eines mobilen Platzes"
+        },
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\"> Hochleistungsrasen für Panoramic+ Plätze </span>",
+        "SUBTITLE": "Erleben Sie unübertroffene Leistung auf unserem Rasen!",
+        "DESCRIPTION": "<p>Unser <strong>Rasen der neuesten Generation</strong> von renommierten europäischen Herstellern garantiert professionelle Leistung.</p><p>Jeder Padelplatz enthält:</p>",
+        "DESCRIPTION_DOS": "Unser Rasen bietet ein professionelles Spielerlebnis in verschiedenen Farben und Faserarten.",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Polyethylenrasen der nächsten Generation mit strukturierten Monofilamenten</li><li>UV-beständig, geringe Abriebwerte, stabil bei Hitze und Wetter</li><li>Quarzsandverfüllung (10–15 kg/m²) für optimales Ballverhalten und Geschwindigkeit</li></ul>"
+      },
+      "LIGHTING_SECTION": {
+        "ID": "lighting-section",
+        "IMAGE": {
+          "src": "/courts-detail/mobile/mobile-lighting.webp",
+          "alt": "Beleuchtung eines mobilen Platzes"
+        },
+        "TITLE": "Fortschrittliche LED-Beleuchtungssysteme für Panoramic+ Padelplätze",
+        "SUBTITLE": "Erleuchten Sie Ihr Spiel mit der Beleuchtung von Portico Sport!",
+        "DESCRIPTION": "<p>Verbessern Sie Ihr Spiel mit modernsten <strong>LED-Beleuchtungslösungen</strong>, entwickelt mit führenden Spezialisten:</p>",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Vollständig konform mit <strong>UNE-EN-12193:2020</strong></li><li>Gleichmäßiges Licht ohne Blendung oder Schatten</li><li>IK10 Stoßfestigkeit, IP66–IP67 wasserdicht</li><li>Überspannungsschutz (4kV – 6kV), hohe Wärmeableitung</li><li>Geeignet für Freizeitgebrauch (Klasse III) und Profi-Events (Klasse I, NIDE-Standard)</li><li>5 Jahre Garantie</li></ul>"
+      },
+      "INSTALLATION_SECTION": {
+        "ID": "installation",
+        "TITLE": "Individuelle Installation des Panoramic Padelplatzes",
+        "DESCRIPTION": "Wir wissen, dass jedes Padelprojekt einzigartig ist. Deshalb bieten wir maßgeschneiderte Panoramic Padelplatz-Lösungen an. Von der Größe über Materialien bis hin zu Beleuchtung und zusätzlichen Merkmalen arbeiten wir eng mit unseren Kunden zusammen, um einen Platz zu schaffen, der ihren Bedürfnissen und ihrem Budget entspricht. Unsere Plätze werden aus hochwertigen Materialien gefertigt, um Haltbarkeit, Sicherheit und hervorragende Spielbedingungen zu gewährleisten."
+      },
+      "COST_SECTION": {
+        "ID": "cost",
+        "TITLE": "Wie viel kostet ein Panoramic Padelplatz?",
+        "DESCRIPTION": "Die Kosten für die Installation eines Panoramic Padelplatzes variieren je nach Größe, Materialien und zusätzlichen Optionen. Für eine genauere Schätzung empfehlen wir eine Beratung mit unserem Team, das Ihnen ein detailliertes Angebot basierend auf Ihren Anforderungen erstellt."
+      },
+      "GALLERY_SECTION": {
+        "ID": "gallery",
+        "PATH": "courts-detail/panoramic-plus/gallery",
+        "OFFSET": 22
+      },
+      "COURTS_SECTION": {
+        "TITLE": "Entdecken Sie weitere Padelplätze",
+        "DESCRIPTION": "Weitere Padelplatztypen von Portico Sport"
+      },
+      "CONTACT_SECTION": {
+        "ID": "contact",
+        "SUBJECT": "Neue Anfrage für Panoramic Platz",
+        "TITLE": "Neuigkeiten",
+        "BG_IMAGE": "/courts-detail/panoramic/panoramic-contact-bg.webp",
+        "DESCRIPTION": "Bereit, einen Panoramic+ Padelplatz in Ihrem Club zu installieren? Kontaktieren Sie noch heute Portico Sport, um mit einem unserer Spezialisten zu sprechen. Wir sind bestrebt, hochwertige Padelplätze zu liefern, die Ihre Erwartungen übertreffen. Egal, ob Sie eine bestehende Anlage aufrüsten oder eine völlig neue bauen möchten – wir sind für Sie da.",
+        "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp"
+      },
+      "HOME_DESCRIPTION": "12 mm Glas, minimalistisches Design, maximale Robustheit! Unser Panoramic Platz bietet die perfekte Balance zwischen Funktionalität und Ästhetik.",
+      "HOME_IMAGES": [{
+        "id": "slide-1",
+        "src": "/courts/panoramic-court-01.webp",
+        "width": 574,
+        "height": 323,
+        "alt": "Panoramic Platz"
+      },{
+        "id": "slide-2",
+        "src": "/courts/panoramic-court-02.webp",
+        "width": 574,
+        "height": 323,
+        "alt": "Panoramic Platz"
+      },{
+        "id": "slide-3",
+        "src": "/courts/panoramic-court-03.webp",
+        "width": 574,
+        "height": 323,
+        "alt": "Panoramic Platz"
+      },{
+        "id": "slide-4",
+        "src": "/courts/panoramic-court-04.webp",
+        "width": 574,
+        "height": 323,
+        "alt": "Panoramic Platz"
+      }]
     },
     "CLUB_COURT": {
       "ID": "club-court",
@@ -4030,7 +4244,7 @@
   "LIGHTING_SECTION": {
     "TYPES_TITLE": "Beleuchtungstypen",
     "MASTS_TITLE": "Beleuchtungsmasten",
-    "MASTS_DESCRIPTION": "<p>Die Beleuchtungsmasten bestehen aus verzinktem Stahl, sind 6 Meter hoch und in drei Designs erhältlich:</p>",
+    "MASTS_DESCRIPTION": "<p>Optimierte Beleuchtungsmasten bestehen aus verzinktem Stahl, sind 6 Meter hoch und in drei Designs erhältlich:</p>",
     "LIGHTING_TYPES": [
       {
         "title": "PV: 8 X 180W",
