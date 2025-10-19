@@ -28,7 +28,7 @@ interface Props {
   video?: string;
   heroImage?: string;
   gallery: Photo[];
-  court: "MOBILE_COURT" | "TOURNAMENT_COURT" | "PANORAMIC_FORCE_80_COURT" | "PANORAMIC_COURT" | "CLUB_COURT" | "CLUB_PLUS" | "CLUB_FORCE_80_COURT" | "SINGLE_COURT" | "MINI_COURT";
+  court: "MOBILE_COURT" | "TOURNAMENT_COURT" | "PANORAMIC_FORCE_80_COURT" | "PANORAMIC_COURT" | "PANORAMIC_PLUS" | "CLUB_COURT" | "CLUB_PLUS" | "CLUB_FORCE_80_COURT" | "SINGLE_COURT" | "MINI_COURT";
 }
 
 const featureImages = [] as Photo[];
@@ -341,6 +341,16 @@ robots="index,follow"
         <SectionFaqs
           items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_PANORAMIC_COURT}
           title={i18n.PAGES.HOME.FAQS_SECTION.TITLE_PANORAMIC_COURT}
+          urlButton={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.URL}
+          buttonTitle={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TITLE}
+          urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
+        />
+      )}
+
+      {court === "PANORAMIC_PLUS" && (
+        <SectionFaqs
+          items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_PANORAMIC_PLUS}
+          title={i18n.PAGES.HOME.FAQS_SECTION.TITLE_PANORAMIC_PLUS}
           urlButton={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.URL}
           buttonTitle={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TITLE}
           urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
