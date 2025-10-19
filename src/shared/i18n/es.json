@@ -190,6 +190,7 @@
         "TITLE_PLUS": "Preguntas frecuentes sobre nuestra pista de pádel Club+",
         "TITLE_CLUB_FORCE_80_COURT": "Preguntas frecuentes sobre nuestras pistas Club Force 80",
         "TITLE_PANORAMIC_COURT":"Preguntas frecuentes sobre pistas de pádel panorámicas",
+        "TITLE_PANORAMIC_PLUS":"Frequently Asked Questions About Our Panoramic+ Padel Courts",
         "TITLE_PANORAMIC_FORCE_80_COURT": "Preguntas frecuentes sobre nuestras pistas de pádel Panoramic Force 80",
         "TITLE_MODULAR": "Preguntas frecuentes sobre las unidades modulares para clubes de pádel",
         "TITLE_PICKLEBALL": "Preguntas frecuentes sobre pistas de Pickleball",
@@ -306,6 +307,20 @@
         }, {
           "question": "¿Requiere la pista un mantenimiento especial debido a sus paredes de vidrio?",
           "answer": "<p>El mantenimiento es sencillo; la limpieza regular y la inspección de los herrajes aseguran un rendimiento duradero y un atractivo estético.</p>"
+        }
+      ],
+        "QUESTIONS_PANORAMIC_PLUS": [{
+          "question": "¿Qué diferencia la pista de pádel Panoramic+ del modelo Panoramic?",
+          "answer": "<p>La pista de pádel Panoramic+ cuenta con <strong>una estructura reforzada sin soportes de acero en las esquinas</strong>, ofreciendo un diseño limpio y totalmente abierto, manteniendo una resistencia excepcional y soportando vientos de hasta 198 km/h.</p>"
+        }, {
+          "question": "¿Es la pista Panoramic+ adecuado para instalaciones exteriores en zonas expuestas?",
+          "answer": "<p>Sí. Su estructura de acero galvanizado reforzado y paneles de vidrio templado de 12 mm hacen que sea la pista de pádel <strong>ideal para ubicaciones costeras, zonas con viento o entornos expuestos</strong> donde la durabilidad es fundamental.</p>"
+        }, {
+          "question": "¿Se puede personalizar la pista de pádel Panoramic+?",
+          "answer": "<p>Por supuesto. Está disponible en una amplia gama de colores y acabados RAL, con opciones de iluminación LED, controles inteligentes y accesorios a medida, lo que permite que cada club personalice su pista sin comprometer el rendimiento ni la estética.</p>"
+        }, {
+          "question": "¿Es la pista Panoramic+ adecuada para clubes y torneos profesionales?",
+          "answer": "<p>Sí. <strong>La pista Panoramic+ es perfecta para clubes de alto nivel, complejos deportivos y eventos profesionales</strong> que requieren una pista que combine diseño premium, resistencia estructural y máxima visibilidad.</p><p>Su diseño panorámico y reforzado ofrece vistas ininterrumpidas para los espectadores y cumple con los estándares requeridos para competiciones internacionales de pádel, siendo la elección ideal para torneos y partidos de exhibición.</p>"
         }
       ],
         "QUESTIONS_PANORAMIC_FORCE_80_COURT": [{
@@ -1086,6 +1101,221 @@
         "SUBJECT": "Nueva petición de Pista Panoramic",
         "TITLE": "Noticias",
         "BG_IMAGE": "/courts-detail/panoramic/panoramic-contact-bg.webp",
+        "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp"
+      },
+      "HOME_DESCRIPTION": "¡Cristal de 12mm, diseño minimalista y máxima resistencia! Nuestra pista de pádel panorámica logra el equilibrio ideal entre estética y funcionalidad.",
+      "HOME_IMAGES": [
+        {
+          "id": "slide-1",
+          "src": "/courts/panoramic-court-01.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pista panoramic"
+        },
+        {
+          "id": "slide-2",
+          "src": "/courts/panoramic-court-02.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pista panoramic"
+        },
+        {
+          "id": "slide-3",
+          "src": "/courts/panoramic-court-03.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pista panoramic"
+        },
+        {
+          "id": "slide-4",
+          "src": "/courts/panoramic-court-04.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pista panoramic"
+        }
+      ]
+    },
+    "PANORAMIC_PLUS": {
+      "ID": "panoramic-plus",
+      "SEO_TITLE": "Pistas de Pádel Panoramic+ – Diseño premium de pista de pádel",
+      "TYPE": "PRODUCT",
+      "SEO_DESCRIPTION": "Descubre la pista de pádel Panoramic+ de Portico Sport. Diseño reforzado y sin marcos, con máxima visibilidad, resistencia y estilo – ideal para clubes de alto nivel, torneos y centros profesionales.",
+      "OG_IMG": "https://www.porticosport.com/og/og-panoramic.jpg",
+      "TITLE": "Pista Panoramic+",
+      "DESCRIPTION": "<p>La <strong>Panoramic+</strong> es una pista de pádel reforzada, diseñada para quienes buscan el máximo nivel de juego y una estética impecable.</p><p>Su estructura, sin perfiles en las esquinas, ofrece una visión panorámica total, ideal para clubes que desean una experiencia visual limpia, perfecta para competiciones, retransmisiones o exhibiciones.</p>",
+      "NAME": "Panoramic+",
+      "SUBTITLE": "Máxima visibilidad, resistencia y elegancia en una sola pista",
+      "LITTLE_DESCRIPTION": "<p>Disfruta del pádel con una vista panorámica del entorno.</p>",
+      "DETAIL_TITLE": "<span>Pista Panoramic+</span>",
+      "MORE_INFO_URL": "https://www.porticosport.com/en/panoramic-courts",
+      "CONTACT_TITLE_1": "¿Quieres una Pista Panoramic+?",
+      "CONTACT_SUBJECT": "Nueva petición de Pista Panoramic+",
+      "CONTACT_BUTTON": "Quiero una Pista Panoramic+",
+      "ROUTE": {
+        "LABEL": "Más sobre la pista panoramic+",
+        "URL": "/panoramic-plus",
+        "TITLE": "Pista Panoramic+"
+      },
+      "FIRST_SECTION": {
+        "TITLE": "<span class=\"text-secondary\">Resistencia sin precedentes</span>",
+        "DESCRIPTION": "<p>Con una ingeniería optimizada para entornos exigentes, la pista de pádel Panoramic+ es capaz de <strong>resistir vientos de hasta 198 km/h</strong>, manteniendo intacta su estabilidad y su diseño ligero. Esta combinación la convierte en una solución perfecta tanto para zonas costeras como para espacios expuestos a condiciones meteorológicas adversas.</p>",
+        "IMAGES": {
+          "FRONT": {
+            "src": "/courts-detail/panoramic/panoramic-front.webp",
+            "alt": "Vista frontal de la pista panoramic"
+          },
+          "PERSPECTIVE": {
+            "src": "/courts-detail/panoramic-plus/Panoramic-plus-perspective.webp",
+            "alt": "Vista panorámica de la pista panoramic"
+          },
+          "TOP": {
+            "src": "/courts-detail/panoramic-plus/Panoramic-plus-top.webp",
+            "alt": "Vista superior de la pista panoramic"
+          }
+        }
+      },
+      "BENEFITS_SECTION": {
+        "ID": "beneficios",
+        "TITLE": "Experimenta los beneficios de nuestra pista Panoramic+",
+        "SUBTITLE": "¿Por qué elegir una pista de pádel Panoramic+?",
+        "DESCRIPTION": "Las pistas de pádel panorámicas están ganando popularidad debido a su diseño moderno y la visibilidad mejorada que ofrecen. La ausencia de estructuras metálicas alrededor de los paneles de cristal proporciona una sensación de amplitud y elegancia que es tanto atractiva visualmente como funcional. Estas pistas de pádel son perfectas para eventos de alto perfil, clubes que buscan atraer a más miembros, o cualquier persona que valore un entorno deportivo de primera calidad.",
+        "BENEFITS": [
+          {
+            "header": "Garantía de 10 años",
+            "icon": "WarrantyIcon",
+            "footer": "Estabilidad y rendimiento a largo plazo garantizados"
+          },
+          {
+            "header": "Alta resistencia al viento",
+            "icon": "VersatileCourtIcon",
+            "footer": "Certificada hasta 198 km/h"
+          },
+          {
+            "header": "Diseño versátil",
+            "icon": "MaterialsIcon",
+            "footer": "Perfecta para instalaciones interiores y exteriores, proporcionando una superficie de juego estética y adaptable."
+          }
+        ]
+      },
+      "STRUCTURE_SECTION": {
+        "ID": "structura",
+        "IMAGE": {
+          "id": "section-information",
+          "src": "/courts-detail/mobile/mobile-section-information-court.webp",
+          "alt": "Representación de una pista móvil"
+        },
+        "TITLE": "Pista Panoramic+: Diseño Reforzado y Resistencia",
+        "SUBTITLE": "Experimenta la excelencia de la estructura de calidad premium de nuestra pista de pádel Panoramic",
+        "TEXT": "<p>Fabricada con acero galvanizado reforzado <strong>S275JR</strong> para ofrecer una resistencia inigualable frente al viento y la corrosión.</p><p>Los marcos laterales y superiores incluyen malla electrosoldada conforme a la norma UNE-EN-10223-4, con armazón intermedio para evitar vibraciones.</p><p>Montaje rápido con tornillería y tuercas autolocantes galvanizadas.</p><p>Nuestra estructura pasa por procesos de fabricación avanzados:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Corte por láser: Garantiza cortes precisos y acabados limpios.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Soldadura robótica: Garantiza la calidad de las soldaduras y previene la oxidación.</li></ul>"
+      },
+      "SIZING_SECTION": {
+        "ID": "medidas",
+        "TITLE": "Dimensiones de la pista de pádel Panoramic+",
+        "INDOOR_TITLE": "Interior",
+        "OUTDOOR_TITLE": "Exterior",
+        "OUTDOOR": "<p><strong>Longitud</strong>: 20 m x 10 m </p>",
+        "INDOOR": "<p><strong>Longitud</strong>: 20.46 m x 10.43 m </p>",
+        "IMAGE": {
+          "id": "image-sizing",
+          "src": "/courts-detail/panoramic/panoramic-sizing.webp",
+          "alt": "Tamaños de la pista panoramic interior y exterior"
+        }
+      },
+      "GLASS_SECTION": {
+        "ID": "vidrios",
+        "IMAGE": {
+          "id": "advantage-section",
+          "src": "/courts-detail/mobile/mobile-glasses.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pista móvil patentada por Portico Sport"
+        },
+        "TITLE": "Vidrio templado de seguridad para pistas de pádel Panoramic+",
+        "SUBTITLE": "¡Cristal templado de seguridad en cada pista!",
+        "DESCRIPTION": "<p>Nuestras pistas panorámicas cuentan con vidrio de seguridad templado de <strong>10 o 12 mm de espesor</strong>, cumpliendo con todos los estándares regulatorios.</p><p>Los bordes pulidos, juntas de neopreno y fijaciones galvanizadas garantizan seguridad, estabilidad y excelente visibilidad. Con excelente resistencia a impactos y planicidad, el vidrio asegura una experiencia de juego premium tanto para jugadores como para espectadores.</p>"
+      },
+      "PAINT_SECTION": {
+        "ID": "pintura",
+        "TITLE": "Acabados personalizables con pintura lacada",
+        "SUBTITLE": "¿Sabías que ahora puedes agregar un toque de color a tu pista de pádel panorámica?",
+        "DESCRIPTION": "<p>Aporta un toque de personalidad eligiendo entre una amplia gama de colores RAL y diseños monocromáticos o bicolor, con opciones de pintura lacada de alta durabilidad:</p>",
+        "IMAGES": [
+          {
+            "id": "slide-3",
+            "src": "/courts-detail/mobile/structure-painted-mobile-3.webp",
+            "alt": "Exterior de una pista móvil amarilla"
+          },
+          {
+            "id": "slide-4",
+            "src": "/courts-detail/mobile/structure-painted-mobile-4.webp",
+            "alt": "Exterior de una pista móvil amarilla"
+          },
+          {
+            "id": "slide-5",
+            "src": "/courts-detail/mobile/structure-painted-mobile-5.webp",
+            "alt": "Pista móvil pintada de amarillo"
+          },
+          {
+            "id": "slide-11",
+            "src": "/courts-detail/mobile/structure-painted-mobile-11.webp",
+            "alt": "Estructura azul pintada en el interior"
+          }
+        ],
+        "LIST": [
+          "<strong>INTERIOR:</strong> Electrogalvanizado + lacado",
+          "<strong>EXTERIOR:</strong> Electrogalvanizado + imprimación + lacado",
+          "<strong>GALVANIZADO POR INMERSIÓN EN CALIENTE:</strong> Electrogalvanizado + tratamiento especial en soldaduras + imprimación + lacado",
+          "<strongGALVANIZADO EN CALIENTE></strongGALVANIZADO> Galvanizado en caliente (baño de zinc) + imprimación + lacado"
+        ]
+      },
+      "TURF_SECTION": {
+        "ID": "cesped",
+        "IMAGE": {
+          "src": "/courts-detail/mobile/mobile-top.webp",
+          "alt": "Vista superior de una pista móvil"
+        },
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\"> Césped de alto rendimiento para pistas de pádel Panoramic+</span>",
+        "SUBTITLE": "¡Experimenta nuestro césped artificial de alto rendimiento!",
+        "DESCRIPTION": "<p>Disfruta de un rendimiento inigualable con nuestro <strong>césped de última generación</strong>, procedente de fabricantes europeos de confianza.</p><p>Nuestro césped artificial cuenta con:</p>",
+        "DESCRIPTION_DOS": "Disponible en varios colores y tipos de fibra para adaptarse a tus preferencias.",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Césped de filamentos texturizados de polietileno de baja abrasión.</li><li>Tratamiento anti-UV, alta resistencia al calor y a la intemperie.</li><li>Relleno de arena de sílice lavada y secada (10-15 kg/m²) para un bote de pelota y velocidad óptimos.</li></ul>"
+      },
+      "LIGHTING_SECTION": {
+        "ID": "luces",
+        "IMAGE": {
+          "src": "/courts-detail/mobile/mobile-lighting.webp",
+          "alt": "Iluminación de una pista móvil"
+        },
+        "TITLE": "Sistemas de iluminación LED para pistas de pádel",
+        "SUBTITLE": "¡Ilumina tu pista con la iluminación de Portico Sport!",
+        "DESCRIPTION": "<p>Ilumina tu pista de pádel Panorámica con la iluminación LED de Portico Sport. Trabajamos con especialistas de primer nivel para ofrecer soluciones de iluminación de alto rendimiento:</p>",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Cumplen con la norma <strong>UNE-EN-12193:2020</strong></li><li>Luz uniforme, sin deslumbramientos ni sombras</li><li>Resistencia al impacto IK10 y protección IP66-IP67</li><li>Protección contra sobretensiones (4kV-6kV), alta disipación térmica</li><li>Válido para uso recreativo (Clase III) hasta competiciones profesionales (Clase I, normativa NIDE)</li><li>Garantía de hasta 5 años</li></ul>"
+      },
+      "INSTALLATION_SECTION": {
+        "ID": "installation",
+        "TITLE": "Instalación Personalizada de Pistas de Pádel Panorámicas",
+        "DESCRIPTION": "Entendemos que cada proyecto de pádel es único, por lo que ofrecemos soluciones personalizadas para pistas de pádel panorámicas. Desde el tamaño de la pista hasta la elección de materiales, iluminación y características adicionales, trabajamos estrechamente con nuestros clientes para crear una pista que se ajuste a sus necesidades y presupuesto específicos. Nuestras pistas de pádel están construidas con materiales de alta calidad para garantizar durabilidad, seguridad y excelentes condiciones de juego."
+      },
+      "COST_SECTION": {
+        "ID": "cost",
+        "TITLE": "¿Cuánto cuesta una pista de pádel panorámica?",
+        "DESCRIPTION": "El costo de instalar una pista de pádel panorámica puede variar dependiendo de varios factores, como el tamaño, los materiales y las características adicionales que elijas. Para obtener una estimación más precisa, te recomendamos programar una consulta con nuestro equipo, que puede proporcionar una cotización detallada basada en tus requisitos específicos."
+      },
+      "GALLERY_SECTION": {
+        "ID": "galeria",
+        "PATH": "courts-detail/panoramic/gallery",
+        "OFFSET": 22
+      },
+      "COURTS_SECTION": {
+        "TITLE": "Descubre otras Pistas de Pádel",
+        "DESCRIPTION": "¿Quieres algo diferente? Puedes ver otros modelos de Pistas de Pádel"
+      },
+      "CONTACT_SECTION": {
+        "ID": "contacto",
+        "SUBJECT": "Nueva petición de Pista Panoramic+",
+        "TITLE": "Noticias",
+        "BG_IMAGE": "/courts-detail/panoramic/panoramic-contact-bg.webp",
+        "DESCRIPTION": "¿Listo para instalar una pista Panoramic+ en tu club? Contacta hoy con Portico Sport y habla con uno de nuestros especialistas. Nos comprometemos a ofrecer pistas de pádel de alta calidad que superen tus expectativas. Tanto si quieres mejorar una instalación existente como construir una nueva desde cero, estamos aquí para ayudarte.",
         "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp"
       },
       "HOME_DESCRIPTION": "¡Cristal de 12mm, diseño minimalista y máxima resistencia! Nuestra pista de pádel panorámica logra el equilibrio ideal entre estética y funcionalidad.",
@@ -4077,7 +4307,7 @@
   "LIGHTING_SECTION": {
     "TYPES_TITLE": "Tipos de iluminación",
     "MASTS_TITLE": "Postes de iluminación",
-    "MASTS_DESCRIPTION": "<p>Postes de iluminación de acero galvanizado, de 6 metros de altura, con tres diseños:</p>",
+    "MASTS_DESCRIPTION": "<p>Postes de acero galvanizado de 6 metros de altura, reforzados y disponibles en tres diseños:</p>",
     "LIGHTING_TYPES": [
       {
         "title": "PV: 8 X 180W",
