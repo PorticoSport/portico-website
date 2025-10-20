@@ -1303,7 +1303,7 @@
       },
       "GALLERY_SECTION": {
         "ID": "galeria",
-        "PATH": "courts-detail/panoramic/gallery",
+        "PATH": "courts-detail/panoramic-plus/gallery",
         "OFFSET": 22
       },
       "COURTS_SECTION": {
