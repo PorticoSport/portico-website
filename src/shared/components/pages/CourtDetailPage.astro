@@ -159,26 +159,34 @@ robots="index,follow"
       ]}
     />
     {
-      isFirstSection ? (<Section heading2={isFirstSection.TITLE}>
-        <Typography tag="div" className="text-center" text={isFirstSection.DESCRIPTION} responsive />
-        <div class="section-renders grid-flow-col-dense items-center gap-4 max-w-[1400px] my-16 mx-auto px-6 ">
-          <img
-            src={isFirstSection.IMAGES.FRONT.src}
-            alt={isFirstSection.IMAGES.FRONT.alt}
-            class="front"
-          />
-          <img
-            src={isFirstSection.IMAGES.PERSPECTIVE.src}
-            alt={isFirstSection.IMAGES.PERSPECTIVE.alt}
-            class="perspective"
-          />
-          <img
-            src={isFirstSection.IMAGES.TOP.src}
-            alt={isFirstSection.IMAGES.TOP.alt}
-            class="top"
-          />
-        </div>
-      </Section>) : null
+      isFirstSection ? (
+        <Section heading2={isFirstSection.TITLE}>
+          <Typography tag="div" className="text-center" text={isFirstSection.DESCRIPTION} responsive />
+          <div class={`section-renders flex items-center gap-4 max-w-[1400px] my-16 mx-auto px-6 ${!isFirstSection.IMAGES.FRONT ? 'justify-center' : ''}`}>
+            {isFirstSection.IMAGES.FRONT && (
+              <img
+                src={isFirstSection.IMAGES.FRONT.src}
+                alt={isFirstSection.IMAGES.FRONT.alt}
+                class="front"
+              />
+            )}
+            {isFirstSection.IMAGES.PERSPECTIVE && (
+              <img
+                src={isFirstSection.IMAGES.PERSPECTIVE.src}
+                alt={isFirstSection.IMAGES.PERSPECTIVE.alt}
+                class="perspective"
+              />
+            )}
+            {isFirstSection.IMAGES.TOP && (
+              <img
+                src={isFirstSection.IMAGES.TOP.src}
+                alt={isFirstSection.IMAGES.TOP.alt}
+                class="top"
+              />
+            )}
+          </div>
+        </Section>
+      ) : null
     }
     <NormativeLogos language={language} />
     <div class="bg-slate-100 w-full">
