@@ -3150,10 +3150,6 @@
         "TITLE": "<span class=\"text-secondary\">Built to withstand anything</span>",
         "DESCRIPTION": "<p>Engineered to perform in the most demanding conditions, the Panoramic+ <strong>can resist wind speeds of up to 198 km/h (120 mph)</strong> while maintaining its sleek, lightweight design. Perfect for coastal areas and exposed environments where <strong>strength, durability, and long-term performance</strong> are essential.</p>",
         "IMAGES": {
-          "FRONT": {
-            "src": "/courts-detail/panoramic/panoramic-front.webp",
-            "alt": "Panoramic+ court front view"
-          },
           "PERSPECTIVE": {
             "src": "/courts-detail/panoramic-plus/Panoramic-plus-perspective.webp",
             "alt": "Panoramic+ court perspective view"
@@ -3297,7 +3293,7 @@
         "TITLE": "News",
         "BG_IMAGE": "/courts-detail/panoramic/panoramic-contact-bg.webp",
         "DESCRIPTION": "Ready to install a Panoramic+ padel court at your club? Contact Portico Sport today to speak with one of our specialists. We are committed to delivering high-quality padel courts that exceed your expectations. Whether you want to upgrade an existing facility or build a new one from scratch, we are here to help.",
-        "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp"
+        "IMAGE": "/courts-detail/panoramic-plus/Panoramic-plus-perspective.webp"
       },
       "HOME_DESCRIPTION": "12mm glass, minimalistic design, maximum robustness! Our panoramic court provides the perfect balance between functionality and aesthetics.",
       "HOME_IMAGES": [{
