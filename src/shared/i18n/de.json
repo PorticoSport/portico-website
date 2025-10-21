@@ -1156,7 +1156,7 @@
       "TITLE": "Panoramic+ Platz",
       "DESCRIPTION": "<p>Der <strong>Panoramic+</strong> ist ein <strong>verstärkter Panoramic Padelplatz</strong>, entwickelt für Clubs und Anlagen, die höchste Leistung und ein makelloses Design verlangen.</p><p>Sein rahmenloses, offenes Design bietet ununterbrochene Sicht, ideal für Clubs, die ein Premium-Erlebnis für Spieler und Zuschauer wünschen — perfekt für Turniere, Events und professionelle Einrichtungen.</p>",
       "NAME": "Panoramic+",
-      "SUBTITLE": "Der Panoramic Platz von Portico Sport",
+      "SUBTITLE": "Maximale Sicht, Stärke und Stil in einem Platz",
       "LITTLE_DESCRIPTION": "<p>Maximale Sicht, Stärke und Stil in einem Platz</p>",
       "DETAIL_TITLE": "<span>Panoramic+ Platz</span>",
       "MORE_INFO_URL": "https://www.porticosport.com/de/panoramic-courts",
@@ -1165,7 +1165,7 @@
       "CONTACT_BUTTON": "Ich möchte einen Panoramic+ Padelplatz",
       "ROUTE": {
         "LABEL": "Mehr über den Panoramic+ Padelplatz",
-        "URL": "/panoramic-plus",
+        "URL": "/client-contact",
         "TITLE": "Panoramic+ Platz"
       },
       "FIRST_SECTION": {
@@ -1225,7 +1225,7 @@
         "INDOOR": "<p><strong>Länge</strong>: 20,46 m x 10,43 m </p><p>",
         "IMAGE": {
           "id": "image-sizing",
-          "src": "/courts-detail/panoramic/panoramic-sizing.webp",
+          "src": "/courts-detail/panoramic-plus/Panoramic-plus-sizing.webp",
           "alt": "Innen- und Außenmaße des Panoramic Platzes"
         }
       },
@@ -1267,7 +1267,7 @@
         "LIST": [
           "<strong>INNEN:</strong> Elektroverzinkte Oberfläche + Lackbeschichtung.",
           "<strong>AUSSEN:</strong> Elektroverzinkte Oberfläche + Grundierung + Lackbeschichtung.",
-          "<strong>FEUERVERZINKT:</strong> Elektroverzinkte Oberfläche + spezielle Schweißbehandlung + Grundierung + Lackbeschichtung.",
+          "<strong>Außenbereichsschutz in Marinequalität:</strong> Elektroverzinkte Oberfläche + spezielle Schweißbehandlung + Grundierung + Lackbeschichtung.",
           "<strong>FEUERVERZINKT:</strong> Feuerverzinkung (Zinkbad) + Grundierung + Lackbeschichtung."
         ]
       },
@@ -1319,7 +1319,7 @@
         "TITLE": "Neuigkeiten",
         "BG_IMAGE": "/courts-detail/panoramic/panoramic-contact-bg.webp",
         "DESCRIPTION": "Bereit, einen Panoramic+ Padelplatz in Ihrem Club zu installieren? Kontaktieren Sie noch heute Portico Sport, um mit einem unserer Spezialisten zu sprechen. Wir sind bestrebt, hochwertige Padelplätze zu liefern, die Ihre Erwartungen übertreffen. Egal, ob Sie eine bestehende Anlage aufrüsten oder eine völlig neue bauen möchten – wir sind für Sie da.",
-        "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp"
+        "IMAGE": "/courts-detail/panoramic-plus/Panoramic-plus-perspective.webp"
       },
       "HOME_DESCRIPTION": "12 mm Glas, minimalistisches Design, maximale Robustheit! Unser Panoramic Platz bietet die perfekte Balance zwischen Funktionalität und Ästhetik.",
       "HOME_IMAGES": [{
