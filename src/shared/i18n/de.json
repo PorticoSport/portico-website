@@ -1172,10 +1172,6 @@
         "TITLE": "<span class=\"text-secondary\">Gebaut, um allem standzuhalten</span>",
         "DESCRIPTION": "<p>Der Panoramic+ wurde entwickelt, um auch unter anspruchsvollsten Bedingungen zu bestehen. Er <strong>widersteht Windgeschwindigkeiten von bis zu 198 km/h (120 mph)</strong> und behält dabei sein elegantes, leichtes Design. Perfekt für Küstenregionen und exponierte Standorte, wo <strong>Stärke, Haltbarkeit und langfristige Leistung</strong> entscheidend sind.</p>",
         "IMAGES": {
-          "FRONT": {
-            "src": "/courts-detail/panoramic/panoramic-front.webp",
-            "alt": "Vorderansicht des Panoramic+ Platzes"
-          },
           "PERSPECTIVE": {
             "src": "/courts-detail/panoramic-plus/Panoramic-plus-perspective.webp",
             "alt": "Perspektivansicht des Panoramic+ Platzes"
