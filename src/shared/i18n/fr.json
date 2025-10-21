@@ -1156,7 +1156,7 @@
       "TITLE": "Court Panoramic+",
       "DESCRIPTION": "<p>Le <strong>Panoramic+</strong> est un <strong>court de padel panoramique renforcé</strong> conçu pour les clubs et installations exigeant des performances de haut niveau et une esthétique impeccable.</p><p>Son design ouvert et sans cadre offre une visibilité totale, idéale pour les clubs recherchant une expérience haut de gamme pour les joueurs et les spectateurs — parfait pour les tournois, événements et installations professionnelles.</p>",
       "NAME": "Panoramic+",
-      "SUBTITLE": "Découvrez le court Panoramic+ de Portico Sport",
+      "SUBTITLE": "Visibilité, solidité et style maximaux en un seul court",
       "LITTLE_DESCRIPTION": "<p>Visibilité maximale, solidité et style réunis dans un seul court</p>",
       "DETAIL_TITLE": "<span>Court Panoramic+</span>",
       "MORE_INFO_URL": "https://www.porticosport.com/fr/panoramic-courts",
@@ -1165,17 +1165,13 @@
       "CONTACT_BUTTON": "Je veux un court de padel Panoramic+",
       "ROUTE": {
         "LABEL": "En savoir plus sur le court de padel Panoramic+",
-        "URL": "/panoramic-plus",
+        "URL": "/client-contact",
         "TITLE": "Court Panoramic+"
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Conçu pour résister à tout</span>",
         "DESCRIPTION": "<p>Conçu pour offrir des performances optimales dans les conditions les plus exigeantes, le Panoramic+ <strong>résiste à des vents allant jusqu’à 198 km/h (120 mph)</strong> tout en conservant son design élégant et léger. Parfait pour les zones côtières et les environnements exposés où <strong>solidité, durabilité et performance à long terme</strong> sont essentielles.</p>",
         "IMAGES": {
-          "FRONT": {
-            "src": "/courts-detail/panoramic/panoramic-front.webp",
-            "alt": "Vue de face du court Panoramic+"
-          },
           "PERSPECTIVE": {
             "src": "/courts-detail/panoramic-plus/Panoramic-plus-perspective.webp",
             "alt": "Vue en perspective du court Panoramic+"
@@ -1229,7 +1225,7 @@
         "INDOOR": "<p><strong>Longueur</strong> : 20,46 m x 10,43 m</p><p>",
         "IMAGE": {
           "id": "image-sizing",
-          "src": "/courts-detail/panoramic/panoramic-sizing.webp",
+          "src": "/courts-detail/panoramic-plus/Panoramic-plus-sizing.webp",
           "alt": "Dimensions intérieures et extérieures du court Panoramic"
         }
       },
@@ -1260,7 +1256,7 @@
         "LIST": [
           "<strong>INTÉRIEUR :</strong> Finition électro-galvanisée + finition laquée.",
           "<strong>EXTÉRIEUR :</strong> Finition électro-galvanisée + couche d’apprêt + finition laquée.",
-          "<strong>GALVANISÉ À CHAUD :</strong> Finition électro-galvanisée + traitement spécial de soudure + couche d’apprêt + finition laquée.",
+          "<strong>Protection extérieure de qualité marine :</strong> Finition électro-galvanisée + traitement spécial de soudure + couche d’apprêt + finition laquée.",
           "<strong>GALVANISÉ À CHAUD :</strong> Galvanisation à chaud (bain de zinc) + couche d’apprêt + finition laquée."
         ]
       },
@@ -1306,7 +1302,7 @@
         "TITLE": "Actualités",
         "BG_IMAGE": "/courts-detail/panoramic/panoramic-contact-bg.webp",
         "DESCRIPTION": "Prêt à installer un court de padel Panoramic+ dans votre club ? Contactez dès aujourd’hui Portico Sport pour parler avec l’un de nos spécialistes. Nous nous engageons à fournir des courts de padel de haute qualité qui dépassent vos attentes. Que vous souhaitiez améliorer une installation existante ou en construire une nouvelle, nous sommes là pour vous aider.",
-        "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp"
+        "IMAGE": "/courts-detail/panoramic-plus/Panoramic-plus-perspective.webp"
       },
       "HOME_DESCRIPTION": "Verre de 12 mm, design minimaliste, robustesse maximale ! Notre court panoramique offre l’équilibre parfait entre fonctionnalité et esthétique.",
       "HOME_IMAGES": [
