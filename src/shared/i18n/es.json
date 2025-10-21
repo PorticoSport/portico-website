@@ -1160,10 +1160,6 @@
         "TITLE": "<span class=\"text-secondary\">Resistencia sin precedentes</span>",
         "DESCRIPTION": "<p>Con una ingeniería optimizada para entornos exigentes, la pista de pádel Panoramic+ es capaz de <strong>resistir vientos de hasta 198 km/h</strong>, manteniendo intacta su estabilidad y su diseño ligero. Esta combinación la convierte en una solución perfecta tanto para zonas costeras como para espacios expuestos a condiciones meteorológicas adversas.</p>",
         "IMAGES": {
-          "FRONT": {
-            "src": "/courts-detail/panoramic/panoramic-front.webp",
-            "alt": "Vista frontal de la pista panoramic"
-          },
           "PERSPECTIVE": {
             "src": "/courts-detail/panoramic-plus/Panoramic-plus-perspective.webp",
             "alt": "Vista panorámica de la pista panoramic"
