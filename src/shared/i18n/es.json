@@ -1217,7 +1217,7 @@
         "INDOOR": "<p><strong>Longitud</strong>: 20.46 m x 10.43 m </p>",
         "IMAGE": {
           "id": "image-sizing",
-          "src": "/courts-detail/panoramic/panoramic-sizing.webp",
+          "src": "/courts-detail/panoramic-plus/Panoramic-plus-sizing.webp",
           "alt": "Tamaños de la pista panoramic interior y exterior"
         }
       },
@@ -1232,7 +1232,7 @@
         },
         "TITLE": "Vidrio templado de seguridad para pistas de pádel Panoramic+",
         "SUBTITLE": "¡Cristal templado de seguridad en cada pista!",
-        "DESCRIPTION": "<p>Nuestras pistas panorámicas cuentan con vidrio de seguridad templado de <strong>10 o 12 mm de espesor</strong>, cumpliendo con todos los estándares regulatorios.</p><p>Los bordes pulidos, juntas de neopreno y fijaciones galvanizadas garantizan seguridad, estabilidad y excelente visibilidad. Con excelente resistencia a impactos y planicidad, el vidrio asegura una experiencia de juego premium tanto para jugadores como para espectadores.</p>"
+        "DESCRIPTION": "<p>Nuestras pistas Panoramic+ cuentan con vidrio de seguridad templado de <strong>12 mm de espesor</strong>, cumpliendo con todos los estándares regulatorios.</p><p>Los bordes pulidos, juntas de neopreno y fijaciones galvanizadas garantizan seguridad, estabilidad y excelente visibilidad. Con excelente resistencia a impactos, el vidrio asegura una experiencia de juego premium tanto para jugadores como para espectadores.</p>"
       },
       "PAINT_SECTION": {
         "ID": "pintura",
@@ -1264,8 +1264,8 @@
         "LIST": [
           "<strong>INTERIOR:</strong> Electrogalvanizado + lacado",
           "<strong>EXTERIOR:</strong> Electrogalvanizado + imprimación + lacado",
-          "<strong>GALVANIZADO POR INMERSIÓN EN CALIENTE:</strong> Electrogalvanizado + tratamiento especial en soldaduras + imprimación + lacado",
-          "<strongGALVANIZADO EN CALIENTE></strongGALVANIZADO> Galvanizado en caliente (baño de zinc) + imprimación + lacado"
+          "<strong>PROTECCIÓN MARINA EXTERIOR:</strong> Electrogalvanizado + tratamiento especial en soldaduras + imprimación + lacado",
+          "<strong>GALVANIZADO EN CALIENTE</strong> Galvanizado en caliente (baño de zinc) + imprimación + lacado"
         ]
       },
       "TURF_SECTION": {
@@ -1316,7 +1316,7 @@
         "TITLE": "Noticias",
         "BG_IMAGE": "/courts-detail/panoramic/panoramic-contact-bg.webp",
         "DESCRIPTION": "¿Listo para instalar una pista Panoramic+ en tu club? Contacta hoy con Portico Sport y habla con uno de nuestros especialistas. Nos comprometemos a ofrecer pistas de pádel de alta calidad que superen tus expectativas. Tanto si quieres mejorar una instalación existente como construir una nueva desde cero, estamos aquí para ayudarte.",
-        "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp"
+        "IMAGE": "/courts-detail/panoramic-plus/Panoramic-plus-perspective.webp"
       },
       "HOME_DESCRIPTION": "¡Cristal de 12mm, diseño minimalista y máxima resistencia! Nuestra pista de pádel panorámica logra el equilibrio ideal entre estética y funcionalidad.",
       "HOME_IMAGES": [
