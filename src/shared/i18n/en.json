@@ -3128,13 +3128,13 @@
     },
     "PANORAMIC_PLUS": {
       "ID": "panoramic-plus",
-      "SEO_TITLE": "Panoramic+ Padel Courts – Premium padel court desig",
+      "SEO_TITLE": "Panoramic+ Padel Courts – Premium padel court design",
       "SEO_DESCRIPTION":"Discover the Panoramic+ Padel Court by Portico Sport. Reinforced, frameless design with maximum visibility, strength, and style – ideal for high-end clubs, tournaments, and professional facilities.",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic.jpg",
       "TITLE": "Panoramic+ Court",
       "DESCRIPTION": "<p>The <strong>Panoramic+</strong> is a <strong>reinforced panoramic padel court</strong> designed for clubs and venues that demand top-tier performance and impeccable aesthetics.</p><p>Its frameless, open design offers uninterrupted visibility, making it ideal for clubs that want a premium experience for players and spectators — perfect for tournaments, events, and professional venues.</p>",
       "NAME": "Panoramic+",
-      "SUBTITLE": "Introducing the Panoramic Court by Portico Sport",
+      "SUBTITLE": "Maximum visibility, strength, and style in one court",
       "LITTLE_DESCRIPTION": "<p>Maximum visibility, strength, and style in one court</p>",
       "DETAIL_TITLE": "<span>Panoramic+ Court</span>",
       "MORE_INFO_URL": "https://www.porticosport.com/en/panoramic-courts",
@@ -3143,7 +3143,7 @@
       "CONTACT_BUTTON": "I want a Panoramic+ Padel Court",
       "ROUTE": {
         "LABEL": "More about panoramic+ padel court",
-        "URL": "/panoramic-plus",
+        "URL": "/client-contact",
         "TITLE": "Panoramic+ Court"
       },
       "FIRST_SECTION": {
@@ -3203,7 +3203,7 @@
         "INDOOR": "<p><strong>Length</strong>: 20.46 m x 10.43 m </p><p>",
         "IMAGE": {
           "id": "image-sizing",
-          "src": "/courts-detail/panoramic/panoramic-sizing.webp",
+          "src": "/courts-detail/panoramic-plus/Panoramic-plus-sizing.webp",
           "alt": "Interior and exterior Panoramic court sizes"
         }
       },
@@ -3245,7 +3245,7 @@
         "LIST": [
           "<strong>INDOOR:</strong> Electro-galvanized finish + lacquer finish.",
           "<strong>OUTDOOR:</strong> Electro-galvanized finish + primer coating + lacquer finish.",
-          "<strong>HOT DIP GALVANIZED:</strong> Electro-galvanized finish + special welding treatment + primer coating + lacquer finish.",
+          "<strong>MARINE-GRADE EXTERIOR PROTECTION:</strong> Electro-galvanized finish + special welding treatment + primer coating + lacquer finish.",
           "<strong>HOT DIP GALVANIZED:</strong> Hot dip galvanized (zinc bath treatment)+ primer coating + lacquer finish"
         ]
       },
