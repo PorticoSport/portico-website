@@ -2694,7 +2694,12 @@
         "SUBJECT": "New petition from Mobile Court",
         "TITLE": "News",
         "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
-        "IMAGE": "/courts-detail/mobile/mobile-perspective.webp"
+        "IMAGE": "/courts-detail/mobile/mobile-perspective.webp",
+        "BUTTON":{
+          "LABEL":"Contact Portico Sport now!",
+          "URL":"/client-contact",
+          "TITLE":"contact Portico Sport"
+        }
       },
        "HOME_DESCRIPTION": "<strong> Patented court system </strong> that avoids anchoring the court to the ground. The court can be placed in the same place for extended periods of time and enjoys the same structural robustness as a traditionally anchored court.",
       "HOME_IMAGES": [{
@@ -2904,7 +2909,12 @@
         "SUBJECT": "New petition from Tournament Court",
         "TITLE": "News",
         "BG_IMAGE": "/courts-detail/tournament/tournament-contact-bg.webp",
-        "IMAGE": "/courts-detail/tournament/tournament-court-contact.webp"
+        "IMAGE": "/courts-detail/tournament/tournament-court-contact.webp",
+        "BUTTON":{
+          "LABEL":"Contact Portico Sport now!",
+          "URL":"/client-contact",
+          "TITLE":"contact Portico Sport"
+        }
       },
       "HOME_DESCRIPTION": "Unparalleled esthetics, unobstructed views, feel like a pro! Design to provide players with pro-grade playing experience while withstanding the regular heavy use conditions of a padel club",
       "HOME_IMAGES": [{
@@ -3097,7 +3107,12 @@
         "TITLE": "News",
         "BG_IMAGE": "/courts-detail/panoramic/panoramic-contact-bg.webp",
         "DESCRIPTION": "Ready to invest in a panoramic padel court? Contact Portico Sport today to discuss your project with one of our experts. We are committed to delivering high-quality courts that exceed your expectations. Whether you're looking to upgrade an existing facility or build a new one from scratch, we are here to help.",
-        "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp"
+        "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp",
+        "BUTTON":{
+          "LABEL":"Contact Portico Sport now!",
+          "URL":"/client-contact",
+          "TITLE":"contact Portico Sport"
+        }
       },
       "HOME_DESCRIPTION": "12mm glass, minimalistic design, maximum robustness! Our panoramic court provides the perfect balance between functionality and aesthetics.",
       "HOME_IMAGES": [{
@@ -3293,7 +3308,12 @@
         "TITLE": "News",
         "BG_IMAGE": "/courts-detail/panoramic/panoramic-contact-bg.webp",
         "DESCRIPTION": "Ready to install a Panoramic+ padel court at your club? Contact Portico Sport today to speak with one of our specialists. We are committed to delivering high-quality padel courts that exceed your expectations. Whether you want to upgrade an existing facility or build a new one from scratch, we are here to help.",
-        "IMAGE": "/courts-detail/panoramic-plus/Panoramic-plus-perspective.webp"
+        "IMAGE": "/courts-detail/panoramic-plus/Panoramic-plus-perspective.webp",
+        "BUTTON":{
+          "LABEL":"Contact Portico Sport now!",
+          "URL":"/client-contact",
+          "TITLE":"contact Portico Sport"
+        }
       },
       "HOME_DESCRIPTION": "12mm glass, minimalistic design, maximum robustness! Our panoramic court provides the perfect balance between functionality and aesthetics.",
       "HOME_IMAGES": [{
@@ -3483,7 +3503,12 @@
         "SUBJECT": "New petition from Club Court",
         "TITLE": "News",
         "BG_IMAGE": "/courts-detail/club/club-contact-bg.webp",
-        "IMAGE": "/courts-detail/club/club-perspective.webp"
+        "IMAGE": "/courts-detail/club/club-perspective.webp",
+        "BUTTON":{
+          "LABEL":"Contact Portico Sport now!",
+          "URL":"/client-contact",
+          "TITLE":"contact Portico Sport"
+        }
       },
       "HOME_DESCRIPTION": "The Club model is our all-around court. Exceptional structural design and built for heavy use and maximum durability. A court designed with padel clubs in mind, a court that will stand the test of time.",
       "HOME_IMAGES": [{
@@ -3667,7 +3692,12 @@
         "SUBJECT": "New petition from Club+ Court",
         "TITLE": "News",
         "BG_IMAGE": "/courts-detail/club/club-contact-bg.webp",
-        "IMAGE": "/courts-detail/club/club-perspective.webp"
+        "IMAGE": "/courts-detail/club/club-perspective.webp",
+        "BUTTON":{
+          "LABEL":"Contact Portico Sport now!",
+          "URL":"/client-contact",
+          "TITLE":"contact Portico Sport"
+        }
       },
       "HOME_DESCRIPTION": "This model brings a reinforced structure to the club model for those looking to install a court were particularly tough weather conditions are often found.",
       "HOME_IMAGES": [{
@@ -3849,7 +3879,12 @@
         "SUBJECT": "New petition from Club Force 80 Court",
         "TITLE": "News",
         "BG_IMAGE": "/courts-detail/club-force-80/club-force-80-contact-bg.webp",
-        "IMAGE": "/courts-detail/club-force-80/club-force-80-court-contact.webp"
+        "IMAGE": "/courts-detail/club-force-80/club-force-80-court-contact.webp",
+        "BUTTON":{
+          "LABEL":"Contact Portico Sport now!",
+          "URL":"/client-contact",
+          "TITLE":"contact Portico Sport"
+        }
       },
       "HOME_DESCRIPTION": "Our Club Force 80 model was designed to withstand category 5 hurricane winds. The specifically designed structure coupled with a special anchoring systems allows for this court to be installed in the toughest locations anywhere in the world.",
       "HOME_IMAGES": [{
@@ -4037,7 +4072,12 @@
         "SUBJECT": "New petition from Tournament+ Court",
         "TITLE": "News",
         "BG_IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-contact-bg.webp",
-        "IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-court-contact.webp"
+        "IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-court-contact.webp",
+        "BUTTON":{
+          "LABEL":"Contact Portico Sport now!",
+          "URL":"/client-contact",
+          "TITLE":"contact Portico Sport"
+        }
       },
       "HOME_DESCRIPTION": "<p>The Tournament+ model is designed to withstand category 5 hurricane winds. This court combines the robustness of our successful Club Force 80 model with the visual spectacularity of our Panoramic courts</p>",
       "HOME_IMAGES": [{
@@ -4242,7 +4282,12 @@
         "SUBJECT": "New petition from Single Court",
         "TITLE": "News",
         "BG_IMAGE": "/courts-detail/single/single-contact-bg.webp",
-        "IMAGE": "/courts-detail/single/single-court-contact.webp"
+        "IMAGE": "/courts-detail/single/single-court-contact.webp",
+        "BUTTON":{
+          "LABEL":"Contact Portico Sport now!",
+          "URL":"/client-contact",
+          "TITLE":"contact Portico Sport"
+        }
       },
       "HOME_DESCRIPTION": "Same length, reduced width enabling padel to be enjoyed 1vs1. This Padel court is also ideal for individual classes, specific training or to maximize utilization space in your club where a doubles court does not fit.",
       "HOME_IMAGES": [{
@@ -4435,7 +4480,12 @@
         "TITLE": "News",
         "BG_IMAGE": "/courts-detail/mini/mini-contact-bg.webp",
         "IMAGE": "/courts-detail/mini/mini-court-contact.webp",
-        "DESCRIPTION": "<p>Interested in installing a mini padel court? Contact Portico Sport today to discuss your project. Our experts are ready to help you create a custom mini padel court that fits your space and meets your needs. Whether for personal use or as an addition to a facility, we are here to deliver top-quality courts that enhance your sporting experience.</p>"
+        "DESCRIPTION": "<p>Interested in installing a mini padel court? Contact Portico Sport today to discuss your project. Our experts are ready to help you create a custom mini padel court that fits your space and meets your needs. Whether for personal use or as an addition to a facility, we are here to deliver top-quality courts that enhance your sporting experience.</p>",
+        "BUTTON":{
+          "LABEL":"Contact Portico Sport now!",
+          "URL":"/client-contact",
+          "TITLE":"contact Portico Sport"
+        }
       },
       "HOME_DESCRIPTION": "Kids can learn padel from a very early age, however, the size of court can be overwhelming for them. With this court, kids can enjoy padel with a court adapted to their heigh and physical power.",
       "HOME_IMAGES": [{
