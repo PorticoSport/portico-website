@@ -110,7 +110,10 @@ const imageCount = [
   isFirstSection?.IMAGES.TOP,
 ].filter(Boolean).length;
 
-const logoMargin = imageCount <= 2 ? "-mt-[360px]" : "mt-0";
+const logoMargin =
+  imageCount <= 2
+    ? "lg:-mt-[360px] md:-mt-[200px] -mt-[150px]"
+    : "mt-0";
 
 ---
 
