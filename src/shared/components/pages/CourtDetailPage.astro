@@ -104,15 +104,17 @@ interface Props {
   };
 }
 
+// Contamos cuántas imágenes hay
 const imageCount = [
   isFirstSection?.IMAGES.FRONT,
   isFirstSection?.IMAGES.PERSPECTIVE,
   isFirstSection?.IMAGES.TOP,
 ].filter(Boolean).length;
 
+// Si hay 2 o menos imágenes => margen negativo (solo en pantallas grandes)
 const logoMargin =
   imageCount <= 2
-    ? "lg:-mt-[360px] md:-mt-[200px] -mt-[150px]"
+    ? "lg:-mt-[360px] md:-mt-[200px] -mt-[150px]" // más suave en pantallas pequeñas
     : "mt-0";
 
 ---
@@ -163,7 +165,7 @@ robots="index,follow"
           <Button
             target="_self"
             className="xl:hidden self-center mt-4 text-sm"
-            url={`#/${locale.CONTACT_SECTION.ID}`}
+            url={`${locale.CONTACT_SECTION.BUTTON.URL}`}
           >
             {locale.CONTACT_BUTTON}
           </Button>
