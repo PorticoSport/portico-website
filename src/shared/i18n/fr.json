@@ -700,7 +700,12 @@
         "SUBJECT": "Nouvelle demande de terrain mobile",
         "TITLE": "Vous avez des questions ou vous souhaitez obtenir un devis ?",
         "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
-        "IMAGE": "/courts-detail/mobile/mobile-perspective.webp"
+        "IMAGE": "/courts-detail/mobile/mobile-perspective.webp",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        }
       },
       "HOME_DESCRIPTION": "Système de terrain breveté qui évite l'ancrage du terrain au sol. Le terrain peut être placé au même endroit pendant de longues périodes et bénéficie de la même robustesse structurelle qu'un terrain traditionnellement ancré.",
       "HOME_IMAGES": [
@@ -927,7 +932,12 @@
         "SUBJECT": "Nouvelle pétition de Terrain Tournament",
         "TITLE": "Nouvelles",
         "BG_IMAGE": "/courts-detail/tournament/tournament-contact-bg.webp",
-        "IMAGE": "/courts-detail/tournament/tournament-court-contact.webp"
+        "IMAGE": "/courts-detail/tournament/tournament-court-contact.webp",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        }
       },
       "HOME_DESCRIPTION": "Esthétique inégalée, vues dégagées, sentez-vous comme un pro ! Conçu pour offrir aux joueurs une expérience de jeu de qualité professionnelle tout en résistant aux conditions d'utilisation intensives régulières d'un club de padel",
       "HOME_IMAGES": [
@@ -1114,7 +1124,12 @@
         "SUBJECT": "Nouvelle demande de Terrain panoramique",
         "TITLE": "Actualités",
         "BG_IMAGE": "/courts-detail/panoramic/panoramic-contact-bg.webp",
-        "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp"
+        "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        }
       },
       "HOME_DESCRIPTION": "Verre de 12 mm, design minimaliste, robustesse maximale ! Notre Terrain panoramique offre le parfait équilibre entre fonctionnalité et esthétique.",
       "HOME_IMAGES": [
@@ -1302,7 +1317,12 @@
         "TITLE": "Actualités",
         "BG_IMAGE": "/courts-detail/panoramic/panoramic-contact-bg.webp",
         "DESCRIPTION": "Prêt à installer un court de padel Panoramic+ dans votre club ? Contactez dès aujourd’hui Portico Sport pour parler avec l’un de nos spécialistes. Nous nous engageons à fournir des courts de padel de haute qualité qui dépassent vos attentes. Que vous souhaitiez améliorer une installation existante ou en construire une nouvelle, nous sommes là pour vous aider.",
-        "IMAGE": "/courts-detail/panoramic-plus/Panoramic-plus-perspective.webp"
+        "IMAGE": "/courts-detail/panoramic-plus/Panoramic-plus-perspective.webp",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        }
       },
       "HOME_DESCRIPTION": "Verre de 12 mm, design minimaliste, robustesse maximale ! Notre court panoramique offre l’équilibre parfait entre fonctionnalité et esthétique.",
       "HOME_IMAGES": [
@@ -1474,7 +1494,12 @@
         "SUBJECT": "Nouvelle demande de Terrain de Club",
         "TITLE": "Actualités",
         "BG_IMAGE": "/courts-detail/club/club-contact-bg.webp",
-        "IMAGE": "/courts-detail/club/club-perspective.webp"
+        "IMAGE": "/courts-detail/club/club-perspective.webp",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        }
       },
       "HOME_DESCRIPTION": "Le modèle Club est notre Terrain polyvalent. Conception structurelle exceptionnelle et construit pour une utilisation intensive et une durabilité maximale. Un Terrain conçu avec les clubs de padel à l'esprit, un Terrain qui résistera à l'épreuve du temps.",
       "HOME_IMAGES": [
@@ -1662,7 +1687,12 @@
         "SUBJECT": "Nouvelle demande pour le court Club+",
         "TITLE": "Actualités",
         "BG_IMAGE": "/courts-detail/club/club-contact-bg.webp",
-        "IMAGE": "/courts-detail/club/club-perspective.webp"
+        "IMAGE": "/courts-detail/club/club-perspective.webp",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        }
       },
       "HOME_DESCRIPTION": "Le modèle Club est notre court polyvalent. Conception structurelle exceptionnelle et conçu pour un usage intensif et une durabilité maximale. Un court conçu pour les clubs de padel, qui résistera à l’épreuve du temps.",
       "HOME_IMAGES": [{
@@ -1845,7 +1875,12 @@
         "SUBJECT": "Nouvelle demande de Terrain Force 80",
         "TITLE": "Actualités",
         "BG_IMAGE": "/courts-detail/club-force-80/club-force-80-contact-bg.webp",
-        "IMAGE": "/courts-detail/club-force-80/club-force-80-court-contact.webp"
+        "IMAGE": "/courts-detail/club-force-80/club-force-80-court-contact.webp",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        }
       },
       "HOME_DESCRIPTION": "Notre modèle Terrain Force 80 a été conçu pour résister à des vents de force ouragan de catégorie 5. La structure spécialement conçue associée à des systèmes d'ancrage spéciaux permet à ce Terrain d'être installé dans les endroits les plus difficiles du monde entier.",
       "HOME_IMAGES": [
@@ -1980,7 +2015,12 @@
         "SUBJECT": "Nouvelle demande pour le court Tournament+",
         "TITLE": "Actualités",
         "BG_IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-contact-bg.webp",
-        "IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-court-contact.webp"
+        "IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-court-contact.webp",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        }
       },
       "HOME_DESCRIPTION": "<p>Le modèle Tournament+ est conçu pour résister aux vents d’ouragan de catégorie 5. Ce court combine la robustesse de notre modèle Club Force 80 avec   l’élégance visuelle de nos courts panoramiques.</p>",
       "HOME_IMAGES": [
@@ -2163,7 +2203,12 @@
         "SUBJECT": "Nouvelle demande de Terrain individuel",
         "TITLE": "Actualités",
         "BG_IMAGE": "/courts-detail/single/single-contact-bg.webp",
-        "IMAGE": "/courts-detail/single/single-court-contact.webp"
+        "IMAGE": "/courts-detail/single/single-court-contact.webp",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        }
       },
       "HOME_DESCRIPTION": "Même longueur, largeur réduite permettant de profiter du padel en 1 contre 1. Ce Terrain est également idéal pour des cours individuels, des entraînements spécifiques ou pour maximiser l'espace d'utilisation dans votre club lorsque qu'un Terrain double ne convient pas.",
       "HOME_IMAGES": [
@@ -2354,7 +2399,12 @@
         "SUBJECT": "Nouvelle demande de Mini Terrain",
         "TITLE": "Actualités",
         "BG_IMAGE": "/courts-detail/mini/mini-contact-bg.webp",
-        "IMAGE": "/courts-detail/mini/mini-court-contact.webp"
+        "IMAGE": "/courts-detail/mini/mini-court-contact.webp",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        }
       },
       "HOME_DESCRIPTION": "Les enfants peuvent apprendre le padel dès leur plus jeune âge, cependant, la taille du Terrain peut être intimidante pour eux. Avec ce Terrain, les enfants peuvent profiter du padel avec un Terrain adapté à leur taille et à leur puissance physique.",
       "HOME_IMAGES": [
