@@ -91,6 +91,27 @@ const compatibleCourts = isMobile
 
 const faqToShow = isMobile ? faqItemsShort : faqItems;
 
+interface Props {
+  language: string;
+  isFirstSection?: {
+    TITLE: string;
+    DESCRIPTION: string;
+    IMAGES: {
+      FRONT?: { src: string; alt: string };
+      PERSPECTIVE?: { src: string; alt: string };
+      TOP?: { src: string; alt: string };
+    };
+  };
+}
+
+const imageCount = [
+  isFirstSection?.IMAGES.FRONT,
+  isFirstSection?.IMAGES.PERSPECTIVE,
+  isFirstSection?.IMAGES.TOP,
+].filter(Boolean).length;
+
+const logoMargin = imageCount <= 2 ? "-mt-[360px]" : "mt-0";
+
 ---
 
 <Layout
@@ -158,37 +179,48 @@ robots="index,follow"
         },
       ]}
     />
-    {
-      isFirstSection ? (
-        <Section heading2={isFirstSection.TITLE}>
-          <Typography tag="div" className="text-center" text={isFirstSection.DESCRIPTION} responsive />
-          <div class={`section-renders flex items-center gap-4 max-w-[1400px] my-16 mx-auto px-6 ${!isFirstSection.IMAGES.FRONT ? 'justify-center' : ''}`}>
-            {isFirstSection.IMAGES.FRONT && (
-              <img
-                src={isFirstSection.IMAGES.FRONT.src}
-                alt={isFirstSection.IMAGES.FRONT.alt}
-                class="front"
-              />
-            )}
-            {isFirstSection.IMAGES.PERSPECTIVE && (
-              <img
-                src={isFirstSection.IMAGES.PERSPECTIVE.src}
-                alt={isFirstSection.IMAGES.PERSPECTIVE.alt}
-                class="perspective"
-              />
-            )}
-            {isFirstSection.IMAGES.TOP && (
-              <img
-                src={isFirstSection.IMAGES.TOP.src}
-                alt={isFirstSection.IMAGES.TOP.alt}
-                class="top"
-              />
-            )}
-          </div>
-        </Section>
-      ) : null
-    }
-    <NormativeLogos language={language} />
+    {isFirstSection && (
+  <Section heading2={isFirstSection.TITLE}>
+    <Typography
+      tag="div"
+      className="text-center"
+      text={isFirstSection.DESCRIPTION}
+      responsive
+    />
+
+    <div
+      class={`section-renders flex items-center gap-4 max-w-[1400px] my-16 mx-auto px-6 ${
+        !isFirstSection.IMAGES.FRONT ? "justify-center" : ""
+      }`}
+    >
+      {isFirstSection.IMAGES.FRONT && (
+        <img
+          src={isFirstSection.IMAGES.FRONT.src}
+          alt={isFirstSection.IMAGES.FRONT.alt}
+          class="front"
+        />
+      )}
+      {isFirstSection.IMAGES.PERSPECTIVE && (
+        <img
+          src={isFirstSection.IMAGES.PERSPECTIVE.src}
+          alt={isFirstSection.IMAGES.PERSPECTIVE.alt}
+          class="perspective"
+        />
+      )}
+      {isFirstSection.IMAGES.TOP && (
+        <img
+          src={isFirstSection.IMAGES.TOP.src}
+          alt={isFirstSection.IMAGES.TOP.alt}
+          class="top"
+        />
+      )}
+    </div>
+  </Section>
+)}
+
+<div class={logoMargin}>
+  <NormativeLogos language={language} />
+</div>
     <div class="bg-slate-100 w-full">
       {
       isBenefitsSection ? (
