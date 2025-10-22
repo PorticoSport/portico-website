@@ -681,7 +681,12 @@
         "SUBJECT": "Nueva petición de Pista Móvil",
         "TITLE": "Noticias",
         "BG_IMAGE": "/courts-detail/mobile/mobile-contact-bg.webp",
-        "IMAGE": "/courts-detail/mobile/mobile-perspective.webp"
+        "IMAGE": "/courts-detail/mobile/mobile-perspective.webp",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        }
       },
       "HOME_DESCRIPTION": "La pista Móvil de Portico Sport es un sistema patentado que elimina la necesidad de fijar la pista de pádel al suelo. Esta pista Móvil puede permanecer en el mismo lugar por largos períodos de tiempo, manteniendo la misma estabilidad y solidez que una pista anclada convencional.",
       "HOME_IMAGES": [
@@ -895,7 +900,12 @@
         "SUBJECT": "Nueva petición de Pista Tournament",
         "TITLE": "Noticias",
         "BG_IMAGE": "/courts-detail/tournament/tournament-contact-bg.webp",
-        "IMAGE": "/courts-detail/tournament/tournament-court-contact.webp"
+        "IMAGE": "/courts-detail/tournament/tournament-court-contact.webp",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        }
       },
       "HOME_DESCRIPTION": "Estética inigualable, vistas sin obstrucciones, ¡juega como un profesional! Creada para ofrecer a los jugadores una experiencia de juego de nivel profesional, al mismo tiempo que soporta el uso intensivo propio de un club de pádel.",
       "HOME_IMAGES": [
@@ -1101,7 +1111,12 @@
         "SUBJECT": "Nueva petición de Pista Panoramic",
         "TITLE": "Noticias",
         "BG_IMAGE": "/courts-detail/panoramic/panoramic-contact-bg.webp",
-        "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp"
+        "IMAGE": "/courts-detail/panoramic/panoramic-perspective.webp",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        }
       },
       "HOME_DESCRIPTION": "¡Cristal de 12mm, diseño minimalista y máxima resistencia! Nuestra pista de pádel panorámica logra el equilibrio ideal entre estética y funcionalidad.",
       "HOME_IMAGES": [
@@ -1312,7 +1327,12 @@
         "TITLE": "Noticias",
         "BG_IMAGE": "/courts-detail/panoramic/panoramic-contact-bg.webp",
         "DESCRIPTION": "¿Listo para instalar una pista Panoramic+ en tu club? Contacta hoy con Portico Sport y habla con uno de nuestros especialistas. Nos comprometemos a ofrecer pistas de pádel de alta calidad que superen tus expectativas. Tanto si quieres mejorar una instalación existente como construir una nueva desde cero, estamos aquí para ayudarte.",
-        "IMAGE": "/courts-detail/panoramic-plus/Panoramic-plus-perspective.webp"
+        "IMAGE": "/courts-detail/panoramic-plus/Panoramic-plus-perspective.webp",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        }
       },
       "HOME_DESCRIPTION": "¡Cristal de 12mm, diseño minimalista y máxima resistencia! Nuestra pista de pádel panorámica logra el equilibrio ideal entre estética y funcionalidad.",
       "HOME_IMAGES": [
@@ -1520,7 +1540,12 @@
         "SUBJECT": "Nueva petición de Pista Club",
         "TITLE": "Noticias",
         "BG_IMAGE": "/courts-detail/club/club-contact-bg.webp",
-        "IMAGE": "/courts-detail/club/club-perspective.webp"
+        "IMAGE": "/courts-detail/club/club-perspective.webp",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        }
       },
       "HOME_DESCRIPTION": "El modelo Club es nuestra pista de pádel más versátil por excelencia. Con un diseño estructural superior, está construida para soportar un uso intensivo y ofrecer una durabilidad máxima. Pensada específicamente para los clubes de pádel, esta pista está diseñada para mantenerse en perfectas condiciones a lo largo del tiempo.",
       "HOME_IMAGES": [
@@ -1722,7 +1747,12 @@
         "SUBJECT": "Nueva petición de Pista Club+",
         "TITLE": "Noticias",
         "BG_IMAGE": "/courts-detail/club/club-contact-bg.webp",
-        "IMAGE": "/courts-detail/club/club-perspective.webp"
+        "IMAGE": "/courts-detail/club/club-perspective.webp",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        }
       },
       "HOME_DESCRIPTION": "El modelo Club+ es nuestra pista de pádel más versátil por excelencia. Con un diseño estructural superior, está construida para soportar un uso intensivo y ofrecer una durabilidad máxima. Pensada específicamente para los clubes de pádel, esta pista está diseñada para mantenerse en perfectas condiciones a lo largo del tiempo.",
       "HOME_IMAGES": [
@@ -1919,7 +1949,12 @@
         "SUBJECT": "Nueva petición de Pista Club Force 80",
         "TITLE": "Noticias",
         "BG_IMAGE": "/courts-detail/club-force-80/club-force-80-contact-bg.webp",
-        "IMAGE": "/courts-detail/club-force-80/club-force-80-court-contact.webp"
+        "IMAGE": "/courts-detail/club-force-80/club-force-80-court-contact.webp",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        }
       },
       "HOME_DESCRIPTION": "El modelo Club Force 80 ha sido creado para soportar vientos de categoría 5 propios de huracanes. Su estructura reforzada, combinada con sistemas de anclaje especiales, permite que esta pista de pádel se pueda instalar en los entornos más desafiantes de cualquier lugar del mundo.",
       "HOME_IMAGES": [
@@ -2123,7 +2158,12 @@
         "SUBJECT": "Nueva petición de Pista Tournament+",
         "TITLE": "Noticias",
         "BG_IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-contact-bg.webp",
-        "IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-court-contact.webp"
+        "IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-court-contact.webp",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        }
       },
       "HOME_DESCRIPTION": "<p>El modelo Tournament+ ha sido diseñado para soportar vientos de categoría 5, propios de huracanes. Esta pista de pádel fusiona la solidez del reconocido modelo Club Force 80 con la impresionante estética de nuestras pistas panorámicas.</p>",
       "HOME_IMAGES": [
@@ -2340,7 +2380,12 @@
         "SUBJECT": "Nueva petición de Pista Single",
         "TITLE": "Noticias",
         "BG_IMAGE": "/courts-detail/single/single-contact-bg.webp",
-        "IMAGE": "/courts-detail/single/single-court-contact.webp"
+        "IMAGE": "/courts-detail/single/single-court-contact.webp",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        }
       },
       "HOME_DESCRIPTION": "Con la misma longitud pero un ancho reducido, esta pista de pádel está diseñada para disfrutar de partidos uno contra uno. Es ideal para clases individuales, entrenamientos específicos o para optimizar el espacio en tu club cuando no hay suficiente lugar para una pista de tamaño estándar.",
       "HOME_IMAGES": [
@@ -2539,6 +2584,11 @@
         "TITLE": "Noticias",
         "BG_IMAGE": "/courts-detail/mini/mini-contact-bg.webp",
         "IMAGE": "/courts-detail/mini/mini-court-contact.webp",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        },
         "DESCRIPTION": "<p>¿Interesado en instalar una pista de pádel mini? Contacta hoy con Portico Sport para hablar sobre tu proyecto. Nuestros expertos están listos para ayudarte a crear una pista de pádel mini personalizada que se adapte a tu espacio y a tus necesidades. Ya sea para uso personal o como complemento de una instalación, estamos aquí para ofrecerte pistas de la más alta calidad que mejoren tu experiencia deportiva.</p>"
       },
       "HOME_DESCRIPTION": "Los niños pueden comenzar a aprender pádel desde una edad muy temprana, pero el tamaño de una pista estándar puede resultarles intimidante. Con esta pista de pádel adaptada, los más pequeños pueden disfrutar del juego en un entorno diseñado específicamente para su altura y capacidad física.",
