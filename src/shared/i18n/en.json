@@ -642,6 +642,7 @@
       "FAQS_SECTION": {
         "ID": "faqs",
         "TITLE": "ASK Question about Padel Court Builders",
+        "TITLE_ACE": "Frequently Asked Questions About Our ACE Padel Courts",
         "TITLE_COURT": "Frequently Asked Questions About Our Club Padel Courts",
         "TITLE_MINI": "Frequently Asked Questions About Our Mini Padel Courts",
         "TITLE_SINGLE": "Frequently Asked Questions About Our Single Padel Courts",
@@ -714,6 +715,20 @@
         }, {
           "question": "What are the main benefits of a Single Padel court?",
           "answer": "<p>Single Padel courts offer versatility, space efficiency, and durability. They are made with premium materials such as galvanized steel, tempered glass, and professional-grade turf. Customization options are available to tailor the court to your specific needs.</p>"
+        }
+      ],
+      "QUESTIONS_ACE": [{
+          "question": "What makes the ACE court different from other padel court models?",
+          "answer": "<p>The ACE is designed to be <strong>lightweight, durable, and cost-efficient</strong>. Its optimized structure allows for easier transport and faster installation while maintaining the same high-quality performance and durability as heavier models.</p>"
+        }, {
+          "question": "Is the ACE suitable for outdoor installations?",
+          "answer": "<p>Yes. The ACE court is made from hot-dip galvanized steel, ensuring excellent corrosion resistance and stability in any climate — perfect for both indoor and outdoor facilities.</p>"
+        }, {
+          "question": "Can the ACE be customized?",
+          "answer": "<p>Absolutely! With its clean, modern design, the <strong>ACE</strong> can be customized with a wide range of colors, lighting systems, and accessories — delivering a distinctive look and performance for every club</p>"
+        }, {
+          "question": "What type of projects is the ACE ideal for?",
+          "answer": "<p>The ACE is ideal for sports clubs, social complexes, rental facilities, and projects where transport efficiency and quick installation are a priority.</p>"
         }
       ],
         "QUESTIONS_MINI": [{
@@ -2517,6 +2532,191 @@
         "LABEL": "All courts solutions",
         "URL": "/padel-courts"
       }
+    },
+    "ACE_COURT": {
+      "ID": "ace-court",
+      "SEO_TITLE": "ACE Padel Court | Lightweight & Durable by Portico Sport",
+      "SEO_DESCRIPTION":"Discover the ACE padel court — lightweight, strong, and designed for fast installation. Perfect for clubs seeking performance and efficiency.",
+      "OG_IMG": "https://www.porticosport.com/og/og-club.jpg",
+      "TITLE": "<span>ACE Court</span>",
+      "DESCRIPTION": "<p>The ACE padel court is a versatile and durable model engineered to achieve the perfect balance between performance, strength, and easy installation.</p><p>Its lightweight structure enhances <strong>transport efficiency, reducing logistical impact and shipping</strong> costs—making it an ideal choice for global padel projects and clubs seeking maximum efficiency.</p>",
+      "LITTLE_DESCRIPTION": "<p>You can play Padel in one of our most sought-after courts.</p>",
+      "SUBTITLE": "Lightweight, strong, and smart by design",
+      "NAME": "Ace",
+      "CONTACT_TITLE_1": "Do you want a Club Padel Court?",
+      "CONTACT_SUBJECT": "New petition from Club Padel Court",
+      "CONTACT_BUTTON": "I want a Club Padel Court",
+      "ROUTE": {
+        "LABEL": "More about Ace padel court",
+        "URL": "/ace",
+        "TITLE": "Ace Court"
+      },
+      "FIRST_SECTION": {
+        "ID": "courts-views",
+        "TITLE": "<span class=\"text-secondary\">ACE Padel Court: Built for every environment</span>",
+        "DESCRIPTION": "<p>The ACE performs flawlessly in both indoor and outdoor settings, offering excellent structural stability and corrosion resistance in any climate.</p><p>Whether for clubs, events, or temporary installations, it’s designed to deliver reliable performance year-round.</p><p>Thanks to its optimized design, the ACE model fits twice as many courts per container compared to traditional padel court structures, making it <strong>one of the most cost-effective and competitive options on the market</strong>.</p>",
+        "IMAGES": {
+          "PERSPECTIVE": {
+            "src": "/courts-detail/ace/ACE-perspective.webp",
+            "alt": "Ace court perspective view"
+          },
+          "TOP": {  
+            "src": "/courts-detail/ace/ACE-top.webp",
+            "alt": "Ace court top view"
+          }
+        }
+      },
+      "BENEFITS_SECTION": {
+        "ID": "benefits",
+        "TITLE": "Experience the benefits of our ACE padel court",
+        "BENEFITS": [{
+          "header": "10 years warranty",
+          "icon": "WarrantyIcon",
+          "footer": "Long-term stability and performance."
+        }, {
+          "header": "Lightweight efficiency",
+          "icon": "VersatileCourtIcon",
+          "footer": "Easy transport and reduced logistics costs"
+        }, {
+          "header": "Premium materials",
+          "icon": "MaterialsIcon",
+          "footer": "Durable, corrosion-resistant stee"
+        }]
+      },
+      "STRUCTURE_SECTION": {
+        "ID": "Club court: Structural Excellence",
+        "IMAGE": {
+          "id": "section-information",
+          "src": "/courts-detail/mobile/mobile-section-information-court.webp",
+          "alt": "Render of a mobile court"
+        },
+        "TITLE": "ACE Court: Smart Design & Lightweight Performance",
+        "SUBTITLE": "Experience the excellence of our premium quality Padel court structure",
+        "TEXT": "<p>Lightweight structure crafted with <strong>hot-dip galvanized S275JR steel</strong> for maximum durability, anchored to the ground with reinforced base plates.</p><p>Side and top frames include electro-welded mesh according to UNE-EN-10223-4 standards, with intermediate scaffolding to prevent vibrations</p><p>Our structure undergoes advanced manufacturing processes:</p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Laser Cutting: Ensures precise cuts and clean finishes</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Robotic Welding: Guarantees quality welds and prevents oxidation.</li></ul>",
+        "SUBTEXT_TITLE": "Upgrade to CLUB+!",
+        "SUBTEXT": "<p>You can also upgrade to the Club+ version <strong>for enhanced wind resistance (up to 240 km/h)</strong> with reinforced steel profiles.</p>"
+      },
+      "SIZING_SECTION": {
+        "ID": "measure-section",
+        "TITLE": "ACE Padel court dimensions",
+        "INDOOR_TITLE": "Interior",
+        "OUTDOOR_TITLE": "Exterior",
+        "OUTDOOR": "<p><strong>Length</strong>: 20 m x 10 m</p>",
+        "INDOOR": "<p><strong>Length</strong>: 20.18 m x 10.18 m</p>",
+        "IMAGE": {
+          "id": "image-sizing",
+          "src": "/courts-detail/ace/ACE-sizing.webp",
+          "alt": "Interior and exterior Club court sizes"
+        }
+      },
+      "GLASS_SECTION": {
+        "ID": "glass-section",
+        "IMAGE": {
+          "id": "advantage-section",
+          "src": "/courts-detail/mobile/mobile-glasses.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Mobile court patented by Portico Sport"
+        },
+        "TITLE": "Tempered safety glass in every padel court",
+        "DESCRIPTION": "<p>All ACE padel courts feature <strong>10 mm tempered safety glass</strong> from CE-certified Spanish manufacturers.</p><p>With polished edges, neoprene gaskets, and galvanized screws, each panel ensures excellent visibility and impact resistance — fully compliant with European standards.</p>"
+      },
+      "PAINT_SECTION": {
+        "ID": "paint-section",
+        "TITLE": "Laquer paint for customizable structure finish",
+        "DESCRIPTION": "<p>Add a personal touch with your choice of RAL colors, available in mono- or two-tone finishes with durable lacquer paint options:</p>",
+        "IMAGES": [{
+          "id": "slide-1",
+          "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
+          "alt": "Orange painted mobile court"
+        },{
+          "id": "slide-2",
+          "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
+          "alt": "Orange painted mobile court"
+        },{
+          "id": "slide-9",
+          "src": "/courts-detail/mobile/structure-painted-mobile-9.webp",
+          "alt": "A violet court"
+        },{
+          "id": "slide-10",
+          "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
+          "alt": "Blue structure painted"
+        }, {
+          "id": "slide-12",
+          "src": "/courts-detail/mobile/structure-painted-mobile-12.webp",
+          "alt": "Gray structure painted in interior"
+        }],
+        "LIST": [
+          "<strong>INDOOR:</strong> Electro-galvanized finish + lacquer finish",
+          "<strong>OUTDOOR:</strong> Electro-galvanized finish + primer coating + lacquer finish",
+          "<strong>MARINE-GRADE EXTERIOR PROTECTION:</strong> Electro-galvanized finish + special welding treatment + primer coating + lacquer finish",
+          "<strong>HOT DIP GALVANIZED:</strong> Hot dip galvanized (zinc bath treatment)+ primer coating + lacquer finish"
+        ]
+      },
+      "TURF_SECTION": {
+        "ID": "turf-section",
+        "IMAGE": {
+          "src": "/courts-detail/mobile/mobile-top.webp",
+          "alt": "Mobile court top view"
+        },
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">High-performance turf for ACE courts</span>",
+        "SUBTITLE": "Experience Unmatched Performance on our Turf!",
+        "DESCRIPTION": "<p>We provide <strong>next-generation turf</strong> from trusted European manufacturers to guarantee professional gameplay.</p><p>Every padel court includes:</p>",
+        "DESCRIPTION_DOS": "Available in multiple colors and fiber types for tailored performance and aesthetics.",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Polyethylene turf with textured monofilaments</li><li>UV-resistant and low-abrasion surface</li><li>SSilica sand infill (10-15 kg/m²) for optimized ball bounce and speed</li></ul>"
+      },
+      "LIGHTING_SECTION": {
+        "ID": "lighting-section",
+        "IMAGE": {
+          "src": "/courts-detail/mobile/mobile-lighting.webp",
+          "alt": "Mobile court lighting"
+        },
+        "TITLE": "Advanced LED lighting systems for ACE padel courts",
+        "SUBTITLE": "Illuminate your game with Portico Sport's padel court lighting!",
+        "DESCRIPTION": "<p>Illuminate your game with <strong>Portico Sport’s state-of-the-art LED lighting solutions</strong>, designed in collaboration with leading specialists.</p>",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Fully compliant with <strong>UNE-EN-12193:2020</strong></li><li>Uniform light with no glare or shadows</li><li>IK10 impact resistance, IP66-IP67 waterproof rating</li><li>Voltage surge protection (4kV - 6kV), high heat dissipation</li><li>Suitable for recreational use (Class III) and professional events (Class I, NIDE standard)</li><li>5-year warranty9hmb8n7</li></ul>"
+      },
+      "GALLERY_SECTION": {
+        "ID": "gallery",
+        "PATH": "courts-detail/ace/gallery",
+        "OFFSET": 27
+      },
+      "COURTS_SECTION": {
+        "TITLE": "Discover other Padel Courts",
+        "DESCRIPTION": "Other types of Porticosport Padel Courts"
+      },
+      "CONTACT_SECTION": {
+        "ID": "contact",
+        "SUBJECT": "New petition from Club Court",
+        "TITLE": "News",
+        "BG_IMAGE": "/courts-detail/club/club-contact-bg.webp",
+        "IMAGE": "/courts-detail/ace/ACE-perspective.webp",
+        "BUTTON":{
+          "LABEL":"Contact Portico Sport now!",
+          "URL":"/client-contact",
+          "TITLE":"contact Portico Sport"
+        }
+      },
+      "HOME_DESCRIPTION": "The Club model is our all-around court. Exceptional structural design and built for heavy use and maximum durability. A court designed with padel clubs in mind, a court that will stand the test of time.",
+      "HOME_IMAGES": [{
+        "id": "slide-1",
+        "src": "/courts/club-court-01.webp",
+        "width": 574,
+        "height": 323,
+        "alt": "Club padel court"
+      },{
+        "id": "slide-2",
+        "src": "/courts/club-court-02.webp",
+        "width": 574,
+        "height": 323,
+        "alt": "Club padel court"
+      },{
+        "id": "slide-3",
+        "src": "/courts/club-court-03.webp",
+        "width": 574,
+        "height": 323,
+        "alt": "Club padel court"
+      }]
     },
     "MOBILE_COURT": {
       "ID": "mobile-court",
