@@ -20,9 +20,9 @@ const { title, subtitle, description, Benefits } = Astro.props;
 ---
 
 <Section className="text-black">
-  <Typography tag="h2" className="font-bold text-black mb-6 uppercase text-center" text={title} />
+  <Typography tag="h3" className="font-bold text-black mb-6 uppercase text-center" text={title} />
   { subtitle && (
-  <Typography tag="h3" className="font-bold text-black mb-6 uppercase text-center" text={subtitle} type="secondary" />
+  <Typography tag="h4" className="font-bold text-black mb-6 uppercase text-center" text={subtitle} type="secondary" />
   )}
   {description &&(
   <Typography tag="p" className="mb-6 text-center text-black" text={description} />
