@@ -4471,6 +4471,7 @@
     "TYPES_TITLE": "Beleuchtungstypen",
     "MASTS_TITLE": "Beleuchtungsmasten",
     "MASTS_DESCRIPTION": "<p>Optimierte Beleuchtungsmasten bestehen aus verzinktem Stahl, sind 6 Meter hoch und in drei Designs erhältlich:</p>",
+    "MASTS_DESCRIPTION_ACE": "<p>Die Lichtmasten bestehen aus verzinktem Stahl und sind 6 Meter hoch:</p>",
     "LIGHTING_TYPES": [
       {
         "title": "PV: 8 X 180W",
