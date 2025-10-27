@@ -42,16 +42,67 @@ bgClass="brightness-50 md:object-[center_-100px] md:object-cover"
             <div class="w-full flex flex-col md:flex-row p-8">
                 <div class="w-full md:w-1/2 flex items-center justify-center text-center p-4">
                     <div>
-                        <Typography tag="h2" type="black" className="uppercase mb-6 font-bold" text={i18n.PAGES.CLUB_COURT.TITLE} responsive />
-                        <Typography tag="div" type="black" className="mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.CLUB_COURT.LITTLE_DESCRIPTION} responsive />
-                        <Button size="sm" color="black"
-                            url={i18n.PAGES.ALL_COURTS.BUTTON_CLUB_COURT.URL} 
-                            title={i18n.PAGES.ALL_COURTS.BUTTON_CLUB_COURT.TITLE} target="_self">
-                            {i18n.PAGES.ALL_COURTS.BUTTON_CLUB_COURT.LABEL}
-                        </Button>
+                        <Typography tag="h2" type="black" className="uppercase mb-6 font-bold" text={i18n.PAGES.ACE_COURT.TITLE} responsive />
+                        <Typography tag="div" type="black" className="mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.ACE_COURT.LITTLE_DESCRIPTION} responsive />
+                        <div class="flex justify-center">
+                            <Button size="sm" color="black"
+                                class="flex flex-wrap justify-center items-center text-center whitespace-normal break-words px-4 py-2 leading-tight"
+                                url={i18n.PAGES.ALL_COURTS.BUTTON_ACE_COURT.URL} 
+                                title={i18n.PAGES.ALL_COURTS.BUTTON_ACE_COURT.TITLE} target="_self">
+                                {i18n.PAGES.ALL_COURTS.BUTTON_ACE_COURT.LABEL}
+                            </Button>
+                        </div>
                     </div>
                 </div>
                 <div class="w-full md:w-1/2 flex items-center justify-center">
+                    <img 
+                    src="/courts-detail/ace/ACE-perspective.webp"
+                    class="w-full h-48 md:h-80 object-contain rounded pb-7"
+                    />
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full">
+            <div class="w-full flex flex-col md:flex-row p-8">
+                <div class="w-full md:w-1/2 flex items-center justify-center">
+                    <img 
+                    src="/courts-detail/club/club-perspective.webp"
+                    class="w-full h-48 md:h-80 object-contain rounded pb-7"
+                    />
+                </div>
+                <div class="w-full md:w-1/2 flex items-center justify-center text-center p-4">
+                    <div>
+                        <Typography tag="h2" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.CLUB_COURT.TITLE} responsive />
+                        <Typography tag="div" className="mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.CLUB_COURT.LITTLE_DESCRIPTION} responsive />
+                        <div class="flex justify-center">
+                            <Button size="sm" class="flex flex-wrap justify-center items-center text-center whitespace-normal break-words px-4 py-2 leading-tight"
+                                url={i18n.PAGES.ALL_COURTS.BUTTON_CLUB_COURT.URL} 
+                                title={i18n.PAGES.ALL_COURTS.BUTTON_CLUB_COURT.TITLE} target="_self">
+                                {i18n.PAGES.ALL_COURTS.BUTTON_CLUB_COURT.LABEL}
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-slate-100 w-full">
+            <div class="w-full flex flex-col md:flex-row p-8">
+                <div class="w-full md:w-1/2 flex items-center justify-center text-center p-4 order-1 md:order-2">
+                    <div>
+                        <Typography tag="h2" type="black" className="uppercase mb-6 font-bold" text={i18n.PAGES.CLUB_PLUS.TITLE} responsive />
+                        <Typography tag="div" type="black" className="mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.CLUB_PLUS.LITTLE_DESCRIPTION} responsive />
+                        <div class="flex justify-center">
+                            <Button size="sm" color="black" class="flex flex-wrap justify-center items-center text-center whitespace-normal break-words px-4 py-2 leading-tight"
+                                url={i18n.PAGES.ALL_COURTS.BUTTON_CLUB_PLUS.URL} 
+                                title={i18n.PAGES.ALL_COURTS.BUTTON_CLUB_PLUS.TITLE} target="_self">
+                                {i18n.PAGES.ALL_COURTS.BUTTON_CLUB_PLUS.LABEL}
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 flex items-center justify-center order-2 md:order-2">
                     <img 
                     src="/courts-detail/club/club-perspective.webp"
                     class="w-full h-48 md:h-80 object-contain rounded pb-7"
@@ -62,109 +113,119 @@ bgClass="brightness-50 md:object-[center_-100px] md:object-cover"
 
         <div class="w-full">
             <div class="w-full flex flex-col md:flex-row p-8">
-                <div class="w-full md:w-1/2 flex items-center justify-center order-2 md:order-2">
-                    <img 
-                    src="/courts-detail/club/club-perspective.webp"
-                    class="w-full h-48 md:h-80 object-contain rounded pb-7"
-                    />
-                </div>
-                <div class="w-full md:w-1/2 flex items-center justify-center text-center p-4 order-1 md:order-2">
-                    <div>
-                        <Typography tag="h2" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.CLUB_PLUS.TITLE} responsive />
-                        <Typography tag="div" className="mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.CLUB_PLUS.LITTLE_DESCRIPTION} responsive />
-                        <Button size="sm"
-                            url={i18n.PAGES.ALL_COURTS.BUTTON_CLUB_PLUS.URL} 
-                            title={i18n.PAGES.ALL_COURTS.BUTTON_CLUB_PLUS.TITLE} target="_self">
-                            {i18n.PAGES.ALL_COURTS.BUTTON_CLUB_PLUS.LABEL}
-                        </Button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="bg-slate-100 w-full">
-            <div class="w-full flex flex-col md:flex-row p-8">
-                <div class="w-full md:w-1/2 flex items-center justify-center text-center p-4 order-1 md:order-2">
-                    <div>
-                        <Typography tag="h2" type="black" className="uppercase mb-6 font-bold" text={i18n.PAGES.PANORAMIC_COURT.TITLE} responsive />
-                        <Typography tag="div" type="black" className="mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.PANORAMIC_COURT.LITTLE_DESCRIPTION} responsive />
-                        <Button size="sm" color="black" class="flex flex-wrap justify-center items-center text-center whitespace-normal break-words px-4 py-2 leading-tight"
-                            url={i18n.PAGES.ALL_COURTS.BUTTON_PANORAMIC_PADEL_COURT.URL} 
-                            title={i18n.PAGES.ALL_COURTS.BUTTON_PANORAMIC_PADEL_COURT.TITLE} target="_self">
-                            {i18n.PAGES.ALL_COURTS.BUTTON_PANORAMIC_PADEL_COURT.LABEL}
-                        </Button>
-                    </div>
-                </div>
                 <div class="w-full md:w-1/2 flex items-center justify-center order-2 md:order-2">
                     <img 
                     src="/courts-detail/panoramic/panoramic-perspective.webp"
                     class="w-full h-48 md:h-80 object-contain rounded pb-7"
                     />
                 </div>
+                <div class="w-full md:w-1/2 flex items-center justify-center text-center p-4 order-1 md:order-2">
+                    <div>
+                        <Typography tag="h2" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.PANORAMIC_COURT.TITLE} responsive />
+                        <Typography tag="div" className="mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.PANORAMIC_COURT.LITTLE_DESCRIPTION} responsive />
+                        <div class="flex justify-center">
+                            <Button size="sm" class="flex flex-wrap justify-center items-center text-center whitespace-normal break-words px-4 py-2 leading-tight"
+                                url={i18n.PAGES.ALL_COURTS.BUTTON_PANORAMIC_PADEL_COURT.URL} 
+                                title={i18n.PAGES.ALL_COURTS.BUTTON_PANORAMIC_PADEL_COURT.TITLE} target="_self">
+                                {i18n.PAGES.ALL_COURTS.BUTTON_PANORAMIC_PADEL_COURT.LABEL}
+                            </Button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="w-full">
+        <div class="bg-slate-100 w-full">
             <div class="w-full flex flex-col md:flex-row p-8">
+                <div class="w-full md:w-1/2 flex items-center justify-center text-center p-4 order-1 md:order-2">
+                    <div>
+                        <Typography tag="h2" type="black" className="uppercase mb-6 font-bold" text={i18n.PAGES.PANORAMIC_PLUS.TITLE} responsive />
+                        <Typography tag="div" type="black" className="mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.PANORAMIC_PLUS.LITTLE_DESCRIPTION} responsive />
+                        <div class="flex justify-center">
+                            <Button size="sm" color="black" class="flex flex-wrap justify-center items-center text-center whitespace-normal break-words px-4 py-2 leading-tight"
+                                url={i18n.PAGES.ALL_COURTS.BUTTON_PANORAMIC_PADEL_PLUS.URL} 
+                                title={i18n.PAGES.ALL_COURTS.BUTTON_PANORAMIC_PADEL_PLUS.TITLE} target="_self">
+                                {i18n.PAGES.ALL_COURTS.BUTTON_PANORAMIC_PADEL_PLUS.LABEL}
+                            </Button>
+                        </div>
+                    </div>
+                </div>
                 <div class="w-full md:w-1/2 flex items-center justify-center order-2 md:order-2">
                     <img 
                     src="/courts-detail/panoramic-plus/Panoramic-plus-perspective.webp"
                     class="w-full h-48 md:h-80 object-contain rounded pb-7"
                     />
                 </div>
-                <div class="w-full md:w-1/2 flex items-center justify-center text-center p-4 order-1 md:order-2">
-                    <div>
-                        <Typography tag="h2" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.PANORAMIC_PLUS.TITLE} responsive />
-                        <Typography tag="div" className="mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.PANORAMIC_PLUS.LITTLE_DESCRIPTION} responsive />
-                        <Button size="sm" class="flex flex-wrap justify-center items-center text-center whitespace-normal break-words px-4 py-2 leading-tight"
-                            url={i18n.PAGES.ALL_COURTS.BUTTON_PANORAMIC_PADEL_PLUS.URL} 
-                            title={i18n.PAGES.ALL_COURTS.BUTTON_PANORAMIC_PADEL_PLUS.TITLE} target="_self">
-                            {i18n.PAGES.ALL_COURTS.BUTTON_PANORAMIC_PADEL_PLUS.LABEL}
-                        </Button>
-                    </div>
-                </div>
             </div>
         </div>
 
-        <div class="bg-slate-100 w-full">
+        <div class="w-full">
             <div class="w-full flex flex-col md:flex-row p-8">
-                <div class="w-full md:w-1/2 flex items-center justify-center text-center p-4">
-                    <div>
-                        <Typography tag="h2" type="black" className="uppercase mb-6 font-bold" text={i18n.PAGES.TOURNAMENT_COURT.TITLE} responsive />
-                        <Typography tag="div" type="black" className="mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.TOURNAMENT_COURT.LITTLE_DESCRIPTION} responsive />
-                        <Button size="sm" color="black" class="flex flex-wrap justify-center items-center text-center whitespace-normal break-words px-4 py-2 leading-tight"
-                            url={i18n.PAGES.ALL_COURTS.BUTTON_TOURNAMENT_COURT.URL} 
-                            title={i18n.PAGES.ALL_COURTS.BUTTON_TOURNAMENT_COURT.TITLE} target="_self">
-                            {i18n.PAGES.ALL_COURTS.BUTTON_TOURNAMENT_COURT.LABEL}
-                        </Button>
-                    </div>
-                </div>
                 <div class="w-full md:w-1/2 flex items-center justify-center">
                     <img 
                     src="/courts-detail/tournament/tournament-court-contact.webp"
                     class="w-full h-48 md:h-80 object-contain rounded pb-7"
                     />
                 </div>
+                <div class="w-full md:w-1/2 flex items-center justify-center text-center p-4">
+                    <div>
+                        <Typography tag="h2" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.TOURNAMENT_COURT.TITLE} responsive />
+                        <Typography tag="div" className="mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.TOURNAMENT_COURT.LITTLE_DESCRIPTION} responsive />
+                        <div class="flex justify-center">
+                            <Button size="sm" class="flex flex-wrap justify-center items-center text-center whitespace-normal break-words px-4 py-2 leading-tight"
+                                url={i18n.PAGES.ALL_COURTS.BUTTON_TOURNAMENT_COURT.URL} 
+                                title={i18n.PAGES.ALL_COURTS.BUTTON_TOURNAMENT_COURT.TITLE} target="_self">
+                                {i18n.PAGES.ALL_COURTS.BUTTON_TOURNAMENT_COURT.LABEL}
+                            </Button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="w-full">
+        <div class="bg-slate-100 w-full">
             <div class="w-full flex flex-col md:flex-row p-8">
+                <div class="w-full md:w-1/2 flex items-center justify-center text-center p-4 order-1 md:order-2">
+                    <div>
+                        <Typography tag="h2" type="black" className="uppercase mb-6 font-bold" text={i18n.PAGES.PANORAMIC_FORCE_80_COURT.TITLE} responsive />
+                        <Typography tag="div" type="black" className="mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.PANORAMIC_FORCE_80_COURT.LITTLE_DESCRIPTION} responsive />
+                        <div class="flex justify-center">
+                            <Button size="sm" color="black" class="flex flex-wrap justify-center items-center text-center whitespace-normal break-words px-4 py-2 leading-tight"
+                                url={i18n.PAGES.ALL_COURTS.BUTTON_TOURNAMENT_PLUS.URL} 
+                                title={i18n.PAGES.ALL_COURTS.BUTTON_TOURNAMENT_PLUS.TITLE} target="_self">
+                                {i18n.PAGES.ALL_COURTS.BUTTON_TOURNAMENT_PLUS.LABEL}
+                            </Button>
+                        </div>
+                    </div>
+                </div>
                 <div class="w-full md:w-1/2 flex items-center justify-center order-2 md:order-2">
                     <img 
                     src="/courts-detail/panoramic-force-80/panoramic-force-80-court-contact.webp"
                     class="w-full h-48 md:h-80 object-contain rounded pb-7"
                     />
                 </div>
+            </div>
+        </div>
+
+        <div class="w-full">
+            <div class="w-full flex flex-col md:flex-row p-8">
+                <div class="w-full md:w-1/2 flex items-center justify-center order-2 md:order-2">
+                    <img 
+                    src="/courts-detail/single/single-court-contact.webp"
+                    class="w-full h-48 md:h-80 object-contain rounded pb-7"
+                    />
+                </div>
                 <div class="w-full md:w-1/2 flex items-center justify-center text-center p-4 order-1 md:order-2">
                     <div>
-                        <Typography tag="h2" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.PANORAMIC_FORCE_80_COURT.TITLE} responsive />
-                        <Typography tag="div" className="mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.PANORAMIC_FORCE_80_COURT.LITTLE_DESCRIPTION} responsive />
-                        <Button size="sm" class="flex flex-wrap justify-center items-center text-center whitespace-normal break-words px-4 py-2 leading-tight"
-                            url={i18n.PAGES.ALL_COURTS.BUTTON_TOURNAMENT_PLUS.URL} 
-                            title={i18n.PAGES.ALL_COURTS.BUTTON_TOURNAMENT_PLUS.TITLE} target="_self">
-                            {i18n.PAGES.ALL_COURTS.BUTTON_TOURNAMENT_PLUS.LABEL}
-                        </Button>
+                        <Typography tag="h2" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.SINGLE_COURT.TITLE} responsive />
+                        <Typography tag="div" className="mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.SINGLE_COURT.LITTLE_DESCRIPTION} responsive />
+                        <div class="flex justify-center">
+                            <Button size="sm" class="flex flex-wrap justify-center items-center text-center whitespace-normal break-words px-4 py-2 leading-tight"
+                                url={i18n.PAGES.ALL_COURTS.BUTTON_SINGLE.URL} 
+                                title={i18n.PAGES.ALL_COURTS.BUTTON_SINGLE.TITLE} target="_self">
+                                {i18n.PAGES.ALL_COURTS.BUTTON_SINGLE.LABEL}
+                            </Button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -172,20 +233,22 @@ bgClass="brightness-50 md:object-[center_-100px] md:object-cover"
 
         <div class="bg-slate-100 w-full">
             <div class="w-full flex flex-col md:flex-row p-8">
-                <div class="w-full md:w-1/2 flex items-center justify-center text-center p-4 order-1 md:order-2">
+                <div class="w-full md:w-1/2 flex items-center justify-center text-center p-4">
                     <div>
-                        <Typography tag="h2" type="black" className="uppercase mb-6 font-bold" text={i18n.PAGES.SINGLE_COURT.TITLE} responsive />
-                        <Typography tag="div" type="black" className="mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.SINGLE_COURT.LITTLE_DESCRIPTION} responsive />
-                        <Button size="sm" color="black"
-                            url={i18n.PAGES.ALL_COURTS.BUTTON_SINGLE.URL} 
-                            title={i18n.PAGES.ALL_COURTS.BUTTON_SINGLE.TITLE} target="_self">
-                            {i18n.PAGES.ALL_COURTS.BUTTON_SINGLE.LABEL}
-                        </Button>
+                        <Typography tag="h2" type="black" className="uppercase mb-6 font-bold" text={i18n.PAGES.MINI_COURT.TITLE} responsive />
+                        <Typography tag="div" type="black" className="mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.MINI_COURT.LITTLE_DESCRIPTION} responsive />
+                        <div class="flex justify-center">
+                            <Button size="sm" color="black" class="flex flex-wrap justify-center items-center text-center whitespace-normal break-words px-4 py-2 leading-tight"
+                                url={i18n.PAGES.ALL_COURTS.BUTTON_MINI_COURT.URL} 
+                                title={i18n.PAGES.ALL_COURTS.BUTTON_MINI_COURT.TITLE} target="_self">
+                                {i18n.PAGES.ALL_COURTS.BUTTON_MINI_COURT.LABEL}
+                            </Button>
+                        </div>
                     </div>
                 </div>
-                <div class="w-full md:w-1/2 flex items-center justify-center order-2 md:order-2">
+                <div class="w-full md:w-1/2 flex items-center justify-center">
                     <img 
-                    src="/courts-detail/single/single-court-contact.webp"
+                    src="/courts-detail/mini/mini-court-contact.webp"
                     class="w-full h-48 md:h-80 object-contain rounded pb-7"
                     />
                 </div>
@@ -194,37 +257,17 @@ bgClass="brightness-50 md:object-[center_-100px] md:object-cover"
 
         <div class="w-full">
             <div class="w-full flex flex-col md:flex-row p-8">
-                <div class="w-full md:w-1/2 flex items-center justify-center">
-                    <img 
-                    src="/courts-detail/mini/mini-court-contact.webp"
-                    class="w-full h-48 md:h-80 object-contain rounded pb-7"
-                    />
-                </div>
-                <div class="w-full md:w-1/2 flex items-center justify-center text-center p-4">
-                    <div>
-                        <Typography tag="h2" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.MINI_COURT.TITLE} responsive />
-                        <Typography tag="div" className="mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.MINI_COURT.LITTLE_DESCRIPTION} responsive />
-                        <Button size="sm"
-                            url={i18n.PAGES.ALL_COURTS.BUTTON_MINI_COURT.URL} 
-                            title={i18n.PAGES.ALL_COURTS.BUTTON_MINI_COURT.TITLE} target="_self">
-                            {i18n.PAGES.ALL_COURTS.BUTTON_MINI_COURT.LABEL}
-                        </Button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="bg-slate-100 w-full">
-            <div class="w-full flex flex-col md:flex-row p-8">
                 <div class="w-full md:w-1/2 flex items-center justify-center text-center p-4 order-1 md:order-2">
                     <div>
-                        <Typography tag="h2" type="black" className="uppercase mb-6 font-bold" text={i18n.PAGES.MOBILE_COURT.TITLE} responsive />
-                        <Typography tag="div" type="black" className="mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.MOBILE_COURT.LITTLE_DESCRIPTION} responsive />
-                        <Button size="sm" color="black"
-                            url={i18n.PAGES.ALL_COURTS.BUTTON_MOBILE_COURT.URL} 
-                            title={i18n.PAGES.ALL_COURTS.BUTTON_MOBILE_COURT.TITLE} target="_self">
-                            {i18n.PAGES.ALL_COURTS.BUTTON_MOBILE_COURT.LABEL}
-                        </Button>
+                        <Typography tag="h2" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.MOBILE_COURT.TITLE} responsive />
+                        <Typography tag="div" className="mb-6 text-sm md:text-lg lg:text-xl" text={i18n.PAGES.MOBILE_COURT.LITTLE_DESCRIPTION} responsive />
+                        <div class="flex justify-center">
+                            <Button size="sm" class="flex flex-wrap justify-center items-center text-center whitespace-normal break-words px-4 py-2 leading-tight"
+                                url={i18n.PAGES.ALL_COURTS.BUTTON_MOBILE_COURT.URL} 
+                                title={i18n.PAGES.ALL_COURTS.BUTTON_MOBILE_COURT.TITLE} target="_self">
+                                {i18n.PAGES.ALL_COURTS.BUTTON_MOBILE_COURT.LABEL}
+                            </Button>
+                        </div>
                     </div>
                 </div>
                 <div class="w-full md:w-1/2 flex items-center justify-center order-2 md:order-2">
