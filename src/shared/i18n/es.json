@@ -184,6 +184,7 @@
       "FAQS_SECTION": {
         "ID": "faqs",
         "TITLE": "Preguntas sobre constructores de Pistas de Pádel",
+        "TITLE_ACE": "Preguntas frecuentes sobre nuestra pista de pádel ACE",
         "TITLE_COURT": "Preguntas frecuentes sobre la pista Club",
         "TITLE_MINI": "Preguntas frecuentes sobre nuestras Mini Pistas de Pádel",
         "TITLE_SINGLE": "Preguntas Frecuentes sobre Nuestras Pistas de Pádel Single",
@@ -237,6 +238,20 @@
         }, {
           "question": "¿Puede usarse en competiciones?",
           "answer": "<p>Sí, cumple con los estándares internacionales oficiales del pádel, lo que la hace adecuada para torneos y partidos a nivel de club. Para eventos profesionales con máxima visibilidad para el público, recomendamos nuestra pista Tournament con diseño panorámico.</p>"
+        }
+      ],
+      "QUESTIONS_ACE": [{
+          "question": "¿Qué diferencia a la pista ACE de otros modelos de pádel?",
+          "answer": "<p>La pista ACE ha sido diseñada para ser <strong>ligera, resistente y rentable</strong>. Su estructura optimizada permite un transporte más sencillo y una instalación más rápida, manteniendo al mismo tiempo el alto rendimiento y la durabilidad de los modelos más pesados</p>"
+        }, {
+          "question": "¿La pista ACE es adecuada para instalaciones exteriores?",
+          "answer": "<p>Sí. La pista ACE está fabricada en acero galvanizado en caliente, lo que garantiza una excelente resistencia a la corrosión y una gran estabilidad en cualquier clima — perfecta tanto para instalaciones interiores como exteriores.</p>"
+        }, {
+          "question": "¿Se puede personalizar la pista ACE?",
+          "answer": "<p>¡Por supuesto! Con su diseño moderno y limpio, la pista de pádel ACE puede personalizarse con una amplia gama de colores, sistemas de iluminación y accesorios, ofreciendo una estética distintiva y un rendimiento adaptado a cada club.</p>"
+        }, {
+          "question": "¿Para qué tipo de proyectos es ideal la ACE?",
+          "answer": "<p>Nuestro modelo de pista ACE es ideal para clubes deportivos, complejos sociales, instalaciones de alquiler o proyectos donde la eficiencia logística y la rapidez de instalación sean una prioridad.</p>"
         }
       ],
       "QUESTIONS_MINI": [{
@@ -493,6 +508,208 @@
         "LABEL": "Soluciones para pistas",
         "URL": "/pistas-de-padel"
       }
+    },
+    "ACE_COURT": {
+      "ID": "ace-court",
+      "SEO_TITLE": "Pista de Padel ACE | Ligera y Duradera por Portico Sport",
+      "TYPE": "PRODUCT",
+      "SEO_DESCRIPTION": "Descubre la pista de padel ACE: ligera, resistente y diseñada para una instalación rápida. Perfecta para clubes que buscan rendimiento y eficiencia.",
+      "OG_IMG": "https://www.porticosport.com/og/og-club.jpg",
+      "TITLE": "<span>Pista ACE</span>",
+      "DESCRIPTION": "<p>La pista de pádel ACE es un modelo versátil y duradero, diseñado para lograr el equilibrio perfecto entre rendimiento, resistencia y facilidad de instalación.</p><p>Su estructura ligera mejora la <strong>eficiencia en transporte, reduciendo el impacto logístico y los costes de envío</strong>, lo que la convierte en una opción ideal para proyectos internacionales de pádel y clubes que buscan máxima eficiencia.</p>",
+      "LITTLE_DESCRIPTION": "<p>Puedes jugar pádel en una de nuestras pistas más solicitadas.</p>",
+      "SUBTITLE": "Ligereza, resistencia y diseño inteligente",
+      "NAME": "Ace",
+      "CONTACT_TITLE_1": "¿Quieres una Pista Ace?",
+      "CONTACT_SUBJECT": "Nueva petición de Pista Ace",
+      "CONTACT_BUTTON": "Quiero una Pista Ace",
+      "ROUTE": {
+        "LABEL": "Más sobre la pista ace",
+        "URL": "/ace",
+        "TITLE": "Pista Ace"
+      },
+      "FIRST_SECTION": {
+        "ID": "vistas-de-pistas",
+        "TITLE": "<span class=\"text-secondary\">Pista ACE: Rendimiento en cualquier entorno</span>",
+        "DESCRIPTION": "<p>La ACE funciona a la perfección tanto en interiores como en exteriores, ofreciendo estabilidad estructural excelente y resistencia a la corrosión en cualquier clima.</p><p>Ya sea para clubes, eventos o instalaciones temporales, está diseñada para ofrecer un rendimiento confiable durante todo el año.</p><p>Gracias a su diseño optimizado, el modelo ACE puede alojar el doble de pistas por contenedor en comparación con los modelos tradicionales, convirtiéndola en <strong>una de las opciones más competitivas y rentables del mercado</strong>.</p>",
+        "IMAGES": {
+          "PERSPECTIVE": {
+            "src": "/courts-detail/ace/ACE-perspective.webp",
+            "alt": "Vista en perspectiva de la pista ace"
+          },
+          "TOP": {
+            "src": "/courts-detail/ace/ACE-top.webp",
+            "alt": "Vista superior de la pista ace"
+          }
+        }
+      },
+      "BENEFITS_SECTION": {
+        "ID": "beneficios",
+        "TITLE": "Experimenta los beneficios de nuestra pista ACE",
+        "BENEFITS": [
+          {
+            "header": "Garantía de 10 años",
+            "icon": "WarrantyIcon",
+            "footer": "Estabilidad y rendimiento a largo plazo"
+          },
+          {
+            "header": "Eficiencia ligera",
+            "icon": "VersatileCourtIcon",
+            "footer": "Transporte fácil y costes logísticos reducidos"
+          },
+          {
+            "header": "Materiales premium",
+            "icon": "MaterialsIcon",
+            "footer": "Acero duradero y resistente a la corrosión"
+          }
+        ]
+      },
+      "STRUCTURE_SECTION": {
+        "ID": "structura",
+        "IMAGE": {
+          "id": "section-information",
+          "src": "/courts-detail/mobile/mobile-section-information-court.webp",
+          "alt": "Render de una pista móvil"
+        },
+        "TITLE": "Excelencia estructural de la pista Club",
+        "SUBTITLE": "Experimenta la excelencia de nuestra estructura de pista de calidad premium",
+        "TEXT": "<p>Estructura ligera fabricada en acero <strong>S275JR galvanizado en caliente</strong> para máxima durabilidad, anclada al suelo mediante placas de anclaje reforzadas.</p><p>Los marcos laterales y superiores incluyen malla electrosoldada conforme a la norma UNE-EN-10223-4, con armazón intermedio para evitar vibraciones.</p><p>Nuestra estructura pasa por procesos de fabricación avanzados:<p></p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Corte láser: garantiza cortes precisos y acabados limpios.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Soldadura robótica: asegura soldaduras de calidad y previene la oxidación.</li></ul>",
+        "SUBTEXT_TITLE": "¿Necesitas más resistencia? ¡Pasa a CLUB+!",
+        "SUBTEXT": "<p>La versión Club+ incluye refuerzos adicionales para resistir ráfagas de viento de hasta 240 km/h, ideal para zonas con condiciones climáticas extremas.</p>"
+      },
+      "SIZING_SECTION": {
+        "ID": "medidas",
+        "TITLE": "Dimensiones de la pista de pádel ACE",
+        "INDOOR_TITLE": "Interior",
+        "OUTDOOR_TITLE": "Exterior",
+        "OUTDOOR": "<p><strong>Longitud</strong>: 20 m x 10 m </p>",
+        "INDOOR": "<p><strong>Longitud</strong>: 20.18 m x 10.18 m </p>",
+        "IMAGE": {
+          "id": "image-sizing",
+          "src": "/courts-detail/ace/ACE-sizing.webp",
+          "alt": "Tamaños de pista club interior y exterior"
+        }
+      },
+      "GLASS_SECTION": {
+        "ID": "vidrios",
+        "IMAGE": {
+          "id": "advantage-section",
+          "src": "/courts-detail/mobile/mobile-glasses.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pista móvil patentada por Portico Sport"
+        },
+        "TITLE": "Vidrio templado de seguridad en cada pista de pádel",
+        "SUBTITLE": "¡Vidrio templado de alta seguridad en cada pista de pádel!",
+        "DESCRIPTION": "<p>Nuestras pistas Panoramic+ cuentan con <strong>vidrio de seguridad templado de 10 mm de espesor</strong> de fabricantes españoles con certificación CE.</p><pCon bordes pulidos, juntas de neopreno y tornillería galvanizada, cada panel asegura excelente visibilidad y resistencia a impactos, cumpliendo con los estándares europeos.</p>"
+      },
+      "PAINT_SECTION": {
+        "ID": "pintura",
+        "TITLE": "Pintura lacada para estructuras personalizadas",
+        "SUBTITLE": "¿Sabías que ahora puedes agregar un toque de color a tu pista de pádel?",
+        "DESCRIPTION": "<p>Agrega un toque personal con tu elección de colores RAL, disponible en acabados monocromo o bicolor:</p>",
+        "IMAGES": [
+          {
+            "id": "slide-1",
+            "src": "/courts-detail/mobile/structure-painted-mobile-1.webp",
+            "alt": "Pista móvil pintada de naranja"
+          },
+          {
+            "id": "slide-2",
+            "src": "/courts-detail/mobile/structure-painted-mobile-2.webp",
+            "alt": "Pista móvil pintada de naranja"
+          },
+          {
+            "id": "slide-9",
+            "src": "/courts-detail/mobile/structure-painted-mobile-9.webp",
+            "alt": "Una pista violeta"
+          },
+          {
+            "id": "slide-10",
+            "src": "/courts-detail/mobile/structure-painted-mobile-10.webp",
+            "alt": "Estructura azul pintada"
+          },
+          {
+            "id": "slide-12",
+            "src": "/courts-detail/mobile/structure-painted-mobile-12.webp",
+            "alt": "Estructura gris pintada en el interior"
+          }
+        ],
+        "LIST": [
+          "<strong>INTERIOR:</strong> Electrogalvanizado + lacado",
+          "<strong>EXTERIOR:</strong> Electrogalvanizado + imprimación + lacado",
+          "<strong>PROTECCIÓN MARINA EXTERIO:</strong> Electrogalvanizado + tratamiento especial en soldaduras + imprimación + lacado",
+          "<strong>GALVANIZADO EN CALIENTE:</strong> Galvanizado en caliente (baño de zinc) + imprimación + lacado"
+        ]
+      },
+      "TURF_SECTION": {
+        "ID": "cesped",
+        "IMAGE": {
+          "src": "/courts-detail/mobile/mobile-top.webp",
+          "alt": "Vista superior de la pista móvil"
+        },
+        "TITLE": "<span class=\"text-2xl lg:text-4xl text-balance font-bold text-secondary mb-8 uppercase\">Césped de alto rendimiento para pistas de pádel ACE</span>",
+        "SUBTITLE": "¡Experimenta un rendimiento incomparable en nuestro césped artificial!",
+        "DESCRIPTION": "<p>Ofrecemos césped de última generación de fabricantes europeos de confianza para garantizar un juego profesional.</p><p>Nuestro césped artificial cuenta con:</p>",
+        "DESCRIPTION_DOS": "Disponible en varios colores y tipos de fibra para adaptarse a tus preferencias.",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Césped de filamentos texturizados de polietileno de baja abrasión.</li><li>Tratamiento anti-UV, alta resistencia al calor y a la intemperie</li><li>Relleno de arena de sílice lavada y secada (10-15 kg/m²) para un bote de pelota óptimo.</li></ul>"
+      },
+      "LIGHTING_SECTION": {
+        "ID": "luces",
+        "IMAGE": {
+          "src": "/courts-detail/mobile/mobile-lighting.webp",
+          "alt": "Iluminación de la pista móvil"
+        },
+        "TITLE": "Sistemas de iluminación LED para pistas de pádel AC",
+        "SUBTITLE": "¡Ilumina tu pista con la iluminación de Portico Sport!",
+        "DESCRIPTION": "<p>Ilumina tu pista de pádel ACE con sistemas LED de alto rendimiento desarrollados en colaboración con especialistas del sector:</p>",
+        "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Cumplen con la norma <strong>UNE-EN-12193:2020</strong></li><li>Luz uniforme, sin deslumbramientos ni sombras</li><li>Resistencia al impacto IK10 y protección IP66-IP67</li><li>Protección contra sobretensiones (4kV-6kV), alta disipación térmica</li><li>Válido para uso recreativo (Clase III) hasta competiciones profesionales (Clase I, normativa NIDE)</li><li>Garantía de hasta 5 años</li></ul>"
+      },
+      "GALLERY_SECTION": {
+        "ID": "galeria",
+        "PATH": "courts-detail/club/gallery",
+        "OFFSET": 27
+      },
+      "COURTS_SECTION": {
+        "TITLE": "Descubre otras Pistas de Pádel",
+        "DESCRIPTION": "¿Quieres algo diferente? Puedes ver otros modelos de Pistas de Pádel"
+      },
+      "CONTACT_SECTION": {
+        "ID": "contacto",
+        "SUBJECT": "Nueva petición de Pista Club",
+        "TITLE": "Noticias",
+        "BG_IMAGE": "/courts-detail/club/club-contact-bg.webp",
+        "IMAGE": "/courts-detail/ace/ACE-perspective.webp",
+        "BUTTON":{
+          "LABEL":"Request your private consultation",
+          "URL":"/client-contact",
+          "TITLE":"Request your private consultation"
+        }
+      },
+      "HOME_DESCRIPTION": "El modelo Club es nuestra pista de pádel más versátil por excelencia. Con un diseño estructural superior, está construida para soportar un uso intensivo y ofrecer una durabilidad máxima. Pensada específicamente para los clubes de pádel, esta pista está diseñada para mantenerse en perfectas condiciones a lo largo del tiempo.",
+      "HOME_IMAGES": [
+        {
+          "id": "slide-1",
+          "src": "/courts/club-court-01.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pista de pádel club"
+        },
+        {
+          "id": "slide-2",
+          "src": "/courts/club-court-02.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pista de pádel club"
+        },
+        {
+          "id": "slide-3",
+          "src": "/courts/club-court-03.webp",
+          "width": 574,
+          "height": 323,
+          "alt": "Pista de pádel club"
+        }
+      ]
     },
     "MOBILE_COURT": {
       "ID": "mobile-court",
