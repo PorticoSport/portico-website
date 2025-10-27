@@ -3658,6 +3658,11 @@
         "LABEL": "Todas las pistas",
         "URL": "/all-courts"
       },
+      "BUTTON_ACE_COURT": {
+        "LABEL":"Más sobre la pista Ace",
+        "TITLE":"Constructores de pistas de pádel",
+        "URL":"/ace"
+      },
       "BUTTON_TOURNAMENT_COURT": {
         "LABEL": "Más sobre la pista Tournament",
         "TITLE": "Constructores de pistas de pádel",
