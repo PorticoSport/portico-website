@@ -28,7 +28,7 @@ interface Props {
   video?: string;
   heroImage?: string;
   gallery: Photo[];
-  court: "MOBILE_COURT" | "TOURNAMENT_COURT" | "PANORAMIC_FORCE_80_COURT" | "PANORAMIC_COURT" | "PANORAMIC_PLUS" | "CLUB_COURT" | "CLUB_PLUS" | "CLUB_FORCE_80_COURT" | "SINGLE_COURT" | "MINI_COURT";
+  court: "ACE_COURT" | "MOBILE_COURT" | "TOURNAMENT_COURT" | "PANORAMIC_FORCE_80_COURT" | "PANORAMIC_COURT" | "PANORAMIC_PLUS" | "CLUB_COURT" | "CLUB_PLUS" | "CLUB_FORCE_80_COURT" | "SINGLE_COURT" | "MINI_COURT";
 }
 
 const featureImages = [] as Photo[];
@@ -50,6 +50,7 @@ const isCourtsSection = (locale as { COURTS_SECTION?: string }).COURTS_SECTION;
 const isContactSection = (locale as { CONTACT_SECTION?: ContactSection }).CONTACT_SECTION;
 const isInstallationSection = (locale as { INSTALLATION_SECTION?: InstallationSection }).INSTALLATION_SECTION;
 const isCostSection = (locale as { COST_SECTION?: CostSection }).COST_SECTION;
+const isAceCourt = court === "ACE_COURT";
 const faqItems = isInstallationSection ? [
   {
     question: isInstallationSection.SUBTITLE,
@@ -104,6 +105,13 @@ interface Props {
   };
 }
 
+const aceCourtDescriptions = {
+  en: `<p>Ready to install a ACE padel court at your club? Contact Portico Sport today to speak with one of our specialists. We are committed to delivering high-quality padel courts that exceed your expectations. Whether you want to upgrade an existing facility or build a new one from scratch, we are here to help.</p>`,
+  es: `<p>¿Listo para instalar una pista ACE en tu club? Contacta hoy con Portico Sport y habla con uno de nuestros especialistas. Nos comprometemos a ofrecer pistas de pádel de alta calidad que superen tus expectativas. Tanto si quieres mejorar una instalación existente como construir una nueva desde cero, estamos aquí para ayudarte.</p>`,
+  fr: `<p>Prêt à installer un court de padel ACE dans votre club ? Contactez Portico Sport dès aujourd'hui pour parler avec l'un de nos spécialistes. Nous nous engageons à fournir des courts de padel de haute qualité qui dépassent vos attentes. Que vous souhaitiez améliorer une installation existante ou en construire une nouvelle, nous sommes là pour vous aider.</p>`,
+  de: `<p>Bereit, einen ACE-Padelplatz in Ihrem Club zu installieren? Kontaktieren Sie noch heute Portico Sport, um mit einem unserer Spezialisten zu sprechen. Wir engagieren uns dafür, hochwertige Padelplätze zu liefern, die Ihre Erwartungen übertreffen. Egal, ob Sie eine bestehende Anlage aufrüsten oder eine neue von Grund auf bauen möchten, wir sind für Sie da.</p>`,
+};
+
 // Contamos cuántas imágenes hay
 const imageCount = [
   isFirstSection?.IMAGES.FRONT,
@@ -116,7 +124,6 @@ const logoMargin =
   imageCount <= 2
     ? "lg:-mt-[360px] md:-mt-[200px] -mt-[150px]" // más suave en pantallas pequeñas
     : "mt-0";
-
 ---
 
 <Layout
@@ -185,13 +192,13 @@ robots="index,follow"
       ]}
     />
     {isFirstSection && (
-  <Section heading2={isFirstSection.TITLE}>
-    <Typography
-      tag="div"
-      className="text-center"
-      text={isFirstSection.DESCRIPTION}
-      responsive
-    />
+      <Section heading2={isFirstSection.TITLE}>
+        <Typography
+          tag="div"
+          className="text-center"
+          text={isFirstSection.DESCRIPTION}
+          responsive
+      />
 
     <div
       class={`section-renders flex items-center gap-4 max-w-[1400px] my-16 mx-auto px-6 ${
@@ -323,19 +330,30 @@ robots="index,follow"
     }
     </div>
     {
-      isLightningSection ? <LightSection
-        title={isLightningSection.TITLE}
-        subtitle={isLightningSection.SUBTITLE}
-        list={isLightningSection.LIST}
-        description={isLightningSection.DESCRIPTION}
-        language={language}
-      /> : null
-    }
+  isLightningSection ? <LightSection
+    title={isLightningSection.TITLE}
+    subtitle={isLightningSection.SUBTITLE}
+    list={isLightningSection.LIST}
+    description={isLightningSection.DESCRIPTION}
+    language={language}
+    isAceCourt={isAceCourt}  // Asegúrate de que esta línea esté presente
+  /> : null
+}
     <div class="w-full pt-28 bg-gradient-to-br from-[#315A75] via-[#151a36] to-[#151a36]">
       {court === "CLUB_COURT" && (
         <SectionFaqs
           items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_COURT}
           title={i18n.PAGES.HOME.FAQS_SECTION.TITLE_COURT}
+          urlButton={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.URL}
+          buttonTitle={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TITLE}
+          urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
+        />
+      )}
+
+      {court === "ACE_COURT" && (
+        <SectionFaqs
+          items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_ACE}
+          title={i18n.PAGES.HOME.FAQS_SECTION.TITLE_ACE}
           urlButton={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.URL}
           buttonTitle={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TITLE}
           urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
@@ -425,25 +443,21 @@ robots="index,follow"
       isCourtsSection ? (<SectionCourtsGrid language={language} courts={compatibleCourts} heading={isCourtsSection.TITLE} subheading={isCourtsSection.DESCRIPTION} />) : null
     }
     {
-      isContactSection ? (
-        isContactSection.DESCRIPTION ? 
-        <SectionContact
-          hiddenSubject
-          subject={isContactSection.SUBJECT}
-          language={language}
-          bgImage={isContactSection.BG_IMAGE}
-          image={isContactSection.IMAGE}
-          description={isContactSection.DESCRIPTION}
-        /> : 
-        <SectionContact
-          hiddenSubject
-          subject={isContactSection.SUBJECT}
-          language={language}
-          bgImage={isContactSection.BG_IMAGE}
-          image={isContactSection.IMAGE}
-        />
-      ) : null
-    }
+  isContactSection ? (
+    <SectionContact
+      hiddenSubject
+      subject={isContactSection.SUBJECT}
+      language={language}
+      bgImage={isContactSection.BG_IMAGE}
+      image={isContactSection.IMAGE}
+      description={
+        court === "ACE_COURT"
+          ? aceCourtDescriptions[language] || aceCourtDescriptions.en
+          : isContactSection.DESCRIPTION || null
+      }
+    />
+  ) : null
+}
     
   </main>
 </Layout>
