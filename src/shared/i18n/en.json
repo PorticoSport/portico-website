@@ -6910,6 +6910,7 @@
     "TYPES_TITLE": "Lighting types",
     "MASTS_TITLE": "Lighting masts",
     "MASTS_DESCRIPTION": "<p>Optimized lighting masts are galvanized steel, 6 meters high, available in three designs:</p>",
+    "MASTS_DESCRIPTION_ACE": "<p>Lighting masts are galvanized steel, 6 meters high:</p>",
     "LIGHTING_TYPES": [{
       "title": "PV: 8 X 180W",
       "description": "Proven technology endorsed by our experience and the vast majority of professional players.",
