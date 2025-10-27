@@ -571,7 +571,7 @@
           "src": "/courts-detail/mobile/mobile-section-information-court.webp",
           "alt": "Render de una pista móvil"
         },
-        "TITLE": "Excelencia estructural de la pista Club",
+        "TITLE": "Pista ACE: Diseño inteligente y rendimiento ligero",
         "SUBTITLE": "Experimenta la excelencia de nuestra estructura de pista de calidad premium",
         "TEXT": "<p>Estructura ligera fabricada en acero <strong>S275JR galvanizado en caliente</strong> para máxima durabilidad, anclada al suelo mediante placas de anclaje reforzadas.</p><p>Los marcos laterales y superiores incluyen malla electrosoldada conforme a la norma UNE-EN-10223-4, con armazón intermedio para evitar vibraciones.</p><p>Nuestra estructura pasa por procesos de fabricación avanzados:<p></p><ul class=\"flex flex-col px-2 lg:flex-row justify-center items-center gap-8 max-w-5xl mx-auto mt-10 text-center\"><li class=\"flex-1 text-center font-thin text-pretty\">Corte láser: garantiza cortes precisos y acabados limpios.</li><li class=\"flex-1 text-center font-thin px-12 text-pretty\">Soldadura robótica: asegura soldaduras de calidad y previene la oxidación.</li></ul>",
         "SUBTEXT_TITLE": "¿Necesitas más resistencia? ¡Pasa a CLUB+!",
@@ -4571,6 +4571,7 @@
     "TYPES_TITLE": "Tipos de iluminación",
     "MASTS_TITLE": "Postes de iluminación",
     "MASTS_DESCRIPTION": "<p>Postes de acero galvanizado de 6 metros de altura, reforzados y disponibles en tres diseños:</p>",
+    "MASTS_DESCRIPTION_ACE": "<p>Los mástiles de iluminación son de acero galvanizado y tienen una altura de 6 metros:</p>",
     "LIGHTING_TYPES": [
       {
         "title": "PV: 8 X 180W",
