@@ -3512,6 +3512,11 @@
         "LABEL": "Tous les terrains",
         "URL": "/all-courts"
       },
+      "BUTTON_ACE_COURT": {
+        "LABEL": "En savoir plus sur le terrain de padel Ace",
+        "TITLE": "Constructeurs de terrains de padel",
+        "URL": "/ace"
+      },
       "BUTTON_TOURNAMENT_COURT": {
         "LABEL": "En savoir plus sur le terrain Tournament",
         "TITLE": "Constructeurs de terrains de padel",
