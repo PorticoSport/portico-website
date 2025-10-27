@@ -3612,6 +3612,11 @@
         "TITLE": "Padelplatz-Bauer",
         "URL": "/tournament"
       },
+      "BUTTON_ACE_COURT": {
+        "LABEL": "Mehr über den Ace Padelplatz",
+        "TITLE": "Padelplatzbauer",
+        "URL": "/ace"
+      },
       "BUTTON_PANORAMIC_PADEL_COURT": {
         "LABEL": "Mehr über den Panoramic Padelplatz",
         "TITLE": "Padelplatz-Bauer",
