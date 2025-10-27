@@ -123,7 +123,7 @@ const imageCount = [
 const logoMargin =
   imageCount <= 2
     ? "lg:-mt-[360px] md:-mt-[200px] -mt-[150px]" // más suave en pantallas pequeñas
-    : "mt-0";
+    : "mt-0";    
 ---
 
 <Layout
@@ -329,16 +329,14 @@ robots="index,follow"
         descriptionDos={isTurfSection.DESCRIPTION_DOS} /> : null
     }
     </div>
-    {
-  isLightningSection ? <LightSection
-    title={isLightningSection.TITLE}
-    subtitle={isLightningSection.SUBTITLE}
-    list={isLightningSection.LIST}
-    description={isLightningSection.DESCRIPTION}
-    language={language}
-    isAceCourt={isAceCourt}  // Asegúrate de que esta línea esté presente
-  /> : null
-}
+    <LightSection 
+      title={isLightningSection.TITLE}
+      subtitle={isLightningSection.SUBTITLE}
+      list={isLightningSection.LIST}
+      description={isAceCourt ? isLightningSection.MASTS_DESCRIPTION_ACE : isLightningSection.MASTS_DESCRIPTION}
+      language={language}
+      isAceCourt={isAceCourt}
+    />
     <div class="w-full pt-28 bg-gradient-to-br from-[#315A75] via-[#151a36] to-[#151a36]">
       {court === "CLUB_COURT" && (
         <SectionFaqs
