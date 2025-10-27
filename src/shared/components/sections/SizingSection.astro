@@ -22,7 +22,7 @@ const { title, outdoorText, indoorText, imageSizing, id, indoorTitle, outdoorTit
   <div class="flex relative flex-col items-center justify-center lg:flex-row gap-8 max-w-[1400px] mx-auto">
     <img loading="lazy" src={imageSizing.src} alt={imageSizing.alt} class="aspect-video md:h-72 xl:h-96 z-10" />
     <div class=" z-10">
-      <Typography tag="h2" className="font-bold mb-8 uppercase" type="secondary" text={title} />
+      <Typography tag="h3" className="font-bold mb-8 uppercase" type="secondary" text={title} />
       {
         description ? <Typography tag="p" className="mt-4 text-left" text={description} responsive /> : null
       }
