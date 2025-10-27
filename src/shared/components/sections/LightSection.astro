@@ -26,7 +26,7 @@ const masts = isAceCourt
     <Typography tag="div" text={list} className="pb-2 shadow-glass" />
     <div>
       <Typography tag="h3" text={i18n.LIGHTING_SECTION.MASTS_TITLE} type="primary" className="font-thin mt-6 mb-4" />
-      <Typography tag="div" text={i18n.LIGHTING_SECTION.MASTS_DESCRIPTION} className="pb-2" />
+      <Typography tag="div" text={isAceCourt ? i18n.LIGHTING_SECTION.MASTS_DESCRIPTION_ACE : i18n.LIGHTING_SECTION.MASTS_DESCRIPTION} className="pb-2" />
       <div class="flex flex-col sm:flex-row gap-4 md:gap-8">
   {
     masts.map((type) => (
