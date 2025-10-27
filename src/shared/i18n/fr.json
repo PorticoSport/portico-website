@@ -4344,6 +4344,7 @@
     "TYPES_TITLE": "Types d'éclairage",
    "MASTS_TITLE": "Poteaux d’éclairage",
     "MASTS_DESCRIPTION": "<p>Les mâts d’éclairage optimisés sont en acier galvanisé, d’une hauteur de 6 mètres, disponibles en trois modèles:</p>",
+    "MASTS_DESCRIPTION_ACE": "<p>Les mâts d’éclairage sont en acier galvanisé et mesurent 6 mètres de haut:</p>",
     "LIGHTING_TYPES": [
       {
         "title": "PV : 8 X 180W",
