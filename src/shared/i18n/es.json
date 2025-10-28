@@ -2788,7 +2788,7 @@
       },
       "GALLERY_SECTION": {
         "ID": "galería",
-        "PATH": "courts-detail/mini/gallery/thumbnails",
+        "PATH": "courts-detail/mini/gallery",
         "OFFSET": 27
       },
       "COURTS_SECTION": {
