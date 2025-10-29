@@ -162,6 +162,14 @@ const {
     max-width: 80vw !important;
     max-height: 80vh !important;
     margin-left: 32px;
+    margin-top: 60px;
+  }
+
+  /* Sin margin-top en móviles */
+  @media (max-width: 768px) {
+    .pswp__img {
+      margin-top: 0 !important;
+    }
   }
 
   #gallery a {
