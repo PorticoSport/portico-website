@@ -211,24 +211,12 @@ const LINKS = [
     >
       <span id="menu-icon">☰</span>
     </button>
-
-    <!-- <div
-      class="hidden md:flex-grow md:basis-0 justify-end whitespace-nowrap md:flex md:text-base"
-    >
-      <Button
-        class="md:text-sm lg:text-base md:py-2 hover:bg-secondary hover:text-black"
-        url={i18n.PAGES.CONTACT.ROUTE.URL}
-        target="_self"
-      >
-        {i18n.PAGES.CONTACT.ROUTE.LABEL}
-      </Button>
-    </div> -->
   </div>
 
   <!-- Menú de navegación móvil para pantallas pequeñas -->
   <nav
   id="mobile-menu"
-  class="bg-white/90 -translate-y-full gap-4 transition-transform xl:hidden w-full flex flex-col justify-center items-center text-center text-2xl fixed top-0 left-0 right-0 h-dvh"
+  class="bg-white/90 -translate-y-full gap-4 transition-transform xl:hidden w-full flex flex-col justify-center items-center text-center text-2xl fixed top-0 left-0 right-0 h-dvh overflow-y-auto"
 >
     {
     LINKS.map(({ href, text, children }) => {
@@ -236,36 +224,44 @@ const LINKS = [
   
       if (hasDropdown) {
         return (
-          <div
-            data-dropdown-toggle="dropdownMobileNavbar"
-            class="relative gap-2 w-max group"
-          >
-            <HeaderLink class="flex justify-center items-center text-black" href={href || '#'}>
-              {capitalize(text)}
-              <svg
-                class="w-2.5 h-2.5 ms-2.5"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 10 6"
+          <div class="relative w-full px-4">
+            <div class="flex justify-center items-center gap-2">
+              <HeaderLink 
+                class="text-black mobile-dropdown-link"
+                href={href || '#'}
               >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="m1 1 4 4 4-4"
-                />
-              </svg>
-            </HeaderLink>
+                {capitalize(text)}
+              </HeaderLink>
+              <button 
+                class="mobile-dropdown-trigger p-1"
+                data-dropdown-id={`mobile-dropdown-${text.replace(/\s+/g, '-')}`}
+                aria-label={`Toggle ${text} menu`}
+              >
+                <svg
+                  class="w-4 h-4 mobile-dropdown-arrow transition-transform text-black"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 1 4 4 4-4"
+                  />
+                </svg>
+              </button>
+            </div>
             <div
-              id="dropdownMobileNavbar"
-              class={`z-10 hidden absolute left-1/2 top-1/2 -translate-x-1/2 translate-y-4 font-normal group-hover:block ${text === i18n.PAGES.COURTS.ROUTE.LABEL ? "w-52" : "w-40"}`}
+              id={`mobile-dropdown-${text.replace(/\s+/g, '-')}`}
+              class="mobile-dropdown-content hidden absolute left-1/2 -translate-x-1/2 top-full mt-2 w-11/12 max-w-xs z-50"
             >
-              <ul class="py-2 text-sm flex flex-col gap-4 w-full bg-slate-100 rounded-xl border">
+              <ul class="py-2 text-base flex flex-col gap-3 w-full bg-white shadow-lg rounded-xl border max-h-96 overflow-y-auto">
                 {children.map(({ href, text }) => (
                   <li class="text-center">
-                    <HeaderLink class="text-black w-full text-lg" href={href}>
+                    <HeaderLink class="text-black w-full item-link" href={href}>
                       {capitalize(text)}
                     </HeaderLink>
                   </li>
@@ -277,19 +273,12 @@ const LINKS = [
       }
   
       return (
-        <HeaderLink class="text-black  item-link" href={href || '#'}>
+        <HeaderLink class="text-black item-link" href={href || '#'}>
           {capitalize(text)}
         </HeaderLink>
       );
     })
   }
-    <!-- <Button
-      class="item-link my-4 whitespace-nowrap text-center lg:hidden lg:text-base bg-black hover:bg-secondary hover:text-black"
-      url={i18n.PAGES.CONTACT.ROUTE.URL}
-      target="_self"
-    >
-      {i18n.PAGES.CONTACT.ROUTE.LABEL}
-    </Button> -->
     <LanguageSelector language={language} />
   </nav>
 </header>
@@ -318,20 +307,59 @@ const LINKS = [
         menuIcon.textContent = menuIcon.textContent === "☰" ? "✕" : "☰";
       })
     );
+
+    // Handle mobile dropdown toggles
+    const dropdownTriggers = document.querySelectorAll(".mobile-dropdown-trigger");
+    dropdownTriggers.forEach((trigger) => {
+      trigger.addEventListener("click", function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        const dropdownId = this.getAttribute("data-dropdown-id");
+        const dropdown = document.getElementById(dropdownId);
+        const arrow = this.querySelector(".mobile-dropdown-arrow");
+        
+        // Close all other dropdowns
+        document.querySelectorAll(".mobile-dropdown-content").forEach((d) => {
+          if (d.id !== dropdownId) {
+            d.classList.add("hidden");
+          }
+        });
+        document.querySelectorAll(".mobile-dropdown-arrow").forEach((a) => {
+          if (a !== arrow) {
+            a.classList.remove("rotate-180");
+          }
+        });
+        
+        if (dropdown) {
+          dropdown.classList.toggle("hidden");
+          arrow?.classList.toggle("rotate-180");
+        }
+      });
+    });
+
+    // Close dropdowns when clicking outside
+    document.addEventListener("click", function(e) {
+      if (!e.target.closest(".mobile-dropdown-trigger")) {
+        document.querySelectorAll(".mobile-dropdown-content").forEach((d) => {
+          d.classList.add("hidden");
+        });
+        document.querySelectorAll(".mobile-dropdown-arrow").forEach((a) => {
+          a.classList.remove("rotate-180");
+        });
+      }
+    });
   });
+
   document.addEventListener("astro:page-load", () => {
     const currentPath = window.location.pathname;
-
-    // Cambiar esta ruta por la de tu página especial real
     const isSpecialPage = currentPath.includes("/index.astro");
 
     if (isSpecialPage) {
-      // Intercepta clics en los enlaces de banderas del selector de idioma
       document.querySelectorAll(".language-flag").forEach(flag => {
         flag.addEventListener("click", (e) => {
           e.preventDefault();
           const lang = flag.getAttribute("data-lang");
-          window.location.href = `/${lang}/`; // redirige a la home del idioma
+          window.location.href = `/${lang}/`;
         });
       });
     }
