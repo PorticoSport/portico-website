@@ -287,10 +287,10 @@ const LINKS = [
   document.addEventListener("astro:page-load", () => {
     const menuToggle = document.getElementById("menu-toggle");
     const mobileMenu = document.getElementById("mobile-menu");
-    const link = document.querySelectorAll("#mobile-menu .item-link");
+    const link = document.querySelectorAll("#mobile-menu .item-link, #mobile-menu .mobile-dropdown-link");
     const menuIcon = document.getElementById("menu-icon");
 
-    if (!menuToggle || !mobileMenu || !menuIcon || !link) {
+    if (!menuToggle || !mobileMenu || !menuIcon) {
       return;
     }
 
@@ -301,10 +301,13 @@ const LINKS = [
     });
 
     link.forEach((item) =>
-      item.addEventListener("click", function () {
-        mobileMenu.classList.toggle("translate-y-0");
-        document.body.classList.toggle("overflow-hidden");
-        menuIcon.textContent = menuIcon.textContent === "☰" ? "✕" : "☰";
+      item.addEventListener("click", function (e) {
+        // Solo cerrar el menú si no es un dropdown toggle
+        if (!e.target.closest('.mobile-dropdown-trigger')) {
+          mobileMenu.classList.remove("translate-y-0");
+          document.body.classList.remove("overflow-hidden");
+          menuIcon.textContent = "☰";
+        }
       })
     );
 
@@ -337,15 +340,27 @@ const LINKS = [
       });
     });
 
-    // Close dropdowns when clicking outside
+    // Close dropdowns when clicking outside or on a dropdown link
     document.addEventListener("click", function(e) {
-      if (!e.target.closest(".mobile-dropdown-trigger")) {
+      const isDropdownTrigger = e.target.closest(".mobile-dropdown-trigger");
+      const isDropdownLink = e.target.closest(".mobile-dropdown-content .item-link");
+      
+      if (!isDropdownTrigger) {
         document.querySelectorAll(".mobile-dropdown-content").forEach((d) => {
           d.classList.add("hidden");
         });
         document.querySelectorAll(".mobile-dropdown-arrow").forEach((a) => {
           a.classList.remove("rotate-180");
         });
+      }
+
+      // Close mobile menu when clicking a dropdown item
+      if (isDropdownLink && mobileMenu) {
+        setTimeout(() => {
+          mobileMenu.classList.remove("translate-y-0");
+          document.body.classList.remove("overflow-hidden");
+          if (menuIcon) menuIcon.textContent = "☰";
+        }, 100);
       }
     });
   });
