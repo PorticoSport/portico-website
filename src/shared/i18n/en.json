@@ -5997,6 +5997,11 @@
         "LABEL": "All Courts",
         "URL": "/all-courts"
       },
+      "BUTTON_ACE_COURT": {
+        "LABEL":"More about Ace Padel court",
+        "TITLE":"Padel Court Builders",
+        "URL":"/ace"
+      },
       "BUTTON_CLUB_COURT": {
         "LABEL":"More about Club Padel court",
         "TITLE":"Padel Court Builders",
