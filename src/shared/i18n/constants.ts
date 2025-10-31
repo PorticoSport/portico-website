@@ -1,3 +1,4 @@
+
 interface ILanguages {
   [key: string]: string
 }
@@ -26,6 +27,17 @@ export const courtsGrid = (i18n: any) => {
       }
     },
     {
+      title: i18n.PAGES.ACE_COURT.TITLE,
+      description: i18n.PAGES.ACE_COURT.LITTLE_DESCRIPTION,
+      url: i18n.PAGES.ACE_COURT.ROUTE.URL,
+      label: i18n.PAGES.ACE_COURT.ROUTE.LABEL,
+      more: i18n.PAGES.ACE_COURT.ROUTE.LABEL,
+      image: {
+        src: i18n.PAGES.ACE_COURT.CONTACT_SECTION.IMAGE,
+        alt: i18n.PAGES.ACE_COURT.NAME,
+      }
+    },
+    {
       title: i18n.PAGES.TOURNAMENT_COURT.TITLE,
       description: i18n.PAGES.TOURNAMENT_COURT.LITTLE_DESCRIPTION,
       url: i18n.PAGES.TOURNAMENT_COURT.ROUTE.URL,
@@ -45,6 +57,17 @@ export const courtsGrid = (i18n: any) => {
       image: {
         src: i18n.PAGES.PANORAMIC_COURT.CONTACT_SECTION.IMAGE,
         alt: i18n.PAGES.PANORAMIC_COURT.NAME,
+      }
+    },
+    {
+      title: i18n.PAGES.PANORAMIC_PLUS.TITLE,
+      description: i18n.PAGES.PANORAMIC_PLUS.LITTLE_DESCRIPTION,
+      url: i18n.PAGES.PANORAMIC_PLUS.ROUTE.URL,
+      label: i18n.PAGES.PANORAMIC_PLUS.ROUTE.LABEL,
+      more: i18n.PAGES.PANORAMIC_PLUS.ROUTE.LABEL,
+      image: {
+        src: i18n.PAGES.PANORAMIC_PLUS.CONTACT_SECTION.IMAGE,
+        alt: i18n.PAGES.PANORAMIC_PLUS.NAME,
       }
     },
     {
