@@ -1,19 +1,829 @@
 ---
+export const prerender = true;
+export const revalidate = 3600;
 import Layout from "@/shared/layouts/Layout.astro";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 import Typography from "@/shared/components/ui/Typography.astro";
 import ProjectsClubsSection from "@/shared/components/sections/ProjectsClubsSection.astro";
-import ProjectsDetailed from "@/shared/components/ProjectsDetailed";
 import countries from "@/shared/data/countries.json";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
 import CountriesSection from "@/shared/components/sections/CountriesSection.astro"
+
 interface Props {
   language: string;
 }
-
 const { language } = Astro.props;
 const i18n = getI18N({ language });
 const currentLocale = getCurrentLocale({ language });
+
+// Datos de proyectos - ajusta según tus datos reales
+const projectsData = [
+  {
+    id: 1,
+    name: {
+      en: "The Padel Club - TraffordCity",
+      es: "The Padel Club - TraffordCity",
+      de: "The Padel Club - TraffordCity",
+      fr: "The Padel Club - TraffordCity"
+    },
+    country: {
+      en: "United Kingdom",
+      es: "Reino Unido",
+      de: "Vereinigtes Königreich",
+      fr: "Royaume-Uni"
+    },
+    countryCode: "UK",
+    image: "/uk/gallery/The-Padel-Club-Trafford-1.webp",
+    flag: "UK",
+    gallery: [
+      "/uk/gallery/The-Padel-Club-Trafford-1.webp",
+      "/uk/gallery/The-Padel-Club-Trafford-2.webp",
+      "/uk/gallery/The-Padel-Club-Trafford-3.webp",
+      "/uk/gallery/The-Padel-Club-Trafford-4.webp",
+      "/uk/gallery/The-Padel-Club-Trafford-5.webp",
+      "/uk/gallery/The-Padel-Club-Trafford-6.webp",
+      "/uk/gallery/The-Padel-Club-Trafford-7.webp",
+      "/uk/gallery/The-Padel-Club-Trafford-8.webp",
+    ],
+    description: {
+      en: "The biggest purpose built padel facility in the UK",
+      es: "La instalación de pádel más grande construida específicamente en el Reino Unido",
+      de: "Die größte speziell gebaute Padel-Anlage im Vereinigten Königreich",
+      fr: "La plus grande installation de padel construite spécialement au Royaume-Uni"
+    },
+    courts: {
+      en: "11 Padel courts and 2 canopies",
+      es: "11 pistas de pádel y 2 carpas",
+      de: "11 Padel-Plätze und 2 Überdachungen",
+      fr: "11 terrains de padel et 2 auvents"
+    },
+    website: "https://www.thepadelclub.co.uk/the-clubs/club-2-traffordcity",
+    logo: "/uk/gallery/The-Padel-Club-Trafford-logo.webp"
+  },
+  {
+    id: 2,
+    name: {
+      en: "Padel Tennis Ireland",
+      es: "Padel Tennis Ireland",
+      de: "Padel Tennis Ireland",
+      fr: "Padel Tennis Ireland"
+    },
+    country: {
+      en: "Ireland",
+      es: "Irlanda",
+      de: "Irland",
+      fr: "Irlande"
+    },
+    countryCode: "IRL",
+    image: "/projects-Ireland/gallery/projectsIreland-1.webp",
+    flag: "IRL",
+    gallery: [
+      "/projects-Ireland/gallery/projectsIreland-1.webp",
+      "/projects-Ireland/gallery/projectsIreland-2.webp",
+      "/projects-Ireland/gallery/projectsIreland-3.webp",
+      "/projects-Ireland/gallery/projectsIreland-5.webp"
+    ],
+    description: {
+      en: "The largest facility dedicated solely to Padel in Ireland. Canopies in Q3 2025.",
+      es: "La instalación más grande dedicada exclusivamente al pádel en Irlanda. Carpas en el tercer trimestre de 2025.",
+      de: "Die größte Anlage, die ausschließlich dem Padel in Irland gewidmet ist. Überdachungen im 3. Quartal 2025.",
+      fr: "La plus grande installation dédiée exclusivement au padel en Irlande. Auvents au T3 2025."
+    },
+    courts: {
+      en: "4 Tournament courts indoor and 4 Club courts outdoor.",
+      es: "4 pistas de torneo cubiertas y 4 pistas de club al aire libre.",
+      de: "4 Turnierplätze drinnen und 4 Clubplätze draußen.",
+      fr: "4 terrains de tournoi couverts et 4 terrains de club extérieurs."
+    },
+    website: "https://padeltennisireland.ie/",
+    logo: "/clubes/Ireland/padel-tennis-ireland/padel-tennis-ireland-logo.webp"
+  },
+  {
+    id: 3,
+    name: {
+      en: "Official Court Hexagon Cup Tournament",
+      es: "Pista Oficial del Torneo Hexagon Cup",
+      de: "Offizieller Platz Hexagon Cup Turnier",
+      fr: "Court Officiel du Tournoi Hexagon Cup"
+    },
+    country: {
+      en: "Spain",
+      es: "España",
+      de: "Spanien",
+      fr: "Espagne"
+    },
+    countryCode: "ES",
+    image: "/espana-court/gallery/Hexagon-Cup-Official-Court-1.webp",
+    flag: "ES",
+    gallery: [
+      "/espana-court/gallery/Hexagon-Cup-Official-Court-1.webp",
+      "/espana-court/gallery/Hexagon-Cup-Official-Court-2.webp",
+      "/espana-court/gallery/Hexagon-Cup-Official-Court-3.webp",
+      "/espana-court/gallery/Hexagon-Cup-Official-Court-4.webp",
+      "/espana-court/gallery/Hexagon-Cup-Official-Court-5.webp",
+      "/espana-court/gallery/Hexagon-Cup-Official-Court-6.webp",
+      "/espana-court/gallery/Hexagon-Cup-Official-Court-7.webp"
+    ],
+    description: {
+      en: "Official padel court supplier of the Hexagon Cup, featuring our exclusive purple court designed for the world's most innovative padel tournament.",
+      es: "Proveedor oficial de pistas de pádel de la Hexagon Cup, con nuestra exclusiva pista púrpura diseñada para el torneo de pádel más innovador del mundo.",
+      de: "Offizieller Padel-Platz-Lieferant des Hexagon Cup mit unserem exklusiven lila Platz für das innovativste Padel-Turnier der Welt.",
+      fr: "Fournisseur officiel de terrains de padel de la Hexagon Cup, avec notre terrain violet exclusif conçu pour le tournoi de padel le plus innovant au monde."
+    },
+    courts: {
+      en: "Tournament courts.",
+      es: "Pistas de torneo.",
+      de: "Turnierplätze.",
+      fr: "Terrains de tournoi."
+    },
+    website: "https://www.hexagoncup.com/",
+    logo: "/espana-court/gallery/Hexagon-Cup-logo.webp"
+  },
+  {
+    id: 4,
+    name: {
+      en: "Ultra Padel Gliwice",
+      es: "Ultra Padel Gliwice",
+      de: "Ultra Padel Gliwice",
+      fr: "Ultra Padel Gliwice"
+    },
+    country: {
+      en: "Poland",
+      es: "Polonia",
+      de: "Polen",
+      fr: "Pologne"
+    },
+    countryCode: "PL",
+    image: "/projects_poland/gallery/Ultra_padel_gliwice-1.webp",
+    flag: "PL",
+    gallery: [
+      "/projects_poland/gallery/Ultra_padel_gliwice-1.webp",
+      "/projects_poland/gallery/Ultra_padel_gliwice-2.webp",
+      "/projects_poland/gallery/Ultra_padel_gliwice-3.webp",
+      "/projects_poland/gallery/Ultra_padel_gliwice-4.webp",
+      "/projects_poland/gallery/Ultra_padel_gliwice-5.webp",
+      "/projects_poland/gallery/Ultra_padel_gliwice-6.webp",
+      "/projects_poland/gallery/Ultra_padel_gliwice-7.webp",
+      "/projects_poland/gallery/Ultra_padel_gliwice-8.webp",
+    ],
+    description: {
+      en: "Premium padel courts and canopies installed next to the iconic EMT-Systems building in Poland.",
+      es: "Pistas de pádel premium y carpas instaladas junto al icónico edificio EMT-Systems en Polonia.",
+      de: "Premium-Padel-Plätze und Überdachungen neben dem ikonischen EMT-Systems-Gebäude in Polen installiert.",
+      fr: "Courts de padel premium et auvents installés à côté de l'emblématique bâtiment EMT-Systems en Pologne."
+    },
+    courts: {
+      en: "4 Tournament Courts and canopies.",
+      es: "4 pistas de torneo y carpas.",
+      de: "4 Turnierplätze und Überdachungen.",
+      fr: "4 terrains de tournoi et auvents."
+    },
+    website: "https://ultra-padel.pl/",
+    logo: "/projects_poland/gallery/Utra_padel_gliwice_logo.webp"
+  },
+  {
+    id: 5,
+    name: {
+      en: "Outdoor Private Court",
+      es: "Pista Privada Exterior",
+      de: "Privater Außenplatz",
+      fr: "Court Privé Extérieur"
+    },
+    country: {
+      en: "Guatemala",
+      es: "Guatemala",
+      de: "Guatemala",
+      fr: "Guatemala"
+    },
+    countryCode: "GT",
+    image: "/clubes/Guatemala/private-court-guatemala/thumbnails/private-court-guatemala-1.webp",
+    flag: "GT",
+    gallery: [
+      "/clubes/Guatemala/private-court-guatemala/thumbnails/private-court-guatemala-1.webp",
+      "/clubes/Guatemala/private-court-guatemala/thumbnails/private-court-guatemala-2.webp",
+      "/clubes/Guatemala/private-court-guatemala/thumbnails/private-court-guatemala-3.webp",
+      "/clubes/Guatemala/private-court-guatemala/thumbnails/private-court-guatemala-4.webp",
+      "/clubes/Guatemala/private-court-guatemala/thumbnails/private-court-guatemala-5.webp"
+    ],
+    description: {
+      en: "Private padel court installation, surrounded by nature and designed for premium outdoor performance.",
+      es: "Instalación de pista de pádel privada, rodeada de naturaleza y diseñada para un rendimiento premium al aire libre.",
+      de: "Private Padel-Platz-Installation, umgeben von Natur und für Premium-Außenleistung konzipiert.",
+      fr: "Installation de court de padel privé, entouré par la nature et conçu pour des performances extérieures premium."
+    },
+    courts: {
+      en: "1 Club court.",
+      es: "1 pista Club.",
+      de: "1 Clubplatz.",
+      fr: "1 terrain Club."
+    },
+    website: "https://example.com",
+    logo: ""
+  },
+  {
+    id: 7,
+    name: {
+      en: "Rocket Padel Ilford",
+      es: "Rocket Padel Ilford",
+      de: "Rocket Padel Ilford",
+      fr: "Rocket Padel Ilford"
+    },
+    country: {
+      en: "United Kingdom",
+      es: "Reino Unido",
+      de: "Vereinigtes Königreich",
+      fr: "Royaume-Uni"
+    },
+    countryCode: "UK",
+    image: "/clubes/United_kingdom/battersea-power-station/thumbnails/battersea-power-station-1.webp",
+    flag: "UK",
+    gallery: [
+      "/clubes/United_kingdom/battersea-power-station/thumbnails/battersea-power-station-1.webp",
+      "/clubes/United_kingdom/battersea-power-station/thumbnails/battersea-power-station-2.webp",
+      "/clubes/United_kingdom/battersea-power-station/thumbnails/battersea-power-station-3.webp",
+      "/clubes/United_kingdom/battersea-power-station/thumbnails/battersea-power-station-4.webp",
+      "/clubes/United_kingdom/battersea-power-station/thumbnails/battersea-power-station-5.webp",
+      "/clubes/United_kingdom/battersea-power-station/thumbnails/battersea-power-station-6.webp",
+      "/clubes/United_kingdom/battersea-power-station/thumbnails/battersea-power-station-7.webp",
+      "/clubes/United_kingdom/battersea-power-station/thumbnails/battersea-power-station-8.webp",
+      "/clubes/United_kingdom/battersea-power-station/thumbnails/battersea-power-station-9.webp",
+      "/clubes/United_kingdom/battersea-power-station/thumbnails/battersea-power-station-10.webp",
+    ],
+    description: {
+      en: "A Game4Padel club at The Green Quarter in West London.",
+      es: "Un club Game4Padel en The Green Quarter en el oeste de Londres.",
+      de: "Ein Game4Padel Club im Green Quarter in West-London.",
+      fr: "Un club Game4Padel au Green Quarter dans l'ouest de Londres."
+    },
+    courts: {
+      en: "3 Mobile Club courts and Canopies.",
+      es: "3 pistas Club móviles y carpas.",
+      de: "3 mobile Clubplätze und Überdachungen.",
+      fr: "3 terrains Club mobiles et auvents."
+    },
+    website: "https://www.game4padel.com/parkside-padel",
+    logo: "/clubes/United_kingdom/battersea-power-station/battersea-power-station-logo.webp"
+  },
+  {
+    id: 8,
+    name: {
+      en: "David Lloyd Veigy",
+      es: "David Lloyd Veigy",
+      de: "David Lloyd Veigy",
+      fr: "David Lloyd Veigy"
+    },
+    country: {
+      en: "France",
+      es: "Francia",
+      de: "Frankreich",
+      fr: "France"
+    },
+    countryCode: "FR",
+    image: "/clubes/France/David-Lloyd-/thumbnails/David-LLoyd-Veigy-1.webp",
+    flag: "FR",
+    gallery: [
+      "/clubes/France/David-Lloyd-/thumbnails/David-LLoyd-Veigy-1.webp",
+      "/clubes/France/David-Lloyd-/thumbnails/David-LLoyd-Veigy-2.webp",
+      "/clubes/France/David-Lloyd-/thumbnails/David-LLoyd-Veigy-3.webp",
+      "/clubes/France/David-Lloyd-/thumbnails/David-LLoyd-Veigy-4.webp",
+      "/clubes/France/David-Lloyd-/thumbnails/David-LLoyd-Veigy-5.webp",
+      "/clubes/France/David-Lloyd-/thumbnails/David-LLoyd-Veigy-6.webp"
+    ],
+    description: {
+      en: "High-quality padel court construction for a wellness and lifestyle club offering premium sports facilities.",
+      es: "Construcción de pistas de pádel de alta calidad para un club de bienestar y estilo de vida que ofrece instalaciones deportivas premium.",
+      de: "Hochwertige Padel-Platz-Konstruktion für einen Wellness- und Lifestyle-Club mit Premium-Sportanlagen.",
+      fr: "Construction de courts de padel de haute qualité pour un club de bien-être et de style de vie offrant des installations sportives premium."
+    },
+    courts: {
+      en: "4 Club Courts.",
+      es: "4 pistas Club.",
+      de: "4 Clubplätze.",
+      fr: "4 terrains Club."
+    },
+    website: "https://www.davidlloyd.fr/en/clubs/veigy/",
+    logo: "/clubes/France/David-Lloyd-/David-Lloyd-Logo.webp"
+  },
+  {
+    id: 9,
+    name: {
+      en: "Dorado Beach Resort",
+      es: "Dorado Beach Resort",
+      de: "Dorado Beach Resort",
+      fr: "Dorado Beach Resort"
+    },
+    country: {
+      en: "Puerto Rico",
+      es: "Puerto Rico",
+      de: "Puerto Rico",
+      fr: "Porto Rico"
+    },
+    countryCode: "PR",
+    image: "/clubes/Puerto_Rico/Dorado_Beach/Dorado-Beach-1.webp",
+    flag: "PR",
+    gallery: [
+      "/clubes/Puerto_Rico/Dorado_Beach/Dorado-Beach-1.webp",
+      "/clubes/Puerto_Rico/Dorado_Beach/Dorado-Beach-2.webp",
+      "/clubes/Puerto_Rico/Dorado_Beach/Dorado-Beach-3.webp"
+    ],
+    description: {
+      en: "A bespoke padel court crafted to match the elegance and vibrant charm of a luxury resort.",
+      es: "Una pista de pádel a medida diseñada para igualar la elegancia y el encanto vibrante de un resort de lujo.",
+      de: "Ein maßgeschneiderter Padel-Platz, der die Eleganz und den lebendigen Charme eines Luxusresorts widerspiegelt.",
+      fr: "Un court de padel sur mesure conçu pour correspondre à l'élégance et au charme vibrant d'un complexe de luxe."
+    },
+    courts: {
+      en: "2 Club courts.",
+      es: "2 pistas Club.",
+      de: "2 Clubplätze.",
+      fr: "2 terrains Club."
+    },
+    website: "https://www.doradobeach.com/",
+    logo: "/clubes/Puerto_Rico/Dorado_Beach/Dorado-Beach-logo.webp"
+  },
+  {
+    id: 10,
+    name: {
+      en: "Padelon Heilbronn",
+      es: "Padelon Heilbronn",
+      de: "Padelon Heilbronn",
+      fr: "Padelon Heilbronn"
+    },
+    country: {
+      en: "Germany",
+      es: "Alemania",
+      de: "Deutschland",
+      fr: "Allemagne"
+    },
+    countryCode: "DE",
+    image: "/clubes/Germany/Padelon-Heilbronn/Padelon-Heilbronn-1.webp",
+    flag: "DE",
+    gallery: [
+      "/clubes/Germany/Padelon-Heilbronn/Padelon-Heilbronn-1.webp",
+      "/clubes/Germany/Padelon-Heilbronn/Padelon-Heilbronn-2.webp",
+      "/clubes/Germany/Padelon-Heilbronn/Padelon-Heilbronn-3.webp",
+      "/clubes/Germany/Padelon-Heilbronn/Padelon-Heilbronn-4.webp",
+      "/clubes/Germany/Padelon-Heilbronn/Padelon-Heilbronn-5.webp",
+      "/clubes/Germany/Padelon-Heilbronn/Padelon-Heilbronn-6.webp",
+      "/clubes/Germany/Padelon-Heilbronn/Padelon-Heilbronn-7.webp",
+      "/clubes/Germany/Padelon-Heilbronn/Padelon-Heilbronn-8.webp",
+      "/clubes/Germany/Padelon-Heilbronn/Padelon-Heilbronn-9.webp"
+    ],
+    description: {
+      en: "Part of the Padelon Deutschland network powered by Portico Sport padel courts.",
+      es: "Parte de la red Padelon Deutschland impulsada por pistas de pádel Portico Sport.",
+      de: "Teil des Padelon Deutschland-Netzwerks mit Portico Sport Padel-Plätzen.",
+      fr: "Fait partie du réseau Padelon Deutschland propulsé par les courts de padel Portico Sport."
+    },
+    courts: {
+      en: "5 Tournament and 2 Tournament Single Courts.",
+      es: "5 pistas de torneo y 2 pistas individuales de torneo.",
+      de: "5 Turnierplätze und 2 Turnier-Einzelplätze.",
+      fr: "5 terrains de tournoi et 2 terrains simples de tournoi."
+    },
+    website: "https://www.padelon.de/heilbronn",
+    logo: "/clubes/Germany/Padelon-Heilbronn/padelon-deutschland-logo.webp"
+  },
+  {
+    id: 12,
+    name: {
+      en: "PadelPro Club",
+      es: "PadelPro Club",
+      de: "PadelPro Club",
+      fr: "PadelPro Club"
+    },
+    country: {
+      en: "Cyprus",
+      es: "Chipre",
+      de: "Zypern",
+      fr: "Chypre"
+    },
+    countryCode: "CY",
+    image: "/clubes/Cyprus/Padel-Pro/PadelPro-Club-1.webp",
+    flag: "CY",
+    gallery: [
+      "/clubes/Cyprus/Padel-Pro/PadelPro-Club-1.webp",
+      "/clubes/Cyprus/Padel-Pro/PadelPro-Club-2.webp",
+      "/clubes/Cyprus/Padel-Pro/PadelPro-Club-3.webp",
+      "/clubes/Cyprus/Padel-Pro/PadelPro-Club-4.webp",
+      "/clubes/Cyprus/Padel-Pro/PadelPro-Club-5.webp",
+      "/clubes/Cyprus/Padel-Pro/PadelPro-Club-6.webp",
+      "/clubes/Cyprus/Padel-Pro/PadelPro-Club-7.webp",
+      "/clubes/Cyprus/Padel-Pro/PadelPro-Club-8.webp",
+      "/clubes/Cyprus/Padel-Pro/PadelPro-Club-9.webp"
+    ],
+    description: {
+      en: "Custom-designed padel courts in Cyprus, tailored to reflect the club's unique brand identity.",
+      es: "Pistas de pádel diseñadas a medida en Chipre, adaptadas para reflejar la identidad de marca única del club.",
+      de: "Individuell gestaltete Padel-Plätze in Zypern, maßgeschneidert für die einzigartige Markenidentität des Clubs.",
+      fr: "Courts de padel sur mesure à Chypre, adaptés pour refléter l'identité de marque unique du club."
+    },
+    courts: {
+      en: "6 Mobile Panoramic courts.",
+      es: "6 pistas panorámicas móviles.",
+      de: "6 mobile Panorama-Plätze.",
+      fr: "6 terrains panoramiques mobiles."
+    },
+    website: "https://padelpro.cy/",
+    logo: "/clubes/Cyprus/Padel-Pro/Padel-pro-logo.webp"
+  },
+  {
+    id: 13,
+    name: {
+      en: "Game4Padel | Parkside Padel Club",
+      es: "Game4Padel | Parkside Padel Club",
+      de: "Game4Padel | Parkside Padel Club",
+      fr: "Game4Padel | Parkside Padel Club"
+    },
+    country: {
+      en: "United Kingdom",
+      es: "Reino Unido",
+      de: "Vereinigtes Königreich",
+      fr: "Royaume-Uni"
+    },
+    countryCode: "UK",
+    image: "/clubes/United_kingdom/Parkside-Padel-Club/Parkside-Padel-Club-1.webp",
+    flag: "UK",
+    gallery: [
+      "/clubes/United_kingdom/Parkside-Padel-Club/Parkside-Padel-Club-1.webp",
+      "/clubes/United_kingdom/Parkside-Padel-Club/Parkside-Padel-Club-2.webp",
+      "/clubes/United_kingdom/Parkside-Padel-Club/Parkside-Padel-Club-3.webp",
+      "/clubes/United_kingdom/Parkside-Padel-Club/Parkside-Padel-Club-4.webp",
+      "/clubes/United_kingdom/Parkside-Padel-Club/Parkside-Padel-Club-5.webp",
+      "/clubes/United_kingdom/Parkside-Padel-Club/Parkside-Padel-Club-6.webp",
+      "/clubes/United_kingdom/Parkside-Padel-Club/Parkside-Padel-Club-7.webp"
+    ],
+    description: {
+      en: "A Game4Padel club at The Green Quarter in West London.",
+      es: "Un club Game4Padel en The Green Quarter en el oeste de Londres.",
+      de: "Ein Game4Padel Club im Green Quarter in West-London.",
+      fr: "Un club Game4Padel au Green Quarter dans l'ouest de Londres."
+    },
+    courts: {
+      en: "3 Mobile Club courts and Canopies.",
+      es: "3 pistas Club móviles y carpas.",
+      de: "3 mobile Clubplätze und Überdachungen.",
+      fr: "3 terrains Club mobiles et auvents."
+    },
+    website: "https://www.game4padel.com/parkside-padel",
+    logo: "/clubes/United_kingdom/Parkside-Padel-Club/Parkside-Yards-logo.webp"
+  },
+  {
+    id: 14,
+    name: {
+      en: "Sandy Lane Hotel",
+      es: "Sandy Lane Hotel",
+      de: "Sandy Lane Hotel",
+      fr: "Sandy Lane Hotel"
+    },
+    country: {
+      en: "Caribbean",
+      es: "Caribe",
+      de: "Karibik",
+      fr: "Caraïbes"
+    },
+    countryCode: "CAR",
+    image: "/clubes/Caribe/Sandy-Lane/Sandy-Lane-1.webp",
+    flag: "🇬🇧",
+    gallery: [
+      "/clubes/Caribe/Sandy-Lane/Sandy-Lane-1.webp",
+      "/clubes/Caribe/Sandy-Lane/Sandy-Lane-2.webp",
+      "/clubes/Caribe/Sandy-Lane/Sandy-Lane-3.webp",
+      "/clubes/Caribe/Sandy-Lane/Sandy-Lane-4.webp"
+    ],
+    description: {
+      en: "Premium padel courts installation in a Caribbean resort — tailored design, exclusive finishes, and tropical sophistication.",
+      es: "Instalación de pistas de pádel premium en un resort caribeño — diseño a medida, acabados exclusivos y sofisticación tropical.",
+      de: "Premium-Padel-Platz-Installation in einem karibischen Resort — maßgeschneidertes Design, exklusive Oberflächen und tropische Raffinesse.",
+      fr: "Installation de courts de padel premium dans un complexe des Caraïbes — design sur mesure, finitions exclusives et sophistication tropicale."
+    },
+    courts: {
+      en: "2 Club courts.",
+      es: "2 pistas Club.",
+      de: "2 Clubplätze.",
+      fr: "2 terrains Club."
+    },
+    website: "https://www.sandylane.com",
+    logo: "/clubes/Caribe/Sandy-Lane/sandylane-logo.webp"
+  },
+  {
+    id: 15,
+    name: {
+      en: "Squadra Padel House",
+      es: "Squadra Padel House",
+      de: "Squadra Padel House",
+      fr: "Squadra Padel House"
+    },
+    country: {
+      en: "Mexico",
+      es: "México",
+      de: "Mexiko",
+      fr: "Mexique"
+    },
+    countryCode: "MX",
+    image: "/clubes/Mexico/Squadra-padel/Squadra-padel-01.webp",
+    flag: "MX",
+    gallery: [
+      "/clubes/Mexico/Squadra-padel/Squadra-padel-01.webp",
+      "/clubes/Mexico/Squadra-padel/Squadra-padel-02.webp",
+      "/clubes/Mexico/Squadra-padel/Squadra-padel-03.webp",
+      "/clubes/Mexico/Squadra-padel/Squadra-padel-04.webp",
+      "/clubes/Mexico/Squadra-padel/Squadra-padel-05.webp",
+      "/clubes/Mexico/Squadra-padel/Squadra-padel-06.webp",
+      "/clubes/Mexico/Squadra-padel/Squadra-padel-07.webp"
+    ],
+    description: {
+      en: "Panoramic + padel courts in Mexico with purple turf, designed to enhance the club's lively atmosphere and sense of community.",
+      es: "Pistas de pádel Panoramic + en México con césped púrpura, diseñadas para realzar la atmósfera vibrante y el sentido de comunidad del club.",
+      de: "Panoramic + Padel-Plätze in Mexiko mit lila Rasen, entworfen, um die lebhafte Atmosphäre und das Gemeinschaftsgefühl des Clubs zu verbessern.",
+      fr: "Courts de padel Panoramic + au Mexique avec gazon violet, conçus pour améliorer l'atmosphère animée et le sens de la communauté du club."
+    },
+    courts: {
+      en: "2 Panoramic + courts.",
+      es: "2 pistas Panoramic +.",
+      de: "2 Panoramic + Plätze.",
+      fr: "2 terrains Panoramic +."
+    },
+    website: "https://www.instagram.com/squadrapadel.mx/",
+    logo: "/clubes/Mexico/Squadra-padel/Squadra-padel-logo.webp"
+  },
+  {
+    id: 16,
+    name: {
+      en: "Le Domaine d'Essendiéras",
+      es: "Le Domaine d'Essendiéras",
+      de: "Le Domaine d'Essendiéras",
+      fr: "Le Domaine d'Essendiéras"
+    },
+    country: {
+      en: "France",
+      es: "Francia",
+      de: "Frankreich",
+      fr: "France"
+    },
+    countryCode: "FR",
+    image: "clubes/France/domaine-essendieras/Domaine-Essendieras-1.webp",
+    flag: "🇬🇧",
+    gallery: [
+      "clubes/France/domaine-essendieras/Domaine-Essendieras-1.webp",
+      "clubes/France/domaine-essendieras/Domaine-Essendieras-2.webp",
+      "clubes/France/domaine-essendieras/Domaine-Essendieras-3.webp",
+      "clubes/France/domaine-essendieras/Domaine-Essendieras-4.webp",
+      "clubes/France/domaine-essendieras/Domaine-Essendieras-5.webp",
+    ],
+    description: {
+      en: "Padel court inside a barn – a unique playing experience!",
+      es: "Pista de pádel dentro de un granero – ¡una experiencia de juego única!",
+      de: "Padel-Platz in einer Scheune – ein einzigartiges Spielerlebnis!",
+      fr: "Court de padel à l'intérieur d'une grange – une expérience de jeu unique !"
+    },
+    courts: {
+      en: "1 Club court.",
+      es: "1 pista Club.",
+      de: "1 Clubplatz.",
+      fr: "1 terrain Club."
+    },
+    website: "https://www.essendieras.fr/",
+    logo: "clubes/France/domaine-essendieras/Domaine-Essendieras-logo.webp",
+  },
+  {
+    id: 17,
+    name: {
+      en: "Tourist Residence Paese Serenu",
+      es: "Residencia Turística Paese Serenu",
+      de: "Touristenresidenz Paese Serenu",
+      fr: "Résidence Touristique Paese Serenu"
+    },
+    country: {
+      en: "France",
+      es: "Francia",
+      de: "Frankreich",
+      fr: "France"
+    },
+    countryCode: "FR",
+    image: "/clubes/France/paese-serenu/Paese-Serenu-1.webp",
+    flag: "🇬🇧",
+    gallery: [
+      "/clubes/France/paese-serenu/Paese-Serenu-1.webp",
+      "/clubes/France/paese-serenu/Paese-Serenu-2.webp",
+      "/clubes/France/paese-serenu/Paese-Serenu-3.webp",
+      "/clubes/France/paese-serenu/Paese-Serenu-4.webp",
+    ],
+    description: {
+      en: "Mobile padel court installed in a Corsican holiday resort — bringing the game to paradise.",
+      es: "Pista de pádel móvil instalada en un resort de vacaciones corso — llevando el juego al paraíso.",
+      de: "Mobiler Padel-Platz in einem korsischen Ferienresort installiert — das Spiel ins Paradies bringen.",
+      fr: "Court de padel mobile installé dans un complexe de vacances corse — amener le jeu au paradis."
+    },
+    courts: {
+      en: "1 Mobile court.",
+      es: "1 pista móvil.",
+      de: "1 mobiler Platz.",
+      fr: "1 terrain mobile."
+    },
+    website: "https://www.paese-serenu.com/",
+    logo: "/clubes/France/paese-serenu/Paese-Serenu-logo.webp"
+  },
+  {
+    id: 18,
+    name: {
+      en: "JF79 Sports Center",
+      es: "Centro Deportivo JF79",
+      de: "JF79 Sportzentrum",
+      fr: "Centre Sportif JF79"
+    },
+    country: {
+      en: "Portugal",
+      es: "Portugal",
+      de: "Portugal",
+      fr: "Portugal"
+    },
+    countryCode: "PRT",
+    image: "/clubes/Portugal/Sports-Center/JF79-Sports-Center-1.webp",
+    flag: "🇬🇧",
+    gallery: [
+      "/clubes/Portugal/Sports-Center/JF79-Sports-Center-1.webp",
+      "/clubes/Portugal/Sports-Center/JF79-Sports-Center-2.webp",
+      "/clubes/Portugal/Sports-Center/JF79-Sports-Center-3.webp",
+      "/clubes/Portugal/Sports-Center/JF79-Sports-Center-4.webp",
+      "/clubes/Portugal/Sports-Center/JF79-Sports-Center-5.webp",
+      "/clubes/Portugal/Sports-Center/JF79-Sports-Center-6.webp",
+    ],
+    description: {
+      en: "The club of Portuguese footballer João Félix.",
+      es: "El club del futbolista portugués João Félix.",
+      de: "Der Club des portugiesischen Fußballers João Félix.",
+      fr: "Le club du footballeur portugais João Félix."
+    },
+    courts: {
+      en: "3 Tournament courts",
+      es: "3 pistas de torneo",
+      de: "3 Turnierplätze",
+      fr: "3 terrains de tournoi"
+    },
+    website: "https://www.instagram.com/jf79.sportscenter/",
+    logo: "/clubes/Portugal/Sports-Center/JF79-Sports-Center-logo.webp"
+  },
+  {
+    id: 19,
+    name: {
+      en: "Los Naranjos Padel Club",
+      es: "Los Naranjos Padel Club",
+      de: "Los Naranjos Padel Club",
+      fr: "Los Naranjos Padel Club"
+    },
+    country: {
+      en: "Spain",
+      es: "España",
+      de: "Spanien",
+      fr: "Espagne"
+    },
+    countryCode: "ES",
+    image: "/espana-court/gallery/Los-Naranjos-Padel-Club-1.webp",
+    flag: "🇬🇧",
+    gallery: [
+      "/espana-court/gallery/Los-Naranjos-Padel-Club-1.webp",
+      "/espana-court/gallery/Los-Naranjos-Padel-Club-2.webp",
+      "/espana-court/gallery/Los-Naranjos-Padel-Club-3.webp",
+      "/espana-court/gallery/Los-Naranjos-Padel-Club-4.webp",
+      "/espana-court/gallery/Los-Naranjos-Padel-Club-5.webp",
+      "/espana-court/gallery/Los-Naranjos-Padel-Club-6.webp",
+      "/espana-court/gallery/Los-Naranjos-Padel-Club-7.webp",
+      "/espana-court/gallery/Los-Naranjos-Padel-Club-8.webp",
+    ],
+    description: {
+      en: "The largest padel club in Andalusia, featuring state-of-the-art courts.",
+      es: "El club de pádel más grande de Andalucía, con pistas de última generación.",
+      de: "Der größte Padel-Club in Andalusien mit hochmodernen Plätzen.",
+      fr: "Le plus grand club de padel d'Andalousie, avec des courts de dernière génération."
+    },
+    courts: {
+      en: "17 Panoramic courts, 1 Single court and canopies.",
+      es: "17 pistas Panoramic, 1 pista individual y carpas.",
+      de: "17 Panorama-Plätze, 1 Einzelplatz und Überdachungen.",
+      fr: "17 terrains Panoramic, 1 terrain simple et auvents."
+    },
+    website: "https://losnaranjospadel.com/",
+    logo: "/espana-court/gallery/Los-Naranjos-Padel-Club-logo.webp"
+  },
+  {
+    id: 20,
+    name: {
+      en: "Padeleros Bülach",
+      es: "Padeleros Bülach",
+      de: "Padeleros Bülach",
+      fr: "Padeleros Bülach"
+    },
+    country: {
+      en: "Switzerland",
+      es: "Suiza",
+      de: "Schweiz",
+      fr: "Suisse"
+    },
+    countryCode: "CH",
+    image: "/clubes/Switzerland/padeleros-bulach/Padeleros-Bulach-1.webp",
+    flag: "🇬🇧",
+    gallery: [
+      "/clubes/Switzerland/padeleros-bulach/Padeleros-Bulach-1.webp",
+      "/clubes/Switzerland/padeleros-bulach/Padeleros-Bulach-2.webp",
+      "/clubes/Switzerland/padeleros-bulach/Padeleros-Bulach-3.webp",
+      "/clubes/Switzerland/padeleros-bulach/Padeleros-Bulach-4.webp",
+    ],
+    description: {
+      en: "One of the many Padelero clubs featuring Portico Sport high-performance padel courts.",
+      es: "Uno de los muchos clubes Padelero con pistas de pádel de alto rendimiento Portico Sport.",
+      de: "Einer der vielen Padelero-Clubs mit Hochleistungs-Padel-Plätzen von Portico Sport.",
+      fr: "L'un des nombreux clubs Padelero dotés de courts de padel haute performance Portico Sport."
+    },
+    courts: {
+      en: "2 Tournament courts and 1 Tournament Single Court.",
+      es: "2 pistas de torneo y 1 pista individual de torneo.",
+      de: "2 Turnierplätze und 1 Turnier-Einzelplatz.",
+      fr: "2 terrains de tournoi et 1 terrain simple de tournoi."
+    },
+    website: "https://www.padeleros.ch/",
+    logo: "/clubes/Switzerland/padeleros-bulach/Padeleros-logo.webp"
+  },
+  {
+    id: 21,
+    name: {
+      en: "Azores Reinforced Court",
+      es: "Pista Reforzada de las Azores",
+      de: "Verstärkter Platz Azoren",
+      fr: "Court Renforcé des Açores"
+    },
+    country: {
+      en: "Portugal",
+      es: "Portugal",
+      de: "Portugal",
+      fr: "Portugal"
+    },
+    countryCode: "PRT",
+    image: "/clubes/Portugal/Azores/Azores-1.webp",
+    flag: "🇬🇧",
+    gallery: [
+      "/clubes/Portugal/Azores/Azores-1.webp",
+      "/clubes/Portugal/Azores/Azores-2.webp",
+      "/clubes/Portugal/Azores/Azores-3.webp",
+      "/clubes/Portugal/Azores/Azores-4.webp",
+      "/clubes/Portugal/Azores/Azores-5.webp",
+      "/clubes/Portugal/Azores/Azores-6.webp"
+    ],
+    description: {
+      en: "Reinforced padel court installation in the Azores islands.",
+      es: "Instalación de pista de pádel reforzada en las islas Azores.",
+      de: "Verstärkte Padel-Platz-Installation auf den Azoren.",
+      fr: "Installation de court de padel renforcé aux Açores."
+    },
+    courts: {
+      en: "1 Club Force 80 court.",
+      es: "1 pista Club Force 80.",
+      de: "1 Club Force 80 Platz.",
+      fr: "1 terrain Club Force 80."
+    },
+    website: "",
+    logo: ""
+  },
+  {
+    id: 22,
+    name: {
+      en: "Wynwood Padel Club Aspen",
+      es: "Wynwood Padel Club Aspen",
+      de: "Wynwood Padel Club Aspen",
+      fr: "Wynwood Padel Club Aspen"
+    },
+    country: {
+      en: "USA",
+      es: "Estados Unidos",
+      de: "USA",
+      fr: "États-Unis"
+    },
+    countryCode: "US",
+    image: "/clubes/Colorado/Wynwood-Padel-Club-Aspen/Wynwood-Padel-Club-Aspen-1.webp",
+    flag: "🇬🇧",
+    gallery: [
+      "/clubes/Colorado/Wynwood-Padel-Club-Aspen/Wynwood-Padel-Club-Aspen-1.webp",
+      "/clubes/Colorado/Wynwood-Padel-Club-Aspen/Wynwood-Padel-Club-Aspen-2.webp",
+      "/clubes/Colorado/Wynwood-Padel-Club-Aspen/Wynwood-Padel-Club-Aspen-3.webp",
+      "/clubes/Colorado/Wynwood-Padel-Club-Aspen/Wynwood-Padel-Club-Aspen-4.webp",
+      "/clubes/Colorado/Wynwood-Padel-Club-Aspen/Wynwood-Padel-Club-Aspen-5.webp",
+    ],
+    description: {
+      en: "At Cascades Tennis & Pickleball at The Aspen Meadows Resort.",
+      es: "En Cascades Tennis & Pickleball en The Aspen Meadows Resort.",
+      de: "Bei Cascades Tennis & Pickleball im Aspen Meadows Resort.",
+      fr: "À Cascades Tennis & Pickleball au Aspen Meadows Resort."
+    },
+    courts: {
+      en: "1 Tournament court.",
+      es: "1 pista de torneo.",
+      de: "1 Turnierplatz.",
+      fr: "1 terrain de tournoi."
+    },
+    website: "https://www.wynwoodpadelmiami.com/",
+    logo: "/clubes/Colorado/Wynwood-Padel-Club-Aspen/Wynwood-Padel-Club-logo.webp"
+  },
+];
 ---
 
 <Layout
@@ -23,7 +833,7 @@ const currentLocale = getCurrentLocale({ language });
   currentLocale={currentLocale}
   language={language}
   ogImage={i18n.PAGES.PROJECTS.OG_IMG}
-  bgImage="/espana-court/gallery/LosNaranjosPadel-2.jpeg"
+  bgImage="/espana-court/gallery/Los-Naranjos-Padel-1.jpeg"
   bgClass="brightness-50"
 >
   <main>
@@ -33,34 +843,473 @@ const currentLocale = getCurrentLocale({ language });
       <Typography tag="h2" type="secondary" className="uppercase mb-6 font-bold" text={i18n.PAGES.PROJECTS.POSTTITLE} responsive />
     </div>
     <div class="bg-main relative bg-background w-full">
-       <Breadcrumb
-        crumbs={[
-          { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
-          { label: i18n.PAGES.PROJECTS.ROUTE.LABEL, href: i18n.PAGES.PROJECTS.ROUTE.URL },
-        ]}
-      /> 
-     <section 
+        <div class="bg-slate-100 text-black">
+          <Breadcrumb
+            crumbs={[
+              { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
+              { label: i18n.PAGES.PROJECTS.ROUTE.LABEL, href: i18n.PAGES.PROJECTS.ROUTE.URL },
+            ]}
+          />
+        </div>
+    <section 
         id={i18n.PAGES.PROJECTS.MAP_SECTION.ID}
       >
-        <Typography tag="h2" text={i18n.PAGES.PROJECTS.MAP_SECTION.TITLE} className="mx-auto mb-8 text-center font-semibold uppercase" />
-        <Typography tag="p" text={i18n.PAGES.PROJECTS.MAP_SECTION.SUBTITLE} className="mx-auto mb-8 text-center font-thin" />
-        <!-- <div class="border-y border-primary mt-8"> -->
-          <!-- <MapProjects client:only /> -->
-          <ProjectsDetailed client:load />
-          <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
-        <!-- </div> -->
-       {language === "en" && <CountriesSection showInfo language="en"
-     title={i18n.PAGES.PROJECTS.COUNTRIES_SECTION.TITLE}
-     description={i18n.PAGES.PROJECTS.COUNTRIES_SECTION.DESCRIPTION}
- />
-}
+        <div class="bg-slate-200 text-black pt-7 pb-10">
+          <Typography tag="h2" text={i18n.PAGES.PROJECTS.MAP_SECTION.TITLE} className="mx-auto mb-8 text-center font-semibold uppercase" />
+          <Typography tag="p" text={i18n.PAGES.PROJECTS.MAP_SECTION.SUBTITLE} className="mx-auto mb-8 text-center font-thin" />
+        
+        <!-- Grid de Proyectos con Navegación -->
+        <div class="container mx-auto px-4 py-12 relative bg-slate-00 rounded-lg">
+          <!-- Botón Anterior -->
+          <button
+            id="projects-prev"
+            class="absolute -left-2 md:left-0 top-1/2 -translate-y-1/2 z-10 p-2 md:p-3 lg:p-4 bg-white hover:bg-gray-100 rounded-full shadow-lg transition-all hover:scale-110 disabled:opacity-50 disabled:cursor-not-allowed"
+            aria-label="Previous projects"
+          >
+            <svg class="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+
+          <!-- Grid de proyectos -->
+          <div class="overflow-hidden mx-4 md:mx-8 lg:mx-12">
+            <div 
+              id="projects-container" 
+              class="flex transition-transform duration-500 ease-in-out gap-4 md:gap-6 lg:gap-8"
+            >
+              {projectsData.map((project) => {
+                const getFlag = (code) => {
+                  const flags = {
+                    'ES': '🇪🇸', 'UK': '🇬🇧', 'FR': '🇫🇷', 'DE': '🇩🇪',
+                    'IT': '🇮🇹', 'NL': '🇳🇱', 'IRL': '🇮🇪', 'PL': '🇵🇱',
+                    'GT': '🇬🇹', 'PR': '🇵🇷', 'MX': '🇲🇽', 'CY': '🇨🇾',
+                    'PRT': '🇵🇹', 'CAR': '🏝️', 'US': '🇺🇸', 'CH': '🇨🇭'
+                  };
+                  return flags[code] || '🌍';
+                };
+                
+                return (
+                  <div 
+                    class="project-card group relative cursor-pointer overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 flex-shrink-0 w-full md:w-[calc((100%-1.5rem)/2)] lg:w-[calc((100%-4rem)/3)]"
+                    data-project-id={project.id}
+                  >
+                    <div class="aspect-[4/3] w-full overflow-hidden bg-gray-200">
+                      <img 
+                        src={project.image} 
+                        alt={project.name[currentLocale] || project.name.en}
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        loading="lazy"
+                      />
+                    </div>
+                    <div class="bg-white p-3 md:p-4 lg:p-6 text-center">
+                      <h3 class="text-sm md:text-base lg:text-xl font-bold text-gray-900 mb-1 md:mb-2 line-clamp-2">{project.name[currentLocale] || project.name.en}</h3>
+                      <div class="flex items-center justify-center gap-1 md:gap-2 text-gray-700">
+                        <span class="text-lg md:text-xl lg:text-2xl">{getFlag(project.countryCode)}</span>
+                        <span class="text-xs md:text-sm font-medium uppercase truncate">{project.country[currentLocale] || project.country.en}</span>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          <!-- Botón Siguiente -->
+          <button
+            id="projects-next"
+            class="absolute -right-2 md:right-0 top-1/2 -translate-y-1/2 z-10 p-2 md:p-3 lg:p-4 bg-white hover:bg-gray-100 rounded-full shadow-lg transition-all hover:scale-110 disabled:opacity-50 disabled:cursor-not-allowed"
+            aria-label="Next projects"
+          >
+            <svg class="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+
+          <!-- Indicadores -->
+          <div id="projects-indicators" class="flex justify-center gap-2 mt-8">
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div id="project-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-2 md:p-4 bg-black/70">
+          <div class="relative w-full max-w-5xl max-h-[95vh] md:max-h-[90vh] bg-white rounded-lg shadow-2xl overflow-hidden flex flex-col">
+            <!-- Header -->
+            <div class="border-b border-gray-200 p-4 md:p-6">
+              <div class="flex items-start justify-between gap-2">
+                <div class="flex items-center gap-2 md:gap-4 flex-1 min-w-0">
+                  <div id="modal-logo" class="w-12 h-12 md:w-16 md:h-16 bg-gray-100 rounded-full flex items-center justify-center overflow-hidden flex-shrink-0">
+                    <img id="modal-logo-img" src="" alt="" class="w-10 h-10 md:w-12 md:h-12 object-contain" />
+                  </div>
+                  <div class="min-w-0 flex-1">
+                    <h2 id="modal-title" class="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-1 md:mb-2 truncate"></h2>
+                    <p id="modal-description" class="text-sm md:text-base text-gray-600 line-clamp-2"></p>
+                  </div>
+                </div>
+                <button
+                  id="close-modal"
+                  class="p-2 hover:bg-gray-100 rounded-full transition-colors flex-shrink-0"
+                  aria-label="Close modal"
+                >
+                  <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Content -->
+            <div class="flex-1 overflow-y-auto p-4 md:p-6">
+              <div class="flex flex-col md:grid md:grid-cols-2 gap-4 md:gap-6 lg:gap-8">
+                <!-- Gallery -->
+                <div class="w-full">
+                  <div class="relative w-full aspect-video bg-gray-100 rounded-lg overflow-hidden mb-3 md:mb-4">
+                    <img 
+                      id="modal-main-image"
+                      src="" 
+                      alt=""
+                      class="w-full h-full object-cover"
+                      loading="lazy"
+                    />
+                    <button
+                      id="prev-image"
+                      class="absolute left-1 md:left-2 top-1/2 -translate-y-1/2 p-1.5 md:p-2 bg-white/90 hover:bg-white rounded-full shadow-lg transition-all"
+                      aria-label="Previous image"
+                    >
+                      <svg class="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                      </svg>
+                    </button>
+                    <button
+                      id="next-image"
+                      class="absolute right-1 md:right-2 top-1/2 -translate-y-1/2 p-1.5 md:p-2 bg-white/90 hover:bg-white rounded-full shadow-lg transition-all"
+                      aria-label="Next image"
+                    >
+                      <svg class="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                      </svg>
+                    </button>
+                  </div>
+                  
+                  <!-- Thumbnails -->
+                  <div id="modal-thumbnails" class="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
+                  </div>
+                </div>
+
+                <!-- Details -->
+                <div class="space-y-4 md:space-y-6 w-full">
+                  <div>
+                    <h3 class="text-base md:text-lg font-bold text-gray-900 mb-2">Project courts</h3>
+                    <p id="modal-courts" class="text-sm md:text-base text-gray-700"></p>
+                  </div>
+
+                  <div>
+                    <h3 class="text-base md:text-lg font-bold text-gray-900 mb-2">Website</h3>
+                    <a 
+                      id="modal-website"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-sm md:text-base text-blue-600 hover:text-blue-800 underline break-all block"
+                    ></a>
+                  </div>
+
+                  <div class="flex flex-col sm:flex-row gap-3 md:gap-4">
+                    <button
+                      id="prev-project"
+                      class="flex-1 py-2.5 md:py-3 px-4 md:px-6 bg-gray-200 text-gray-900 font-semibold rounded-lg hover:bg-gray-300 transition-colors uppercase text-xs md:text-sm"
+                    >
+                      ← Previous
+                    </button>
+                    <button
+                      id="next-project"
+                      class="flex-1 py-2.5 md:py-3 px-4 md:px-6 bg-gray-900 text-white font-semibold rounded-lg hover:bg-gray-800 transition-colors uppercase text-xs md:text-sm"
+                    >
+                      Next →
+                    </button>
+                  </div>
+
+                  <div class="pt-3 md:pt-4 border-t border-gray-200">
+                    <div class="flex items-center gap-2 md:gap-3">
+                      <span id="modal-flag" class="text-2xl md:text-3xl"></span>
+                      <span id="modal-country" class="text-base md:text-lg font-medium text-gray-700 uppercase"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
+      
+          {language === "en" && <CountriesSection showInfo language="en"
+            title={i18n.PAGES.PROJECTS.COUNTRIES_SECTION.TITLE}
+            description={i18n.PAGES.PROJECTS.COUNTRIES_SECTION.DESCRIPTION}
+          />}
       </section>
-      <ProjectsClubsSection
-        title={i18n.PAGES.PROJECTS.PROJECTS_CLUB_SECTION.TITLE}
-        subtitle={i18n.PAGES.PROJECTS.PROJECTS_CLUB_SECTION.SUBTITLE}
-        countries={countries}
-      />
+      <div class="w-full bg-slate-100 text-black">
+        <ProjectsClubsSection
+          title={i18n.PAGES.PROJECTS.PROJECTS_CLUB_SECTION.TITLE}
+          subtitle={i18n.PAGES.PROJECTS.PROJECTS_CLUB_SECTION.SUBTITLE}
+          countries={countries}
+        />
+      </div>
       
     </div>
   </main>
+
+  <script define:vars={{ projectsData, currentLocale }}>
+    const countryFlags = {
+      ES: "🇪🇸", UK: "🇬🇧", FR: "🇫🇷", DE: "🇩🇪",
+      IT: "🇮🇹", NL: "🇳🇱", PR: "🇵🇷", MX: "🇲🇽",
+      CY: "🇨🇾", PRT: "🇵🇹", CAR: "🏝️", US: "🇺🇸",
+      IRL: "🇮🇪", PL: "🇵🇱", GT: "🇬🇹", CH: "🇨🇭"
+    };
+
+    let currentProject = null;
+    let currentImageIndex = 0;
+    let currentSlide = 0;
+    let itemsPerPage = 3;
+    
+    function getItemsPerPage() {
+      if (window.innerWidth < 768) return 1;
+      if (window.innerWidth < 1024) return 2;
+      return 3;
+    }
+    
+    function updateItemsPerPage() {
+      const oldItemsPerPage = itemsPerPage;
+      itemsPerPage = getItemsPerPage();
+      
+      if (oldItemsPerPage !== itemsPerPage) {
+        currentSlide = 0;
+        updateCarousel();
+        createIndicators();
+      }
+    }
+    
+    const totalPages = () => Math.ceil(projectsData.length / itemsPerPage);
+
+    const projectsContainer = document.getElementById('projects-container');
+    const prevButton = document.getElementById('projects-prev');
+    const nextButton = document.getElementById('projects-next');
+    const indicatorsContainer = document.getElementById('projects-indicators');
+
+    function createIndicators() {
+      indicatorsContainer.innerHTML = '';
+      const pages = totalPages();
+      for (let i = 0; i < pages; i++) {
+        const indicator = document.createElement('button');
+        indicator.className = `w-2 h-2 md:w-3 md:h-3 rounded-full transition-all ${i === 0 ? 'bg-gray-900 w-6 md:w-8' : 'bg-gray-300'}`;
+        indicator.onclick = () => goToSlide(i);
+        indicatorsContainer.appendChild(indicator);
+      }
+    }
+
+    function updateCarousel() {
+      const offset = currentSlide * -100;
+      projectsContainer.style.transform = `translateX(${offset}%)`;
+      
+      indicatorsContainer.querySelectorAll('button').forEach((btn, idx) => {
+        if (idx === currentSlide) {
+          btn.className = 'w-2 h-2 md:w-3 md:h-3 rounded-full transition-all bg-gray-900 w-6 md:w-8';
+        } else {
+          btn.className = 'w-2 h-2 md:w-3 md:h-3 rounded-full transition-all bg-gray-300';
+        }
+      });
+
+      prevButton.disabled = currentSlide === 0;
+      nextButton.disabled = currentSlide === totalPages() - 1;
+    }
+
+    function goToSlide(index) {
+      currentSlide = Math.min(index, totalPages() - 1);
+      updateCarousel();
+    }
+
+    prevButton.addEventListener('click', () => {
+      if (currentSlide > 0) {
+        currentSlide--;
+        updateCarousel();
+      }
+    });
+
+    nextButton.addEventListener('click', () => {
+      if (currentSlide < totalPages() - 1) {
+        currentSlide++;
+        updateCarousel();
+      }
+    });
+
+    document.querySelectorAll('.project-card').forEach(card => {
+      card.addEventListener('click', () => {
+        const projectId = parseInt(card.dataset.projectId);
+        currentProject = projectsData.find(p => p.id === projectId);
+        openModal(currentProject);
+      });
+    });
+
+    document.getElementById('close-modal').addEventListener('click', closeModal);
+    document.getElementById('project-modal').addEventListener('click', (e) => {
+      if (e.target.id === 'project-modal') closeModal();
+    });
+
+    document.getElementById('prev-image').addEventListener('click', () => {
+      if (currentProject) {
+        currentImageIndex = currentImageIndex === 0 ? currentProject.gallery.length - 1 : currentImageIndex - 1;
+        updateMainImage();
+      }
+    });
+
+    document.getElementById('next-image').addEventListener('click', () => {
+      if (currentProject) {
+        currentImageIndex = currentImageIndex === currentProject.gallery.length - 1 ? 0 : currentImageIndex + 1;
+        updateMainImage();
+      }
+    });
+
+    document.getElementById('prev-project').addEventListener('click', () => {
+      if (currentProject) {
+        const currentIndex = projectsData.findIndex(p => p.id === currentProject.id);
+        const prevIndex = currentIndex === 0 ? projectsData.length - 1 : currentIndex - 1;
+        currentProject = projectsData[prevIndex];
+        currentImageIndex = 0;
+        openModal(currentProject);
+      }
+    });
+
+    document.getElementById('next-project').addEventListener('click', () => {
+      if (currentProject) {
+        const currentIndex = projectsData.findIndex(p => p.id === currentProject.id);
+        const nextIndex = currentIndex === projectsData.length - 1 ? 0 : currentIndex + 1;
+        currentProject = projectsData[nextIndex];
+        currentImageIndex = 0;
+        openModal(currentProject);
+      }
+    });
+
+    function openModal(project) {
+      currentImageIndex = 0;
+      
+      document.getElementById('modal-title').textContent = project.name[currentLocale] || project.name.en;
+      document.getElementById('modal-description').textContent = project.description[currentLocale] || project.description.en;
+      document.getElementById('modal-courts').textContent = project.courts[currentLocale] || project.courts.en;
+      document.getElementById('modal-website').textContent = project.website;
+      document.getElementById('modal-website').href = project.website;
+      document.getElementById('modal-flag').textContent = countryFlags[project.countryCode] || '🌍';
+      document.getElementById('modal-country').textContent = project.country[currentLocale] || project.country.en;
+      
+      if (project.logo) {
+        document.getElementById('modal-logo-img').src = project.logo;
+        document.getElementById('modal-logo-img').alt = project.name;
+        document.getElementById('modal-logo').style.display = 'flex';
+      } else {
+        document.getElementById('modal-logo').style.display = 'none';
+      }
+      
+      updateMainImage();
+      updateThumbnails();
+      
+      document.getElementById('project-modal').classList.remove('hidden');
+      document.getElementById('project-modal').classList.add('flex');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      document.getElementById('project-modal').classList.add('hidden');
+      document.getElementById('project-modal').classList.remove('flex');
+      document.body.style.overflow = 'auto';
+    }
+
+    function updateMainImage() {
+      if (currentProject) {
+        document.getElementById('modal-main-image').src = currentProject.gallery[currentImageIndex];
+        document.getElementById('modal-main-image').alt = `${currentProject.name} - Image ${currentImageIndex + 1}`;
+        
+        document.querySelectorAll('.thumbnail-btn').forEach((btn, idx) => {
+          if (idx === currentImageIndex) {
+            btn.classList.add('border-blue-500', 'scale-105');
+            btn.classList.remove('border-gray-200');
+          } else {
+            btn.classList.remove('border-blue-500', 'scale-105');
+            btn.classList.add('border-gray-200');
+          }
+        });
+      }
+    }
+
+    function updateThumbnails() {
+      const container = document.getElementById('modal-thumbnails');
+      container.innerHTML = '';
+      
+      if (currentProject && currentProject.gallery.length > 1) {
+        currentProject.gallery.forEach((img, idx) => {
+          const btn = document.createElement('button');
+          btn.className = `thumbnail-btn flex-shrink-0 w-14 h-11 sm:w-16 sm:h-12 md:w-20 md:h-16 rounded overflow-hidden border-2 transition-all ${
+            idx === currentImageIndex ? 'border-blue-500 scale-105' : 'border-gray-200 hover:border-gray-400'
+          }`;
+          btn.onclick = () => {
+            currentImageIndex = idx;
+            updateMainImage();
+          };
+          
+          const img_el = document.createElement('img');
+          img_el.src = img;
+          img_el.alt = `Thumbnail ${idx + 1}`;
+          img_el.className = 'w-full h-full object-cover';
+          img_el.loading = 'lazy';
+          
+          btn.appendChild(img_el);
+          container.appendChild(btn);
+        });
+      }
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+      if (e.key === 'ArrowLeft' && document.getElementById('project-modal').classList.contains('flex')) {
+        document.getElementById('prev-image').click();
+      }
+      if (e.key === 'ArrowRight' && document.getElementById('project-modal').classList.contains('flex')) {
+        document.getElementById('next-image').click();
+      }
+    });
+
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(() => {
+        updateItemsPerPage();
+      }, 250);
+    });
+
+    updateItemsPerPage();
+    createIndicators();
+    updateCarousel(); 
+  </script>
+
+  <style>
+    .scrollbar-hide {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+    }
+
+    #modal-main-image {
+      min-height: 200px;
+    }
+
+    @media (max-width: 768px) {
+      #project-modal {
+        align-items: flex-start;
+      }
+      #project-modal > div {
+        margin-top: 1rem;
+        max-height: calc(100vh - 2rem);
+      }
+    }
+  </style>
 </Layout>
