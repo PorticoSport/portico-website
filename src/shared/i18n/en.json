@@ -6059,7 +6059,7 @@
       "PROJECTS_CLUB_SECTION": {
         "ID": "projects-club",
         "TITLE": "Projects by Portico",
-        "SUBTITLE": "Discover some projects we've turned into reality"
+        "SUBTITLE": "<p class=\"text-sky-600 text-center\">Discover some projects we've turned into reality</p>"
       },
       "MAP_SECTION": {
         "ID": "map",
