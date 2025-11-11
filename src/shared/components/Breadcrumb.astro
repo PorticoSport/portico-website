@@ -20,7 +20,7 @@ interface Props {
         .map((crumb, index) => (
           <li class="flex gap-1 items-center py-10">
             {index < crumbs.length - 1 ? (
-              <a class="text-primary hover:text-current focus:text-current text__glowing transition-colors" href={crumb.href}>{capitalize(crumb.label)}</a>
+              <a class="text-secondary hover:text-current focus:text-current text__glowing transition-colors" href={crumb.href}>{capitalize(crumb.label)}</a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
