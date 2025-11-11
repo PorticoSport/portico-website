@@ -3721,7 +3721,7 @@
       "PROJECTS_CLUB_SECTION": {
         "ID": "proyectos-club",
         "TITLE": "Proyectos de Portico",
-        "SUBTITLE": "Descubre algunos proyectos que hemos convertido en realidad"
+        "SUBTITLE": "<p class=\"text-sky-600 text-center\">Descubre algunos proyectos que hemos convertido en realidad</p>"
       },
       "MAP_SECTION": {
         "ID": "mapa",
