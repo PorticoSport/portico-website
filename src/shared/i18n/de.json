@@ -3669,7 +3669,7 @@
       "PROJECTS_CLUB_SECTION": {
         "ID": "projects-club",
         "TITLE": "Projekte von Portico",
-        "SUBTITLE": "Entdecken Sie einige Projekte, die wir in die Realität umgesetzt haben"
+        "SUBTITLE": "<p class=\"text-sky-600 text-center\">Entdecken Sie einige Projekte, die wir in die Realität umgesetzt haben</p>"
       },
       "MAP_SECTION": {
         "ID": "map",
