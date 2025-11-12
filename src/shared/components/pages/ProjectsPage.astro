@@ -8,6 +8,7 @@ import ProjectsClubsSection from "@/shared/components/sections/ProjectsClubsSect
 import countries from "@/shared/data/countries.json";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
 import CountriesSection from "@/shared/components/sections/CountriesSection.astro"
+import ProjectsDetailed from "@/shared/components/ProjectsDetailed";
 
 interface Props {
   language: string;
@@ -855,8 +856,7 @@ const projectsData = [
         id={i18n.PAGES.PROJECTS.MAP_SECTION.ID}
       >
         <div class="bg-slate-200 text-black pt-7 pb-10">
-          <Typography tag="h2" text={i18n.PAGES.PROJECTS.MAP_SECTION.TITLE} className="mx-auto mb-8 text-center font-semibold uppercase" />
-          <Typography tag="p" text={i18n.PAGES.PROJECTS.MAP_SECTION.SUBTITLE} className="mx-auto mb-8 text-center font-thin" />
+          <Typography tag="h2" text={i18n.PAGES.PROJECTS.MAP_SECTION.TITLE_2} className="mx-auto mb-8 text-center font-semibold uppercase" />
         
         <!-- Grid de Proyectos con Navegación -->
         <div class="container mx-auto px-4 py-12 relative bg-slate-00 rounded-lg">
@@ -1040,14 +1040,31 @@ const projectsData = [
           </div>
         </div>
         </div>
+        <div class="relative mt-8 h-[600px]">
+        {/* Imagen de fondo con desenfoque suave */}
+          <div 
+            class="absolute inset-0 border-y border-primary bg-center bg-cover blur-[2px]" 
+            style={{backgroundImage: 'url("projects-map.webp")'}}
+          />
+        
+            {/* ProjectsDetailed centrado verticalmente */}
+            <div class="relative z-10 flex flex-col items-center justify-center h-full">
+              <div class="bg-slate-100 p-10 rounded-md">
+                <Typography tag="h2" className="uppercase mb-6 font-bold !text-blue-800" text={i18n.PAGES.PROJECTS.MAP_SECTION.TITLE} responsive />
+                <Typography tag="p" text={i18n.PAGES.PROJECTS.MAP_SECTION.SUBTITLE} className="mx-auto mb-8 text-center font-thin font-bold !text-blue-800" />
+                <ProjectsDetailed client:load />
+              </div>
+            </div>
+        </div>
 
-        <div class="border-y border-primary mt-8 h-[600px] bg-center bg-cover" style={{backgroundImage: 'url("projects-map.webp")'}} />
-      
+        <div>
           {language === "en" && <CountriesSection showInfo language="en"
             title={i18n.PAGES.PROJECTS.COUNTRIES_SECTION.TITLE}
             description={i18n.PAGES.PROJECTS.COUNTRIES_SECTION.DESCRIPTION}
           />}
+        </div>
       </section>
+        
       <div class="w-full bg-slate-100 text-black">
         <ProjectsClubsSection
           title={i18n.PAGES.PROJECTS.PROJECTS_CLUB_SECTION.TITLE}
