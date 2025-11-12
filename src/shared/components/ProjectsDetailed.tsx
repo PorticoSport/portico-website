@@ -121,7 +121,7 @@ export default function ProjectsDetailed() {
             <button
               name={name}
               data-type="continent"
-              class="border font-bold px-4 py-1 rounded-xl uppercase text__glowing"
+              class="border font-bold px-4 py-1 rounded-xl uppercase text__glowing bg-blue-900"
             >
               {name}
             </button>
