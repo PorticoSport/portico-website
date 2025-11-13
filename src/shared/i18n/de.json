@@ -4446,6 +4446,11 @@
         "LABEL": "Telefon",
         "PLACEHOLDER": "Geben Sie Ihre Telefonnummer ein"
       },
+      "CITY": {
+        "ID": "city",
+        "LABEL": "Stadt/Bundesland",
+        "PLACEHOLDER": "Standort des Projekts"
+      },
       "TERMS": {
         "ID": "terms",
         "LABEL": "Ich stimme den",
