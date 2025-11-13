@@ -4320,6 +4320,11 @@
         "LABEL": "Téléphone",
         "PLACEHOLDER": "Entrez votre numéro de téléphone"
       },
+      "CITY": {
+        "ID": "city",
+        "LABEL": "Ville/Région",
+        "PLACEHOLDER": "Emplacement du projet"
+      },
       "TERMS": {
         "ID": "terms",
         "LABEL": "Je suis d'accord avec les",
