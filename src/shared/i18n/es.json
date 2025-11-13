@@ -4547,6 +4547,11 @@
         "LABEL": "Teléfono",
         "PLACEHOLDER": "Ingresa tu número de teléfono"
       },
+      "CITY": {
+        "ID": "city",
+        "LABEL": "Ciudad/Provincia",
+        "PLACEHOLDER": "Ubicación del proyecto"
+      },
       "TERMS": {
         "ID": "términos",
         "LABEL": "Estoy de acuerdo con los",
