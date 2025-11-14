@@ -8,11 +8,12 @@ interface CompanyEmailTemplateProps {
   email: string;
   phone: string;
   country: string;
+  city: string; // ✅ AGREGAR ESTA LÍNEA
   message: string;
   language: string;
 }
 
-export default function CompanyEmailTemplate({ page, name, subject, email, phone, country, message, language }: CompanyEmailTemplateProps) {
+export default function CompanyEmailTemplate({ page, name, subject, email, phone, country, city, message, language }: CompanyEmailTemplateProps) {
   return (
     <div style={{
       color: 'white',
@@ -62,6 +63,16 @@ export default function CompanyEmailTemplate({ page, name, subject, email, phone
         }}>
           <strong>País:</strong> <span>{country}</span>
         </div>
+        {/* ✅ AGREGAR ESTE BLOQUE */}
+        <div style={{
+          display: 'flex',
+          gap: '1rem',
+          padding: '1rem 0',
+          borderBottom: '1px solid white'
+        }}>
+          <strong>City:</strong> <span>{city}</span>
+        </div>
+        {/* FIN DEL NUEVO BLOQUE */}
         <div style={{
           padding: '1rem 0',
         }}>
