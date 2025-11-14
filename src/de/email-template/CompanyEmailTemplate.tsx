@@ -8,11 +8,12 @@ interface CompanyEmailTemplateProps {
   email: string;
   phone: string;
   country: string;
+  city: string; // ✅ AGREGAR ESTA LÍNEA
   message: string;
   language: string;
 }
 
-export default function CompanyEmailTemplate({ page, name, subject, email, phone, country, message, language }: CompanyEmailTemplateProps) {
+export default function CompanyEmailTemplate({ page, name, subject, email, phone, country, city, message, language }: CompanyEmailTemplateProps) {
   return (
     <div style={{
       color: 'white',
@@ -28,15 +29,15 @@ export default function CompanyEmailTemplate({ page, name, subject, email, phone
       }}>
         <HeaderEmailTemplate />
         <h1>{subject}</h1>
-        <p>Wir haben eine neue E-Mail von der Seite <a href={`https://www.porticosport.com/${page}`}>{page}</a></p>
-        <p>Dies ist die E-Mail</p>
+        <p>Hemos recibido un nuevo email desde la página <a href={`https://www.porticosport.com/${page}`}>{page}</a></p>
+        <p>Este es el email</p>
         <div style={{
           display: 'flex',
           gap: '1rem',
           padding: '1rem 0',
           borderBottom: '1px solid white'
         }}>
-          <strong>Name:</strong> <span>{name}</span>
+          <strong>Nombre:</strong> <span>{name}</span>
         </div>
         <div style={{
           display: 'flex',
@@ -52,7 +53,7 @@ export default function CompanyEmailTemplate({ page, name, subject, email, phone
           padding: '1rem 0',
           borderBottom: '1px solid white'
         }}>
-          <strong>Telefon:</strong> <span>{phone}</span>
+          <strong>Teléfono:</strong> <span>{phone}</span>
         </div>
         <div style={{
           display: 'flex',
@@ -60,12 +61,22 @@ export default function CompanyEmailTemplate({ page, name, subject, email, phone
           padding: '1rem 0',
           borderBottom: '1px solid white'
         }}>
-          <strong>Land:</strong> <span>{country}</span>
+          <strong>País:</strong> <span>{country}</span>
         </div>
+        {/* ✅ AGREGAR ESTE BLOQUE */}
+        <div style={{
+          display: 'flex',
+          gap: '1rem',
+          padding: '1rem 0',
+          borderBottom: '1px solid white'
+        }}>
+          <strong>City:</strong> <span>{city}</span>
+        </div>
+        {/* FIN DEL NUEVO BLOQUE */}
         <div style={{
           padding: '1rem 0',
         }}>
-          <strong>Nachricht:</strong> <p style={{paddingTop: '1rem'}}>{message}</p>
+          <strong>Mensaje:</strong> <p style={{paddingTop: '1rem'}}>{message}</p>
         </div>
         <FooterEmailTemplate language={language} />
       </div>
