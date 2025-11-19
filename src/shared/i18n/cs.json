@@ -158,7 +158,8 @@
         "TITLE_PLUS": "Frequently Asked Questions About Our Club+ Padel Courts",
         "TITLE_CLUB_FORCE_80_COURT": "Frequently Asked Questions About Our Club Force 80 Padel Courts",
         "TITLE_PANORAMIC_COURT":"Frequently Asked Questions About Panoramic Padel Courts",
-        "TITLE_PANORAMIC_FORCE_80_COURT": "Frequently Asked Questions About Our Panoramic Force 80 Padel Courts",
+        "TITLE_PANORAMIC_PLUS":"Frequently Asked Questions About Our Panoramic+ Padel Courts",
+        "TITLE_PANORAMIC_FORCE_80_COURT": "Frequently Asked Questions About Our Tournament+ Padel Courts",
         "TITLE_USA": "ASK Question about Padel court manufacturers in USA",
         "TITLE_UK":"ASK Question about build a padel court in UK",
         "TITLE_OCEANIA":"ASK Question about Padel courts in Oceania",
@@ -293,6 +294,20 @@
         }, {
           "question": "Does the court require special maintenance due to its glass walls?",
           "answer": "<p>Maintenance is simple; regular cleaning and inspection of fittings ensure long-lasting performance and aesthetic appeal.</p>"
+        }
+      ],
+    "QUESTIONS_PANORAMIC_PLUS": [{
+          "question": "What makes the Panoramic+ different from the Panoramic court?",
+          "answer": "<p>The Panoramic+ padel court features a reinforced structure with no corner steel supports, delivering a clean, fully open design while maintaining exceptional strength and wind resistance of up to 198 km/h (120 mph).</p>"
+        }, {
+          "question": "Is the Panoramic+ court suitable for outdoor installations in exposed areas?",
+          "answer": "<p>Yes. Its reinforced galvanized steel frame and 12 mm tempered glass panels make it ideal for coastal locations, windy zones, and other exposed environments where durability is essential.</p>"
+        }, {
+          "question": "Can the Panoramic+ court be customized?",
+          "answer": "<p>Absolutely. It’s available in a wide range of RAL colors and finishes, with optional LED lighting systems, smart controls, and custom accessories — allowing every club to personalize its court without compromising on performance or aesthetics.</p>"
+        }, {
+          "question": "Is the Panoramic+ court suitable for clubs and professional tournaments?",
+          "answer": "<p>Yes. <strong>The Panoramic+ court is perfect for high-end clubs, sports complexes, and professional</strong> events that require a court combining premium design, structural strength, and maximum visibility. Its frameless, reinforced design provides uninterrupted views for spectators and meets the standards required for international padel competitions — making it the ideal choice for tournaments and exhibition matches.</p>"
         }
       ],
       "QUESTIONS_PANORAMIC_FORCE_80_COURT": [{
