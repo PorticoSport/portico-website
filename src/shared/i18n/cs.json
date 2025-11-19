@@ -4306,6 +4306,11 @@
         "LABEL": "Phone",
         "PLACEHOLDER": "Enter your phone number"
       },
+      "CITY": {
+        "ID": "city",
+        "LABEL": "City/State",
+        "PLACEHOLDER": "Target project location"
+      },
       "TERMS": {
         "ID": "terms",
         "LABEL": "I agree with the",
