@@ -36,9 +36,9 @@
       },
       "GRAPHIC_PROCESS_SECTION": {
         "ID": "graphic-process",
-        "TITLE": "Avec vous tout au long du processus",
-        "SUBTITLE" : "Avantages de notre construction de Terrains de Padel",
-        "DESCRIPTION": "<p>En tant que constructeurs de Terrains de Padel experts, nous nous concentrons sur l'établissement de relations durables avec nos clients en proposant des solutions sur mesure de A à Z. Notre équipe fournit des conceptions personnalisées, des options de financement et des Terrains de Padel de qualité premium construits pour répondre à vos besoins spécifiques. Avec Portico Sport, vous bénéficierez toujours d'un support, même après l'installation, garantissant satisfaction et succès à long terme.</p>",
+        "TITLE": "Avec vous tout au long du processus de construction de courts de padel",
+        "SUBTITLE" : "Avantages de notre expertise en construction de terrains de padel",
+        "DESCRIPTION": "<p>En tant que constructeurs et fournisseurs de terrains de padel expérimentés, nous accompagnons nos clients tout au long du processus, de la conception à l’installation de terrains de padel et, si nécessaire, de couvertures pour terrains de padel. Notre équipe fournit des solutions sur mesure de A à Z, incluant des conceptions personnalisées, des options de financement et des terrains de padel de qualité premium, durables et performants. Avec Portico Sport, vous bénéficiez d’un suivi complet même après l’installation, garantissant satisfaction et succès à long terme pour votre club, hôtel ou projet privé.</p>",
         "POINT_1": {
           "TITLE": "THINKING PADEL, THINKING PORTICO SPORT",
           "SUBTITLE": "Établir une relation forte et durable basée sur la confiance et la satisfaction du client."
@@ -3906,7 +3906,7 @@
       },
       "INTRO_SECTION": {
         "ID": "intro",
-        "TITLE": "Connectez-vous avec Portico Sport : Votre partenaire en matière d'excellence en padel",
+        "TITLE": "Connectez-vous avec Portico Sport – Votre partenaire d’excellence pour la construction de terrains de padel",
         "DESCRIPTION": "Chez Portico Sport, nous croyons en plus que simplement vendre des Terrains de Padel ; nous nous engageons à construire des relations solides et durables avec nos clients. Dès que vous pensez au padel, pensez à Portico Sport. Notre approche centrée sur le client garantit que votre parcours avec nous est marqué par la confiance, la satisfaction et un service incomparable.",
         "SUBHEADING": "Contactez nos départements",
         "DEPARTMENTS": {
@@ -3958,7 +3958,7 @@
       "CONTACT_SECTION": {
         "SUBJECT": "Nouvelle demande de contact client",
         "TITLE": "Commençons à construire votre Terrain de padel de rêve",
-        "DESCRIPTION": "<p>Prêt à franchir le premier pas vers votre expérience ultime de Terrain de padel ? Remplissez le formulaire ci-dessous, et lançons-nous. Que vous ayez des questions, besoin d'un devis ou simplement envie de discuter de votre projet, nous sommes là pour vous aider.</p><p>Notre équipe chez Portico Sport est dédiée à fournir des solutions personnalisées qui dépassent vos attentes. De la conception à l'installation et au-delà, nous nous engageons à rendre vos rêves de Terrain de padel réalité.</p>",
+        "DESCRIPTION": "<p>Prêt à franchir le premier pas vers votre projet de terrain de padel ou de couverture pour terrain de padel ? Remplissez le formulaire ci-dessous et parlons de votre futur court. Que vous ayez des questions sur la construction, l’installation de terrains de padel, ou sur nos solutions de couvertures et auvents, notre équipe est là pour vous guider.</p><p>Chez Portico Sport, votre partenaire d’excellence en fourniture et construction de terrains de padel, nous accompagnons chaque projet de la conception à l’installation pour que vos idées deviennent réalité.</p>",
         "SEND_TEXT": "JE VEUX CONTACTER PORTICO SPORT",
         "BG_IMAGE": "client-contact/client-contact-bg.webp",
         "IMAGE": "client-contact/client-contact.webp"
