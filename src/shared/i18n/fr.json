@@ -20,7 +20,7 @@
       "INTRO_SECTION": {
         "ID": "intro",
         "TITLE": "Construction de terrains de padel: planification et installation clé en main",
-        "DESCRIPTION": "<p>Basé en Espagne, Portico Sport incarne la qualité, l’innovation et l’excellence du service client. Forts d’une solide expertise en ingénierie, nous proposons une solution clé en main complète, combinant terrains de padel et structures couvertes sportives—<strong>100 % conçues et fabriquées en interne</strong> pour un contrôle total de la qualité.</p> <p>En 2023, nous avons inauguré un nouveau site de production de plus de 10 000 m², faisant de Portico Sport <strong>le plus grand fabricant de terrains de padel et le plus avancé technologiquement</strong> du secteur. Cette installation nous permet de garantir une production rapide et de haute qualité—que vous recherchiez un fournisseur de terrains de padel indoor, outdoor ou un projet entièrement personnalisé.</p>",
+        "DESCRIPTION": "<p>Basé en Espagne, Portico Sport incarne la qualité, l’innovation et l’excellence du service client.</p><p>Forts d’une solide expertise en ingénierie, nous proposons une solution clé en main complète pour la construction de terrains de padel et structures couvertes sportives, <strong>100 % conçues et fabriquées en interne pour un contrôle total de la qualité</strong>.</p><p>En 2023, nous avons inauguré un nouveau site de production de plus de 10 000 m², faisant de Portico Sport <strong>le plus grand fabricant et fournisseur de terrains de padel et le plus avancé technologiquement</strong> du secteur. Cette installation garantit une production rapide et de haute qualité, adaptée aux projets de padel indoor, outdoor ou entièrement personnalisés, tout en maîtrisant le prix de construction d’un terrain de padel.</p>",
         "TITLE_2":"<p>Terrains de padel et structures sportives couvertes professionnelles, référence mondiale</p>",
         "TITLE_3":"<h3 class=\"text-black text-2xl font-bold strong\">ans</h3>",
         "TITLE_4":"<h3 class=\"text-black text-2xl font-bold strong\">pays</h3>",
@@ -92,7 +92,7 @@
         "ID": "canopies",
         "TITLE": "Auvents pour Terrains de Padel",
         "SUBTITLE": "Force, durabilité et intégration parfaite",
-        "TEXT": "<p>Portico Sport est le seul fabricant de Terrains de Padel qui construit également des auvents spécialement conçus pour les sports de raquette, offrant à nos clients une approche holistique de leurs besoins de projet.</p> <p>Notre expertise en tant que cabinet d'ingénierie nous a permis de concevoir des auvents spécifiquement conçus pour la pratique sportive, notamment pour le PADEL, combinant des caractéristiques différenciantes pour ce sport difficiles à égaler par d'autres types de auvents. PORTICO SPORT est un leader dans la conception et l'installation de auvents sportifs dans le monde entier.</p>",
+        "TEXT": "<p>Portico Sport est le seul fabricant de courts de padel qui conçoit et installe également des auvents pour terrains de padel, spécialement adaptés aux sports de raquette. Nous offrons à nos clients une approche holistique pour leurs projets, incluant à la fois le terrain et la couverture de terrain de padel.</p> <p>Notre expertise en ingénierie nous permet de proposer des solutions différenciantes, optimisées pour le padel et difficiles à égaler par d’autres types d’auvents. PORTICO SPORT, reconnu comme constructeur de couvertures de terrains de padel, est un leader mondial dans la conception et l’installation d’auvents pour terrains de padel.</p>",
         "BUTTON_TEXT": "En savoir plus sur les auvents",
         "BUTTON_TITLE":"Auvents pour terrains de padel"
       },
@@ -131,16 +131,16 @@
   
         "PATH": "projects/gallery"
       },
-      "COMPLEMENTS_SECTION": {
-  "ID": "complements",
-  "TITLE": "Construction de pistes de padel haut de gamme : Qualité et innovation",
-  "SUBTITLE": "Une entreprise leader dans le padel à l’échelle mondiale.",
-  "DESCRIPTION": "Portico Sport est un constructeur de terrains de padel de premier plan, proposant des modèles indoor, outdoor et panoramiques entièrement personnalisables — avec des options de personnalisation pour le branding, la couleur du gazon, les filets et les bancs intégrés — pour s’adapter à votre lieu et à votre style.",
-  "BUTTON": {
-  "LABEL": "Obtenez votre devis personnalisé pour un terrain",
-  "TITLE": "Constructeurs de Terrains de Padel",
-  "URL": "/client-contact"
-},
+     "COMPLEMENTS_SECTION": {
+        "ID": "complements",
+        "TITLE": "Construction de pistes de padel haut de gamme : Qualité et innovation",
+        "SUBTITLE": "Une entreprise leader dans le padel à l’échelle mondiale.",
+        "DESCRIPTION": "Portico Sport est reconnu comme un fournisseur et constructeur de terrains de padel de premier plan, proposant des modèles indoor, outdoor et panoramiques entièrement personnalisables — options de branding, couleur du gazon, filets et bancs intégrés — pour s’adapter à votre lieu, votre style et vos besoins spécifiques en termes de rentabilité terrain de padel et investissement terrain de padel.",
+        "BUTTON": {
+          "LABEL": "Obtenez votre devis personnalisé pour un terrain",
+          "TITLE": "Constructeurs de Terrains de Padel",
+          "URL": "/client-contact"
+        },
         "ITEMS": {
     "ITEM_1": {
       "TITLE": "Systèmes de score",
@@ -4435,8 +4435,8 @@
     }]
   },
   "INFINITE_SCROLL": {
-    "TITLE": "Partenaires",
-    "SUBTITLE":"Constructeurs de terrains dans le monde entier"
+    "TITLE": "Partenaires internationaux pour la construction et l’installation de terrains de padel",
+    "SUBTITLE":"Constructeurs des terrains de padel dans le monde entier"
   },
   "NORMATIVE_SECTION_LOGOS": {
     "TITLE": "Construire des Terrains de Padel conformes à la réglementation",
