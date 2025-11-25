@@ -1216,15 +1216,30 @@ const projectsData = [
       document.getElementById('modal-website').href = project.website;
       document.getElementById('modal-flag').textContent = countryFlags[project.countryCode] || '🌍';
       document.getElementById('modal-country').textContent = project.country[currentLocale] || project.country.en;
-      
+
+      const logoContainer = document.getElementById('modal-logo');
+      const logoImg = document.getElementById('modal-logo-img');
+
       if (project.logo) {
-        document.getElementById('modal-logo-img').src = project.logo;
-        document.getElementById('modal-logo-img').alt = project.name;
-        document.getElementById('modal-logo').style.display = 'flex';
+        logoImg.src = project.logo;
+        logoImg.alt = project.name;
+        logoContainer.style.display = 'flex';
+
+        // Siempre: el CONTAINER queda redondo
+        logoContainer.classList.add("rounded-full");
+
+        // Reset → la imagen normalmente redondeada
+        logoImg.classList.add("rounded-full");
+
+        // ❗ Solo la imagen SIN borde redondeado si es id 3 o 12
+        if (project.id === 3 || project.id === 12) {
+          logoImg.classList.remove("rounded-full");
+        }
+
       } else {
-        document.getElementById('modal-logo').style.display = 'none';
+        logoContainer.style.display = 'none';
       }
-      
+
       updateMainImage();
       updateThumbnails();
       
