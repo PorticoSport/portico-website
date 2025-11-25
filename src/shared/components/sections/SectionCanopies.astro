@@ -16,21 +16,19 @@ interface Props {
   buttonUrl: string;
   buttonText: string;
   buttonTitle: string;
-  language: string;
+  language?: string;
 }
 
-const { language } = Astro.props;
-const i18n = getI18N({ language });
+const activeLanguage = Astro.currentLocale;
+
+const i18n = getI18N({ language: activeLanguage });
+
 const { video, subtitle, title, text, textDos, buttonUrl, buttonText, buttonTitle } = Astro.props;
 
 function getTipeFromVideo() {
   const videoExtension = video.split(".").pop();
-  if (videoExtension === "mp4") {
-    return "video/mp4";
-  }
-  if (videoExtension === "webm") {
-    return "video/webm";
-  }
+  if (videoExtension === "mp4") return "video/mp4";
+  if (videoExtension === "webm") return "video/webm";
   return "video/mp4";
 }
 
