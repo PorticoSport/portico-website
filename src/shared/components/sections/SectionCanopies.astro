@@ -1,18 +1,27 @@
 ---
 import Button from "@/shared/components/Button.astro";
 import Typography from "@/shared/components/ui/Typography.astro";
+import {
+  getI18N,
+  getCurrentLocale,
+  getCategoryByLanguage,
+} from "@/shared/i18n";
 
 interface Props {
   video: string;
   subtitle: string;
   title: string;
   text: string;
+  textDos?: string;
   buttonUrl: string;
   buttonText: string;
   buttonTitle: string;
+  language: string;
 }
 
-const { video, subtitle, title, text, buttonUrl, buttonText, buttonTitle } = Astro.props;
+const { language } = Astro.props;
+const i18n = getI18N({ language });
+const { video, subtitle, title, text, textDos, buttonUrl, buttonText, buttonTitle } = Astro.props;
 
 function getTipeFromVideo() {
   const videoExtension = video.split(".").pop();
@@ -25,7 +34,25 @@ function getTipeFromVideo() {
   return "video/mp4";
 }
 
-const type = getTipeFromVideo();
+const type = getTipeFromVideo(); 
+
+const features = [
+  { 
+    img: '/Strength.webp', 
+    title: i18n.PAGES.CANOPIES.TITLE_IMG.TITLE_1,
+    alt: i18n.PAGES.CANOPIES.TITLE_IMG.TITLE_1
+  },
+  { 
+    img: '/High-technology.webp', 
+    title: i18n.PAGES.CANOPIES.TITLE_IMG.TITLE_2,
+    alt: i18n.PAGES.CANOPIES.TITLE_IMG.TITLE_2
+  },
+  { 
+    img: '/Durability.webp', 
+    title: i18n.PAGES.CANOPIES.TITLE_IMG.TITLE_3,
+    alt: i18n.PAGES.CANOPIES.TITLE_IMG.TITLE_3
+  }
+];
 ---
 
 <div class="flex flex-col md:flex-row bg-white">
@@ -48,11 +75,34 @@ const type = getTipeFromVideo();
         responsive
       />
     )}
-    <div class="flex flex-cols-3 mx-auto justify-center gap-8 mb-12" >
-      <img src="/Strength.png" />
-      <img src="/High-technology.png" />
-      <img src="/Durability.png" />
+    {textDos && (
+      <Typography
+        tag="div"
+        type="black"
+        className="text-center px-4 mb-12"
+        text={textDos}
+        responsive
+      />
+    )}
+    
+    <!-- Grid responsive con imagen arriba y título abajo -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto mb-12 px-4">
+      {features.map((feature) => (
+        <div class="flex flex-col items-center text-center">
+          <img 
+            src={feature.img} 
+            alt={feature.alt}
+            class="w-full max-w-[180px] h-auto object-contain mb-4"
+          />
+          <Typography 
+            tag="h3" 
+            text={feature.title} 
+            className="text-center font-semibold uppercase text-gray-800 text-sm sm:text-base lg:text-lg" 
+          />
+        </div>
+      ))}
     </div>
+
     <div class="text-center">
       {buttonUrl && buttonText ? (
         <Button
@@ -67,12 +117,9 @@ const type = getTipeFromVideo();
     </div>
   </div>
 
- 
   <div class="relative w-full md:w-1/2 flex items-center justify-center mt-12 mb-12 ml-0 md:ml-12">
-    
     <div class="bg-gradient-to-br from-[#315A75] via-[#151a36] to-[#151a36] w-full h-[250px] md:w-[800px] md:h-[550px] z-0"></div>
 
-   
     <video
       autoplay
       loop
