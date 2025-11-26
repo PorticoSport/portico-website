@@ -21,6 +21,9 @@ const i18n = getI18N({ language });
 const currentLocale = getCurrentLocale({ language });
 
 const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
+
+// Detectar si es francés
+const isFrench = language === 'fr';
 ---
 
 <Layout
@@ -31,7 +34,9 @@ const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
   robots="index,follow"
   language={language}
 >
-  <Video language={language} video="https://res.cloudinary.com/duvzvbia1/video/upload/cubiertas_hn7fsa.mp4" 
+  <Video 
+    language={language} 
+    video="https://res.cloudinary.com/duvzvbia1/video/upload/cubiertas_hn7fsa.mp4" 
     classVideo="cp-elipse"
     pretitleCanopie={i18n.PAGES.CANOPIES.PRETITLE}
     titleCanopie={i18n.PAGES.CANOPIES.TITLE}
@@ -52,7 +57,7 @@ const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
       />
     </div>
     
-    <!-- Sección 1: Azul (gradient-bg) -->
+    <!-- Sección 1 -->
     <div class="gradient-bg">
       <Section
         classNameSubHeading="md:px-40 text-white"
@@ -107,6 +112,20 @@ const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
           <div class="w-full py-8 px-4 flex-1 md:px-8">
             <Typography tag="h2" className="mx-auto text-center mb-8 font-semibold px-8 text-white" text={i18n.PAGES.CANOPIES.ADVANTAGE_SECTION.TITLE} responsive />
             <Typography tag="div" className="text-center mx-auto mb-10 max-w-[60ch] text-white" text={i18n.PAGES.CANOPIES.ADVANTAGE_SECTION.DESCRIPTION} />
+            
+            {/* Contenido adicional solo para francés */}
+            {isFrench && (
+              <>
+                <Typography tag="h3" className="mx-auto text-center mb-4 font-semibold px-8 text-white" text={i18n.PAGES.CANOPIES.ADVANTAGE_SECTION.TITLE_2} responsive />
+                <Typography tag="p" className="text-center mx-auto mb-2 max-w-[60ch] text-white font-semibold" text={i18n.PAGES.CANOPIES.ADVANTAGE_SECTION.SUBTITLE} />
+                <Typography tag="div" className="text-center mx-auto mb-10 max-w-[60ch] text-white" text={i18n.PAGES.CANOPIES.ADVANTAGE_SECTION.DESCRIPTION_2} />
+                
+                <Typography tag="h3" className="mx-auto text-center mb-4 font-semibold px-8 text-white" text={i18n.PAGES.CANOPIES.ADVANTAGE_SECTION.TITLE_3} responsive />
+                <Typography tag="div" className="text-center mx-auto mb-6 max-w-[60ch] text-white" text={i18n.PAGES.CANOPIES.ADVANTAGE_SECTION.DESCRIPTION_3} />
+                <FeatureList list={i18n.PAGES.CANOPIES.ADVANTAGE_SECTION.LIST} className="text-white max-w-[60ch] mx-auto"/>
+                <Typography tag="div" className="text-center mx-auto mt-6 max-w-[60ch] text-white" text={i18n.PAGES.CANOPIES.ADVANTAGE_SECTION.DESCRIPTION_4} />
+              </>
+            )}
           </div>
           <div class="relative w-full flex-1">
             <video
@@ -147,6 +166,7 @@ const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
     />
   </main>
 </Layout>
+
 
 <style>
   .img-structure:hover {
