@@ -75,7 +75,7 @@ const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
         <Typography tag="h2" type="black" className="mx-auto text-center mb-8 font-semibold px-8" text={i18n.PAGES.CANOPIES.FEATURE_SECTION.TITLE} responsive />
         <Typography tag="div" type="black" className="text-center mx-auto mb-10 max-w-[60ch]" text={i18n.PAGES.CANOPIES.FEATURE_SECTION.DESCRIPTION} />
         <div class="flex flex-col xl:flex-row max-w-none">
-          <div class="relative flex-1">
+          <div class="relative xl:w-1/2">
             {
               images.map(({id, src, alt}, index) => (
                 <img
@@ -84,12 +84,12 @@ const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
                   id={id}
                   src={src}
                   alt={alt}
-                  class={`${index === 0 ? "relative" : "absolute"} object-cover w-full h-full xl:max-w-[1024px] xl:w-auto top-0 left-0 transition-opacity image ${index === 0 ? "opacity-100" : "opacity-0"}`}
+                  class={`${index === 0 ? "relative" : "absolute"} object-cover w-full h-full top-0 left-0`}
                 />
               ))
             }
           </div>
-          <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10">
+          <div class="w-full xl:w-1/2 py-8 px-4 md:px-8 z-10">
             <Typography tag="h3" type="black" className="font-thin mb-4" text={i18n.PAGES.CANOPIES.FEATURE_SECTION.LIST_TITLE} responsive />
             <Typography tag="p" type="black" text={i18n.PAGES.CANOPIES.FEATURE_SECTION.LIST_DESCRIPTION} responsive />
             <FeatureList list={i18n.PAGES.CANOPIES.FEATURE_SECTION.LIST} className="text-black"/>
@@ -125,7 +125,7 @@ const images = i18n.PAGES.CANOPIES.FEATURE_SECTION.IMAGES;
       </Section>
     </div>
 
-    <div class="bg-slate-100">
+    <div class="bg-slate-100 text-black">
       <Gallery
         id="gallery-canopies"
         heading={i18n.PAGES.CANOPIES.GALLERY.TITLE}
