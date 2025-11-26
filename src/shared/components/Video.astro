@@ -62,20 +62,20 @@ const type = getTipeFromVideo();
           {
             titleH3 && (<Typography tag="h3" className="items-center gap-5 lg:gap-20 px-4 text-center" text={titleH3} responsive />)
           }
-{
-          pretitleCanopie && (<Typography tag="p"text={pretitleCanopie} responsive />)
-        }
-        {
-            titleCanopie && (<Typography tag="h1" className="uppercase mb-6 font-bold" text={titleCanopie} responsive />)
-          }
-         {
-            subtitleCanopie && (<Typography tag="p" type="secondary" className="mb-6 text-xl" text={subtitleCanopie} responsive size="large" className="font-bold" />)
+          {
+            pretitleCanopie && (<Typography tag="p" className="text-center" text={pretitleCanopie} responsive />)
           }
           {
-            subsubtitleCanopie && (<Typography tag="p" type="primary" className="mb-6 font-thin text-xl"text={subsubtitleCanopie} responsive />)
+            titleCanopie && (<Typography tag="h1" className="uppercase mb-6 font-bold text-center" text={titleCanopie} responsive />)
           }
           {
-            descriptionCanopie && (<Typography tag="p" className="max-w-[60ch]"  text={descriptionCanopie} responsive />)
+            subtitleCanopie && (<Typography tag="p" type="secondary" className="mb-6 text-xl text-center font-bold" text={subtitleCanopie} responsive size="large" />)
+          }
+          {
+            subsubtitleCanopie && (<Typography tag="p" type="primary" className="mb-6 font-thin text-xl text-center" text={subsubtitleCanopie} responsive />)
+          }
+          {
+            descriptionCanopie && (<Typography tag="p" className="max-w-[60ch] text-center mx-auto" text={descriptionCanopie} responsive />)
           }
           {
             buttonUrl && buttonText ? (
