@@ -37,15 +37,15 @@ const isFrench = language === 'fr';
   <Video 
     language={language} 
     video="https://res.cloudinary.com/duvzvbia1/video/upload/cubiertas_hn7fsa.mp4" 
-    classVideo="cp-elipse"
+    classVideo={`cp-elipse ${isFrench ? 'french-description' : ''}`}
     pretitleCanopie={i18n.PAGES.CANOPIES.PRETITLE}
     titleCanopie={i18n.PAGES.CANOPIES.TITLE}
     subtitleCanopie={i18n.PAGES.CANOPIES.SUBTITLE}
     subsubtitleCanopie={i18n.PAGES.CANOPIES.SUBSUBTITLE} 
     descriptionCanopie={i18n.PAGES.CANOPIES.DESCRIPTION}
     buttonUrl={`#${i18n.PAGES.CANOPIES.CONTACT_SECTION.ID}`}
-    buttonText={i18n.PAGES.CANOPIES.CONTACT_SECTION.TITLE}>
-  </Video>
+    buttonText={i18n.PAGES.CANOPIES.CONTACT_SECTION.TITLE}
+  />
   
   <main class="flex flex-col relative">
     <div class="gradient-bg">
@@ -77,8 +77,39 @@ const isFrench = language === 'fr';
         className="flex flex-col max-w-none my-8 p-0 lg:mb-0"
         style="padding: 0; margin-left: 0; margin-right: 0;"
       >
-        <Typography tag="h2" type="black" className="mx-auto text-center mb-8 font-semibold px-8" text={i18n.PAGES.CANOPIES.FEATURE_SECTION.TITLE} responsive />
-        <Typography tag="div" type="black" className="text-center mx-auto mb-10 max-w-[60ch]" text={i18n.PAGES.CANOPIES.FEATURE_SECTION.DESCRIPTION} />
+
+        <div class="flex flex-col xl:flex-row items-center max-w-none py-16 px-8">
+
+          <!-- TEXTO A LA IZQUIERDA -->
+          <div class="w-full xl:w-1/2 z-20 mb-10 xl:mb-0 xl:pr-12">
+            <Typography 
+              tag="h2" 
+              type="black" 
+              className="mx-auto text-left mb-8 font-semibold" 
+              text={i18n.PAGES.CANOPIES.FEATURE_SECTION.TITLE} 
+              responsive 
+            />
+
+            <Typography 
+              tag="div" 
+              type="black" 
+              className="text-left mx-auto mb-10 max-w-[60ch]" 
+              text={i18n.PAGES.CANOPIES.FEATURE_SECTION.DESCRIPTION} 
+            />
+          </div>
+
+          <!-- IMAGEN INICIAL (a la derecha) -->
+          <div class="relative w-full xl:w-1/2">
+            <img
+              src="/canopies/gallery/img-12.webp"
+              alt="Pista de pádel"
+              class="object-cover w-full h-full rounded-xl shadow-lg"
+              draggable="false"
+            />
+          </div>
+
+        </div>
+
         <div class="flex flex-col xl:flex-row max-w-none">
           <div class="relative xl:w-1/2">
             {
@@ -94,12 +125,14 @@ const isFrench = language === 'fr';
               ))
             }
           </div>
+
           <div class="w-full xl:w-1/2 py-8 px-4 md:px-8 z-10">
             <Typography tag="h3" type="black" className="font-thin mb-4" text={i18n.PAGES.CANOPIES.FEATURE_SECTION.LIST_TITLE} responsive />
             <Typography tag="p" type="black" text={i18n.PAGES.CANOPIES.FEATURE_SECTION.LIST_DESCRIPTION} responsive />
             <FeatureList list={i18n.PAGES.CANOPIES.FEATURE_SECTION.LIST} className="text-black"/>
           </div>
         </div>
+
       </Section>
     </div>
 
@@ -215,6 +248,13 @@ const isFrench = language === 'fr';
         transparent
       );
     }
+  }
+
+  :global(.french-description .description) {
+    text-align: center !important;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 </style>
 
