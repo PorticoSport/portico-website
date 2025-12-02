@@ -158,8 +158,15 @@ const isAceCourt = court === "ACE_COURT";
   robots="index,follow"
   bgImage={heroImage}
 >
-  <Fragment slot="head">
-    {heroImage && <link rel="preload" as="image" href={heroImage} />}
+<div slot="head">
+  {heroImage && <link rel="preload" as="image" href={heroImage} />}
+
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({...})}
+  />
+</div>
+
     
     <!-- Structured Data para SEO -->
     <script type="application/ld+json" set:html={JSON.stringify({
