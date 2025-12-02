@@ -53,7 +53,7 @@ export const getCountryListByLanguage = ({
   if (LANGUAGES[language.toUpperCase()] === 'it') return ItalianCountriesList
   if (LANGUAGES[language.toUpperCase()] === 'fr') return FrenchCountriesList
   if (LANGUAGES[language.toUpperCase()] === 'es') return SpanishCountriesList
-  if (LANGUAGES[language.toUpperCase()] === 'fr') return EnglishCountriesList
+  if (LANGUAGES[language.toUpperCase()] === 'en') return EnglishCountriesList
   if (LANGUAGES[language.toUpperCase()] === 'de') return GermanCountriesList
   return EnglishCountriesList
 }
@@ -63,11 +63,24 @@ export const getCustomPages = async ({
 }: {
   language: string | undefined
 }) => {
-  // get post from 'portico.porticosport.com'
-  const category = getCategoryByLanguage({ language })
-  const i18n = getI18N({ language })
-  const res = await fetch(`https://portico.porticosport.com/wp-json/wp/v2/posts?categories=${category}&per_page=100`);
-  const posts = await res.json();
-  const initialUrl = i18n.PAGES.NEWS.ROUTE.URL;
-  return posts.map((post: { slug: string }) => `${i18n.SITE}${initialUrl}/${post.slug}`);
-}
+  const category = getCategoryByLanguage({ language });
+  const i18n = getI18N({ language });
+
+  try {
+    const res = await fetch(
+      `https://portico.porticosport.com/wp-json/wp/v2/posts?categories=${category}&per_page=100`
+    );
+
+    if (!res.ok) {
+      console.error(`Error HTTP ${res.status}: ${await res.text()}`);
+      return []; // Devuelve vacío si no hay permiso
+    }
+
+    const posts = await res.json();
+    const initialUrl = i18n.PAGES?.NEWS?.ROUTE?.URL || "/news";
+    return posts.map((post: { slug: string }) => `${i18n.SITE}${initialUrl}/${post.slug}`);
+  } catch (err) {
+    console.error("Error en fetch:", err);
+    return [];
+  }
+};
