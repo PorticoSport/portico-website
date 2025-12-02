@@ -30,10 +30,25 @@ news?: boolean;
 
 const { news, schema, description, title, currentLocale, contactForm , keywords ,language, robots ,bgImage, bgClass, showScrollImage, ogImage } = Astro.props;
 const category = 70;
-const response = await fetch(
+let posts: any[] = [];
+
+try {
+  const response = await fetch(
     `https://portico.porticosport.com/wp-json/wp/v2/posts?categories=${category}&per_page=100&_embed`
   );
-  const posts = await response.json();
+
+  if (!response.ok) {
+    console.error(`Error HTTP ${response.status}: ${await response.text()}`);
+  } else {
+    try {
+      posts = await response.json();
+    } catch (err) {
+      console.error("Respuesta no es JSON:", await response.text());
+    }
+  }
+} catch (err) {
+  console.error("Error en fetch:", err);
+}
 ---
 
 <!doctype html>
