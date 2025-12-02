@@ -124,12 +124,11 @@ const logoMargin =
         <div className="flex flex-col gap-4 w-full max-w-[1400px] text-center">
           <header className="pt-8 md:pt-20">
             {locale.SUBTITLE && (
-              <Typography
-                tag="p">
+              <Typography tag="p"> {locale.SUBTITLE} </Typography> )}
             <Button
                 target="_self"
                 className="xl:hidden self-center mt-4 text-sm"
-                url={`${locale.CONTACT_SECTION.BUTTON.URL}`}
+                url={locale.CONTACT_SECTION.BUTTON.URL}
             >
             {locale.CONTACT_BUTTON}
           </Button>
