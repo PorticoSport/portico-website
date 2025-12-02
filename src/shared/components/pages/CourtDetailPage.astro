@@ -1,4 +1,4 @@
----
+--- 
 export const prerender = true;
 export const revalidate = 3600;
 
@@ -10,23 +10,47 @@ import Section from "@/shared/components/Section.astro";
 import Video from "@/shared/components/Video.astro";
 import { getI18N, getCurrentLocale } from "@/shared/i18n";
 import Gallery from "../Gallery.astro";
-import { type Photo, type FeatureCourt, type FirstSectionCourt, type BenefitsSectionCourt, type SizingSectionCourt, type InformationSection, type InstallationSection, type CostSection, type ContactSection, type GallerySection } from "@/types/types";
+import {
+  type Photo,
+  type FeatureCourt,
+  type FirstSectionCourt,
+  type BenefitsSectionCourt,
+  type SizingSectionCourt,
+  type InformationSection,
+  type InstallationSection,
+  type CostSection,
+  type ContactSection,
+  type GallerySection
+} from "@/types/types";
+
 import FeatureList from "@/shared/components/FeatureList.astro";
 import { courtsGrid } from "@/shared/i18n/constants";
 import SectionFaqs from "@/shared/components/sections/SectionFaqs.astro";
 
 interface Props {
   language: string;
-  court: "ACE_COURT" | "MOBILE_COURT" | "TOURNAMENT_COURT" | "PANORAMIC_FORCE_80_COURT" | "PANORAMIC_COURT" | "PANORAMIC_PLUS" | "CLUB_COURT" | "CLUB_PLUS" | "CLUB_FORCE_80_COURT" | "SINGLE_COURT" | "MINI_COURT";
+  court:
+    | "ACE_COURT"
+    | "MOBILE_COURT"
+    | "TOURNAMENT_COURT"
+    | "PANORAMIC_FORCE_80_COURT"
+    | "PANORAMIC_COURT"
+    | "PANORAMIC_PLUS"
+    | "CLUB_COURT"
+    | "CLUB_PLUS"
+    | "CLUB_FORCE_80_COURT"
+    | "SINGLE_COURT"
+    | "MINI_COURT";
 }
 
 const featureImages = [] as Photo[];
 const { language, video, heroImage, court, gallery } = Astro.props;
-console.log(language)
 
 const i18n = getI18N({ language });
 const currentLocale = getCurrentLocale({ language });
 const locale = i18n.PAGES[court];
+
+// Secciones
 const isPaintSection = (locale as { PAINT_SECTION?: FeatureCourt }).PAINT_SECTION;
 const isFirstSection = (locale as { FIRST_SECTION?: FirstSectionCourt }).FIRST_SECTION;
 const isBenefitsSection = (locale as { BENEFITS_SECTION?: BenefitsSectionCourt }).BENEFITS_SECTION;
@@ -39,173 +63,176 @@ const isGallerySection = (locale as { GALLERY_SECTION?: GallerySection }).GALLER
 const isCourtsSection = (locale as { COURTS_SECTION?: string }).COURTS_SECTION;
 const isContactSection = (locale as { CONTACT_SECTION?: ContactSection }).CONTACT_SECTION;
 const isInstallationSection = (locale as { INSTALLATION_SECTION?: InstallationSection }).INSTALLATION_SECTION;
-const isCostSection = (locale as { COST_SECTION?: CostSection }).COST_SECTION;
-const isAceCourt = court === "ACE_COURT";
-const faqItems = isInstallationSection ? [
-  {
-    question: isInstallationSection.SUBTITLE,
-    answer: isInstallationSection.DESCRIPTION
-  },
-  {
-    question: isInstallationSection.SUBTITLE_2,
-    answer: isInstallationSection.DESCRIPTION_2
-  },
-  {
-    question: isInstallationSection.SUBTITLE_3,
-    answer: isInstallationSection.DESCRIPTION_3
-  },
-  {
-    question: isInstallationSection.SUBTITLE_4,
-    answer: isInstallationSection.DESCRIPTION_4
-  }
-] : [];
 
+// Preparar FAQs
+const faqItems = isInstallationSection
+  ? [
+      {
+        question: isInstallationSection.SUBTITLE,
+        answer: isInstallationSection.DESCRIPTION
+      },
+      {
+        question: isInstallationSection.SUBTITLE_2,
+        answer: isInstallationSection.DESCRIPTION_2
+      },
+      {
+        question: isInstallationSection.SUBTITLE_3,
+        answer: isInstallationSection.DESCRIPTION_3
+      },
+      {
+        question: isInstallationSection.SUBTITLE_4,
+        answer: isInstallationSection.DESCRIPTION_4
+      }
+    ]
+  : [];
+
+const faqItemsShort = faqItems.slice(0, 3);
+
+// Imagenes paint
 if (isPaintSection) {
   isPaintSection.IMAGES.forEach((image: Photo) => {
     featureImages.push({
       id: image.id,
-      src: image.src,
+      src: image.src
     });
   });
 }
 
-const faqItemsShort = faqItems.slice(0, 3);
-const title = i18n.PAGES[court].TITLE
-const isMobile = title === i18n.PAGES.MOBILE_COURT.TITLE
-const isPanoramic = title === i18n.PAGES.PANORAMIC_COURT.TITLE
-const force80 = i18n.PAGES.PANORAMIC_FORCE_80_COURT.TITLE
+const title = i18n.PAGES[court].TITLE;
+const isMobile = title === i18n.PAGES.MOBILE_COURT.TITLE;
+const force80 = i18n.PAGES.PANORAMIC_FORCE_80_COURT.TITLE;
 
 const courts = courtsGrid(i18n);
-const compatibleCourts = isMobile 
+const compatibleCourts = isMobile
   ? courts.filter((item) => item.title !== title && item.title !== force80)
-: courts.filter((item) => item.title !== title && item.title !== i18n.PAGES.MOBILE_COURT.TITLE);
+  : courts.filter(
+      (item) => item.title !== title && item.title !== i18n.PAGES.MOBILE_COURT.TITLE
+    );
 
+// Qué FAQ mostrar
 const faqToShow = isMobile ? faqItemsShort : faqItems;
 
+// AceCourt descripción
 const aceCourtDescriptions = {
-  en: `<p>Ready to install a ACE padel court at your club? Contact Portico Sport today to speak with one of our specialists. We are committed to delivering high-quality padel courts that exceed your expectations. Whether you want to upgrade an existing facility or build a new one from scratch, we are here to help.</p>`,
-  es: `<p>¿Listo para instalar una pista ACE en tu club? Contacta hoy con Portico Sport y habla con uno de nuestros especialistas. Nos comprometemos a ofrecer pistas de pádel de alta calidad que superen tus expectativas. Tanto si quieres mejorar una instalación existente como construir una nueva desde cero, estamos aquí para ayudarte.</p>`,
-  fr: `<p>Prêt à installer un court de padel ACE dans votre club ? Contactez Portico Sport dès aujourd'hui pour parler avec l'un de nos spécialistes. Nous nous engageons à fournir des courts de padel de haute qualité qui dépassent vos attentes. Que vous souhaitiez améliorer une installation existante ou en construire une nouvelle, nous sommes là pour vous aider.</p>`,
-  de: `<p>Bereit, einen ACE-Padelplatz in Ihrem Club zu installieren? Kontaktieren Sie noch heute Portico Sport, um mit einem unserer Spezialisten zu sprechen. Wir engagieren uns dafür, hochwertige Padelplätze zu liefern, die Ihre Erwartungen übertreffen. Egal, ob Sie eine bestehende Anlage aufrüsten oder eine neue von Grund auf bauen möchten, wir sind für Sie da.</p>`,
+  en: `<p>Ready to install a ACE padel court at your club? Contact Portico Sport today to speak with one of our specialists...</p>`,
+  es: `<p>¿Listo para instalar una pista ACE en tu club? Contacta hoy con Portico Sport...</p>`,
+  fr: `<p>Prêt à installer un court de padel ACE dans votre club ? Contactez Portico Sport...</p>`,
+  de: `<p>Bereit, einen ACE-Padelplatz in Ihrem Club zu installieren? Kontaktieren Sie Portico Sport...</p>`
 };
 
-// Contamos cuántas imágenes hay
+// Cantidad imágenes primer bloque
 const imageCount = [
   isFirstSection?.IMAGES.FRONT,
   isFirstSection?.IMAGES.PERSPECTIVE,
-  isFirstSection?.IMAGES.TOP,
+  isFirstSection?.IMAGES.TOP
 ].filter(Boolean).length;
 
-// Si hay 2 o menos imágenes => margen negativo (solo en pantallas grandes)
+// Margen superior para logos
 const logoMargin =
   imageCount <= 2
-    ? "lg:-mt-[360px] md:-mt-[200px] -mt-[150px]" // más suave en pantallas pequeñas
-    : "mt-0";    
+    ? "lg:-mt-[360px] md:-mt-[200px] -mt-[150px]"
+    : "mt-0";
 ---
 
 <Layout
-    ogImage={locale.OG_IMG}
-    currentLocale={currentLocale}
-    language={language}
-    robots="index,follow"
-    bgImage={heroImage}
+  ogImage={locale.OG_IMG}
+  currentLocale={currentLocale}
+  language={language}
+  robots="index,follow"
+  bgImage={heroImage}
 >
-    {
-  video ? (
+  {video && (
     <Video language={language} video={video} classVideo="cp-elipse relative overflow-hidden">
-        <Section className="absolute z-10 inset-0 animate-fade-up flex flex-col justify-center items-center text-white px-4 text-center">
+      <Section className="absolute z-10 inset-0 animate-fade-up flex flex-col justify-center items-center text-white px-4 text-center">
         <div className="flex flex-col gap-4 w-full max-w-[1400px] text-center">
           <header className="pt-8 md:pt-20">
             {locale.SUBTITLE && (
-              <Typography
-                tag="p">
-            <Button
-                target="_self"
-                className="xl:hidden self-center mt-4 text-sm"
-                url={`${locale.CONTACT_SECTION.BUTTON.URL}`}
-            >
+              <Typography tag="p" text={locale.SUBTITLE} />
+            )}
+          </header>
+
+          <Button
+            target="_self"
+            className="xl:hidden self-center mt-4 text-sm"
+            url={locale.CONTACT_SECTION.BUTTON.URL}
+          >
             {locale.CONTACT_BUTTON}
           </Button>
         </div>
       </Section>
     </Video>
-    ) : null
-}
+  )}
 
-<main class="flex flex-col gradient-bg relative">
-    <Breadcrumb
-      crumbs={[
-        { label: i18n.PAGES.HOME.ROUTE.BREADCRUMB, href: i18n.PAGES.HOME.ROUTE.URL },
-        {
-          label: locale.NAME,
-          href: locale.ROUTE.URL,
-        },
-    ]}
-/>
-{isFirstSection && (
+  <main class="flex flex-col gradient-bg relative">
+    <!-- FIRST SECTION -->
+    {isFirstSection && (
       <Section heading2={isFirstSection.TITLE}>
         <Typography
           tag="div"
           className="text-center"
           text={isFirstSection.DESCRIPTION}
           responsive
-      />
+        />
 
-    <div
-      class={`section-renders flex items-center gap-4 max-w-[1400px] my-16 mx-auto px-6 ${
-        !isFirstSection.IMAGES.FRONT ? "justify-center" : ""
-      }`}
-    >
-      {isFirstSection.IMAGES.FRONT && (
-        <img
-          src={isFirstSection.IMAGES.FRONT.src}
-          alt={isFirstSection.IMAGES.FRONT.alt}
-          class="front"
-        />
-      )}
-      {isFirstSection.IMAGES.PERSPECTIVE && (
-        <img
-          src={isFirstSection.IMAGES.PERSPECTIVE.src}
-          alt={isFirstSection.IMAGES.PERSPECTIVE.alt}
-          class="perspective"
-        />
-      )}
-      {isFirstSection.IMAGES.TOP && (
-        <img
-          src={isFirstSection.IMAGES.TOP.src}
-          alt={isFirstSection.IMAGES.TOP.alt}
-          class="top"
-        />
-      )}
-      </div>
-  </Section>
-)}
+        <div
+          class={`section-renders flex items-center gap-4 max-w-[1400px] my-16 mx-auto px-6 ${
+            !isFirstSection.IMAGES.FRONT ? "justify-center" : ""
+          }`}
+        >
+          {isFirstSection.IMAGES.FRONT && (
+            <img
+              src={isFirstSection.IMAGES.FRONT.src}
+              alt={isFirstSection.IMAGES.FRONT.alt}
+              class="front"
+            />
+          )}
 
-<div class={logoMargin}>
-  <NormativeLogos language={language} />
-</div>
+          {isFirstSection.IMAGES.PERSPECTIVE && (
+            <img
+              src={isFirstSection.IMAGES.PERSPECTIVE.src}
+              alt={isFirstSection.IMAGES.PERSPECTIVE.alt}
+              class="perspective"
+            />
+          )}
+
+          {isFirstSection.IMAGES.TOP && (
+            <img
+              src={isFirstSection.IMAGES.TOP.src}
+              alt={isFirstSection.IMAGES.TOP.alt}
+              class="top"
+            />
+          )}
+        </div>
+      </Section>
+    )}
+
+    <div class={logoMargin}>
+      <NormativeLogos language={language} />
+    </div>
+
+    <!-- BENEFITS -->
     <div class="bg-slate-100 w-full">
-      {
-      isBenefitsSection ? (
+      {isBenefitsSection && (
         <BenefitsSection
           title={isBenefitsSection.TITLE}
           Benefits={isBenefitsSection.BENEFITS}
         />
-      ) : null
-    }
-</div>
-    {
-      isStructure ? (
-        <SectionInformation
-          title={isStructure.TITLE}
-          image={isStructure.IMAGE.src}
-          subtitle={isStructure.SUBTITLE}
-          text={isStructure.TEXT}
-        />
-      ) : null
-    }
-    {
-      isCourtsSizingSection ? <SizingSection
+      )}
+    </div>
+
+    <!-- STRUCTURE -->
+    {isStructure && (
+      <SectionInformation
+        title={isStructure.TITLE}
+        image={isStructure.IMAGE.src}
+        subtitle={isStructure.SUBTITLE}
+        text={isStructure.TEXT}
+      />
+    )}
+
+    <!-- SIZING -->
+    {isCourtsSizingSection && (
+      <SizingSection
         id={isCourtsSizingSection.ID}
         description={isCourtsSizingSection.DESCRIPTION}
         title={isCourtsSizingSection.TITLE}
@@ -214,19 +241,36 @@ const logoMargin =
         indoorText={isCourtsSizingSection.INDOOR}
         outdoorTitle={isCourtsSizingSection.OUTDOOR_TITLE}
         indoorTitle={isCourtsSizingSection.INDOOR_TITLE}
-      /> : null
-    }
-    {
-      isGlassSection ? <Section
-      className="flex flex-col max-w-none p-0 lg:mb-0 border-b-4 border-white bg-slate-100"
+      />
+    )}
+
+    <!-- GLASS -->
+    {isGlassSection && (
+      <Section
+        className="flex flex-col max-w-none p-0 lg:mb-0 border-b-4 border-white bg-slate-100"
         style="padding: 0; margin-left: 0; margin-right: 0;"
       >
         <div class="flex flex-col-reverse xl:flex-row max-w-none bg-gradient-to-b">
           <div class="w-full py-8 px-4 flex-1 md:px-8 text-black">
-            <Typography tag="h2" className="mb-6 font-bold uppercase" text={isGlassSection.TITLE} responsive />
-            <Typography tag="p" className="mb-4 font-thin" text={isGlassSection.SUBTITLE} responsive />
-            <Typography tag="div" text={isGlassSection.DESCRIPTION} responsive />
-        </div>
+            <Typography
+              tag="h2"
+              className="mb-6 font-bold uppercase"
+              text={isGlassSection.TITLE}
+              responsive
+            />
+            <Typography
+              tag="p"
+              className="mb-4 font-thin"
+              text={isGlassSection.SUBTITLE}
+              responsive
+            />
+            <Typography
+              tag="div"
+              text={isGlassSection.DESCRIPTION}
+              responsive
+            />
+          </div>
+
           <div class="relative w-full flex-1">
             <img
               loading="lazy"
@@ -234,60 +278,89 @@ const logoMargin =
               id={isGlassSection.IMAGE.id}
               src={isGlassSection.IMAGE.src}
               alt={isGlassSection.IMAGE.alt}
-              class="relative object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none aspect-video xl:aspect-[16/14] xxl:aspect-[16/11] image-reverse"
-              />
+              class="relative object-cover w-full xl:max-w-[1024px] transition-opacity select-none pointer-events-none aspect-video xl:aspect-[16/14] xxl:aspect-[16/11] image-reverse"
+            />
           </div>
         </div>
-      </Section> : null
-    }
-    {
-      isPaintSection ? (
-        <Section className="flex flex-col max-w-none p-0 border-b-4 border-white" style="padding: 0; margin-left: 0; margin-right: 0;">
-          <div class="flex flex-col xl:flex-row max-w-none">
-            <div class="relative w-full flex-1">
-              {
-                featureImages.map((image, index) => (
-                  <img
-                    loading="lazy"
-                    draggable={false}
-                    id={image.id}
-                    src={image.src}
-                    alt={image.alt}
-                    class={`${index === 0 ? "relative" : "absolute"} object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none image aspect-[16/11] ${index === 0 ? "opacity-100" : "opacity-0"}`}
-                  />
-                ))
-              }
-            </div>
-            <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10">
-              <Typography tag="h2" className="mb-6 font-bold uppercase" text={isPaintSection.TITLE} responsive type="secondary"/>
-              <Typography tag="div" className="mb-8" text={isPaintSection.DESCRIPTION} responsive />
-              <FeatureList list={isPaintSection.LIST} />
-              <Typography tag="div" className="mt-8" text={isPaintSection.DESCRIPTION_DOS} responsive />
-            </div>
+      </Section>
+    )}
+
+    <!-- PAINT SECTION -->
+    {isPaintSection && (
+      <Section
+        className="flex flex-col max-w-none p-0 border-b-4 border-white"
+        style="padding: 0; margin-left: 0; margin-right: 0;"
+      >
+        <div class="flex flex-col xl:flex-row max-w-none">
+          <div class="relative w-full flex-1">
+            {featureImages.map((image, index) => (
+              <img
+                loading="lazy"
+                draggable={false}
+                id={image.id}
+                src={image.src}
+                alt={image.alt}
+                class={`${index === 0 ? "relative opacity-100" : "absolute opacity-0"} object-cover w-full xl:max-w-[1024px] top-0 left-0 transition-opacity select-none pointer-events-none image aspect-[16/11]`}
+              />
+            ))}
           </div>
-        </Section>
-      ) : null
-    }
+
+          <div class="w-full py-8 px-4 md:px-8 xl:-ml-72 flex-1 z-10">
+            <Typography
+              tag="h2"
+              className="mb-6 font-bold uppercase"
+              text={isPaintSection.TITLE}
+              responsive
+              type="secondary"
+            />
+            <Typography
+              tag="div"
+              className="mb-8"
+              text={isPaintSection.DESCRIPTION}
+              responsive
+            />
+            <FeatureList list={isPaintSection.LIST} />
+            <Typography
+              tag="div"
+              className="mt-8"
+              text={isPaintSection.DESCRIPTION_DOS}
+              responsive
+            />
+          </div>
+        </div>
+      </Section>
+    )}
+
+    <!-- TURF -->
     <div class="bg-slate-100 text-black">
-      {
-      isTurfSection ? <TurfSection
-        language={language}
-        image={isTurfSection.IMAGE}
-        subtitle={isTurfSection.SUBTITLE}
-        title={isTurfSection.TITLE}
-        description={isTurfSection.DESCRIPTION}
-        list={isTurfSection.LIST}
-        descriptionDos={isTurfSection.DESCRIPTION_DOS} /> : null
-    }
+      {isTurfSection && (
+        <TurfSection
+          language={language}
+          image={isTurfSection.IMAGE}
+          subtitle={isTurfSection.SUBTITLE}
+          title={isTurfSection.TITLE}
+          description={isTurfSection.DESCRIPTION}
+          list={isTurfSection.LIST}
+          descriptionDos={isTurfSection.DESCRIPTION_DOS}
+        />
+      )}
     </div>
-    <LightSection 
+
+    <!-- LIGHT -->
+    <LightSection
       title={isLightningSection.TITLE}
       subtitle={isLightningSection.SUBTITLE}
       list={isLightningSection.LIST}
-      description={isAceCourt ? isLightningSection.MASTS_DESCRIPTION_ACE : isLightningSection.MASTS_DESCRIPTION}
+      description={
+        court === "ACE_COURT"
+          ? isLightningSection.MASTS_DESCRIPTION_ACE
+          : isLightningSection.MASTS_DESCRIPTION
+      }
       language={language}
-      isAceCourt={isAceCourt}
+      isAceCourt={court === "ACE_COURT"}
     />
+
+    <!-- FAQS POR TIPO DE COURT -->
     <div class="w-full pt-28 bg-gradient-to-br from-[#315A75] via-[#151a36] to-[#151a36]">
       {court === "CLUB_COURT" && (
         <SectionFaqs
@@ -328,6 +401,7 @@ const logoMargin =
           urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
         />
       )}
+
       {court === "CLUB_PLUS" && (
         <SectionFaqs
           items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_PLUS}
@@ -337,7 +411,7 @@ const logoMargin =
           urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
         />
       )}
-      
+
       {court === "CLUB_FORCE_80_COURT" && (
         <SectionFaqs
           items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_CLUB_FORCE_80_COURT}
@@ -347,6 +421,7 @@ const logoMargin =
           urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
         />
       )}
+
       {court === "PANORAMIC_COURT" && (
         <SectionFaqs
           items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_PANORAMIC_COURT}
@@ -354,7 +429,7 @@ const logoMargin =
           urlButton={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.URL}
           buttonTitle={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TITLE}
           urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
-          />
+        />
       )}
 
       {court === "PANORAMIC_PLUS" && (
@@ -366,6 +441,7 @@ const logoMargin =
           urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
         />
       )}
+
       {court === "PANORAMIC_FORCE_80_COURT" && (
         <SectionFaqs
           items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_PANORAMIC_FORCE_80_COURT}
@@ -375,48 +451,54 @@ const logoMargin =
           urlText={i18n.PAGES.HOME.FAQS_SECTION.BUTTON.TEXT}
         />
       )}
-      </div>
-    {
-      isGallerySection ? (<Gallery
+    </div>
+
+    <!-- GALLERY -->
+    {isGallerySection && (
+      <Gallery
         id={isGallerySection.ID}
         path={isGallerySection.PATH}
         offset={isGallerySection.OFFSET}
-
         photos={gallery}
         loadMoreText={isGallerySection.BUTTON_TEXT}
-      />) : null
-    }
-    {
-      isCourtsSection ? (<SectionCourtsGrid language={language} courts={compatibleCourts} heading={isCourtsSection.TITLE} subheading={isCourtsSection.DESCRIPTION} />) : null
-    }
-    {
-  isContactSection ? (
-    <SectionContact
-      hiddenSubject
-      subject={isContactSection.SUBJECT}
-      language={language}
-      bgImage={isContactSection.BG_IMAGE}
-      image={isContactSection.IMAGE}
-      description={
-        court === "ACE_COURT"
-          ? aceCourtDescriptions[language] || aceCourtDescriptions.en
-          : isContactSection.DESCRIPTION || null
-      }
-    />
-  ) : null
-}
-</main>
+      />
+    )}
+
+    <!-- COURT GRID -->
+    {isCourtsSection && (
+      <SectionCourtsGrid
+        language={language}
+        courts={compatibleCourts}
+        heading={isCourtsSection.TITLE}
+        subheading={isCourtsSection.DESCRIPTION}
+      />
+    )}
+
+    <!-- CONTACT -->
+    {isContactSection && (
+      <SectionContact
+        hiddenSubject
+        subject={isContactSection.SUBJECT}
+        language={language}
+        bgImage={isContactSection.BG_IMAGE}
+        image={isContactSection.IMAGE}
+        description={
+          court === "ACE_COURT"
+            ? aceCourtDescriptions[language] || aceCourtDescriptions.en
+            : isContactSection.DESCRIPTION || null
+        }
+      />
+    )}
+  </main>
 </Layout>
 
 <style>
-
   .section-renders {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, minmax(150px, 1fr));
-    }
+  }
 
-  .front {
   @media (min-width: 1280px) {
     .image {
       -webkit-mask: linear-gradient(
@@ -452,30 +534,30 @@ const logoMargin =
       );
     }
   }
-  }
 </style>
 
 <script is:inline define:vars={{ featureImages }}>
   const updateFeatureImages = (featureImages) => {
-    // cambiar a la siguiente imagen cada 3 segundos
-
     let index = 0;
     setInterval(() => {
-      const currentImage = featureImages[index];
-      const nextImage = featureImages[index + 1] || featureImages[0];
-      const currentImageElement = document.getElementById(currentImage.id);
-      const nextImageElement = document.getElementById(nextImage.id);
+      const current = featureImages[index];
+      const next = featureImages[index + 1] || featureImages[0];
 
-      if (currentImageElement && nextImageElement) {
-        currentImageElement.classList.remove("opacity-100");
-        currentImageElement.classList.add("opacity-0");
-        nextImageElement.classList.remove("opacity-0");
-        nextImageElement.classList.add("opacity-100");
-        }
+      const currentEl = document.getElementById(current.id);
+      const nextEl = document.getElementById(next.id);
+
+      if (currentEl && nextEl) {
+        currentEl.classList.remove("opacity-100");
+        currentEl.classList.add("opacity-0");
+
+        nextEl.classList.remove("opacity-0");
+        nextEl.classList.add("opacity-100");
+      }
 
       index = index + 1;
       if (index === featureImages.length) index = 0;
     }, 3000);
   };
+
   featureImages.length && updateFeatureImages(featureImages);
 </script>
