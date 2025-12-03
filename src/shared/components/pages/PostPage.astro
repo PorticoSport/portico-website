@@ -3,7 +3,7 @@ import Layout from "@/shared/layouts/Layout.astro";
 import Typography from "@/shared/components/ui/Typography.astro";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 import Section from "@/shared/components/Section.astro";
-import { getI18N, getCurrentLocale } from "@/shared/i18n";
+import { getI18N, getCurrentLocale, getCategoryByLanguage } from "@/shared/i18n";
 import AuthorBox from "@/shared/components/AuthorBox.astro";
 
 interface Props {
@@ -16,6 +16,7 @@ interface Props {
 const { language, slug, BreadcrumbUrl, BreadcrumLabel } = Astro.props;
 const i18n = getI18N({ language });
 const currentLocale = getCurrentLocale({ language });
+const category = getCategoryByLanguage({ language });
 
 function convertDate(dateToconvert: string) {
   const options = { year: "numeric", month: "long", day: "numeric" };
@@ -23,10 +24,26 @@ function convertDate(dateToconvert: string) {
   return fecha.toLocaleDateString(i18n.LOCALE_DATE, options as any);
 }
 
-const response = await fetch(
-  `https://portico.porticosport.com/wp-json/wp/v2/posts?slug=${slug}&_embed`
-);
-const post = await response.json();
+let posts: any[] = [];
+
+try {
+  const response = await fetch(
+    `https://portico.porticosport.com/wp-json/wp/v2/posts?categories=${category}&per_page=15&_embed`,
+    { cache: "force-cache" }
+  );
+
+  if (!response.ok) {
+    console.error(`Error HTTP ${response.status}: ${await response.text()}`);
+  } else {
+    try {
+      posts = await response.json();
+    } catch (err) {
+      console.error("Respuesta no es JSON:", await response.text());
+    }
+  }
+} catch (err) {
+  console.error("Error en fetch:", err);
+}
 
 const {
   title: { rendered },
