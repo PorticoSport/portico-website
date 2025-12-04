@@ -141,17 +141,30 @@ heading1={i18n.PAGES.PARTNERS.TITLE} className="uppercase text-secondary" >
               ))
             }
             <img src="/Head-logo.png" alt="HEAD padel logo" class="invert absolute top-1 left-1/2 transform -translate-x-1/2 z-10 w-80"/>
-
           </div>
-                <div class="w-full xl:w-1/2 py-8 px-4 md:px-8 flex-1 z-10">
+
+          <div class="w-full xl:w-1/2 py-8 px-4 md:px-8 flex-1 z-10">
             <Typography tag="h2" className="mb-6 font-bold uppercase" text={i18n.PAGES.PARTNERS.PARTNER_2.TITLE} type="secondary" responsive />
             <Typography tag="div" className="mb-8" text={i18n.PAGES.PARTNERS.PARTNER_2.DESCRIPTION} responsive />
             <Typography tag="h3" className="mb-8" text={i18n.PAGES.PARTNERS.PARTNER_2.FIRST_SECTION.SUBTITLE} responsive />
             <Typography tag="div" className="mb-8" text={i18n.PAGES.PARTNERS.PARTNER_2.FIRST_SECTION.DESCRIPTION} responsive />
-      
+
             <FeatureList className="scale-75" list={i18n.PAGES.PARTNERS.PARTNER_2.FIRST_SECTION.LIST} />
             <Typography tag="h3" className="mb-8" text={i18n.PAGES.PARTNERS.PARTNER_2.SECOND_SECTION.SUBTITLE} responsive />
             <Typography tag="div" className="mb-8" text={i18n.PAGES.PARTNERS.PARTNER_2.SECOND_SECTION.DESCRIPTION} responsive />
+            
+            <!-- Botón para abrir el PDF -->
+            {language === "de" && i18n.PAGES.PARTNERS.PARTNER_2.PDF_BUTTON && (
+              <div class="mt-8">
+                <Button
+                  url="/pdfs/head-portico-partnership.pdf"
+                  title={i18n.PAGES.PARTNERS.PARTNER_2.PDF_BUTTON.TITLE}
+                  target="_blank"
+                >
+                  {i18n.PAGES.PARTNERS.PARTNER_2.PDF_BUTTON.TEXT}
+                </Button>
+              </div>
+            )}
           </div>
         </div>
       </Section>
