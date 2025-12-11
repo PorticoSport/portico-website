@@ -1,0 +1,555 @@
+---
+import Layout from "@/shared/layouts/Layout.astro";
+import SectionContact from "@/shared/components/sections/SectionContact.astro";
+import SectionCourtsGrid from "@/shared/components/sections/SectionCourtsGrid.astro";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import Video from "@/shared/components/Video.astro";
+import Typography from "@/shared/components/ui/Typography.astro";
+import Section from "@/shared/components/Section.astro";
+import Button from "@/shared/components/Button.astro";
+import { getI18N, getCurrentLocale } from "@/shared/i18n";
+import { courtsGrid } from "@/shared/i18n/constants";
+import FeatureList from "@/shared/components/FeatureList.astro";
+import Gallery from "@/shared/components/Gallery.astro";
+import { type Photo } from "@/types/types";
+import SectionFaqs from "@/shared/components/sections/SectionFaqs.astro";
+import HexagonCupLogo from "@/shared/components/logos/LogoHexagonCup.astro";
+import ContactForm from "@/shared/components/forms/ContactForm.astro";
+
+interface Props {
+    language: string;
+    modularUnitesGallery: Photo[];
+}
+
+const { language, modularUnitesGallery } = Astro.props;
+const i18n = getI18N({ language });
+const currentLocale = getCurrentLocale({ language });
+
+const compatibleCourts = courtsGrid(i18n).filter(
+    (item) => !item.title.toLowerCase().includes("mob") && !item.title.includes("80")
+);
+
+// Constantes para clases reutilizables
+const spacing = {
+    section: "py-16 md:py-24",
+    sectionLarge: "py-20 md:py-32",
+    container: "px-6 md:px-12 lg:px-16 max-w-7xl mx-auto",
+};
+
+const imageClasses = "w-full h-auto rounded-2xl shadow-2xl object-cover transition-all duration-500 hover:scale-[1.03] hover:shadow-3xl";
+const flexSectionClasses = "w-full flex flex-col md:flex-row justify-between items-center gap-12 lg:gap-16";
+const columnClasses = "w-full md:w-1/2";
+
+// Configuración de secciones para reducir repetición
+const imageSections = [
+    {
+        id: "experience",
+        imageSrc: "/hexagon-court/Hexagon-Court-1.webp",
+        imageAlt: "Cancha Hexagon Court en uso con jugadores disfrutando del juego",
+        imagePosition: "right",
+        bgColor: "bg-slate-100 text-black",
+        title: i18n.PAGES.HEXAGON_COURT.EXPERIENCE.TITLE,
+        description: i18n.PAGES.HEXAGON_COURT.EXPERIENCE.DESCRIPTION,
+        titleType: "black",
+    },
+    {
+        id: "supplier",
+        imageSrc: "/hexagon-court/Hexagon-Court-8.webp",
+        imageAlt: "Red profesional de Hexagon Court con estructura hexagonal",
+        imagePosition: "left",
+        bgColor: "",
+        title: i18n.PAGES.HEXAGON_COURT.SUPPLIER.TITLE,
+        description: i18n.PAGES.HEXAGON_COURT.SUPPLIER.DESCRIPTION,
+        titleType: "secondary",
+    },
+];
+---
+
+<Layout
+    title={i18n.PAGES.MODULAR_UNITS.SEO_TITLE}
+    description={i18n.PAGES.MODULAR_UNITS.SEO_DESCRIPTION}
+    ogImage={i18n.PAGES.MODULAR_UNITS.OG_IMG}
+    robots="index,follow"
+    currentLocale={currentLocale}
+    language={language}
+    >
+    <!-- HERO SECTION CON PARALLAX -->
+    <Section className="hero-section relative w-full max-w-none min-h-[650px] sm:min-h-[700px] md:h-[700px] lg:h-[750px] xl:h-[85vh] overflow-hidden">
+    <div class="hero-image-wrapper absolute inset-0">
+        <img
+            src="/hexagon-court/Hexagon-Court-7.webp"
+            alt="Cancha Hexagon Court panorámica con iluminación profesional"
+            class="absolute inset-0 w-full h-full object-cover scale-105"
+            loading="eager"
+            fetchpriority="high"
+        />
+    </div>
+
+    <!-- OVERLAY MEJORADO -->
+    <div class="absolute inset-0 bg-gradient-to-b from-black/75 via-black/60 to-black/40"></div>
+    <div class="absolute inset-0 bg-gradient-radial from-transparent via-transparent to-black/40"></div>
+
+    <!-- CONTENIDO -->
+    <div class="relative z-10 flex items-center justify-center min-h-full py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-12">
+        <header class="max-w-4xl text-center animate-fade-in w-full">
+            <Typography
+                tag="div"
+                type="white"
+                className="uppercase tracking-wide mb-2 sm:mb-3 md:mb-4 font-semibold text-xs sm:text-sm md:text-base"
+                text={i18n.PAGES.HEXAGON_COURT.SUBTITLE}
+                responsive
+            />
+
+            <Typography
+                tag="h1"
+                type="secondary"
+                className="uppercase mb-3 sm:mb-4 md:mb-6 font-extrabold drop-shadow-xl text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight"
+                text={i18n.PAGES.HEXAGON_COURT.TITLE}
+                responsive
+            />
+
+            <Typography
+                tag="p"
+                type="white"
+                className="mb-0 text-sm sm:text-base md:text-lg lg:text-xl font-medium drop-shadow-lg leading-relaxed px-2 sm:px-0"
+                text={i18n.PAGES.HEXAGON_COURT.DESCRIPTION}
+                responsive
+            />
+        </header>
+    </div>
+</Section>
+
+    <main class="flex flex-col gradient-bg relative">
+        <!-- LOGOS SECTION MEJORADA -->
+        <section class="bg-background w-full py-16 relative overflow-hidden" aria-label="Logos de partners">
+        <!-- Decorative elements -->
+        <div class="absolute top-0 left-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 right-0 w-96 h-96 bg-secondary/5 rounded-full blur-3xl"></div>
+        
+        <div class={spacing.container}>
+            <!-- LOGOS CON ANIMACIÓN -->
+            <div class="w-full flex justify-center md:justify-around items-center mb-16 gap-12 relative z-10">
+            <div class="transform hover:scale-110 transition-transform duration-300">
+                <img
+                src="/logos/ALPINExHEXAGON-FINAL2025-14.png"
+                alt="Logo de Alpine Hexagon Cup"
+                class="w-32 md:w-44 object-contain drop-shadow-xl"
+                loading="lazy"
+                />
+            </div>
+
+            <div class="transform hover:scale-110 transition-transform duration-300">
+                <img
+                src="/logo-portico-sport-white.svg"
+                alt="Logo de Portico Sport"
+                class="w-24 md:w-32 object-contain drop-shadow-xl"
+                loading="lazy"
+                />
+            </div>
+            </div>
+
+            <!-- IMÁGENES PRINCIPALES CON GRID MEJORADO -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 relative z-10">
+            <div class="image-reveal overflow-hidden rounded-2xl">
+                <img
+                src="/hexagon-court/Hexagon-Court-2.webp"
+                alt="Vista lateral de la cancha Hexagon Court con iluminación LED integrada"
+                class={imageClasses}
+                loading="lazy"
+                />
+            </div>
+
+            <div class="image-reveal overflow-hidden rounded-2xl">
+                <img
+                src="/hexagon-court/Hexagon-Court-3.webp"
+                alt="Detalle de la estructura modular de Hexagon Court"
+                class={imageClasses}
+                loading="lazy"
+                />
+            </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- SECCIONES DINÁMICAS MEJORADAS -->
+        {
+        imageSections.map((section, index) => (
+            <section
+            id={section.id}
+            aria-labelledby={`${section.id}-title`}
+            class={`w-full ${section.bgColor} ${spacing.section} relative overflow-hidden`}
+            >
+            <div class={`${spacing.container} relative z-10`}>
+                <div class={flexSectionClasses}>
+                {section.imagePosition === "left" && (
+                    <div class={`${columnClasses} image-reveal`}>
+                    <img src={section.imageSrc} alt={section.imageAlt} class={imageClasses} loading="lazy" />
+                    </div>
+                )}
+
+                <div class={`${columnClasses} text-reveal`}>
+                    <Typography
+                    tag="h2"
+                    id={`${section.id}-title`}
+                    type={section.titleType}
+                    className="uppercase mb-6 font-bold"
+                    text={section.title}
+                    responsive
+                    />
+
+                    <Typography 
+                    tag="p" 
+                    className="mb-6 leading-relaxed" 
+                    text={section.description} 
+                    responsive 
+                    />
+                </div>
+
+                {section.imagePosition === "right" && (
+                    <div class={`${columnClasses} image-reveal`}>
+                    <img src={section.imageSrc} alt={section.imageAlt} class={imageClasses} loading="lazy" />
+                    </div>
+                )}
+                </div>
+            </div>
+            </section>
+        ))
+        }
+
+        <!-- CANCHA ICÓNICA MEJORADA -->
+        <section
+        id="iconic"
+        aria-labelledby="iconic-title"
+        class={`w-full bg-slate-100 text-black ${spacing.section}`}
+        >
+        <div class={spacing.container}>
+            <div class={flexSectionClasses}>
+            <div class={columnClasses}>
+                <Typography
+                tag="h2"
+                id="iconic-title"
+                type="black"
+                className="uppercase mb-6 font-bold"
+                text={i18n.PAGES.HEXAGON_COURT.ICONIC.TITLE}
+                responsive
+                />
+
+                <Typography
+                tag="p"
+                className="mb-6 leading-relaxed"
+                text={i18n.PAGES.HEXAGON_COURT.ICONIC.DESCRIPTION}
+                responsive
+                />
+
+                <ul class="space-y-3 mb-6">
+                {
+                    i18n.PAGES.HEXAGON_COURT.ICONIC.LIST.map((item) => (
+                    <li class="flex items-start gap-3 group">
+                        <span class="leading-relaxed">{item}</span>
+                    </li>
+                    ))
+                }
+                </ul>
+
+                <Typography
+                tag="p"
+                className="mb-6 leading-relaxed"
+                text={i18n.PAGES.HEXAGON_COURT.ICONIC.DESCRIPTION_2}
+                responsive
+                />
+            </div>
+
+            <div class={columnClasses}>
+                <img
+                src="/hexagon-court/Hexagon-Court-10.webp"
+                alt="Vista aérea de la cancha Hexagon Court mostrando su diseño hexagonal único"
+                class={imageClasses}
+                loading="lazy"
+                />
+            </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- CARACTERÍSTICAS CON DISEÑO MODERNO -->
+        <section 
+        id="features" 
+        aria-labelledby="features-title" 
+        class={`w-full ${spacing.section}`}
+        >
+        <div class={`${spacing.container}`}>
+            <div class="w-full flex flex-col gap-20">
+            <!-- BLOQUE 1 -->
+            <div class={flexSectionClasses}>
+                <div class={columnClasses}>
+                <img
+                    src="/hexagon-court/Hexagon-Court-11.webp"
+                    alt="Sistema de iluminación LED profesional de Hexagon Court"
+                    class={imageClasses}
+                    loading="lazy"
+                />
+                </div>
+
+                <div class={columnClasses}>
+                <Typography
+                    tag="h2"
+                    id="features-title"
+                    type="secondary"
+                    className="uppercase mb-6 font-bold"
+                    text={i18n.PAGES.HEXAGON_COURT.FEATURE.TITLE}
+                    responsive
+                />
+
+                <Typography
+                    tag="p"
+                    className="mb-6 leading-relaxed"
+                    text={i18n.PAGES.HEXAGON_COURT.FEATURE.DESCRIPTION}
+                    responsive
+                />
+                </div>
+            </div>
+
+            <!-- BLOQUE 2 -->
+            <div class={flexSectionClasses}>
+                <div class={columnClasses}>
+                <Typography
+                    tag="h3"
+                    type="secondary"
+                    className="uppercase mb-6 font-bold"
+                    text={i18n.PAGES.HEXAGON_COURT.FEATURE.TITLE_2}
+                    responsive
+                />
+
+                <ul class="list-disc pl-6 flex flex-col gap-3 mb-6">
+                    {
+                    i18n.PAGES.HEXAGON_COURT.FEATURE.LIST.map((item) => (
+                        <li class="text-white/90 leading-relaxed">{item}</li>
+                    ))
+                    }
+                </ul>
+                </div>
+
+                <div class={columnClasses}>
+                <img
+                    src="/hexagon-court/Hexagon-Court-4.webp"
+                    alt="Instalación completa de Hexagon Court lista para usar"
+                    class={imageClasses}
+                    loading="lazy"
+                />
+                </div>
+            </div>
+
+            <!-- BLOQUE 3 -->
+            <div class={flexSectionClasses}>
+                <div class={columnClasses}>
+                <img
+                    src="/hexagon-court/Hexagon-Court-9.webp"
+                    alt="Detalles técnicos y construcción de Hexagon Court"
+                    class={imageClasses}
+                    loading="lazy"
+                />
+                </div>
+
+                <div class={columnClasses}>
+                <Typography
+                    tag="h3"
+                    type="secondary"
+                    className="uppercase mb-6 font-bold"
+                    text={i18n.PAGES.HEXAGON_COURT.FEATURE.TITLE_3}
+                    responsive
+                />
+
+                <ul class="list-disc pl-6 flex flex-col gap-3 mb-6">
+                    {
+                    i18n.PAGES.HEXAGON_COURT.FEATURE.LIST_DOS.map((item) => (
+                        <li class="text-white/90 leading-relaxed">{item}</li>
+                    ))
+                    }
+                </ul>
+                </div>
+            </div>
+
+            <!-- BLOQUE 4 -->
+            <div class={flexSectionClasses}>
+                <div class={columnClasses}>
+                <Typography
+                    tag="h3"
+                    type="secondary"
+                    className="uppercase mb-6 font-bold"
+                    text={i18n.PAGES.HEXAGON_COURT.FEATURE.TITLE_4}
+                    responsive
+                />
+
+                <ul class="list-disc pl-6 flex flex-col gap-3 mb-6">
+                    {
+                    i18n.PAGES.HEXAGON_COURT.FEATURE.LIST_TRES?.map((item) => (
+                        <li class="text-white/90 leading-relaxed">{item}</li>
+                    )) || i18n.PAGES.HEXAGON_COURT.FEATURE.LIST_DOS.map((item) => (
+                        <li class="text-white/90 leading-relaxed">{item}</li>
+                    ))
+                    }
+                </ul>
+                </div>
+
+                <div class={columnClasses}>
+                <img
+                    src="/hexagon-court/Hexagon-Court-6.webp"
+                    alt="Vista nocturna de Hexagon Court con iluminación completa"
+                    class={imageClasses}
+                    loading="lazy"
+                />
+                </div>
+            </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- ESPECIFICACIONES CON CARDS MODERNAS -->
+        <section
+        id="specifications"
+        aria-labelledby="specs-title"
+        class={`w-full bg-slate-100 text-black ${spacing.sectionLarge}`}
+        >
+        <div class={spacing.container}>
+            <!-- TÍTULO CON ANIMACIÓN -->
+            <div class="text-center mb-12">
+            <Typography
+                tag="h2"
+                id="specs-title"
+                type="black"
+                className="uppercase font-bold"
+                text={i18n.PAGES.HEXAGON_COURT.SPECIFICATIONS.TITLE}
+                responsive
+            />
+            </div>
+
+            <!-- CARDS CON GLASSMORPHISM -->
+            <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- CARD 1 -->
+            <article class="spec-card group relative p-8 bg-white/60 backdrop-blur-sm rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 border border-gray-200/50 hover:border-primary/50 hover:-translate-y-2">
+                <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-secondary rounded-t-2xl"></div>
+                
+                <Typography
+                tag="h3"
+                type="black"
+                className="uppercase font-bold mb-6 text-center"
+                text={i18n.PAGES.HEXAGON_COURT.SPECIFICATIONS.TITLE_2}
+                responsive
+                />
+
+                <ul class="space-y-3">
+                {i18n.PAGES.HEXAGON_COURT.SPECIFICATIONS.LIST.map((item) => (
+                    <li class="flex items-start gap-3">
+                    <span class="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></span>
+                    <span class="leading-relaxed">{item}</span>
+                    </li>
+                ))}
+                </ul>
+            </article>
+
+            <!-- CARD 2 -->
+            <article class="spec-card group relative p-8 bg-white/60 backdrop-blur-sm rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 border border-gray-200/50 hover:border-primary/50 hover:-translate-y-2">
+                <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-secondary rounded-t-2xl"></div>
+                
+                <Typography
+                tag="h3"
+                type="black"
+                className="uppercase font-bold mb-6 text-center"
+                text={i18n.PAGES.HEXAGON_COURT.SPECIFICATIONS.TITLE_3}
+                responsive
+                />
+
+                <Typography
+                tag="p"
+                className="mb-4 leading-relaxed"
+                text={i18n.PAGES.HEXAGON_COURT.SPECIFICATIONS.DESCRIPTION}
+                responsive
+                />
+
+                <ul class="space-y-3">
+                {i18n.PAGES.HEXAGON_COURT.SPECIFICATIONS.LIST_DOS.map((item) => (
+                    <li class="flex items-start gap-3">
+                    <span class="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></span>
+                    <span class="leading-relaxed">{item}</span>
+                    </li>
+                ))}
+                </ul>
+            </article>
+
+            <!-- CARD 3 -->
+            <article class="spec-card group relative p-8 bg-white/60 backdrop-blur-sm rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 border border-gray-200/50 hover:border-primary/50 hover:-translate-y-2">
+                <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-secondary rounded-t-2xl"></div>
+                
+                <Typography
+                tag="h3"
+                type="black"
+                className="uppercase font-bold mb-6 text-center"
+                text={i18n.PAGES.HEXAGON_COURT.SPECIFICATIONS.TITLE_4}
+                responsive
+                />
+
+                <ul class="space-y-3">
+                {i18n.PAGES.HEXAGON_COURT.SPECIFICATIONS.LIST_TRES.map((item) => (
+                    <li class="flex items-start gap-3">
+                    <span class="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></span>
+                    <span class="leading-relaxed">{item}</span>
+                    </li>
+                ))}
+                </ul>
+            </article>
+            </div>
+        </div>
+        </section>
+
+        <!-- QUÉ ES HEXAGON - FINAL IMPACTANTE -->
+        <section
+            id="what-is-hexagon"
+            aria-labelledby="what-is-title"
+            class={`w-full ${spacing.section}`}
+        >
+            <div class="px-6 md:px-12 lg:px-20 xl:px-32 max-w-[1600px] mx-auto">
+                <div class="w-full flex flex-col md:flex-row justify-between items-center gap-8 md:gap-12 lg:gap-20">
+                    <!-- TEXTO -->
+                    <div class="w-full md:w-[48%] lg:w-[50%]">
+                        <Typography
+                            tag="h2"
+                            id="what-is-title"
+                            type="secondary"
+                            className="uppercase font-bold mb-6"
+                            text={i18n.PAGES.HEXAGON_COURT.WHAT_IS_HEXAGON.TITLE}
+                            responsive
+                        />
+
+                        <Typography
+                            tag="p"
+                            type="primary"
+                            className="leading-relaxed"
+                            text={i18n.PAGES.HEXAGON_COURT.WHAT_IS_HEXAGON.DESCRIPTION}
+                            responsive
+                        />
+                    </div>
+
+                    <!-- IMAGEN -->
+                    <div class="flex-grow">
+                        <img
+                            src="/hexagon-court/Hexagon-Court-9.webp"
+                            alt="Cancha Hexagon Court en ambiente profesional con branding completo"
+                            class="w-full h-auto object-cover rounded-2xl shadow-2xl"
+                            loading="lazy"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE CONTACTO -->
+        <SectionContact
+            hiddenSubject
+            subject="Hexagon Cup Court Inquiry"
+            language={language}
+            bgImage="/hexagon-court/Hexagon-Court-7.webp"
+            title={i18n.PAGES.HEXAGON_COURT.CONTACT.TITLE}
+            description={i18n.PAGES.HEXAGON_COURT.CONTACT.DESCRIPTION}
+        />
+    </main>
+</Layout>
