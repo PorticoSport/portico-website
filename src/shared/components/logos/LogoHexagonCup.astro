@@ -1,4 +1,18 @@
-<svg viewBox="0 0 500 206" xmlns="http://www.w3.org/2000/svg">
+---
+
+interface Props {
+  class?: string;
+}
+
+const { class: className = "" } = Astro.props;
+---
+
+<svg 
+  class={className}
+  viewBox="0 0 500 206" 
+  xmlns="http://www.w3.org/2000/svg"
+  aria-label="Hexagon Cup Official Court Logo"
+>
   <defs>
     <linearGradient id="paint0_linear_808_683" x1="0" y1="24.997" x2="44.3746" y2="24.997" gradientUnits="userSpaceOnUse" gradientTransform="matrix(4.12465, 0, 0, 4.12465, 0.458377, -0.118079)">
       <stop stop-color="#D7FF4B"></stop>
