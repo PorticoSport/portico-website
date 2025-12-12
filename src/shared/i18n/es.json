@@ -2894,8 +2894,8 @@
     "PARTNER_1": {
       "ID": "hexagon-partner",
       "TITLE": "Portico Sport - Pista oficial de pádel de la Hexagon Cup",
-      "SUBTITLE": "La pista oficial de pádel de la Alpine Hexagon Cup - Ahora disponible para tu club",
-      "DESCRIPTION": "<p>La <strong> <a href=https://www.hexagoncup.com/>Alpine Hexagon Cup</a> </strong> es la competición privada por equipos más dinámica del mundo, redefiniendo el pádel profesional con su formato innovador y su atmósfera electrizante.</p><p>Como <strong>pista oficial, Portico Sport</strong> diseñó la <strong>pista morada característica del torneo</strong>, diseñada para un rendimiento de élite, durabilidad y visibilidad óptima para jugadores, espectadores y retransmisiones.</p>",
+      "SUBTITLE": "La pista oficial de pádel de la Hexagon Cup - Ahora disponible para tu club",
+      "DESCRIPTION": "<p>La <strong> <a href=https://www.hexagoncup.com/>Hexagon Cup</a> </strong> es la competición privada por equipos más dinámica del mundo, redefiniendo el pádel profesional con su formato innovador y su atmósfera electrizante.</p><p>Como <strong>pista oficial, Portico Sport</strong> diseñó la <strong>pista morada característica del torneo</strong>, diseñada para un rendimiento de élite, durabilidad y visibilidad óptima para jugadores, espectadores y retransmisiones.</p>",
       "IMAGES": [{
         "id": "slide-1",
         "src": "/partners/hexagon/Hexagon-01.webp",
@@ -2914,12 +2914,12 @@
         "alt": "Pista oficial de pádel de Hexagon Cup"
       }],
       "BUTTON": {
-        "TEXT": "Descubre la pista oficial de la Alpine Hexagon Cup",
+        "TEXT": "Descubre la pista oficial de la Hexagon Cup",
         "URL": "https://hexagoncup.porticosport.com/",
         "TITLE": "Pista oficial de Hexagon Cup"
       },
-      "SUBTITLE_2": "La pista oficial de pádel de la Alpine Hexagon Cup - Ahora disponible para tu club",
-      "DESCRIPTION_2": "<p>Ahora, los clubes pueden llevar la <strong>experiencia de la Alpine Hexagon Cup</strong> a sus instalaciones con <strong>pistas exclusivas con la marca Hexagon.</strong> Construidas con estándares profesionales, estas pistas mejoran la jugabilidad y conectan tu club con uno de los eventos más emocionantes del pádel.</p><p><strong>Mejora tu instalación con la misma pista que ha acogido a algunos de los mejores jugadores de pádel del mundo.</strong></p>"
+      "SUBTITLE_2": "La pista oficial de pádel de la Hexagon Cup - Ahora disponible para tu club",
+      "DESCRIPTION_2": "<p>Ahora, los clubes pueden llevar la <strong>experiencia de la Hexagon Cup</strong> a sus instalaciones con <strong>pistas exclusivas con la marca Hexagon.</strong> Construidas con estándares profesionales, estas pistas mejoran la jugabilidad y conectan tu club con uno de los eventos más emocionantes del pádel.</p><p><strong>Mejora tu instalación con la misma pista que ha acogido a algunos de los mejores jugadores de pádel del mundo.</strong></p>"
     },
       "PARTNER_2": {
     "ID": "head",
