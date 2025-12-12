@@ -2669,8 +2669,8 @@
     "PARTNER_1": {
       "ID": "hexagon-partner",
       "TITLE": "Portico Sport - Terrain de padel officiel de la Hexagon Cup",
-      "SUBTITLE": "Le terrain officiel de padel de l'Alpine Hexagon Cup - Maintenant disponible pour votre club",
-      "DESCRIPTION": "<p>La <strong><a href=https://www.hexagoncup.com/>Alpine Hexagon Cup</a></strong> est la compétition privée par équipes la plus dynamique au monde, redéfinissant le padel professionnel avec son format innovant et son ambiance électrisante.</p><p>En tant que <strong>terrain officiel, Portico Sport</strong> a conçu le <strong>terrain violet emblématique du tournoi</strong>, conçu pour une performance élite, une durabilité et une visibilité optimale pour les joueurs, les spectateurs et les diffuseurs.</p>",
+      "SUBTITLE": "Le terrain officiel de padel de Hexagon Cup - Maintenant disponible pour votre club",
+      "DESCRIPTION": "<p>La <strong><a href=https://www.hexagoncup.com/>Hexagon Cup</a></strong> est la compétition privée par équipes la plus dynamique au monde, redéfinissant le padel professionnel avec son format innovant et son ambiance électrisante.</p><p>En tant que <strong>terrain officiel, Portico Sport</strong> a conçu le <strong>terrain violet emblématique du tournoi</strong>, conçu pour une performance élite, une durabilité et une visibilité optimale pour les joueurs, les spectateurs et les diffuseurs.</p>",
       "IMAGES": [{
         "id": "slide-1",
         "src": "/partners/hexagon/Hexagon-01.webp",
@@ -2689,12 +2689,12 @@
         "alt": "Terrain de padel officiel de la Hexagon Cup"
       }],
       "BUTTON": {
-        "TEXT": "Découvrez le terrain officiel de l'Alpine Hexagon Cup",
+        "TEXT": "Découvrez le terrain officiel de Hexagon Cup",
         "URL": "https://hexagoncup.porticosport.com/",
         "TITLE": "Terrain officiel de la Hexagon Cup"
       },
-      "SUBTITLE_2": "Le terrain officiel de padel de l'Alpine Hexagon Cup - Maintenant disponible pour votre club",
-      "DESCRIPTION_2": "<p>Maintenant, les clubs peuvent apporter <strong>l'expérience de l'Alpine Hexagon Cup</strong> à leurs installations avec des <strong>terrains exclusifs aux couleurs de Hexagon.</strong> Construits selon des normes professionnelles, ces terrains améliorent le jeu et connectent votre club à l'un des événements les plus excitants du padel.</p><p><strong>Améliorez votre installation avec le même terrain qui a accueilli certains des meilleurs joueurs de padel au monde.</strong></p>"
+      "SUBTITLE_2": "Le terrain officiel de padel de Hexagon Cup - Maintenant disponible pour votre club",
+      "DESCRIPTION_2": "<p>Maintenant, les clubs peuvent apporter <strong>l'expérience de Hexagon Cup</strong> à leurs installations avec des <strong>terrains exclusifs aux couleurs de Hexagon.</strong> Construits selon des normes professionnelles, ces terrains améliorent le jeu et connectent votre club à l'un des événements les plus excitants du padel.</p><p><strong>Améliorez votre installation avec le même terrain qui a accueilli certains des meilleurs joueurs de padel au monde.</strong></p>"
     },
     "PARTNER_2": {
     "ID": "head",
