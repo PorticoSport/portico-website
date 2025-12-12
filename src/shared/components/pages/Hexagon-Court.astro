@@ -15,6 +15,7 @@ import { type Photo } from "@/types/types";
 import SectionFaqs from "@/shared/components/sections/SectionFaqs.astro";
 import HexagonCupLogo from "@/shared/components/logos/LogoHexagonCup.astro";
 import ContactForm from "@/shared/components/forms/ContactForm.astro";
+import SectionSliderGallery from "@/shared/components/sections/SectionSliderGallery.astro";
 
 interface Props {
     language: string;
@@ -54,7 +55,7 @@ const imageSections = [
     },
     {
         id: "supplier",
-        imageSrc: "/hexagon-court/Hexagon-Court-8.webp",
+        imageSrc: "/hexagon-court/Hexagon-Court-3.webp",
         imageAlt: "Red profesional de Hexagon Court con estructura hexagonal",
         imagePosition: "left",
         bgColor: "",
@@ -63,112 +64,140 @@ const imageSections = [
         titleType: "secondary",
     },
 ];
+
+const hexagonGallery: Photo[] = [
+    {
+        src: "Hexagon-Court-1.webp",
+        width: 1920,
+        height: 1280,
+        alt: "Cancha Hexagon Court vista frontal"
+    },
+    {
+        src: "Hexagon-Court-9.webp",
+        width: 1920,
+        height: 1280,
+        alt: "Vista lateral de Hexagon Court"
+    },
+    {
+        src: "/Hexagon-Court-3.webp",
+        width: 1920,
+        height: 1280,
+        alt: "Detalle estructura modular"
+    },
+    {
+        src: "Hexagon-Court-2.webp",
+        width: 1920,
+        height: 1280,
+        alt: "Hexagon Court instalada"
+    },
+    {
+        src: "Hexagon-Court-7.webp",
+        width: 1920,
+        height: 1280,
+        alt: "Vista nocturna con iluminación"
+    },
+    {
+        src: "Hexagon-Court-8.webp",
+        width: 1920,
+        height: 1280,
+        alt: "Hexagon Court en uso"
+    },
+    {
+        src: "Hexagon-Court-13.webp",
+        width: 1920,
+        height: 1280,
+        alt: "Red profesional Hexagon Court"
+    },
+    {
+        src: "Hexagon-Court-14.webp",
+        width: 1920,
+        height: 1280,
+        alt: "Detalles técnicos"
+    }
+];
 ---
 
 <Layout
-    title={i18n.PAGES.MODULAR_UNITS.SEO_TITLE}
-    description={i18n.PAGES.MODULAR_UNITS.SEO_DESCRIPTION}
-    ogImage={i18n.PAGES.MODULAR_UNITS.OG_IMG}
+    title={i18n.PAGES.HEXAGON_COURT.SEO_TITLE}
+    description={i18n.PAGES.HEXAGON_COURT.SEO_DESCRIPTION}
+    ogImage={i18n.PAGES.HEXAGON_COURT.OG_IMG}
     robots="index,follow"
     currentLocale={currentLocale}
     language={language}
     >
     <!-- HERO SECTION CON PARALLAX -->
     <Section className="hero-section relative w-full max-w-none min-h-[650px] sm:min-h-[700px] md:h-[700px] lg:h-[750px] xl:h-[85vh] overflow-hidden">
-    <div class="hero-image-wrapper absolute inset-0">
-        <img
-            src="/hexagon-court/Hexagon-Court-7.webp"
-            alt="Cancha Hexagon Court panorámica con iluminación profesional"
-            class="absolute inset-0 w-full h-full object-cover scale-105"
-            loading="eager"
-            fetchpriority="high"
-        />
-    </div>
-
-    <!-- OVERLAY MEJORADO -->
-    <div class="absolute inset-0 bg-gradient-to-b from-black/75 via-black/60 to-black/40"></div>
-    <div class="absolute inset-0 bg-gradient-radial from-transparent via-transparent to-black/40"></div>
-
-    <!-- CONTENIDO -->
-    <div class="relative z-10 flex items-center justify-center min-h-full py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-12">
-        <header class="max-w-4xl text-center animate-fade-in w-full">
-            <Typography
-                tag="div"
-                type="white"
-                className="uppercase tracking-wide mb-2 sm:mb-3 md:mb-4 font-semibold text-xs sm:text-sm md:text-base"
-                text={i18n.PAGES.HEXAGON_COURT.SUBTITLE}
-                responsive
+        <div class="hero-image-wrapper absolute inset-0">
+            <img
+                src="/hexagon-court/Hexagon-Court-11.webp"
+                alt="Cancha Hexagon Court panorámica con iluminación profesional"
+                class="absolute inset-0 w-full h-full object-cover scale-105"
+                loading="eager"
+                fetchpriority="high"
             />
+        </div>
 
-            <Typography
-                tag="h1"
-                type="secondary"
-                className="uppercase mb-3 sm:mb-4 md:mb-6 font-extrabold drop-shadow-xl text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight"
-                text={i18n.PAGES.HEXAGON_COURT.TITLE}
-                responsive
-            />
+        <!-- OVERLAY MEJORADO con degradado más fuerte arriba -->
+        <div class="absolute inset-0 bg-gradient-to-b from-black/85 via-black/50 to-transparent"></div>
 
-            <Typography
-                tag="p"
-                type="white"
-                className="mb-0 text-sm sm:text-base md:text-lg lg:text-xl font-medium drop-shadow-lg leading-relaxed px-2 sm:px-0"
-                text={i18n.PAGES.HEXAGON_COURT.DESCRIPTION}
-                responsive
-            />
-        </header>
-    </div>
-</Section>
+        <!-- CONTENIDO alineado arriba -->
+        <div class="relative z-10 flex items-start justify-center min-h-full pt-20 sm:pt-24 md:pt-28 lg:pt-32 px-4 sm:px-6 md:px-12">
+            <header class="max-w-4xl text-center animate-fade-in w-full">
+                <Typography
+                    tag="div"
+                    type="white"
+                    className="uppercase tracking-wide mb-2 sm:mb-3 md:mb-4 font-semibold text-xs sm:text-sm md:text-base"
+                    text={i18n.PAGES.HEXAGON_COURT.SUBTITLE}
+                    responsive
+                />
+
+                <Typography
+                    tag="h1"
+                    type="secondary"
+                    className="uppercase mb-3 sm:mb-4 md:mb-6 font-extrabold drop-shadow-xl text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl leading-tight"
+                    text={i18n.PAGES.HEXAGON_COURT.TITLE}
+                    responsive
+                />
+
+                <Typography
+                    tag="p"
+                    type="white"
+                    className="mb-0 text-sm sm:text-base md:text-lg lg:text-xl font-medium drop-shadow-lg leading-relaxed px-2 sm:px-0"
+                    text={i18n.PAGES.HEXAGON_COURT.DESCRIPTION}
+                    responsive
+                />
+            </header>
+        </div>
+    </Section>
 
     <main class="flex flex-col gradient-bg relative">
         <!-- LOGOS SECTION MEJORADA -->
-        <section class="bg-background w-full py-16 relative overflow-hidden" aria-label="Logos de partners">
-        <!-- Decorative elements -->
-        <div class="absolute top-0 left-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl"></div>
-        <div class="absolute bottom-0 right-0 w-96 h-96 bg-secondary/5 rounded-full blur-3xl"></div>
-        
-        <div class={spacing.container}>
-            <!-- LOGOS CON ANIMACIÓN -->
-            <div class="w-full flex justify-center md:justify-around items-center mb-16 gap-12 relative z-10">
-            <div class="transform hover:scale-110 transition-transform duration-300">
-                <img
-                src="/logos/ALPINExHEXAGON-FINAL2025-14.png"
-                alt="Logo de Alpine Hexagon Cup"
-                class="w-32 md:w-44 object-contain drop-shadow-xl"
-                loading="lazy"
-                />
-            </div>
+        <section class="bg-slate-100 w-full py-16 relative overflow-hidden" aria-label="Logos de partners">
+            <!-- Decorative elements -->
+            <div class="absolute top-0 left-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl"></div>
+            <div class="absolute bottom-0 right-0 w-96 h-96 bg-secondary/5 rounded-full blur-3xl"></div>
+            
+            <div class={spacing.container}>
+                <!-- LOGOS CON ANIMACIÓN -->
+                <div class="w-full flex justify-center md:justify-around items-center mb-16 gap-8 md:gap-12 relative z-10">
+                    <div class="group transform hover:scale-105 transition-all duration-300 relative">
+                        <a href="/partners" id="logo-hexagon-cup" class="block p-8 rounded-3xl bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 shadow-2xl hover:shadow-3xl transition-all duration-300 border border-white/10">
+                            <HexagonCupLogo class="w-32 h-32 md:w-40 md:h-40" />
+                        </a>
+                    </div>
 
-            <div class="transform hover:scale-110 transition-transform duration-300">
-                <img
-                src="/logo-portico-sport-white.svg"
-                alt="Logo de Portico Sport"
-                class="w-24 md:w-32 object-contain drop-shadow-xl"
-                loading="lazy"
-                />
+                    <div class="group transform hover:scale-105 transition-all duration-300">
+                        <div class="p-8 rounded-3xl bg-white shadow-2xl hover:shadow-3xl transition-all duration-300 border border-slate-200">
+                            <img
+                            src="/logo-portico-sport.svg"
+                            alt="Logo de Portico Sport"
+                            class="w-32 h-32 md:w-40 md:h-40 object-contain"
+                            loading="lazy"
+                            />
+                        </div>
+                    </div>
+                </div>
             </div>
-            </div>
-
-            <!-- IMÁGENES PRINCIPALES CON GRID MEJORADO -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 relative z-10">
-            <div class="image-reveal overflow-hidden rounded-2xl">
-                <img
-                src="/hexagon-court/Hexagon-Court-2.webp"
-                alt="Vista lateral de la cancha Hexagon Court con iluminación LED integrada"
-                class={imageClasses}
-                loading="lazy"
-                />
-            </div>
-
-            <div class="image-reveal overflow-hidden rounded-2xl">
-                <img
-                src="/hexagon-court/Hexagon-Court-3.webp"
-                alt="Detalle de la estructura modular de Hexagon Court"
-                class={imageClasses}
-                loading="lazy"
-                />
-            </div>
-            </div>
-        </div>
         </section>
 
         <!-- SECCIONES DINÁMICAS MEJORADAS -->
@@ -342,12 +371,12 @@ const imageSections = [
             <!-- BLOQUE 3 -->
             <div class={flexSectionClasses}>
                 <div class={columnClasses}>
-                <img
-                    src="/hexagon-court/Hexagon-Court-9.webp"
-                    alt="Detalles técnicos y construcción de Hexagon Court"
-                    class={imageClasses}
-                    loading="lazy"
-                />
+                    <img
+                        src="/hexagon-court/Hexagon-Court-12.webp"
+                        alt="Detalles técnicos y construcción de Hexagon Court"
+                        class={`${imageClasses} max-h-[400px] md:max-h-[500px] object-cover`}
+                        loading="lazy"
+                    />
                 </div>
 
                 <div class={columnClasses}>
@@ -501,46 +530,65 @@ const imageSections = [
         </div>
         </section>
 
+        <section 
+            id="gallery" 
+            aria-labelledby="gallery-title"
+            class={`w-full ${spacing.section} bg-gradient-to-b from-slate-100 to-slate-900`}
+        >
+            <div class={spacing.container}>
+                
+                
+                <SectionSliderGallery 
+                    photos={hexagonGallery}
+                    offset={hexagonGallery.length}
+                    path="hexagon-court"
+                />
+            </div>
+        </section>
+
         <!-- QUÉ ES HEXAGON - FINAL IMPACTANTE -->
         <section
             id="what-is-hexagon"
             aria-labelledby="what-is-title"
             class={`w-full ${spacing.section}`}
-        >
-            <div class="px-6 md:px-12 lg:px-20 xl:px-32 max-w-[1600px] mx-auto">
-                <div class="w-full flex flex-col md:flex-row justify-between items-center gap-8 md:gap-12 lg:gap-20">
-                    <!-- TEXTO -->
-                    <div class="w-full md:w-[48%] lg:w-[50%]">
-                        <Typography
-                            tag="h2"
-                            id="what-is-title"
-                            type="secondary"
-                            className="uppercase font-bold mb-6"
-                            text={i18n.PAGES.HEXAGON_COURT.WHAT_IS_HEXAGON.TITLE}
-                            responsive
-                        />
+            >
+            <div class="max-w-[1500px] mx-auto px-6 md:px-12 lg:px-20 xl:px-28">
+                
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                
+                {/* TEXTO */}
+                <div class="w-full md:max-w-[600px] flex-shrink-0">
+                    <Typography
+                    tag="h2"
+                    id="what-is-title"
+                    type="secondary"
+                    className="uppercase font-bold mb-6"
+                    text={i18n.PAGES.HEXAGON_COURT.WHAT_IS_HEXAGON.TITLE}
+                    responsive
+                    />
 
-                        <Typography
-                            tag="p"
-                            type="primary"
-                            className="leading-relaxed"
-                            text={i18n.PAGES.HEXAGON_COURT.WHAT_IS_HEXAGON.DESCRIPTION}
-                            responsive
-                        />
-                    </div>
+                    <Typography
+                    tag="p"
+                    type="primary"
+                    className="leading-relaxed"
+                    text={i18n.PAGES.HEXAGON_COURT.WHAT_IS_HEXAGON.DESCRIPTION}
+                    responsive
+                    />
+                </div>
 
-                    <!-- IMAGEN -->
-                    <div class="flex-grow">
-                        <img
-                            src="/hexagon-court/Hexagon-Court-9.webp"
-                            alt="Cancha Hexagon Court en ambiente profesional con branding completo"
-                            class="w-full h-auto object-cover rounded-2xl shadow-2xl"
-                            loading="lazy"
-                        />
-                    </div>
+                {/* IMAGEN */}
+                <div class="w-full flex-1">
+                    <img
+                    src="/hexagon-court/Hexagon-Court-11.webp"
+                    alt="Cancha Hexagon Court en ambiente profesional con branding completo"
+                    class="w-full h-auto rounded-2xl shadow-2xl object-cover"
+                    loading="lazy"
+                    />
+                </div>
+
                 </div>
             </div>
-        </section>
+            </section>
 
         <!-- SECCIÓN DE CONTACTO -->
         <SectionContact
