@@ -5215,8 +5215,8 @@
       "PARTNER_1":{
         "ID":"hexagon-partner",
         "TITLE":"Portico Sport - Official padel court of the Hexagon Cup",
-        "SUBTITLE":"The Official Alpine Hexagon Cup Padel Court - Now Available for Your Club",
-        "DESCRIPTION":"<p>The <strong> <a href=https://www.hexagoncup.com/>Alpine Hexagon Cup</a> </strong> is the world’s most dynamic private team competition, redefining professional padel with its innovative format and electrifying atmosphere.</p><p>As the <strong>official court, Portico Sport</strong> designed the tournament’s<strong> signature purple court</strong>t— engineered for elite performance, durability, and optimal visibility for players, spectators, and broadcasters.</p>",
+        "SUBTITLE":"The Official Hexagon Cup Padel Court - Now Available for Your Club",
+        "DESCRIPTION":"<p>The <strong> <a href=https://www.hexagoncup.com/>Hexagon Cup</a> </strong> is the world’s most dynamic private team competition, redefining professional padel with its innovative format and electrifying atmosphere.</p><p>As the <strong>official court, Portico Sport</strong> designed the tournament’s<strong> signature purple court</strong>t— engineered for elite performance, durability, and optimal visibility for players, spectators, and broadcasters.</p>",
         "IMAGES": [{
           "id": "slide-1",
           "src": "/partners/hexagon/Hexagon-01.webp",
@@ -5236,12 +5236,12 @@
         }],
         "BUTTON":
         {
-          "TEXT":"Discover the Alpine Hexagon Cup Official Court",
-          "URL":"https://hexagoncup.porticosport.com/",
+          "TEXT":"Discover the Hexagon Cup Official Court",
+          "URL":"https://www.porticosport.com/hexagon-court",
           "TITLE":"Hexagon Cup Official Court"
         },
-        "SUBTITLE_2":"The Official Alpine Hexagon Cup Padel Court - Now Available for Your Club",
-        "DESCRIPTION_2":"<p>Now, clubs can bring the <strong> Alpine Hexagon Cup experience</strong> to their facilities with exclusive <strong>Hexagon-branded courts.</strong> Built to professional standards, these courts enhance playability and connect your club to one of padel’s most exciting events.</p><p><strong>Upgrade your facility with the same court that hosted some of the world’s best padel players.</strong></p>"
+        "SUBTITLE_2":"The Official Hexagon Cup Padel Court - Now Available for Your Club",
+        "DESCRIPTION_2":"<p>Now, clubs can bring the <strong> Hexagon Cup experience</strong> to their facilities with exclusive <strong>Hexagon-branded courts.</strong> Built to professional standards, these courts enhance playability and connect your club to one of padel’s most exciting events.</p><p><strong>Upgrade your facility with the same court that hosted some of the world’s best padel players.</strong></p>"
       },
 "PARTNER_2": {
         "ID": "head",
