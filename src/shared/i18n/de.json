@@ -2738,8 +2738,8 @@
     "PARTNER_1": {
       "ID": "hexagon-partner",
       "TITLE": "Portico Sport - Offizieller Padelplatz des Hexagon Cups",
-      "SUBTITLE": "Der offizielle Alpine Hexagon Cup Padelplatz - Jetzt für Ihren Club verfügbar",
-      "DESCRIPTION": "<p>Der <strong><a href=\"https://www.hexagoncup.com/\">Alpine Hexagon Cup</a></strong> ist der weltweit dynamischste private Teamwettbewerb, der den professionellen Padel mit seinem innovativen Format und elektrisierenden Atmosphäre neu definiert.</p><p>Als <strong>offizieller Platz</strong> hat Portico Sport den <strong>charakteristischen lila Platz</strong> des Turniers entworfen – entwickelt für erstklassige Leistung, Haltbarkeit und optimale Sichtbarkeit für Spieler, Zuschauer und Rundfunkanstalten.</p>",
+      "SUBTITLE": "Der offizielle Hexagon Cup Padelplatz - Jetzt für Ihren Club verfügbar",
+      "DESCRIPTION": "<p>Der <strong><a href=\"https://www.hexagoncup.com/\"> Hexagon Cup</a></strong> ist der weltweit dynamischste private Teamwettbewerb, der den professionellen Padel mit seinem innovativen Format und elektrisierenden Atmosphäre neu definiert.</p><p>Als <strong>offizieller Platz</strong> hat Portico Sport den <strong>charakteristischen lila Platz</strong> des Turniers entworfen – entwickelt für erstklassige Leistung, Haltbarkeit und optimale Sichtbarkeit für Spieler, Zuschauer und Rundfunkanstalten.</p>",
       "IMAGES": [
         {
           "id": "slide-1",
@@ -2763,12 +2763,12 @@
         }
       ],
       "BUTTON": {
-        "TEXT": "Entdecken Sie den offiziellen Alpine Hexagon Cup Platz",
+        "TEXT": "Entdecken Sie den offiziellen Hexagon Cup Platz",
         "URL": "https://hexagoncup.porticosport.com/",
         "TITLE": "Offizieller Hexagon Cup Platz"
       },
-      "SUBTITLE_2": "Der offizielle Alpine Hexagon Cup Padelplatz - Jetzt für Ihren Club verfügbar",
-      "DESCRIPTION_2": "<p>Jetzt können Clubs das <strong>Alpine Hexagon Cup Erlebnis</strong> in ihre Einrichtungen bringen mit exklusiven <strong>Hexagon-gebrandeten Plätzen</strong>. Gebaut nach professionellen Standards, verbessern diese Plätze die Spielbarkeit und verbinden Ihren Club mit einem der aufregendsten Events im Padel.</p><p><strong>Rüsten Sie Ihre Einrichtung mit dem gleichen Platz auf, der einige der besten Padelspieler der Welt beherbergte.</strong></p>"
+      "SUBTITLE_2": "Der offizielle Hexagon Cup Padelplatz - Jetzt für Ihren Club verfügbar",
+      "DESCRIPTION_2": "<p>Jetzt können Clubs das <strong> Hexagon Cup Erlebnis</strong> in ihre Einrichtungen bringen mit exklusiven <strong>Hexagon-gebrandeten Plätzen</strong>. Gebaut nach professionellen Standards, verbessern diese Plätze die Spielbarkeit und verbinden Ihren Club mit einem der aufregendsten Events im Padel.</p><p><strong>Rüsten Sie Ihre Einrichtung mit dem gleichen Platz auf, der einige der besten Padelspieler der Welt beherbergte.</strong></p>"
     },
     "PARTNER_2": {
       "ID": "head",
