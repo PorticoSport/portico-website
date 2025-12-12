@@ -6119,10 +6119,11 @@
         "TITLE_3": "Structural Certifications & Safety",
         "DESCRIPTION": "Developed by Portico Sport’s engineering department in accordance with:",
         "LIST_DOS": [
-          "NIDE 2004 Padel Regulations",
-          "FIP (International Padel Federation) standards",
+         "NIDE 2004 Padel Regulations",
+          "FIP standards",
           "Structural Steel Instruction (EAE)",
-          "Eurocode 3"
+          "Eurocode 3",
+          "UNE 147201:2024"
         ],
         "TITLE_4": "Long-Term Durability & Warranty",
         "LIST_TRES": [
