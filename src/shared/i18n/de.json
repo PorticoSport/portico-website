@@ -599,8 +599,8 @@
         "TITLE": "Abmessungen des ACE Padel Courts",
         "INDOOR_TITLE": "Innenbereich",
         "OUTDOOR_TITLE": "Außenbereich",
-        "OUTDOOR": "<p><strong>Länge</strong>: 20 m x 10 m</p>",
-        "INDOOR": "<p><strong>Länge</strong>: 20,18 m x 10,18 m</p>",
+        "OUTDOOR": "<p><strong>Länge</strong>: 20,18 m x 10,18 m</p>",
+        "INDOOR": "<p><strong>Länge</strong>: 20 m x 10 m</p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/ace/ACE-sizing.webp",
@@ -995,6 +995,8 @@
       "SIZING_SECTION": {
         "ID": "measure-section",
         "TITLE": "Maße des Tournament Courts",
+        "INDOOR_TITLE": "Innen",
+        "OUTDOOR_TITLE": "Außen",
         "OUTDOOR": "<p><strong>Innenmaß</strong>: 20 m x 10 m</p>",
         "INDOOR": "<p><strong>Außenmaß</strong>: 20,50 m x 10,46 m</p>",
         "IMAGE": {
@@ -1410,8 +1412,8 @@
         "TITLE": "Abmessungen des Panoramic+ Padelplatzes",
         "INDOOR_TITLE": "Innenbereich",
         "OUTDOOR_TITLE": "Außenbereich",
-        "OUTDOOR": "<p><strong>Länge</strong>: 20 m x 10 m </p>",
-        "INDOOR": "<p><strong>Länge</strong>: 20,46 m x 10,43 m </p><p>",
+        "OUTDOOR": "<p><strong>Länge</strong>: 20,46 m x 10,43 m </p>",
+        "INDOOR": "<p><strong>Länge</strong>: 20 m x 10 m </p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/panoramic-plus/Panoramic-plus-sizing.webp",
