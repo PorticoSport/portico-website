@@ -2601,8 +2601,8 @@
         "TITLE": "ACE Padel court dimensions",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
-        "OUTDOOR": "<p><strong>Length</strong>: 20 m x 10 m</p>",
-        "INDOOR": "<p><strong>Length</strong>: 20.18 m x 10.18 m</p>",
+        "OUTDOOR": "<p><strong>Length</strong>: 20.18 m x 10.18 m</p>",
+        "INDOOR": "<p><strong>Length</strong>: 20 m x 10 m</p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/ace/ACE-sizing.webp",
@@ -3008,6 +3008,8 @@
       "SIZING_SECTION": {
         "ID": "measure-section",
         "TITLE": "Tournament Court dimensions",
+        "INDOOR_TITLE": "Interior",
+        "OUTDOOR_TITLE": "Exterior",
         "OUTDOOR": "<p><strong>Interior</strong>: 20 m x 10 m</p>",
         "INDOOR": "<p><strong>Exterior</strong>: 20.50 m x 10.46 m</p>",
         "IMAGE": {
@@ -3410,8 +3412,8 @@
         "TITLE": "Panoramic+ Padel court dimensions",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
-        "OUTDOOR": "<p><strong>Length</strong>: 20 m x 10 m </p>",
-        "INDOOR": "<p><strong>Length</strong>: 20.46 m x 10.43 m </p><p>",
+        "OUTDOOR": "<p><strong>Length</strong>: 20.46 m x 10.43 m </p>",
+        "INDOOR": "<p><strong>Length</strong>: 20 m x 10 m </p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/panoramic-plus/Panoramic-plus-sizing.webp",
@@ -4183,7 +4185,7 @@
         "TITLE": "Tournament+ Court dimensions",
         "INDOOR_TITLE": "Interior",
         "OUTDOOR_TITLE": "Exterior",
-        "OUTDOOR": "<p><strong>Length</strong>: 22.70 m x 12,66 m </p>",
+        "OUTDOOR": "<p><strong>Length</strong>: 22.70 m x 12.66 m </p>",
         "INDOOR": "<p><strong>Length</strong>: 20 m x 10 m </p>",
         "IMAGE": {
           "id": "image-sizing",
