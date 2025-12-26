@@ -1048,6 +1048,26 @@
         "TEXT":"Padel court builders New Zealand",
         "URL":"/nz",
         "TITLE":"Padel court builders New Zealand"
+       },
+       "BUTTON_16":{
+        "TEXT":"Padel Courts Toronto",
+        "URL":"/ca/toronto",
+        "TITLE":"Padel Courts Toronto"
+       },
+       "BUTTON_17":{
+        "TEXT":"Padel Courts Montreal",
+        "URL":"/ca/montreal",
+        "TITLE":"Padel Courts Montreal"
+       },
+       "BUTTON_18":{
+        "TEXT":"Padel Courts Calgary",
+        "URL":"/ca/calgary",
+        "TITLE":"Padel Courts Calgary"
+       },
+       "BUTTON_19":{
+        "TEXT":"Padel Court Ottawa",
+        "URL":"/ca/ottawa",
+        "TITLE":"Padel Court Ottawa"
        }
       },
       "CONTACT_SECTION": {
