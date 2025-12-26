@@ -1038,6 +1038,16 @@
         "TEXT":"Padel Courts Las Vegas",
         "URL":"/padel-court-usa/las-vegas",
         "TITLE":"Padel Courts Las Vegas"
+       },
+       "BUTTON_14":{
+        "TEXT":"Padel court builders Australia",
+        "URL":"/aus",
+        "TITLE":"Padel court builders Australia"
+       },
+       "BUTTON_15":{
+        "TEXT":"Padel court builders New Zealand",
+        "URL":"/nz",
+        "TITLE":"Padel court builders New Zealand"
        }
       },
       "CONTACT_SECTION": {
