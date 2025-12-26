@@ -2,96 +2,67 @@
 import Section from "@/shared/components/Section.astro";
 import Typography from "@/shared/components/ui/Typography.astro";
 import { getI18N } from "@/shared/i18n/";
-import Button from '@/shared/components/Button.astro';
+import Button from "@/shared/components/Button.astro";
+
+interface ButtonItem {
+  TEXT: string;
+  URL: string;
+  TITLE: string;
+}
 
 interface Props {
   showInfo?: boolean;
   language: string;
-  description?: string;
-  title?: string;
-  subtitle?: string;
-  buttonurl?: string;
-  buttontitle?: string;
-  buttontext?: string;
+  buttons?: ButtonItem[];
 }
 
-const { showInfo, language, title, subtitle, description, buttonurl, buttontitle, buttontext} = Astro.props;
+const { showInfo = true, language, buttons } = Astro.props;
 const i18n = getI18N({ language });
 
-const heading2 = showInfo ? title : null;
-const subheading = showInfo ? subtitle : null;
-const descriptionText = showInfo ? description : null;
+const defaultButtons: ButtonItem[] = [
+  i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_1,
+  i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_2,
+  i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_3,
+  i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_4,
+  i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_5,
+  i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_6,
+];
+
+// 👉 si vienen botones por props, se usan; si no, los del i18n
+const finalButtons = buttons ?? defaultButtons;
 ---
 
+{showInfo && (
+  <>
+    <Typography
+      tag="h2"
+      className="text-center mt-12 mb-4 font-bold"
+      text={i18n.PAGES.HOME.COUNTRIES_SECTION.TITLE}
+    />
 
-    
-      {
-        heading2 && (
-          <Typography tag="h2" className=" text-center mt-12 mb-4 font-bold" text={title} />
-        )
-      }
-   {
-        subheading && (
-          <Typography tag="div" type="primary" className="mb-4 text-center" text={subtitle} />
-        )
-      }
-    
-  
-    <Section>
-     
+    <Typography
+      tag="div"
+      type="primary"
+      className="mb-4 text-center"
+      text={i18n.PAGES.HOME.COUNTRIES_SECTION.SUBTITLE}
+    />
+  </>
+)}
 
-      <div class=" mt-0 grid grid-rows-3 gap-4 justify-center items-center sm:grid-cols-2 xs:grid-cols-1">
-        <Button
-          class="button"
-          url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_1.URL}
-          target="_self"
-          title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_1.TITLE}
-        >
-          {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_1.TEXT}
-        </Button>
-        <Button
-          class="button"
-          url={buttonurl || i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_2.URL}
-          target="_self"
-          title={buttontitle || i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_2.TITLE}
-        >
-          {buttontext || i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_2.TEXT}
-        </Button>
-        <Button
-          class="button"
-          url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_3.URL}
-          target="_self"
-          title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_3.TITLE}
-        >
-          {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_3.TEXT}
-        </Button>
-        <Button
-          class="button"
-          url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_4.URL}
-          target="_self"
-          title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_4.TITLE}
-        >
-          {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_4.TEXT}
-        </Button>
-        <Button
-          class="button"
-          url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_5.URL}
-          target="_self"
-          title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_5.TITLE}
-        >
-          {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_5.TEXT}
-        </Button>
-        <Button
-          class="button"
-          url={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_6.URL}
-          target="_self"
-          title={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_6.TITLE}
-        >
-          {i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_6.TEXT}
-        </Button>
-      </div>
-    </Section>
-  
+<Section>
+  <div class="grid gap-4 justify-center items-center sm:grid-cols-2 xs:grid-cols-1">
+    {finalButtons.map((btn) => (
+      <Button
+        class="button"
+        url={btn.URL}
+        target="_self"
+        title={btn.TITLE}
+      >
+        {btn.TEXT}
+      </Button>
+    ))}
+  </div>
+</Section>
 
 <style>
 .button {
