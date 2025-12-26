@@ -9,6 +9,7 @@ import Button from "src/shared/components/Button.astro";
 import ContactSectionEs from "@/shared/components/sections/ContactSectionIrl.astro";
 import { type Photo } from "@/types/types.ts";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import SectionCountries from "@/shared/components/sections/CountriesSection.astro";
 
 interface Props {
   language: string
@@ -19,6 +20,12 @@ interface Props {
 const { language, projectsGallery} = Astro.props
 const i18n = getI18N({ language })
 const currentLocale = getCurrentLocale({ language })
+const usaButtons = [
+    i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_16, 
+    i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_17, 
+    i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_18, 
+    i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_19
+];
 
 ---
 <Layout title={i18n.PAGES.HOME.SEO_TITLE_CA} 
@@ -76,11 +83,16 @@ bgClass="brightness-50"
             <img src="projectsCa/gallery/Padel-Fvr-4.webp" class="scale-[85%]"/>
         </div>
     </div>
-           
+    
     <Section 
          heading2={i18n.PAGES.SECTION_CA.SECTION_3.TITLE}
          subheading={i18n.PAGES.SECTION_CA.SECTION_3.DESCRIPTION} >
     </Section>
+
+    <SectionCountries showInfo language="en"
+        language={language}
+        buttons={usaButtons}
+    />
 
     <ContactSectionEs language={language} 
          title={i18n.PAGES.SECTION_CA.CONTACT_SECTION.TITLE}
