@@ -1008,8 +1008,37 @@
         "TEXT":"Padel Court Builders Canadá",
         "URL":"/ca",
         "TITLE":"Portico Sport Canada"
+       },
+       "BUTTON_8":{
+        "TEXT":"Padel Courts Florida",
+        "URL":"/padel-court-usa/florida",
+        "TITLE":"Padel Courts Florida"
+       },
+       "BUTTON_9":{
+        "TEXT":"Padel Courts California",
+        "URL":"/padel-court-usa/california",
+        "TITLE":"Padel Courts California"
+       },
+       "BUTTON_10":{
+        "TEXT":"Padel Court Construction Texas",
+        "URL":"/padel-court-usa/texas",
+        "TITLE":"Padel Court Construction Texas"
+       },
+       "BUTTON_11":{
+        "TEXT":"Padel Courts in New York",
+        "URL":"/padel-court-usa/new-york",
+        "TITLE":"Padel Courts in New York"
+       },
+       "BUTTON_12":{
+        "TEXT":"Padel Courts Chicago",
+        "URL":"/padel-court-usa/chicago",
+        "TITLE":"Padel Courts Chicago"
+       },
+       "BUTTON_13":{
+        "TEXT":"Padel Courts Las Vegas",
+        "URL":"/padel-court-usa/las-vegas",
+        "TITLE":"Padel Courts Las Vegas"
        }
-       
       },
       "CONTACT_SECTION": {
         "ID": "contact",
