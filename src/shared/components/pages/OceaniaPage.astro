@@ -21,6 +21,7 @@ import SectionFaqs from "@/shared/components/sections/SectionFaqs.astro"
 import NormativeLogos from "@/shared/components/sections/NormativeLogos.astro";
 import Breadcrumb from "@/shared/components/Breadcrumb.astro";
 import Slider from "@/shared/components/sections/Slider.astro";
+import SectionCountries from "@/shared/components/sections/CountriesSection.astro";
 interface Props {
   language: string,
   projectsGallery: Photo[]
@@ -30,6 +31,11 @@ const { language,  projectsGallery } = Astro.props
 const i18n = getI18N({ language })
 const currentLocale = getCurrentLocale({language})
 const category = getCategoryByLanguage({language})
+
+const usaButtons = [
+  i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_14, 
+  i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_15
+];
 
 let posts: any[] = [];
 
@@ -112,17 +118,13 @@ try {
   />
   
   
-<section>
-      <Typography tag="h2" className="mb-6 mt-8 font-bold text-center" text={i18n.PAGES.HOME.TITLE_AUS_NZ}/>
-      <Typography tag="p" type="primary" className="text-xl text-center" text={i18n.PAGES.HOME.SUBTITLE_AUS_NZ} responsive/>
-      <div class="pt-20 flex justify-center gap-10 w-full" >
-        <Button size="md" title="Padel courts builders Australia" url={i18n.PAGES.HOME.AUS_ROUTE.URL} >
-          {i18n.PAGES.HOME.AUS_ROUTE.LABEL}
-        </Button>
-        <Button size="md" title="Padel courts builders New Zealand" url={i18n.PAGES.HOME.NZ_ROUTE.URL} >
-          {i18n.PAGES.HOME.NZ_ROUTE.LABEL}
-        </Button>
-      </div>
+      <section>
+        <Typography tag="h2" className="mb-6 mt-8 font-bold text-center" text={i18n.PAGES.HOME.TITLE_AUS_NZ}/>
+        <Typography tag="p" type="primary" className="text-xl text-center" text={i18n.PAGES.HOME.SUBTITLE_AUS_NZ} responsive/>
+        <SectionCountries showInfo language="en"
+          language={language}
+          buttons={usaButtons}
+        />
     </section>
     <SectionBentoOC language={language} />
 
