@@ -32,6 +32,15 @@ const i18n = getI18N({ language })
 const currentLocale = getCurrentLocale({language})
 const category = getCategoryByLanguage({language})
 
+const usaButtons = [
+  i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_8, 
+  i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_9, 
+  i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_10, 
+  i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_11, 
+  i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_12, 
+  i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_13, 
+];
+
 let posts: any[] = [];
 
 try {
@@ -140,12 +149,8 @@ language={language}
     <SectionFaqs items={i18n.PAGES.HOME.FAQS_SECTION.QUESTIONS_USA} title={i18n.PAGES.HOME.FAQS_SECTION.TITLE_USA} subtitle={i18n.PAGES.HOME.FAQS_SECTION.SUBTITLE} />
     <Slider language={language} posts={posts} />
 <SectionCountries showInfo language="en"
-    title={i18n.PAGES.HOME.COUNTRIES_SECTION.TITLE}
-    subtitle={i18n.PAGES.HOME.COUNTRIES_SECTION.SUBTITLE}
-    description={i18n.PAGES.HOME.COUNTRIES_SECTION.DESCRIPTION}
-    buttontext={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_7.TEXT}
-    buttontitle={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_7.TITLE}
-    buttonurl={i18n.PAGES.HOME.COUNTRIES_SECTION.BUTTON_7.URL}
+    language={language}
+    buttons={usaButtons}
     />
     <SectionContact
       id={i18n.PAGES.HOME.CONTACT_SECTION.ID}
