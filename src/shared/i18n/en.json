@@ -3067,10 +3067,10 @@
       "SIZING_SECTION": {
         "ID": "measure-section",
         "TITLE": "Tournament Court dimensions",
-        "INDOOR_TITLE": "Interior",
-        "OUTDOOR_TITLE": "Exterior",
-        "OUTDOOR": "<p><strong>Interior</strong>: 20 m x 10 m</p>",
-        "INDOOR": "<p><strong>Exterior</strong>: 20.50 m x 10.46 m</p>",
+        "INDOOR_TITLE": "Exterior",
+        "OUTDOOR_TITLE": "Interior",
+        "OUTDOOR": "<p><strong>Length</strong>: 20 m x 10 m</p>",
+        "INDOOR": "<p><strong>Length</strong>: 20.50 m x 10.46 m</p>",
         "IMAGE": {
           "id": "image-sizing",
           "src": "/courts-detail/tournament/tournament-sizing.webp",
