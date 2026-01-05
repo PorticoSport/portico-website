@@ -1,5 +1,4 @@
 ---
-
 import "photoswipe/style.css";
 import Section from "@/shared/components/Section.astro";
 import Button from "./Button.astro";
@@ -16,7 +15,6 @@ interface Props {
   urlButton?: string;
   urlText?: string;
   buttonTitle?: string;
-
 }
 
 const {
@@ -30,9 +28,9 @@ const {
   urlButton,
   urlText,
   buttonTitle,
-  
 } = Astro.props;
 
+// No necesitamos ofuscar, solo guardar la ruta
 ---
 
 <Section id={id} heading={heading} subheading={subheading}>
@@ -44,10 +42,9 @@ const {
   >
     {
       photos.slice(0, offset).map(({ src, width, height, alt }: Photo) => (
-        <a
-          class="group rounded-xl hover:scale-105 hover:contrast-[110%] transition-all relative block overflow-hidden"
-          href={`/${path}/${src}`}
-          target="_blank"
+        <div
+          class="gallery-item group rounded-xl hover:scale-105 hover:contrast-[110%] transition-all relative block overflow-hidden cursor-zoom-in"
+          data-pswp-src={`/${path}/${src}`}
           data-cropped="true"
           data-pswp-width={width}
           data-pswp-height={height}
@@ -71,7 +68,7 @@ const {
           <span class="absolute bottom-0 left-0 right-0 p-4 text-white bg-black bg-opacity-50 rounded-b-xl">
             {alt}
           </span>
-        </a>
+        </div>
       ))
     }
   </masonry-layout>
@@ -102,10 +99,31 @@ const {
   import "@appnest/masonry-layout";
 
   document.addEventListener("astro:page-load", () => {
+    // Inicializar PhotoSwipe con configuración custom
     const lightbox = new PhotoSwipeLightbox({
       gallery: "#gallery",
-      children: "a",
+      children: ".gallery-item",
       pswpModule: () => import("photoswipe"),
+      // Añadir función para obtener el thumbnail correcto
+      thumbSelector: ".gallery-item img:first-child",
+    });
+
+    // Filtro para construir correctamente los datos de cada item
+    lightbox.addFilter('itemData', (itemData, index) => {
+      const element = document.querySelectorAll("#gallery .gallery-item")[index];
+      const imgSrc = element.getAttribute('data-pswp-src');
+      const width = element.getAttribute('data-pswp-width');
+      const height = element.getAttribute('data-pswp-height');
+      const img = element.querySelector('img:first-child');
+      
+      if (imgSrc) {
+        itemData.src = imgSrc;
+        itemData.w = parseInt(width);
+        itemData.h = parseInt(height);
+        itemData.msrc = img?.src; // miniatura para la transición
+      }
+      
+      return itemData;
     });
 
     lightbox.init();
@@ -115,8 +133,7 @@ const {
 <script is:inline define:vars={{ photos, offset, path }}>
   document.addEventListener("astro:page-load", () => {
     const $button = document.querySelector("#load-more");
-    // clone first element of gallery
-    const $first = document.querySelector("#gallery a:first-child");
+    const $first = document.querySelector("#gallery .gallery-item:first-child");
 
     $button?.addEventListener("click", async (e) => {
       $button.remove();
@@ -124,12 +141,12 @@ const {
 
       const html = photos
         .slice(offset)
-        .map((img, index) => {
+        .map((img) => {
           const $clone = $first?.cloneNode(true);
 
           $clone.setAttribute("data-pswp-width", img.width);
           $clone.setAttribute("data-pswp-height", img.height);
-          $clone.setAttribute("href", `/${path}/${img.src}`);
+          $clone.setAttribute("data-pswp-src", `/${path}/${img.src}`);
           $clone.classList.add("animate-fade-up");
           $clone.classList.add("animate-delay-300");
           $clone.classList.add("opacity-0");
@@ -165,14 +182,13 @@ const {
     margin-top: 60px;
   }
 
-  /* Sin margin-top en móviles */
   @media (max-width: 768px) {
     .pswp__img {
       margin-top: 0 !important;
     }
   }
 
-  #gallery a {
+  #gallery .gallery-item {
     cursor: zoom-in;
     aspect-ratio: auto;
   }
