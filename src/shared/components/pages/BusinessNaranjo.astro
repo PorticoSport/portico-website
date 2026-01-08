@@ -1,0 +1,486 @@
+---
+import { getI18N, getCurrentLocale } from "@/shared/i18n"
+import Section from '@/shared/components/Section.astro';
+import Typography from "@/shared/components/ui/Typography.astro";
+import Gallery from "../Gallery.astro"
+import Layout from "@/shared/layouts/Layout.astro";
+import "photoswipe/style.css";
+import Button from "src/shared/components/Button.astro";
+import ContactSectionEs from "@/shared/components/sections/ContactSectionIrl.astro";
+import { type Photo } from "@/types/types.ts";
+import Breadcrumb from "@/shared/components/Breadcrumb.astro";
+import BentoItem from "@/shared/components/BentoItem.astro";
+import CarouselImages from "../CarouselImages";
+import SliderProjects from "../sections/SliderProjects.astro";
+
+interface Props {
+    language: string
+    projectsGallery: Photo[]
+}
+
+const { language } = Astro.props
+const i18n = getI18N({ language })
+const currentLocale = getCurrentLocale({ language })
+const projectsGallery = [
+    { src: "Padel-club-16.webp", alt: "Los Naranjos" },
+    { src: "Padel-club-17.webp", alt: "Los Naranjos" },
+    { src: "Padel-club-19.webp", alt: "Los Naranjos" },
+    { src: "Padel-club-59.webp", alt: "Los Naranjos" },
+    { src: "Padel-club-122.webp", alt: "Los Naranjos" },
+    { src: "Padel-club-123.webp", alt: "Los Naranjos" },
+    { src: "pistacentral.webp", alt: "Los Naranjos" },
+    { src: "pistas-de-padel-cubiertas.webp", alt: "Los Naranjos" },
+    { src: "Renders-2.webp", alt: "Los Naranjos" },
+    { src: "Renders.webp", alt: "Los Naranjos" },
+];
+
+---
+<Layout 
+    title={i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.SEO_TITLE} 
+    description={i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.SEO_DESCRIPTION} 
+    currentLocale={currentLocale} 
+    language={language}
+>
+    <main class="flex flex-col relative">
+        
+        <!-- Hero Section with Background Image -->
+        <section class="relative min-h-[600px] flex items-center justify-center overflow-hidden">
+            <!-- Background Image -->
+            <div class="absolute inset-0 z-0">
+                <img 
+                    src="/business/naranjos/Padel-club-53.webp" 
+                    alt="Los Naranjos Padel Club"
+                    class="w-full h-full object-cover brightness-[0.4]"
+                />
+            </div>
+            
+            <!-- Hero Content -->
+            <div class="container mx-auto px-4 md:px-8 lg:px-16 relative z-10 py-32 md:py-40 max-w-7xl text-center">
+                <div class="max-w-3xl mx-auto">
+                    <Typography tag="p" class="text-blue-400 mb-4 text-sm uppercase tracking-wider">
+                        {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.SUBTITLE}
+                    </Typography>
+                    
+                    <Typography tag="h1" className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white mb-6 font-bold leading-tight">
+                        {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.TITLE}
+                    </Typography>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Rest of the page with gradient background -->
+        <div class="gradient-bg">
+
+        <section class="relative w-full bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100 text-slate-900 py-16 md:py-24 overflow-hidden">
+            <!-- Decorative background elements -->
+            <div class="absolute inset-0 opacity-5">
+                <div class="absolute top-20 left-10 w-72 h-72 bg-blue-500 rounded-full blur-3xl"></div>
+                <div class="absolute bottom-20 right-10 w-96 h-96 bg-purple-500 rounded-full blur-3xl"></div>
+            </div>
+            
+            <!-- Decorative pattern overlay -->
+            <div class="absolute inset-0 opacity-[0.03]" style="background-image: radial-gradient(circle, #000 1px, transparent 1px); background-size: 30px 30px;"></div>
+            
+            <div class="container mx-auto px-4 md:px-8 relative z-10">
+                
+                <!-- Content card -->
+                <div class="max-w-4xl mx-auto">
+                    <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl border border-slate-200/50 overflow-hidden">
+                        <!-- Decorative top bar -->
+                        <div class="h-1.5 bg-gradient-to-r from-blue-500 via-purple-500 to-blue-500"></div>
+                        
+                        <!-- Content -->
+                        <div class="p-8 md:p-12 lg:p-16">
+                            <!-- Quote or accent (opcional) -->
+                            <div class="flex items-start mb-6">
+                                <svg class="w-10 h-10 text-blue-500/30 flex-shrink-0 -mt-2" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"></path>
+                                </svg>
+                            </div>
+                            
+                            <div 
+                                class="prose prose-lg prose-slate max-w-none
+                                    prose-headings:text-slate-900 prose-headings:font-bold prose-headings:tracking-tight
+                                    prose-h2:text-3xl prose-h2:mb-4 prose-h2:mt-8 prose-h2:first:mt-0
+                                    prose-h3:text-2xl prose-h3:mb-3 prose-h3:mt-6
+                                    prose-p:text-slate-700 prose-p:leading-relaxed prose-p:mb-6
+                                    prose-a:text-blue-600 prose-a:no-underline hover:prose-a:text-blue-700 hover:prose-a:underline prose-a:transition-all
+                                    prose-strong:text-slate-900 prose-strong:font-semibold
+                                    prose-ul:my-6 prose-li:text-slate-700 prose-li:my-2
+                                    prose-blockquote:border-l-4 prose-blockquote:border-blue-500 prose-blockquote:bg-blue-50/50 prose-blockquote:py-3 prose-blockquote:px-6 prose-blockquote:rounded-r-lg
+                                    animate-fade-in-up"
+                                set:html={i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.DESCRIPTION} 
+                            />
+                        </div>
+                        
+                        <!-- Decorative bottom accent (opcional) -->
+                        <div class="h-2 bg-gradient-to-r from-transparent via-blue-500/20 to-transparent"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Project Details Section -->
+        <section class="py-16 bg-gradient-to-b from-slate-900/50 to-slate-900/80 relative overflow-hidden">
+            <!-- Background decorative elements -->
+            <div class="absolute inset-0 opacity-10">
+                <div class="absolute top-0 left-1/4 w-96 h-96 bg-blue-500 rounded-full blur-3xl"></div>
+                <div class="absolute bottom-0 right-1/4 w-96 h-96 bg-purple-500 rounded-full blur-3xl"></div>
+            </div>
+            
+            <div class="container mx-auto px-4 md:px-8 lg:px-16 max-w-7xl relative z-10">
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+                    {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.PROJECTS?.LIST?.map((item, index) => (
+                        <div 
+                            class="group bg-gradient-to-br from-slate-800/50 to-slate-800/30 p-6 lg:p-8 rounded-xl border border-slate-700/50 hover:border-blue-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/10 hover:-translate-y-1 backdrop-blur-sm"
+                            style={`animation: fadeInUp 0.6s ease-out ${index * 0.1}s both;`}
+                        >
+                            <!-- Decorative corner accent -->
+                            <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-blue-500/20 to-transparent rounded-bl-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                            
+                            <div class="relative">
+                                <!-- Icon or number badge -->
+                                <div class="inline-flex items-center justify-center w-10 h-10 bg-blue-500/20 rounded-lg mb-4 group-hover:bg-blue-500/30 transition-colors duration-300">
+                                    <span class="text-blue-400 font-bold text-lg">{index + 1}</span>
+                                </div>
+                                
+                                <Typography variant="h4" class="text-white mb-4 font-bold group-hover:text-blue-300 transition-colors duration-300 flex items-center gap-2">
+                                    {item.label}
+                                    <svg class="w-5 h-5 opacity-0 group-hover:opacity-100 transform translate-x-0 group-hover:translate-x-1 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                    </svg>
+                                </Typography>
+                                
+                                {item.value && (
+                                    <Typography class="text-gray-300 leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
+                                        {item.value}
+                                    </Typography>
+                                )}
+                                
+                                {item.text && (
+                                    <Typography class="text-gray-300 mb-3 leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
+                                        {item.text}
+                                    </Typography>
+                                )}
+                                
+                                {item.items && (
+                                    <ul class="space-y-3 mt-4">
+                                        {item.items.map((listItem) => (
+                                            typeof listItem === 'string' ? (
+                                                <li class="text-gray-300 flex items-start group-hover:text-gray-200 transition-colors duration-300">
+                                                    <span class="text-blue-400 mr-3 mt-1 flex-shrink-0 group-hover:text-blue-300 transition-colors duration-300">
+                                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="flex-1">{listItem}</span>
+                                                </li>
+                                            ) : (
+                                                <>
+                                                    <li class="text-gray-300 flex items-start group-hover:text-gray-200 transition-colors duration-300">
+                                                        <span class="text-blue-400 mr-3 mt-1 flex-shrink-0 group-hover:text-blue-300 transition-colors duration-300">
+                                                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                                            </svg>
+                                                        </span>
+                                                        <span class="flex-1 font-medium">{listItem.text}</span>
+                                                    </li>
+                                                    {listItem.children && (
+                                                        <ul class="ml-8 mt-2 space-y-2 pl-4 border-l-2 border-blue-500/30">
+                                                            {listItem.children.map((child) => (
+                                                                <li class="text-gray-400 flex items-start text-sm group-hover:text-gray-300 transition-colors duration-300">
+                                                                    <span class="text-blue-300/70 mr-2 mt-0.5">→</span>
+                                                                    <span class="flex-1">{child}</span>
+                                                                </li>
+                                                            ))}
+                                                        </ul>
+                                                    )}
+                                                </>
+                                            )
+                                        ))}
+                                    </ul>
+                                )}
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section>
+
+        <!-- Challenge Section -->
+        <section class="py-16 bg-slate-100 text-black">
+            <div class="container mx-auto px-4 md:px-8 lg:px-16 max-w-7xl">
+                <Typography variant="h2" className="mb-6 text-3xl md:text-4xl font-bold">
+                    {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.CHALLENGE.TITLE}
+                </Typography>
+                
+                <div class="prose prose-invert max-w-none mb-8" set:html={i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.CHALLENGE.INTRO} />
+                <Typography class="text-gray-300 mb-8 text-lg">
+                    {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.CHALLENGE.LEAD}
+                </Typography>
+
+                <div class="space-y-6 mt-8">
+                    {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.CHALLENGE?.ITEMS?.map((item, index) => (
+                        <div class="border-l-4 border-blue-500 pl-6 pr-6 py-2 bg-blue-100">
+                            <Typography variant="h4" class="text-white mb-2 font-semibold">
+                                {index + 1}. {item.TITLE}
+                            </Typography>
+                            <Typography class="text-gray-300">
+                                {item.DESCRIPTION}
+                            </Typography>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section>
+
+        <!-- Solution Section -->
+        <section class="py-16 bg-slate-900/50">
+            <div class="container mx-auto px-4 md:px-8 lg:px-16 max-w-7xl">
+                <Typography variant="h2" className="text-white mb-6 text-3xl md:text-4xl font-bold">
+                    {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.SOLUTION.TITLE}
+                </Typography>
+                
+                <div class="prose prose-invert max-w-none mb-12" set:html={i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.SOLUTION.DESCRIPTION} />
+
+                <!-- Courts & Canopies -->
+                <div class="mb-12">
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <!-- Contenido de texto -->
+                        <div>
+                            <Typography variant="h3" class="text-white mb-4 text-2xl font-semibold">
+                                1. {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.SOLUTION.SUBTITLE}
+                            </Typography>
+                            <div class="prose prose-invert max-w-none mb-6" set:html={i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.SOLUTION.DESCRIPTION_2} />
+                            
+                            <ul class="space-y-3">
+                                {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.SOLUTION?.LIST?.map((item) => (
+                                    <li class="text-gray-300 flex items-start">
+                                        <span class="text-blue-400 mr-3 font-bold">•</span>
+                                        {item}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                        
+                        <!-- IMAGEN 1: Canchas y techados -->
+                        <div class="rounded-xl overflow-hidden shadow-2xl border border-slate-700 group">
+                            <img 
+                                src="/business/naranjos/Padel-club-119.webp" 
+                                alt="Canchas deportivas con techados"
+                                class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                            />
+                        </div>
+                    </div>
+                    
+                    <div class="prose prose-invert max-w-none mt-6" set:html={i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.SOLUTION.DESCRIPTION_3} />
+                </div>
+
+                <!-- Customization -->
+                <div class="mb-12">
+                    <Typography variant="h3" class="text-white mb-4 text-2xl font-semibold">
+                        2. {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.SOLUTION.SUBTITLE_2}
+                    </Typography>
+                    <div class="prose prose-invert max-w-none mb-6" set:html={i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.SOLUTION.DESCRIPTION_4} />
+                    
+                    <ul class="space-y-3">
+                        {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.SOLUTION?.LSIT_2?.map((item) => (
+                            <li class="text-gray-300 flex items-start">
+                                <span class="text-blue-400 mr-3 font-bold">•</span>
+                                {item}
+                            </li>
+                        ))}
+                    </ul>
+                    
+                    <div class="prose prose-invert max-w-none mt-6" set:html={i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.SOLUTION.DESCRIPTION_5} />
+                </div>
+
+                <!-- Lighting -->
+                <div>
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <!-- IMAGEN 2: Sistema de iluminación -->
+                        <div class="rounded-xl overflow-hidden shadow-2xl border border-slate-700 group order-2 md:order-1">
+                            <img 
+                                src="/business/naranjos/Los-naranjo-padel-2.webp"
+                                alt="Sistema de iluminación LED"
+                                class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                            />
+                        </div>
+                        
+                        <!-- Contenido de texto -->
+                        <div class="order-1 md:order-2">
+                            <Typography variant="h3" class="text-white mb-4 text-2xl font-semibold">
+                                3. {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.SOLUTION.SUBTITLE_3}
+                            </Typography>
+                            <div class="prose prose-invert max-w-none mb-6" set:html={i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.SOLUTION.DESCRIPTION_6} />
+                            
+                            <ul class="space-y-3">
+                                {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.SOLUTION?.LIST_3?.map((item) => (
+                                    <li class="text-gray-300 flex items-start">
+                                        <span class="text-blue-400 mr-3 font-bold">•</span>
+                                        {item}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section class="py-16 bg-slate-100 text-black">
+            <div class="container mx-auto px-4 md:px-8 lg:px-16 max-w-7xl">
+                <Typography variant="h2" className="mb-6 text-3xl md:text-4xl font-bold">
+                    {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.RESULTS.TITLE}
+                </Typography>
+                
+                <div class="prose prose-invert max-w-none mb-12" set:html={i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.RESULTS.DESCRIPTION} />
+
+                <!-- Metrics Table -->
+                <div class="mb-12">
+                    <Typography variant="h3" class="text-white mb-6 text-2xl font-semibold">
+                        {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.RESULTS.METRICS.TITLE}
+                    </Typography>
+                    
+                    <div class="overflow-hidden rounded-lg border border-slate-700">
+                        <table class="w-full">
+                            <thead>
+                                <tr class="bg-blue-600">
+                                    <th class="px-6 py-4 text-left text-white font-semibold text-sm uppercase tracking-wider">
+                                        {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.RESULTS.METRICS.SUBTITLES.INDICATOR}
+                                    </th>
+                                    <th class="px-6 py-4 text-left text-white font-semibold text-sm uppercase tracking-wider">
+                                        {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.RESULTS.METRICS.SUBTITLES.RESULT}
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody class="bg-slate-900/50">
+                                {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.RESULTS?.METRICS?.ITEMS?.map((item, index) => (
+                                    <tr class={index % 2 === 0 ? 'bg-slate-900/50' : 'bg-slate-800/50'}>
+                                        <td class="px-6 py-4 text-gray-300 border-t border-slate-700">
+                                            {item.INDICATOR}
+                                        </td>
+                                        <td class="px-6 py-4 text-white border-t border-slate-700">
+                                            {item.RESULT}
+                                        </td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="prose prose-invert max-w-none mb-12" set:html={i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.RESULTS.DESCRIPTION_2} />
+
+                <!-- Testimonial -->
+                <div class="bg-slate-900/50 p-8 rounded-lg border-l-4 border-blue-500">
+                    <Typography variant="h3" class="text-white mb-4 text-xl font-semibold italic">
+                        {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.RESULTS.SUBTITLE}
+                    </Typography>
+                    <div class="prose prose-invert" set:html={i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.RESULTS.DESCRIPTION_TESTIMONIAL} />
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="py-16 bg-slate-900/50">
+            <div class="container mx-auto px-4 md:px-8 lg:px-16 max-w-7xl">
+                <Typography variant="h2" className="text-white mb-12 text-3xl md:text-4xl font-bold">
+                    {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.PROJECTS_GALLERY.TITLE}
+                </Typography>
+                
+                <!-- Gallery Grid - All Photos -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    {projectsGallery.map((photo) => (
+                        <div class="relative aspect-[4/3] overflow-hidden rounded-lg group cursor-pointer">
+                            <img 
+                                src={`/business/naranjos/${photo.src}`}
+                                alt={photo.alt}
+                                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                            />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                                <Typography class="text-white font-semibold">
+                                    {photo.alt}
+                                </Typography>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact CTA Section -->
+        <section class="py-20 bg-slate-100 text-black">
+            <div class="container mx-auto px-4 md:px-8 lg:px-16 max-w-4xl text-center">
+                <Typography variant="h2" className="mb-6 text-3xl md:text-4xl font-bold">
+                    {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.CONTACT.TITLE}
+                </Typography>
+                
+                <div class="prose prose-invert prose-lg mx-auto mb-8" set:html={i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.CONTACT.DESCRIPTION} />
+                
+                <Button 
+                    href={i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.CONTACT.BUTTON.URL}
+                    title={i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.CONTACT.BUTTON.TITLE}
+                    class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg transition-colors"
+                >
+                    {i18n.PAGES.BUSINESS.BUSINESS_NARANJOS.CONTACT.BUTTON.LABEL}
+                </Button>
+            </div>
+        </section>
+
+        </div>
+        <!-- End white background wrapper -->
+
+    </main>
+</Layout>
+
+<style>
+    .prose {
+        max-width: none;
+    }
+    
+    .prose p {
+        margin-bottom: 1rem;
+        line-height: 1.7;
+    }
+    @keyframes fade-in {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+    @keyframes fade-in-up {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .animate-fade-in {
+        animation: fade-in 0.6s ease-out;
+    }
+    
+    .animate-fade-in-up {
+        animation: fade-in-up 0.8s ease-out;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
