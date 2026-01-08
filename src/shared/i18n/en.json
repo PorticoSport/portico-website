@@ -6122,6 +6122,10 @@
       "TITLE": "Official Hexagon Cup Padel Court by Portico Sport",
       "SUBTITLE": "The Court Built for the World’s Most Exciting Padel Competition — Now Within Your Reach",
       "DESCRIPTION": "<p>The padel court that defined the world’s most dynamic padel event is now available for your club.<p><p>The Hexagon Cup Court by Portico Sport — featuring the iconic purple turf — merges engineering excellence, high-performance construction and a design that has transformed how padel is experienced on the global stage.</p>",
+      "ROUTE": {
+        "LABEL": "Hexagon Cup Court",
+        "URL": "https://www.porticosport.com/hexagon-court"
+      },
       "EXPERIENCE": {
         "TITLE": "Bring the Hexagon Cup Experience to Your Club",
         "DESCRIPTION": "<p>The same Hexagon Cup Padel Court that captivated players, fans, broadcasters, and the international padel community can now elevate your facility.</p><p>Built in our state-of-the-art manufacturing plant and engineered for elite competition, this court brings the excitement of Hexagon Cup teams and the professional Hexagon Cup experience to your club, turning any venue into a true event arena for top-level players.</p>"
