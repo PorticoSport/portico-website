@@ -3817,6 +3817,98 @@
         "URL":"/mobile"
       }
     },
+    "HEXAGON_COURT": {
+      "SEO_TITLE": "Official Hexagon Cup Padel Court by Portico Sport",
+      "TYPE": "PRODUCT",
+      "SEO_DESCRIPTION": "Discover the official Hexagon Cup court by Portico Sport. The iconic, high-performance padel court from the world’s top event—now available for your club.",
+      "ID": "hexagoncourt",
+      "TITLE": "Official Hexagon Cup Padel Court by Portico Sport",
+      "SUBTITLE": "The Court Built for the World’s Most Exciting Padel Competition — Now Within Your Reach",
+      "DESCRIPTION": "<p>The padel court that defined the world’s most dynamic padel event is now available for your club.<p><p>The Hexagon Cup Court by Portico Sport — featuring the iconic purple turf — merges engineering excellence, high-performance construction and a design that has transformed how padel is experienced on the global stage.</p>",
+      "ROUTE": {
+        "LABEL": "Hexagon Cup Court",
+        "URL": "https://www.porticosport.com/hexagon-court"
+      },
+      "EXPERIENCE": {
+        "TITLE": "Bring the Hexagon Cup Experience to Your Club",
+        "DESCRIPTION": "<p>The same Hexagon Cup Padel Court that captivated players, fans, broadcasters, and the international padel community can now elevate your facility.</p><p>Built in our state-of-the-art manufacturing plant and engineered for elite competition, this court brings the excitement of Hexagon Cup teams and the professional Hexagon Cup experience to your club, turning any venue into a true event arena for top-level players.</p>"
+      },
+      "SUPPLIER": {
+        "TITLE": "Portico Sport: Official Padel Court Supplier of the Hexagon Cup",
+        "DESCRIPTION": "<p>Portico Sport is the official court supplier of the Hexagon Cup, reinforcing a partnership that fuses engineering <strong>innovation, architectural design and world-class entertainment to shape the future of padel.</strong></p><p>The <strong>Hexagon Cup Padel Court by Portico Sport</strong> brings the tournament’s energy directly to your club, showing how smart engineering and advanced design are shaping the next era of Hexagon Cup sport.</p>"
+      },
+      "ICONIC": {
+        "TITLE": "The Iconic Hexagon Cup Court: Now Available for Professional & Commercial Use",
+        "DESCRIPTION": "The Hexagon Cup’s unmistakable tournament purple court has become a symbol of modern padel: bold, energetic and engineered for top-level play.",
+        "LIST": [
+          "✔ Exclusive Hexagon-branded design",
+          "✔ Custom purple turf created specifically for the event",
+          "✔ Professional-grade performance",
+          "✔ A striking visual identity for clubs that want to stand out"
+        ],
+        "DESCRIPTION_2": "A padel court built to deliver a signature playing experience, replicate the excitement of the Hexagon Cup teams, and create a powerful brand moment for your club."
+      },
+      "FEATURE": {
+        "TITLE": "Hexagon Cup Court Features: Innovation, Performance & Signature Purple Turf",
+        "DESCRIPTION": "<p>A world-class event demands world-class engineering.</p><p>The Hexagon Cup Court combines impact, aesthetics and precision construction.</p>",
+        "TITLE_2": "Premium Purple Turf for High-Performance Padel",
+        "LIST": [
+          "Exclusive turf color developed for the Hexagon Cup",
+          "Perfect balance of grip and slide",
+          "Natural and consistent ball bounce",
+          "Highly durable for event-level intensity",
+          "Stable and safe footwork for all playing styles"
+        ],
+        "TITLE_3": "Reinforced Steel Structure with Exclusive Lighting Technology",
+        "LIST_DOS": [
+          "Galvanized steel frame with premium reinforcement",
+          "Integrated backlit Hexagon logo",
+          "Self-locking galvanized hardware for maximum safety",
+          "Hexagon-shaped lighting system (+2400 W) engineered for broadcast conditions",
+          "Clear, uniform visibility with zero shadow interference"
+        ],
+        "TITLE_4": "Event-Optimized Design & Spectator Visibility",
+        "LIST_TRES": [
+          "Layout designed for 360° visibility",
+          "Seamless integration into large venues such as Madrid Arena and Caja Mágica",
+          "Perfect structural lines for continuous match flow",
+          "Enhances both live spectator experience and international broadcasting"
+        ]
+      },
+      "SPECIFICATIONS": {
+        "TITLE": "Technical Specifications of the Official Hexagon Cup Court",
+        "TITLE_2": "Materials & Construction",
+        "LIST": [
+          "Hot-dip galvanized and reinforced steel profiles",
+          "High-impact tempered glass panels",
+          "Electro-welded mesh meeting UNE-EN-10223-4",
+          "Premium turf, lighting, netting and structural components"
+        ],
+        "TITLE_3": "Structural Certifications & Safety",
+        "DESCRIPTION": "Developed by Portico Sport’s engineering department in accordance with:",
+        "LIST_DOS": [
+          "NIDE 2004 Padel Regulations",
+          "FIP standards",
+          "Structural Steel Instruction (EAE)",
+          "Eurocode 3",
+          "UNE 147201:2024"
+        ],
+        "TITLE_4": "Long-Term Durability & Warranty",
+        "LIST_TRES": [
+          "10-year structural stability guarantee",
+          "Designed for continuous, high-intensity use",
+          "Resistant to mechanical stress and enviro"
+        ]
+      },
+      "WHAT_IS_HEXAGON": {
+        "TITLE": "What Is the Hexagon Cup? A Global Padel Spectacle",
+        "DESCRIPTION": "<p>The Hexagon Cup is one of the most innovative and spectacular events in professional padel — a competition that combines elite sport with global entertainment in a completely new format.</p><p>Taking place at the <strong>Caja Mágica from January 28 to February 1, 2026</strong>, the Hexagon Cup schedule features six franchise teams, including squads linked to Hexagon Cup team owners like Leo Messi, Eva Longoria, and Rafa Nadal, delivering a padel experience unlike any other.</p><p>Featuring top players from the Hexagon Cup teams, the event also showcases how Hexagon Cup prize money is shaping the future of competitive padel.</p><p>Celebrate the revolution of the sport with Portico Sport and the Hexagon Cup Padel tournament, and experience the iconic purple court that is setting a new standard worldwide.</p>"
+      },
+      "CONTACT": {
+        "TITLE": "Install the Hexagon Cup Court at Your Club – Contact Portico Sport",
+        "DESCRIPTION": "<p>Ready to bring the most iconic and talked-about <strong>Hexagon Cup Padel Court</strong> to your facility?</p><p>Portico Sport offers the <strong>official Hexagon Cup Court</strong> for clubs, premium sports centers, sponsors, and special events.</p><p>We manage the full process — engineering, production, logistics, installation, and after-sales support — ensuring your facility meets the same high standards experienced by Hexagon Cup teams.</p><p>Bring the energy of the Hexagon Cup Padel to your club, attract top players and elevate your venue to a professional competition level.</p><p>Become a reference.</p><p>Elevate the experience.</p><p><strong>Shape the future of padel with the Hexagon Cup Court by Portico Sport.</strong></p>"
+      }
+    },
     "PROJECTS": {
       "ID": "projects",
       "TYPE": "PRODUCT",
