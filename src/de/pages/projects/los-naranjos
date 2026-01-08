@@ -1,0 +1,7 @@
+---
+import Naranjo from "@/shared/components/pages/BusinessNaranjo.astro";
+import { LANGUAGES } from "@/shared/i18n/constants";
+
+---
+
+<Naranjo language={LANGUAGES.DE} />
