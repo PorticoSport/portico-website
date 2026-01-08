@@ -2611,6 +2611,156 @@
         }
       ]
     },
+    "BUSINESS": {
+  "BUSINESS_NARANJOS": {
+    "SEO_TITLE": "",
+    "SEO_DESCRIPTION": "",
+    "SUBTITLE": "Étude de cas | Espagne",
+    "TITLE": "Los Naranjos Padel Club : une référence dans la construction de clubs de padel haut de gamme en Espagne",
+    "DESCRIPTION": "<p>Los Naranjos Padel Club, situé à Marbella sur la Costa del Sol, est actuellement le plus grand club de padel d’Andalousie et l’un des trois plus grands clubs de padel en Espagne.</p><p>Le projet a été conçu comme une destination padel premium, où la qualité des courts, l’excellence technique et l’expérience des joueurs sont au cœur du concept.</p><p>Portico Sport a participé en tant que fabricant de terrains de padel et de toitures sportives, fournissant des terrains produits en interne, une ingénierie spécialisée et des solutions pour les clubs haute performance avec une croissance durable à long terme.</p>",
+    "PROJECTS": {
+      "LIST": [
+        {
+          "label": "Client",
+          "value": "Los Naranjos Padel Club"
+        },
+        {
+          "label": "Localisation",
+          "value": "Marbella, Espagne"
+        },
+        {
+          "label": "Type de projet",
+          "value": "Création d’un club de padel premium (greenfield)"
+        },
+        {
+          "label": "Installations principales :",
+          "items": [
+            {
+              "text": "18 terrains de padel de dernière génération",
+              "children": [
+                "1 court de compétition",
+                "4 courts couverts avec toitures Portico Sport",
+                "12 courts extérieurs",
+                "1 court individuel d’entraînement"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Installations supplémentaires :",
+          "items": [
+            "2 courts de pickleball",
+            "Salle de sport entièrement équipée",
+            "Restaurant"
+          ]
+        },
+        {
+          "label": "Solution Portico Sport :",
+          "text": "Terrains et toitures premium conçus et fabriqués en interne"
+        }
+      ]
+    },
+    "CHALLENGE": {
+      "TITLE": "Le défi : créer un club de padel de référence en Espagne",
+      "INTRO": "Los Naranjos Padel Club avait un objectif clair : <strong>créer un club de padel de référence en Espagne</strong>, capable de se démarquer de l’offre existante dans la région grâce à un niveau supérieur d’installations et d’expérience de jeu.",
+      "LEAD": "Pour y parvenir, le projet a dû relever plusieurs défis clés :",
+      "ITEMS": [
+        {
+          "TITLE": "Positionnement premium dans un marché compétitif",
+          "DESCRIPTION": "Le club avait besoin de terrains de padel reflétant une véritable qualité premium, tant sur le plan structurel qu’esthétique, afin de se positionner clairement au-dessus des concurrents locaux."
+        },
+        {
+          "TITLE": "Durabilité et performance intensive",
+          "DESCRIPTION": "Avec une utilisation quotidienne élevée prévue, les terrains devaient être robustes, fiables et nécessiter peu d’entretien, tout en supportant un usage intensif sans perte de performance."
+        },
+        {
+          "TITLE": "Expérience joueur et spectateur",
+          "DESCRIPTION": "Visibilité panoramique, rebond régulier, éclairage professionnel et confort de jeu étaient essentiels pour fidéliser les joueurs et en attirer de nouveaux."
+        },
+        {
+          "TITLE": "Image de marque et croissance du club",
+          "DESCRIPTION": "Les installations devaient devenir un élément central de l’identité du club, avec un fort impact visuel sur les réseaux sociaux et un grand pouvoir d’attraction."
+        }
+      ]
+    },
+    "SOLUTION": {
+      "TITLE": "La solution Portico Sport : ingénierie premium & fabrication interne",
+      "DESCRIPTION": "<p>En tant que fabricants de terrains de padel en Espagne, Portico Sport a accompagné Los Naranjos Padel Club depuis la phase de planification initiale jusqu’à l’installation finale, en fournissant une <strong>solution intégrée basée sur des terrains et toitures premium conçus et fabriqués en interne.</strong></p>",
+      "SUBTITLE": "Terrains & toitures Portico Sport : une qualité qui fait la différence",
+      "DESCRIPTION_2": "<p>Des terrains haut de gamme ont été installés, entièrement conçus et fabriqués par Portico Sport, utilisant des matériaux certifiés et des processus propriétaires garantissant :</p>",
+      "LIST": [
+        "Un contrôle qualité complet à chaque étape de production",
+        "Une stabilité structurelle élevée, même en usage intensif",
+        "Des finitions premium renforçant l’image du club",
+        "Une visibilité panoramique optimisée pour joueurs et spectateurs",
+        "Une surface de jeu uniforme avec rebond constant"
+      ],
+      "DESCRIPTION_3": "<p>De plus, plusieurs courts ont été équipés de toitures, permettant de jouer toute l’année et améliorant significativement la performance opérationnelle et la rentabilité du club.</p>",
+      "SUBTITLE_2": "Personnalisation alignée avec l’identité du club",
+      "DESCRIPTION_4": "Chaque terrain a été personnalisé pour s’aligner avec l’identité visuelle de Los Naranjos Padel Club via :",
+      "LIST_2": [
+        "Couleurs corporate et finitions exclusives",
+        "Intégration esthétique dans l’environnement du club",
+        "Options personnalisées de gazon, protections et signalétique"
+      ],
+      "DESCRIPTION_5": "<p>Le résultat est un ensemble cohérent de terrains renforçant l’image du club et son positionnement premium sur le marché espagnol.</p>",
+      "SUBTITLE_3": "Éclairage professionnel & composants techniques haute performance",
+      "DESCRIPTION_6": "<p>Afin d’assurer une performance constante toute l’année, des solutions techniques avancées ont été mises en œuvre :</p>",
+      "LIST_3": [
+        "Éclairage LED professionnel haute efficacité",
+        "Visibilité optimale avec interférences d’ombre minimales"
+      ]
+    },
+    "RESULTS": {
+      "TITLE": "Résultats : un club en forte croissance et hautement reconnu",
+      "DESCRIPTION": "<p>La combinaison design, qualité de construction et expérience de jeu a positionné Los Naranjos comme l’un des clubs de padel les plus remarquables d’Espagne.</p>",
+      "METRICS": {
+        "TITLE": "Indicateurs clés",
+        "SUBTITLES": {
+          "INDICATOR": "Indicateur",
+          "RESULT": "Résultat"
+        },
+        "ITEMS": [
+          {
+            "INDICATOR": "Joueurs depuis l'ouverture",
+            "RESULT": "+10 000 joueurs locaux et internationaux"
+          },
+          {
+            "INDICATOR": "Occupation des courts",
+            "RESULT": "Très élevée"
+          },
+          {
+            "INDICATOR": "Satisfaction client",
+            "RESULT": "Élevée"
+          },
+          {
+            "INDICATOR": "Évaluation des installations",
+            "RESULT": "Très positive"
+          },
+          {
+            "INDICATOR": "Terrains les plus appréciés",
+            "RESULT": "Courts semi-couverts et court individuel"
+          }
+        ]
+      },
+      "DESCRIPTION_2": "<p>Les joueurs soulignent particulièrement l’espacement généreux entre les courts, la qualité des panneaux en verre et le confort global de jeu, les courts semi-couverts étant devenus l’une des caractéristiques emblématiques du club.</p>",
+      "SUBTITLE": "Témoignage client",
+      "DESCRIPTION_TESTIMONIAL": "<p>“Les terrains premium ont été un véritable tournant pour nous. La qualité, le design et les finitions ont dépassé nos attentes et nous ont aidés à attirer davantage de joueurs. Portico Sport a fourni une véritable valeur différenciante.” <br> <span>— Los Naranjos Padel Club</span></p>"
+    },
+    "PROJECTS_GALLERY": {
+      "TITLE": "Galerie du projet Los Naranjos Padel Club"
+    },
+    "CONTACT": {
+      "TITLE": "Vous recherchez des fabricants de terrains de padel en Espagne pour votre club ?",
+      "DESCRIPTION": "<p>Chez Portico Sport, nous sommes fabricants de terrains de padel avec production interne, spécialisés dans la construction de clubs de padel premium en Espagne.</p><p><strong>Nous accompagnons clubs, investisseurs et opérateurs sportifs dans le développement de projets de padel à fort impact</strong>, en combinant expertise technique, excellence du design et résultats mesurables.</p><p>Nous vous guidons tout au long du processus :</p><p>ingénierie, design, fabrication interne, installation et service après-vente.</p>",
+      "BUTTON": {
+        "LABEL": "Contactez Portico Sport et lancez votre projet de padel en toute confiance",
+        "URL": "/client-contact",
+        "TITLE": "contacter Portico Sport"
+      }
+    }
+  }
+},
     "OUR_COMPANY": {
   "ID": "notre-entreprise",
   "SEO_TITLE": "Entreprise Portico Sport - Leader dans la conception et la fabrication de terrains de padel et couvertures",
