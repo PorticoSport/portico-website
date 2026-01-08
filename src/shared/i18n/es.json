@@ -2835,6 +2835,156 @@
         }
       ]
     },
+    "BUSINESS": {
+      "BUSINESS_NARANJOS": { 
+        "SEO_TITLE": "",
+        "SEO_DESCRIPTION": "",
+        "SUBTITLE": "Caso de Éxito | España",
+        "TITLE": "Los Naranjos Padel Club: Un referente en la construcción de clubes de pádel en España",
+        "DESCRIPTION": "<p>Los Naranjos Padel Club, ubicado en Marbella (Costa del Sol), es actualmente el mayor club de pádel de Andalucía y uno de los tres más grandes de España.</p><p>Un proyecto concebido para convertirse en un destino deportivo premium, donde la calidad de las pistas de pádel, la ingeniería y la experiencia del jugador son el eje central.</p><p>Portico Sport ha participado como fabricante de pistas de pádel y cubiertas deportivas, aportando fabricación propia en fábrica, ingeniería especializada y soluciones diseñadas para un club de alto rendimiento y crecimiento sostenible.</p>",
+        "PROJECTS": {
+          "LIST": [
+            {
+              "label": "Cliente",
+              "value": "Los Naranjos Club de Pádel"
+            },
+            {
+              "label": "Ubicación",
+              "value": "Marbella, España"
+            },
+            {
+              "label": "Tipo de proyecto",
+              "value": "Construcción desde cero de un club de pádel premium"
+            },
+            {
+              "label": "Instalaciones principales:",
+              "items": [
+                {
+                  "text": "18 pistas de pádel de última generación",
+                  "children": [
+                    "1 pista de competición",
+                    "4 pistas cubiertas con cubiertas",
+                    "12 pistas outdoor",
+                    "1 pista individual"
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Otras Instalaciones que ofrece:",
+              "items": [
+                "2 pistas de pickleball",
+                "Gimnasio completamente equipado",
+                "Restaurante"
+              ]
+            },
+            {
+              "label": "Solución Portico Sport:",
+              "text": "Pistas de pádel premium y cubiertas diseñadas y fabricadas in-house"
+            }
+          ]
+        },
+        "CHALLENGE": {
+          "TITLE": "El desafío: Crear un club de pádel referente en España",
+          "INTRO": "Los Naranjos Club de Pádel tenía un objetivo claro: <strong>crear un centro deportivo de referencia en España</strong>, capaz de destacar por encima de la oferta existente en la región, apostando por un estándar superior en instalaciones y experiencia de juego.",
+          "LEAD": "Para lograrlo, el proyecto debía superar varios desafíos clave:",
+          "ITEMS": [
+            {
+              "TITLE": "Posicionamiento premium en un mercado competitivo",
+              "DESCRIPTION": "Era imprescindible contar con pistas de pádel que reflejaran calidad real, tanto a nivel estructural como estético, posicionando al club por encima de la oferta local."
+            },
+            {
+              "TITLE": "Durabilidad y rendimiento intensivo",
+              "DESCRIPTION": "Con una alta previsión de uso diario, era imprescindible contar con pistas robustas, fiables y de bajo mantenimiento, capaces de soportar un uso intensivo sin perder prestaciones."
+            },
+            {
+              "TITLE": "Experiencia del jugador y del espectador",
+              "DESCRIPTION": "Visibilidad panorámica, rebotes consistentes, iluminación profesional y confort de juego eran factores clave para fidelizar jugadores y atraer nuevos usuarios."
+            },
+            {
+              "TITLE": "Imagen de marca y crecimiento del club",
+              "DESCRIPTION": "Las instalaciones debían convertirse en un elemento clave de la identidad del club, con un fuerte impacto visual en redes sociales y un alto poder de atracción para nuevos jugadores."
+            }
+          ]
+        },
+        "SOLUTION": {
+          "TITLE": "La solución Portico Sport: Ingeniería premium y fabricación propia",
+          "DESCRIPTION": "<p>Como fabricantes de pistas de pádel en España, Portico Sport acompañó a Los Naranjos Club de Pádel desde la fase de planificación hasta la instalación final, ofreciendo una <strong>solución integral basada en pistas de pádel premium y cubiertas diseñadas y fabricadas internamente</strong>.</p>",
+          "SUBTITLE": "Pistas de pádel y cubiertas Portico Sport: Calidad que marca la diferencia",
+          "DESCRIPTION_2": "<p>Se instalaron pistas de pádel de alta gama, diseñadas y fabricadas íntegramente por Portico Sport, con materiales certificados y procesos de fabricación propios, que garantizan:</p>",
+          "LIST": [
+            "Control total de calidad en cada fase del proceso",
+            "Alta estabilidad estructural incluso en uso intensivo",
+            "Acabados premium que refuerzan la imagen del club",
+            "Visibilidad panorámica optimizada para jugadores y público",
+            "Rebote homogéneo y superficie de juego uniforme"
+          ],
+          "DESCRIPTION_3": "<p>Además, varias pistas se equiparon con <strong>cubiertas para pistas de pádel</strong>, permitiendo ampliar el uso de las instalaciones durante todo el año y mejorar la rentabilidad del club.</p>",
+          "SUBTITLE_2": "Personalización y adaptación a la identidad del club",
+          "DESCRIPTION_4": "Cada pista de pádel fue personalizada para alinearse con la imagen de Los Naranjos Club de Pádel mediante:",
+          "LSIT_2": [
+            "Colores corporativos y acabados exclusivos",
+            "Integración estética con el entorno del club",
+            "Opciones personalizadas de césped, protección y señalética"
+          ],
+          "DESCRIPTION_5": "<p>El resultado es un conjunto de pistas que <strong>refuerzan la marca del club y su posicionamiento premium en el pádel español</strong>.</p>",
+          "SUBTITLE_3": "Iluminación profesional y componentes técnicos de alto rendimiento",
+          "DESCRIPTION_6": "<p>Para garantizar un rendimiento constante durante todo el año, se incorporaron soluciones técnicas para garantizar el máximo rendimiento:</p>",
+          "LIST_3": [
+            "Iluminación LED profesional de alta eficiencia",
+            "Visibilidad óptima sin sombras"
+          ]
+        },
+        "RESULTS": {
+          "TITLE": "Resultados: Un club de pádel con alto crecimiento y reconocimiento",
+          "DESCRIPTION": "<p>La combinación de diseño, calidad constructiva y experiencia de juego ha convertido a Los Naranjos como uno de los clubes de pádel más destacados de España.</p>",
+          "METRICS": {
+            "TITLE": "Métricas destacadas",
+            "SUBTITLES": {
+              "INDICATOR": "Indicador",
+              "RESULT": "Resultado"
+            },
+            "ITEMS": [
+              {
+                "INDICATOR": "Jugadores desde la inauguración",
+                "RESULT": "+10.000 jugadores locales e internacionales"
+              },
+              {
+                "INDICATOR": "Ocupación de pistas",
+                "RESULT": "Muy alta"
+              },
+              {
+                "INDICATOR": "Satisfacción del cliente",
+                "RESULT": "Alta"
+              },
+              {
+                "INDICATOR": "Valoración de instalaciones",
+                "RESULT": "Muy positiva"
+              },
+              {
+                "INDICATOR": "Pistas más valoradas",
+                "RESULT": "Pistas semicubiertas e individual"
+              }
+            ]
+          },
+          "DESCRIPTION_2": "<p>Los jugadores destacan especialmente <strong>la amplitud entre pistas, la calidad de los cristales y la comodidad de juego</strong>, posicionando a las pistas semicubiertas como una de las grandes señas de identidad del club.</p>",
+          "SUBTITLE": "Testimonio del cliente",
+          "DESCRIPTION_TESTIMONIAL": "<p>“Las pistas premium han sido un antes y un después. La calidad, el diseño y el acabado han superado nuestras expectativas y han logrado atraer a más jugadores. Portico Sport ha aportado un valor diferencial real.” <br> <span>— Los Naranjos Club de Pádel</p>"
+        },
+        "PROJECTS_GALLERY": {
+          "TITLE": "Galería del proyecto Los Naranjos Padel Club"
+        },
+        "CONTACT": {
+          "TITLE": "¿Buscas fabricantes de pistas de pádel en España para tu club?",
+          "DESCRIPTION": "<p>En Portico Sport somos fabricantes de pistas de pádel con fabricación propia, especializados en la construcción de clubes de pádel premium en España.</p><p>Ayudamos a clubes, inversores y operadores deportivos a <strong>crear proyectos de pádel con impacto real</strong>, combinando ingeniería, diseño y resultados medibles.</p><p>Te acompañamos en todo el proceso:</p><p>ingeniería, diseño, fabricación en fábrica propia, instalación y soporte postventa.</p>",
+          "BUTTON":{
+            "LABEL":"Contacta con Portico Sport y empieza tu proyecto de pádel con garantías",
+            "URL":"/client-contact",
+            "TITLE":"contact Portico Sport"
+          }
+        }
+      }
+    },
     "OUR_COMPANY": {
   "ID": "nuestra-empresa",
   "SEO_TITLE": "Empresa Portico Sport - Líder en diseño y fabricación de pistas de pádel y cubiertas",
