@@ -1,16 +1,50 @@
 [
     {
-        "src": "projectsGreece-1.webp",
+      "src": "projectsGreece-1.webp",
         "width": 1500,
         "height": 1000,
-        "alt": "Club padel court in Athens"
-      },
-      {
-        "src": "projectsGreece-2.webp",
+        "alt": "Kavouri Tennis Club on the coast of Greece"
+    },
+    {
+      "src": "projectsGreece-2.webp",
+      "width": 1500,
+      "height": 1000,
+      "alt": "Club padel court in Costa Navarino"
+    },
+    {
+      "src": "projectsGreece-3.webp",
         "width": 1500,
         "height": 1000,
-        "alt": "Club padel court in Costa Navarino"
-      }
-
-
-    ]
+        "alt": "TUI MAGIC LIFE Marmari Palace in Kos"
+    },
+    {
+      "src": "projectsGreece-4.webp",
+        "width": 1500,
+        "height": 1000,
+        "alt": "Academy Tennis Karachontzitis & Padel in Velo"
+    },
+    {
+      "src": "projectsGreece-5.webp",
+        "width": 1500,
+        "height": 1000,
+        "alt": "Atlantica Belvedere Resort in Kos"
+    },
+    {
+      "src": "projectsGreece-6.webp",
+        "width": 1500,
+        "height": 1000,
+        "alt": "Foinikounta Padel in Greece’s coastal area"
+    },
+    {
+      "src": "projectsGreece-7.webp",
+        "width": 1500,
+        "height": 1000,
+        "alt": "Robinson Kyllini Beach in Kalami Bay"
+    },
+    {
+      "src": "projectsGreece-8.webp",
+        "width": 1500,
+        "height": 1000,
+        "alt": "Smash Tripolis Tennis Club in Tripoli"
+    }
+]
