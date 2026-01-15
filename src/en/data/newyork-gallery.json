@@ -1,15 +1,20 @@
 [
-    {
-        "src": "NewYork-privatecourts-1.webp",
-        "width": 1200,
-        "height": 553,
-        "alt": "Outdoor Private Panoramic Court in New York"
-      },
-      {
-        "src": "NewYork-privatecourts-3.webp",
-        "width": 1200,
-        "height": 553,
-        "alt": "Padel Athletic Club"
-      }
-
-    ]
+  {
+    "src": "thumbnails/NewYork-privatecourts-1.webp",
+    "width": 1200,
+    "height": 553,
+    "alt": "Outdoor Private Panoramic Court in New York"
+  },
+  {
+    "src": "thumbnails/NewYork-privatecourts-2.webp",
+    "width": 1200,
+    "height": 553,
+    "alt": "Padel Athletic Club"
+  },
+  {
+    "src": "thumbnails/NewYork-privatecourts-3.webp",
+    "width": 1200,
+    "height": 553,
+    "alt": "Padel Athletic Club"
+  }  
+]
