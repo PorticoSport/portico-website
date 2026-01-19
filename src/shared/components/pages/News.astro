@@ -51,6 +51,32 @@ try {
   bgClass="brightness-50"
   news={true}
 >
+  <!-- Inyección de GA4 y GTM en el head -->
+  <Fragment slot="head">
+    <!-- GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+    <script is:inline>
+      if (!window.gtag) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXX');
+      }
+    </script>
+
+    <!-- GTM -->
+    <script is:inline>
+      if (!window.gtmDidInit) {
+        window.gtmDidInit = true;
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-XXXXXXX');
+      }
+    </script>
+  </Fragment>
+
   <main class="flex flex-col">
     <div
       class="text-center left-0 top-0 w-full min-h-[40rem] lg:aspect-video flex justify-center items-center flex-col gap-4 px-4"
@@ -79,10 +105,15 @@ try {
       />
 
       <NewsList posts={posts} language={language} 
-      title={i18n.PAGES.NEWS.LIST.TITLE}
-      
-      CardItemUrl={i18n.PAGES.NEWS.ROUTE.URL}/>
-      {!hidePagination && <Pagination page={page} totalPages={totalPages} principalRoute={i18n.PAGES.NEWS.ROUTE.URL} />}
+        title={i18n.PAGES.NEWS.LIST.TITLE}
+        CardItemUrl={i18n.PAGES.NEWS.ROUTE.URL}/>
+      {!hidePagination && (
+        <Pagination
+          page={page}
+          totalPages={totalPages}
+          principalRoute={i18n.PAGES.NEWS.ROUTE.URL}
+        />
+      )}
     </div>
   </main>
 </Layout>
