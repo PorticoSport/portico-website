@@ -109,6 +109,7 @@ currentLocale={currentLocale}
 language={language}
 bgImage="/sau-court/thumbnails/portada.webp"
 bgClass="brightness-50 md:object-[center_-100px] md:object-cover"
+loading="lazy"
 >
     
     <main class="flex flex-col gradient-bg relative">
@@ -137,6 +138,7 @@ bgClass="brightness-50 md:object-[center_-100px] md:object-cover"
                 src="/sau-court/thumbnails/modulo-1.webp"
                 alt="Barbados Padel"
                 class="img-structure w-full object-cover scale-[90%]"
+                loading="lazy"
               />
             </div>
           </div>
@@ -181,6 +183,7 @@ bgClass="brightness-50 md:object-[center_-100px] md:object-cover"
                     src={i18n.PAGES.SAU.TRUSTED_SAU.TAG_1.IMG} 
                     alt={i18n.PAGES.SAU.TRUSTED_SAU.TAG_1.TITLE} 
                     class="w-full h-48 md:h-80 object-cover rounded pb-7" 
+                    loading="lazy"
                 />
                 <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.TAG_1.TITLE} />
                 <Typography tag="p" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.TAG_1.DESCRIPTION} />
@@ -201,6 +204,7 @@ bgClass="brightness-50 md:object-[center_-100px] md:object-cover"
                     src={i18n.PAGES.SAU.TRUSTED_SAU.TAG_3.IMG} 
                     alt={i18n.PAGES.SAU.TRUSTED_SAU.TAG_3.TITLE} 
                     class="w-full h-48 md:h-80 object-cover rounded pb-7" 
+                    loading="lazy"
                 />
                 <Typography tag="div" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.TAG_3.TITLE} />
                 <Typography tag="p" className="ml-6 mr-6" text={i18n.PAGES.SAU.TRUSTED_SAU.TAG_3.DESCRIPTION} />
@@ -226,10 +230,10 @@ bgClass="brightness-50 md:object-[center_-100px] md:object-cover"
           <div class="w-full flex justify-center mt-[-50px]">
             <div class="flex flex-col sm:flex-row justify-center items-center gap-10 w-full sm:w-auto">
               <a href="https://www.head.com/" class="mt-6 sm:mt-12">
-                <img src="/Head-logo.png" class="invert w-40 sm:w-64 object-contain" />
+                <img src="/Head-logo.png" class="invert w-40 sm:w-64 object-contain" loading="lazy"/>
               </a>
               <a href="/partners" class="mt-6 sm:mt-12">
-                <img src="/logotipo-portico-sport-redondo-blanco.webp" class="w-32 sm:w-36 object-contain" />
+                <img src="/logotipo-portico-sport-redondo-blanco.webp" class="w-32 sm:w-36 object-contain" loading="lazy"/>
               </a>
             </div>
           </div>
