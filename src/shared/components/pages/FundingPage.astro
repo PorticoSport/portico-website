@@ -28,6 +28,7 @@ const currentLocale = getCurrentLocale({ language });
 bgImage="/heros/_DSC1006.webp"
 bgClass="brightness-50"
   language={language}
+  loading="lazy"
 >
  <main class="flex flex-col gradient-bg relative">
     <div
@@ -61,6 +62,7 @@ heading1={i18n.PAGES.FUNDING.TITLE} className="uppercase"> </Section>
             src={i18n.PAGES.FUNDING.INTRO_SECTION.IMG.SRC}
             alt={i18n.PAGES.FUNDING.INTRO_SECTION.IMG.ALT}
             class="img-structure w-full object-cover scale-[85%]"
+            loading="lazy"
           />
         </div>
       </div>
