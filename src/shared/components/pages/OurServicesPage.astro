@@ -26,6 +26,7 @@ const currentLocale = getCurrentLocale({ language });
   currentLocale={currentLocale}
 bgImage="/company/pista (1).jpg"
 bgClass="brightness-50"
+loading="lazy"
   language={language}
 >
 <main class="flex flex-col gradient-bg relative">
@@ -50,7 +51,7 @@ bgClass="brightness-50"
           
           
           <div class="rounded-2xl overflow-hidden shadow-lg bg-black/20">
-            <img src="/factory/factory-information-section-2.webp" alt="Portico Sport worker" class="w-full h-64 object-cover">
+            <img src="/factory/factory-information-section-2.webp" alt="Portico Sport worker" class="w-full h-64 object-cover" loading="lazy">
             <div class="p-6">
                 <Typography tag="h2" type="primary" className="text-center" size="small" text={i18n.PAGES.OUR_SERVICES.SVC_1.TITLE}/>
                 <Typography tag="div" className="text-black" text={i18n.PAGES.OUR_SERVICES.SVC_1.DESCRIPTION}/>
@@ -60,7 +61,7 @@ bgClass="brightness-50"
       
           
           <div class="rounded-2xl overflow-hidden shadow-lg bg-white">
-            <img src="/company/Constructio (1).jpeg" alt="Descripción imagen 2" class="w-full h-64 object-cover object-bottom">
+            <img src="/company/Constructio (1).jpeg" alt="Descripción imagen 2" class="w-full h-64 object-cover object-bottom" loading="lazy">
             <div class="p-6">
                 <Typography tag="h2" type="secondary" className="text-center" size="small" text={i18n.PAGES.OUR_SERVICES.SVC_2.TITLE}/>
               <div class="mt-4 text-gray-600">{i18n.PAGES.OUR_SERVICES.SVC_2.DESCRIPTION}</div>
@@ -74,7 +75,7 @@ bgClass="brightness-50"
           
           
           <div class="rounded-2xl overflow-hidden shadow-lg bg-white">
-            <img src="/company/instalador.jpeg" alt="Portico Sport worker" class="w-full h-64 object-cover object-bottom">
+            <img src="/company/instalador.jpeg" alt="Portico Sport worker" class="w-full h-64 object-cover object-bottom" loading="lazy">
             <div class="p-6">
                 <Typography tag="h2" type="secondary" className="text-center" size="small" text={i18n.PAGES.OUR_SERVICES.SVC_3.TITLE}/>
                 <div class="mt-4 text-gray-600">{i18n.PAGES.OUR_SERVICES.SVC_3.DESCRIPTION_1}</div>
@@ -83,7 +84,7 @@ bgClass="brightness-50"
           </div>
       
           <div class="rounded-2xl overflow-hidden shadow-lg bg-white">
-            <img src="/varios/Instalacion (3).webp" alt="Descripción imagen 2" class="w-full h-64 object-cover">
+            <img src="/varios/Instalacion (3).webp" alt="Descripción imagen 2" class="w-full h-64 object-cover" loading="lazy">
             <div class="p-6">
                 <Typography tag="h2" type="secondary" className="text-center" size="small" text={i18n.PAGES.OUR_SERVICES.SVC_6.TITLE}/>
               <div class="mt-4 text-gray-600">{i18n.PAGES.OUR_SERVICES.SVC_6.DESCRIPTION}</div>
@@ -98,7 +99,7 @@ bgClass="brightness-50"
           
           
           <div class="rounded-2xl overflow-hidden shadow-lg bg-black/20">
-            <img src="/varios/_DSC1032.webp" alt="Portico Sport worker" class="w-full h-64 object-cover">
+            <img src="/varios/_DSC1032.webp" alt="Portico Sport worker" class="w-full h-64 object-cover" loading="lazy">
             <div class="p-6">
                 <Typography tag="h2" type="primary" className="text-center" size="small" text={i18n.PAGES.OUR_SERVICES.SVC_5.TITLE}/>
                 <Typography tag="div" className="text-black" text={i18n.PAGES.OUR_SERVICES.SVC_5.DESCRIPTION}/>
@@ -108,7 +109,7 @@ bgClass="brightness-50"
       
 
 <div class="rounded-2xl overflow-hidden shadow-lg bg-black/20">
-            <img src="/complements/structures2.webp" alt="Descripción imagen 2" class="w-full h-64 object-cover">
+            <img src="/complements/structures2.webp" alt="Descripción imagen 2" class="w-full h-64 object-cover" loading="lazy">
             <div class="p-6">
                 <Typography tag="h2" type="primary" className="text-center" size="small" text={i18n.PAGES.OUR_SERVICES.SVC_4.TITLE}/>
               <Typography tag="div" className="text-black" text={i18n.PAGES.OUR_SERVICES.SVC_4.DESCRIPTION}/>
@@ -122,7 +123,7 @@ bgClass="brightness-50"
       <Section >
         <Typography tag="h2" className="text-center font-bold" text={i18n.PAGES.OUR_SERVICES.SVC_4.MINDSPRING_TITLE} responsive
         />
-        <img src="/mindspringpadel_logo.svg" alt="Mindspring logo" class="w-60 h-auto mx-auto mb-12 mt-12"
+        <img src="/mindspringpadel_logo.svg" alt="Mindspring logo" class="w-60 h-auto mx-auto mb-12 mt-12" loading="lazy"
         />
       
       <Typography tag="div" className="mb-6 text-center"text={i18n.PAGES.OUR_SERVICES.SVC_4.MINDSPRING_DESCRIPTION}
@@ -192,3 +193,4 @@ bgClass="brightness-50"
 
 
 </script>
+
