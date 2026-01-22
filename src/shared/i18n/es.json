@@ -4459,17 +4459,17 @@
             "ADDRESS": "1111B S Governors Ave STE 40362 Dover, DE 19904"
           }
         }
-      }
+      },
       "CENTRAL_EUROPE": {
-        "TITLE":"CENTRAL EUROPE",
-        "EMAIL":"centraleurope@porticosport.com",
+        "TITLE": "EUROPA CENTRAL",
+        "EMAIL": "centraleurope@porticosport.com",
         "NUMBER": "+49 160 4558047",
         "NUMBER_2": "+49 1522 8634651"
       },
       "YOUR_COUNTRY": {
-        "TITLE": "Contact the Departament in your country",
+        "TITLE": "Contacta con el departamento de tu país",
         "SPAIN": {
-          "TITLE": "SPAIN",
+          "TITLE": "ESPAÑA",
           "NUMBER": "+34 681 126 215"
         },
         "PORTUGAL": {
@@ -4477,31 +4477,31 @@
           "NUMBER": "+351 915 298 345"
         },
         "LATIN_AMERICA": {
-          "TITLE": "Latin America",
+          "TITLE": "Latinoamérica",
           "NUMBER": "+34 637 740 451"
         },
         "FRANCE_AND_BELGIUM": {
-          "TITLE": "France and Belgium",
+          "TITLE": "Francia y Bélgica",
           "NUMBER": "+34 628 818 913"
         },
         "REST_OF_EUROPE": {
-          "TITLE": "Rest of Europe",
+          "TITLE": "Resto de Europa",
           "NUMBER": "+34 659 633 652"
         },
         "ASIA_AND_OCEANIA": {
-          "TITLE": "Asia and Oceania",
+          "TITLE": "Asia y Oceanía",
           "NUMBER": "+34 659 633 652"
         },
         "SOUTHAFRICA": {
-          "TITLE": "Southafrica",
+          "TITLE": "Sudáfrica",
           "NUMBER": "+34 659 633 652"
         },
         "AFRICA": {
-          "TITLE": "Africa",
+          "TITLE": "África",
           "NUMBER": "+34 628 818 913"
         },
         "CANADA": {
-          "TITLE": "Canada",
+          "TITLE": "Canadá",
           "NUMBER": "+34 628 818 913"
         }
       }
