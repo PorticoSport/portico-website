@@ -1,0 +1,118 @@
+---
+import Typography from "@/shared/components/ui/Typography.astro";
+import { getI18N} from "@/shared/i18n";
+
+interface Props {
+    language: string;
+}
+const { language } = Astro.props;
+const i18n = getI18N({ language });
+---
+
+<div class="p-4 md:p-8 flex flex-col md:flex-row gap-4 justify-center mx-auto">
+    <div class="flex-1 p-6 rounded-xl bg-blue border border-primary w-full md:max-w-[700px] h-auto">
+        <Typography tag="h3" text={i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.TITLE} className="mb-6 font-thin" responsive type="primary" />
+        
+        <!-- Grid de 2 columnas -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
+            <!-- SPAIN -->
+            <div>
+                <div class="flex items-center gap-3 mb-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                    </svg>
+                    <Typography tag="span" text={i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.SPAIN.TITLE} className="text-sm uppercase tracking-wide" type="primary" />
+                </div>
+                <a class="pl-8 block text__glowing text-sm" href={`tel:${i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.SPAIN.NUMBER}`}>{i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.SPAIN.NUMBER}</a>
+            </div>
+
+            <!-- PORTUGAL -->
+            <div>
+                <div class="flex items-center gap-3 mb-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                    </svg>
+                    <Typography tag="span" text={i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.PORTUGAL.TITLE} className="text-sm uppercase tracking-wide" type="primary" />
+                </div>
+                <a class="pl-8 block text__glowing text-sm" href={`tel:${i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.PORTUGAL.NUMBER}`}>{i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.PORTUGAL.NUMBER}</a>
+            </div>
+
+            <!-- LATIN AMERICA -->
+            <div>
+                <div class="flex items-center gap-3 mb-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                    </svg>
+                    <Typography tag="span" text={i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.LATIN_AMERICA.TITLE} className="text-sm uppercase tracking-wide" type="primary" />
+                </div>
+                <a class="pl-8 block text__glowing text-sm" href={`tel:${i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.LATIN_AMERICA.NUMBER}`}>{i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.LATIN_AMERICA.NUMBER}</a>
+            </div>
+
+            <!-- FRANCE AND BELGIUM -->
+            <div>
+                <div class="flex items-center gap-3 mb-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                    </svg>
+                    <Typography tag="span" text={i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.FRANCE_AND_BELGIUM.TITLE} className="text-sm uppercase tracking-wide" type="primary" />
+                </div>
+                <a class="pl-8 block text__glowing text-sm" href={`tel:${i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.FRANCE_AND_BELGIUM.NUMBER}`}>{i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.FRANCE_AND_BELGIUM.NUMBER}</a>
+            </div>
+
+            <!-- REST OF EUROPE -->
+            <div>
+                <div class="flex items-center gap-3 mb-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                    </svg>
+                    <Typography tag="span" text={i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.REST_OF_EUROPE.TITLE} className="text-sm uppercase tracking-wide" type="primary" />
+                </div>
+                <a class="pl-8 block text__glowing text-sm" href={`tel:${i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.REST_OF_EUROPE.NUMBER}`}>{i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.REST_OF_EUROPE.NUMBER}</a>
+            </div>
+
+            <!-- ASIA AND OCEANIA -->
+            <div>
+                <div class="flex items-center gap-3 mb-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                    </svg>
+                    <Typography tag="span" text={i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.ASIA_AND_OCEANIA.TITLE} className="text-sm uppercase tracking-wide" type="primary" />
+                </div>
+                <a class="pl-8 block text__glowing text-sm" href={`tel:${i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.ASIA_AND_OCEANIA.NUMBER}`}>{i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.ASIA_AND_OCEANIA.NUMBER}</a>
+            </div>
+
+            <!-- SOUTHAFRICA -->
+            <div>
+                <div class="flex items-center gap-3 mb-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                    </svg>
+                    <Typography tag="span" text={i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.SOUTHAFRICA.TITLE} className="text-sm uppercase tracking-wide" type="primary" />
+                </div>
+                <a class="pl-8 block text__glowing text-sm" href={`tel:${i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.SOUTHAFRICA.NUMBER}`}>{i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.SOUTHAFRICA.NUMBER}</a>
+            </div>
+
+            <!-- AFRICA -->
+            <div>
+                <div class="flex items-center gap-3 mb-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                    </svg>
+                    <Typography tag="span" text={i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.AFRICA.TITLE} className="text-sm uppercase tracking-wide" type="primary" />
+                </div>
+                <a class="pl-8 block text__glowing text-sm" href={`tel:${i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.AFRICA.NUMBER}`}>{i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.AFRICA.NUMBER}</a>
+            </div>
+
+            <!-- CANADA -->
+            <div>
+                <div class="flex items-center gap-3 mb-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                    </svg>
+                    <Typography tag="span" text={i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.CANADA.TITLE} className="text-sm uppercase tracking-wide" type="primary" />
+                </div>
+                <a class="pl-8 block text__glowing text-sm" href={`tel:${i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.CANADA.NUMBER}`}>{i18n.PAGES.CLIENT_CONTACT.YOUR_COUNTRY.CANADA.NUMBER}</a>
+            </div>
+        </div>
+    </div>
+</div>
