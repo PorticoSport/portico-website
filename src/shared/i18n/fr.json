@@ -4238,17 +4238,16 @@
         }
 
       },
-      "CONTACT_USA":{
-        "SUBHEADING": "USA",
+      "CONTACT_USA": {
+        "SUBHEADING": "États-Unis",
+        "TITLE": "Pour plus d'informations, notre équipe est à votre disposition",
         "DEPARTMENTS": {
           "COMPANY": {
             "EMAIL": "info@porticosport.us",
-            "PHONE_1": "+ (1) 917 509 2655",
-            "PHONE_2": "+ (1) 617 913 0311",
             "ADDRESS": "1111B S Governors Ave STE 40362 Dover, DE 19904"
           }
-        }
-
+        },
+        "NUMBER": "+ (44)- 7889 649707"
       },
       "CENTRAL_EUROPE": {
         "TITLE": "EUROPE CENTRALE",
