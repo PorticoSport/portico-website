@@ -5774,6 +5774,15 @@
         "TITLE":"Portico Sport: Your Global Partner for Premium Quality Padel Courts",
         "DESCRIPTION":"<p>With <strong>15+ years of experience</strong> and <strong>4,000+ courts installed across 35+ countries</strong>, Portico Sport is a global leader in <strong>Padel court construction and canopy solutions.</strong></p><p>Our <strong>turnkey manufacturing process</strong> ensures <strong>100% in-house design and production</strong>, delivering <strong>high-performance courts</strong> built for durability, aesthetics, and top-tier gameplay.</p><p>By overseeing every step—from raw materials to final installation—we guarantee <strong>unmatched quality control and consistency</strong> across all our courts.</p><p>In 2023, we expanded with a <strong>110,000 sq. ft. factory</strong>, making us the <strong>largest and most advanced Padel court manufacturer </strong>in the industry</p><p>At Portico Sport, we don’t just build courts—we create <strong>lasting partnerships</strong>, offering <strong>custom designs, financing options, and ongoing support </strong> to help clubs and venues thrive.</p>"
       },
+      "CREDENTIALS_CERTIFIED": {
+        "TITLE": "Certified Quality, Sustainability & Manufacturing Excellence",
+        "DESCRIPTION": "<p>At Portico Sport, we design, manufacture and install padel courts and sports canopies with a firm commitment to quality, safety and environmental responsibility. As a global padel court manufacturer, we deliver solutions that meet the highest technical and regulatory standards across international markets.</p><p>Our <strong>100% in-house manufacturing</strong> model ensures full control over every stage of padel court construction — from engineering and material selection to production and installation — guaranteeing durable, high-performance and legally compliant padel courts.</p><p>Sustainability is embedded in our industrial processes. We actively minimise environmental impact, promote efficient use of resources and apply preventive measures to reduce pollution, supporting responsible and long-term padel infrastructure development.</p><p>Portico Sport operates under a <strong>certified management system aligned with ISO 9001:2015 (Quality Management) and ISO 14001:2015 (Environmental Management)</strong>, reinforcing our commitment to continuous improvement, operational excellence and trusted partnerships worldwide.</p>",
+        "BUTTON":{
+          "URL":"/pdfs/POLITICA_INTEGRAL_CALIDAD_MEDIO_AMBIENTE.pdf",
+          "TEXT":"Read Our Official Quality & Environmental Policy",
+          "TITLE":"Read Our Official Quality & Environmental Policy"
+        }
+      },
       "MEMBERSHIP_SECTION":{
         "TITLE":"Committed to Industry Excellence: Our Professional Memberships",
         "DESCRIPTION":"<p>Our expertise and commitment to excellence have earned us a place in key industry organizations, reinforcing our role in shaping the future of the sport. These memberships strengthen our connections within the global Padel community, ensuring we stay at the forefront of industry standards, innovation, and best practices.</p>",
