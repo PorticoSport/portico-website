@@ -5,10 +5,13 @@ const pathname = Astro.url.pathname; // ej: "/usa/newyork"
 const segments = pathname.split("/").filter(Boolean);
 
 const crumbs = [
-  { label: "Padel court builders", href: "/" },
+  {
+    label: "Padel court builders",
+    href: "/",
+  },
   ...segments.map((segment, index) => ({
     label: capitalize(segment),
-    href: "/" + segments.slice(0, index + 1).join("/")
+    href: "/" + segments.slice(0, index + 1).join("/"),
   })),
 ];
 ---
@@ -20,9 +23,9 @@ const crumbs = [
         {index < crumbs.length - 1 ? (
           <>
             <a
-              class="text-secondary hover:text-current focus:text-current text__glowing transition-colors"
               href={crumb.href}
               data-breadcrumb={crumb.href}
+              class="text-secondary hover:text-current focus:text-current text__glowing transition-colors"
             >
               {crumb.label}
             </a>
@@ -43,8 +46,8 @@ const crumbs = [
           </>
         ) : (
           <span
-            class="text-secondary text__glowing transition-colors line-clamp-1"
             id="page-title-breadcrumb"
+            class="text-secondary text__glowing transition-colors line-clamp-1"
           ></span>
         )}
       </li>
@@ -63,6 +66,7 @@ const crumbs = [
       const res = await fetch(url);
       const html = await res.text();
       const doc = new DOMParser().parseFromString(html, "text/html");
+
       const title = doc.querySelector("h1")?.textContent || "";
 
       if (title) {
@@ -80,10 +84,12 @@ const crumbs = [
 
     for (const link of links) {
       const title = await fetchTitleCached(link.dataset.breadcrumb);
-      if (title) link.textContent = title;
+      if (title) {
+        link.textContent = title;
+      }
     }
 
-    // Último crumb = etiqueta h1 actual
+    // Último crumb = h1 actual
     const h1 = document.querySelector("h1");
     const currentCrumb = document.getElementById("page-title-breadcrumb");
 
@@ -93,13 +99,34 @@ const crumbs = [
     }
   }
 
-  // Esperar al DOM para evitar que falte el h1
+  function waitForH1AndUpdate() {
+    const currentCrumb = document.getElementById("page-title-breadcrumb");
+
+    const observer = new MutationObserver(() => {
+      const h1 = document.querySelector("h1");
+
+      if (h1 && currentCrumb) {
+        currentCrumb.textContent = h1.textContent;
+        currentCrumb.setAttribute("title", h1.textContent);
+        observer.disconnect();
+      }
+    });
+
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true,
+    });
+  }
+
+  // Inicialización normal
   document.addEventListener("DOMContentLoaded", () => {
     updateBreadcrumbs();
+    waitForH1AndUpdate();
   });
 
-  // Soporte para navegación parcial (Astro SPA mode)
+  // Soporte SPA (Astro view transitions)
   document.addEventListener("astro:after-swap", () => {
     updateBreadcrumbs();
+    waitForH1AndUpdate();
   });
 </script>
