@@ -42,14 +42,15 @@ const hagoLlamada = paginasConArticulos.some(pagina => {
   // return pathname.startsWith(pagina);
 });
 
-// let test = 1;
-// if(pathname == '/modular-units' || pathname == '/canopies'){
-//   test = 0;
-// }
+let test = 1;
+if(pathname == '/modular-units' || pathname == '/canopies'){
+  test = 0;
+}
 
 let response;
 try {
-  if(hagoLlamada){
+  // if(hagoLlamada){
+  if(test){
     response = await fetch(
       `https://portico.porticosport.com/wp-json/wp/v2/posts?categories=${category}&per_page=100&_embed`
     );
