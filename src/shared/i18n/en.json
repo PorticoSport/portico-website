@@ -13,7 +13,7 @@
       "SEO_TITLE_IRL":"Padel Court Builders Manufacturers Ireland | Portico Sport",
       "SEO_DESCRIPTION_IRL":"Portico Sport specializes in custom-designed padel courts in Ireland, offering durable construction and professional installation for optimal performance. We provide high-quality, tailored solutions to support the growth of padel in the country.",
       "SEO_TITLE_ZA":"Padel Court Construction South Africa | Portico Sport",
-      "SEO_DESCRIPTION_ZA":"Portico Sport specializes in custom-designed padel courts in South Africa. Providing durable construction and professional installation for optimal performance.",
+      "SEO_DESCRIPTION_ZA":"Portico Sport specializes in custom padel courts in South Africa, offering durable construction and professional installation for optimal performance.",
        "SEO_TITLE_ES":"Fabricantes de pistas de pádel en España | Portico Sport",     
       "SEO_DESCRIPTION_ES":"Empresa de fabricación de pistas de pádel de primera calidad, con servicio de instalación de pistas de pádel y cubiertas a nivel global. ¡Descubre nuestras pistas y cubiertas!",
       "SEO_TITLE_GR":"Padel Court Builders Manufacturers Greece | Portico Sport",
@@ -1125,7 +1125,7 @@
     "SECTION_OUTDOOR":{
       "ID":"outdoor",
       "SEO_TITLE":"Outdoor Padel Courts Builders | Portico Sport",
-      "SEO_DESCRIPTION":"Outdoor padel courts built to last! High-quality materials, professional installation ✔️ , and customizable designs for clubs and private spaces. Let's build yours today!",
+      "SEO_DESCRIPTION":"Outdoor padel courts built to last. High-quality materials, professional installation and customizable designs for clubs and private spaces.",
       "OG_IMG": "https://www.porticosport.com/og/og-outdoor-padel.jpg",
       "TITLE":"<span class=\"block text-secondary\">Outdoor padel courts</span> <span class=\"text-xl\">experience padel in the outdoors with portico sport</span>",
       "SUBTITLE":"Experience Padel in the outdoors with Portico Sport",
@@ -4177,7 +4177,7 @@
     "PANORAMIC_FORCE_80_COURT": {
       "ID": "panoramic-force-80-court",
       "SEO_TITLE": "Tournament+ Court - Resilient Padel Court",
-      "SEO_DESCRIPTION":"Discover the Tournament+ Padel Court, designed to withstand hurricane-force winds of up to 80 m/s. Ideal for areas with extreme weather conditions. Learn more!",
+      "SEO_DESCRIPTION":"Discover the Tournament+ padel court, engineered to withstand hurricane-force winds up to 80 m/s. Ideal for areas with extreme weather conditions.",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic-force-80.jpg",
       "TITLE": "<span>Tournament+ Padel court</span>",
       "DESCRIPTION": "<p>In 2021, Portico Sport introduced the Club Tournament+, the world’s first anti-hurricane padel court.</p><p>Now, our engineering team has created a court that combines panoramic glass walls and a slimmer steel structure, <strong>the Tournament+</strong>, capable of withstanding winds of up to 80 m/s while maintaining a sleek panoramic design.</p>",
@@ -4371,7 +4371,7 @@
     "SINGLE_COURT": {
       "ID": "single-court",
       "SEO_TITLE": "Single Padel Court - Tailored for Solo Players",
-      "SEO_DESCRIPTION":"Discover the Single Padel Court, perfect for 1vs1 matches or individual training sessions. Same premium quality and durability in a smaller size. Learn more!",
+      "SEO_DESCRIPTION":"Single Padel Court by Portico Sport, perfect for 1vs1 matches or individual training. Premium quality and durability in a compact size.",
       "OG_IMG": "https://www.porticosport.com/og/og-single.jpg",
       "TITLE": "<span>Single Padel court</span>",
       "DESCRIPTION": "<p>Our Single Padel Court keeps the same length as a standard court but with reduced width, perfect for 1vs1 games. Ideal for individual lessons, targeted training, or making use of spaces where a doubles court won’t fit, it offers a full padel experience in a compact format.</p>",
@@ -5369,7 +5369,7 @@
     "OUR_COMPANY":{
            "ID":"our-company",
       "SEO_TITLE": "Portico Sport Company - Leader in padel courts & canopies design and manufacture",
-      "SEO_DESCRIPTION":"Portico Sport designs and manufactures premium padel courts and canopies in Spain, delivering turnkey solutions with in-house production, engineering excellence, and global reach.",
+      "SEO_DESCRIPTION":"Portico Sport designs and manufactures premium padel courts and canopies in Spain, delivering turnkey solutions with in-house production and engineering excellence.",
       "OG_IMG": "https://www.porticosport.com/og/og-distributed.jpg",
       "GALLERY":"our-company/gallery",
       "TITLE": "Our Company & Team ",
@@ -5599,7 +5599,7 @@
     "OUR_SERVICES":{
       "ID":"our-services",
       "SEO_TITLE": "Portico Sport Services - Services that go beyond manufacturing",
-      "SEO_DESCRIPTION":"Portico Sport delivers end-to-end padel court solutions worldwide, with expert support, certified installation, and tailored services to ensure smooth, high-quality project execution.",
+      "SEO_DESCRIPTION":"Portico Sport delivers end-to-end padel court solutions worldwide, with expert support, certified installation and tailored services.",
       "OG_IMG": "https://www.porticosport.com/og/og-work-with-us.jpg",
       "GALLERY":"tour-service/gallery",
       "TITLE": "Our Services",
@@ -6008,7 +6008,7 @@
     "MODULAR_UNITS": {
       "SEO_TITLE": "Modular Units for Padel Clubs | Prefabricated & Customizable Club Solutions – Portico Sport",
       "TYPE": "PRODUCT",
-      "SEO_DESCRIPTION":"Create a professional padel club quickly and efficiently with Portico Sport’s modular units. Prefabricated, fully customizable, and turnkey solutions for reception areas, pro shops, cafeterias, changing rooms, and more.",
+      "SEO_DESCRIPTION":"Create a professional padel club with Portico Sport’s modular units. Prefabricated, customizable turnkey solutions for reception areas, pro shops and changing rooms.",
       "OG_IMG": "https://www.porticosport.com/og/og-elevated-platform.jpg",
       "ID": "modular-units",
       "TITLE": "Modular Units for Padel Clubs",
@@ -6484,7 +6484,7 @@
     "NEWS": {
       "ID": "news",
       "SEO_TITLE": "Stay Updated with Portico Sport's Latest News",
-      "SEO_DESCRIPTION":"Keep informed with the latest news from Portico Sport, covering innovations, events, and developments in the world of padel courts. Read more to stay ahead!",
+      "SEO_DESCRIPTION":"Stay updated with the latest news from Portico Sport, including innovations, events and developments in the world of padel courts.",
       "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
       "TITLE": "News",
       "TITLE_ALT": "Our last news",
