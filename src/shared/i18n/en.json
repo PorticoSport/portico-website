@@ -11,7 +11,7 @@
       "SEO_TITLE_OCEANIA":"Padel Court Construction Oceania | Portico Sport",
       "SEO_DESCRIPTION_OCEANIA":"Portico Sport specializes in custom-designed padel courts in Oceania. Providing durable construction and professional installation for optimal performance.",
       "SEO_TITLE_IRL":"Padel Court Builders Manufacturers Ireland | Portico Sport",
-      "SEO_DESCRIPTION_IRL":"Portico Sport specializes in custom-designed padel courts in Ireland, offering durable construction and professional installation for optimal performance. We provide high-quality, tailored solutions to support the growth of padel in the country.",
+      "SEO_DESCRIPTION_IRL":"Portico Sport specializes in custom padel courts in Ireland, offering durable construction and professional installation for optimal performance.",
       "SEO_TITLE_ZA":"Padel Court Construction South Africa | Portico Sport",
       "SEO_DESCRIPTION_ZA":"Portico Sport specializes in custom padel courts in South Africa, offering durable construction and professional installation for optimal performance.",
        "SEO_TITLE_ES":"Fabricantes de pistas de pádel en España | Portico Sport",     
@@ -1171,7 +1171,7 @@
     "SECTION_INDOOR":{
     "ID":"indoor",
     "SEO_TITLE":"Indoor Padel Courts Builders | Portico Sport",
-    "SEO_DESCRIPTION":"We build world-class indoor padel courts with premium materials ✔️ for durability and performance. Custom designs, expert installation. Start your project today!",
+    "SEO_DESCRIPTION":"Indoor padel courts by Portico Sport, built with premium materials for durability and performance. Custom designs and expert installation.",
     "TITLE": "<span class=\"block text-secondary\">Indoor padel courts</span> <span class=\"text-xl\">experience padel in the indoors with portico sport</span>",
     "SUBTITLE":"Experience Padel in the indoors with Portico Sport",
     "ROUTE": {
@@ -1301,7 +1301,7 @@
       "HOME":
       {
         "SEO_TITLE": "Fabricantes de pistas de pádel en Mexico| Portico Sport",
-        "SEO_DESCRIPTION": "Portico Sport, líder en fabricación de canchas de pádel en México, ofrece diseño personalizado, construcción e instalación de canchas duraderas y de alto rendimiento.",
+        "SEO_DESCRIPTION": "Portico Sport, líder en fabricación de canchas de pádel en México, ofrece diseño personalizado, construcción e instalación de alto rendimiento.",
         "OG_IMG": "https://www.porticosport.com/og/og-portico.jpg",
         "SUBTITLE": "Construcción e Instalación de Canchas de Pádel y Cubiertas en México",
         "TITLE": "Fabricantes de canchas de pádel en México",
@@ -1845,7 +1845,7 @@
   },
     "SECTION_CA_TORONTO":{
     "SEO_TITLE":"Padel Court Construction in Toronto | Portico Sport Canada",
-    "SEO_DESCRIPTION":"Discover top-quality padel court construction in Toronto with Portico Sport. We offer turn-key solutions for clubs, gyms, schools & private projects—engineered for Canadian climate.",
+    "SEO_DESCRIPTION":"Discover top-quality padel court construction in Toronto with Portico Sport, offering turnkey solutions engineered for the Canadian climate.",
     "TITLE":"Padel courts Toronto",
     "ID": "toronto",
       "ROUTE": {
@@ -2312,7 +2312,7 @@
       "ID": "new-york",
       "TITLE": "Padel Courts in New York",
        "SEO_TITLE:":"Premium Padel Courts in New York | Portico Sport",
-       "SEO_DESCRIPTION":"Portico Sport leads the padel boom in New York with top-quality court installations across NYC, Long Island, Westchester, Albany, and Buffalo. Custom-built, U.S.-compliant courts since 2021.",
+       "SEO_DESCRIPTION":"Portico Sport leads the padel boom in New York with custom-built, U.S.-compliant courts installed across NYC, Long Island and Westchester.",
       "ROUTE": {
         "LABEL": "New York",
         "URL": "/new-york"
@@ -2374,7 +2374,7 @@
       "ID": "california",
       "TITLE": "Padel Courts California",
       "SEO_TITLE":"Premium Padel Courts in California | Portico Sport",
-      "SEO_DESCRIPTION":"Discover high-end padel courts tailored for California’s diverse landscapes — from coastal cities to mountain retreats. Portico Sport brings European expertise to every court, built for performance and U.S. regulations.",
+      "SEO_DESCRIPTION":"Discover high-end padel courts in California built by Portico Sport, combining European expertise with performance and U.S. regulatory standards.",
       "ROUTE": {
         "LABEL": "California",
         "URL": "/california"
@@ -2473,7 +2473,7 @@
   "ID": "chicago",
   "TITLE": "Padel Courts Chicago",
   "SEO_TITLE":"Padel Court Construction in Chicago | Portico Sport",
-  "SEO_DESCRIPTION":"We design and build custom padel courts in Chicago — from rooftops to backyards — tailored for the city’s tight urban spaces, harsh winters, and four-season climate. Engineered for durability and top-tier performance.",
+  "SEO_DESCRIPTION":"Custom padel courts in Chicago designed and built for rooftops, backyards and urban spaces, engineered for harsh winters and year-round performance.",
   "ROUTE": {
     "LABEL": "Chicago",
     "URL": "/chicago"
@@ -2510,7 +2510,7 @@
   "ID": "las-vegas",
   "TITLE": "Padel Court Las Vegas",
   "SEO_TITLE":"Padel Court Construction in Las Vegas | Portico Sport",
-  "SEO_DESCRIPTION":"Discover custom-built padel courts in Las Vegas with Portico Sport — engineered for desert heat and luxury venues. Ideal for resorts, rooftops, private estates, and high-impact environments.",
+  "SEO_DESCRIPTION":"Discover custom-built padel courts in Las Vegas with Portico Sport, engineered for desert heat and luxury venues like resorts and private estates.",
   "ROUTE": {
     "LABEL": "Las Vegas",
     "URL": "/las-vegas"
@@ -2542,7 +2542,7 @@
   "ID": "texas",
    "TITLE":"Padel Court Construction Texas",
    "SEO_TITLE":"Padel Court Construction in Texas | Portico Sport",
-   "SEO_DESCRIPTION":"Discover top-tier padel court construction across Texas with Portico Sport. From Houston to Austin, we build durable, customizable courts built to handle Texas weather and elevate any space.",
+   "SEO_DESCRIPTION":"Discover top-tier padel court construction across Texas with Portico Sport, building durable and customizable courts designed for Texas weather.",
    "ROUTE": {
     "LABEL": "Texas",
     "URL": "/texas"
@@ -3405,7 +3405,7 @@
     "PANORAMIC_PLUS": {
       "ID": "panoramic-plus",
       "SEO_TITLE": "Panoramic+ Padel Courts – Premium padel court design",
-      "SEO_DESCRIPTION":"Discover the Panoramic+ Padel Court by Portico Sport. Reinforced, frameless design with maximum visibility, strength, and style – ideal for high-end clubs, tournaments, and professional facilities.",
+      "SEO_DESCRIPTION":"Discover the Panoramic+ Padel Court by Portico Sport, featuring a reinforced frameless design with maximum visibility and strength for clubs and tournaments.",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic.jpg",
       "TITLE": "Panoramic+ Court",
       "DESCRIPTION": "<p>The <strong>Panoramic+</strong> is a <strong>reinforced panoramic padel court</strong> designed for clubs and venues that demand top-tier performance and impeccable aesthetics.</p><p>Its frameless, open design offers uninterrupted visibility, making it ideal for clubs that want a premium experience for players and spectators — perfect for tournaments, events, and professional venues.</p>",
