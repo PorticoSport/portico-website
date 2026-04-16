@@ -45,10 +45,20 @@ export default function FormButton({type = 'button', text, formId, termsError = 
     setLoading(false);
     if (data.status === 200) {
 
+      const rutaActual = window.location.pathname;
+      console.log('Ruta actual '+rutaActual);
+      
       window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({
-        event: 'lead_formulario'
-      });      
+      if (rutaActual.includes('client-contact')) {
+        window.dataLayer.push({
+            event: 'lead_formulario_contacto',
+        });
+      }else{        
+        window.dataLayer.push({
+          event: 'lead_formulario'
+        });          
+      }
+    
       
       setTimeout(() => {
         setResponseMessage('');
