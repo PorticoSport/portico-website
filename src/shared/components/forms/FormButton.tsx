@@ -46,10 +46,7 @@ export default function FormButton({type = 'button', text, formId, termsError = 
     if (data.status === 200) {
 
       const rutaActual = window.location.pathname;
-      console.log('Ruta actual '+rutaActual);
-
       window.dataLayer = window.dataLayer || [];
-      const rutaActual = window.location.pathname;
       const rutasContacto = ['contacto-cliente', 'client-contact', 'contact-client', 'kundenkontakt'];      
       if (rutasContacto.some(ruta => rutaActual.includes(ruta))) {
         window.dataLayer.push({
