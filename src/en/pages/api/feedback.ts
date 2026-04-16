@@ -33,11 +33,6 @@ export const POST: APIRoute = async ({ request }) => {
     );
   }
 
-  window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push({
-    event: 'lead_formulario'
-  });
-
   resend.emails.send({
     from: 'PorticoSport <clientes@porticogestion.com>',
     to: [email],

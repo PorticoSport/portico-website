@@ -44,6 +44,12 @@ export default function FormButton({type = 'button', text, formId, termsError = 
     resetForm()
     setLoading(false);
     if (data.status === 200) {
+
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: 'lead_formulario'
+      });      
+      
       setTimeout(() => {
         setResponseMessage('');
       }, 15000);
