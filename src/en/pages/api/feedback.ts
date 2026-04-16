@@ -37,8 +37,6 @@ export const POST: APIRoute = async ({ request }) => {
   window.dataLayer.push({
     event: 'lead_formulario'
   });
-  
-  console.log("Datalayer lead_formulario");
 
   resend.emails.send({
     from: 'PorticoSport <clientes@porticogestion.com>',
