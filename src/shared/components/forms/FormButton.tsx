@@ -47,9 +47,11 @@ export default function FormButton({type = 'button', text, formId, termsError = 
 
       const rutaActual = window.location.pathname;
       console.log('Ruta actual '+rutaActual);
-      
+
       window.dataLayer = window.dataLayer || [];
-      if (rutaActual.includes('client-contact')) {
+      const rutaActual = window.location.pathname;
+      const rutasContacto = ['contacto-cliente', 'client-contact', 'contact-client', 'kundenkontakt'];      
+      if (rutasContacto.some(ruta => rutaActual.includes(ruta))) {
         window.dataLayer.push({
             event: 'lead_formulario_contacto',
         });
