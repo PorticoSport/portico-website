@@ -20,7 +20,7 @@
       "INTRO_SECTION": {
         "ID": "intro",
         "TITLE": "Construction de terrains de padel: planification et installation clé en main",
-        "DESCRIPTION": "<p>Basé en Espagne, Portico Sport incarne la qualité, l’innovation et l’excellence du service client.</p><p>Forts d’une solide expertise en ingénierie, nous proposons une solution clé en main complète pour la construction de terrains de padel et structures couvertes sportives, <strong>100 % conçues et fabriquées en interne pour un contrôle total de la qualité</strong>.</p><p>En 2023, nous avons inauguré un nouveau site de production de plus de 10 000 m², faisant de Portico Sport <strong>le plus grand fabricant et fournisseur de terrains de padel et le plus avancé technologiquement</strong> du secteur. Cette installation garantit une production rapide et de haute qualité, adaptée aux projets de padel indoor, outdoor ou entièrement personnalisés, tout en maîtrisant le prix de construction d’un terrain de padel.</p>",
+        "DESCRIPTION": "<p>Basé en Espagne, Portico Sport incarne la qualité, l’innovation et l’excellence du service client.</p><p>Forts d’une solide expertise en ingénierie, nous proposons une solution clé en main complète pour la construction de terrains de padel et structures couvertes sportives, <strong>100 % créées et fabriquées en interne pour un contrôle total de la qualité</strong>.</p><p>En 2023, nous avons inauguré un nouveau site de production de plus de 10 000 m², faisant de Portico Sport <strong>le plus grand fabricant et fournisseur de terrains de padel et le plus avancé technologiquement</strong> du secteur. Cette installation garantit une production rapide et de haute qualité, adaptée aux projets de padel indoor, outdoor ou entièrement personnalisés, tout en maîtrisant le prix de construction d’un terrain de padel.</p>",
         "TITLE_2":"<p>Terrains de padel et structures sportives couvertes professionnelles, référence mondiale</p>",
         "TITLE_3":"<h3 class=\"text-black text-2xl font-bold strong\">ans</h3>",
         "TITLE_4":"<h3 class=\"text-black text-2xl font-bold strong\">pays</h3>",
@@ -233,7 +233,7 @@
         }],
         "QUESTIONS_COURT": [{
           "question": "Est-elle adaptée à l’extérieur ?",
-          "answer": "<p>Oui, la piste Club est conçue pour des installations aussi bien en intérieur qu’en extérieur. Sa structure en acier galvanisé et l’option Club+ la rendent parfaite pour résister à des conditions climatiques difficiles.</p>"
+          "answer": "<p>Oui, la piste Club est créée pour des installations aussi bien en intérieur qu’en extérieur. Sa structure en acier galvanisé et l’option Club+ la rendent parfaite pour résister à des conditions climatiques difficiles.</p>"
         }, {
           "question": "Pourquoi choisir la piste Club pour mon club ?",
           "answer": "<p>Sa durabilité, son design intemporel et sa construction robuste en font un investissement sûr. Avec une garantie structurelle de 10 ans, elle est idéale pour les clubs qui recherchent fiabilité et qualité à long terme.</p>"
@@ -461,7 +461,7 @@
 "OUTDOOR_CONTACT": {
     "ID": "contact-outdoor",
     "TITLE": "Choisissez votre terrain extérieur parfait au meilleur prix",
-    "DESCRIPTION_1": "N'hésitez pas à contacter notre équipe d'experts en Terrains de Padel en plein air pour plus d'informations ! Nous sommes là pour répondre à toutes vos questions et vous guider dans la recherche du terrain parfait pour votre installation. Que vous recherchiez des terrains extérieurs standard ou personnalisés, nous pouvons concevoir et construire selon vos préférences et spécifications. Créons le terrain de Padel en plein air idéal qui répond à vos besoins. Nous avons hâte d'avoir de vos nouvelles bientôt !"
+    "DESCRIPTION_1": "N'hésitez pas à contacter notre équipe d'experts en Terrains de Padel en plein air pour plus d'informations ! Nous sommes là pour répondre à toutes vos questions et vous guider dans la recherche du terrain parfait pour votre installation. Que vous recherchiez des terrains extérieurs standard ou personnalisés, nous pouvons créer et construire selon vos préférences et spécifications. Créons le terrain de Padel en plein air idéal qui répond à vos besoins. Nous avons hâte d'avoir de vos nouvelles bientôt !"
 }
 
     },
@@ -507,12 +507,12 @@
 },
 "INDOOR_PERSONALIZATION": {
     "TITLE": "Personnalisez Votre Piste de Padel Couverte",
-    "DESCRIPTION": "Lorsque vous concevez votre piste de padel couverte, la personnalisation est essentielle pour créer une expérience de jeu unique. Une considération importante est la hauteur nécessaire de la piste de Padel couverte, qui devrait idéalement être comprise entre 6 et 8 mètres pour accueillir la piste confortablement. Cette hauteur assure un jeu optimal et permet diverses personnalisations, telles que l'éclairage, le branding et les places pour les spectateurs. En tenant compte de ces facteurs, vous pouvez créer un environnement sur mesure qui améliore le plaisir de chaque match."
+    "DESCRIPTION": "Lorsque vous c votre piste de padel couverte, la personnalisation est essentielle pour créer une expérience de jeu unique. Une considération importante est la hauteur nécessaire de la piste de Padel couverte, qui devrait idéalement être comprise entre 6 et 8 mètres pour accueillir la piste confortablement. Cette hauteur assure un jeu optimal et permet diverses personnalisations, telles que l'éclairage, le branding et les places pour les spectateurs. En tenant compte de ces facteurs, vous pouvez créer un environnement sur mesure qui améliore le plaisir de chaque match."
 },
 "INDOOR_CONTACT": {
     "ID": "contact-couvert",
     "TITLE": "Choisissez votre piste couverte parfaite au meilleur rapport qualité-prix",
-    "DESCRIPTION_1": "Contactez notre équipe de spécialistes des pistes de Padel couvertes pour plus d'informations ! Nous sommes prêts à vous aider pour toute demande et à vous aider à découvrir la piste idéale pour votre installation. Que vous soyez intéressé par des pistes couvertes standards ou personnalisées, nous pouvons concevoir et construire selon vos spécifications et exigences. Travaillons ensemble pour créer la piste de Padel couverte parfaite qui répond à vos besoins. Nous sommes impatients d'avoir de vos nouvelles bientôt !"
+    "DESCRIPTION_1": "Contactez notre équipe de spécialistes des pistes de Padel couvertes pour plus d'informations ! Nous sommes prêts à vous aider pour toute demande et à vous aider à découvrir la piste idéale pour votre installation. Que vous soyez intéressé par des pistes couvertes standards ou personnalisées, nous pouvons créer et construire selon vos spécifications et exigences. Travaillons ensemble pour créer la piste de Padel couverte parfaite qui répond à vos besoins. Nous sommes impatients d'avoir de vos nouvelles bientôt !"
 }
     },
 
@@ -658,7 +658,7 @@
         },
         "TITLE": "Systèmes d'éclairage LED avancés pour les courts ACE",
         "SUBTITLE": "Illuminez votre jeu avec l'éclairage Portico Sport !",
-        "DESCRIPTION": "<p>Éclairez votre jeu avec les <strong>solutions LED de pointe de Portico Sport</strong>, conçues en collaboration avec des spécialistes renommés.</p>",
+        "DESCRIPTION": "<p>Éclairez votre jeu avec les <strong>solutions LED de pointe de Portico Sport</strong>, créées en collaboration avec des spécialistes renommés.</p>",
         "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Conforme aux normes <strong>UNE-EN-12193:2020</strong></li><li>Lumière uniforme sans éblouissement ni ombres</li><li>Résistance aux impacts IK10, étanchéité IP66-IP67</li><li>Protection contre les surtensions (4kV - 6kV), dissipation thermique élevée</li><li>Convient pour un usage récréatif (Classe III) et compétitions professionnelles (Classe I, norme NIDE)</li><li>Garantie de 5 ans</li></ul>"
       },
       "GALLERY_SECTION": {
@@ -2062,7 +2062,7 @@
           "TITLE":"Request your private consultation"
         }
       },
-      "HOME_DESCRIPTION": "Notre modèle Terrain Force 80 a été conçu pour résister à des vents de force ouragan de catégorie 5. La structure spécialement conçue associée à des systèmes d'ancrage spéciaux permet à ce Terrain d'être installé dans les endroits les plus difficiles du monde entier.",
+      "HOME_DESCRIPTION": "Notre modèle Terrain Force 80 a été conçu pour résister à des vents de force ouragan de catégorie 5. La structure spécialement créée associée à des systèmes d'ancrage spéciaux permet à ce Terrain d'être installé dans les endroits les plus difficiles du monde entier.",
       "HOME_IMAGES": [
         {
           "id": "slide-1",
@@ -2458,7 +2458,7 @@
         "BENEFITS": [{
           "header": "Garantie 10 ans",
           "icon": "WarrantyIcon",
-          "footer": "Intégrité structurelle conçue pour résister aux vents forts"
+          "footer": "Intégrité structurelle créée pour résister aux vents forts"
         }, {
           "header": "Court petit et polyvalent",
           "icon": "VersatileCourtIcon",
@@ -2946,7 +2946,7 @@
     "ID": "mindspring",
     "TITLE": "Mindspring & Portico Sport : Offrez le padel à votre club",
     "SUBTITLE": "Financement à 100 % des terrains de padel – Aucun risque, que des avantages",
-    "DESCRIPTION": "<p>Apportez l'excitation du padel à votre club de tennis, padel ou multisport avec une <strong>solution clé en main entièrement financée</strong>, conçue pour une intégration fluide.</p><p>Avec <strong>un risque financier nul</strong>, notre partenariat garantit que votre club peut adopter le padel sans souci, maximisant ses bénéfices dès le premier jour. Que vous souhaitiez agrandir vos infrastructures existantes ou introduire le padel pour la première fois, nous vous apportons l'expertise, le financement et l’accompagnement nécessaires pour concrétiser votre projet—rapidement et efficacement.</p>",
+    "DESCRIPTION": "<p>Apportez l'excitation du padel à votre club de tennis, padel ou multisport avec une <strong>solution clé en main entièrement financée</strong>, créée pour une intégration fluide.</p><p>Avec <strong>un risque financier nul</strong>, notre partenariat garantit que votre club peut adopter le padel sans souci, maximisant ses bénéfices dès le premier jour. Que vous souhaitiez agrandir vos infrastructures existantes ou introduire le padel pour la première fois, nous vous apportons l'expertise, le financement et l’accompagnement nécessaires pour concrétiser votre projet—rapidement et efficacement.</p>",
     "IMAGES": [{
       "id": "slide-4.1",
       "src": "/partners/Mindspring/LosNaranjos-01.webp",
@@ -3151,7 +3151,7 @@
     "TITLE": "Financement de courts de padel",
     "INTRO_SECTION": {
       "TITLE": "Financement pour courts de padel",
-      "DESCRIPTION": "<p>Chez Portico Sport, nous comprenons que construire un court de padel est une entreprise passionnante et un investissement important. C'est pourquoi nous proposons des solutions de financement sur mesure, y compris des partenariats exclusifs comme Mindspring Padel, ainsi que des accords personnalisés avec des institutions financières de premier plan.</p><p>Nos collaborations avec des banques et des institutions financières offrent un accès à une large gamme de services, y compris le leasing et le financement par emprunt. Ces options sont conçues pour répondre aux besoins uniques de chaque client, offrant des conditions compétitives adaptées à vos exigences.</p>",
+      "DESCRIPTION": "<p>Chez Portico Sport, nous comprenons que construire un court de padel est une entreprise passionnante et un investissement important. C'est pourquoi nous proposons des solutions de financement sur mesure, y compris des partenariats exclusifs comme Mindspring Padel, ainsi que des accords personnalisés avec des institutions financières de premier plan.</p><p>Nos collaborations avec des banques et des institutions financières offrent un accès à une large gamme de services, y compris le leasing et le financement par emprunt. Ces options sont créées pour répondre aux besoins uniques de chaque client, offrant des conditions compétitives adaptées à vos exigences.</p>",
       "BUTTON": {
         "LABEL": "Construisons votre court de padel",
         "TITLE": "Constructeurs de courts de padel",
@@ -3173,7 +3173,7 @@
     },
     "FINANCING_SECTION": {
       "TITLE": "Meilleurs constructeurs de courts de padel avec programmes de financement",
-      "DESCRIPTION": "<p>Alternativement, Portico Sport propose également des solutions de financement directes via des banques et des options de leasing, conçues pour répondre aux besoins des clubs avec différentes stratégies financières.</p><p>Nos collaborations avec des banques et des institutions financières offrent un accès à une large gamme de services, y compris le leasing et le financement par emprunt. Ces options sont conçues pour répondre aux besoins uniques de chaque client, offrant des conditions compétitives adaptées à vos exigences.</p>",
+      "DESCRIPTION": "<p>Alternativement, Portico Sport propose également des solutions de financement directes via des banques et des options de leasing, créées pour répondre aux besoins des clubs avec différentes stratégies financières.</p><p>Nos collaborations avec des banques et des institutions financières offrent un accès à une large gamme de services, y compris le leasing et le financement par emprunt. Ces options sont créées pour répondre aux besoins uniques de chaque client, offrant des conditions compétitives adaptées à vos exigences.</p>",
       "POINT_1": {
         "TITLE": "Leasing",
         "DESCRIPTION": "Idéal pour les entreprises et les particuliers souhaitant acquérir des actifs sans investissement initial important. Répartissez les paiements dans le temps et conservez l'option de posséder le court à la fin du contrat de location."
@@ -3201,7 +3201,7 @@
         "URL": "/contact-client"
       },
       "SUBTITLE_2": "Réalisez votre vision du court de padel",
-      "DESCRIPTION_2": "<p>Imaginez votre court de padel ultramoderne animé par des joueurs et de l'énergie. Avec le financement de Portico Sport, ce rêve est à portée de main. Nos options de financement sur mesure sont conçues pour répondre à vos besoins spécifiques, garantissant un processus fluide du début à la fin.<br>Discutez de vos <strong>options de financement de court de padel</strong> avec nos experts et faites le premier pas vers la construction de votre court de rêve. <strong>Faisons de votre projet un succès !</strong></br>",
+      "DESCRIPTION_2": "<p>Imaginez votre court de padel ultramoderne animé par des joueurs et de l'énergie. Avec le financement de Portico Sport, ce rêve est à portée de main. Nos options de financement sur mesure sont créées pour répondre à vos besoins spécifiques, garantissant un processus fluide du début à la fin.<br>Discutez de vos <strong>options de financement de court de padel</strong> avec nos experts et faites le premier pas vers la construction de votre court de rêve. <strong>Faisons de votre projet un succès !</strong></br>",
       "BUTTON_2": {
         "LABEL": "Contactez-nous pour un financement personnalisé",
         "TITLE": "Constructeurs de courts de padel",
@@ -3228,7 +3228,7 @@
     },
   "CREDENTIALS_CERTIFIED": {
       "TITLE": "Qualité, Durabilité et Excellence Manufacturière Certifiées",
-      "DESCRIPTION": "<p>Chez Portico Sport, nous concevons, fabriquons et installons des terrains de padel et des structures sportives en mettant l’accent sur la qualité, la sécurité et la responsabilité environnementale. En tant que fabricant mondial de terrains de padel, nous proposons des solutions répondant aux normes techniques et réglementaires les plus strictes sur les marchés internationaux.</p><p>Notre modèle de <strong>fabrication 100 % interne</strong> garantit un contrôle total à chaque étape — de l’ingénierie et la sélection des matériaux jusqu’à la production et l’installation — assurant des terrains de padel durables, performants et conformes aux exigences légales.</p><p>La durabilité est intégrée à nos processus industriels. Nous agissons activement pour réduire l’impact environnemental, promouvoir l’utilisation efficace des ressources et mettre en place des mesures préventives afin de limiter la pollution, contribuant ainsi au développement responsable et durable des infrastructures de padel.</p><p>Commercialisation, fabrication, entretien, fourniture et installation de courts de padel et d'installations sportives, y compris la logistique et le transport des produits finis, le service après-vente, les garanties et l'assistance technique.</p><p>Portico Sport opère selon un <strong>système de gestion certifié conforme aux normes ISO 9001:2015 (Management de la Qualité) et ISO 14001:2015 (Management Environnemental)</strong>, renforçant notre engagement envers l’amélioration continue, l’excellence opérationnelle et des partenariats de confiance à l’échelle mondiale.</p>",
+      "DESCRIPTION": "<p>Chez Portico Sport, nous créé, fabriquons et installons des terrains de padel et des structures sportives en mettant l’accent sur la qualité, la sécurité et la responsabilité environnementale. En tant que fabricant mondial de terrains de padel, nous proposons des solutions répondant aux normes techniques et réglementaires les plus strictes sur les marchés internationaux.</p><p>Notre modèle de <strong>fabrication 100 % interne</strong> garantit un contrôle total à chaque étape — de l’ingénierie et la sélection des matériaux jusqu’à la production et l’installation — assurant des terrains de padel durables, performants et conformes aux exigences légales.</p><p>La durabilité est intégrée à nos processus industriels. Nous agissons activement pour réduire l’impact environnemental, promouvoir l’utilisation efficace des ressources et mettre en place des mesures préventives afin de limiter la pollution, contribuant ainsi au développement responsable et durable des infrastructures de padel.</p><p>Commercialisation, fabrication, entretien, fourniture et installation de courts de padel et d'installations sportives, y compris la logistique et le transport des produits finis, le service après-vente, les garanties et l'assistance technique.</p><p>Portico Sport opère selon un <strong>système de gestion certifié conforme aux normes ISO 9001:2015 (Management de la Qualité) et ISO 14001:2015 (Management Environnemental)</strong>, renforçant notre engagement envers l’amélioration continue, l’excellence opérationnelle et des partenariats de confiance à l’échelle mondiale.</p>",
       "BUTTON": {
         "URL": "/pdfs/POLITICA_INTEGRAL_CALIDAD_MEDIO_AMBIENTE.pdf",
         "TEXT": "Lire notre Politique Officielle Qualité & Environnement",
@@ -3356,7 +3356,7 @@
         "ID": "contact",
         "SUBJECT": "Nouvelle demande de couberture",
         "TITLE": "Contactez-nous",
-        "DESCRIPTION": "<p>N’hésitez pas à contacter notre équipe pour toute information concernant les terrains de padel, les auvents pour courts de padel, leurs prix et les options disponibles pour optimiser votre projet.</p><p>Nous vous aidons à déterminer la meilleure solution pour votre installation — que vous souhaitiez couvrir un court existant, améliorer la rentabilité de votre club ou étendre votre offre avec des installations adaptées à la location de terrains de padel.</p><p>Nous pouvons également concevoir et construire votre terrain de padel entièrement personnalisé, avec ou sans couverture. Nous avons hâte de vous accompagner dans votre projet !</p>",
+        "DESCRIPTION": "<p>N’hésitez pas à contacter notre équipe pour toute information concernant les terrains de padel, les auvents pour courts de padel, leurs prix et les options disponibles pour optimiser votre projet.</p><p>Nous vous aidons à déterminer la meilleure solution pour votre installation — que vous souhaitiez couvrir un court existant, améliorer la rentabilité de votre club ou étendre votre offre avec des installations adaptées à la location de terrains de padel.</p><p>Nous pouvons également créer et construire votre terrain de padel entièrement personnalisé, avec ou sans couverture. Nous avons hâte de vous accompagner dans votre projet !</p>",
         "BUTTON_TEXT": "JE VEUX PLUS D'INFORMATIONS SUR LES AUVENTS",
         "BG_IMAGE": "canopies/canopies-contact-bg.webp",
         "IMAGE": "canopies/canopy-contact.webp"
@@ -3384,7 +3384,7 @@
       "FIRST_SECTION": {
         "TITLE": "Votre Terrain de padel sur n'importe quel terrain",
         "SUBTITLE": "La solution parfaite pour vous !",
-        "DESCRIPTION": "Chez Portico Sport, notre équipe d'ingénieurs a développé une plateforme innovante, surélevée, modulaire et amovible, spécialement conçue pour s'adapter à tout type de terrain. Cette plateforme offre une base solide et fiable pour tous nos modèles de terrains, permettant aux clients d'établir leur espace de padel quelles que soient les conditions du terrain. De plus, les clients peuvent économiser sur les dépenses de préparation du sol et d'acquisition de permis, car seul un test de sol est nécessaire pour placer la plateforme."
+        "DESCRIPTION": "Chez Portico Sport, notre équipe d'ingénieurs a développé une plateforme innovante, surélevée, modulaire et amovible, spécialement créée pour s'adapter à tout type de terrain. Cette plateforme offre une base solide et fiable pour tous nos modèles de terrains, permettant aux clients d'établir leur espace de padel quelles que soient les conditions du terrain. De plus, les clients peuvent économiser sur les dépenses de préparation du sol et d'acquisition de permis, car seul un test de sol est nécessaire pour placer la plateforme."
       },
       "FEATURE_SECTION": {
         "TITLE": "<span class=\"text-white text-base lg:text-xl font-thin\">Élevez votre passion pour le padel à de nouveaux sommets avec</span><br/> <span>notre plateforme surélevée innovante !</span>",
@@ -3425,7 +3425,7 @@
         ]
       },
       "INFORMATION_SECTION": {
-        "TITLE": "Une plateforme conçue pour surmonter tout terrain",
+        "TITLE": "Une plateforme créée pour surmonter tout terrain",
         "DESCRIPTION": "<p>La plateforme surélevée de Portico Sport est une solution structurale qui s'adapte à votre terrain. Grâce à son système de piliers réglables, elle surmonte les limitations de terrain que les Terrains de Padel normaux entraînent sans affecter l'expérience de jeu. Son design unique et son système de vissage permettent une installation rapide et facile. Cela signifie qu'en un rien de temps, votre plateforme sera prête à s'adapter à toute irrégularité du sol et à faciliter l'installation de l'un de nos Terrains de Padel.</p><p>Notre département d'ingénierie est à l'avant-garde de la conception et de la fabrication de Terrains de Padel, c'est pourquoi chaque plateforme surélevée subit des procédures rigoureuses, notamment une analyse sismique, une limitation de déformation et une vérification des éléments en acier selon les réglementations ASCE 7-SEI 2019 et AISC 360 2016 (LRFD), garantissant sécurité et qualité dans chaque détail pour assurer des performances optimales et une stabilité inégalée.</p>",
         "IMAGE": {
           "id": "information-section",
@@ -3462,7 +3462,7 @@
       "CONTACT_SECTION": {
         "ID": "contact",
         "TITLE": "Contactez nos experts pour plus d'informations sur notre plateforme surélevée pour Terrains de Padel !",
-        "DESCRIPTION":"N'hésitez pas à contacter nos experts en fabrication de Terrains de Padel ! Ils vous fourniront plus d'informations sur nos solutions innovantes de padel, comme notre plateforme surélevée. Nous sommes là pour répondre à toutes vos questions et vous aider à trouver le Terrain de padel qui répond le mieux à vos besoins. De plus, nous pouvons concevoir et construire un Terrain de padel ou une couverture sportive personnalisée selon vos spécifications. Nous serons ravis de vous aider et de travailler avec vous !",
+        "DESCRIPTION":"N'hésitez pas à contacter nos experts en fabrication de Terrains de Padel ! Ils vous fourniront plus d'informations sur nos solutions innovantes de padel, comme notre plateforme surélevée. Nous sommes là pour répondre à toutes vos questions et vous aider à trouver le Terrain de padel qui répond le mieux à vos besoins. De plus, nous pouvons créer et construire un Terrain de padel ou une couverture sportive personnalisée selon vos spécifications. Nous serons ravis de vous aider et de travailler avec vous !",
         "SUBTITLE": "Contactez-nous et nous vous aiderons",
         "BUTTON": "Je veux une Plateforme surélevée",
         "CONTACT_SUBJECT": "Nouvelle demande de Plateforme surélevée",
@@ -3488,7 +3488,7 @@
       "FIRST_SECTION": {
         "TITLE": "Transformez votre club de padel avec des unités modulaires sur mesure",
         "SUBTITLE": "La solution parfaite pour votre terrain de Padel !",
-        "DESCRIPTION": "<p>Chez Portico Sport, nous allons au-delà de la construction de terrains de padel, nous concevons des expériences complètes de club de padel. <strong>Nos unités modulaires préfabriquées offrent tout ce dont votre club a besoin</strong> sans les tracas de la construction traditionnelle.</p><p>Que vous ayez besoin d'une <strong>boutique, cafétéria, accueil, vestiaires, bureaux ou sanitaires</strong>, nos solutions modulaires sont conçues, fabriquées et installées selon vos exigences exactes.</p><p>Portables, élégantes et entièrement personnalisables, ces unités sont le moyen le plus rapide et efficace de créer un club de padel professionnel dès le premier jour.</p>"
+        "DESCRIPTION": "<p>Chez Portico Sport, nous allons au-delà de la construction de terrains de padel, nous créé des expériences complètes de club de padel. <strong>Nos unités modulaires préfabriquées offrent tout ce dont votre club a besoin</strong> sans les tracas de la construction traditionnelle.</p><p>Que vous ayez besoin d'une <strong>boutique, cafétéria, accueil, vestiaires, bureaux ou sanitaires</strong>, nos solutions modulaires sont créées, fabriquées et installées selon vos exigences exactes.</p><p>Portables, élégantes et entièrement personnalisables, ces unités sont le moyen le plus rapide et efficace de créer un club de padel professionnel dès le premier jour.</p>"
       },
       "CHOOSE_MODULAR": {
         "TITLE": "<span class=\"text-black text-base lg:text-xl\">Pourquoi choisir les unités modulaires pour votre club de padel ?</span>",
@@ -3572,7 +3572,7 @@
       "CONTACT_SECTION": {
         "ID": "contact",
         "TITLE": "Contactez nos experts pour en savoir plus sur nos unités modulaires Padel !",
-        "DESCRIPTION":"N'hésitez pas à contacter notre équipe de constructeurs de terrains de padel pour obtenir plus d'informations sur nos unités modulaires Padel ! Nous répondons à toutes vos questions et vous aidons à trouver la solution Padel parfaite adaptée à vos besoins. Si vous le souhaitez, nous pouvons également concevoir et installer un terrain de padel personnalisé selon vos préférences et spécifications. Nous avons hâte d'avoir de vos nouvelles !",
+        "DESCRIPTION":"N'hésitez pas à contacter notre équipe de constructeurs de terrains de padel pour obtenir plus d'informations sur nos unités modulaires Padel ! Nous répondons à toutes vos questions et vous aidons à trouver la solution Padel parfaite adaptée à vos besoins. Si vous le souhaitez, nous pouvons également créer et installer un terrain de padel personnalisé selon vos préférences et spécifications. Nous avons hâte d'avoir de vos nouvelles !",
         "SUBTITLE": "Contactez-nous et nous vous aiderons",
         "BUTTON": "Je veux une unité modulaire",
         "CONTACT_SUBJECT": "Nouvelle demande d'unités modulaires",
@@ -3666,7 +3666,7 @@
       "CONTACT_SECTION": {
         "ID": "contact",
         "TITLE": "Contactez nos experts pour en savoir plus sur nos terrains de Pickleball !",
-        "DESCRIPTION": "N’hésitez pas à contacter notre équipe de constructeurs de terrains de padel pour plus d’informations sur nos terrains de Pickleball. Nous sommes là pour répondre à toutes vos questions et vous aider à trouver la solution de padel idéale pour vos besoins. Si vous le souhaitez, nous pouvons également concevoir et installer un terrain de padel personnalisé selon vos préférences et spécifications. Nous attendons votre message avec impatience !",
+        "DESCRIPTION": "N’hésitez pas à contacter notre équipe de constructeurs de terrains de padel pour plus d’informations sur nos terrains de Pickleball. Nous sommes là pour répondre à toutes vos questions et vous aider à trouver la solution de padel idéale pour vos besoins. Si vous le souhaitez, nous pouvons également créer et installer un terrain de padel personnalisé selon vos préférences et spécifications. Nous attendons votre message avec impatience !",
         "SUBTITLE": "Contactez-nous et nous vous aiderons",
         "BUTTON": "Je veux un terrain de Pickleball",
         "CONTACT_SUBJECT": "Nouvelle demande Pickleball",
@@ -3793,7 +3793,7 @@
         ],
         "TITLE_4": "Event-Optimized Design & Spectator Visibility",
         "LIST_TRES": [
-          "Layout designed for 360° visibility",
+          "Layout created for 360° visibility",
           "Seamless integration into large venues such as Madrid Arena and Caja Mágica",
           "Perfect structural lines for continuous match flow",
           "Enhances both live spectator experience and international broadcasting"
@@ -4197,7 +4197,7 @@
           },
           {
             "TITLE": "Accords Commerciaux Sur Mesure",
-            "DESCRIPTION": "Nous comprenons que chaque client est unique. C'est pourquoi nous élaborons des propositions commerciales sur mesure qui correspondent à vos besoins spécifiques. Notre équipe expérimentée travaille en étroite collaboration avec vous pour concevoir des accords qui répondent à vos besoins et dépassent vos attentes."
+            "DESCRIPTION": "Nous comprenons que chaque client est unique. C'est pourquoi nous élaborons des propositions commerciales sur mesure qui correspondent à vos besoins spécifiques. Notre équipe expérimentée travaille en étroite collaboration avec vous pour créer des accords qui répondent à vos besoins et dépassent vos attentes."
           },
           {
             "TITLE": "Orientation Personnalisée de la Part de Nos Équipes d'Experts",
@@ -4612,7 +4612,7 @@
     "TITLE": "Contactez-nous et découvrez le coût de construction d'un court de padel : Demandez votre devis",
     "CLOSE_BUTTON":"fermer",
     "TITLE_CANOPIES":"Contactez nos experts en auvents pour terrains de Padel",
-    "DESCRIPTION": "<p>N'hésitez pas à contacter notre équipe d'experts pour plus d'informations sur nos terrains de padel, prix terrain de padel, ou installation de courts de padel. Nous vous guidons dans le choix de votre court de padel et pouvons concevoir un terrain personnalisé selon vos préférences et spécifications. Avec Portico Sport, vous bénéficiez d’un fournisseur de terrains de padel complet pour vos projets indoor, outdoor ou avec couverture.</p>",
+    "DESCRIPTION": "<p>N'hésitez pas à contacter notre équipe d'experts pour plus d'informations sur nos terrains de padel, prix terrain de padel, ou installation de courts de padel. Nous vous guidons dans le choix de votre court de padel et pouvons créer un terrain personnalisé selon vos préférences et spécifications. Avec Portico Sport, vous bénéficiez d’un fournisseur de terrains de padel complet pour vos projets indoor, outdoor ou avec couverture.</p>",
     "FORM": {
       "NAME": {
         "ID": "name",

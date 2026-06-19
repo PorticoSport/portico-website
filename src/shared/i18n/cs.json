@@ -214,7 +214,7 @@
       ],
       "QUESTIONS_ACE": [{
           "question": "What makes the ACE court different from other padel court models?",
-          "answer": "<p>The ACE is designed to be <strong>lightweight, durable, and cost-efficient</strong>. Its optimized structure allows for easier transport and faster installation while maintaining the same high-quality performance and durability as heavier models.</p>"
+          "answer": "<p>The ACE is created to be <strong>lightweight, durable, and cost-efficient</strong>. Its optimized structure allows for easier transport and faster installation while maintaining the same high-quality performance and durability as heavier models.</p>"
         }, {
           "question": "Is the ACE suitable for outdoor installations?",
           "answer": "<p>Yes. The ACE court is made from hot-dip galvanized steel, ensuring excellent corrosion resistance and stability in any climate — perfect for both indoor and outdoor facilities.</p>"
@@ -242,7 +242,7 @@
       ],
       "QUESTIONS_SINGLE": [{
           "question": "What is a Single Padel court and who is it for?",
-          "answer": "<p>Portico Sport offers top-tier Single Padel courts designed to meet the needs of both professional and amateur players. Our Single Padel courts are perfect for smaller spaces while still providing the full Padel experience. Whether you need a court for a private residence, a club, or a resort, we have the expertise to deliver a high-quality solution that fits your requirements.</p>"
+          "answer": "<p>Portico Sport offers top-tier Single Padel courts created to meet the needs of both professional and amateur players. Our Single Padel courts are perfect for smaller spaces while still providing the full Padel experience. Whether you need a court for a private residence, a club, or a resort, we have the expertise to deliver a high-quality solution that fits your requirements.</p>"
         }, {
           "question": "What are the dimensions of a Single Padel court?",
           "answer": "<p>A Single Padel court maintains the standard length of 20m but has a reduced width (6m), making it ideal for 1vs1 matches, individual training, or clubs looking to maximize space without compromising quality.</p>"
@@ -259,7 +259,7 @@
           "answer": "<p>The Club+ retains the timeless design of our classic Club Court but features reinforced profiles, anchor plates, <strong>and wind resistance up to 240 km/h</strong>. It’s built for clubs located in coastal, high-altitude, or demanding environments.</p>"
         }, {
           "question": "Is the Club+ suitable for outdoor installations in extreme climates?",
-          "answer": "<p>Yes. Thanks to its enhanced corrosion protection and structural strength, the Club+ is specifically designed to withstand harsh weather conditions while maintaining long-term performance.</p>"
+          "answer": "<p>Yes. Thanks to its enhanced corrosion protection and structural strength, the Club+ is specifically created to withstand harsh weather conditions while maintaining long-term performance.</p>"
         }, {
           "question": "Can the Club+ Court be customized?",
           "answer": "<p>Absolutely. Like the standard Club Court, you can choose from a range of RAL colors, turf styles, and branding options — while benefiting from the structural reinforcements of the Club+.</p>"
@@ -329,7 +329,7 @@
           "answer": "The standard size of a Padel court is 20 meters long by 10 meters wide, wich translates to approximately 66 feet by 33 feet in the United States."
         }, {
           "question": "What materials are used to build a Padel court?",
-          "answer": "Common materials used to build a Padel court include concrete for the foundation, artificial turf, glass and metal structures designed to withstand varying weather conditions."
+          "answer": "Common materials used to build a Padel court include concrete for the foundation, artificial turf, glass and metal structures created to withstand varying weather conditions."
         }, {
           "question": "How much does it cost to install a Padel court in the USA?",
           "answer": "The cost to install a Padel court in the United States can vary based on factors such as size, materials, geographic location, transportation costs, and any additional services or extras. Typically, prices start around $20,000, depending on the specifics of the project."
@@ -436,7 +436,7 @@
   "answer": "Installation time depends on factors like the court’s location, design complexity, and weather conditions during setup. On average, it can take several weeks to complete the installation."
 },{
   "question":"What are the most durable Padel courts available on the market?",
-  "answer": "Portico Sport leads the way in innovation with the Club Force 80 and Panoramic Force 80 courts, which are the most durable options on the market. These Padel courts are designed to withstand extreme weather conditions, making them ideal for diverse environments while maintaining top performance and longevity."
+  "answer": "Portico Sport leads the way in innovation with the Club Force 80 and Panoramic Force 80 courts, which are the most durable options on the market. These Padel courts are created to withstand extreme weather conditions, making them ideal for diverse environments while maintaining top performance and longevity."
 }
 
 ],
@@ -492,7 +492,7 @@
     "ACE_COURT": {
       "ID": "ace-court",
       "SEO_TITLE": "ACE Padel Court | Lightweight & Durable by Portico Sport",
-      "SEO_DESCRIPTION":"Discover the ACE padel court — lightweight, strong, and designed for fast installation. Perfect for clubs seeking performance and efficiency.",
+      "SEO_DESCRIPTION":"Discover the ACE padel court — lightweight, strong, and created for fast installation. Perfect for clubs seeking performance and efficiency.",
       "OG_IMG": "https://www.porticosport.com/og/og-club.jpg",
       "TITLE": "<span>ACE Court</span>",
       "DESCRIPTION": "<p>The ACE padel court is a versatile and durable model engineered to achieve the perfect balance between performance, strength, and easy installation.</p><p>Its lightweight structure enhances <strong>transport efficiency, reducing logistical impact and shipping</strong> costs—making it an ideal choice for global padel projects and clubs seeking maximum efficiency.</p>",
@@ -510,7 +510,7 @@
       "FIRST_SECTION": {
         "ID": "courts-views",
         "TITLE": "<span class=\"text-secondary\">ACE Padel Court: Built for every environment</span>",
-        "DESCRIPTION": "<p>The ACE performs flawlessly in both indoor and outdoor settings, offering excellent structural stability and corrosion resistance in any climate.</p><p>Whether for clubs, events, or temporary installations, it’s designed to deliver reliable performance year-round.</p><p>Thanks to its optimized design, the ACE model fits twice as many courts per container compared to traditional padel court structures, making it <strong>one of the most cost-effective and competitive options on the market</strong>.</p>",
+        "DESCRIPTION": "<p>The ACE performs flawlessly in both indoor and outdoor settings, offering excellent structural stability and corrosion resistance in any climate.</p><p>Whether for clubs, events, or temporary installations, it’s created to deliver reliable performance year-round.</p><p>Thanks to its optimized design, the ACE model fits twice as many courts per container compared to traditional padel court structures, making it <strong>one of the most cost-effective and competitive options on the market</strong>.</p>",
         "IMAGES": {
           "PERSPECTIVE": {
             "src": "/courts-detail/ace/ACE-perspective.webp",
@@ -629,7 +629,7 @@
         },
         "TITLE": "Advanced LED lighting systems for ACE padel courts",
         "SUBTITLE": "Illuminate your game with Portico Sport's padel court lighting!",
-        "DESCRIPTION": "<p>Illuminate your game with <strong>Portico Sport’s state-of-the-art LED lighting solutions</strong>, designed in collaboration with leading specialists.</p>",
+        "DESCRIPTION": "<p>Illuminate your game with <strong>Portico Sport’s state-of-the-art LED lighting solutions</strong>, created in collaboration with leading specialists.</p>",
         "LIST": "<ul class=\"list-disc pl-4 text-left\"><li>Fully compliant with <strong>UNE-EN-12193:2020</strong></li><li>Uniform light with no glare or shadows</li><li>IK10 impact resistance, IP66-IP67 waterproof rating</li><li>Voltage surge protection (4kV - 6kV), high heat dissipation</li><li>Suitable for recreational use (Class III) and professional events (Class I, NIDE standard)</li><li>5-year warranty</li></ul>"
       },
       "GALLERY_SECTION": {
@@ -653,7 +653,7 @@
           "TITLE":"contact Portico Sport"
         }
       },
-      "HOME_DESCRIPTION": "The Club model is our all-around court. Exceptional structural design and built for heavy use and maximum durability. A court designed with padel clubs in mind, a court that will stand the test of time.",
+      "HOME_DESCRIPTION": "The Club model is our all-around court. Exceptional structural design and built for heavy use and maximum durability. A court created with padel clubs in mind, a court that will stand the test of time.",
       "HOME_IMAGES": [{
         "id": "slide-1",
         "src": "/courts/club-court-01.webp",
@@ -824,8 +824,8 @@
         "SUBTITLE_3": "<p class=\"text-black\">Is the Tournament padel court suitable for professional or semi-professional events?</P>",
         "SUBTITLE_4": "<p class=\"text-black\">Can the Tournament court be installed both indoors and outdoors?</P>",
         "DESCRIPTION": "<p class=\"text-black\">The standard size is 20 x 10 meters, matching official pro court regulations. Custom dimensions are available upon request. All courts meet high safety and quality standards.</p>",
-        "DESCRIPTION_2": "<p class=\"text-black\">Portico Sport is the trusted partner for padel events and tournaments, thanks to our premium panoramic courts designed for professional-level performance and unmatched spectator visibility. With over 15 years of international experience, we provide CE-certified systems, fast installations, and custom branding options — ideal for clubs hosting tournaments, exhibitions, or demo events. From high-quality materials to flawless aesthetics, we deliver courts that enhance both the playing and viewing experience.</p>",
-        "DESCRIPTION_3": "<p class=\"text-black\">Absolutely. The Tournament Court is designed following international padel standards and features full panoramic glass walls for a pro-level experience. It’s ideal for clubs hosting competitions and events, offering spectators perfect visibility and players optimal performance conditions.</P>",
+        "DESCRIPTION_2": "<p class=\"text-black\">Portico Sport is the trusted partner for padel events and tournaments, thanks to our premium panoramic courts created for professional-level performance and unmatched spectator visibility. With over 15 years of international experience, we provide CE-certified systems, fast installations, and custom branding options — ideal for clubs hosting tournaments, exhibitions, or demo events. From high-quality materials to flawless aesthetics, we deliver courts that enhance both the playing and viewing experience.</p>",
+        "DESCRIPTION_3": "<p class=\"text-black\">Absolutely. The Tournament Court is created following international padel standards and features full panoramic glass walls for a pro-level experience. It’s ideal for clubs hosting competitions and events, offering spectators perfect visibility and players optimal performance conditions.</P>",
         "DESCRIPTION_4": "<p class=\"text-black\">Yes — the Tournament Court is engineered for both indoor and outdoor installations. Its galvanized steel structure and weather-resistant finishes (including hot-dip galvanizing and powder coating) ensure long-term durability in any climate.</P>"
       },
       "GALLERY_SECTION": {
@@ -888,7 +888,7 @@
       },
       "FIRST_SECTION": {
         "TITLE": "<span class=\"text-secondary\">Elevate Your Game with Unmatched Views!</span>",
-        "DESCRIPTION": "<p>Gradually, our panoramic court is becoming the most sought-after court model.</p><p>Despite its panoramic glass, the design ensures greater reinforcement and a sturdy structure. Ideal for both outdoor and indoor settings, it excels in various environments, providing an excellent playing experience.</p><p>Furthermore, it offers extensive customization options to ensure it blends seamlessly with its installation environment.</p><p>At Portico Sport, as manufacturers and installers of Padel courts, we offer premium Panoramic Padel courts designed to provide an unparalleled playing experience. Our Panoramic courts feature clear glass walls that not only enhance the aesthetics but also offer unobstructed views, making it ideal for both players and spectators.</p><p>Whether you're looking to buy a Panoramic Padel court for a sports facility, a private residence, or a commercial space, our expert team is here to assist you from start to finish. We handle everything from design to installation, ensuring that your court meets all international standards and personal expectations.</p>",
+        "DESCRIPTION": "<p>Gradually, our panoramic court is becoming the most sought-after court model.</p><p>Despite its panoramic glass, the design ensures greater reinforcement and a sturdy structure. Ideal for both outdoor and indoor settings, it excels in various environments, providing an excellent playing experience.</p><p>Furthermore, it offers extensive customization options to ensure it blends seamlessly with its installation environment.</p><p>At Portico Sport, as manufacturers and installers of Padel courts, we offer premium Panoramic Padel courts created to provide an unparalleled playing experience. Our Panoramic courts feature clear glass walls that not only enhance the aesthetics but also offer unobstructed views, making it ideal for both players and spectators.</p><p>Whether you're looking to buy a Panoramic Padel court for a sports facility, a private residence, or a commercial space, our expert team is here to assist you from start to finish. We handle everything from design to installation, ensuring that your court meets all international standards and personal expectations.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/panoramic/panoramic-front.webp",
@@ -1006,7 +1006,7 @@
         },
         "TITLE": " Expert Lighting for Panoramic Padel Courts",
         "SUBTITLE": "Illuminate Your Game with Portico Sport's Padel Court Lighting!",
-        "DESCRIPTION": "<p>Enjoy the ultimate LED lighting solution for padel courts, exclusively offered by Portico Sport in partnership with leading specialists in the field.</p><p>Our padel court lighting ensures optimal illumination and uniformity across all playing areas. From the net to the access zones, background, sidelines, and high ball zones, our lighting solution eliminates glare and shadows, providing players with unparalleled visibility and performance.</p><p>The quality of our projectors, designed to withstand impacts up to IK10, with IP66-IP67 sealing degrees and resistance to voltage surges of 4kV - 6kV, combined with high heat dissipation capabilities of the housings, allows for an extended lifespan of our projectors, with a warranty of up to 5 years.</p><p>Our projectors are designed to cover all types of courts specified in the European standard for sports lighting (UNE-EN-12193:2020), ranging from recreational use (Class III) to professional competitions or televised broadcasts (Class I - NIDE standard).</p>"
+        "DESCRIPTION": "<p>Enjoy the ultimate LED lighting solution for padel courts, exclusively offered by Portico Sport in partnership with leading specialists in the field.</p><p>Our padel court lighting ensures optimal illumination and uniformity across all playing areas. From the net to the access zones, background, sidelines, and high ball zones, our lighting solution eliminates glare and shadows, providing players with unparalleled visibility and performance.</p><p>The quality of our projectors, created to withstand impacts up to IK10, with IP66-IP67 sealing degrees and resistance to voltage surges of 4kV - 6kV, combined with high heat dissipation capabilities of the housings, allows for an extended lifespan of our projectors, with a warranty of up to 5 years.</p><p>Our projectors are created to cover all types of courts specified in the European standard for sports lighting (UNE-EN-12193:2020), ranging from recreational use (Class III) to professional competitions or televised broadcasts (Class I - NIDE standard).</p>"
       },
       "INSTALLATION_SECTION": {
         "ID": "installation",
@@ -1068,7 +1068,7 @@
       "SEO_DESCRIPTION":"Discover the Panoramic+ Padel Court by Portico Sport. Reinforced, frameless design with maximum visibility, strength, and style – ideal for high-end clubs, tournaments, and professional facilities.",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic.jpg",
       "TITLE": "<span>Panoramic+ Court</span>",
-      "DESCRIPTION": "<p>The <strong>Panoramic+</strong> is a <strong>reinforced panoramic padel court</strong> designed for clubs and venues that demand top-tier performance and impeccable aesthetics.</p><p>Its frameless, open design offers uninterrupted visibility, making it ideal for clubs that want a premium experience for players and spectators — perfect for tournaments, events, and professional venues.</p>",
+      "DESCRIPTION": "<p>The <strong>Panoramic+</strong> is a <strong>reinforced panoramic padel court</strong> created for clubs and venues that demand top-tier performance and impeccable aesthetics.</p><p>Its frameless, open design offers uninterrupted visibility, making it ideal for clubs that want a premium experience for players and spectators — perfect for tournaments, events, and professional venues.</p>",
       "NAME": "Panoramic+",
       "SUBTITLE": "Maximum visibility, strength, and style in one court",
       "LITTLE_DESCRIPTION": "<p>Maximum visibility, strength, and style in one court</p>",
@@ -1269,7 +1269,7 @@
       "SEO_DESCRIPTION":"Discover the Club Padel Court, an ideal option for superior quality and exceptional durability. Perfect for high-level padel practice with 3-meter pillars.",
       "OG_IMG": "https://www.porticosport.com/og/og-club.jpg",
       "TITLE": "<span>Club Padel Court</span>",
-      "DESCRIPTION": "<p>For many years our most sought-after courts, the Club Padel Court, stands out as an ideal option for those seeking superior quality and exceptional durability.</p><p>With pillars measuring 3 meters in height, this court is designed and manufactured by Portico Sport's engineering department to provide an optimal environment for high-level padel practice, ensuring the highest quality standards.</p><p>If you're looking for a padel court that combines durability and resistance, the Club Court is an excellent choice.</p>",
+      "DESCRIPTION": "<p>For many years our most sought-after courts, the Club Padel Court, stands out as an ideal option for those seeking superior quality and exceptional durability.</p><p>With pillars measuring 3 meters in height, this court is created and manufactured by Portico Sport's engineering department to provide an optimal environment for high-level padel practice, ensuring the highest quality standards.</p><p>If you're looking for a padel court that combines durability and resistance, the Club Court is an excellent choice.</p>",
       "LITTLE_DESCRIPTION": "<p>You can play Padel in one of our most sought-after courts.</p>",
       "SUBTITLE": "Our most sought-after Padel courts.",
       "NAME": "Club",
@@ -1306,7 +1306,7 @@
         "BENEFITS": [{
           "header": "10 years warranty",
           "icon": "WarrantyIcon",
-          "footer": "Rest assured with our 10-year warranty on the structural integrity of our courts, designed to withstand wind speeds. Enjoy them without any worries!."
+          "footer": "Rest assured with our 10-year warranty on the structural integrity of our courts, created to withstand wind speeds. Enjoy them without any worries!."
         }, {
           "header": "Versatile and resitant court",
           "icon": "VersatileCourtIcon",
@@ -1406,7 +1406,7 @@
         },
         "TITLE": "Led lighting",
         "SUBTITLE": "Illuminate Your Game with Portico Sport's Padel Court Lighting!",
-        "DESCRIPTION": "<p>Enjoy the ultimate LED lighting solution for padel courts, exclusively offered by Portico Sport in partnership with leading specialists in the field.</p><p>Our padel court lighting ensures optimal illumination and uniformity across all playing areas. From the net to the access zones, background, sidelines, and high ball zones, our lighting solution eliminates glare and shadows, providing players with unparalleled visibility and performance.</p><p>The quality of our projectors, designed to withstand impacts up to IK10, with IP66-IP67 sealing degrees and resistance to voltage surges of 4kV - 6kV, combined with high heat dissipation capabilities of the housings, allows for an extended lifespan of our projectors, with a warranty of up to 5 years.</p><p>Our projectors are designed to cover all types of courts specified in the European standard for sports lighting (UNE-EN-12193:2020), ranging from recreational use (Class III) to professional competitions or televised broadcasts (Class I - NIDE standard).</p><p>Crafted from galvanized and lacquered S275 JR steel profiles, our masts are securely attached and anchored to the court structure, ensuring durability and reliability. Standing at an impressive height of 6 meters, each mast provides support for 2 projectors, illuminating your court with precision and clarity.</p>"
+        "DESCRIPTION": "<p>Enjoy the ultimate LED lighting solution for padel courts, exclusively offered by Portico Sport in partnership with leading specialists in the field.</p><p>Our padel court lighting ensures optimal illumination and uniformity across all playing areas. From the net to the access zones, background, sidelines, and high ball zones, our lighting solution eliminates glare and shadows, providing players with unparalleled visibility and performance.</p><p>The quality of our projectors, created to withstand impacts up to IK10, with IP66-IP67 sealing degrees and resistance to voltage surges of 4kV - 6kV, combined with high heat dissipation capabilities of the housings, allows for an extended lifespan of our projectors, with a warranty of up to 5 years.</p><p>Our projectors are created to cover all types of courts specified in the European standard for sports lighting (UNE-EN-12193:2020), ranging from recreational use (Class III) to professional competitions or televised broadcasts (Class I - NIDE standard).</p><p>Crafted from galvanized and lacquered S275 JR steel profiles, our masts are securely attached and anchored to the court structure, ensuring durability and reliability. Standing at an impressive height of 6 meters, each mast provides support for 2 projectors, illuminating your court with precision and clarity.</p>"
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
@@ -1424,7 +1424,7 @@
         "BG_IMAGE": "/courts-detail/club/club-contact-bg.webp",
         "IMAGE": "/courts-detail/club/club-perspective.webp"
       },
-      "HOME_DESCRIPTION": "The Club model is our all-around court. Exceptional structural design and built for heavy use and maximum durability. A court designed with padel clubs in mind, a court that will stand the test of time.",
+      "HOME_DESCRIPTION": "The Club model is our all-around court. Exceptional structural design and built for heavy use and maximum durability. A court created with padel clubs in mind, a court that will stand the test of time.",
       "HOME_IMAGES": [{
         "id": "slide-1",
         "src": "/courts/club-court-01.webp",
@@ -1607,7 +1607,7 @@
         "BG_IMAGE": "/courts-detail/club/club-contact-bg.webp",
         "IMAGE": "/courts-detail/club/club-perspective.webp"
       },
-      "HOME_DESCRIPTION": "The Club model is our all-around court. Exceptional structural design and built for heavy use and maximum durability. A court designed with padel clubs in mind, a court that will stand the test of time.",
+      "HOME_DESCRIPTION": "The Club model is our all-around court. Exceptional structural design and built for heavy use and maximum durability. A court created with padel clubs in mind, a court that will stand the test of time.",
       "HOME_IMAGES": [{
         "id": "slide-1",
         "src": "/courts/club-court-01.webp",
@@ -1631,10 +1631,10 @@
     "CLUB_FORCE_80_COURT": {
       "ID": "club-force-80-court",
       "SEO_TITLE": "Force 80 Court - Resilient Padel Court",
-      "SEO_DESCRIPTION":"Discover the Force 80 Padel Court, designed to withstand hurricane-force winds of up to 80 m/s. Ideal for areas with extreme weather conditions. Learn more!",
+      "SEO_DESCRIPTION":"Discover the Force 80 Padel Court, created to withstand hurricane-force winds of up to 80 m/s. Ideal for areas with extreme weather conditions. Learn more!",
       "OG_IMG": "https://www.porticosport.com/og/og-club-force-80.jpg",
       "TITLE": "<span>Club Force 80 Padel court</span>",
-      "DESCRIPTION": "<p>Since 2021, our Club Force 80 court created a category of its own. A court specially designed for areas with extreme weather conditions that stands out as the most resilient padel court on the market.</p><p>Designed by Portico Sport's engineers, this court's structure features a superior design of buttresses and a special anchoring system, capable to withstand hurricane-force winds of up to 80 m/s (288.0km/h).</p><p>The combination of its original design with top-quality materials makes it the sturdiest and most durable court, ideal for areas with extremely adverse weather conditions.</p><p>If you want to enjoy padel regardless of the challenging weather, the Club Force 80 court is an excellent choice.</p>",
+      "DESCRIPTION": "<p>Since 2021, our Club Force 80 court created a category of its own. A court specially created for areas with extreme weather conditions that stands out as the most resilient padel court on the market.</p><p>Designed by Portico Sport's engineers, this court's structure features a superior design of buttresses and a special anchoring system, capable to withstand hurricane-force winds of up to 80 m/s (288.0km/h).</p><p>The combination of its original design with top-quality materials makes it the sturdiest and most durable court, ideal for areas with extremely adverse weather conditions.</p><p>If you want to enjoy padel regardless of the challenging weather, the Club Force 80 court is an excellent choice.</p>",
       "LITTLE_DESCRIPTION": "<p>Enjoy padel regardless of the challenging weather.</p>",
       "SUBTITLE": "Enjoy Padel regardless of the challenging weather.",
       "CONTACT_TITLE_1": "Do you want a Club Force 80 Padel Court?",
@@ -1769,7 +1769,7 @@
         },
         "TITLE": "Led lighting",
         "SUBTITLE": "Illuminate Your Game with Portico Sport's Padel Court Lighting!",
-        "DESCRIPTION": "<p>Enjoy the ultimate LED lighting solution for padel courts, exclusively offered by Portico Sport in partnership with leading specialists in the field.</p><p>Our padel court lighting ensures optimal illumination and uniformity across all playing areas. From the net to the access zones, background, sidelines, and high ball zones, our lighting solution eliminates glare and shadows, providing players with unparalleled visibility and performance.</p><p>The quality of our projectors, designed to withstand impacts up to IK10, with IP66-IP67 sealing degrees and resistance to voltage surges of 4kV - 6kV, combined with high heat dissipation capabilities of the housings, allows for an extended lifespan of our projectors, with a warranty of up to 5 years.</p><p>Our projectors are designed to cover all types of courts specified in the European standard for sports lighting (UNE-EN-12193:2020), ranging from recreational use (Class III) to professional competitions or televised broadcasts (Class I - NIDE standard).</p><p>Crafted from galvanized and lacquered S275 JR steel profiles, our masts are securely attached and anchored to the court structure, ensuring durability and reliability.</p><p>To withstand extreme weather conditions, this court features reinforced lighting masts with double pillars, protecting their impressive height of 6 meters each. Each mast supports two projectors, providing precise and clear illumination for your court.</p>"
+        "DESCRIPTION": "<p>Enjoy the ultimate LED lighting solution for padel courts, exclusively offered by Portico Sport in partnership with leading specialists in the field.</p><p>Our padel court lighting ensures optimal illumination and uniformity across all playing areas. From the net to the access zones, background, sidelines, and high ball zones, our lighting solution eliminates glare and shadows, providing players with unparalleled visibility and performance.</p><p>The quality of our projectors, created to withstand impacts up to IK10, with IP66-IP67 sealing degrees and resistance to voltage surges of 4kV - 6kV, combined with high heat dissipation capabilities of the housings, allows for an extended lifespan of our projectors, with a warranty of up to 5 years.</p><p>Our projectors are created to cover all types of courts specified in the European standard for sports lighting (UNE-EN-12193:2020), ranging from recreational use (Class III) to professional competitions or televised broadcasts (Class I - NIDE standard).</p><p>Crafted from galvanized and lacquered S275 JR steel profiles, our masts are securely attached and anchored to the court structure, ensuring durability and reliability.</p><p>To withstand extreme weather conditions, this court features reinforced lighting masts with double pillars, protecting their impressive height of 6 meters each. Each mast supports two projectors, providing precise and clear illumination for your court.</p>"
       },
       "GALLERY_SECTION": {
         "ID": "gallery",
@@ -1787,7 +1787,7 @@
         "BG_IMAGE": "/courts-detail/club-force-80/club-force-80-contact-bg.webp",
         "IMAGE": "/courts-detail/club-force-80/club-force-80-court-contact.webp"
       },
-      "HOME_DESCRIPTION": "Our Club Force 80 model was designed to withstand category 5 hurricane winds. The specifically designed structure coupled with a special anchoring systems allows for this court to be installed in the toughest locations anywhere in the world.",
+      "HOME_DESCRIPTION": "Our Club Force 80 model was created to withstand category 5 hurricane winds. The specifically created structure coupled with a special anchoring systems allows for this court to be installed in the toughest locations anywhere in the world.",
       "HOME_IMAGES": [{
         "id": "slide-1",
         "src": "/courts/club-force-80-court-01.webp",
@@ -1817,7 +1817,7 @@
     "PANORAMIC_FORCE_80_COURT": {
       "ID": "panoramic-force-80-court",
       "SEO_TITLE": "Tournament+ Court - Resilient Padel Court",
-      "SEO_DESCRIPTION":"Discover the Tournament+ Padel Court, designed to withstand hurricane-force winds of up to 80 m/s. Ideal for areas with extreme weather conditions. Learn more!",
+      "SEO_DESCRIPTION":"Discover the Tournament+ Padel Court, created to withstand hurricane-force winds of up to 80 m/s. Ideal for areas with extreme weather conditions. Learn more!",
       "OG_IMG": "https://www.porticosport.com/og/og-panoramic-force-80.jpg",
       "TITLE": "<span>Tournament+ Padel court</span>",
       "DESCRIPTION": "<p>In 2021, Portico Sport introduced the Club Tournament+, the world’s first anti-hurricane padel court.</p><p>Now, our engineering team has created a court that combines panoramic glass walls and a slimmer steel structure, <strong>the Tournament+</strong>, capable of withstanding winds of up to 80 m/s while maintaining a sleek panoramic design.</p>",
@@ -1975,7 +1975,7 @@
         "BG_IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-contact-bg.webp",
         "IMAGE": "/courts-detail/panoramic-force-80/panoramic-force-80-court-contact.webp"
       },
-      "HOME_DESCRIPTION": "<p>The Tournament+ model is designed to withstand category 5 hurricane winds. This court combines the robustness of our successful Club Force 80 model with the visual spectacularity of our Panoramic courts</p>",
+      "HOME_DESCRIPTION": "<p>The Tournament+ model is created to withstand category 5 hurricane winds. This court combines the robustness of our successful Club Force 80 model with the visual spectacularity of our Panoramic courts</p>",
       "HOME_IMAGES": [{
         "id": "slide-1",
         "src": "/courts/panoramic-force-80-court-01.webp",
@@ -2024,7 +2024,7 @@
       "FIRST_SECTION": {
         "ID": "courts-views",
         "TITLE": "<span class=\"text-secondary\">Single Padel Court: Tailored for Solo Players!</span>",
-        "DESCRIPTION": "<p>The perfect choice for honing specific skills and improving precision in your padel game.</p><p>With its reduced width, this court allows for intense one-on-one matches, making it ideal for individual training sessions or <strong>maximizing the use of space in your club.</strong></p><p>Customizable to meet your preferences, our Single Court offers versatility and adaptability to suit your needs.</p><p>Portico Sport offers top-tier Single Padel courts designed to meet the needs of both professional and amateur players. Our Single Padel courts are perfect for smaller spaces while still providing the full Padel experience. Whether you need a court for a private residence, a club, or a resort, we have the expertise to deliver a high-quality solution that fits your requirements.</p><p>Our Single Padel courts are crafted with precision, using the best materials to ensure durability and performance. Each Padel court is designed to international standards, ensuring that you receive a product that is both functional and aesthetically pleasing.</p>",
+        "DESCRIPTION": "<p>The perfect choice for honing specific skills and improving precision in your padel game.</p><p>With its reduced width, this court allows for intense one-on-one matches, making it ideal for individual training sessions or <strong>maximizing the use of space in your club.</strong></p><p>Customizable to meet your preferences, our Single Court offers versatility and adaptability to suit your needs.</p><p>Portico Sport offers top-tier Single Padel courts created to meet the needs of both professional and amateur players. Our Single Padel courts are perfect for smaller spaces while still providing the full Padel experience. Whether you need a court for a private residence, a club, or a resort, we have the expertise to deliver a high-quality solution that fits your requirements.</p><p>Our Single Padel courts are crafted with precision, using the best materials to ensure durability and performance. Each Padel court is created to international standards, ensuring that you receive a product that is both functional and aesthetically pleasing.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/single/single-front.webp",
@@ -2044,11 +2044,11 @@
         "ID": "benefits",
         "TITLE": "Experience the benefits of our Single Padel court",
         "SUBTITLE":"Why Choose a Single Padel Court?",
-        "DESCRIPTION": "Single Padel courts are ideal for those who have limited space but still want to enjoy the game. These Padel courts maintain all the key features of a standard Padel court but are designed to fit smaller areas, making them a versatile option for urban environments, private homes, and smaller clubs. They are a cost-effective solution that does not compromise on quality or playability.",
+        "DESCRIPTION": "Single Padel courts are ideal for those who have limited space but still want to enjoy the game. These Padel courts maintain all the key features of a standard Padel court but are created to fit smaller areas, making them a versatile option for urban environments, private homes, and smaller clubs. They are a cost-effective solution that does not compromise on quality or playability.",
         "BENEFITS": [{
           "header": "10 years warranty",
           "icon": "WarrantyIcon",
-          "footer": "Rest assured with our 10-year warranty on the structural integrity of our courts, designed to withstand high wind speeds."
+          "footer": "Rest assured with our 10-year warranty on the structural integrity of our courts, created to withstand high wind speeds."
         }, {
           "header": "Versatile and adaptability",
           "icon": "VersatileCourtIcon",
@@ -2154,7 +2154,7 @@
         },
         "TITLE": "LED Lighting Solutions by Padel Court Experts",
         "SUBTITLE": "Illuminate Your Game with Portico Sport's Padel Court Lighting!",
-        "DESCRIPTION": "<p>Enjoy the ultimate LED lighting solution for padel courts, exclusively offered by Portico Sport in partnership with leading specialists in the field.</p><p>Our padel court lighting ensures optimal illumination and uniformity across all playing areas. From the net to the access zones, background, sidelines, and high ball zones, our lighting solution eliminates glare and shadows, providing players with unparalleled visibility and performance.</p><p>The quality of our projectors, designed to withstand impacts up to IK10, with IP66-IP67 sealing degrees and resistance to voltage surges of 4kV - 6kV, combined with high heat dissipation capabilities of the housings, allows for an extended lifespan of our projectors, with a warranty of up to 5 years.</p><p>Our projectors are designed to cover all types of courts specified in the European standard for sports lighting (UNE-EN-12193:2020), ranging from recreational use (Class III) to professional competitions or televised broadcasts (Class I - NIDE standard).</p>"
+        "DESCRIPTION": "<p>Enjoy the ultimate LED lighting solution for padel courts, exclusively offered by Portico Sport in partnership with leading specialists in the field.</p><p>Our padel court lighting ensures optimal illumination and uniformity across all playing areas. From the net to the access zones, background, sidelines, and high ball zones, our lighting solution eliminates glare and shadows, providing players with unparalleled visibility and performance.</p><p>The quality of our projectors, created to withstand impacts up to IK10, with IP66-IP67 sealing degrees and resistance to voltage surges of 4kV - 6kV, combined with high heat dissipation capabilities of the housings, allows for an extended lifespan of our projectors, with a warranty of up to 5 years.</p><p>Our projectors are created to cover all types of courts specified in the European standard for sports lighting (UNE-EN-12193:2020), ranging from recreational use (Class III) to professional competitions or televised broadcasts (Class I - NIDE standard).</p>"
       },
       "INSTALLATION_SECTION": {
         "ID": "installation",
@@ -2224,7 +2224,7 @@
       "FIRST_SECTION": {
         "ID": "courts-views",
         "TITLE": "<span class=\"text-secondary\">Compact yet mighty: Mini Padel Courts by Portico Sport</span>",
-        "DESCRIPTION": "<p>Our Mini Padel Court, specially designed to introduce children to the joy of padel from an early age.</p><p>The smaller size of this court ensures that kids can comfortably enjoy the game, tailored to their height and physical abilities.</p><p>Not only does it provide a safe and enjoyable environment for kids to play, but it also offers numerous benefits for clubs: parents can play padel while their children engage in the sport, fostering a unique and welcoming atmosphere in the club.</p><p>Despite its compact size, our Mini Court boasts the same aesthetic appeal as conventional courts and offers exceptional wind resistance. Plus, with customizable options available, young players can feel like champions on the court.</p><p>Portico Sport, as a manufacturer and installer of Padel courts, also provide premium quality Mini Padel courts, perfect for those who want to enjoy the sport in smaller spaces. Our Mini Padel courts are designed to deliver the same level of enjoyment and competition as standard Padel courts but on a reduced scale, making them ideal for private homes, schools, and recreational areas.</p><p>Our Mini Padel courts are built with the same attention to detail and quality as our full-sized courts. We use top-grade materials to ensure that each court is durable, safe, and offers an excellent playing experience.</p>",
+        "DESCRIPTION": "<p>Our Mini Padel Court, specially created to introduce children to the joy of padel from an early age.</p><p>The smaller size of this court ensures that kids can comfortably enjoy the game, tailored to their height and physical abilities.</p><p>Not only does it provide a safe and enjoyable environment for kids to play, but it also offers numerous benefits for clubs: parents can play padel while their children engage in the sport, fostering a unique and welcoming atmosphere in the club.</p><p>Despite its compact size, our Mini Court boasts the same aesthetic appeal as conventional courts and offers exceptional wind resistance. Plus, with customizable options available, young players can feel like champions on the court.</p><p>Portico Sport, as a manufacturer and installer of Padel courts, also provide premium quality Mini Padel courts, perfect for those who want to enjoy the sport in smaller spaces. Our Mini Padel courts are created to deliver the same level of enjoyment and competition as standard Padel courts but on a reduced scale, making them ideal for private homes, schools, and recreational areas.</p><p>Our Mini Padel courts are built with the same attention to detail and quality as our full-sized courts. We use top-grade materials to ensure that each court is durable, safe, and offers an excellent playing experience.</p>",
         "IMAGES": {
           "FRONT": {
             "src": "/courts-detail/mini/mini-front.webp",
@@ -2248,7 +2248,7 @@
         "BENEFITS": [{
           "header": "10 years warranty",
           "icon": "WarrantyIcon",
-          "footer": "Rest assured with our 10-year warranty on the structural integrity of our courts, designed to withstand high wind speeds."
+          "footer": "Rest assured with our 10-year warranty on the structural integrity of our courts, created to withstand high wind speeds."
         }, {
           "header": "Small and versatile court",
           "icon": "VersatileCourtIcon",
@@ -2350,7 +2350,7 @@
         },
         "TITLE": "Quality Led Lighting for Mini Padel Courts",
         "SUBTITLE": "Illuminate Your Game with Portico Sport's Padel Court Lighting!",
-        "DESCRIPTION": "<p>Enjoy the ultimate LED lighting solution for padel courts, exclusively offered by Portico Sport in partnership with leading specialists in the field.</p><p>Our padel court lighting ensures optimal illumination and uniformity across all playing areas. From the net to the access zones, background, sidelines, and high ball zones, our lighting solution eliminates glare and shadows, providing players with unparalleled visibility and performance.</p><p>The quality of our projectors, designed to withstand impacts up to IK10, with IP66-IP67 sealing degrees and resistance to voltage surges of 4kV - 6kV, combined with high heat dissipation capabilities of the housings, allows for an extended lifespan of our projectors, with a warranty of up to 5 years.</p><p>Our projectors are designed to cover all types of courts specified in the European standard for sports lighting (UNE-EN-12193:2020), ranging from recreational use (Class III) to professional competitions or televised broadcasts (Class I - NIDE standard).</p>"
+        "DESCRIPTION": "<p>Enjoy the ultimate LED lighting solution for padel courts, exclusively offered by Portico Sport in partnership with leading specialists in the field.</p><p>Our padel court lighting ensures optimal illumination and uniformity across all playing areas. From the net to the access zones, background, sidelines, and high ball zones, our lighting solution eliminates glare and shadows, providing players with unparalleled visibility and performance.</p><p>The quality of our projectors, created to withstand impacts up to IK10, with IP66-IP67 sealing degrees and resistance to voltage surges of 4kV - 6kV, combined with high heat dissipation capabilities of the housings, allows for an extended lifespan of our projectors, with a warranty of up to 5 years.</p><p>Our projectors are created to cover all types of courts specified in the European standard for sports lighting (UNE-EN-12193:2020), ranging from recreational use (Class III) to professional competitions or televised broadcasts (Class I - NIDE standard).</p>"
       },
       "INSTALLATION_SECTION": {
         "ID": "installation",
@@ -2632,7 +2632,7 @@
       "FIRST_SECTION": {
         "TITLE": "Transform your padel club with bespoke modular units",
         "SUBTITLE": "The perfect solution for your Padel court!",
-        "DESCRIPTION": "<p>At Portico Sport, we go beyond building padel courts, we design complete padel club experiences. <strong>Our prefabricated modular units offer everything your club needs</strong> without the hassle of traditional construction.</p><p>Whether you need a <strong>pro shop, cafeteria, reception, changing rooms, offices, or restrooms</strong>, our modular solutions are designed, manufactured, and installed to meet your exact requirements.</p><p>Portable, stylish, and fully customizable, these modules are the fastest and most efficient way to create a professional padel club from day one.</p>"
+        "DESCRIPTION": "<p>At Portico Sport, we go beyond building padel courts, we create complete padel club experiences. <strong>Our prefabricated modular units offer everything your club needs</strong> without the hassle of traditional construction.</p><p>Whether you need a <strong>pro shop, cafeteria, reception, changing rooms, offices, or restrooms</strong>, our modular solutions are created, manufactured, and installed to meet your exact requirements.</p><p>Portable, stylish, and fully customizable, these modules are the fastest and most efficient way to create a professional padel club from day one.</p>"
       },
       "CHOOSE_MODULAR": {
         "TITLE": "<span class=\"text-black text-base lg:text-xl\">Why choose modular units for your padel club?</span>",
@@ -2883,7 +2883,7 @@
         "ID":"hexagon-partner",
         "TITLE":"Portico Sport - Official padel court of the Hexagon Cup",
         "SUBTITLE":"The Official Alpine Hexagon Cup Padel Court - Now Available for Your Club",
-        "DESCRIPTION":"<p>The <strong> <a href=https://www.hexagoncup.com/>Alpine Hexagon Cup</a> </strong> is the world’s most dynamic private team competition, redefining professional padel with its innovative format and electrifying atmosphere.</p><p>As the <strong>official court, Portico Sport</strong> designed the tournament’s<strong> signature purple court</strong>t— engineered for elite performance, durability, and optimal visibility for players, spectators, and broadcasters.</p>",
+        "DESCRIPTION":"<p>The <strong> <a href=https://www.hexagoncup.com/>Alpine Hexagon Cup</a> </strong> is the world’s most dynamic private team competition, redefining professional padel with its innovative format and electrifying atmosphere.</p><p>As the <strong>official court, Portico Sport</strong> created the tournament’s<strong> signature purple court</strong>t— engineered for elite performance, durability, and optimal visibility for players, spectators, and broadcasters.</p>",
         "IMAGES": [{
           "id": "slide-1",
           "src": "/partners/hexagon/Hexagon-01.webp",
@@ -3038,7 +3038,7 @@
       "ID":"mindspring",
       "TITLE":"Mindspring & Portico Sport: Unlock Padel for Your Club",
       "SUBTITLE":"100% Financing for Padel Courts – No Risk, All Reward",
-      "DESCRIPTION":"<p>Bring the excitement of padel to your tennis, padel, or sports club with a <strong>fully financed, turnkey solution</strong> designed for seamless integration.</p><p>With <strong>zero financial risk</strong>, our partnership ensures that your club can adopt padel effortlessly, maximizing its benefits from day one. Whether you're expanding existing facilities or introducing padel for the first time, we provide the expertise, funding, and support to make it happen—quickly and efficiently.</p>",
+      "DESCRIPTION":"<p>Bring the excitement of padel to your tennis, padel, or sports club with a <strong>fully financed, turnkey solution</strong> created for seamless integration.</p><p>With <strong>zero financial risk</strong>, our partnership ensures that your club can adopt padel effortlessly, maximizing its benefits from day one. Whether you're expanding existing facilities or introducing padel for the first time, we provide the expertise, funding, and support to make it happen—quickly and efficiently.</p>",
       "IMAGES": [{
         "id": "slide-4.1",
         "src": "/partners/Mindspring/LosNaranjos-01.webp",
@@ -3085,7 +3085,7 @@
       },
       "SECTION_1":{
         "TITLE":"Comprehensive solutions for every padel project",
-        "DESCRIPTION":"At Portico Sport, we offer more than just padel court construction—we deliver a complete, end-to-end service designed to make your project efficient, smooth, and successful. With over 4,000 padel courts installed worldwide, we understand that every project is unique. That’s why we provide a wide range of services that go beyond manufacturing, including tailored technical assistance, certified installation, financial solutions, and expert site preparation guidance to support you every step of the way—with reliable service, expert advice, and the highest standards of quality."
+        "DESCRIPTION":"At Portico Sport, we offer more than just padel court construction—we deliver a complete, end-to-end service created to make your project efficient, smooth, and successful. With over 4,000 padel courts installed worldwide, we understand that every project is unique. That’s why we provide a wide range of services that go beyond manufacturing, including tailored technical assistance, certified installation, financial solutions, and expert site preparation guidance to support you every step of the way—with reliable service, expert advice, and the highest standards of quality."
       
     },
       "SVC_1":{
@@ -3266,7 +3266,7 @@
       "NORMATIVE_SECTION_LOGOS": {
     "TITLE": "Building Padel Courts that comply with regulations",
     "SUBTITLE": "Strength, durability and perfect integration",
-    "DESCRIPTION": "Our Padel courts are designed and developed by the engineering department of PORTICO SPORT to provide exceptional durability and outstanding performance. Our courts comply with the official sports regulations(NIDE 2004 Padel), the regulations and standards of the FIP (International Padel Federation) and structural calculation based on the Standard «Structural Steel Instruction(EAE)» and American Code: AISC-360 AND ASCE SEI 7-16-. Moreover, all our courts come with a 10-year guarantee (structural stability).",
+    "DESCRIPTION": "Our Padel courts are created and developed by the engineering department of PORTICO SPORT to provide exceptional durability and outstanding performance. Our courts comply with the official sports regulations(NIDE 2004 Padel), the regulations and standards of the FIP (International Padel Federation) and structural calculation based on the Standard «Structural Steel Instruction(EAE)» and American Code: AISC-360 AND ASCE SEI 7-16-. Moreover, all our courts come with a 10-year guarantee (structural stability).",
       "BUTTON":{
       "TEXT":"Build your padel court!",
       "TITLE":"Padel Court Builders",
@@ -3280,7 +3280,7 @@
   }},
     "CANOPIES": {
       "SEO_TITLE": "High-Performance Padel Canopies",
-      "SEO_DESCRIPTION":"Elevate your game with our high-performance canopies, designed for durability and unparalleled play experience. Learn more!",
+      "SEO_DESCRIPTION":"Elevate your game with our high-performance canopies, created for durability and unparalleled play experience. Learn more!",
       "OG_IMG": "https://www.porticosport.com/og/og-canopies.jpg",
       "PRETITLE": "Leader in the manufacturing and installation of canopies",
       "TITLE": "Padel courts canopies",
@@ -3365,7 +3365,7 @@
     "ELEVATED_PLATFORM": {
       "SEO_TITLE": "Elevated Platform - Padel Court",
       "TYPE": "PRODUCT",
-      "SEO_DESCRIPTION":"The elevated platform is a patented system designed for sports practice, offering mobility and stability. Find out more about our innovative solution!",
+      "SEO_DESCRIPTION":"The elevated platform is a patented system created for sports practice, offering mobility and stability. Find out more about our innovative solution!",
       "OG_IMG": "https://www.porticosport.com/og/og-elevated-platform.jpg",
       "ID": "elevated-platform",
       "TITLE": "Elevated Platform",
@@ -3378,7 +3378,7 @@
       "FIRST_SECTION": {
         "TITLE": "Your Padel court on any terrain",
         "SUBTITLE": "The perfect solution for your Padel court!",
-        "DESCRIPTION": "At Portico Sport, our engineering team has developed an innovative, elevated, modular and removable platform, specifically designed to fit to any type of terrain.This platform provides a sturdy and reliable foundation for all our court models, enabling clients to establish their padel space irrespective of terrain conditions. Additionally, clients can save on ground preparation expenses and permit acquisition as only a soil test is necessary to place the platform."
+        "DESCRIPTION": "At Portico Sport, our engineering team has developed an innovative, elevated, modular and removable platform, specifically created to fit to any type of terrain.This platform provides a sturdy and reliable foundation for all our court models, enabling clients to establish their padel space irrespective of terrain conditions. Additionally, clients can save on ground preparation expenses and permit acquisition as only a soil test is necessary to place the platform."
       },
       "FEATURE_SECTION": {
         "TITLE": "<span class=\"text-white text-base lg:text-xl font-thin\">Elevate your passion for padel to new heights with</span><br/> <span>our innovative elevated platform!</span>",
@@ -3419,7 +3419,7 @@
         ]
       },
       "INFORMATION_SECTION": {
-        "TITLE": "A platform designed to overcome any terrain",
+        "TITLE": "A platform created to overcome any terrain",
         "DESCRIPTION": "<p>The Portico Sport elevated platform is a structural solution that adapts to your terrain. Thanks to its adjustable pillar system, it overcomes the terrain limitations that normal padel courts bring with them without affecting the game experience. Its unique design and screwing system allow for quick and easy installation. This means that in no time, your platform will be ready to accommodate to any unevenness of the ground and facilitate the installation of any of our padel courts.</p><p>Our engineering department is at the forefront of the padel courts design and manufacturing industry, which is why each elevated platform undergoes rigorous procedures including seismic analysis, deformation limitation and verification of steel elements according to ASCE 7-SEI 2019 and AISC 360 2016 (LRFD) regulations, guaranteeing safety and quality in every detail to ensure optimal performance and unparalleled stability.</p>",
         "IMAGE": {
           "id": "information-section",
@@ -3583,7 +3583,7 @@
         ],
         "TITLE_4": "Event-Optimized Design & Spectator Visibility",
         "LIST_TRES": [
-          "Layout designed for 360° visibility",
+          "Layout created for 360° visibility",
           "Seamless integration into large venues such as Madrid Arena and Caja Mágica",
           "Perfect structural lines for continuous match flow",
           "Enhances both live spectator experience and international broadcasting"
@@ -3991,7 +3991,7 @@
           },
           {
             "TITLE": "Bespoke Design, Manufacturing, and Installation",
-            "DESCRIPTION": "Experience the pinnacle of quality with Portico Sport. Our courts and canopies are meticulously designed, manufactured, and installed to meet your unique specifications. We understand that every project is different, and we're committed to delivering excellence tailored to your needs."
+            "DESCRIPTION": "Experience the pinnacle of quality with Portico Sport. Our courts and canopies are meticulously created, manufactured, and installed to meet your unique specifications. We understand that every project is different, and we're committed to delivering excellence tailored to your needs."
           },
           {
             "TITLE": "Satisfaction Guaranteed",
@@ -4376,7 +4376,7 @@
     "TITLE_CANOPIES":"Reach our Padel court canopies experts",
     "DESCRIPTION": "<p>Have questions about padel court construction, customization, or pricing? Wondering about padel court costs or custom options? Our expert team is here to help. Whether you’re developing a new facility or upgrading your existing one, we’ll guide you through the process—from the first idea to the final installation.</p><p><strong>Get in touch with Portico Sport—your trusted global padel court supplier.</strong></p>",
     "DESCRIPTION_ZA":"<p>Feel free to get in touch with our team for any questions about Padel courts and canopies! We're here to answer all your inquiries and guide you in selecting the perfect court for your needs. With extensive experience in padel court construction across South Africa, our skilled professionals are ready to design and build a court customized specifically to your preferences. If you're interested in understanding the costs involved in setting up a Padel court in South Africa, we can provide comprehensive estimates to help you plan your project smoothly. We look forward to connecting with you soon!</p><p class=text-lg text-pretty font-thin text-current text-left>For sales inquiries please contact <a class=text__glowing href=mailto:southafrica@porticosport.com>southafrica@porticosport.com</a></p>",
-    "DESCRIPTION_MX":"<p>No dudes en ponerte en contacto con nuestro equipo para cualquier consulta sobre canchas de pádel y cubiertas. Estamos aquí para resolver todas tus dudas y guiarte en la selección de la cancha ideal para tus necesidades. Con amplia experiencia en la construcción de canchas de pádel en todo el mundo, nuestros profesionales están listos para diseñar y construir una cancha personalizada de acuerdo con tus preferencias. Si deseas conocer los costos para instalar una cancha de pádel en México, te ofrecemos estimaciones detalladas que te ayudarán a planear tu proyecto de manera eficiente. ¡Esperamos conectar contigo pronto!</p><p class=text-lg text-pretty font-thin text-current text-left>Para consultas de ventas, escribe a: <a class=text__glowing href=mailto:mexico@porticosport.com>mexico@porticosport.com</a></p>",
+    "DESCRIPTION_MX":"<p>No dudes en ponerte en contacto con nuestro equipo para cualquier consulta sobre canchas de pádel y cubiertas. Estamos aquí para resolver todas tus dudas y guiarte en la selección de la cancha ideal para tus necesidades. Con amplia experiencia en la construcción de canchas de pádel en todo el mundo, nuestros profesionales están listos para construir una cancha personalizada de acuerdo con tus preferencias. Si deseas conocer los costos para instalar una cancha de pádel en México, te ofrecemos estimaciones detalladas que te ayudarán a planear tu proyecto de manera eficiente. ¡Esperamos conectar contigo pronto!</p><p class=text-lg text-pretty font-thin text-current text-left>Para consultas de ventas, escribe a: <a class=text__glowing href=mailto:mexico@porticosport.com>mexico@porticosport.com</a></p>",
     "FORM": {
       "NAME": {
         "ID": "name",
